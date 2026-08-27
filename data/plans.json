@@ -18,5 +18,85 @@
       { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "egg-vegetable-barley-bowl", "dinner": "chicken-vegetable-stew" },
       { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" }
     ]
+  },
+  {
+    "id": "heart-health-reset-7day",
+    "slug": "heart-health-reset-7day",
+    "title": { "ko": "심장 건강 리셋", "en": "Heart Health Reset" },
+    "description": {
+      "ko": "혈관 건강에 도움이 될 수 있는 오메가-3와 식이섬유 중심으로 구성한 7일 리셋 플랜입니다.",
+      "en": "A 7-day reset plan centered on omega-3s and fiber that may support blood vessel health."
+    },
+    "tags": ["heart-health", "omega-3"],
+    "durationDays": 7,
+    "days": [
+      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-vegetable-soup", "dinner": "salmon-broccoli-plate" },
+      { "day": 2, "breakfast": "chia-berry-pudding", "lunch": "chickpea-kale-bowl", "dinner": "tofu-mushroom-stirfry" },
+      { "day": 3, "breakfast": "quinoa-blackberry-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "grilled-mackerel-greens" },
+      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "lentil-tomato-stew" },
+      { "day": 5, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-barley-salad", "dinner": "grilled-mackerel-daikon-bowl" },
+      { "day": 6, "breakfast": "chia-berry-pudding", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "salmon-broccoli-plate" },
+      { "day": 7, "breakfast": "quinoa-blackberry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "grilled-mackerel-greens" }
+    ]
+  },
+  {
+    "id": "gut-health-reset-7day",
+    "slug": "gut-health-reset-7day",
+    "title": { "ko": "장 건강 식단", "en": "Gut Health Reset" },
+    "description": {
+      "ko": "식이섬유가 풍부한 재료로 구성해 장 건강에 도움을 줄 수 있는 7일 플랜입니다.",
+      "en": "A 7-day plan built with fiber-rich ingredients that may support digestive health."
+    },
+    "tags": ["gut-health", "fiber"],
+    "durationDays": 7,
+    "days": [
+      { "day": 1, "breakfast": "buckwheat-apple-porridge", "lunch": "lentil-barley-salad", "dinner": "lentil-tomato-stew" },
+      { "day": 2, "breakfast": "barley-pear-bowl", "lunch": "lentil-vegetable-soup", "dinner": "tofu-mushroom-stirfry" },
+      { "day": 3, "breakfast": "rye-flake-fig-porridge", "lunch": "chickpea-kale-bowl", "dinner": "chicken-vegetable-stew" },
+      { "day": 4, "breakfast": "millet-plum-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "vegetable-frittata" },
+      { "day": 5, "breakfast": "buckwheat-apple-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-greens" },
+      { "day": 6, "breakfast": "barley-pear-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" },
+      { "day": 7, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" }
+    ]
+  },
+  {
+    "id": "plant-forward-reset-7day",
+    "slug": "plant-forward-reset-7day",
+    "title": { "ko": "식물성 중심 플랜", "en": "Plant-Forward Reset" },
+    "description": {
+      "ko": "식물성 재료 비중을 최대한 높여 구성한 7일 플랜입니다.",
+      "en": "A 7-day plan built to maximize plant-based ingredients."
+    },
+    "tags": ["plant-based"],
+    "durationDays": 7,
+    "days": [
+      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-vegetable-soup", "dinner": "tofu-mushroom-stirfry" },
+      { "day": 2, "breakfast": "buckwheat-apple-porridge", "lunch": "chickpea-kale-bowl", "dinner": "lentil-tomato-stew" },
+      { "day": 3, "breakfast": "chia-berry-pudding", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" },
+      { "day": 4, "breakfast": "barley-pear-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "tofu-mushroom-stirfry" },
+      { "day": 5, "breakfast": "quinoa-blackberry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "lentil-tomato-stew" },
+      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
+      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "lentil-vegetable-soup", "dinner": "lentil-tomato-stew" }
+    ]
+  },
+  {
+    "id": "balanced-energy-reset-7day",
+    "slug": "balanced-energy-reset-7day",
+    "title": { "ko": "활력 균형 플랜", "en": "Balanced Energy Reset" },
+    "description": {
+      "ko": "다양한 영양소를 골고루 갖춘 균형 잡힌 7일 플랜입니다.",
+      "en": "A well-rounded 7-day plan with a balanced spread of nutrients."
+    },
+    "tags": ["balanced"],
+    "durationDays": 7,
+    "days": [
+      { "day": 1, "breakfast": "barley-pear-bowl", "lunch": "chickpea-kale-bowl", "dinner": "vegetable-frittata" },
+      { "day": 2, "breakfast": "millet-plum-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "salmon-broccoli-plate" },
+      { "day": 3, "breakfast": "oatmeal-berry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "chicken-vegetable-stew" },
+      { "day": 4, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-vegetable-soup", "dinner": "grilled-mackerel-greens" },
+      { "day": 5, "breakfast": "buckwheat-apple-porridge", "lunch": "egg-vegetable-barley-bowl", "dinner": "tofu-mushroom-stirfry" },
+      { "day": 6, "breakfast": "chia-berry-pudding", "lunch": "white-bean-quinoa-bowl", "dinner": "grilled-mackerel-daikon-bowl" },
+      { "day": 7, "breakfast": "quinoa-blackberry-bowl", "lunch": "lentil-barley-salad", "dinner": "lentil-tomato-stew" }
+    ]
   }
 ]
