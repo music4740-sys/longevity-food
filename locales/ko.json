@@ -2,12 +2,19 @@
   "common": {
     "appName": "International Longevity Food",
     "disclaimer": "이 콘텐츠는 의학적 진단, 치료 또는 처방을 대체하지 않습니다. 건강 상태에 따라 전문의와 상담하세요.",
-    "langToggle": "언어"
+    "langToggle": "언어",
+    "cartEmpty": "장바구니가 비어 있어요.",
+    "settingsTitle": "설정",
+    "settingsLanguageLabel": "언어"
   },
   "nav": {
     "planList": "플랜 목록",
     "planDetail": "플랜 상세",
-    "recipeDetail": "레시피 상세"
+    "recipeDetail": "레시피 상세",
+    "home": "홈",
+    "plans": "플랜",
+    "cart": "장바구니",
+    "settings": "설정"
   },
   "plan": {
     "durationUnit": "일",
