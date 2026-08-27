@@ -35,6 +35,12 @@ export default function IngredientRow({ ingredient, locale }: IngredientRowProps
         </div>
       )}
 
+      {ingredient.healthNote && (
+        <p className="text-xs text-zinc-500 dark:text-zinc-400">
+          {localizedText(ingredient.healthNote, locale)}
+        </p>
+      )}
+
       {substituteGroup && (
         <details className="text-sm">
           <summary className="cursor-pointer font-medium text-emerald-700 dark:text-emerald-400">

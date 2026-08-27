@@ -8,6 +8,8 @@ export interface Ingredient {
   tags: IngredientTag[];
   /** Links to a SubstituteGroup.id in /data/substitutes.json, if a country-specific swap exists */
   substituteGroupId?: string;
+  /** Short, hedged explanation of why this ingredient is included (not a treatment claim) */
+  healthNote?: LocalizedText;
 }
 
 export interface RecipeStep {
