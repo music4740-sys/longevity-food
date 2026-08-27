@@ -5,6 +5,9 @@
     "langToggle": "언어",
     "cartEmpty": "장바구니가 비어 있어요.",
     "cartTitle": "장바구니",
+    "cartClearAll": "전체 삭제",
+    "cartClearAllConfirm": "장바구니를 전부 비울까요?",
+    "cartRemoveItem": "삭제",
     "settingsTitle": "설정",
     "settingsLanguageLabel": "언어"
   },

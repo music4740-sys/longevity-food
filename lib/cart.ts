@@ -45,3 +45,17 @@ export function setPurchased(recipeId: string, ingredientName: string, purchased
   saveCart(next);
   return next;
 }
+
+export function removeFromCart(recipeId: string, ingredientName: string): CartItem[] {
+  const current = loadCart();
+  const next = current.filter(
+    (item) => !(item.recipeId === recipeId && item.ingredientName === ingredientName),
+  );
+  saveCart(next);
+  return next;
+}
+
+export function clearCart(): CartItem[] {
+  saveCart([]);
+  return [];
+}

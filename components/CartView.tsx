@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { loadCart, setPurchased, type CartItem } from "@/lib/cart";
+import { clearCart, loadCart, removeFromCart, setPurchased, type CartItem } from "@/lib/cart";
 import { getRecipeById } from "@/lib/data";
 import { getDictionary, localizedText, type Locale } from "@/lib/i18n";
 
@@ -20,6 +20,16 @@ export default function CartView({ locale }: CartViewProps) {
 
   function toggle(recipeId: string, ingredientName: string, purchased: boolean) {
     setItems(setPurchased(recipeId, ingredientName, purchased));
+  }
+
+  function remove(recipeId: string, ingredientName: string) {
+    setItems(removeFromCart(recipeId, ingredientName));
+  }
+
+  function handleClearAll() {
+    if (window.confirm(t.common.cartClearAllConfirm)) {
+      setItems(clearCart());
+    }
   }
 
   if (items.length === 0) {
@@ -42,7 +52,16 @@ export default function CartView({ locale }: CartViewProps) {
   return (
     <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-black">
       <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-4 px-4 py-6">
-        <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">{t.common.cartTitle}</h1>
+        <div className="flex items-center justify-between">
+          <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">{t.common.cartTitle}</h1>
+          <button
+            type="button"
+            onClick={handleClearAll}
+            className="text-sm font-medium text-red-600 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300"
+          >
+            {t.common.cartClearAll}
+          </button>
+        </div>
         {[...groups.entries()].map(([recipeId, groupItems]) => {
           const recipe = getRecipeById(recipeId);
           return (
@@ -88,11 +107,21 @@ export default function CartView({ locale }: CartViewProps) {
                           {ingredient ? localizedText(ingredient.name, locale) : item.ingredientName}
                         </span>
                       </label>
-                      {ingredient && (
-                        <span className="text-xs text-zinc-400 dark:text-zinc-500">
-                          {ingredient.amount}
-                        </span>
-                      )}
+                      <div className="flex shrink-0 items-center gap-2">
+                        {ingredient && (
+                          <span className="text-xs text-zinc-400 dark:text-zinc-500">
+                            {ingredient.amount}
+                          </span>
+                        )}
+                        <button
+                          type="button"
+                          onClick={() => remove(item.recipeId, item.ingredientName)}
+                          aria-label={t.common.cartRemoveItem}
+                          className="text-zinc-400 hover:text-red-600 dark:text-zinc-600 dark:hover:text-red-400"
+                        >
+                          ×
+                        </button>
+                      </div>
                     </li>
                   );
                 })}

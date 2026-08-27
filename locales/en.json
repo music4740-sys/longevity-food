@@ -5,6 +5,9 @@
     "langToggle": "Language",
     "cartEmpty": "Your cart is empty.",
     "cartTitle": "Cart",
+    "cartClearAll": "Clear All",
+    "cartClearAllConfirm": "Clear everything from your cart?",
+    "cartRemoveItem": "Remove",
     "settingsTitle": "Settings",
     "settingsLanguageLabel": "Language"
   },
