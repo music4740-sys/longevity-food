@@ -1,0 +1,22 @@
+[
+  {
+    "id": "blood-sugar-reset-7day",
+    "slug": "blood-sugar-reset-7day",
+    "title": { "ko": "7일 혈당 리셋 플랜", "en": "7-Day Blood Sugar Reset Plan" },
+    "description": {
+      "ko": "혈당 부담이 낮은 재료로 구성한 7일 리셋 플랜입니다.",
+      "en": "A 7-day reset plan built with low glycemic-impact ingredients."
+    },
+    "tags": ["blood-sugar", "low-glycemic"],
+    "durationDays": 7,
+    "days": [
+      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-vegetable-soup", "dinner": "grilled-mackerel-greens" },
+      { "day": 2, "breakfast": "chia-berry-pudding", "lunch": "chickpea-kale-bowl", "dinner": "vegetable-frittata" },
+      { "day": 3, "breakfast": "buckwheat-apple-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "salmon-broccoli-plate" },
+      { "day": 4, "breakfast": "barley-pear-bowl", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
+      { "day": 5, "breakfast": "quinoa-blackberry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-daikon-bowl" },
+      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "egg-vegetable-barley-bowl", "dinner": "chicken-vegetable-stew" },
+      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" }
+    ]
+  }
+]

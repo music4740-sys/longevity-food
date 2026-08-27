@@ -1,0 +1,59 @@
+{
+  "common": {
+    "appName": "International Longevity Food",
+    "disclaimer": "This content is not a substitute for medical diagnosis, treatment, or prescription. Please consult a healthcare professional based on your health condition.",
+    "langToggle": "Language"
+  },
+  "nav": {
+    "planList": "Plan List",
+    "planDetail": "Plan Detail",
+    "recipeDetail": "Recipe Detail"
+  },
+  "plan": {
+    "durationUnit": " Days",
+    "longevityScoreLabel": "Longevity Score",
+    "scoreUnit": "/100",
+    "dayLabelFormat": "Day {n}",
+    "mealLabels": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner"
+    }
+  },
+  "recipe": {
+    "scoreBreakdownTitle": "Longevity Score Breakdown",
+    "axisLabels": {
+      "plantRatio": "Plant Ratio",
+      "processedFood": "Processed Food",
+      "fatQuality": "Fat Quality",
+      "sodium": "Sodium Burden",
+      "addedSugar": "Added Sugar Burden"
+    },
+    "ingredientsTitle": "Ingredients",
+    "stepsTitle": "Steps",
+    "substitutesToggle": "View substitutes by country"
+  },
+  "ingredientTags": {
+    "whole-grain": "Whole Grain",
+    "refined-grain": "Refined Grain",
+    "vegetable": "Vegetable",
+    "leafy-green": "Leafy Green",
+    "fruit": "Fruit",
+    "legume": "Legume",
+    "nuts-seeds": "Nuts & Seeds",
+    "fish": "Fish",
+    "poultry": "Poultry",
+    "red-meat": "Red Meat",
+    "processed-meat": "Processed Meat",
+    "dairy": "Dairy",
+    "egg": "Egg",
+    "healthy-fat": "Healthy Fat",
+    "saturated-fat": "Saturated Fat",
+    "ultra-processed": "Ultra-processed",
+    "fried": "Fried",
+    "sugary-drink": "Sugary Drink",
+    "high-sodium": "High Sodium",
+    "pickled-salted": "Pickled/Salted",
+    "added-sugar": "Added Sugar"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "common": {
+    "appName": "International Longevity Food",
+    "disclaimer": "이 콘텐츠는 의학적 진단, 치료 또는 처방을 대체하지 않습니다. 건강 상태에 따라 전문의와 상담하세요.",
+    "langToggle": "언어"
+  },
+  "nav": {
+    "planList": "플랜 목록",
+    "planDetail": "플랜 상세",
+    "recipeDetail": "레시피 상세"
+  },
+  "plan": {
+    "durationUnit": "일",
+    "longevityScoreLabel": "장수 지수",
+    "scoreUnit": "점",
+    "dayLabelFormat": "{n}일차",
+    "mealLabels": {
+      "breakfast": "아침",
+      "lunch": "점심",
+      "dinner": "저녁"
+    }
+  },
+  "recipe": {
+    "scoreBreakdownTitle": "장수 지수 상세",
+    "axisLabels": {
+      "plantRatio": "식물성 비중",
+      "processedFood": "초가공식품",
+      "fatQuality": "지방의 질",
+      "sodium": "나트륨 부담",
+      "addedSugar": "첨가당 부담"
+    },
+    "ingredientsTitle": "재료",
+    "stepsTitle": "조리 순서",
+    "substitutesToggle": "국가별 대체재 보기"
+  },
+  "ingredientTags": {
+    "whole-grain": "통곡물",
+    "refined-grain": "정제곡물",
+    "vegetable": "채소",
+    "leafy-green": "잎채소",
+    "fruit": "과일",
+    "legume": "콩류",
+    "nuts-seeds": "견과·씨앗",
+    "fish": "생선",
+    "poultry": "가금류",
+    "red-meat": "적색육",
+    "processed-meat": "가공육",
+    "dairy": "유제품",
+    "egg": "달걀",
+    "healthy-fat": "건강한 지방",
+    "saturated-fat": "포화지방",
+    "ultra-processed": "초가공",
+    "fried": "튀김",
+    "sugary-drink": "가당 음료",
+    "high-sodium": "고나트륨",
+    "pickled-salted": "절임·염장",
+    "added-sugar": "첨가당"
+  }
+}

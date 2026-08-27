@@ -1,0 +1,996 @@
+[
+  {
+    "id": "oatmeal-berry-bowl",
+    "slug": "oatmeal-berry-bowl",
+    "title": { "ko": "귀리 베리 볼", "en": "Oatmeal Berry Bowl" },
+    "description": {
+      "ko": "혈당 부담이 낮은 재료로 구성한 아침 식사용 귀리 볼입니다.",
+      "en": "A breakfast oat bowl built with low glycemic-impact ingredients."
+    },
+    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "귀리", "en": "Rolled oats" },
+        "amount": "50g",
+        "tags": ["whole-grain"],
+        "substituteGroupId": "sub-oats"
+      },
+      {
+        "name": { "ko": "블루베리", "en": "Blueberries" },
+        "amount": "40g",
+        "tags": ["fruit"]
+      },
+      {
+        "name": { "ko": "아몬드", "en": "Almonds" },
+        "amount": "10g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
+        "amount": "150ml",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "귀리에 아몬드유를 붓고 약불로 끓인다.", "en": "Pour almond milk over oats and simmer on low heat." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "블루베리와 아몬드를 얹어 마무리한다.", "en": "Top with blueberries and almonds." }
+      }
+    ]
+  },
+  {
+    "id": "lentil-vegetable-soup",
+    "slug": "lentil-vegetable-soup",
+    "title": { "ko": "렌틸콩 채소 수프", "en": "Lentil Vegetable Soup" },
+    "description": {
+      "ko": "혈당 부담이 낮은 재료로 구성한 점심용 렌틸콩 채소 수프입니다.",
+      "en": "A lunch lentil and vegetable soup built with low glycemic-impact ingredients."
+    },
+    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "렌틸콩", "en": "Lentils" },
+        "amount": "80g",
+        "tags": ["legume"],
+        "substituteGroupId": "sub-lentils"
+      },
+      {
+        "name": { "ko": "양파", "en": "Onion" },
+        "amount": "50g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "당근", "en": "Carrot" },
+        "amount": "40g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "채소 육수", "en": "Vegetable stock" },
+        "amount": "300ml",
+        "tags": ["high-sodium"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "양파와 당근을 잘게 썰어 볶는다.", "en": "Dice and sauté the onion and carrot." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "렌틸콩과 채소 육수를 넣고 20분간 끓인다.", "en": "Add lentils and vegetable stock, then simmer for 20 minutes." }
+      }
+    ]
+  },
+  {
+    "id": "grilled-mackerel-greens",
+    "slug": "grilled-mackerel-greens",
+    "title": { "ko": "고등어 구이와 채소", "en": "Grilled Mackerel with Greens" },
+    "description": {
+      "ko": "혈당 부담이 낮은 재료로 구성한 저녁용 고등어 구이 플레이트입니다.",
+      "en": "A dinner grilled mackerel plate built with low glycemic-impact ingredients."
+    },
+    "tags": ["dinner", "low-glycemic", "omega-3"],
+    "ingredients": [
+      {
+        "name": { "ko": "고등어", "en": "Mackerel" },
+        "amount": "120g",
+        "tags": ["fish", "healthy-fat"],
+        "substituteGroupId": "sub-mackerel"
+      },
+      {
+        "name": { "ko": "브로콜리", "en": "Broccoli" },
+        "amount": "80g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "5ml",
+        "tags": ["healthy-fat"]
+      },
+      {
+        "name": { "ko": "레몬", "en": "Lemon" },
+        "amount": "1/4개",
+        "tags": ["fruit"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "고등어에 소금간을 최소화하여 굽는다.", "en": "Grill the mackerel with minimal added salt." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "브로콜리를 데치고 올리브유와 레몬을 곁들인다.", "en": "Blanch the broccoli and serve with olive oil and lemon." }
+      }
+    ]
+  },
+  {
+    "id": "buckwheat-apple-porridge",
+    "slug": "buckwheat-apple-porridge",
+    "title": { "ko": "메밀 사과 포리지", "en": "Buckwheat Apple Porridge" },
+    "description": {
+      "ko": "메밀의 고소함과 사과의 단맛을 살린 아침 포리지입니다.",
+      "en": "A morning porridge balancing nutty buckwheat with apple sweetness."
+    },
+    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "메밀쌀", "en": "Buckwheat groats" },
+        "amount": "50g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "사과", "en": "Apple" },
+        "amount": "60g",
+        "tags": ["fruit"]
+      },
+      {
+        "name": { "ko": "호두", "en": "Walnuts" },
+        "amount": "10g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "물", "en": "Water" },
+        "amount": "180ml",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "메밀쌀을 물과 함께 약불에서 10분간 끓인다.", "en": "Simmer buckwheat in water on low heat for 10 minutes." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "잘게 썬 사과와 호두를 얹어 마무리한다.", "en": "Top with diced apple and walnuts." }
+      }
+    ]
+  },
+  {
+    "id": "chia-berry-pudding",
+    "slug": "chia-berry-pudding",
+    "title": { "ko": "치아씨드 베리 푸딩", "en": "Chia Berry Pudding" },
+    "description": {
+      "ko": "전날 밤 재워두면 아침에 바로 먹을 수 있는 푸딩입니다.",
+      "en": "Soak it overnight and it is ready to eat in the morning."
+    },
+    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "치아씨드", "en": "Chia seeds" },
+        "amount": "25g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "라즈베리", "en": "Raspberries" },
+        "amount": "40g",
+        "tags": ["fruit"]
+      },
+      {
+        "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
+        "amount": "150ml",
+        "tags": []
+      },
+      {
+        "name": { "ko": "계피가루", "en": "Ground cinnamon" },
+        "amount": "1g",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "치아씨드와 아몬드유, 계피가루를 섞어 냉장고에서 6시간 이상 둔다.", "en": "Mix chia seeds, almond milk and cinnamon, then chill for at least 6 hours." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "라즈베리를 올려 낸다.", "en": "Serve topped with raspberries." }
+      }
+    ]
+  },
+  {
+    "id": "barley-pear-bowl",
+    "slug": "barley-pear-bowl",
+    "title": { "ko": "보리 배 볼", "en": "Barley Pear Bowl" },
+    "description": {
+      "ko": "쫄깃한 보리와 배를 함께 낸 담백한 아침 볼입니다.",
+      "en": "A mild morning bowl pairing chewy barley with pear."
+    },
+    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "찰보리", "en": "Pearl barley" },
+        "amount": "50g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "배", "en": "Pear" },
+        "amount": "60g",
+        "tags": ["fruit"]
+      },
+      {
+        "name": { "ko": "아몬드", "en": "Almonds" },
+        "amount": "10g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "물", "en": "Water" },
+        "amount": "180ml",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "미리 불려둔 보리를 물과 함께 12분간 끓인다.", "en": "Simmer pre-soaked barley in water for 12 minutes." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "얇게 썬 배와 아몬드를 올린다.", "en": "Top with thinly sliced pear and almonds." }
+      }
+    ]
+  },
+  {
+    "id": "quinoa-blackberry-bowl",
+    "slug": "quinoa-blackberry-bowl",
+    "title": { "ko": "퀴노아 블랙베리 볼", "en": "Quinoa Blackberry Bowl" },
+    "description": {
+      "ko": "퀴노아와 검은베리를 함께 낸 가벼운 아침 볼입니다.",
+      "en": "A light morning bowl of quinoa and dark berries."
+    },
+    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "퀴노아", "en": "Quinoa" },
+        "amount": "50g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "블랙베리", "en": "Blackberries" },
+        "amount": "40g",
+        "tags": ["fruit"]
+      },
+      {
+        "name": { "ko": "호박씨", "en": "Pumpkin seeds" },
+        "amount": "10g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
+        "amount": "120ml",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "퀴노아를 헹군 뒤 아몬드유와 함께 12분간 끓인다.", "en": "Rinse quinoa, then simmer with almond milk for 12 minutes." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "블랙베리와 호박씨를 얹어 마무리한다.", "en": "Finish with blackberries and pumpkin seeds." }
+      }
+    ]
+  },
+  {
+    "id": "rye-flake-fig-porridge",
+    "slug": "rye-flake-fig-porridge",
+    "title": { "ko": "호밀 무화과 포리지", "en": "Rye Fig Porridge" },
+    "description": {
+      "ko": "북유럽식 호밀 포리지에 무화과를 더한 아침 식사입니다.",
+      "en": "A Nordic-style rye porridge finished with fig."
+    },
+    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "호밀 플레이크", "en": "Rye flakes" },
+        "amount": "50g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "무화과", "en": "Fig" },
+        "amount": "40g",
+        "tags": ["fruit"]
+      },
+      {
+        "name": { "ko": "헤이즐넛", "en": "Hazelnuts" },
+        "amount": "10g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "물", "en": "Water" },
+        "amount": "180ml",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "호밀 플레이크를 물과 함께 약불에서 8분간 끓인다.", "en": "Simmer rye flakes in water on low heat for 8 minutes." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "썬 무화과와 헤이즐넛을 올린다.", "en": "Top with sliced fig and hazelnuts." }
+      }
+    ]
+  },
+  {
+    "id": "millet-plum-porridge",
+    "slug": "millet-plum-porridge",
+    "title": { "ko": "좁쌀 자두 포리지", "en": "Millet Plum Porridge" },
+    "description": {
+      "ko": "부드러운 좁쌀 포리지에 자두의 산미를 더했습니다.",
+      "en": "A soft millet porridge lifted by the tartness of plum."
+    },
+    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "좁쌀", "en": "Millet" },
+        "amount": "50g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "자두", "en": "Plum" },
+        "amount": "50g",
+        "tags": ["fruit"]
+      },
+      {
+        "name": { "ko": "해바라기씨", "en": "Sunflower seeds" },
+        "amount": "10g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "물", "en": "Water" },
+        "amount": "200ml",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "좁쌀을 물과 함께 약불에서 12분간 끓인다.", "en": "Simmer millet in water on low heat for 12 minutes." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "썬 자두와 해바라기씨를 얹는다.", "en": "Top with sliced plum and sunflower seeds." }
+      }
+    ]
+  },
+  {
+    "id": "lentil-barley-salad",
+    "slug": "lentil-barley-salad",
+    "title": { "ko": "렌틸 보리 샐러드", "en": "Lentil Barley Salad" },
+    "description": {
+      "ko": "삶은 렌틸콩과 보리에 채소를 더한 점심 샐러드입니다.",
+      "en": "A lunch salad of cooked lentils and barley with vegetables."
+    },
+    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "렌틸콩", "en": "Lentils" },
+        "amount": "70g",
+        "tags": ["legume"],
+        "substituteGroupId": "sub-lentils"
+      },
+      {
+        "name": { "ko": "찰보리", "en": "Pearl barley" },
+        "amount": "50g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "방울토마토", "en": "Cherry tomatoes" },
+        "amount": "60g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "루꼴라", "en": "Arugula" },
+        "amount": "40g",
+        "tags": ["leafy-green"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "10ml",
+        "tags": ["healthy-fat"]
+      },
+      {
+        "name": { "ko": "레몬즙", "en": "Lemon juice" },
+        "amount": "10ml",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "렌틸콩과 보리를 각각 삶아 식힌다.", "en": "Cook lentils and barley separately, then cool." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "채소와 함께 올리브유, 레몬즙으로 버무린다.", "en": "Toss with the vegetables, olive oil and lemon juice." }
+      }
+    ]
+  },
+  {
+    "id": "chickpea-kale-bowl",
+    "slug": "chickpea-kale-bowl",
+    "title": { "ko": "병아리콩 케일 볼", "en": "Chickpea Kale Bowl" },
+    "description": {
+      "ko": "구운 병아리콩과 케일을 현미와 함께 낸 볼입니다.",
+      "en": "Roasted chickpeas and kale served over brown rice."
+    },
+    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "병아리콩", "en": "Chickpeas" },
+        "amount": "80g",
+        "tags": ["legume"]
+      },
+      {
+        "name": { "ko": "케일", "en": "Kale" },
+        "amount": "60g",
+        "tags": ["leafy-green"]
+      },
+      {
+        "name": { "ko": "현미밥", "en": "Cooked brown rice" },
+        "amount": "100g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "10ml",
+        "tags": ["healthy-fat"]
+      },
+      {
+        "name": { "ko": "마늘", "en": "Garlic" },
+        "amount": "5g",
+        "tags": ["vegetable"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "병아리콩을 올리브유에 마늘과 함께 볶는다.", "en": "Saute chickpeas with garlic in olive oil." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "케일을 넣고 숨이 죽을 때까지 볶는다.", "en": "Add kale and cook until wilted." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "현미밥 위에 올려 낸다.", "en": "Serve over brown rice." }
+      }
+    ]
+  },
+  {
+    "id": "tofu-buckwheat-noodle-bowl",
+    "slug": "tofu-buckwheat-noodle-bowl",
+    "title": { "ko": "두부 메밀국수 볼", "en": "Tofu Buckwheat Noodle Bowl" },
+    "description": {
+      "ko": "차게 낸 메밀국수에 두부와 채소를 곁들였습니다.",
+      "en": "Chilled buckwheat noodles served with tofu and vegetables."
+    },
+    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "메밀국수", "en": "Buckwheat noodles" },
+        "amount": "70g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "두부", "en": "Firm tofu" },
+        "amount": "100g",
+        "tags": ["legume"]
+      },
+      {
+        "name": { "ko": "오이", "en": "Cucumber" },
+        "amount": "50g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "참깨", "en": "Sesame seeds" },
+        "amount": "5g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "참기름", "en": "Sesame oil" },
+        "amount": "5ml",
+        "tags": ["healthy-fat"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "메밀국수를 삶아 찬물에 헹군다.", "en": "Boil the buckwheat noodles and rinse in cold water." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "두부를 썰어 올리고 채썬 오이를 곁들인다.", "en": "Top with sliced tofu and julienned cucumber." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "참기름과 참깨를 뿌려 마무리한다.", "en": "Finish with sesame oil and sesame seeds." }
+      }
+    ]
+  },
+  {
+    "id": "white-bean-quinoa-bowl",
+    "slug": "white-bean-quinoa-bowl",
+    "title": { "ko": "흰강낭콩 퀴노아 볼", "en": "White Bean Quinoa Bowl" },
+    "description": {
+      "ko": "흰강낭콩과 퀴노아에 구운 채소를 더한 볼입니다.",
+      "en": "White beans and quinoa with roasted vegetables."
+    },
+    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "흰강낭콩", "en": "White beans" },
+        "amount": "80g",
+        "tags": ["legume"]
+      },
+      {
+        "name": { "ko": "퀴노아", "en": "Quinoa" },
+        "amount": "50g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "애호박", "en": "Zucchini" },
+        "amount": "70g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "파프리카", "en": "Bell pepper" },
+        "amount": "50g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "10ml",
+        "tags": ["healthy-fat"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "퀴노아를 삶아 준비한다.", "en": "Cook the quinoa and set aside." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "애호박과 파프리카를 올리브유에 굽는다.", "en": "Roast zucchini and bell pepper in olive oil." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "흰강낭콩과 함께 그릇에 담아 낸다.", "en": "Combine with white beans and serve." }
+      }
+    ]
+  },
+  {
+    "id": "egg-vegetable-barley-bowl",
+    "slug": "egg-vegetable-barley-bowl",
+    "title": { "ko": "달걀 채소 보리 볼", "en": "Egg and Vegetable Barley Bowl" },
+    "description": {
+      "ko": "삶은 달걀과 데친 채소를 보리밥에 올린 볼입니다.",
+      "en": "Boiled egg and blanched vegetables over barley."
+    },
+    "tags": ["lunch", "low-glycemic"],
+    "ingredients": [
+      {
+        "name": { "ko": "달걀", "en": "Egg" },
+        "amount": "2개",
+        "tags": ["egg"]
+      },
+      {
+        "name": { "ko": "보리밥", "en": "Cooked barley" },
+        "amount": "100g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "시금치", "en": "Spinach" },
+        "amount": "60g",
+        "tags": ["leafy-green"]
+      },
+      {
+        "name": { "ko": "당근", "en": "Carrot" },
+        "amount": "40g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "들기름", "en": "Perilla oil" },
+        "amount": "5ml",
+        "tags": ["healthy-fat"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "달걀을 삶아 반으로 자른다.", "en": "Boil the eggs and halve them." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "시금치와 당근을 살짝 데친다.", "en": "Lightly blanch the spinach and carrot." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "보리밥 위에 올리고 들기름을 두른다.", "en": "Arrange over barley and drizzle with perilla oil." }
+      }
+    ]
+  },
+  {
+    "id": "edamame-brown-rice-bowl",
+    "slug": "edamame-brown-rice-bowl",
+    "title": { "ko": "풋콩 현미 볼", "en": "Edamame Brown Rice Bowl" },
+    "description": {
+      "ko": "풋콩과 채소를 현미밥에 올린 간단한 점심입니다.",
+      "en": "A simple lunch of edamame and vegetables over brown rice."
+    },
+    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "풋콩", "en": "Edamame" },
+        "amount": "90g",
+        "tags": ["legume"]
+      },
+      {
+        "name": { "ko": "현미밥", "en": "Cooked brown rice" },
+        "amount": "100g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "브로콜리", "en": "Broccoli" },
+        "amount": "70g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "아보카도", "en": "Avocado" },
+        "amount": "40g",
+        "tags": ["fruit", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "참깨", "en": "Sesame seeds" },
+        "amount": "5g",
+        "tags": ["nuts-seeds", "healthy-fat"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "풋콩과 브로콜리를 데친다.", "en": "Blanch the edamame and broccoli." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "현미밥 위에 올리고 아보카도를 곁들인다.", "en": "Place over brown rice and add the avocado." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "참깨를 뿌려 마무리한다.", "en": "Sprinkle with sesame seeds." }
+      }
+    ]
+  },
+  {
+    "id": "chicken-vegetable-stew",
+    "slug": "chicken-vegetable-stew",
+    "title": { "ko": "닭가슴살 채소 스튜", "en": "Chicken and Vegetable Stew" },
+    "description": {
+      "ko": "닭가슴살과 뿌리채소를 오래 끓여낸 스튜입니다.",
+      "en": "Chicken breast slowly simmered with root vegetables."
+    },
+    "tags": ["dinner", "low-glycemic"],
+    "ingredients": [
+      {
+        "name": { "ko": "닭가슴살", "en": "Chicken breast" },
+        "amount": "120g",
+        "tags": ["poultry"]
+      },
+      {
+        "name": { "ko": "양파", "en": "Onion" },
+        "amount": "60g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "당근", "en": "Carrot" },
+        "amount": "60g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "셀러리", "en": "Celery" },
+        "amount": "40g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "10ml",
+        "tags": ["healthy-fat"]
+      },
+      {
+        "name": { "ko": "물", "en": "Water" },
+        "amount": "300ml",
+        "tags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "양파와 당근, 셀러리를 올리브유에 볶는다.", "en": "Saute onion, carrot and celery in olive oil." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "닭가슴살과 물을 넣고 20분간 끓인다.", "en": "Add chicken and water, then simmer for 20 minutes." }
+      }
+    ]
+  },
+  {
+    "id": "tofu-mushroom-stirfry",
+    "slug": "tofu-mushroom-stirfry",
+    "title": { "ko": "두부 버섯 볶음", "en": "Tofu and Mushroom Stir-fry" },
+    "description": {
+      "ko": "두부와 버섯을 함께 볶아 낸 담백한 저녁입니다.",
+      "en": "A light dinner of tofu stir-fried with mushrooms."
+    },
+    "tags": ["dinner", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "두부", "en": "Firm tofu" },
+        "amount": "150g",
+        "tags": ["legume"]
+      },
+      {
+        "name": { "ko": "표고버섯", "en": "Shiitake mushrooms" },
+        "amount": "80g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "청경채", "en": "Bok choy" },
+        "amount": "70g",
+        "tags": ["leafy-green"]
+      },
+      {
+        "name": { "ko": "현미밥", "en": "Cooked brown rice" },
+        "amount": "80g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "10ml",
+        "tags": ["healthy-fat"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "두부를 큼직하게 썰어 노릇하게 지진다.", "en": "Cut the tofu into large pieces and brown them." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "버섯과 청경채를 넣고 함께 볶는다.", "en": "Add mushrooms and bok choy, then stir-fry together." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "현미밥과 함께 낸다.", "en": "Serve with brown rice." }
+      }
+    ]
+  },
+  {
+    "id": "salmon-broccoli-plate",
+    "slug": "salmon-broccoli-plate",
+    "title": { "ko": "연어 브로콜리 구이", "en": "Roasted Salmon with Broccoli" },
+    "description": {
+      "ko": "연어와 브로콜리를 함께 구워 낸 저녁 한 접시입니다.",
+      "en": "Salmon and broccoli roasted together on one plate."
+    },
+    "tags": ["dinner", "low-glycemic"],
+    "ingredients": [
+      {
+        "name": { "ko": "연어", "en": "Salmon" },
+        "amount": "120g",
+        "tags": ["fish", "healthy-fat"]
+      },
+      {
+        "name": { "ko": "브로콜리", "en": "Broccoli" },
+        "amount": "100g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "퀴노아", "en": "Quinoa" },
+        "amount": "50g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "10ml",
+        "tags": ["healthy-fat"]
+      },
+      {
+        "name": { "ko": "레몬", "en": "Lemon" },
+        "amount": "20g",
+        "tags": ["fruit"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "연어와 브로콜리에 올리브유를 두르고 오븐에 굽는다.", "en": "Coat salmon and broccoli with olive oil and roast." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "삶은 퀴노아를 곁들이고 레몬을 짜 낸다.", "en": "Serve with cooked quinoa and a squeeze of lemon." }
+      }
+    ]
+  },
+  {
+    "id": "vegetable-frittata",
+    "slug": "vegetable-frittata",
+    "title": { "ko": "채소 프리타타", "en": "Vegetable Frittata" },
+    "description": {
+      "ko": "달걀과 채소를 팬에 구워 낸 이탈리아식 프리타타입니다.",
+      "en": "An Italian-style frittata of eggs and vegetables."
+    },
+    "tags": ["dinner", "low-glycemic"],
+    "ingredients": [
+      {
+        "name": { "ko": "달걀", "en": "Egg" },
+        "amount": "3개",
+        "tags": ["egg"]
+      },
+      {
+        "name": { "ko": "시금치", "en": "Spinach" },
+        "amount": "60g",
+        "tags": ["leafy-green"]
+      },
+      {
+        "name": { "ko": "양파", "en": "Onion" },
+        "amount": "50g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "방울토마토", "en": "Cherry tomatoes" },
+        "amount": "60g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "10ml",
+        "tags": ["healthy-fat"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "양파와 시금치를 올리브유에 볶는다.", "en": "Saute the onion and spinach in olive oil." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "풀어둔 달걀을 붓고 약불에서 익힌다.", "en": "Pour in the beaten eggs and cook on low heat." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "방울토마토를 올리고 뚜껑을 덮어 마무리한다.", "en": "Top with cherry tomatoes, cover and finish cooking." }
+      }
+    ]
+  },
+  {
+    "id": "lentil-tomato-stew",
+    "slug": "lentil-tomato-stew",
+    "title": { "ko": "렌틸 토마토 스튜", "en": "Lentil Tomato Stew" },
+    "description": {
+      "ko": "렌틸콩을 토마토와 함께 끓여낸 지중해식 스튜입니다.",
+      "en": "A Mediterranean stew of lentils simmered with tomatoes."
+    },
+    "tags": ["dinner", "low-glycemic", "plant-based"],
+    "ingredients": [
+      {
+        "name": { "ko": "렌틸콩", "en": "Lentils" },
+        "amount": "90g",
+        "tags": ["legume"],
+        "substituteGroupId": "sub-lentils"
+      },
+      {
+        "name": { "ko": "토마토", "en": "Tomato" },
+        "amount": "120g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "양파", "en": "Onion" },
+        "amount": "50g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "시금치", "en": "Spinach" },
+        "amount": "50g",
+        "tags": ["leafy-green"]
+      },
+      {
+        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "amount": "10ml",
+        "tags": ["healthy-fat"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "양파를 올리브유에 볶다가 토마토를 넣는다.", "en": "Saute the onion in olive oil, then add the tomato." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "렌틸콩과 물을 넣고 25분간 끓인다.", "en": "Add lentils and water, then simmer for 25 minutes." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "마지막에 시금치를 넣고 숨을 죽인다.", "en": "Stir in the spinach at the end until wilted." }
+      }
+    ]
+  },
+  {
+    "id": "grilled-mackerel-daikon-bowl",
+    "slug": "grilled-mackerel-daikon-bowl",
+    "title": { "ko": "고등어 구이와 데친 채소", "en": "Grilled Mackerel with Greens" },
+    "description": {
+      "ko": "고등어를 구워 데친 채소와 함께 낸 저녁 한 상입니다.",
+      "en": "Grilled mackerel served with blanched greens."
+    },
+    "tags": ["dinner", "low-glycemic"],
+    "ingredients": [
+      {
+        "name": { "ko": "고등어", "en": "Mackerel" },
+        "amount": "120g",
+        "tags": ["fish", "healthy-fat"],
+        "substituteGroupId": "sub-mackerel"
+      },
+      {
+        "name": { "ko": "시금치", "en": "Spinach" },
+        "amount": "80g",
+        "tags": ["leafy-green"]
+      },
+      {
+        "name": { "ko": "현미밥", "en": "Cooked brown rice" },
+        "amount": "80g",
+        "tags": ["whole-grain"]
+      },
+      {
+        "name": { "ko": "무", "en": "Daikon radish" },
+        "amount": "50g",
+        "tags": ["vegetable"]
+      },
+      {
+        "name": { "ko": "들기름", "en": "Perilla oil" },
+        "amount": "5ml",
+        "tags": ["healthy-fat"]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": { "ko": "고등어를 팬이나 그릴에 굽는다.", "en": "Grill or pan-cook the mackerel." }
+      },
+      {
+        "order": 2,
+        "instruction": { "ko": "시금치를 데쳐 들기름에 무친다.", "en": "Blanch the spinach and dress with perilla oil." }
+      },
+      {
+        "order": 3,
+        "instruction": { "ko": "간 무와 현미밥을 곁들여 낸다.", "en": "Serve with grated daikon and brown rice." }
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sub-oats",
+    "originalIngredient": { "ko": "귀리", "en": "Oats" },
+    "options": [
+      {
+        "country": "KR",
+        "ingredient": { "ko": "현미", "en": "Brown rice" },
+        "note": { "ko": "귀리 대신 현미로 대체 가능", "en": "Can substitute brown rice for oats" }
+      },
+      {
+        "country": "JP",
+        "ingredient": { "ko": "압맥(보리)", "en": "Pressed barley (mugi)" }
+      },
+      {
+        "country": "VN",
+        "ingredient": { "ko": "현미", "en": "Brown rice (gạo lứt)" }
+      },
+      {
+        "country": "CN",
+        "ingredient": { "ko": "좁쌀(小米)", "en": "Millet" }
+      },
+      {
+        "country": "IN",
+        "ingredient": { "ko": "라기(핑거밀렛)", "en": "Ragi (finger millet)" },
+        "note": { "ko": "남인도에서 장수 곡물로 알려진 라기로 대체 가능", "en": "Ragi is a South Indian grain associated with longevity diets" }
+      },
+      {
+        "country": "EU",
+        "ingredient": { "ko": "호밀 플레이크", "en": "Rye flakes" },
+        "note": { "ko": "북유럽식 포리지에서 흔히 쓰는 대체재", "en": "Common alternative in Nordic-style porridge" }
+      }
+    ]
+  },
+  {
+    "id": "sub-lentils",
+    "originalIngredient": { "ko": "렌틸콩", "en": "Lentils" },
+    "options": [
+      {
+        "country": "KR",
+        "ingredient": { "ko": "녹두", "en": "Mung beans" }
+      },
+      {
+        "country": "JP",
+        "ingredient": { "ko": "대두(콩)", "en": "Soybeans" }
+      },
+      {
+        "country": "VN",
+        "ingredient": { "ko": "녹두(đậu xanh)", "en": "Mung beans (đậu xanh)" }
+      },
+      {
+        "country": "CN",
+        "ingredient": { "ko": "팥(红豆)", "en": "Red adzuki beans" }
+      },
+      {
+        "country": "IN",
+        "ingredient": { "ko": "비둘기콩(토르달)", "en": "Pigeon peas (toor dal)" },
+        "note": { "ko": "인도 가정식에서 가장 흔한 콩 종류", "en": "The most common legume in everyday Indian cooking" }
+      },
+      {
+        "country": "EU",
+        "ingredient": { "ko": "스플릿피(완두콩)", "en": "Split peas" }
+      }
+    ]
+  },
+  {
+    "id": "sub-mackerel",
+    "originalIngredient": { "ko": "고등어", "en": "Mackerel" },
+    "options": [
+      {
+        "country": "US",
+        "ingredient": { "ko": "연어", "en": "Salmon" }
+      },
+      {
+        "country": "JP",
+        "ingredient": { "ko": "꽁치(삼마)", "en": "Pacific saury (sanma)" }
+      },
+      {
+        "country": "VN",
+        "ingredient": { "ko": "삼치(cá thu)", "en": "Spanish mackerel (cá thu)" }
+      },
+      {
+        "country": "CN",
+        "ingredient": { "ko": "갈치(帶魚)", "en": "Hairtail (beltfish)" }
+      },
+      {
+        "country": "IN",
+        "ingredient": { "ko": "정어리", "en": "Sardines" },
+        "note": { "ko": "인도 서해안(케랄라 등)에서 흔히 먹는 등푸른생선", "en": "A common oily fish along India's west coast (e.g. Kerala)" }
+      },
+      {
+        "country": "EU",
+        "ingredient": { "ko": "청어", "en": "Herring" },
+        "note": { "ko": "북유럽식 식단에서 흔히 쓰는 등푸른생선", "en": "A staple oily fish in Nordic-style diets" }
+      }
+    ]
+  }
+]
