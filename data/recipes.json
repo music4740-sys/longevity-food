@@ -2,1038 +2,2941 @@
   {
     "id": "oatmeal-berry-bowl",
     "slug": "oatmeal-berry-bowl",
-    "title": { "ko": "귀리 베리 볼", "en": "Oatmeal Berry Bowl" },
+    "title": {
+      "ko": "귀리 베리 볼",
+      "en": "Oatmeal Berry Bowl"
+    },
     "description": {
       "ko": "혈당 부담이 낮은 재료로 구성한 아침 식사용 귀리 볼입니다.",
       "en": "A breakfast oat bowl built with low glycemic-impact ingredients."
     },
-    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "tags": [
+      "breakfast",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "귀리", "en": "Rolled oats" },
+        "name": {
+          "ko": "귀리",
+          "en": "Rolled oats"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
+        "tags": [
+          "whole-grain"
+        ],
         "substituteGroupId": "sub-oats",
-        "benefits": { "ko": "베타글루칸이라는 식이섬유가 풍부해 포만감 유지에 도움이 될 수 있어요.", "en": "Rich in beta-glucan fiber, which may help you feel fuller for longer." }
+        "benefits": {
+          "ko": "베타글루칸이라는 식이섬유가 풍부해 포만감 유지에 도움이 될 수 있어요.",
+          "en": "Rich in beta-glucan fiber, which may help you feel fuller for longer."
+        }
       },
       {
-        "name": { "ko": "블루베리", "en": "Blueberries" },
+        "name": {
+          "ko": "블루베리",
+          "en": "Blueberries"
+        },
         "amount": "40g",
-        "tags": ["fruit"],
-        "benefits": { "ko": "안토시아닌이라는 항산화 성분이 풍부한 과일이에요.", "en": "Rich in anthocyanins, antioxidant compounds found in dark berries." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "안토시아닌이라는 항산화 성분이 풍부한 과일이에요.",
+          "en": "Rich in anthocyanins, antioxidant compounds found in dark berries."
+        },
+        "substituteGroupId": "sub-blueberries"
       },
       {
-        "name": { "ko": "아몬드", "en": "Almonds" },
+        "name": {
+          "ko": "아몬드",
+          "en": "Almonds"
+        },
         "amount": "10g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
+          "en": "Contains unsaturated fats and vitamin E."
+        },
+        "substituteGroupId": "sub-almonds"
       },
       {
-        "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
+        "name": {
+          "ko": "무가당 아몬드유",
+          "en": "Unsweetened almond milk"
+        },
         "amount": "150ml",
         "tags": [],
-        "benefits": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
+        "benefits": {
+          "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
+          "en": "An unsweetened plant-based milk alternative with no added sugar."
+        },
+        "substituteGroupId": "sub-almond-milk"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 무가당 아몬드유 150ml를 붓는다.", "en": "Pour 150ml of unsweetened almond milk into a pot." } },
-      { "order": 2, "instruction": { "ko": "불을 약불로 켠다.", "en": "Turn the heat to low." } },
-      { "order": 3, "instruction": { "ko": "귀리 50g을 넣는다.", "en": "Add 50g of rolled oats." } },
-      { "order": 4, "instruction": { "ko": "나무 숟가락으로 가끔 저으며 5분간 끓인다.", "en": "Simmer for 5 minutes, stirring occasionally with a wooden spoon." } },
-      { "order": 5, "instruction": { "ko": "불을 끄고 그릇에 옮겨 담는다.", "en": "Turn off the heat and transfer to a bowl." } },
-      { "order": 6, "instruction": { "ko": "블루베리 40g을 얹는다.", "en": "Top with 40g of blueberries." } },
-      { "order": 7, "instruction": { "ko": "아몬드 10g을 얹는다.", "en": "Top with 10g of almonds." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 무가당 아몬드유 150ml를 붓는다.",
+          "en": "Pour 150ml of unsweetened almond milk into a pot."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "불을 약불로 켠다.",
+          "en": "Turn the heat to low."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "귀리 50g을 넣는다.",
+          "en": "Add 50g of rolled oats."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "나무 숟가락으로 가끔 저으며 5분간 끓인다.",
+          "en": "Simmer for 5 minutes, stirring occasionally with a wooden spoon."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "불을 끄고 그릇에 옮겨 담는다.",
+          "en": "Turn off the heat and transfer to a bowl."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "블루베리 40g을 얹는다.",
+          "en": "Top with 40g of blueberries."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "아몬드 10g을 얹는다.",
+          "en": "Top with 10g of almonds."
+        }
+      }
     ]
   },
   {
     "id": "lentil-vegetable-soup",
     "slug": "lentil-vegetable-soup",
-    "title": { "ko": "렌틸콩 채소 수프", "en": "Lentil Vegetable Soup" },
+    "title": {
+      "ko": "렌틸콩 채소 수프",
+      "en": "Lentil Vegetable Soup"
+    },
     "description": {
       "ko": "혈당 부담이 낮은 재료로 구성한 점심용 렌틸콩 채소 수프입니다.",
       "en": "A lunch lentil and vegetable soup built with low glycemic-impact ingredients."
     },
-    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "tags": [
+      "lunch",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "렌틸콩", "en": "Lentils" },
+        "name": {
+          "ko": "렌틸콩",
+          "en": "Lentils"
+        },
         "amount": "80g",
-        "tags": ["legume"],
+        "tags": [
+          "legume"
+        ],
         "substituteGroupId": "sub-lentils",
-        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "benefits": {
+          "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
+          "en": "A legume rich in plant-based protein and fiber."
+        }
       },
       {
-        "name": { "ko": "양파", "en": "Onion" },
+        "name": {
+          "ko": "양파",
+          "en": "Onion"
+        },
         "amount": "50g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
+          "en": "Contains quercetin, a plant compound found in many vegetables."
+        }
       },
       {
-        "name": { "ko": "당근", "en": "Carrot" },
+        "name": {
+          "ko": "당근",
+          "en": "Carrot"
+        },
         "amount": "40g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
+          "en": "Rich in beta-carotene, which gives it its orange color."
+        }
       },
       {
-        "name": { "ko": "채소 육수", "en": "Vegetable stock" },
+        "name": {
+          "ko": "채소 육수",
+          "en": "Vegetable stock"
+        },
         "amount": "300ml",
-        "tags": ["high-sodium"],
-        "benefits": { "ko": "감칠맛을 더해주지만 시판 제품은 나트륨이 있는 편이라 조금만 써요.", "en": "Adds savory depth, but store-bought versions tend to be higher in sodium, so use it sparingly." }
+        "tags": [
+          "high-sodium"
+        ],
+        "benefits": {
+          "ko": "감칠맛을 더해주지만 시판 제품은 나트륨이 있는 편이라 조금만 써요.",
+          "en": "Adds savory depth, but store-bought versions tend to be higher in sodium, so use it sparingly."
+        },
+        "substituteGroupId": "sub-vegetable-stock"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "양파 50g을 잘게 썬다.", "en": "Dice 50g of onion." } },
-      { "order": 2, "instruction": { "ko": "당근 40g을 잘게 썬다.", "en": "Dice 40g of carrot." } },
-      { "order": 3, "instruction": { "ko": "냄비를 중불에 올린다.", "en": "Place a pot over medium heat." } },
-      { "order": 4, "instruction": { "ko": "썰어둔 양파와 당근을 넣고 2분간 볶는다.", "en": "Add the diced onion and carrot, and sauté for 2 minutes." } },
-      { "order": 5, "instruction": { "ko": "렌틸콩 80g을 넣는다.", "en": "Add 80g of lentils." } },
-      { "order": 6, "instruction": { "ko": "채소 육수 300ml를 붓는다.", "en": "Pour in 300ml of vegetable stock." } },
-      { "order": 7, "instruction": { "ko": "끓어오르면 약불로 줄여 20분간 끓인다.", "en": "Once it boils, reduce to low heat and simmer for 20 minutes." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "양파 50g을 잘게 썬다.",
+          "en": "Dice 50g of onion."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "당근 40g을 잘게 썬다.",
+          "en": "Dice 40g of carrot."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "냄비를 중불에 올린다.",
+          "en": "Place a pot over medium heat."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "썰어둔 양파와 당근을 넣고 2분간 볶는다.",
+          "en": "Add the diced onion and carrot, and sauté for 2 minutes."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "렌틸콩 80g을 넣는다.",
+          "en": "Add 80g of lentils."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "채소 육수 300ml를 붓는다.",
+          "en": "Pour in 300ml of vegetable stock."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "끓어오르면 약불로 줄여 20분간 끓인다.",
+          "en": "Once it boils, reduce to low heat and simmer for 20 minutes."
+        }
+      }
     ]
   },
   {
     "id": "grilled-mackerel-greens",
     "slug": "grilled-mackerel-greens",
-    "title": { "ko": "고등어 구이와 채소", "en": "Grilled Mackerel with Greens" },
+    "title": {
+      "ko": "고등어 구이와 채소",
+      "en": "Grilled Mackerel with Greens"
+    },
     "description": {
       "ko": "혈당 부담이 낮은 재료로 구성한 저녁용 고등어 구이 플레이트입니다.",
       "en": "A dinner grilled mackerel plate built with low glycemic-impact ingredients."
     },
-    "tags": ["dinner", "low-glycemic", "omega-3"],
+    "tags": [
+      "dinner",
+      "low-glycemic",
+      "omega-3"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "고등어", "en": "Mackerel" },
+        "name": {
+          "ko": "고등어",
+          "en": "Mackerel"
+        },
         "amount": "120g",
-        "tags": ["fish", "healthy-fat"],
+        "tags": [
+          "fish",
+          "healthy-fat"
+        ],
         "substituteGroupId": "sub-mackerel",
-        "benefits": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
+        "benefits": {
+          "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
+          "en": "Rich in omega-3 fatty acids, which may support heart health."
+        }
       },
       {
-        "name": { "ko": "브로콜리", "en": "Broccoli" },
+        "name": {
+          "ko": "브로콜리",
+          "en": "Broccoli"
+        },
         "amount": "80g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
+          "en": "A cruciferous vegetable rich in vitamin C and fiber."
+        },
+        "substituteGroupId": "sub-broccoli"
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "5ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       },
       {
-        "name": { "ko": "레몬", "en": "Lemon" },
+        "name": {
+          "ko": "레몬",
+          "en": "Lemon"
+        },
         "amount": "1/4개",
-        "tags": ["fruit"],
-        "benefits": { "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.", "en": "Rich in vitamin C and adds bright acidity." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.",
+          "en": "Rich in vitamin C and adds bright acidity."
+        },
+        "substituteGroupId": "sub-lemon"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "팬을 중불에 올려 달군다.", "en": "Heat a pan over medium heat." } },
-      { "order": 2, "instruction": { "ko": "고등어 120g을 껍질 쪽부터 올린다.", "en": "Place the 120g mackerel skin-side down." } },
-      { "order": 3, "instruction": { "ko": "소금은 아주 조금만 뿌린다.", "en": "Sprinkle on just a small pinch of salt." } },
-      { "order": 4, "instruction": { "ko": "4분간 굽는다.", "en": "Cook for 4 minutes." } },
-      { "order": 5, "instruction": { "ko": "뒤집어서 4분 더 굽는다.", "en": "Flip and cook for another 4 minutes." } },
-      { "order": 6, "instruction": { "ko": "냄비에 물을 끓여 브로콜리 80g을 넣고 2분간 데친다.", "en": "Boil water in a pot, add 80g of broccoli, and blanch for 2 minutes." } },
-      { "order": 7, "instruction": { "ko": "데친 브로콜리에 올리브유 5ml를 두른다.", "en": "Drizzle 5ml of olive oil over the blanched broccoli." } },
-      { "order": 8, "instruction": { "ko": "레몬 1/4개를 즙 내어 뿌린다.", "en": "Squeeze the juice of 1/4 lemon over the plate." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "팬을 중불에 올려 달군다.",
+          "en": "Heat a pan over medium heat."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "고등어 120g을 껍질 쪽부터 올린다.",
+          "en": "Place the 120g mackerel skin-side down."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "소금은 아주 조금만 뿌린다.",
+          "en": "Sprinkle on just a small pinch of salt."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "4분간 굽는다.",
+          "en": "Cook for 4 minutes."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "뒤집어서 4분 더 굽는다.",
+          "en": "Flip and cook for another 4 minutes."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "냄비에 물을 끓여 브로콜리 80g을 넣고 2분간 데친다.",
+          "en": "Boil water in a pot, add 80g of broccoli, and blanch for 2 minutes."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "데친 브로콜리에 올리브유 5ml를 두른다.",
+          "en": "Drizzle 5ml of olive oil over the blanched broccoli."
+        }
+      },
+      {
+        "order": 8,
+        "instruction": {
+          "ko": "레몬 1/4개를 즙 내어 뿌린다.",
+          "en": "Squeeze the juice of 1/4 lemon over the plate."
+        }
+      }
     ]
   },
   {
     "id": "buckwheat-apple-porridge",
     "slug": "buckwheat-apple-porridge",
-    "title": { "ko": "메밀 사과 포리지", "en": "Buckwheat Apple Porridge" },
+    "title": {
+      "ko": "메밀 사과 포리지",
+      "en": "Buckwheat Apple Porridge"
+    },
     "description": {
       "ko": "메밀의 고소함과 사과의 단맛을 살린 아침 포리지입니다.",
       "en": "A morning porridge balancing nutty buckwheat with apple sweetness."
     },
-    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "tags": [
+      "breakfast",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "메밀쌀", "en": "Buckwheat groats" },
+        "name": {
+          "ko": "메밀쌀",
+          "en": "Buckwheat groats"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "글루텐이 없는 통곡물로 식이섬유가 풍부해요.", "en": "A gluten-free whole grain that's a good source of fiber." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "글루텐이 없는 통곡물로 식이섬유가 풍부해요.",
+          "en": "A gluten-free whole grain that's a good source of fiber."
+        },
+        "substituteGroupId": "sub-buckwheat-groats"
       },
       {
-        "name": { "ko": "사과", "en": "Apple" },
+        "name": {
+          "ko": "사과",
+          "en": "Apple"
+        },
         "amount": "60g",
-        "tags": ["fruit"],
-        "benefits": { "ko": "식이섬유인 펙틴이 풍부한 과일이에요.", "en": "Rich in pectin, a type of dietary fiber." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "식이섬유인 펙틴이 풍부한 과일이에요.",
+          "en": "Rich in pectin, a type of dietary fiber."
+        },
+        "substituteGroupId": "sub-apple"
       },
       {
-        "name": { "ko": "호두", "en": "Walnuts" },
+        "name": {
+          "ko": "호두",
+          "en": "Walnuts"
+        },
         "amount": "10g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "오메가-3 지방산이 들어 있는 견과류예요.", "en": "A nut that contains omega-3 fatty acids." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "오메가-3 지방산이 들어 있는 견과류예요.",
+          "en": "A nut that contains omega-3 fatty acids."
+        },
+        "substituteGroupId": "sub-walnuts"
       },
       {
-        "name": { "ko": "물", "en": "Water" },
+        "name": {
+          "ko": "물",
+          "en": "Water"
+        },
         "amount": "180ml",
         "tags": []
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 물 180ml를 붓는다.", "en": "Pour 180ml of water into a pot." } },
-      { "order": 2, "instruction": { "ko": "메밀쌀 50g을 넣는다.", "en": "Add 50g of buckwheat groats." } },
-      { "order": 3, "instruction": { "ko": "불을 약불로 켠다.", "en": "Turn the heat to low." } },
-      { "order": 4, "instruction": { "ko": "저어가며 10분간 끓인다.", "en": "Simmer for 10 minutes, stirring occasionally." } },
-      { "order": 5, "instruction": { "ko": "사과 60g을 잘게 썬다.", "en": "Dice 60g of apple." } },
-      { "order": 6, "instruction": { "ko": "불을 끄고 그릇에 옮겨 담는다.", "en": "Turn off the heat and transfer to a bowl." } },
-      { "order": 7, "instruction": { "ko": "썰어둔 사과와 호두 10g을 얹는다.", "en": "Top with the diced apple and 10g of walnuts." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 물 180ml를 붓는다.",
+          "en": "Pour 180ml of water into a pot."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "메밀쌀 50g을 넣는다.",
+          "en": "Add 50g of buckwheat groats."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "불을 약불로 켠다.",
+          "en": "Turn the heat to low."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "저어가며 10분간 끓인다.",
+          "en": "Simmer for 10 minutes, stirring occasionally."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "사과 60g을 잘게 썬다.",
+          "en": "Dice 60g of apple."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "불을 끄고 그릇에 옮겨 담는다.",
+          "en": "Turn off the heat and transfer to a bowl."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "썰어둔 사과와 호두 10g을 얹는다.",
+          "en": "Top with the diced apple and 10g of walnuts."
+        }
+      }
     ]
   },
   {
     "id": "chia-berry-pudding",
     "slug": "chia-berry-pudding",
-    "title": { "ko": "치아씨드 베리 푸딩", "en": "Chia Berry Pudding" },
+    "title": {
+      "ko": "치아씨드 베리 푸딩",
+      "en": "Chia Berry Pudding"
+    },
     "description": {
       "ko": "전날 밤 재워두면 아침에 바로 먹을 수 있는 푸딩입니다.",
       "en": "Soak it overnight and it is ready to eat in the morning."
     },
-    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "tags": [
+      "breakfast",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "치아씨드", "en": "Chia seeds" },
+        "name": {
+          "ko": "치아씨드",
+          "en": "Chia seeds"
+        },
         "amount": "25g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "물에 불리면 부풀어 오르는 씨앗으로 식이섬유가 풍부해요.", "en": "Swells when soaked in liquid and is a good source of fiber." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "물에 불리면 부풀어 오르는 씨앗으로 식이섬유가 풍부해요.",
+          "en": "Swells when soaked in liquid and is a good source of fiber."
+        },
+        "substituteGroupId": "sub-chia-seeds"
       },
       {
-        "name": { "ko": "라즈베리", "en": "Raspberries" },
+        "name": {
+          "ko": "라즈베리",
+          "en": "Raspberries"
+        },
         "amount": "40g",
-        "tags": ["fruit"],
-        "benefits": { "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.", "en": "A berry rich in fiber and antioxidant compounds." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.",
+          "en": "A berry rich in fiber and antioxidant compounds."
+        },
+        "substituteGroupId": "sub-raspberries"
       },
       {
-        "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
+        "name": {
+          "ko": "무가당 아몬드유",
+          "en": "Unsweetened almond milk"
+        },
         "amount": "150ml",
         "tags": [],
-        "benefits": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
+        "benefits": {
+          "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
+          "en": "An unsweetened plant-based milk alternative with no added sugar."
+        },
+        "substituteGroupId": "sub-almond-milk"
       },
       {
-        "name": { "ko": "계피가루", "en": "Ground cinnamon" },
+        "name": {
+          "ko": "계피가루",
+          "en": "Ground cinnamon"
+        },
         "amount": "1g",
         "tags": [],
-        "benefits": { "ko": "향신료로 소량만 써도 단맛 없이 풍미를 더할 수 있어요.", "en": "A spice that adds flavor without needing added sugar." }
+        "benefits": {
+          "ko": "향신료로 소량만 써도 단맛 없이 풍미를 더할 수 있어요.",
+          "en": "A spice that adds flavor without needing added sugar."
+        },
+        "substituteGroupId": "sub-ground-cinnamon"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "병이나 그릇에 치아씨드 25g을 넣는다.", "en": "Put 25g of chia seeds into a jar or bowl." } },
-      { "order": 2, "instruction": { "ko": "무가당 아몬드유 150ml를 붓는다.", "en": "Pour in 150ml of unsweetened almond milk." } },
-      { "order": 3, "instruction": { "ko": "계피가루 1g을 넣는다.", "en": "Add 1g of ground cinnamon." } },
-      { "order": 4, "instruction": { "ko": "숟가락으로 잘 젓는다.", "en": "Stir well with a spoon." } },
-      { "order": 5, "instruction": { "ko": "뚜껑을 덮어 냉장고에 넣는다.", "en": "Cover and place in the refrigerator." } },
-      { "order": 6, "instruction": { "ko": "최소 6시간 동안 그대로 둔다.", "en": "Let it sit for at least 6 hours." } },
-      { "order": 7, "instruction": { "ko": "꺼내서 라즈베리 40g을 얹는다.", "en": "Take it out and top with 40g of raspberries." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "병이나 그릇에 치아씨드 25g을 넣는다.",
+          "en": "Put 25g of chia seeds into a jar or bowl."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "무가당 아몬드유 150ml를 붓는다.",
+          "en": "Pour in 150ml of unsweetened almond milk."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "계피가루 1g을 넣는다.",
+          "en": "Add 1g of ground cinnamon."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "숟가락으로 잘 젓는다.",
+          "en": "Stir well with a spoon."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "뚜껑을 덮어 냉장고에 넣는다.",
+          "en": "Cover and place in the refrigerator."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "최소 6시간 동안 그대로 둔다.",
+          "en": "Let it sit for at least 6 hours."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "꺼내서 라즈베리 40g을 얹는다.",
+          "en": "Take it out and top with 40g of raspberries."
+        }
+      }
     ]
   },
   {
     "id": "barley-pear-bowl",
     "slug": "barley-pear-bowl",
-    "title": { "ko": "보리 배 볼", "en": "Barley Pear Bowl" },
+    "title": {
+      "ko": "보리 배 볼",
+      "en": "Barley Pear Bowl"
+    },
     "description": {
       "ko": "쫄깃한 보리와 배를 함께 낸 담백한 아침 볼입니다.",
       "en": "A mild morning bowl pairing chewy barley with pear."
     },
-    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "tags": [
+      "breakfast",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "찰보리", "en": "Pearl barley" },
+        "name": {
+          "ko": "찰보리",
+          "en": "Pearl barley"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
+          "en": "A whole grain rich in beta-glucan fiber."
+        },
+        "substituteGroupId": "sub-barley"
       },
       {
-        "name": { "ko": "배", "en": "Pear" },
+        "name": {
+          "ko": "배",
+          "en": "Pear"
+        },
         "amount": "60g",
-        "tags": ["fruit"],
-        "benefits": { "ko": "수분과 식이섬유가 풍부한 과일이에요.", "en": "A fruit with high water content and dietary fiber." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "수분과 식이섬유가 풍부한 과일이에요.",
+          "en": "A fruit with high water content and dietary fiber."
+        },
+        "substituteGroupId": "sub-pear"
       },
       {
-        "name": { "ko": "아몬드", "en": "Almonds" },
+        "name": {
+          "ko": "아몬드",
+          "en": "Almonds"
+        },
         "amount": "10g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
+          "en": "Contains unsaturated fats and vitamin E."
+        },
+        "substituteGroupId": "sub-almonds"
       },
       {
-        "name": { "ko": "물", "en": "Water" },
+        "name": {
+          "ko": "물",
+          "en": "Water"
+        },
         "amount": "180ml",
         "tags": []
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 물 180ml와 미리 불려둔 찰보리 50g을 넣는다.", "en": "Put 180ml of water and 50g of pre-soaked pearl barley into a pot." } },
-      { "order": 2, "instruction": { "ko": "불을 중약불로 켠다.", "en": "Turn the heat to medium-low." } },
-      { "order": 3, "instruction": { "ko": "가끔 저으며 12분간 끓인다.", "en": "Simmer for 12 minutes, stirring occasionally." } },
-      { "order": 4, "instruction": { "ko": "배 60g을 얇게 썬다.", "en": "Thinly slice 60g of pear." } },
-      { "order": 5, "instruction": { "ko": "불을 끄고 그릇에 옮겨 담는다.", "en": "Turn off the heat and transfer to a bowl." } },
-      { "order": 6, "instruction": { "ko": "썰어둔 배와 아몬드 10g을 올린다.", "en": "Top with the sliced pear and 10g of almonds." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 물 180ml와 미리 불려둔 찰보리 50g을 넣는다.",
+          "en": "Put 180ml of water and 50g of pre-soaked pearl barley into a pot."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "불을 중약불로 켠다.",
+          "en": "Turn the heat to medium-low."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "가끔 저으며 12분간 끓인다.",
+          "en": "Simmer for 12 minutes, stirring occasionally."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "배 60g을 얇게 썬다.",
+          "en": "Thinly slice 60g of pear."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "불을 끄고 그릇에 옮겨 담는다.",
+          "en": "Turn off the heat and transfer to a bowl."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "썰어둔 배와 아몬드 10g을 올린다.",
+          "en": "Top with the sliced pear and 10g of almonds."
+        }
+      }
     ]
   },
   {
     "id": "quinoa-blackberry-bowl",
     "slug": "quinoa-blackberry-bowl",
-    "title": { "ko": "퀴노아 블랙베리 볼", "en": "Quinoa Blackberry Bowl" },
+    "title": {
+      "ko": "퀴노아 블랙베리 볼",
+      "en": "Quinoa Blackberry Bowl"
+    },
     "description": {
       "ko": "퀴노아와 검은베리를 함께 낸 가벼운 아침 볼입니다.",
       "en": "A light morning bowl of quinoa and dark berries."
     },
-    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "tags": [
+      "breakfast",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "퀴노아", "en": "Quinoa" },
+        "name": {
+          "ko": "퀴노아",
+          "en": "Quinoa"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
+          "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
+        },
+        "substituteGroupId": "sub-quinoa"
       },
       {
-        "name": { "ko": "블랙베리", "en": "Blackberries" },
+        "name": {
+          "ko": "블랙베리",
+          "en": "Blackberries"
+        },
         "amount": "40g",
-        "tags": ["fruit"],
-        "benefits": { "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.", "en": "A berry rich in fiber and antioxidant compounds." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.",
+          "en": "A berry rich in fiber and antioxidant compounds."
+        },
+        "substituteGroupId": "sub-blackberries"
       },
       {
-        "name": { "ko": "호박씨", "en": "Pumpkin seeds" },
+        "name": {
+          "ko": "호박씨",
+          "en": "Pumpkin seeds"
+        },
         "amount": "10g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "마그네슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains magnesium and unsaturated fats." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "마그네슘과 불포화지방이 들어 있는 씨앗이에요.",
+          "en": "Contains magnesium and unsaturated fats."
+        },
+        "substituteGroupId": "sub-pumpkin-seeds"
       },
       {
-        "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
+        "name": {
+          "ko": "무가당 아몬드유",
+          "en": "Unsweetened almond milk"
+        },
         "amount": "120ml",
         "tags": [],
-        "benefits": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
+        "benefits": {
+          "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
+          "en": "An unsweetened plant-based milk alternative with no added sugar."
+        },
+        "substituteGroupId": "sub-almond-milk"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "퀴노아 50g을 체에 밭쳐 헹군다.", "en": "Rinse 50g of quinoa in a strainer." } },
-      { "order": 2, "instruction": { "ko": "냄비에 헹군 퀴노아와 무가당 아몬드유 120ml를 넣는다.", "en": "Put the rinsed quinoa and 120ml of unsweetened almond milk into a pot." } },
-      { "order": 3, "instruction": { "ko": "불을 약불로 켠다.", "en": "Turn the heat to low." } },
-      { "order": 4, "instruction": { "ko": "12분간 끓인다.", "en": "Simmer for 12 minutes." } },
-      { "order": 5, "instruction": { "ko": "불을 끄고 그릇에 옮겨 담는다.", "en": "Turn off the heat and transfer to a bowl." } },
-      { "order": 6, "instruction": { "ko": "블랙베리 40g과 호박씨 10g을 얹는다.", "en": "Top with 40g of blackberries and 10g of pumpkin seeds." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "퀴노아 50g을 체에 밭쳐 헹군다.",
+          "en": "Rinse 50g of quinoa in a strainer."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "냄비에 헹군 퀴노아와 무가당 아몬드유 120ml를 넣는다.",
+          "en": "Put the rinsed quinoa and 120ml of unsweetened almond milk into a pot."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "불을 약불로 켠다.",
+          "en": "Turn the heat to low."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "12분간 끓인다.",
+          "en": "Simmer for 12 minutes."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "불을 끄고 그릇에 옮겨 담는다.",
+          "en": "Turn off the heat and transfer to a bowl."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "블랙베리 40g과 호박씨 10g을 얹는다.",
+          "en": "Top with 40g of blackberries and 10g of pumpkin seeds."
+        }
+      }
     ]
   },
   {
     "id": "rye-flake-fig-porridge",
     "slug": "rye-flake-fig-porridge",
-    "title": { "ko": "호밀 무화과 포리지", "en": "Rye Fig Porridge" },
+    "title": {
+      "ko": "호밀 무화과 포리지",
+      "en": "Rye Fig Porridge"
+    },
     "description": {
       "ko": "북유럽식 호밀 포리지에 무화과를 더한 아침 식사입니다.",
       "en": "A Nordic-style rye porridge finished with fig."
     },
-    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "tags": [
+      "breakfast",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "호밀 플레이크", "en": "Rye flakes" },
+        "name": {
+          "ko": "호밀 플레이크",
+          "en": "Rye flakes"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "식이섬유가 풍부한 통곡물로 포만감 유지에 도움이 될 수 있어요.", "en": "A fiber-rich whole grain that may help with satiety." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "식이섬유가 풍부한 통곡물로 포만감 유지에 도움이 될 수 있어요.",
+          "en": "A fiber-rich whole grain that may help with satiety."
+        },
+        "substituteGroupId": "sub-rye-flakes"
       },
       {
-        "name": { "ko": "무화과", "en": "Fig" },
+        "name": {
+          "ko": "무화과",
+          "en": "Fig"
+        },
         "amount": "40g",
-        "tags": ["fruit"],
-        "benefits": { "ko": "식이섬유와 칼륨이 들어 있는 과일이에요.", "en": "Contains dietary fiber and potassium." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "식이섬유와 칼륨이 들어 있는 과일이에요.",
+          "en": "Contains dietary fiber and potassium."
+        },
+        "substituteGroupId": "sub-fig"
       },
       {
-        "name": { "ko": "헤이즐넛", "en": "Hazelnuts" },
+        "name": {
+          "ko": "헤이즐넛",
+          "en": "Hazelnuts"
+        },
         "amount": "10g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
+          "en": "Contains unsaturated fats and vitamin E."
+        },
+        "substituteGroupId": "sub-hazelnuts"
       },
       {
-        "name": { "ko": "물", "en": "Water" },
+        "name": {
+          "ko": "물",
+          "en": "Water"
+        },
         "amount": "180ml",
         "tags": []
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 물 180ml를 붓는다.", "en": "Pour 180ml of water into a pot." } },
-      { "order": 2, "instruction": { "ko": "호밀 플레이크 50g을 넣는다.", "en": "Add 50g of rye flakes." } },
-      { "order": 3, "instruction": { "ko": "불을 약불로 켠다.", "en": "Turn the heat to low." } },
-      { "order": 4, "instruction": { "ko": "저어가며 8분간 끓인다.", "en": "Simmer for 8 minutes, stirring occasionally." } },
-      { "order": 5, "instruction": { "ko": "무화과 40g을 얇게 썬다.", "en": "Thinly slice 40g of fig." } },
-      { "order": 6, "instruction": { "ko": "불을 끄고 그릇에 옮겨 담는다.", "en": "Turn off the heat and transfer to a bowl." } },
-      { "order": 7, "instruction": { "ko": "썬 무화과와 헤이즐넛 10g을 올린다.", "en": "Top with the sliced fig and 10g of hazelnuts." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 물 180ml를 붓는다.",
+          "en": "Pour 180ml of water into a pot."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "호밀 플레이크 50g을 넣는다.",
+          "en": "Add 50g of rye flakes."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "불을 약불로 켠다.",
+          "en": "Turn the heat to low."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "저어가며 8분간 끓인다.",
+          "en": "Simmer for 8 minutes, stirring occasionally."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "무화과 40g을 얇게 썬다.",
+          "en": "Thinly slice 40g of fig."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "불을 끄고 그릇에 옮겨 담는다.",
+          "en": "Turn off the heat and transfer to a bowl."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "썬 무화과와 헤이즐넛 10g을 올린다.",
+          "en": "Top with the sliced fig and 10g of hazelnuts."
+        }
+      }
     ]
   },
   {
     "id": "millet-plum-porridge",
     "slug": "millet-plum-porridge",
-    "title": { "ko": "좁쌀 자두 포리지", "en": "Millet Plum Porridge" },
+    "title": {
+      "ko": "좁쌀 자두 포리지",
+      "en": "Millet Plum Porridge"
+    },
     "description": {
       "ko": "부드러운 좁쌀 포리지에 자두의 산미를 더했습니다.",
       "en": "A soft millet porridge lifted by the tartness of plum."
     },
-    "tags": ["breakfast", "low-glycemic", "plant-based"],
+    "tags": [
+      "breakfast",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "좁쌀", "en": "Millet" },
+        "name": {
+          "ko": "좁쌀",
+          "en": "Millet"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "글루텐이 없는 잡곡으로 소화가 비교적 편한 편이에요.", "en": "A gluten-free grain that's generally easy to digest." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "글루텐이 없는 잡곡으로 소화가 비교적 편한 편이에요.",
+          "en": "A gluten-free grain that's generally easy to digest."
+        },
+        "substituteGroupId": "sub-millet"
       },
       {
-        "name": { "ko": "자두", "en": "Plum" },
+        "name": {
+          "ko": "자두",
+          "en": "Plum"
+        },
         "amount": "50g",
-        "tags": ["fruit"],
-        "benefits": { "ko": "식이섬유와 항산화 성분이 들어 있는 과일이에요.", "en": "Contains dietary fiber and antioxidant compounds." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "식이섬유와 항산화 성분이 들어 있는 과일이에요.",
+          "en": "Contains dietary fiber and antioxidant compounds."
+        },
+        "substituteGroupId": "sub-plum"
       },
       {
-        "name": { "ko": "해바라기씨", "en": "Sunflower seeds" },
+        "name": {
+          "ko": "해바라기씨",
+          "en": "Sunflower seeds"
+        },
         "amount": "10g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "비타민 E와 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains vitamin E and unsaturated fats." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "비타민 E와 불포화지방이 들어 있는 씨앗이에요.",
+          "en": "Contains vitamin E and unsaturated fats."
+        },
+        "substituteGroupId": "sub-sunflower-seeds"
       },
       {
-        "name": { "ko": "물", "en": "Water" },
+        "name": {
+          "ko": "물",
+          "en": "Water"
+        },
         "amount": "200ml",
         "tags": []
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 물 200ml를 붓는다.", "en": "Pour 200ml of water into a pot." } },
-      { "order": 2, "instruction": { "ko": "좁쌀 50g을 넣는다.", "en": "Add 50g of millet." } },
-      { "order": 3, "instruction": { "ko": "불을 약불로 켠다.", "en": "Turn the heat to low." } },
-      { "order": 4, "instruction": { "ko": "가끔 저으며 12분간 끓인다.", "en": "Simmer for 12 minutes, stirring occasionally." } },
-      { "order": 5, "instruction": { "ko": "자두 50g을 얇게 썬다.", "en": "Thinly slice 50g of plum." } },
-      { "order": 6, "instruction": { "ko": "불을 끄고 그릇에 옮겨 담는다.", "en": "Turn off the heat and transfer to a bowl." } },
-      { "order": 7, "instruction": { "ko": "썬 자두와 해바라기씨 10g을 얹는다.", "en": "Top with the sliced plum and 10g of sunflower seeds." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 물 200ml를 붓는다.",
+          "en": "Pour 200ml of water into a pot."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "좁쌀 50g을 넣는다.",
+          "en": "Add 50g of millet."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "불을 약불로 켠다.",
+          "en": "Turn the heat to low."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "가끔 저으며 12분간 끓인다.",
+          "en": "Simmer for 12 minutes, stirring occasionally."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "자두 50g을 얇게 썬다.",
+          "en": "Thinly slice 50g of plum."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "불을 끄고 그릇에 옮겨 담는다.",
+          "en": "Turn off the heat and transfer to a bowl."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "썬 자두와 해바라기씨 10g을 얹는다.",
+          "en": "Top with the sliced plum and 10g of sunflower seeds."
+        }
+      }
     ]
   },
   {
     "id": "lentil-barley-salad",
     "slug": "lentil-barley-salad",
-    "title": { "ko": "렌틸 보리 샐러드", "en": "Lentil Barley Salad" },
+    "title": {
+      "ko": "렌틸 보리 샐러드",
+      "en": "Lentil Barley Salad"
+    },
     "description": {
       "ko": "삶은 렌틸콩과 보리에 채소를 더한 점심 샐러드입니다.",
       "en": "A lunch salad of cooked lentils and barley with vegetables."
     },
-    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "tags": [
+      "lunch",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "렌틸콩", "en": "Lentils" },
+        "name": {
+          "ko": "렌틸콩",
+          "en": "Lentils"
+        },
         "amount": "70g",
-        "tags": ["legume"],
+        "tags": [
+          "legume"
+        ],
         "substituteGroupId": "sub-lentils",
-        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "benefits": {
+          "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
+          "en": "A legume rich in plant-based protein and fiber."
+        }
       },
       {
-        "name": { "ko": "찰보리", "en": "Pearl barley" },
+        "name": {
+          "ko": "찰보리",
+          "en": "Pearl barley"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
+          "en": "A whole grain rich in beta-glucan fiber."
+        },
+        "substituteGroupId": "sub-barley"
       },
       {
-        "name": { "ko": "방울토마토", "en": "Cherry tomatoes" },
+        "name": {
+          "ko": "방울토마토",
+          "en": "Cherry tomatoes"
+        },
         "amount": "60g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
+          "en": "Contains lycopene, an antioxidant compound."
+        },
+        "substituteGroupId": "sub-cherry-tomatoes"
       },
       {
-        "name": { "ko": "루꼴라", "en": "Arugula" },
+        "name": {
+          "ko": "루꼴라",
+          "en": "Arugula"
+        },
         "amount": "40g",
-        "tags": ["leafy-green"],
-        "benefits": { "ko": "잎채소 중에서도 칼슘과 비타민 K가 있는 편이에요.", "en": "A leafy green that provides calcium and vitamin K." }
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "잎채소 중에서도 칼슘과 비타민 K가 있는 편이에요.",
+          "en": "A leafy green that provides calcium and vitamin K."
+        },
+        "substituteGroupId": "sub-arugula"
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "10ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       },
       {
-        "name": { "ko": "레몬즙", "en": "Lemon juice" },
+        "name": {
+          "ko": "레몬즙",
+          "en": "Lemon juice"
+        },
         "amount": "10ml",
         "tags": [],
-        "benefits": { "ko": "비타민 C를 더해주고 소금 없이도 감칠맛을 살려줘요.", "en": "Adds vitamin C and brightens flavor without needing extra salt." }
+        "benefits": {
+          "ko": "비타민 C를 더해주고 소금 없이도 감칠맛을 살려줘요.",
+          "en": "Adds vitamin C and brightens flavor without needing extra salt."
+        },
+        "substituteGroupId": "sub-lemon"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 물을 끓여 렌틸콩 70g을 넣고 15분간 삶는다.", "en": "Boil water in a pot, add 70g of lentils, and cook for 15 minutes." } },
-      { "order": 2, "instruction": { "ko": "다른 냄비에 물을 끓여 찰보리 50g을 넣고 20분간 삶는다.", "en": "In another pot, boil water, add 50g of pearl barley, and cook for 20 minutes." } },
-      { "order": 3, "instruction": { "ko": "삶은 렌틸콩과 보리를 체에 밭쳐 물기를 빼고 식힌다.", "en": "Drain the cooked lentils and barley in a strainer and let them cool." } },
-      { "order": 4, "instruction": { "ko": "방울토마토 60g을 반으로 자른다.", "en": "Halve 60g of cherry tomatoes." } },
-      { "order": 5, "instruction": { "ko": "큰 그릇에 식힌 렌틸콩, 보리, 방울토마토, 루꼴라 40g을 담는다.", "en": "Put the cooled lentils, barley, cherry tomatoes, and 40g of arugula into a large bowl." } },
-      { "order": 6, "instruction": { "ko": "올리브유 10ml와 레몬즙 10ml를 뿌린다.", "en": "Drizzle with 10ml of olive oil and 10ml of lemon juice." } },
-      { "order": 7, "instruction": { "ko": "숟가락으로 가볍게 버무린다.", "en": "Toss gently with a spoon." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 물을 끓여 렌틸콩 70g을 넣고 15분간 삶는다.",
+          "en": "Boil water in a pot, add 70g of lentils, and cook for 15 minutes."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "다른 냄비에 물을 끓여 찰보리 50g을 넣고 20분간 삶는다.",
+          "en": "In another pot, boil water, add 50g of pearl barley, and cook for 20 minutes."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "삶은 렌틸콩과 보리를 체에 밭쳐 물기를 빼고 식힌다.",
+          "en": "Drain the cooked lentils and barley in a strainer and let them cool."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "방울토마토 60g을 반으로 자른다.",
+          "en": "Halve 60g of cherry tomatoes."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "큰 그릇에 식힌 렌틸콩, 보리, 방울토마토, 루꼴라 40g을 담는다.",
+          "en": "Put the cooled lentils, barley, cherry tomatoes, and 40g of arugula into a large bowl."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "올리브유 10ml와 레몬즙 10ml를 뿌린다.",
+          "en": "Drizzle with 10ml of olive oil and 10ml of lemon juice."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "숟가락으로 가볍게 버무린다.",
+          "en": "Toss gently with a spoon."
+        }
+      }
     ]
   },
   {
     "id": "chickpea-kale-bowl",
     "slug": "chickpea-kale-bowl",
-    "title": { "ko": "병아리콩 케일 볼", "en": "Chickpea Kale Bowl" },
+    "title": {
+      "ko": "병아리콩 케일 볼",
+      "en": "Chickpea Kale Bowl"
+    },
     "description": {
       "ko": "구운 병아리콩과 케일을 현미와 함께 낸 볼입니다.",
       "en": "Roasted chickpeas and kale served over brown rice."
     },
-    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "tags": [
+      "lunch",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "병아리콩", "en": "Chickpeas" },
+        "name": {
+          "ko": "병아리콩",
+          "en": "Chickpeas"
+        },
         "amount": "80g",
-        "tags": ["legume"],
-        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
+          "en": "A legume rich in plant-based protein and fiber."
+        },
+        "substituteGroupId": "sub-chickpeas"
       },
       {
-        "name": { "ko": "케일", "en": "Kale" },
+        "name": {
+          "ko": "케일",
+          "en": "Kale"
+        },
         "amount": "60g",
-        "tags": ["leafy-green"],
-        "benefits": { "ko": "비타민 K와 비타민 C가 풍부한 잎채소예요.", "en": "A leafy green rich in vitamin K and vitamin C." }
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "비타민 K와 비타민 C가 풍부한 잎채소예요.",
+          "en": "A leafy green rich in vitamin K and vitamin C."
+        },
+        "substituteGroupId": "sub-kale"
       },
       {
-        "name": { "ko": "현미밥", "en": "Cooked brown rice" },
+        "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice"
+        },
         "amount": "100g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice."
+        },
+        "substituteGroupId": "sub-brown-rice"
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "10ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       },
       {
-        "name": { "ko": "마늘", "en": "Garlic" },
+        "name": {
+          "ko": "마늘",
+          "en": "Garlic"
+        },
         "amount": "5g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "알리신이라는 화합물이 들어 있는 향신채예요.", "en": "Contains allicin, a compound formed when garlic is crushed." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "알리신이라는 화합물이 들어 있는 향신채예요.",
+          "en": "Contains allicin, a compound formed when garlic is crushed."
+        }
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "마늘 5g을 잘게 다진다.", "en": "Finely mince 5g of garlic." } },
-      { "order": 2, "instruction": { "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.", "en": "Heat a pan over medium heat and add 10ml of olive oil." } },
-      { "order": 3, "instruction": { "ko": "다진 마늘을 넣고 30초간 볶는다.", "en": "Add the minced garlic and sauté for 30 seconds." } },
-      { "order": 4, "instruction": { "ko": "병아리콩 80g을 넣고 3분간 볶는다.", "en": "Add 80g of chickpeas and sauté for 3 minutes." } },
-      { "order": 5, "instruction": { "ko": "케일 60g을 손으로 찢어 넣는다.", "en": "Tear 60g of kale by hand and add it to the pan." } },
-      { "order": 6, "instruction": { "ko": "잎이 숨이 죽을 때까지 2분간 더 볶는다.", "en": "Sauté for 2 more minutes until the leaves wilt." } },
-      { "order": 7, "instruction": { "ko": "현미밥 100g을 그릇에 담는다.", "en": "Put 100g of cooked brown rice into a bowl." } },
-      { "order": 8, "instruction": { "ko": "볶은 병아리콩과 케일을 그 위에 올린다.", "en": "Top with the sautéed chickpeas and kale." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "마늘 5g을 잘게 다진다.",
+          "en": "Finely mince 5g of garlic."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.",
+          "en": "Heat a pan over medium heat and add 10ml of olive oil."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "다진 마늘을 넣고 30초간 볶는다.",
+          "en": "Add the minced garlic and sauté for 30 seconds."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "병아리콩 80g을 넣고 3분간 볶는다.",
+          "en": "Add 80g of chickpeas and sauté for 3 minutes."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "케일 60g을 손으로 찢어 넣는다.",
+          "en": "Tear 60g of kale by hand and add it to the pan."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "잎이 숨이 죽을 때까지 2분간 더 볶는다.",
+          "en": "Sauté for 2 more minutes until the leaves wilt."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "현미밥 100g을 그릇에 담는다.",
+          "en": "Put 100g of cooked brown rice into a bowl."
+        }
+      },
+      {
+        "order": 8,
+        "instruction": {
+          "ko": "볶은 병아리콩과 케일을 그 위에 올린다.",
+          "en": "Top with the sautéed chickpeas and kale."
+        }
+      }
     ]
   },
   {
     "id": "tofu-buckwheat-noodle-bowl",
     "slug": "tofu-buckwheat-noodle-bowl",
-    "title": { "ko": "두부 메밀국수 볼", "en": "Tofu Buckwheat Noodle Bowl" },
+    "title": {
+      "ko": "두부 메밀국수 볼",
+      "en": "Tofu Buckwheat Noodle Bowl"
+    },
     "description": {
       "ko": "차게 낸 메밀국수에 두부와 채소를 곁들였습니다.",
       "en": "Chilled buckwheat noodles served with tofu and vegetables."
     },
-    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "tags": [
+      "lunch",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "메밀국수", "en": "Buckwheat noodles" },
+        "name": {
+          "ko": "메밀국수",
+          "en": "Buckwheat noodles"
+        },
         "amount": "70g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "메밀로 만들어 정제 밀가루 면보다 식이섬유가 더 있는 편이에요.", "en": "Made from buckwheat, so it retains more fiber than noodles made from refined flour." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "메밀로 만들어 정제 밀가루 면보다 식이섬유가 더 있는 편이에요.",
+          "en": "Made from buckwheat, so it retains more fiber than noodles made from refined flour."
+        },
+        "substituteGroupId": "sub-buckwheat-noodles"
       },
       {
-        "name": { "ko": "두부", "en": "Firm tofu" },
+        "name": {
+          "ko": "두부",
+          "en": "Firm tofu"
+        },
         "amount": "100g",
-        "tags": ["legume"],
-        "benefits": { "ko": "콩으로 만든 식물성 단백질 식품이에요.", "en": "A plant-based protein food made from soybeans." }
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만든 식물성 단백질 식품이에요.",
+          "en": "A plant-based protein food made from soybeans."
+        },
+        "substituteGroupId": "sub-tofu"
       },
       {
-        "name": { "ko": "오이", "en": "Cucumber" },
+        "name": {
+          "ko": "오이",
+          "en": "Cucumber"
+        },
         "amount": "50g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "수분 함량이 높은 채소예요.", "en": "A vegetable with high water content." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "수분 함량이 높은 채소예요.",
+          "en": "A vegetable with high water content."
+        }
       },
       {
-        "name": { "ko": "참깨", "en": "Sesame seeds" },
+        "name": {
+          "ko": "참깨",
+          "en": "Sesame seeds"
+        },
         "amount": "5g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains calcium and unsaturated fats." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.",
+          "en": "Contains calcium and unsaturated fats."
+        },
+        "substituteGroupId": "sub-sesame-seeds"
       },
       {
-        "name": { "ko": "참기름", "en": "Sesame oil" },
+        "name": {
+          "ko": "참기름",
+          "en": "Sesame oil"
+        },
         "amount": "5ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "볶은 참깨로 만들어 소량으로도 고소한 향을 더해줘요.", "en": "Made from toasted sesame seeds; a little goes a long way for flavor." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "볶은 참깨로 만들어 소량으로도 고소한 향을 더해줘요.",
+          "en": "Made from toasted sesame seeds; a little goes a long way for flavor."
+        },
+        "substituteGroupId": "sub-sesame-oil"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 물을 끓여 메밀국수 70g을 넣는다.", "en": "Boil water in a pot and add 70g of buckwheat noodles." } },
-      { "order": 2, "instruction": { "ko": "포장지에 적힌 시간만큼 삶는다.", "en": "Cook for the time listed on the package." } },
-      { "order": 3, "instruction": { "ko": "삶은 국수를 체에 밭쳐 찬물에 헹군다.", "en": "Drain the noodles in a strainer and rinse under cold water." } },
-      { "order": 4, "instruction": { "ko": "두부 100g을 도톰하게 썬다.", "en": "Cut 100g of tofu into thick slices." } },
-      { "order": 5, "instruction": { "ko": "오이 50g을 가늘게 채썬다.", "en": "Julienne 50g of cucumber into thin strips." } },
-      { "order": 6, "instruction": { "ko": "그릇에 국수를 담고 두부와 오이를 올린다.", "en": "Put the noodles in a bowl and top with the tofu and cucumber." } },
-      { "order": 7, "instruction": { "ko": "참기름 5ml를 두르고 참깨 5g을 뿌린다.", "en": "Drizzle with 5ml of sesame oil and sprinkle with 5g of sesame seeds." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 물을 끓여 메밀국수 70g을 넣는다.",
+          "en": "Boil water in a pot and add 70g of buckwheat noodles."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "포장지에 적힌 시간만큼 삶는다.",
+          "en": "Cook for the time listed on the package."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "삶은 국수를 체에 밭쳐 찬물에 헹군다.",
+          "en": "Drain the noodles in a strainer and rinse under cold water."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "두부 100g을 도톰하게 썬다.",
+          "en": "Cut 100g of tofu into thick slices."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "오이 50g을 가늘게 채썬다.",
+          "en": "Julienne 50g of cucumber into thin strips."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "그릇에 국수를 담고 두부와 오이를 올린다.",
+          "en": "Put the noodles in a bowl and top with the tofu and cucumber."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "참기름 5ml를 두르고 참깨 5g을 뿌린다.",
+          "en": "Drizzle with 5ml of sesame oil and sprinkle with 5g of sesame seeds."
+        }
+      }
     ]
   },
   {
     "id": "white-bean-quinoa-bowl",
     "slug": "white-bean-quinoa-bowl",
-    "title": { "ko": "흰강낭콩 퀴노아 볼", "en": "White Bean Quinoa Bowl" },
+    "title": {
+      "ko": "흰강낭콩 퀴노아 볼",
+      "en": "White Bean Quinoa Bowl"
+    },
     "description": {
       "ko": "흰강낭콩과 퀴노아에 구운 채소를 더한 볼입니다.",
       "en": "White beans and quinoa with roasted vegetables."
     },
-    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "tags": [
+      "lunch",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "흰강낭콩", "en": "White beans" },
+        "name": {
+          "ko": "흰강낭콩",
+          "en": "White beans"
+        },
         "amount": "80g",
-        "tags": ["legume"],
-        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
+          "en": "A legume rich in plant-based protein and fiber."
+        },
+        "substituteGroupId": "sub-white-beans"
       },
       {
-        "name": { "ko": "퀴노아", "en": "Quinoa" },
+        "name": {
+          "ko": "퀴노아",
+          "en": "Quinoa"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
+          "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
+        },
+        "substituteGroupId": "sub-quinoa"
       },
       {
-        "name": { "ko": "애호박", "en": "Zucchini" },
+        "name": {
+          "ko": "애호박",
+          "en": "Zucchini"
+        },
         "amount": "70g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "수분 함량이 높고 열량이 낮은 채소예요.", "en": "A vegetable that's high in water content and low in calories." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "수분 함량이 높고 열량이 낮은 채소예요.",
+          "en": "A vegetable that's high in water content and low in calories."
+        },
+        "substituteGroupId": "sub-zucchini"
       },
       {
-        "name": { "ko": "파프리카", "en": "Bell pepper" },
+        "name": {
+          "ko": "파프리카",
+          "en": "Bell pepper"
+        },
         "amount": "50g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "비타민 C가 풍부한 채소예요.", "en": "A vegetable rich in vitamin C." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "비타민 C가 풍부한 채소예요.",
+          "en": "A vegetable rich in vitamin C."
+        },
+        "substituteGroupId": "sub-bell-pepper"
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "10ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "퀴노아 50g을 헹궈 냄비에 물과 함께 넣고 12분간 끓인 뒤 식힌다.", "en": "Rinse 50g of quinoa, simmer in water for 12 minutes, then let it cool." } },
-      { "order": 2, "instruction": { "ko": "애호박 70g을 반달 모양으로 썬다.", "en": "Cut 70g of zucchini into half-moon slices." } },
-      { "order": 3, "instruction": { "ko": "파프리카 50g을 채썬다.", "en": "Cut 50g of bell pepper into strips." } },
-      { "order": 4, "instruction": { "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.", "en": "Heat a pan over medium heat and add 10ml of olive oil." } },
-      { "order": 5, "instruction": { "ko": "애호박과 파프리카를 넣고 5분간 굽는다.", "en": "Add the zucchini and bell pepper, and cook for 5 minutes." } },
-      { "order": 6, "instruction": { "ko": "그릇에 퀴노아를 담는다.", "en": "Put the quinoa into a bowl." } },
-      { "order": 7, "instruction": { "ko": "구운 채소와 흰강낭콩 80g을 그 위에 올린다.", "en": "Top with the roasted vegetables and 80g of white beans." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "퀴노아 50g을 헹궈 냄비에 물과 함께 넣고 12분간 끓인 뒤 식힌다.",
+          "en": "Rinse 50g of quinoa, simmer in water for 12 minutes, then let it cool."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "애호박 70g을 반달 모양으로 썬다.",
+          "en": "Cut 70g of zucchini into half-moon slices."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "파프리카 50g을 채썬다.",
+          "en": "Cut 50g of bell pepper into strips."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.",
+          "en": "Heat a pan over medium heat and add 10ml of olive oil."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "애호박과 파프리카를 넣고 5분간 굽는다.",
+          "en": "Add the zucchini and bell pepper, and cook for 5 minutes."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "그릇에 퀴노아를 담는다.",
+          "en": "Put the quinoa into a bowl."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "구운 채소와 흰강낭콩 80g을 그 위에 올린다.",
+          "en": "Top with the roasted vegetables and 80g of white beans."
+        }
+      }
     ]
   },
   {
     "id": "egg-vegetable-barley-bowl",
     "slug": "egg-vegetable-barley-bowl",
-    "title": { "ko": "달걀 채소 보리 볼", "en": "Egg and Vegetable Barley Bowl" },
+    "title": {
+      "ko": "달걀 채소 보리 볼",
+      "en": "Egg and Vegetable Barley Bowl"
+    },
     "description": {
       "ko": "삶은 달걀과 데친 채소를 보리밥에 올린 볼입니다.",
       "en": "Boiled egg and blanched vegetables over barley."
     },
-    "tags": ["lunch", "low-glycemic"],
+    "tags": [
+      "lunch",
+      "low-glycemic"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "달걀", "en": "Egg" },
+        "name": {
+          "ko": "달걀",
+          "en": "Egg"
+        },
         "amount": "2개",
-        "tags": ["egg"],
-        "benefits": { "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.", "en": "A food that provides protein along with a range of vitamins." }
+        "tags": [
+          "egg"
+        ],
+        "benefits": {
+          "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.",
+          "en": "A food that provides protein along with a range of vitamins."
+        }
       },
       {
-        "name": { "ko": "보리밥", "en": "Cooked barley" },
+        "name": {
+          "ko": "보리밥",
+          "en": "Cooked barley"
+        },
         "amount": "100g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
+          "en": "A whole grain rich in beta-glucan fiber."
+        },
+        "substituteGroupId": "sub-barley"
       },
       {
-        "name": { "ko": "시금치", "en": "Spinach" },
+        "name": {
+          "ko": "시금치",
+          "en": "Spinach"
+        },
         "amount": "60g",
-        "tags": ["leafy-green"],
-        "benefits": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "철분과 엽산이 들어 있는 잎채소예요.",
+          "en": "A leafy green that contains iron and folate."
+        },
+        "substituteGroupId": "sub-spinach"
       },
       {
-        "name": { "ko": "당근", "en": "Carrot" },
+        "name": {
+          "ko": "당근",
+          "en": "Carrot"
+        },
         "amount": "40g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
+          "en": "Rich in beta-carotene, which gives it its orange color."
+        }
       },
       {
-        "name": { "ko": "들기름", "en": "Perilla oil" },
+        "name": {
+          "ko": "들기름",
+          "en": "Perilla oil"
+        },
         "amount": "5ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of omega-3 fatty acids." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of omega-3 fatty acids."
+        },
+        "substituteGroupId": "sub-perilla-oil"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 물을 끓여 달걀 2개를 넣는다.", "en": "Boil water in a pot and add 2 eggs." } },
-      { "order": 2, "instruction": { "ko": "10분간 삶는다.", "en": "Boil for 10 minutes." } },
-      { "order": 3, "instruction": { "ko": "삶은 달걀을 찬물에 식힌 뒤 껍질을 벗겨 반으로 자른다.", "en": "Cool the eggs in cold water, peel, and halve them." } },
-      { "order": 4, "instruction": { "ko": "당근 40g을 얇게 채썬다.", "en": "Thinly julienne 40g of carrot." } },
-      { "order": 5, "instruction": { "ko": "냄비에 물을 끓여 시금치 60g과 당근을 30초간 데친다.", "en": "Boil water in a pot and blanch 60g of spinach and the carrot for 30 seconds." } },
-      { "order": 6, "instruction": { "ko": "데친 채소를 찬물에 헹궈 물기를 짠다.", "en": "Rinse the blanched vegetables in cold water and squeeze out the excess water." } },
-      { "order": 7, "instruction": { "ko": "그릇에 보리밥 100g을 담는다.", "en": "Put 100g of cooked barley into a bowl." } },
-      { "order": 8, "instruction": { "ko": "채소와 달걀을 올리고 들기름 5ml를 두른다.", "en": "Top with the vegetables and eggs, and drizzle with 5ml of perilla oil." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 물을 끓여 달걀 2개를 넣는다.",
+          "en": "Boil water in a pot and add 2 eggs."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "10분간 삶는다.",
+          "en": "Boil for 10 minutes."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "삶은 달걀을 찬물에 식힌 뒤 껍질을 벗겨 반으로 자른다.",
+          "en": "Cool the eggs in cold water, peel, and halve them."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "당근 40g을 얇게 채썬다.",
+          "en": "Thinly julienne 40g of carrot."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "냄비에 물을 끓여 시금치 60g과 당근을 30초간 데친다.",
+          "en": "Boil water in a pot and blanch 60g of spinach and the carrot for 30 seconds."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "데친 채소를 찬물에 헹궈 물기를 짠다.",
+          "en": "Rinse the blanched vegetables in cold water and squeeze out the excess water."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "그릇에 보리밥 100g을 담는다.",
+          "en": "Put 100g of cooked barley into a bowl."
+        }
+      },
+      {
+        "order": 8,
+        "instruction": {
+          "ko": "채소와 달걀을 올리고 들기름 5ml를 두른다.",
+          "en": "Top with the vegetables and eggs, and drizzle with 5ml of perilla oil."
+        }
+      }
     ]
   },
   {
     "id": "edamame-brown-rice-bowl",
     "slug": "edamame-brown-rice-bowl",
-    "title": { "ko": "풋콩 현미 볼", "en": "Edamame Brown Rice Bowl" },
+    "title": {
+      "ko": "풋콩 현미 볼",
+      "en": "Edamame Brown Rice Bowl"
+    },
     "description": {
       "ko": "풋콩과 채소를 현미밥에 올린 간단한 점심입니다.",
       "en": "A simple lunch of edamame and vegetables over brown rice."
     },
-    "tags": ["lunch", "low-glycemic", "plant-based"],
+    "tags": [
+      "lunch",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "풋콩", "en": "Edamame" },
+        "name": {
+          "ko": "풋콩",
+          "en": "Edamame"
+        },
         "amount": "90g",
-        "tags": ["legume"],
-        "benefits": { "ko": "식물성 단백질이 풍부한 덜 여문 콩이에요.", "en": "Young soybeans that are a good source of plant-based protein." }
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "식물성 단백질이 풍부한 덜 여문 콩이에요.",
+          "en": "Young soybeans that are a good source of plant-based protein."
+        },
+        "substituteGroupId": "sub-edamame"
       },
       {
-        "name": { "ko": "현미밥", "en": "Cooked brown rice" },
+        "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice"
+        },
         "amount": "100g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice."
+        },
+        "substituteGroupId": "sub-brown-rice"
       },
       {
-        "name": { "ko": "브로콜리", "en": "Broccoli" },
+        "name": {
+          "ko": "브로콜리",
+          "en": "Broccoli"
+        },
         "amount": "70g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
+          "en": "A cruciferous vegetable rich in vitamin C and fiber."
+        },
+        "substituteGroupId": "sub-broccoli"
       },
       {
-        "name": { "ko": "아보카도", "en": "Avocado" },
+        "name": {
+          "ko": "아보카도",
+          "en": "Avocado"
+        },
         "amount": "40g",
-        "tags": ["fruit", "healthy-fat"],
-        "benefits": { "ko": "불포화지방이 풍부한 과일이에요.", "en": "A fruit rich in unsaturated fat." }
+        "tags": [
+          "fruit",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방이 풍부한 과일이에요.",
+          "en": "A fruit rich in unsaturated fat."
+        },
+        "substituteGroupId": "sub-avocado"
       },
       {
-        "name": { "ko": "참깨", "en": "Sesame seeds" },
+        "name": {
+          "ko": "참깨",
+          "en": "Sesame seeds"
+        },
         "amount": "5g",
-        "tags": ["nuts-seeds", "healthy-fat"],
-        "benefits": { "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains calcium and unsaturated fats." }
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.",
+          "en": "Contains calcium and unsaturated fats."
+        },
+        "substituteGroupId": "sub-sesame-seeds"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "냄비에 물을 끓여 풋콩 90g을 3분간 데친다.", "en": "Boil water in a pot and blanch 90g of edamame for 3 minutes." } },
-      { "order": 2, "instruction": { "ko": "같은 물에 브로콜리 70g을 넣고 2분간 더 데친다.", "en": "Add 70g of broccoli to the same water and blanch for 2 more minutes." } },
-      { "order": 3, "instruction": { "ko": "데친 풋콩과 브로콜리를 체에 밭쳐 물기를 뺀다.", "en": "Drain the blanched edamame and broccoli in a strainer." } },
-      { "order": 4, "instruction": { "ko": "아보카도 40g을 얇게 썬다.", "en": "Thinly slice 40g of avocado." } },
-      { "order": 5, "instruction": { "ko": "그릇에 현미밥 100g을 담는다.", "en": "Put 100g of cooked brown rice into a bowl." } },
-      { "order": 6, "instruction": { "ko": "풋콩, 브로콜리, 아보카도를 올린다.", "en": "Top with the edamame, broccoli, and avocado." } },
-      { "order": 7, "instruction": { "ko": "참깨 5g을 뿌린다.", "en": "Sprinkle with 5g of sesame seeds." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "냄비에 물을 끓여 풋콩 90g을 3분간 데친다.",
+          "en": "Boil water in a pot and blanch 90g of edamame for 3 minutes."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "같은 물에 브로콜리 70g을 넣고 2분간 더 데친다.",
+          "en": "Add 70g of broccoli to the same water and blanch for 2 more minutes."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "데친 풋콩과 브로콜리를 체에 밭쳐 물기를 뺀다.",
+          "en": "Drain the blanched edamame and broccoli in a strainer."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "아보카도 40g을 얇게 썬다.",
+          "en": "Thinly slice 40g of avocado."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "그릇에 현미밥 100g을 담는다.",
+          "en": "Put 100g of cooked brown rice into a bowl."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "풋콩, 브로콜리, 아보카도를 올린다.",
+          "en": "Top with the edamame, broccoli, and avocado."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "참깨 5g을 뿌린다.",
+          "en": "Sprinkle with 5g of sesame seeds."
+        }
+      }
     ]
   },
   {
     "id": "chicken-vegetable-stew",
     "slug": "chicken-vegetable-stew",
-    "title": { "ko": "닭가슴살 채소 스튜", "en": "Chicken and Vegetable Stew" },
+    "title": {
+      "ko": "닭가슴살 채소 스튜",
+      "en": "Chicken and Vegetable Stew"
+    },
     "description": {
       "ko": "닭가슴살과 뿌리채소를 오래 끓여낸 스튜입니다.",
       "en": "Chicken breast slowly simmered with root vegetables."
     },
-    "tags": ["dinner", "low-glycemic"],
+    "tags": [
+      "dinner",
+      "low-glycemic"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "닭가슴살", "en": "Chicken breast" },
+        "name": {
+          "ko": "닭가슴살",
+          "en": "Chicken breast"
+        },
         "amount": "120g",
-        "tags": ["poultry"],
-        "benefits": { "ko": "지방이 적은 편인 단백질 식재료예요.", "en": "A relatively lean source of protein." }
+        "tags": [
+          "poultry"
+        ],
+        "benefits": {
+          "ko": "지방이 적은 편인 단백질 식재료예요.",
+          "en": "A relatively lean source of protein."
+        },
+        "substituteGroupId": "sub-chicken-breast"
       },
       {
-        "name": { "ko": "양파", "en": "Onion" },
+        "name": {
+          "ko": "양파",
+          "en": "Onion"
+        },
         "amount": "60g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
+          "en": "Contains quercetin, a plant compound found in many vegetables."
+        }
       },
       {
-        "name": { "ko": "당근", "en": "Carrot" },
+        "name": {
+          "ko": "당근",
+          "en": "Carrot"
+        },
         "amount": "60g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
+          "en": "Rich in beta-carotene, which gives it its orange color."
+        }
       },
       {
-        "name": { "ko": "셀러리", "en": "Celery" },
+        "name": {
+          "ko": "셀러리",
+          "en": "Celery"
+        },
         "amount": "40g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "수분 함량이 높고 아삭한 식감의 채소예요.", "en": "A crunchy vegetable with high water content." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "수분 함량이 높고 아삭한 식감의 채소예요.",
+          "en": "A crunchy vegetable with high water content."
+        }
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "10ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       },
       {
-        "name": { "ko": "물", "en": "Water" },
+        "name": {
+          "ko": "물",
+          "en": "Water"
+        },
         "amount": "300ml",
         "tags": []
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "양파 60g, 당근 60g, 셀러리 40g을 잘게 썬다.", "en": "Dice 60g of onion, 60g of carrot, and 40g of celery." } },
-      { "order": 2, "instruction": { "ko": "냄비를 중불에 올리고 올리브유 10ml를 두른다.", "en": "Heat a pot over medium heat and add 10ml of olive oil." } },
-      { "order": 3, "instruction": { "ko": "썰어둔 채소를 넣고 3분간 볶는다.", "en": "Add the diced vegetables and sauté for 3 minutes." } },
-      { "order": 4, "instruction": { "ko": "닭가슴살 120g을 넣는다.", "en": "Add 120g of chicken breast." } },
-      { "order": 5, "instruction": { "ko": "물 300ml를 붓는다.", "en": "Pour in 300ml of water." } },
-      { "order": 6, "instruction": { "ko": "끓어오르면 약불로 줄인다.", "en": "Once it boils, reduce to low heat." } },
-      { "order": 7, "instruction": { "ko": "뚜껑을 덮고 20분간 끓인다.", "en": "Cover and simmer for 20 minutes." } },
-      { "order": 8, "instruction": { "ko": "닭가슴살을 꺼내 두 갈래로 찢은 뒤 다시 넣는다.", "en": "Take out the chicken, shred it into pieces, and return it to the pot." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "양파 60g, 당근 60g, 셀러리 40g을 잘게 썬다.",
+          "en": "Dice 60g of onion, 60g of carrot, and 40g of celery."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "냄비를 중불에 올리고 올리브유 10ml를 두른다.",
+          "en": "Heat a pot over medium heat and add 10ml of olive oil."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "썰어둔 채소를 넣고 3분간 볶는다.",
+          "en": "Add the diced vegetables and sauté for 3 minutes."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "닭가슴살 120g을 넣는다.",
+          "en": "Add 120g of chicken breast."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "물 300ml를 붓는다.",
+          "en": "Pour in 300ml of water."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "끓어오르면 약불로 줄인다.",
+          "en": "Once it boils, reduce to low heat."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "뚜껑을 덮고 20분간 끓인다.",
+          "en": "Cover and simmer for 20 minutes."
+        }
+      },
+      {
+        "order": 8,
+        "instruction": {
+          "ko": "닭가슴살을 꺼내 두 갈래로 찢은 뒤 다시 넣는다.",
+          "en": "Take out the chicken, shred it into pieces, and return it to the pot."
+        }
+      }
     ]
   },
   {
     "id": "tofu-mushroom-stirfry",
     "slug": "tofu-mushroom-stirfry",
-    "title": { "ko": "두부 버섯 볶음", "en": "Tofu and Mushroom Stir-fry" },
+    "title": {
+      "ko": "두부 버섯 볶음",
+      "en": "Tofu and Mushroom Stir-fry"
+    },
     "description": {
       "ko": "두부와 버섯을 함께 볶아 낸 담백한 저녁입니다.",
       "en": "A light dinner of tofu stir-fried with mushrooms."
     },
-    "tags": ["dinner", "low-glycemic", "plant-based"],
+    "tags": [
+      "dinner",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "두부", "en": "Firm tofu" },
+        "name": {
+          "ko": "두부",
+          "en": "Firm tofu"
+        },
         "amount": "150g",
-        "tags": ["legume"],
-        "benefits": { "ko": "콩으로 만든 식물성 단백질 식품이에요.", "en": "A plant-based protein food made from soybeans." }
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만든 식물성 단백질 식품이에요.",
+          "en": "A plant-based protein food made from soybeans."
+        },
+        "substituteGroupId": "sub-tofu"
       },
       {
-        "name": { "ko": "표고버섯", "en": "Shiitake mushrooms" },
+        "name": {
+          "ko": "표고버섯",
+          "en": "Shiitake mushrooms"
+        },
         "amount": "80g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "식이섬유와 비타민 D 전구체가 들어 있는 버섯이에요.", "en": "Contains fiber and a precursor to vitamin D." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "식이섬유와 비타민 D 전구체가 들어 있는 버섯이에요.",
+          "en": "Contains fiber and a precursor to vitamin D."
+        },
+        "substituteGroupId": "sub-shiitake-mushroom"
       },
       {
-        "name": { "ko": "청경채", "en": "Bok choy" },
+        "name": {
+          "ko": "청경채",
+          "en": "Bok choy"
+        },
         "amount": "70g",
-        "tags": ["leafy-green"],
-        "benefits": { "ko": "칼슘과 비타민 K가 들어 있는 잎채소예요.", "en": "A leafy green that contains calcium and vitamin K." }
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "칼슘과 비타민 K가 들어 있는 잎채소예요.",
+          "en": "A leafy green that contains calcium and vitamin K."
+        },
+        "substituteGroupId": "sub-bok-choy"
       },
       {
-        "name": { "ko": "현미밥", "en": "Cooked brown rice" },
+        "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice"
+        },
         "amount": "80g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice."
+        },
+        "substituteGroupId": "sub-brown-rice"
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "10ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "두부 150g을 도톰하게 썬다.", "en": "Cut 150g of tofu into thick slices." } },
-      { "order": 2, "instruction": { "ko": "표고버섯 80g을 얇게 썬다.", "en": "Thinly slice 80g of shiitake mushrooms." } },
-      { "order": 3, "instruction": { "ko": "청경채 70g을 밑동을 잘라내고 한 잎씩 뗀다.", "en": "Trim the base of 70g of bok choy and separate the leaves." } },
-      { "order": 4, "instruction": { "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.", "en": "Heat a pan over medium heat and add 10ml of olive oil." } },
-      { "order": 5, "instruction": { "ko": "두부를 올려 앞뒤로 각 2분씩 노릇하게 굽는다.", "en": "Add the tofu and brown each side for 2 minutes." } },
-      { "order": 6, "instruction": { "ko": "버섯을 넣고 2분간 볶는다.", "en": "Add the mushrooms and stir-fry for 2 minutes." } },
-      { "order": 7, "instruction": { "ko": "청경채를 넣고 1분간 더 볶는다.", "en": "Add the bok choy and stir-fry for 1 more minute." } },
-      { "order": 8, "instruction": { "ko": "현미밥 80g과 함께 그릇에 담는다.", "en": "Serve with 80g of cooked brown rice." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "두부 150g을 도톰하게 썬다.",
+          "en": "Cut 150g of tofu into thick slices."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "표고버섯 80g을 얇게 썬다.",
+          "en": "Thinly slice 80g of shiitake mushrooms."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "청경채 70g을 밑동을 잘라내고 한 잎씩 뗀다.",
+          "en": "Trim the base of 70g of bok choy and separate the leaves."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.",
+          "en": "Heat a pan over medium heat and add 10ml of olive oil."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "두부를 올려 앞뒤로 각 2분씩 노릇하게 굽는다.",
+          "en": "Add the tofu and brown each side for 2 minutes."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "버섯을 넣고 2분간 볶는다.",
+          "en": "Add the mushrooms and stir-fry for 2 minutes."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "청경채를 넣고 1분간 더 볶는다.",
+          "en": "Add the bok choy and stir-fry for 1 more minute."
+        }
+      },
+      {
+        "order": 8,
+        "instruction": {
+          "ko": "현미밥 80g과 함께 그릇에 담는다.",
+          "en": "Serve with 80g of cooked brown rice."
+        }
+      }
     ]
   },
   {
     "id": "salmon-broccoli-plate",
     "slug": "salmon-broccoli-plate",
-    "title": { "ko": "연어 브로콜리 구이", "en": "Roasted Salmon with Broccoli" },
+    "title": {
+      "ko": "연어 브로콜리 구이",
+      "en": "Roasted Salmon with Broccoli"
+    },
     "description": {
       "ko": "연어와 브로콜리를 함께 구워 낸 저녁 한 접시입니다.",
       "en": "Salmon and broccoli roasted together on one plate."
     },
-    "tags": ["dinner", "low-glycemic"],
+    "tags": [
+      "dinner",
+      "low-glycemic"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "연어", "en": "Salmon" },
+        "name": {
+          "ko": "연어",
+          "en": "Salmon"
+        },
         "amount": "120g",
-        "tags": ["fish", "healthy-fat"],
-        "benefits": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
+        "tags": [
+          "fish",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
+          "en": "Rich in omega-3 fatty acids, which may support heart health."
+        },
+        "substituteGroupId": "sub-salmon"
       },
       {
-        "name": { "ko": "브로콜리", "en": "Broccoli" },
+        "name": {
+          "ko": "브로콜리",
+          "en": "Broccoli"
+        },
         "amount": "100g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
+          "en": "A cruciferous vegetable rich in vitamin C and fiber."
+        },
+        "substituteGroupId": "sub-broccoli"
       },
       {
-        "name": { "ko": "퀴노아", "en": "Quinoa" },
+        "name": {
+          "ko": "퀴노아",
+          "en": "Quinoa"
+        },
         "amount": "50g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
+          "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
+        },
+        "substituteGroupId": "sub-quinoa"
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "10ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       },
       {
-        "name": { "ko": "레몬", "en": "Lemon" },
+        "name": {
+          "ko": "레몬",
+          "en": "Lemon"
+        },
         "amount": "20g",
-        "tags": ["fruit"],
-        "benefits": { "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.", "en": "Rich in vitamin C and adds bright acidity." }
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.",
+          "en": "Rich in vitamin C and adds bright acidity."
+        },
+        "substituteGroupId": "sub-lemon"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "오븐을 200도로 예열한다.", "en": "Preheat the oven to 200°C (390°F)." } },
-      { "order": 2, "instruction": { "ko": "퀴노아 50g을 헹궈 냄비에 물과 함께 넣고 12분간 끓인다.", "en": "Rinse 50g of quinoa, then simmer in water for 12 minutes." } },
-      { "order": 3, "instruction": { "ko": "오븐 팬에 연어 120g과 브로콜리 100g을 올린다.", "en": "Place 120g of salmon and 100g of broccoli on a baking tray." } },
-      { "order": 4, "instruction": { "ko": "올리브유 10ml를 골고루 두른다.", "en": "Drizzle evenly with 10ml of olive oil." } },
-      { "order": 5, "instruction": { "ko": "오븐에서 12분간 굽는다.", "en": "Bake for 12 minutes." } },
-      { "order": 6, "instruction": { "ko": "구운 연어와 브로콜리를 삶은 퀴노아와 함께 접시에 담는다.", "en": "Plate the roasted salmon and broccoli with the cooked quinoa." } },
-      { "order": 7, "instruction": { "ko": "레몬 20g을 즙 내어 뿌린다.", "en": "Squeeze 20g of lemon juice over the plate." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "오븐을 200도로 예열한다.",
+          "en": "Preheat the oven to 200°C (390°F)."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "퀴노아 50g을 헹궈 냄비에 물과 함께 넣고 12분간 끓인다.",
+          "en": "Rinse 50g of quinoa, then simmer in water for 12 minutes."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "오븐 팬에 연어 120g과 브로콜리 100g을 올린다.",
+          "en": "Place 120g of salmon and 100g of broccoli on a baking tray."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "올리브유 10ml를 골고루 두른다.",
+          "en": "Drizzle evenly with 10ml of olive oil."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "오븐에서 12분간 굽는다.",
+          "en": "Bake for 12 minutes."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "구운 연어와 브로콜리를 삶은 퀴노아와 함께 접시에 담는다.",
+          "en": "Plate the roasted salmon and broccoli with the cooked quinoa."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "레몬 20g을 즙 내어 뿌린다.",
+          "en": "Squeeze 20g of lemon juice over the plate."
+        }
+      }
     ]
   },
   {
     "id": "vegetable-frittata",
     "slug": "vegetable-frittata",
-    "title": { "ko": "채소 프리타타", "en": "Vegetable Frittata" },
+    "title": {
+      "ko": "채소 프리타타",
+      "en": "Vegetable Frittata"
+    },
     "description": {
       "ko": "달걀과 채소를 팬에 구워 낸 이탈리아식 프리타타입니다.",
       "en": "An Italian-style frittata of eggs and vegetables."
     },
-    "tags": ["dinner", "low-glycemic"],
+    "tags": [
+      "dinner",
+      "low-glycemic"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "달걀", "en": "Egg" },
+        "name": {
+          "ko": "달걀",
+          "en": "Egg"
+        },
         "amount": "3개",
-        "tags": ["egg"],
-        "benefits": { "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.", "en": "A food that provides protein along with a range of vitamins." }
+        "tags": [
+          "egg"
+        ],
+        "benefits": {
+          "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.",
+          "en": "A food that provides protein along with a range of vitamins."
+        }
       },
       {
-        "name": { "ko": "시금치", "en": "Spinach" },
+        "name": {
+          "ko": "시금치",
+          "en": "Spinach"
+        },
         "amount": "60g",
-        "tags": ["leafy-green"],
-        "benefits": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "철분과 엽산이 들어 있는 잎채소예요.",
+          "en": "A leafy green that contains iron and folate."
+        },
+        "substituteGroupId": "sub-spinach"
       },
       {
-        "name": { "ko": "양파", "en": "Onion" },
+        "name": {
+          "ko": "양파",
+          "en": "Onion"
+        },
         "amount": "50g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
+          "en": "Contains quercetin, a plant compound found in many vegetables."
+        }
       },
       {
-        "name": { "ko": "방울토마토", "en": "Cherry tomatoes" },
+        "name": {
+          "ko": "방울토마토",
+          "en": "Cherry tomatoes"
+        },
         "amount": "60g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
+          "en": "Contains lycopene, an antioxidant compound."
+        },
+        "substituteGroupId": "sub-cherry-tomatoes"
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "10ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "양파 50g을 잘게 썬다.", "en": "Dice 50g of onion." } },
-      { "order": 2, "instruction": { "ko": "달걀 3개를 그릇에 깨서 넣고 잘 푼다.", "en": "Crack 3 eggs into a bowl and beat well." } },
-      { "order": 3, "instruction": { "ko": "팬을 중약불에 올리고 올리브유 10ml를 두른다.", "en": "Heat a pan over medium-low heat and add 10ml of olive oil." } },
-      { "order": 4, "instruction": { "ko": "양파를 넣고 2분간 볶는다.", "en": "Add the onion and sauté for 2 minutes." } },
-      { "order": 5, "instruction": { "ko": "시금치 60g을 넣고 숨이 죽을 때까지 1분간 볶는다.", "en": "Add 60g of spinach and sauté for 1 minute until wilted." } },
-      { "order": 6, "instruction": { "ko": "풀어둔 달걀물을 팬에 붓는다.", "en": "Pour the beaten eggs into the pan." } },
-      { "order": 7, "instruction": { "ko": "방울토마토 60g을 반으로 잘라 올린다.", "en": "Halve 60g of cherry tomatoes and arrange them on top." } },
-      { "order": 8, "instruction": { "ko": "뚜껑을 덮고 약불에서 8분간 익힌다.", "en": "Cover and cook on low heat for 8 minutes." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "양파 50g을 잘게 썬다.",
+          "en": "Dice 50g of onion."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "달걀 3개를 그릇에 깨서 넣고 잘 푼다.",
+          "en": "Crack 3 eggs into a bowl and beat well."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "팬을 중약불에 올리고 올리브유 10ml를 두른다.",
+          "en": "Heat a pan over medium-low heat and add 10ml of olive oil."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "양파를 넣고 2분간 볶는다.",
+          "en": "Add the onion and sauté for 2 minutes."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "시금치 60g을 넣고 숨이 죽을 때까지 1분간 볶는다.",
+          "en": "Add 60g of spinach and sauté for 1 minute until wilted."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "풀어둔 달걀물을 팬에 붓는다.",
+          "en": "Pour the beaten eggs into the pan."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "방울토마토 60g을 반으로 잘라 올린다.",
+          "en": "Halve 60g of cherry tomatoes and arrange them on top."
+        }
+      },
+      {
+        "order": 8,
+        "instruction": {
+          "ko": "뚜껑을 덮고 약불에서 8분간 익힌다.",
+          "en": "Cover and cook on low heat for 8 minutes."
+        }
+      }
     ]
   },
   {
     "id": "lentil-tomato-stew",
     "slug": "lentil-tomato-stew",
-    "title": { "ko": "렌틸 토마토 스튜", "en": "Lentil Tomato Stew" },
+    "title": {
+      "ko": "렌틸 토마토 스튜",
+      "en": "Lentil Tomato Stew"
+    },
     "description": {
       "ko": "렌틸콩을 토마토와 함께 끓여낸 지중해식 스튜입니다.",
       "en": "A Mediterranean stew of lentils simmered with tomatoes."
     },
-    "tags": ["dinner", "low-glycemic", "plant-based"],
+    "tags": [
+      "dinner",
+      "low-glycemic",
+      "plant-based"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "렌틸콩", "en": "Lentils" },
+        "name": {
+          "ko": "렌틸콩",
+          "en": "Lentils"
+        },
         "amount": "90g",
-        "tags": ["legume"],
+        "tags": [
+          "legume"
+        ],
         "substituteGroupId": "sub-lentils",
-        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "benefits": {
+          "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
+          "en": "A legume rich in plant-based protein and fiber."
+        }
       },
       {
-        "name": { "ko": "토마토", "en": "Tomato" },
+        "name": {
+          "ko": "토마토",
+          "en": "Tomato"
+        },
         "amount": "120g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
+          "en": "Contains lycopene, an antioxidant compound."
+        },
+        "substituteGroupId": "sub-tomato"
       },
       {
-        "name": { "ko": "양파", "en": "Onion" },
+        "name": {
+          "ko": "양파",
+          "en": "Onion"
+        },
         "amount": "50g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
+          "en": "Contains quercetin, a plant compound found in many vegetables."
+        }
       },
       {
-        "name": { "ko": "시금치", "en": "Spinach" },
+        "name": {
+          "ko": "시금치",
+          "en": "Spinach"
+        },
         "amount": "50g",
-        "tags": ["leafy-green"],
-        "benefits": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "철분과 엽산이 들어 있는 잎채소예요.",
+          "en": "A leafy green that contains iron and folate."
+        },
+        "substituteGroupId": "sub-spinach"
       },
       {
-        "name": { "ko": "올리브유", "en": "Olive oil" },
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil"
+        },
         "amount": "10ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat."
+        },
+        "substituteGroupId": "sub-olive-oil"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "양파 50g을 잘게 썬다.", "en": "Dice 50g of onion." } },
-      { "order": 2, "instruction": { "ko": "토마토 120g을 큼직하게 썬다.", "en": "Roughly chop 120g of tomato." } },
-      { "order": 3, "instruction": { "ko": "냄비를 중불에 올리고 올리브유 10ml를 두른다.", "en": "Heat a pot over medium heat and add 10ml of olive oil." } },
-      { "order": 4, "instruction": { "ko": "양파를 넣고 2분간 볶는다.", "en": "Add the onion and sauté for 2 minutes." } },
-      { "order": 5, "instruction": { "ko": "썰어둔 토마토를 넣고 2분간 더 볶는다.", "en": "Add the chopped tomato and sauté for 2 more minutes." } },
-      { "order": 6, "instruction": { "ko": "렌틸콩 90g과 물 200ml를 넣는다.", "en": "Add 90g of lentils and 200ml of water." } },
-      { "order": 7, "instruction": { "ko": "끓어오르면 약불로 줄여 25분간 끓인다.", "en": "Once it boils, reduce to low heat and simmer for 25 minutes." } },
-      { "order": 8, "instruction": { "ko": "시금치 50g을 넣고 1분간 저어 숨을 죽인다.", "en": "Add 50g of spinach and stir for 1 minute until wilted." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "양파 50g을 잘게 썬다.",
+          "en": "Dice 50g of onion."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "토마토 120g을 큼직하게 썬다.",
+          "en": "Roughly chop 120g of tomato."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "냄비를 중불에 올리고 올리브유 10ml를 두른다.",
+          "en": "Heat a pot over medium heat and add 10ml of olive oil."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "양파를 넣고 2분간 볶는다.",
+          "en": "Add the onion and sauté for 2 minutes."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "썰어둔 토마토를 넣고 2분간 더 볶는다.",
+          "en": "Add the chopped tomato and sauté for 2 more minutes."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "렌틸콩 90g과 물 200ml를 넣는다.",
+          "en": "Add 90g of lentils and 200ml of water."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "끓어오르면 약불로 줄여 25분간 끓인다.",
+          "en": "Once it boils, reduce to low heat and simmer for 25 minutes."
+        }
+      },
+      {
+        "order": 8,
+        "instruction": {
+          "ko": "시금치 50g을 넣고 1분간 저어 숨을 죽인다.",
+          "en": "Add 50g of spinach and stir for 1 minute until wilted."
+        }
+      }
     ]
   },
   {
     "id": "grilled-mackerel-daikon-bowl",
     "slug": "grilled-mackerel-daikon-bowl",
-    "title": { "ko": "고등어 구이와 데친 채소", "en": "Grilled Mackerel with Greens" },
+    "title": {
+      "ko": "고등어 구이와 데친 채소",
+      "en": "Grilled Mackerel with Greens"
+    },
     "description": {
       "ko": "고등어를 구워 데친 채소와 함께 낸 저녁 한 상입니다.",
       "en": "Grilled mackerel served with blanched greens."
     },
-    "tags": ["dinner", "low-glycemic"],
+    "tags": [
+      "dinner",
+      "low-glycemic"
+    ],
     "ingredients": [
       {
-        "name": { "ko": "고등어", "en": "Mackerel" },
+        "name": {
+          "ko": "고등어",
+          "en": "Mackerel"
+        },
         "amount": "120g",
-        "tags": ["fish", "healthy-fat"],
+        "tags": [
+          "fish",
+          "healthy-fat"
+        ],
         "substituteGroupId": "sub-mackerel",
-        "benefits": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
+        "benefits": {
+          "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
+          "en": "Rich in omega-3 fatty acids, which may support heart health."
+        }
       },
       {
-        "name": { "ko": "시금치", "en": "Spinach" },
+        "name": {
+          "ko": "시금치",
+          "en": "Spinach"
+        },
         "amount": "80g",
-        "tags": ["leafy-green"],
-        "benefits": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "철분과 엽산이 들어 있는 잎채소예요.",
+          "en": "A leafy green that contains iron and folate."
+        },
+        "substituteGroupId": "sub-spinach"
       },
       {
-        "name": { "ko": "현미밥", "en": "Cooked brown rice" },
+        "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice"
+        },
         "amount": "80g",
-        "tags": ["whole-grain"],
-        "benefits": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice."
+        },
+        "substituteGroupId": "sub-brown-rice"
       },
       {
-        "name": { "ko": "무", "en": "Daikon radish" },
+        "name": {
+          "ko": "무",
+          "en": "Daikon radish"
+        },
         "amount": "50g",
-        "tags": ["vegetable"],
-        "benefits": { "ko": "수분 함량이 높고 소화 효소가 들어 있다고 알려진 뿌리채소예요.", "en": "A root vegetable known for its high water content and natural digestive enzymes." }
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "수분 함량이 높고 소화 효소가 들어 있다고 알려진 뿌리채소예요.",
+          "en": "A root vegetable known for its high water content and natural digestive enzymes."
+        },
+        "substituteGroupId": "sub-daikon-radish"
       },
       {
-        "name": { "ko": "들기름", "en": "Perilla oil" },
+        "name": {
+          "ko": "들기름",
+          "en": "Perilla oil"
+        },
         "amount": "5ml",
-        "tags": ["healthy-fat"],
-        "benefits": { "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of omega-3 fatty acids." }
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of omega-3 fatty acids."
+        },
+        "substituteGroupId": "sub-perilla-oil"
       }
     ],
     "steps": [
-      { "order": 1, "instruction": { "ko": "팬을 중불에 올려 달군다.", "en": "Heat a pan over medium heat." } },
-      { "order": 2, "instruction": { "ko": "고등어 120g을 껍질 쪽부터 올린다.", "en": "Place the 120g mackerel skin-side down." } },
-      { "order": 3, "instruction": { "ko": "소금은 아주 조금만 뿌린다.", "en": "Sprinkle on just a small pinch of salt." } },
-      { "order": 4, "instruction": { "ko": "4분간 굽는다.", "en": "Cook for 4 minutes." } },
-      { "order": 5, "instruction": { "ko": "뒤집어서 4분 더 굽는다.", "en": "Flip and cook for another 4 minutes." } },
-      { "order": 6, "instruction": { "ko": "무 50g을 강판에 간다.", "en": "Grate 50g of daikon radish." } },
-      { "order": 7, "instruction": { "ko": "냄비에 물을 끓여 시금치 80g을 30초간 데친다.", "en": "Boil water in a pot and blanch 80g of spinach for 30 seconds." } },
-      { "order": 8, "instruction": { "ko": "데친 시금치의 물기를 짜고 들기름 5ml로 무친다.", "en": "Squeeze the water out of the spinach and dress it with 5ml of perilla oil." } },
-      { "order": 9, "instruction": { "ko": "현미밥 80g, 구운 고등어, 무친 시금치, 간 무를 그릇에 함께 담는다.", "en": "Plate the brown rice, grilled mackerel, dressed spinach, and grated daikon together." } }
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "팬을 중불에 올려 달군다.",
+          "en": "Heat a pan over medium heat."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "고등어 120g을 껍질 쪽부터 올린다.",
+          "en": "Place the 120g mackerel skin-side down."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "소금은 아주 조금만 뿌린다.",
+          "en": "Sprinkle on just a small pinch of salt."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "4분간 굽는다.",
+          "en": "Cook for 4 minutes."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "뒤집어서 4분 더 굽는다.",
+          "en": "Flip and cook for another 4 minutes."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "무 50g을 강판에 간다.",
+          "en": "Grate 50g of daikon radish."
+        }
+      },
+      {
+        "order": 7,
+        "instruction": {
+          "ko": "냄비에 물을 끓여 시금치 80g을 30초간 데친다.",
+          "en": "Boil water in a pot and blanch 80g of spinach for 30 seconds."
+        }
+      },
+      {
+        "order": 8,
+        "instruction": {
+          "ko": "데친 시금치의 물기를 짜고 들기름 5ml로 무친다.",
+          "en": "Squeeze the water out of the spinach and dress it with 5ml of perilla oil."
+        }
+      },
+      {
+        "order": 9,
+        "instruction": {
+          "ko": "현미밥 80g, 구운 고등어, 무친 시금치, 간 무를 그릇에 함께 담는다.",
+          "en": "Plate the brown rice, grilled mackerel, dressed spinach, and grated daikon together."
+        }
+      }
     ]
   }
 ]
