@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import IngredientRow from "@/components/IngredientRow";
+import IngredientChecklist from "@/components/IngredientChecklist";
 import ScoreBreakdown from "@/components/ScoreBreakdown";
 import { getRecipeBySlug, getRecipeLongevityScore, recipes } from "@/lib/data";
 import { getDictionary, localizedText, type Locale } from "@/lib/i18n";
@@ -35,18 +35,7 @@ export default async function RecipeDetailPage({
           </p>
         </div>
 
-        <ScoreBreakdown score={score} locale={locale} />
-
-        <section className="flex flex-col gap-3">
-          <h2 className="text-sm font-semibold text-zinc-500 dark:text-zinc-400">
-            {t.recipe.ingredientsTitle}
-          </h2>
-          <ul className="flex flex-col gap-2">
-            {recipe.ingredients.map((ingredient, index) => (
-              <IngredientRow key={index} ingredient={ingredient} locale={locale} />
-            ))}
-          </ul>
-        </section>
+        <IngredientChecklist recipeId={recipe.id} ingredients={recipe.ingredients} locale={locale} />
 
         <section className="flex flex-col gap-3">
           <h2 className="text-sm font-semibold text-zinc-500 dark:text-zinc-400">
@@ -78,6 +67,8 @@ export default async function RecipeDetailPage({
               ))}
           </ol>
         </section>
+
+        <ScoreBreakdown score={score} locale={locale} />
       </main>
       <footer className="border-t border-zinc-200 bg-white px-4 py-4 dark:border-zinc-800 dark:bg-zinc-950">
         <p className="mx-auto max-w-xl text-xs leading-relaxed text-zinc-500 dark:text-zinc-400">

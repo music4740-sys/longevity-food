@@ -4,6 +4,7 @@
     "disclaimer": "이 콘텐츠는 의학적 진단, 치료 또는 처방을 대체하지 않습니다. 건강 상태에 따라 전문의와 상담하세요.",
     "langToggle": "언어",
     "cartEmpty": "장바구니가 비어 있어요.",
+    "cartTitle": "장바구니",
     "settingsTitle": "설정",
     "settingsLanguageLabel": "언어"
   },
@@ -38,6 +39,7 @@
     },
     "ingredientsTitle": "재료",
     "stepsTitle": "조리 순서",
+    "addToCart": "장바구니 추가",
     "substitutesToggle": "국가별 대체재 보기"
   },
   "ingredientTags": {

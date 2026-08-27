@@ -1,3 +1,5 @@
+"use client";
+
 import { getSubstituteGroupById } from "@/lib/data";
 import { getDictionary, ingredientTagLabel, localizedText, type Locale } from "@/lib/i18n";
 import type { Ingredient } from "@/types";
@@ -5,9 +7,11 @@ import type { Ingredient } from "@/types";
 interface IngredientRowProps {
   ingredient: Ingredient;
   locale: Locale;
+  checked: boolean;
+  onToggle: () => void;
 }
 
-export default function IngredientRow({ ingredient, locale }: IngredientRowProps) {
+export default function IngredientRow({ ingredient, locale, checked, onToggle }: IngredientRowProps) {
   const t = getDictionary(locale);
   const substituteGroup = ingredient.substituteGroupId
     ? getSubstituteGroupById(ingredient.substituteGroupId)
@@ -16,9 +20,17 @@ export default function IngredientRow({ ingredient, locale }: IngredientRowProps
   return (
     <li className="flex flex-col gap-2 rounded-xl border border-zinc-200 bg-white p-3 dark:border-zinc-800 dark:bg-zinc-900">
       <div className="flex items-baseline justify-between gap-3">
-        <span className="font-medium text-zinc-900 dark:text-zinc-50">
-          {localizedText(ingredient.name, locale)}
-        </span>
+        <label className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={checked}
+            onChange={onToggle}
+            className="h-4 w-4 shrink-0 accent-emerald-600"
+          />
+          <span className="font-medium text-zinc-900 dark:text-zinc-50">
+            {localizedText(ingredient.name, locale)}
+          </span>
+        </label>
         <span className="shrink-0 text-sm text-zinc-500 dark:text-zinc-400">{ingredient.amount}</span>
       </div>
 

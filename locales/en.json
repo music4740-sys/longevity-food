@@ -4,6 +4,7 @@
     "disclaimer": "This content is not a substitute for medical diagnosis, treatment, or prescription. Please consult a healthcare professional based on your health condition.",
     "langToggle": "Language",
     "cartEmpty": "Your cart is empty.",
+    "cartTitle": "Cart",
     "settingsTitle": "Settings",
     "settingsLanguageLabel": "Language"
   },
@@ -38,6 +39,7 @@
     },
     "ingredientsTitle": "Ingredients",
     "stepsTitle": "Steps",
+    "addToCart": "Add to Cart",
     "substitutesToggle": "View substitutes by country"
   },
   "ingredientTags": {
