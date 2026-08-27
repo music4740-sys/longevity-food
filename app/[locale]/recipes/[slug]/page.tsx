@@ -64,9 +64,16 @@ export default async function RecipeDetailPage({
                   <span className="font-semibold text-emerald-700 dark:text-emerald-400">
                     {step.order}
                   </span>
-                  <span className="text-zinc-800 dark:text-zinc-200">
-                    {localizedText(step.instruction, locale)}
-                  </span>
+                  <div className="flex flex-col gap-1">
+                    <span className="text-zinc-800 dark:text-zinc-200">
+                      {localizedText(step.instruction, locale)}
+                    </span>
+                    {step.detail && (
+                      <span className="text-xs text-zinc-500 dark:text-zinc-400">
+                        {localizedText(step.detail, locale)}
+                      </span>
+                    )}
+                  </div>
                 </li>
               ))}
           </ol>

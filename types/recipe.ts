@@ -9,12 +9,14 @@ export interface Ingredient {
   /** Links to a SubstituteGroup.id in /data/substitutes.json, if a country-specific swap exists */
   substituteGroupId?: string;
   /** Short, hedged explanation of why this ingredient is included (not a treatment claim) */
-  healthNote?: LocalizedText;
+  benefits?: LocalizedText;
 }
 
 export interface RecipeStep {
   order: number;
   instruction: LocalizedText;
+  /** Optional supplementary explanation shown below the main instruction */
+  detail?: LocalizedText;
 }
 
 export interface Recipe {

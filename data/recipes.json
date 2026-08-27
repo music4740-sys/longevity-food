@@ -14,25 +14,25 @@
         "amount": "50g",
         "tags": ["whole-grain"],
         "substituteGroupId": "sub-oats",
-        "healthNote": { "ko": "베타글루칸이라는 식이섬유가 풍부해 포만감 유지에 도움이 될 수 있어요.", "en": "Rich in beta-glucan fiber, which may help you feel fuller for longer." }
+        "benefits": { "ko": "베타글루칸이라는 식이섬유가 풍부해 포만감 유지에 도움이 될 수 있어요.", "en": "Rich in beta-glucan fiber, which may help you feel fuller for longer." }
       },
       {
         "name": { "ko": "블루베리", "en": "Blueberries" },
         "amount": "40g",
         "tags": ["fruit"],
-        "healthNote": { "ko": "안토시아닌이라는 항산화 성분이 풍부한 과일이에요.", "en": "Rich in anthocyanins, antioxidant compounds found in dark berries." }
+        "benefits": { "ko": "안토시아닌이라는 항산화 성분이 풍부한 과일이에요.", "en": "Rich in anthocyanins, antioxidant compounds found in dark berries." }
       },
       {
         "name": { "ko": "아몬드", "en": "Almonds" },
         "amount": "10g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
+        "benefits": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
       },
       {
         "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
         "amount": "150ml",
         "tags": [],
-        "healthNote": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
+        "benefits": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
       }
     ],
     "steps": [
@@ -60,25 +60,25 @@
         "amount": "80g",
         "tags": ["legume"],
         "substituteGroupId": "sub-lentils",
-        "healthNote": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
       },
       {
         "name": { "ko": "양파", "en": "Onion" },
         "amount": "50g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
+        "benefits": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
       },
       {
         "name": { "ko": "당근", "en": "Carrot" },
         "amount": "40g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
+        "benefits": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
       },
       {
         "name": { "ko": "채소 육수", "en": "Vegetable stock" },
         "amount": "300ml",
         "tags": ["high-sodium"],
-        "healthNote": { "ko": "감칠맛을 더해주지만 시판 제품은 나트륨이 있는 편이라 조금만 써요.", "en": "Adds savory depth, but store-bought versions tend to be higher in sodium, so use it sparingly." }
+        "benefits": { "ko": "감칠맛을 더해주지만 시판 제품은 나트륨이 있는 편이라 조금만 써요.", "en": "Adds savory depth, but store-bought versions tend to be higher in sodium, so use it sparingly." }
       }
     ],
     "steps": [
@@ -106,25 +106,25 @@
         "amount": "120g",
         "tags": ["fish", "healthy-fat"],
         "substituteGroupId": "sub-mackerel",
-        "healthNote": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
+        "benefits": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
       },
       {
         "name": { "ko": "브로콜리", "en": "Broccoli" },
         "amount": "80g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
+        "benefits": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "5ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       },
       {
         "name": { "ko": "레몬", "en": "Lemon" },
         "amount": "1/4개",
         "tags": ["fruit"],
-        "healthNote": { "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.", "en": "Rich in vitamin C and adds bright acidity." }
+        "benefits": { "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.", "en": "Rich in vitamin C and adds bright acidity." }
       }
     ],
     "steps": [
@@ -152,19 +152,19 @@
         "name": { "ko": "메밀쌀", "en": "Buckwheat groats" },
         "amount": "50g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "글루텐이 없는 통곡물로 식이섬유가 풍부해요.", "en": "A gluten-free whole grain that's a good source of fiber." }
+        "benefits": { "ko": "글루텐이 없는 통곡물로 식이섬유가 풍부해요.", "en": "A gluten-free whole grain that's a good source of fiber." }
       },
       {
         "name": { "ko": "사과", "en": "Apple" },
         "amount": "60g",
         "tags": ["fruit"],
-        "healthNote": { "ko": "식이섬유인 펙틴이 풍부한 과일이에요.", "en": "Rich in pectin, a type of dietary fiber." }
+        "benefits": { "ko": "식이섬유인 펙틴이 풍부한 과일이에요.", "en": "Rich in pectin, a type of dietary fiber." }
       },
       {
         "name": { "ko": "호두", "en": "Walnuts" },
         "amount": "10g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "오메가-3 지방산이 들어 있는 견과류예요.", "en": "A nut that contains omega-3 fatty acids." }
+        "benefits": { "ko": "오메가-3 지방산이 들어 있는 견과류예요.", "en": "A nut that contains omega-3 fatty acids." }
       },
       {
         "name": { "ko": "물", "en": "Water" },
@@ -196,25 +196,25 @@
         "name": { "ko": "치아씨드", "en": "Chia seeds" },
         "amount": "25g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "물에 불리면 부풀어 오르는 씨앗으로 식이섬유가 풍부해요.", "en": "Swells when soaked in liquid and is a good source of fiber." }
+        "benefits": { "ko": "물에 불리면 부풀어 오르는 씨앗으로 식이섬유가 풍부해요.", "en": "Swells when soaked in liquid and is a good source of fiber." }
       },
       {
         "name": { "ko": "라즈베리", "en": "Raspberries" },
         "amount": "40g",
         "tags": ["fruit"],
-        "healthNote": { "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.", "en": "A berry rich in fiber and antioxidant compounds." }
+        "benefits": { "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.", "en": "A berry rich in fiber and antioxidant compounds." }
       },
       {
         "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
         "amount": "150ml",
         "tags": [],
-        "healthNote": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
+        "benefits": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
       },
       {
         "name": { "ko": "계피가루", "en": "Ground cinnamon" },
         "amount": "1g",
         "tags": [],
-        "healthNote": { "ko": "향신료로 소량만 써도 단맛 없이 풍미를 더할 수 있어요.", "en": "A spice that adds flavor without needing added sugar." }
+        "benefits": { "ko": "향신료로 소량만 써도 단맛 없이 풍미를 더할 수 있어요.", "en": "A spice that adds flavor without needing added sugar." }
       }
     ],
     "steps": [
@@ -241,19 +241,19 @@
         "name": { "ko": "찰보리", "en": "Pearl barley" },
         "amount": "50g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
+        "benefits": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
       },
       {
         "name": { "ko": "배", "en": "Pear" },
         "amount": "60g",
         "tags": ["fruit"],
-        "healthNote": { "ko": "수분과 식이섬유가 풍부한 과일이에요.", "en": "A fruit with high water content and dietary fiber." }
+        "benefits": { "ko": "수분과 식이섬유가 풍부한 과일이에요.", "en": "A fruit with high water content and dietary fiber." }
       },
       {
         "name": { "ko": "아몬드", "en": "Almonds" },
         "amount": "10g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
+        "benefits": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
       },
       {
         "name": { "ko": "물", "en": "Water" },
@@ -284,25 +284,25 @@
         "name": { "ko": "퀴노아", "en": "Quinoa" },
         "amount": "50g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
+        "benefits": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
       },
       {
         "name": { "ko": "블랙베리", "en": "Blackberries" },
         "amount": "40g",
         "tags": ["fruit"],
-        "healthNote": { "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.", "en": "A berry rich in fiber and antioxidant compounds." }
+        "benefits": { "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.", "en": "A berry rich in fiber and antioxidant compounds." }
       },
       {
         "name": { "ko": "호박씨", "en": "Pumpkin seeds" },
         "amount": "10g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "마그네슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains magnesium and unsaturated fats." }
+        "benefits": { "ko": "마그네슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains magnesium and unsaturated fats." }
       },
       {
         "name": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
         "amount": "120ml",
         "tags": [],
-        "healthNote": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
+        "benefits": { "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.", "en": "An unsweetened plant-based milk alternative with no added sugar." }
       }
     ],
     "steps": [
@@ -328,19 +328,19 @@
         "name": { "ko": "호밀 플레이크", "en": "Rye flakes" },
         "amount": "50g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "식이섬유가 풍부한 통곡물로 포만감 유지에 도움이 될 수 있어요.", "en": "A fiber-rich whole grain that may help with satiety." }
+        "benefits": { "ko": "식이섬유가 풍부한 통곡물로 포만감 유지에 도움이 될 수 있어요.", "en": "A fiber-rich whole grain that may help with satiety." }
       },
       {
         "name": { "ko": "무화과", "en": "Fig" },
         "amount": "40g",
         "tags": ["fruit"],
-        "healthNote": { "ko": "식이섬유와 칼륨이 들어 있는 과일이에요.", "en": "Contains dietary fiber and potassium." }
+        "benefits": { "ko": "식이섬유와 칼륨이 들어 있는 과일이에요.", "en": "Contains dietary fiber and potassium." }
       },
       {
         "name": { "ko": "헤이즐넛", "en": "Hazelnuts" },
         "amount": "10g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
+        "benefits": { "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.", "en": "Contains unsaturated fats and vitamin E." }
       },
       {
         "name": { "ko": "물", "en": "Water" },
@@ -372,19 +372,19 @@
         "name": { "ko": "좁쌀", "en": "Millet" },
         "amount": "50g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "글루텐이 없는 잡곡으로 소화가 비교적 편한 편이에요.", "en": "A gluten-free grain that's generally easy to digest." }
+        "benefits": { "ko": "글루텐이 없는 잡곡으로 소화가 비교적 편한 편이에요.", "en": "A gluten-free grain that's generally easy to digest." }
       },
       {
         "name": { "ko": "자두", "en": "Plum" },
         "amount": "50g",
         "tags": ["fruit"],
-        "healthNote": { "ko": "식이섬유와 항산화 성분이 들어 있는 과일이에요.", "en": "Contains dietary fiber and antioxidant compounds." }
+        "benefits": { "ko": "식이섬유와 항산화 성분이 들어 있는 과일이에요.", "en": "Contains dietary fiber and antioxidant compounds." }
       },
       {
         "name": { "ko": "해바라기씨", "en": "Sunflower seeds" },
         "amount": "10g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "비타민 E와 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains vitamin E and unsaturated fats." }
+        "benefits": { "ko": "비타민 E와 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains vitamin E and unsaturated fats." }
       },
       {
         "name": { "ko": "물", "en": "Water" },
@@ -417,37 +417,37 @@
         "amount": "70g",
         "tags": ["legume"],
         "substituteGroupId": "sub-lentils",
-        "healthNote": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
       },
       {
         "name": { "ko": "찰보리", "en": "Pearl barley" },
         "amount": "50g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
+        "benefits": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
       },
       {
         "name": { "ko": "방울토마토", "en": "Cherry tomatoes" },
         "amount": "60g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
+        "benefits": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
       },
       {
         "name": { "ko": "루꼴라", "en": "Arugula" },
         "amount": "40g",
         "tags": ["leafy-green"],
-        "healthNote": { "ko": "잎채소 중에서도 칼슘과 비타민 K가 있는 편이에요.", "en": "A leafy green that provides calcium and vitamin K." }
+        "benefits": { "ko": "잎채소 중에서도 칼슘과 비타민 K가 있는 편이에요.", "en": "A leafy green that provides calcium and vitamin K." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "10ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       },
       {
         "name": { "ko": "레몬즙", "en": "Lemon juice" },
         "amount": "10ml",
         "tags": [],
-        "healthNote": { "ko": "비타민 C를 더해주고 소금 없이도 감칠맛을 살려줘요.", "en": "Adds vitamin C and brightens flavor without needing extra salt." }
+        "benefits": { "ko": "비타민 C를 더해주고 소금 없이도 감칠맛을 살려줘요.", "en": "Adds vitamin C and brightens flavor without needing extra salt." }
       }
     ],
     "steps": [
@@ -474,31 +474,31 @@
         "name": { "ko": "병아리콩", "en": "Chickpeas" },
         "amount": "80g",
         "tags": ["legume"],
-        "healthNote": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
       },
       {
         "name": { "ko": "케일", "en": "Kale" },
         "amount": "60g",
         "tags": ["leafy-green"],
-        "healthNote": { "ko": "비타민 K와 비타민 C가 풍부한 잎채소예요.", "en": "A leafy green rich in vitamin K and vitamin C." }
+        "benefits": { "ko": "비타민 K와 비타민 C가 풍부한 잎채소예요.", "en": "A leafy green rich in vitamin K and vitamin C." }
       },
       {
         "name": { "ko": "현미밥", "en": "Cooked brown rice" },
         "amount": "100g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
+        "benefits": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "10ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       },
       {
         "name": { "ko": "마늘", "en": "Garlic" },
         "amount": "5g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "알리신이라는 화합물이 들어 있는 향신채예요.", "en": "Contains allicin, a compound formed when garlic is crushed." }
+        "benefits": { "ko": "알리신이라는 화합물이 들어 있는 향신채예요.", "en": "Contains allicin, a compound formed when garlic is crushed." }
       }
     ],
     "steps": [
@@ -526,31 +526,31 @@
         "name": { "ko": "메밀국수", "en": "Buckwheat noodles" },
         "amount": "70g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "메밀로 만들어 정제 밀가루 면보다 식이섬유가 더 있는 편이에요.", "en": "Made from buckwheat, so it retains more fiber than noodles made from refined flour." }
+        "benefits": { "ko": "메밀로 만들어 정제 밀가루 면보다 식이섬유가 더 있는 편이에요.", "en": "Made from buckwheat, so it retains more fiber than noodles made from refined flour." }
       },
       {
         "name": { "ko": "두부", "en": "Firm tofu" },
         "amount": "100g",
         "tags": ["legume"],
-        "healthNote": { "ko": "콩으로 만든 식물성 단백질 식품이에요.", "en": "A plant-based protein food made from soybeans." }
+        "benefits": { "ko": "콩으로 만든 식물성 단백질 식품이에요.", "en": "A plant-based protein food made from soybeans." }
       },
       {
         "name": { "ko": "오이", "en": "Cucumber" },
         "amount": "50g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "수분 함량이 높은 채소예요.", "en": "A vegetable with high water content." }
+        "benefits": { "ko": "수분 함량이 높은 채소예요.", "en": "A vegetable with high water content." }
       },
       {
         "name": { "ko": "참깨", "en": "Sesame seeds" },
         "amount": "5g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains calcium and unsaturated fats." }
+        "benefits": { "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains calcium and unsaturated fats." }
       },
       {
         "name": { "ko": "참기름", "en": "Sesame oil" },
         "amount": "5ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "볶은 참깨로 만들어 소량으로도 고소한 향을 더해줘요.", "en": "Made from toasted sesame seeds; a little goes a long way for flavor." }
+        "benefits": { "ko": "볶은 참깨로 만들어 소량으로도 고소한 향을 더해줘요.", "en": "Made from toasted sesame seeds; a little goes a long way for flavor." }
       }
     ],
     "steps": [
@@ -577,31 +577,31 @@
         "name": { "ko": "흰강낭콩", "en": "White beans" },
         "amount": "80g",
         "tags": ["legume"],
-        "healthNote": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
       },
       {
         "name": { "ko": "퀴노아", "en": "Quinoa" },
         "amount": "50g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
+        "benefits": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
       },
       {
         "name": { "ko": "애호박", "en": "Zucchini" },
         "amount": "70g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "수분 함량이 높고 열량이 낮은 채소예요.", "en": "A vegetable that's high in water content and low in calories." }
+        "benefits": { "ko": "수분 함량이 높고 열량이 낮은 채소예요.", "en": "A vegetable that's high in water content and low in calories." }
       },
       {
         "name": { "ko": "파프리카", "en": "Bell pepper" },
         "amount": "50g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "비타민 C가 풍부한 채소예요.", "en": "A vegetable rich in vitamin C." }
+        "benefits": { "ko": "비타민 C가 풍부한 채소예요.", "en": "A vegetable rich in vitamin C." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "10ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       }
     ],
     "steps": [
@@ -628,31 +628,31 @@
         "name": { "ko": "달걀", "en": "Egg" },
         "amount": "2개",
         "tags": ["egg"],
-        "healthNote": { "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.", "en": "A food that provides protein along with a range of vitamins." }
+        "benefits": { "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.", "en": "A food that provides protein along with a range of vitamins." }
       },
       {
         "name": { "ko": "보리밥", "en": "Cooked barley" },
         "amount": "100g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
+        "benefits": { "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.", "en": "A whole grain rich in beta-glucan fiber." }
       },
       {
         "name": { "ko": "시금치", "en": "Spinach" },
         "amount": "60g",
         "tags": ["leafy-green"],
-        "healthNote": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
+        "benefits": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
       },
       {
         "name": { "ko": "당근", "en": "Carrot" },
         "amount": "40g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
+        "benefits": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
       },
       {
         "name": { "ko": "들기름", "en": "Perilla oil" },
         "amount": "5ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of omega-3 fatty acids." }
+        "benefits": { "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of omega-3 fatty acids." }
       }
     ],
     "steps": [
@@ -680,31 +680,31 @@
         "name": { "ko": "풋콩", "en": "Edamame" },
         "amount": "90g",
         "tags": ["legume"],
-        "healthNote": { "ko": "식물성 단백질이 풍부한 덜 여문 콩이에요.", "en": "Young soybeans that are a good source of plant-based protein." }
+        "benefits": { "ko": "식물성 단백질이 풍부한 덜 여문 콩이에요.", "en": "Young soybeans that are a good source of plant-based protein." }
       },
       {
         "name": { "ko": "현미밥", "en": "Cooked brown rice" },
         "amount": "100g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
+        "benefits": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
       },
       {
         "name": { "ko": "브로콜리", "en": "Broccoli" },
         "amount": "70g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
+        "benefits": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
       },
       {
         "name": { "ko": "아보카도", "en": "Avocado" },
         "amount": "40g",
         "tags": ["fruit", "healthy-fat"],
-        "healthNote": { "ko": "불포화지방이 풍부한 과일이에요.", "en": "A fruit rich in unsaturated fat." }
+        "benefits": { "ko": "불포화지방이 풍부한 과일이에요.", "en": "A fruit rich in unsaturated fat." }
       },
       {
         "name": { "ko": "참깨", "en": "Sesame seeds" },
         "amount": "5g",
         "tags": ["nuts-seeds", "healthy-fat"],
-        "healthNote": { "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains calcium and unsaturated fats." }
+        "benefits": { "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.", "en": "Contains calcium and unsaturated fats." }
       }
     ],
     "steps": [
@@ -731,31 +731,31 @@
         "name": { "ko": "닭가슴살", "en": "Chicken breast" },
         "amount": "120g",
         "tags": ["poultry"],
-        "healthNote": { "ko": "지방이 적은 편인 단백질 식재료예요.", "en": "A relatively lean source of protein." }
+        "benefits": { "ko": "지방이 적은 편인 단백질 식재료예요.", "en": "A relatively lean source of protein." }
       },
       {
         "name": { "ko": "양파", "en": "Onion" },
         "amount": "60g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
+        "benefits": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
       },
       {
         "name": { "ko": "당근", "en": "Carrot" },
         "amount": "60g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
+        "benefits": { "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.", "en": "Rich in beta-carotene, which gives it its orange color." }
       },
       {
         "name": { "ko": "셀러리", "en": "Celery" },
         "amount": "40g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "수분 함량이 높고 아삭한 식감의 채소예요.", "en": "A crunchy vegetable with high water content." }
+        "benefits": { "ko": "수분 함량이 높고 아삭한 식감의 채소예요.", "en": "A crunchy vegetable with high water content." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "10ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       },
       {
         "name": { "ko": "물", "en": "Water" },
@@ -788,31 +788,31 @@
         "name": { "ko": "두부", "en": "Firm tofu" },
         "amount": "150g",
         "tags": ["legume"],
-        "healthNote": { "ko": "콩으로 만든 식물성 단백질 식품이에요.", "en": "A plant-based protein food made from soybeans." }
+        "benefits": { "ko": "콩으로 만든 식물성 단백질 식품이에요.", "en": "A plant-based protein food made from soybeans." }
       },
       {
         "name": { "ko": "표고버섯", "en": "Shiitake mushrooms" },
         "amount": "80g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "식이섬유와 비타민 D 전구체가 들어 있는 버섯이에요.", "en": "Contains fiber and a precursor to vitamin D." }
+        "benefits": { "ko": "식이섬유와 비타민 D 전구체가 들어 있는 버섯이에요.", "en": "Contains fiber and a precursor to vitamin D." }
       },
       {
         "name": { "ko": "청경채", "en": "Bok choy" },
         "amount": "70g",
         "tags": ["leafy-green"],
-        "healthNote": { "ko": "칼슘과 비타민 K가 들어 있는 잎채소예요.", "en": "A leafy green that contains calcium and vitamin K." }
+        "benefits": { "ko": "칼슘과 비타민 K가 들어 있는 잎채소예요.", "en": "A leafy green that contains calcium and vitamin K." }
       },
       {
         "name": { "ko": "현미밥", "en": "Cooked brown rice" },
         "amount": "80g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
+        "benefits": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "10ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       }
     ],
     "steps": [
@@ -840,31 +840,31 @@
         "name": { "ko": "연어", "en": "Salmon" },
         "amount": "120g",
         "tags": ["fish", "healthy-fat"],
-        "healthNote": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
+        "benefits": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
       },
       {
         "name": { "ko": "브로콜리", "en": "Broccoli" },
         "amount": "100g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
+        "benefits": { "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.", "en": "A cruciferous vegetable rich in vitamin C and fiber." }
       },
       {
         "name": { "ko": "퀴노아", "en": "Quinoa" },
         "amount": "50g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
+        "benefits": { "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.", "en": "A seed that, unlike most grains, contains a fairly complete protein profile." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "10ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       },
       {
         "name": { "ko": "레몬", "en": "Lemon" },
         "amount": "20g",
         "tags": ["fruit"],
-        "healthNote": { "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.", "en": "Rich in vitamin C and adds bright acidity." }
+        "benefits": { "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.", "en": "Rich in vitamin C and adds bright acidity." }
       }
     ],
     "steps": [
@@ -891,31 +891,31 @@
         "name": { "ko": "달걀", "en": "Egg" },
         "amount": "3개",
         "tags": ["egg"],
-        "healthNote": { "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.", "en": "A food that provides protein along with a range of vitamins." }
+        "benefits": { "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.", "en": "A food that provides protein along with a range of vitamins." }
       },
       {
         "name": { "ko": "시금치", "en": "Spinach" },
         "amount": "60g",
         "tags": ["leafy-green"],
-        "healthNote": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
+        "benefits": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
       },
       {
         "name": { "ko": "양파", "en": "Onion" },
         "amount": "50g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
+        "benefits": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
       },
       {
         "name": { "ko": "방울토마토", "en": "Cherry tomatoes" },
         "amount": "60g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
+        "benefits": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "10ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       }
     ],
     "steps": [
@@ -944,31 +944,31 @@
         "amount": "90g",
         "tags": ["legume"],
         "substituteGroupId": "sub-lentils",
-        "healthNote": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
+        "benefits": { "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.", "en": "A legume rich in plant-based protein and fiber." }
       },
       {
         "name": { "ko": "토마토", "en": "Tomato" },
         "amount": "120g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
+        "benefits": { "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.", "en": "Contains lycopene, an antioxidant compound." }
       },
       {
         "name": { "ko": "양파", "en": "Onion" },
         "amount": "50g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
+        "benefits": { "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.", "en": "Contains quercetin, a plant compound found in many vegetables." }
       },
       {
         "name": { "ko": "시금치", "en": "Spinach" },
         "amount": "50g",
         "tags": ["leafy-green"],
-        "healthNote": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
+        "benefits": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
       },
       {
         "name": { "ko": "올리브유", "en": "Olive oil" },
         "amount": "10ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
+        "benefits": { "ko": "불포화지방 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of unsaturated fat." }
       }
     ],
     "steps": [
@@ -997,31 +997,31 @@
         "amount": "120g",
         "tags": ["fish", "healthy-fat"],
         "substituteGroupId": "sub-mackerel",
-        "healthNote": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
+        "benefits": { "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.", "en": "Rich in omega-3 fatty acids, which may support heart health." }
       },
       {
         "name": { "ko": "시금치", "en": "Spinach" },
         "amount": "80g",
         "tags": ["leafy-green"],
-        "healthNote": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
+        "benefits": { "ko": "철분과 엽산이 들어 있는 잎채소예요.", "en": "A leafy green that contains iron and folate." }
       },
       {
         "name": { "ko": "현미밥", "en": "Cooked brown rice" },
         "amount": "80g",
         "tags": ["whole-grain"],
-        "healthNote": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
+        "benefits": { "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.", "en": "A whole grain that retains more fiber than white rice." }
       },
       {
         "name": { "ko": "무", "en": "Daikon radish" },
         "amount": "50g",
         "tags": ["vegetable"],
-        "healthNote": { "ko": "수분 함량이 높고 소화 효소가 들어 있다고 알려진 뿌리채소예요.", "en": "A root vegetable known for its high water content and natural digestive enzymes." }
+        "benefits": { "ko": "수분 함량이 높고 소화 효소가 들어 있다고 알려진 뿌리채소예요.", "en": "A root vegetable known for its high water content and natural digestive enzymes." }
       },
       {
         "name": { "ko": "들기름", "en": "Perilla oil" },
         "amount": "5ml",
         "tags": ["healthy-fat"],
-        "healthNote": { "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of omega-3 fatty acids." }
+        "benefits": { "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.", "en": "A plant-based oil with a high proportion of omega-3 fatty acids." }
       }
     ],
     "steps": [

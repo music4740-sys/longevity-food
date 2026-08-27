@@ -22,6 +22,12 @@ export default function IngredientRow({ ingredient, locale }: IngredientRowProps
         <span className="shrink-0 text-sm text-zinc-500 dark:text-zinc-400">{ingredient.amount}</span>
       </div>
 
+      {ingredient.benefits && (
+        <p className="text-xs text-zinc-500 dark:text-zinc-400">
+          {localizedText(ingredient.benefits, locale)}
+        </p>
+      )}
+
       {ingredient.tags.length > 0 && (
         <div className="flex flex-wrap gap-1.5">
           {ingredient.tags.map((tag) => (
@@ -33,12 +39,6 @@ export default function IngredientRow({ ingredient, locale }: IngredientRowProps
             </span>
           ))}
         </div>
-      )}
-
-      {ingredient.healthNote && (
-        <p className="text-xs text-zinc-500 dark:text-zinc-400">
-          {localizedText(ingredient.healthNote, locale)}
-        </p>
       )}
 
       {substituteGroup && (
