@@ -1,6 +1,7 @@
 "use client";
 
 import { getSubstituteGroupById } from "@/lib/data";
+import type { CuisineRegion } from "@/lib/cuisineRegion";
 import { getDictionary, ingredientTagLabel, localizedText, type Locale } from "@/lib/i18n";
 import type { Ingredient } from "@/types";
 
@@ -9,13 +10,23 @@ interface IngredientRowProps {
   locale: Locale;
   checked: boolean;
   onToggle: () => void;
+  selectedRegion?: CuisineRegion | null;
 }
 
-export default function IngredientRow({ ingredient, locale, checked, onToggle }: IngredientRowProps) {
+export default function IngredientRow({
+  ingredient,
+  locale,
+  checked,
+  onToggle,
+  selectedRegion,
+}: IngredientRowProps) {
   const t = getDictionary(locale);
   const substituteGroup = ingredient.substituteGroupId
     ? getSubstituteGroupById(ingredient.substituteGroupId)
     : undefined;
+  const regionalOption = substituteGroup?.options.find(
+    (option) => option.country === selectedRegion,
+  );
 
   return (
     <li className="flex flex-col gap-2 rounded-xl border border-zinc-200 bg-white p-3 dark:border-zinc-800 dark:bg-zinc-900">
@@ -28,11 +39,17 @@ export default function IngredientRow({ ingredient, locale, checked, onToggle }:
             className="h-4 w-4 shrink-0 accent-emerald-600"
           />
           <span className="font-medium text-zinc-900 dark:text-zinc-50">
-            {localizedText(ingredient.name, locale)}
+            {localizedText(regionalOption ? regionalOption.ingredient : ingredient.name, locale)}
           </span>
         </label>
         <span className="shrink-0 text-sm text-zinc-500 dark:text-zinc-400">{ingredient.amount}</span>
       </div>
+
+      {regionalOption && (
+        <p className="text-xs text-zinc-400 dark:text-zinc-500">
+          {t.recipe.originalIngredientLabel}: {localizedText(ingredient.name, locale)}
+        </p>
+      )}
 
       {ingredient.benefits && (
         <p className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -68,6 +85,11 @@ export default function IngredientRow({ ingredient, locale, checked, onToggle }:
                   <span className="text-zinc-800 dark:text-zinc-200">
                     {localizedText(option.ingredient, locale)}
                   </span>
+                  {option.country === selectedRegion && (
+                    <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
+                      {t.recipe.regionSelectedBadge}
+                    </span>
+                  )}
                 </div>
                 {option.note && (
                   <p className="pl-9 text-xs text-zinc-500 dark:text-zinc-400">

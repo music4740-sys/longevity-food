@@ -26,6 +26,14 @@
       "breakfast": "Breakfast",
       "lunch": "Lunch",
       "dinner": "Dinner"
+    },
+    "cuisineRegionLabel": "Cuisine Style",
+    "cuisineRegions": {
+      "KR": "East Asia",
+      "IT": "Mediterranean & Europe",
+      "IN": "South & Southeast Asia",
+      "TR": "Middle East & North Africa",
+      "MX": "Latin America"
     }
   },
   "recipe": {
@@ -40,7 +48,9 @@
     "ingredientsTitle": "Ingredients",
     "stepsTitle": "Steps",
     "addToCart": "Add to Cart",
-    "substitutesToggle": "View substitutes by country"
+    "substitutesToggle": "View substitutes by country",
+    "originalIngredientLabel": "Original",
+    "regionSelectedBadge": "Selected"
   },
   "ingredientTags": {
     "whole-grain": "Whole Grain",

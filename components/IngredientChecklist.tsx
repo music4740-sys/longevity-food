@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import IngredientRow from "@/components/IngredientRow";
 import { addToCart } from "@/lib/cart";
+import { getSelectedRegion, type CuisineRegion } from "@/lib/cuisineRegion";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import type { Ingredient } from "@/types";
 
@@ -23,6 +24,11 @@ export default function IngredientChecklist({
   const [checked, setChecked] = useState<Set<string>>(
     () => new Set(ingredients.map((ingredient) => ingredient.name.en)),
   );
+  const [selectedRegion, setSelectedRegionState] = useState<CuisineRegion | null>(null);
+
+  useEffect(() => {
+    setSelectedRegionState(getSelectedRegion());
+  }, []);
 
   function toggle(name: string) {
     setChecked((prev) => {
@@ -54,6 +60,7 @@ export default function IngredientChecklist({
             locale={locale}
             checked={checked.has(ingredient.name.en)}
             onToggle={() => toggle(ingredient.name.en)}
+            selectedRegion={selectedRegion}
           />
         ))}
       </ul>

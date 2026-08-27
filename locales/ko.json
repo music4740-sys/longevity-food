@@ -26,6 +26,14 @@
       "breakfast": "아침",
       "lunch": "점심",
       "dinner": "저녁"
+    },
+    "cuisineRegionLabel": "요리권 선택",
+    "cuisineRegions": {
+      "KR": "동아시아",
+      "IT": "지중해·유럽",
+      "IN": "남아시아·동남아시아",
+      "TR": "중동·북아프리카",
+      "MX": "라틴아메리카"
     }
   },
   "recipe": {
@@ -40,7 +48,9 @@
     "ingredientsTitle": "재료",
     "stepsTitle": "조리 순서",
     "addToCart": "장바구니 추가",
-    "substitutesToggle": "국가별 대체재 보기"
+    "substitutesToggle": "국가별 대체재 보기",
+    "originalIngredientLabel": "원래 재료",
+    "regionSelectedBadge": "선택됨"
   },
   "ingredientTags": {
     "whole-grain": "통곡물",

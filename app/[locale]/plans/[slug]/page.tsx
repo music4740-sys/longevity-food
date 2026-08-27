@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import CuisineRegionPicker from "@/components/CuisineRegionPicker";
 import PlanDayGrid from "@/components/PlanDayGrid";
 import { getPlanAverageLongevityScore, getPlanBySlug, plans } from "@/lib/data";
 import { getDictionary, localizedText, type Locale } from "@/lib/i18n";
@@ -32,6 +33,7 @@ export default async function PlanDetailPage({ params }: PageProps<"/[locale]/pl
             {t.plan.scoreUnit}
           </span>
         </div>
+        <CuisineRegionPicker locale={locale} />
         <PlanDayGrid plan={plan} locale={locale} />
       </main>
       <footer className="border-t border-zinc-200 bg-white px-4 py-4 dark:border-zinc-800 dark:bg-zinc-950">
