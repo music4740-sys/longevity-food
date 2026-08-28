@@ -2,341 +2,1173 @@
   {
     "id": "blood-sugar-reset-7day",
     "slug": "blood-sugar-reset-7day",
-    "title": { "ko": "7일 혈당 리셋 플랜", "en": "7-Day Blood Sugar Reset Plan" },
+    "title": {
+      "ko": "7일 혈당 리셋 플랜",
+      "en": "7-Day Blood Sugar Reset Plan",
+      "ja": "7日間血糖リセットプラン",
+      "zh": "7天血糖调节计划",
+      "es": "Plan de reinicio de 7 días para el azúcar en sangre",
+      "fr": "Programme de 7 jours pour la glycémie"
+    },
     "description": {
       "ko": "혈당 부담이 낮은 재료로 구성한 7일 리셋 플랜입니다.",
-      "en": "A 7-day reset plan built with low glycemic-impact ingredients."
+      "en": "A 7-day reset plan built with low glycemic-impact ingredients.",
+      "ja": "血糖への負担が少ない食材で構成した7日間のリセットプランです。",
+      "zh": "由低血糖负荷食材构成的7天调节计划。",
+      "es": "Un plan de reinicio de 7 días elaborado con ingredientes de bajo impacto glucémico.",
+      "fr": "Un programme de 7 jours conçu avec des aliments à faible impact glycémique."
     },
-    "tags": ["blood-sugar", "low-glycemic"],
+    "tags": [
+      "blood-sugar",
+      "low-glycemic"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-vegetable-soup", "dinner": "grilled-mackerel-greens" },
-      { "day": 2, "breakfast": "chia-berry-pudding", "lunch": "chickpea-kale-bowl", "dinner": "vegetable-frittata" },
-      { "day": 3, "breakfast": "buckwheat-apple-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 4, "breakfast": "barley-pear-bowl", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 5, "breakfast": "quinoa-blackberry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-daikon-bowl" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "egg-vegetable-barley-bowl", "dinner": "chicken-vegetable-stew" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 2,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 3,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 4,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 5,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "grilled-mackerel-daikon-bowl"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "egg-vegetable-barley-bowl",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "lentil-tomato-stew"
+      }
     ]
   },
   {
     "id": "heart-health-reset-7day",
     "slug": "heart-health-reset-7day",
-    "title": { "ko": "심장 건강 리셋", "en": "Heart Health Reset" },
+    "title": {
+      "ko": "심장 건강 리셋",
+      "en": "Heart Health Reset",
+      "ja": "心臓の健康リセット",
+      "zh": "心脏健康调节计划",
+      "es": "Reinicio para la salud del corazón",
+      "fr": "Programme pour la santé cardiaque"
+    },
     "description": {
       "ko": "혈관 건강에 도움이 될 수 있는 오메가-3와 식이섬유 중심으로 구성한 7일 리셋 플랜입니다.",
-      "en": "A 7-day reset plan centered on omega-3s and fiber that may support blood vessel health."
+      "en": "A 7-day reset plan centered on omega-3s and fiber that may support blood vessel health.",
+      "ja": "血管の健康に役立つ可能性のあるオメガ3と食物繊維を中心に構成した7日間のリセットプランです。",
+      "zh": "以可能有助于血管健康的Omega-3和膳食纤维为核心构成的7天调节计划。",
+      "es": "Un plan de reinicio de 7 días centrado en omega-3 y fibra que pueden favorecer la salud vascular.",
+      "fr": "Un programme de 7 jours centré sur les oméga-3 et les fibres, qui peuvent favoriser la santé vasculaire."
     },
-    "tags": ["heart-health", "omega-3"],
+    "tags": [
+      "heart-health",
+      "omega-3"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-vegetable-soup", "dinner": "salmon-broccoli-plate" },
-      { "day": 2, "breakfast": "chia-berry-pudding", "lunch": "chickpea-kale-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 3, "breakfast": "quinoa-blackberry-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 5, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-barley-salad", "dinner": "grilled-mackerel-daikon-bowl" },
-      { "day": 6, "breakfast": "chia-berry-pudding", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 7, "breakfast": "quinoa-blackberry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "grilled-mackerel-greens" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 2,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 3,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 4,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 5,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "lentil-barley-salad",
+        "dinner": "grilled-mackerel-daikon-bowl"
+      },
+      {
+        "day": 6,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 7,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "grilled-mackerel-greens"
+      }
     ]
   },
   {
     "id": "gut-health-reset-7day",
     "slug": "gut-health-reset-7day",
-    "title": { "ko": "장 건강 식단", "en": "Gut Health Reset" },
+    "title": {
+      "ko": "장 건강 식단",
+      "en": "Gut Health Reset",
+      "ja": "腸内環境ケアプラン",
+      "zh": "肠道健康饮食计划",
+      "es": "Reinicio para la salud intestinal",
+      "fr": "Programme pour la santé intestinale"
+    },
     "description": {
       "ko": "식이섬유가 풍부한 재료로 구성해 장 건강에 도움을 줄 수 있는 7일 플랜입니다.",
-      "en": "A 7-day plan built with fiber-rich ingredients that may support digestive health."
+      "en": "A 7-day plan built with fiber-rich ingredients that may support digestive health.",
+      "ja": "食物繊維が豊富な食材で構成し、腸の健康に役立つ可能性がある7日間プランです。",
+      "zh": "由富含膳食纤维的食材构成,可能有助于肠道健康的7天计划。",
+      "es": "Un plan de 7 días elaborado con ingredientes ricos en fibra que puede favorecer la salud digestiva.",
+      "fr": "Un programme de 7 jours élaboré avec des aliments riches en fibres, qui peut favoriser la santé digestive."
     },
-    "tags": ["gut-health", "fiber"],
+    "tags": [
+      "gut-health",
+      "fiber"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "buckwheat-apple-porridge", "lunch": "lentil-barley-salad", "dinner": "lentil-tomato-stew" },
-      { "day": 2, "breakfast": "barley-pear-bowl", "lunch": "lentil-vegetable-soup", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 3, "breakfast": "rye-flake-fig-porridge", "lunch": "chickpea-kale-bowl", "dinner": "chicken-vegetable-stew" },
-      { "day": 4, "breakfast": "millet-plum-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "vegetable-frittata" },
-      { "day": 5, "breakfast": "buckwheat-apple-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 6, "breakfast": "barley-pear-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 7, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" }
+      {
+        "day": 1,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 2,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 3,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 4,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 5,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 6,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 7,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      }
     ]
   },
   {
     "id": "plant-forward-reset-7day",
     "slug": "plant-forward-reset-7day",
-    "title": { "ko": "식물성 중심 플랜", "en": "Plant-Forward Reset" },
+    "title": {
+      "ko": "식물성 중심 플랜",
+      "en": "Plant-Forward Reset",
+      "ja": "植物性中心プラン",
+      "zh": "植物性为主计划",
+      "es": "Reinicio con enfoque vegetal",
+      "fr": "Programme à dominante végétale"
+    },
     "description": {
       "ko": "식물성 재료 비중을 최대한 높여 구성한 7일 플랜입니다.",
-      "en": "A 7-day plan built to maximize plant-based ingredients."
+      "en": "A 7-day plan built to maximize plant-based ingredients.",
+      "ja": "植物性食材の比率を最大限に高めて構成した7日間プランです。",
+      "zh": "尽可能提高植物性食材比例构成的7天计划。",
+      "es": "Un plan de 7 días diseñado para maximizar los ingredientes de origen vegetal.",
+      "fr": "Un programme de 7 jours conçu pour maximiser les ingrédients d'origine végétale."
     },
-    "tags": ["plant-based"],
+    "tags": [
+      "plant-based"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-vegetable-soup", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 2, "breakfast": "buckwheat-apple-porridge", "lunch": "chickpea-kale-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 3, "breakfast": "chia-berry-pudding", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 4, "breakfast": "barley-pear-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 5, "breakfast": "quinoa-blackberry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "lentil-vegetable-soup", "dinner": "lentil-tomato-stew" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 2,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 3,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 4,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 5,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "lentil-tomato-stew"
+      }
     ]
   },
   {
     "id": "balanced-energy-reset-7day",
     "slug": "balanced-energy-reset-7day",
-    "title": { "ko": "활력 균형 플랜", "en": "Balanced Energy Reset" },
+    "title": {
+      "ko": "활력 균형 플랜",
+      "en": "Balanced Energy Reset",
+      "ja": "活力バランスプラン",
+      "zh": "活力均衡计划",
+      "es": "Reinicio de energía equilibrada",
+      "fr": "Programme d'énergie équilibrée"
+    },
     "description": {
       "ko": "다양한 영양소를 골고루 갖춘 균형 잡힌 7일 플랜입니다.",
-      "en": "A well-rounded 7-day plan with a balanced spread of nutrients."
+      "en": "A well-rounded 7-day plan with a balanced spread of nutrients.",
+      "ja": "さまざまな栄養素をバランスよく揃えた7日間プランです。",
+      "zh": "均衡搭配多种营养素的7天计划。",
+      "es": "Un plan de 7 días con una distribución equilibrada de una amplia variedad de nutrientes.",
+      "fr": "Un programme de 7 jours offrant une répartition équilibrée d'une grande variété de nutriments."
     },
-    "tags": ["balanced"],
+    "tags": [
+      "balanced"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "barley-pear-bowl", "lunch": "chickpea-kale-bowl", "dinner": "vegetable-frittata" },
-      { "day": 2, "breakfast": "millet-plum-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 3, "breakfast": "oatmeal-berry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "chicken-vegetable-stew" },
-      { "day": 4, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-vegetable-soup", "dinner": "grilled-mackerel-greens" },
-      { "day": 5, "breakfast": "buckwheat-apple-porridge", "lunch": "egg-vegetable-barley-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 6, "breakfast": "chia-berry-pudding", "lunch": "white-bean-quinoa-bowl", "dinner": "grilled-mackerel-daikon-bowl" },
-      { "day": 7, "breakfast": "quinoa-blackberry-bowl", "lunch": "lentil-barley-salad", "dinner": "lentil-tomato-stew" }
+      {
+        "day": 1,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 2,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 3,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 4,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 5,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "egg-vegetable-barley-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 6,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "grilled-mackerel-daikon-bowl"
+      },
+      {
+        "day": 7,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "lentil-barley-salad",
+        "dinner": "lentil-tomato-stew"
+      }
     ]
   },
   {
     "id": "cardiovascular-reset-7day",
     "slug": "cardiovascular-reset-7day",
-    "title": { "ko": "심혈관 건강 리셋", "en": "Cardiovascular Health Reset" },
+    "title": {
+      "ko": "심혈관 건강 리셋",
+      "en": "Cardiovascular Health Reset",
+      "ja": "心血管健康リセット",
+      "zh": "心血管健康调节计划",
+      "es": "Reinicio cardiovascular",
+      "fr": "Programme cardiovasculaire"
+    },
     "description": {
       "ko": "나트륨 부담을 줄이고 채소·통곡물 비중을 높인 7일 심혈관 건강 리셋 플랜입니다.",
-      "en": "A 7-day reset plan that lowers sodium burden and emphasizes vegetables and whole grains to support cardiovascular health."
+      "en": "A 7-day reset plan that lowers sodium burden and emphasizes vegetables and whole grains to support cardiovascular health.",
+      "ja": "ナトリウムの負担を減らし、野菜と全粒穀物の比率を高めた7日間の心血管健康リセットプランです。",
+      "zh": "减少钠负荷、提高蔬菜与全谷物比例的7天心血管健康调节计划。",
+      "es": "Un plan de reinicio de 7 días que reduce la carga de sodio y prioriza verduras y cereales integrales para favorecer la salud cardiovascular.",
+      "fr": "Un programme de 7 jours qui réduit l'apport en sodium et privilégie les légumes et les céréales complètes pour favoriser la santé cardiovasculaire."
     },
-    "tags": ["cardiovascular", "low-sodium"],
+    "tags": [
+      "cardiovascular",
+      "low-sodium"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 2, "breakfast": "barley-pear-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 3, "breakfast": "quinoa-blackberry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 5, "breakfast": "chia-berry-pudding", "lunch": "lentil-barley-salad", "dinner": "grilled-mackerel-daikon-bowl" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "chickpea-kale-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "salmon-broccoli-plate" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 2,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 3,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 4,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 5,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "lentil-barley-salad",
+        "dinner": "grilled-mackerel-daikon-bowl"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "salmon-broccoli-plate"
+      }
     ]
   },
   {
     "id": "brain-cognitive-reset-7day",
     "slug": "brain-cognitive-reset-7day",
-    "title": { "ko": "뇌 건강 리셋", "en": "Brain Health Reset" },
+    "title": {
+      "ko": "뇌 건강 리셋",
+      "en": "Brain Health Reset",
+      "ja": "脳の健康リセット",
+      "zh": "大脑健康调节计划",
+      "es": "Reinicio para la salud cerebral",
+      "fr": "Programme pour la santé cérébrale"
+    },
     "description": {
       "ko": "베리류와 견과류, 잎채소를 중심으로 구성한 7일 인지 건강 리셋 플랜입니다.",
-      "en": "A 7-day reset plan built around berries, nuts, and leafy greens to support cognitive health."
+      "en": "A 7-day reset plan built around berries, nuts, and leafy greens to support cognitive health.",
+      "ja": "ベリー類、ナッツ、葉物野菜を中心に構成した7日間の認知機能ケアプランです。",
+      "zh": "以浆果、坚果、叶菜为核心构成的7天认知健康调节计划。",
+      "es": "Un plan de reinicio de 7 días centrado en bayas, frutos secos y verduras de hoja para apoyar la salud cognitiva.",
+      "fr": "Un programme de 7 jours centré sur les baies, les fruits à coque et les légumes feuilles pour soutenir la santé cognitive."
     },
-    "tags": ["brain-health", "berries", "nuts"],
+    "tags": [
+      "brain-health",
+      "berries",
+      "nuts"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 2, "breakfast": "chia-berry-pudding", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 3, "breakfast": "quinoa-blackberry-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-daikon-bowl" },
-      { "day": 5, "breakfast": "rye-flake-fig-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 6, "breakfast": "barley-pear-bowl", "lunch": "chickpea-kale-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 2,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 3,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 4,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "grilled-mackerel-daikon-bowl"
+      },
+      {
+        "day": 5,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 6,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      }
     ]
   },
   {
     "id": "anti-inflammatory-reset-7day",
     "slug": "anti-inflammatory-reset-7day",
-    "title": { "ko": "염증 완화 리셋", "en": "Anti-Inflammatory Reset" },
+    "title": {
+      "ko": "염증 완화 리셋",
+      "en": "Anti-Inflammatory Reset",
+      "ja": "炎症ケアリセット",
+      "zh": "抗炎调节计划",
+      "es": "Reinicio antiinflamatorio",
+      "fr": "Programme anti-inflammatoire"
+    },
     "description": {
       "ko": "항산화 성분과 건강한 지방이 풍부한 재료로 구성해 염증 부담을 낮추는 데 도움이 될 수 있는 7일 플랜입니다.",
-      "en": "A 7-day plan built with antioxidant-rich ingredients and healthy fats that may help lower inflammatory burden."
+      "en": "A 7-day plan built with antioxidant-rich ingredients and healthy fats that may help lower inflammatory burden.",
+      "ja": "抗酸化成分と良質な脂質が豊富な食材で構成し、炎症の負担を軽減する助けになる可能性がある7日間プランです。",
+      "zh": "由富含抗氧化成分和优质脂肪的食材构成,可能有助于减轻炎症负担的7天计划。",
+      "es": "Un plan de 7 días elaborado con ingredientes ricos en antioxidantes y grasas saludables que puede ayudar a reducir la carga inflamatoria.",
+      "fr": "Un programme de 7 jours élaboré avec des ingrédients riches en antioxydants et en bonnes graisses, qui peut aider à réduire la charge inflammatoire."
     },
-    "tags": ["anti-inflammatory", "antioxidant"],
+    "tags": [
+      "anti-inflammatory",
+      "antioxidant"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 2, "breakfast": "quinoa-blackberry-bowl", "lunch": "lentil-barley-salad", "dinner": "grilled-mackerel-greens" },
-      { "day": 3, "breakfast": "chia-berry-pudding", "lunch": "chickpea-kale-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 5, "breakfast": "barley-pear-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "grilled-mackerel-daikon-bowl" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "lentil-barley-salad", "dinner": "grilled-mackerel-greens" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 2,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "lentil-barley-salad",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 3,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 4,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 5,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "grilled-mackerel-daikon-bowl"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "grilled-mackerel-greens"
+      }
     ]
   },
   {
     "id": "skin-hair-reset-7day",
     "slug": "skin-hair-reset-7day",
-    "title": { "ko": "피부·모발 건강 리셋", "en": "Skin & Hair Health Reset" },
+    "title": {
+      "ko": "피부·모발 건강 리셋",
+      "en": "Skin & Hair Health Reset",
+      "ja": "肌・髪の健康リセット",
+      "zh": "肌肤秀发健康调节计划",
+      "es": "Reinicio para la piel y el cabello",
+      "fr": "Programme pour la peau et les cheveux"
+    },
     "description": {
       "ko": "비타민과 건강한 지방이 풍부한 재료로 구성한 7일 피부·모발 건강 리셋 플랜입니다.",
-      "en": "A 7-day reset plan built with vitamin- and healthy-fat-rich ingredients to support skin and hair health."
+      "en": "A 7-day reset plan built with vitamin- and healthy-fat-rich ingredients to support skin and hair health.",
+      "ja": "ビタミンと良質な脂質が豊富な食材で構成した7日間の肌・髪ケアプランです。",
+      "zh": "由富含维生素和优质脂肪的食材构成的7天肌肤秀发健康调节计划。",
+      "es": "Un plan de reinicio de 7 días elaborado con ingredientes ricos en vitaminas y grasas saludables para apoyar la salud de la piel y el cabello.",
+      "fr": "Un programme de 7 jours élaboré avec des ingrédients riches en vitamines et en bonnes graisses pour soutenir la santé de la peau et des cheveux."
     },
-    "tags": ["skin-hair", "vitamins"],
+    "tags": [
+      "skin-hair",
+      "vitamins"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "egg-vegetable-barley-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 2, "breakfast": "buckwheat-apple-porridge", "lunch": "chickpea-kale-bowl", "dinner": "vegetable-frittata" },
-      { "day": 3, "breakfast": "chia-berry-pudding", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 4, "breakfast": "barley-pear-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 5, "breakfast": "quinoa-blackberry-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "grilled-mackerel-daikon-bowl" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-barley-salad", "dinner": "salmon-broccoli-plate" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "lentil-vegetable-soup", "dinner": "vegetable-frittata" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "egg-vegetable-barley-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 2,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 3,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 4,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 5,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "grilled-mackerel-daikon-bowl"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "vegetable-frittata"
+      }
     ]
   },
   {
     "id": "muscle-maintenance-reset-7day",
     "slug": "muscle-maintenance-reset-7day",
-    "title": { "ko": "근육 건강 리셋", "en": "Muscle Health Reset" },
+    "title": {
+      "ko": "근육 건강 리셋",
+      "en": "Muscle Health Reset",
+      "ja": "筋肉の健康リセット",
+      "zh": "肌肉健康调节计划",
+      "es": "Reinicio para la salud muscular",
+      "fr": "Programme pour la santé musculaire"
+    },
     "description": {
       "ko": "단백질이 풍부한 재료 위주로 구성해 근육 건강 유지에 도움이 될 수 있는 7일 플랜입니다.",
-      "en": "A 7-day plan built around protein-rich ingredients that may help support muscle maintenance."
+      "en": "A 7-day plan built around protein-rich ingredients that may help support muscle maintenance.",
+      "ja": "タンパク質が豊富な食材を中心に構成し、筋肉の健康維持に役立つ可能性がある7日間プランです。",
+      "zh": "以富含蛋白质的食材为核心构成,可能有助于维持肌肉健康的7天计划。",
+      "es": "Un plan de 7 días centrado en ingredientes ricos en proteína que puede ayudar a mantener la salud muscular.",
+      "fr": "Un programme de 7 jours centré sur des ingrédients riches en protéines, qui peut aider à préserver la santé musculaire."
     },
-    "tags": ["muscle-health", "protein"],
+    "tags": [
+      "muscle-health",
+      "protein"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "chicken-vegetable-stew" },
-      { "day": 2, "breakfast": "chia-berry-pudding", "lunch": "white-bean-quinoa-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 3, "breakfast": "quinoa-blackberry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "grilled-mackerel-daikon-bowl" },
-      { "day": 5, "breakfast": "barley-pear-bowl", "lunch": "egg-vegetable-barley-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-barley-salad", "dinner": "chicken-vegetable-stew" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "chickpea-kale-bowl", "dinner": "salmon-broccoli-plate" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 2,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 3,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 4,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "grilled-mackerel-daikon-bowl"
+      },
+      {
+        "day": 5,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "egg-vegetable-barley-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "salmon-broccoli-plate"
+      }
     ]
   },
   {
     "id": "weight-management-reset-7day",
     "slug": "weight-management-reset-7day",
-    "title": { "ko": "체중 관리 리셋", "en": "Weight Management Reset" },
+    "title": {
+      "ko": "체중 관리 리셋",
+      "en": "Weight Management Reset",
+      "ja": "体重管理リセット",
+      "zh": "体重管理调节计划",
+      "es": "Reinicio para el control de peso",
+      "fr": "Programme de gestion du poids"
+    },
     "description": {
       "ko": "포만감을 주면서도 가벼운 재료로 구성한 7일 체중 관리 리셋 플랜입니다.",
-      "en": "A 7-day reset plan built with light yet satisfying ingredients to support weight management."
+      "en": "A 7-day reset plan built with light yet satisfying ingredients to support weight management.",
+      "ja": "満足感がありながら軽めの食材で構成した7日間の体重管理リセットプランです。",
+      "zh": "由兼具饱腹感与清淡特点的食材构成的7天体重管理调节计划。",
+      "es": "Un plan de reinicio de 7 días elaborado con ingredientes ligeros pero saciantes para apoyar el control de peso.",
+      "fr": "Un programme de 7 jours élaboré avec des ingrédients légers mais rassasiants pour soutenir la gestion du poids."
     },
-    "tags": ["weight-management", "light"],
+    "tags": [
+      "weight-management",
+      "light"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "chia-berry-pudding", "lunch": "edamame-brown-rice-bowl", "dinner": "vegetable-frittata" },
-      { "day": 2, "breakfast": "quinoa-blackberry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 3, "breakfast": "oatmeal-berry-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "lentil-vegetable-soup", "dinner": "grilled-mackerel-greens" },
-      { "day": 5, "breakfast": "barley-pear-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "vegetable-frittata" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "chickpea-kale-bowl", "dinner": "tofu-mushroom-stirfry" }
+      {
+        "day": 1,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 2,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 3,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 4,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 5,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      }
     ]
   },
   {
     "id": "light-eating-days-reset-7day",
     "slug": "light-eating-days-reset-7day",
-    "title": { "ko": "가볍게 먹는 날 플랜", "en": "Light Eating Days Plan" },
+    "title": {
+      "ko": "가볍게 먹는 날 플랜",
+      "en": "Light Eating Days Plan",
+      "ja": "軽めの日プラン",
+      "zh": "轻食日计划",
+      "es": "Plan de días ligeros",
+      "fr": "Programme de jours légers"
+    },
     "description": {
       "ko": "하루 섭취량 부담을 줄인 가벼운 재료 위주로 구성한 7일 플랜입니다. 의학적 단식 요법이 아니며, 평소보다 가볍게 먹는 날을 위한 식단 제안입니다.",
-      "en": "A 7-day plan built with lighter ingredients to ease daily intake. This is not a medical fasting protocol — it's a meal suggestion for days you'd like to eat a bit lighter."
+      "en": "A 7-day plan built with lighter ingredients to ease daily intake. This is not a medical fasting protocol — it's a meal suggestion for days you'd like to eat a bit lighter.",
+      "ja": "1日の摂取負担を軽くした食材を中心に構成した7日間プランです。医学的な断食療法ではなく、いつもより軽めに食べたい日のための食事提案です。",
+      "zh": "以减轻每日摄入负担的清淡食材为核心构成的7天计划。这不是医学禁食疗法,而是为想要吃得清淡一些的日子提供的饮食建议。",
+      "es": "Un plan de 7 días elaborado con ingredientes más ligeros para aliviar la carga de la ingesta diaria. No es un protocolo de ayuno médico, sino una sugerencia de comidas para los días en que quiera comer un poco más ligero.",
+      "fr": "Un programme de 7 jours élaboré avec des ingrédients plus légers pour alléger l'apport quotidien. Ce n'est pas un protocole de jeûne médical, mais une suggestion de repas pour les jours où vous souhaitez manger un peu plus léger."
     },
-    "tags": ["light-eating"],
+    "tags": [
+      "light-eating"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "chia-berry-pudding", "lunch": "lentil-vegetable-soup", "dinner": "vegetable-frittata" },
-      { "day": 2, "breakfast": "quinoa-blackberry-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 3, "breakfast": "oatmeal-berry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "lentil-vegetable-soup", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 5, "breakfast": "barley-pear-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "vegetable-frittata" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "lentil-vegetable-soup", "dinner": "grilled-mackerel-greens" }
+      {
+        "day": 1,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 2,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 3,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 4,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 5,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "grilled-mackerel-greens"
+      }
     ]
   },
   {
     "id": "okinawa-style-reset-7day",
     "slug": "okinawa-style-reset-7day",
-    "title": { "ko": "오키나와 스타일 리셋", "en": "Okinawa-Inspired Reset" },
+    "title": {
+      "ko": "오키나와 스타일 리셋",
+      "en": "Okinawa-Inspired Reset",
+      "ja": "沖縄スタイルリセット",
+      "zh": "冲绳风味调节计划",
+      "es": "Reinicio inspirado en Okinawa",
+      "fr": "Programme inspiré d'Okinawa"
+    },
     "description": {
       "ko": "오키나와 식문화에서 영감을 받아 두부와 채소 중심으로 재구성한 7일 플랜입니다.",
-      "en": "A 7-day plan inspired by Okinawan food culture, rebuilt around tofu and vegetables."
+      "en": "A 7-day plan inspired by Okinawan food culture, rebuilt around tofu and vegetables.",
+      "ja": "沖縄の食文化からインスピレーションを得て、豆腐と野菜を中心に再構成した7日間プランです。",
+      "zh": "从冲绳饮食文化汲取灵感,以豆腐和蔬菜为核心重新构成的7天计划。",
+      "es": "Un plan de 7 días inspirado en la cultura culinaria de Okinawa, reconstruido en torno al tofu y las verduras.",
+      "fr": "Un programme de 7 jours inspiré de la culture culinaire d'Okinawa, reconstruit autour du tofu et des légumes."
     },
-    "tags": ["blue-zone", "okinawa"],
+    "tags": [
+      "blue-zone",
+      "okinawa"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "barley-pear-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 2, "breakfast": "millet-plum-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 3, "breakfast": "oatmeal-berry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 4, "breakfast": "quinoa-blackberry-bowl", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 5, "breakfast": "buckwheat-apple-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 6, "breakfast": "chia-berry-pudding", "lunch": "chickpea-kale-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 7, "breakfast": "rye-flake-fig-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "grilled-mackerel-greens" }
+      {
+        "day": 1,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 2,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 3,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 4,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 5,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 6,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 7,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "grilled-mackerel-greens"
+      }
     ]
   },
   {
     "id": "sardinia-style-reset-7day",
     "slug": "sardinia-style-reset-7day",
-    "title": { "ko": "사르데냐 스타일 리셋", "en": "Sardinia-Inspired Reset" },
+    "title": {
+      "ko": "사르데냐 스타일 리셋",
+      "en": "Sardinia-Inspired Reset",
+      "ja": "サルデーニャスタイルリセット",
+      "zh": "撒丁岛风味调节计划",
+      "es": "Reinicio inspirado en Cerdeña",
+      "fr": "Programme inspiré de la Sardaigne"
+    },
     "description": {
       "ko": "사르데냐 식문화에서 영감을 받아 통곡물과 콩류 중심으로 재구성한 7일 플랜입니다.",
-      "en": "A 7-day plan inspired by Sardinian food culture, rebuilt around whole grains and legumes."
+      "en": "A 7-day plan inspired by Sardinian food culture, rebuilt around whole grains and legumes.",
+      "ja": "サルデーニャの食文化からインスピレーションを得て、全粒穀物と豆類を中心に再構成した7日間プランです。",
+      "zh": "从撒丁岛饮食文化汲取灵感,以全谷物和豆类为核心重新构成的7天计划。",
+      "es": "Un plan de 7 días inspirado en la cultura culinaria de Cerdeña, reconstruido en torno a cereales integrales y legumbres.",
+      "fr": "Un programme de 7 jours inspiré de la culture culinaire de la Sardaigne, reconstruit autour des céréales complètes et des légumineuses."
     },
-    "tags": ["blue-zone", "sardinia"],
+    "tags": [
+      "blue-zone",
+      "sardinia"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "barley-pear-bowl", "lunch": "lentil-barley-salad", "dinner": "lentil-tomato-stew" },
-      { "day": 2, "breakfast": "buckwheat-apple-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "chicken-vegetable-stew" },
-      { "day": 3, "breakfast": "oatmeal-berry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "salmon-broccoli-plate" },
-      { "day": 4, "breakfast": "quinoa-blackberry-bowl", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 5, "breakfast": "rye-flake-fig-porridge", "lunch": "white-bean-quinoa-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 6, "breakfast": "chia-berry-pudding", "lunch": "chickpea-kale-bowl", "dinner": "chicken-vegetable-stew" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "salmon-broccoli-plate" }
+      {
+        "day": 1,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "lentil-barley-salad",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 2,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 3,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "salmon-broccoli-plate"
+      },
+      {
+        "day": 4,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 5,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 6,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "salmon-broccoli-plate"
+      }
     ]
   },
   {
     "id": "ikaria-style-reset-7day",
     "slug": "ikaria-style-reset-7day",
-    "title": { "ko": "이카리아 스타일 리셋", "en": "Ikaria-Inspired Reset" },
+    "title": {
+      "ko": "이카리아 스타일 리셋",
+      "en": "Ikaria-Inspired Reset",
+      "ja": "イカリアスタイルリセット",
+      "zh": "伊卡利亚风味调节计划",
+      "es": "Reinicio inspirado en Icaria",
+      "fr": "Programme inspiré d'Ikaria"
+    },
     "description": {
       "ko": "이카리아 식문화에서 영감을 받아 잎채소와 콩류 중심으로 재구성한 7일 플랜입니다.",
-      "en": "A 7-day plan inspired by Ikarian food culture, rebuilt around leafy greens and legumes."
+      "en": "A 7-day plan inspired by Ikarian food culture, rebuilt around leafy greens and legumes.",
+      "ja": "イカリアの食文化からインスピレーションを得て、葉物野菜と豆類を中心に再構成した7日間プランです。",
+      "zh": "从伊卡利亚饮食文化汲取灵感,以叶菜和豆类为核心重新构成的7天计划。",
+      "es": "Un plan de 7 días inspirado en la cultura culinaria de Icaria, reconstruido en torno a verduras de hoja y legumbres.",
+      "fr": "Un programme de 7 jours inspiré de la culture culinaire d'Ikaria, reconstruit autour des légumes feuilles et des légumineuses."
     },
-    "tags": ["blue-zone", "ikaria"],
+    "tags": [
+      "blue-zone",
+      "ikaria"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 2, "breakfast": "buckwheat-apple-porridge", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 3, "breakfast": "chia-berry-pudding", "lunch": "white-bean-quinoa-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 4, "breakfast": "barley-pear-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "vegetable-frittata" },
-      { "day": 5, "breakfast": "quinoa-blackberry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "grilled-mackerel-greens" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 2,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 3,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 4,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "vegetable-frittata"
+      },
+      {
+        "day": 5,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "lentil-tomato-stew"
+      }
     ]
   },
   {
     "id": "nicoya-style-reset-7day",
     "slug": "nicoya-style-reset-7day",
-    "title": { "ko": "니코야 스타일 리셋", "en": "Nicoya-Inspired Reset" },
+    "title": {
+      "ko": "니코야 스타일 리셋",
+      "en": "Nicoya-Inspired Reset",
+      "ja": "ニコヤスタイルリセット",
+      "zh": "尼科亚风味调节计划",
+      "es": "Reinicio inspirado en Nicoya",
+      "fr": "Programme inspiré de Nicoya"
+    },
     "description": {
       "ko": "니코야 식문화에서 영감을 받아 콩류와 과일 중심으로 재구성한 7일 플랜입니다.",
-      "en": "A 7-day plan inspired by Nicoyan food culture, rebuilt around legumes and fruit."
+      "en": "A 7-day plan inspired by Nicoyan food culture, rebuilt around legumes and fruit.",
+      "ja": "ニコヤの食文化からインスピレーションを得て、豆類と果物を中心に再構成した7日間プランです。",
+      "zh": "从尼科亚饮食文化汲取灵感,以豆类和水果为核心重新构成的7天计划。",
+      "es": "Un plan de 7 días inspirado en la cultura culinaria de Nicoya, reconstruido en torno a legumbres y fruta.",
+      "fr": "Un programme de 7 jours inspiré de la culture culinaire de Nicoya, reconstruit autour des légumineuses et des fruits."
     },
-    "tags": ["blue-zone", "nicoya"],
+    "tags": [
+      "blue-zone",
+      "nicoya"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "oatmeal-berry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 2, "breakfast": "quinoa-blackberry-bowl", "lunch": "chickpea-kale-bowl", "dinner": "chicken-vegetable-stew" },
-      { "day": 3, "breakfast": "chia-berry-pudding", "lunch": "white-bean-quinoa-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 4, "breakfast": "buckwheat-apple-porridge", "lunch": "lentil-barley-salad", "dinner": "lentil-tomato-stew" },
-      { "day": 5, "breakfast": "barley-pear-bowl", "lunch": "lentil-vegetable-soup", "dinner": "grilled-mackerel-greens" },
-      { "day": 6, "breakfast": "rye-flake-fig-porridge", "lunch": "edamame-brown-rice-bowl", "dinner": "chicken-vegetable-stew" },
-      { "day": 7, "breakfast": "millet-plum-porridge", "lunch": "chickpea-kale-bowl", "dinner": "tofu-mushroom-stirfry" }
+      {
+        "day": 1,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 2,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 3,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 4,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 5,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "grilled-mackerel-greens"
+      },
+      {
+        "day": 6,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "chicken-vegetable-stew"
+      },
+      {
+        "day": 7,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      }
     ]
   },
   {
     "id": "loma-linda-style-reset-7day",
     "slug": "loma-linda-style-reset-7day",
-    "title": { "ko": "로마린다 스타일 리셋", "en": "Loma Linda-Inspired Reset" },
+    "title": {
+      "ko": "로마린다 스타일 리셋",
+      "en": "Loma Linda-Inspired Reset",
+      "ja": "ロマリンダスタイルリセット",
+      "zh": "罗马林达风味调节计划",
+      "es": "Reinicio inspirado en Loma Linda",
+      "fr": "Programme inspiré de Loma Linda"
+    },
     "description": {
       "ko": "로마린다 식문화에서 영감을 받아 식물성 재료만으로 재구성한 7일 플랜입니다.",
-      "en": "A 7-day plan inspired by Loma Linda's food culture, rebuilt entirely from plant-based ingredients."
+      "en": "A 7-day plan inspired by Loma Linda's food culture, rebuilt entirely from plant-based ingredients.",
+      "ja": "ロマリンダの食文化からインスピレーションを得て、植物性食材のみで再構成した7日間プランです。",
+      "zh": "从罗马林达饮食文化汲取灵感,完全以植物性食材重新构成的7天计划。",
+      "es": "Un plan de 7 días inspirado en la cultura culinaria de Loma Linda, reconstruido íntegramente con ingredientes de origen vegetal.",
+      "fr": "Un programme de 7 jours inspiré de la culture culinaire de Loma Linda, entièrement reconstruit à partir d'ingrédients d'origine végétale."
     },
-    "tags": ["blue-zone", "loma-linda", "plant-based"],
+    "tags": [
+      "blue-zone",
+      "loma-linda",
+      "plant-based"
+    ],
     "durationDays": 7,
     "days": [
-      { "day": 1, "breakfast": "millet-plum-porridge", "lunch": "lentil-vegetable-soup", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 2, "breakfast": "rye-flake-fig-porridge", "lunch": "chickpea-kale-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 3, "breakfast": "barley-pear-bowl", "lunch": "white-bean-quinoa-bowl", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 4, "breakfast": "quinoa-blackberry-bowl", "lunch": "edamame-brown-rice-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 5, "breakfast": "chia-berry-pudding", "lunch": "tofu-buckwheat-noodle-bowl", "dinner": "lentil-tomato-stew" },
-      { "day": 6, "breakfast": "buckwheat-apple-porridge", "lunch": "lentil-barley-salad", "dinner": "tofu-mushroom-stirfry" },
-      { "day": 7, "breakfast": "oatmeal-berry-bowl", "lunch": "lentil-vegetable-soup", "dinner": "lentil-tomato-stew" }
+      {
+        "day": 1,
+        "breakfast": "millet-plum-porridge",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 2,
+        "breakfast": "rye-flake-fig-porridge",
+        "lunch": "chickpea-kale-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 3,
+        "breakfast": "barley-pear-bowl",
+        "lunch": "white-bean-quinoa-bowl",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 4,
+        "breakfast": "quinoa-blackberry-bowl",
+        "lunch": "edamame-brown-rice-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 5,
+        "breakfast": "chia-berry-pudding",
+        "lunch": "tofu-buckwheat-noodle-bowl",
+        "dinner": "lentil-tomato-stew"
+      },
+      {
+        "day": 6,
+        "breakfast": "buckwheat-apple-porridge",
+        "lunch": "lentil-barley-salad",
+        "dinner": "tofu-mushroom-stirfry"
+      },
+      {
+        "day": 7,
+        "breakfast": "oatmeal-berry-bowl",
+        "lunch": "lentil-vegetable-soup",
+        "dinner": "lentil-tomato-stew"
+      }
     ]
   }
 ]

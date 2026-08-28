@@ -1,0 +1,87 @@
+{
+  "common": {
+    "appName": "International Longevity Food",
+    "disclaimer": "Ce contenu ne remplace pas un diagnostic, un traitement ou une prescription médicale. Consultez un professionnel de santé selon votre état de santé.",
+    "langToggle": "Langue",
+    "cartEmpty": "Votre panier est vide.",
+    "cartTitle": "Panier",
+    "cartClearAll": "Tout supprimer",
+    "cartClearAllConfirm": "Vider entièrement le panier ?",
+    "cartRemoveItem": "Supprimer",
+    "settingsTitle": "Paramètres",
+    "settingsLanguageLabel": "Langue"
+  },
+  "nav": {
+    "planList": "Liste des plans",
+    "planDetail": "Détail du plan",
+    "recipeDetail": "Détail de la recette",
+    "home": "Accueil",
+    "plans": "Plans",
+    "cart": "Panier",
+    "settings": "Paramètres"
+  },
+  "plan": {
+    "durationUnit": " jours",
+    "longevityScoreLabel": "Indice de longévité",
+    "scoreUnit": "/100",
+    "dayLabelFormat": "Jour {n}",
+    "mealLabels": {
+      "breakfast": "Petit-déjeuner",
+      "lunch": "Déjeuner",
+      "dinner": "Dîner"
+    },
+    "cuisineRegionLabel": "Style culinaire",
+    "cuisineRegions": {
+      "KR": "Asie de l'Est",
+      "IT": "Méditerranée et Europe",
+      "IN": "Asie du Sud et du Sud-Est",
+      "TR": "Moyen-Orient et Afrique du Nord",
+      "MX": "Amérique latine"
+    }
+  },
+  "recipe": {
+    "scoreBreakdownTitle": "Détail de l'indice de longévité",
+    "axisLabels": {
+      "plantRatio": "Part végétale",
+      "processedFood": "Aliments transformés",
+      "fatQuality": "Qualité des graisses",
+      "sodium": "Charge en sodium",
+      "addedSugar": "Charge en sucres ajoutés"
+    },
+    "ingredientsTitle": "Ingrédients",
+    "stepsTitle": "Préparation",
+    "addToCart": "Ajouter au panier",
+    "substitutesToggle": "Voir les substituts par pays",
+    "originalIngredientLabel": "Ingrédient d'origine",
+    "regionSelectedBadge": "Sélectionné"
+  },
+  "home": {
+    "trustHeadline1": "Conçu à partir des traditions culinaires des régions les plus longévives au monde et de recommandations nutritionnelles publiques",
+    "trustHeadline2": "Chaque repas vérifié par l'indice de longévité",
+    "featuredPlansTitle": "Plans à la une",
+    "viewAllPlans": "Voir tous les plans"
+  },
+  "ingredientTags": {
+    "whole-grain": "Céréale complète",
+    "refined-grain": "Céréale raffinée",
+    "vegetable": "Légume",
+    "leafy-green": "Légume feuille",
+    "fruit": "Fruit",
+    "legume": "Légumineuse",
+    "nuts-seeds": "Noix et graines",
+    "fish": "Poisson",
+    "poultry": "Volaille",
+    "red-meat": "Viande rouge",
+    "processed-meat": "Viande transformée",
+    "dairy": "Produit laitier",
+    "egg": "Œuf",
+    "healthy-fat": "Bonne graisse",
+    "saturated-fat": "Graisse saturée",
+    "ultra-processed": "Ultra-transformé",
+    "fried": "Frit",
+    "sugary-drink": "Boisson sucrée",
+    "high-sodium": "Riche en sodium",
+    "pickled-salted": "Mariné/salé",
+    "added-sugar": "Sucre ajouté"
+  }
+}

@@ -2,10 +2,16 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import type { Locale } from "@/lib/i18n";
+import { LOCALES, type Locale } from "@/lib/i18n";
 
-const LOCALES: Locale[] = ["ko", "en"];
-const LOCALE_LABELS: Record<Locale, string> = { ko: "한국어", en: "English" };
+const LOCALE_LABELS: Record<Locale, string> = {
+  ko: "한국어",
+  en: "English",
+  ja: "日本語",
+  zh: "中文",
+  es: "Español",
+  fr: "Français",
+};
 
 export default function LanguageToggle() {
   const pathname = usePathname();
@@ -14,7 +20,7 @@ export default function LanguageToggle() {
   const restOfPath = segments.slice(2).join("/");
 
   return (
-    <nav className="flex gap-3 text-sm">
+    <nav className="flex flex-wrap gap-x-3 gap-y-1 text-sm">
       {LOCALES.map((locale) => (
         <Link
           key={locale}

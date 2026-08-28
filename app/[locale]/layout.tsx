@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import BottomNav from "@/components/BottomNav";
-import { getDictionary, type Locale } from "@/lib/i18n";
+import { getDictionary, LOCALES, type Locale } from "@/lib/i18n";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -15,8 +15,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-const LOCALES: Locale[] = ["ko", "en"];
 
 function isLocale(value: string): value is Locale {
   return (LOCALES as string[]).includes(value);

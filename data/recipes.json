@@ -4,11 +4,19 @@
     "slug": "oatmeal-berry-bowl",
     "title": {
       "ko": "귀리 베리 볼",
-      "en": "Oatmeal Berry Bowl"
+      "en": "Oatmeal Berry Bowl",
+      "ja": "オーツベリーボウル",
+      "zh": "燕麦莓果碗",
+      "es": "Bol de avena con bayas",
+      "fr": "Bol de flocons d'avoine aux baies"
     },
     "description": {
       "ko": "혈당 부담이 낮은 재료로 구성한 아침 식사용 귀리 볼입니다.",
-      "en": "A breakfast oat bowl built with low glycemic-impact ingredients."
+      "en": "A breakfast oat bowl built with low glycemic-impact ingredients.",
+      "ja": "血糖への負担が少ない食材で構成した朝食用オーツボウルです。",
+      "zh": "由低血糖负荷食材构成的早餐燕麦碗。",
+      "es": "Un bol de avena para el desayuno elaborado con ingredientes de bajo impacto glucémico.",
+      "fr": "Un bol de flocons d'avoine pour le petit-déjeuner, élaboré avec des ingrédients à faible impact glycémique."
     },
     "tags": [
       "breakfast",
@@ -19,7 +27,11 @@
       {
         "name": {
           "ko": "귀리",
-          "en": "Rolled oats"
+          "en": "Rolled oats",
+          "ja": "オートミール",
+          "zh": "燕麦片",
+          "es": "Avena",
+          "fr": "Flocons d'avoine"
         },
         "amount": "50g",
         "tags": [
@@ -28,23 +40,39 @@
         "substituteGroupId": "sub-oats",
         "benefits": {
           "ko": "베타글루칸이라는 식이섬유가 풍부해 포만감 유지에 도움이 될 수 있어요.",
-          "en": "Rich in beta-glucan fiber, which may help you feel fuller for longer."
+          "en": "Rich in beta-glucan fiber, which may help you feel fuller for longer.",
+          "ja": "ベータグルカンという食物繊維が豊富で、満腹感の維持に役立つ可能性があります。",
+          "zh": "富含β-葡聚糖(一种膳食纤维),可能有助于维持饱腹感。",
+          "es": "Rica en fibra de beta-glucano, que puede ayudar a mantener la sensación de saciedad.",
+          "fr": "Riche en fibres de bêta-glucane, qui peuvent aider à prolonger la sensation de satiété."
         },
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           },
           {
             "ko": "포만감",
-            "en": "Satiety"
+            "en": "Satiety",
+            "ja": "満腹感",
+            "zh": "饱腹感",
+            "es": "Saciedad",
+            "fr": "Satiété"
           }
         ]
       },
       {
         "name": {
           "ko": "블루베리",
-          "en": "Blueberries"
+          "en": "Blueberries",
+          "ja": "ブルーベリー",
+          "zh": "蓝莓",
+          "es": "Arándanos",
+          "fr": "Myrtilles"
         },
         "amount": "40g",
         "tags": [
@@ -52,24 +80,40 @@
         ],
         "benefits": {
           "ko": "안토시아닌이라는 항산화 성분이 풍부한 과일이에요.",
-          "en": "Rich in anthocyanins, antioxidant compounds found in dark berries."
+          "en": "Rich in anthocyanins, antioxidant compounds found in dark berries.",
+          "ja": "アントシアニンという抗酸化成分が豊富な果物です。",
+          "zh": "富含花青素(一种抗氧化成分)的水果。",
+          "es": "Rica en antocianinas, compuestos antioxidantes presentes en bayas oscuras.",
+          "fr": "Riche en anthocyanes, des composés antioxydants présents dans les baies foncées."
         },
         "substituteGroupId": "sub-blueberries",
         "pointTags": [
           {
             "ko": "항산화",
-            "en": "Antioxidant"
+            "en": "Antioxidant",
+            "ja": "抗酸化",
+            "zh": "抗氧化",
+            "es": "Antioxidante",
+            "fr": "Antioxydant"
           },
           {
             "ko": "안토시아닌",
-            "en": "Anthocyanins"
+            "en": "Anthocyanins",
+            "ja": "アントシアニン",
+            "zh": "花青素",
+            "es": "Antocianinas",
+            "fr": "Anthocyanes"
           }
         ]
       },
       {
         "name": {
           "ko": "아몬드",
-          "en": "Almonds"
+          "en": "Almonds",
+          "ja": "アーモンド",
+          "zh": "杏仁",
+          "es": "Almendras",
+          "fr": "Amandes"
         },
         "amount": "10g",
         "tags": [
@@ -78,36 +122,60 @@
         ],
         "benefits": {
           "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
-          "en": "Contains unsaturated fats and vitamin E."
+          "en": "Contains unsaturated fats and vitamin E.",
+          "ja": "不飽和脂肪とビタミンEを含むナッツです。",
+          "zh": "含有不饱和脂肪和维生素E的坚果。",
+          "es": "Fruto seco que contiene grasas insaturadas y vitamina E.",
+          "fr": "Un fruit à coque contenant des graisses insaturées et de la vitamine E."
         },
         "substituteGroupId": "sub-almonds",
         "pointTags": [
           {
             "ko": "비타민E",
-            "en": "Vitamin E"
+            "en": "Vitamin E",
+            "ja": "ビタミンE",
+            "zh": "维生素E",
+            "es": "Vitamina E",
+            "fr": "Vitamine E"
           },
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       },
       {
         "name": {
           "ko": "무가당 아몬드유",
-          "en": "Unsweetened almond milk"
+          "en": "Unsweetened almond milk",
+          "ja": "無糖アーモンドミルク",
+          "zh": "无糖杏仁奶",
+          "es": "Leche de almendras sin azúcar",
+          "fr": "Lait d'amande non sucré"
         },
         "amount": "150ml",
         "tags": [],
         "benefits": {
           "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
-          "en": "An unsweetened plant-based milk alternative with no added sugar."
+          "en": "An unsweetened plant-based milk alternative with no added sugar.",
+          "ja": "砂糖不使用で、牛乳の代わりに使いやすい植物性飲料です。",
+          "zh": "不添加糖分,可替代牛奶的植物基饮品。",
+          "es": "Bebida vegetal sin azúcar añadido, ideal como alternativa a la leche.",
+          "fr": "Une boisson végétale sans sucre ajouté, une bonne alternative au lait."
         },
         "substituteGroupId": "sub-almond-milk",
         "pointTags": [
           {
             "ko": "무가당",
-            "en": "No Added Sugar"
+            "en": "No Added Sugar",
+            "ja": "無糖",
+            "zh": "无添加糖",
+            "es": "Sin azúcar añadido",
+            "fr": "Sans sucre ajouté"
           }
         ]
       }
@@ -117,49 +185,77 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 무가당 아몬드유 150ml를 붓는다.",
-          "en": "Pour 150ml of unsweetened almond milk into a pot."
+          "en": "Pour 150ml of unsweetened almond milk into a pot.",
+          "ja": "鍋に無糖アーモンドミルク150mlを注ぐ。",
+          "zh": "将150毫升无糖杏仁奶倒入锅中。",
+          "es": "Vierta 150 ml de leche de almendras sin azúcar en una olla.",
+          "fr": "Versez 150 ml de lait d'amande non sucré dans une casserole."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "불을 약불로 켠다.",
-          "en": "Turn the heat to low."
+          "en": "Turn the heat to low.",
+          "ja": "弱火にかける。",
+          "zh": "转小火。",
+          "es": "Encienda el fuego a temperatura baja.",
+          "fr": "Faites chauffer à feu doux."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "귀리 50g을 넣는다.",
-          "en": "Add 50g of rolled oats."
+          "en": "Add 50g of rolled oats.",
+          "ja": "オートミール50gを加える。",
+          "zh": "加入50克燕麦片。",
+          "es": "Añada 50 g de avena.",
+          "fr": "Ajoutez 50 g de flocons d'avoine."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "나무 숟가락으로 가끔 저으며 5분간 끓인다.",
-          "en": "Simmer for 5 minutes, stirring occasionally with a wooden spoon."
+          "en": "Simmer for 5 minutes, stirring occasionally with a wooden spoon.",
+          "ja": "木べらで時々かき混ぜながら5分煮る。",
+          "zh": "用木勺偶尔搅拌,煮5分钟。",
+          "es": "Cueza a fuego lento 5 minutos, removiendo de vez en cuando con una cuchara de madera.",
+          "fr": "Laissez mijoter 5 minutes en remuant de temps en temps avec une cuillère en bois."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "불을 끄고 그릇에 옮겨 담는다.",
-          "en": "Turn off the heat and transfer to a bowl."
+          "en": "Turn off the heat and transfer to a bowl.",
+          "ja": "火を止めて器に移す。",
+          "zh": "关火后盛入碗中。",
+          "es": "Apague el fuego y páselo a un bol.",
+          "fr": "Éteignez le feu et transférez dans un bol."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "블루베리 40g을 얹는다.",
-          "en": "Top with 40g of blueberries."
+          "en": "Top with 40g of blueberries.",
+          "ja": "ブルーベリー40gをのせる。",
+          "zh": "撒上40克蓝莓。",
+          "es": "Cubra con 40 g de arándanos.",
+          "fr": "Garnissez de 40 g de myrtilles."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "아몬드 10g을 얹는다.",
-          "en": "Top with 10g of almonds."
+          "en": "Top with 10g of almonds.",
+          "ja": "アーモンド10gをのせる。",
+          "zh": "撒上10克杏仁。",
+          "es": "Cubra con 10 g de almendras.",
+          "fr": "Garnissez de 10 g d'amandes."
         }
       }
     ]
@@ -169,11 +265,19 @@
     "slug": "lentil-vegetable-soup",
     "title": {
       "ko": "렌틸콩 채소 수프",
-      "en": "Lentil Vegetable Soup"
+      "en": "Lentil Vegetable Soup",
+      "ja": "レンズ豆と野菜のスープ",
+      "zh": "小扁豆蔬菜汤",
+      "es": "Sopa de lentejas y verduras",
+      "fr": "Soupe de lentilles aux légumes"
     },
     "description": {
       "ko": "혈당 부담이 낮은 재료로 구성한 점심용 렌틸콩 채소 수프입니다.",
-      "en": "A lunch lentil and vegetable soup built with low glycemic-impact ingredients."
+      "en": "A lunch lentil and vegetable soup built with low glycemic-impact ingredients.",
+      "ja": "血糖への負担が少ない食材で構成した昼食用レンズ豆野菜スープです。",
+      "zh": "由低血糖负荷食材构成的午餐小扁豆蔬菜汤。",
+      "es": "Una sopa de lentejas y verduras para el almuerzo elaborada con ingredientes de bajo impacto glucémico.",
+      "fr": "Une soupe de lentilles et légumes pour le déjeuner, élaborée avec des ingrédients à faible impact glycémique."
     },
     "tags": [
       "lunch",
@@ -184,7 +288,11 @@
       {
         "name": {
           "ko": "렌틸콩",
-          "en": "Lentils"
+          "en": "Lentils",
+          "ja": "レンズ豆",
+          "zh": "小扁豆",
+          "es": "Lentejas",
+          "fr": "Lentilles"
         },
         "amount": "80g",
         "tags": [
@@ -193,23 +301,39 @@
         "substituteGroupId": "sub-lentils",
         "benefits": {
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
-          "en": "A legume rich in plant-based protein and fiber."
+          "en": "A legume rich in plant-based protein and fiber.",
+          "ja": "植物性タンパク質と食物繊維が豊富な豆類です。",
+          "zh": "富含植物蛋白和膳食纤维的豆类。",
+          "es": "Legumbre rica en proteína vegetal y fibra.",
+          "fr": "Une légumineuse riche en protéines végétales et en fibres."
         },
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "양파",
-          "en": "Onion"
+          "en": "Onion",
+          "ja": "玉ねぎ",
+          "zh": "洋葱",
+          "es": "Cebolla",
+          "fr": "Oignon"
         },
         "amount": "50g",
         "tags": [
@@ -217,19 +341,31 @@
         ],
         "benefits": {
           "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
-          "en": "Contains quercetin, a plant compound found in many vegetables."
+          "en": "Contains quercetin, a plant compound found in many vegetables.",
+          "ja": "ケルセチンという植物性化合物を含む野菜です。",
+          "zh": "含有槲皮素(一种植物化合物)的蔬菜,多种蔬菜中都能找到。",
+          "es": "Contiene quercetina, un compuesto vegetal presente en muchas verduras.",
+          "fr": "Contient de la quercétine, un composé végétal présent dans de nombreux légumes."
         },
         "pointTags": [
           {
             "ko": "퀘르세틴",
-            "en": "Quercetin"
+            "en": "Quercetin",
+            "ja": "ケルセチン",
+            "zh": "槲皮素",
+            "es": "Quercetina",
+            "fr": "Quercétine"
           }
         ]
       },
       {
         "name": {
           "ko": "당근",
-          "en": "Carrot"
+          "en": "Carrot",
+          "ja": "にんじん",
+          "zh": "胡萝卜",
+          "es": "Zanahoria",
+          "fr": "Carotte"
         },
         "amount": "40g",
         "tags": [
@@ -237,19 +373,31 @@
         ],
         "benefits": {
           "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
-          "en": "Rich in beta-carotene, which gives it its orange color."
+          "en": "Rich in beta-carotene, which gives it its orange color.",
+          "ja": "ベータカロテンが豊富でオレンジ色をした根菜です。",
+          "zh": "富含β-胡萝卜素,呈橙色的根茎类蔬菜。",
+          "es": "Raíz de color naranja rica en betacaroteno.",
+          "fr": "Une racine de couleur orange riche en bêta-carotène."
         },
         "pointTags": [
           {
             "ko": "베타카로틴",
-            "en": "Beta-Carotene"
+            "en": "Beta-Carotene",
+            "ja": "ベータカロテン",
+            "zh": "β-胡萝卜素",
+            "es": "Betacaroteno",
+            "fr": "Bêta-carotène"
           }
         ]
       },
       {
         "name": {
           "ko": "채소 육수",
-          "en": "Vegetable stock"
+          "en": "Vegetable stock",
+          "ja": "野菜だし",
+          "zh": "蔬菜高汤",
+          "es": "Caldo de verduras",
+          "fr": "Bouillon de légumes"
         },
         "amount": "300ml",
         "tags": [
@@ -257,13 +405,21 @@
         ],
         "benefits": {
           "ko": "감칠맛을 더해주지만 시판 제품은 나트륨이 있는 편이라 조금만 써요.",
-          "en": "Adds savory depth, but store-bought versions tend to be higher in sodium, so use it sparingly."
+          "en": "Adds savory depth, but store-bought versions tend to be higher in sodium, so use it sparingly.",
+          "ja": "旨味を加えますが、市販品はナトリウムが多い傾向があるので少量にとどめましょう。",
+          "zh": "能增添鲜味,但市售产品钠含量往往偏高,建议少量使用。",
+          "es": "Aporta profundidad de sabor, pero las versiones comerciales suelen tener más sodio, así que úselo con moderación.",
+          "fr": "Apporte de la profondeur de saveur, mais les versions du commerce ont tendance à être plus riches en sodium, à utiliser donc avec modération."
         },
         "substituteGroupId": "sub-vegetable-stock",
         "pointTags": [
           {
             "ko": "나트륨 주의",
-            "en": "Watch Sodium"
+            "en": "Watch Sodium",
+            "ja": "ナトリウムに注意",
+            "zh": "注意钠含量",
+            "es": "Vigilar el sodio",
+            "fr": "Attention au sodium"
           }
         ]
       }
@@ -273,49 +429,77 @@
         "order": 1,
         "instruction": {
           "ko": "양파 50g을 잘게 썬다.",
-          "en": "Dice 50g of onion."
+          "en": "Dice 50g of onion.",
+          "ja": "玉ねぎ50gを細かく刻む。",
+          "zh": "将50克洋葱切碎。",
+          "es": "Pique 50 g de cebolla.",
+          "fr": "Émincez 50 g d'oignon."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "당근 40g을 잘게 썬다.",
-          "en": "Dice 40g of carrot."
+          "en": "Dice 40g of carrot.",
+          "ja": "にんじん40gを細かく刻む。",
+          "zh": "将40克胡萝卜切碎。",
+          "es": "Pique 40 g de zanahoria.",
+          "fr": "Émincez 40 g de carotte."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "냄비를 중불에 올린다.",
-          "en": "Place a pot over medium heat."
+          "en": "Place a pot over medium heat.",
+          "ja": "鍋を中火にかける。",
+          "zh": "将锅置于中火上。",
+          "es": "Ponga una olla a fuego medio.",
+          "fr": "Placez une casserole à feu moyen."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "썰어둔 양파와 당근을 넣고 2분간 볶는다.",
-          "en": "Add the diced onion and carrot, and sauté for 2 minutes."
+          "en": "Add the diced onion and carrot, and sauté for 2 minutes.",
+          "ja": "刻んだ玉ねぎとにんじんを加え、2分間炒める。",
+          "zh": "加入切好的洋葱和胡萝卜,翻炒2分钟。",
+          "es": "Añada la cebolla y la zanahoria picadas, y saltee durante 2 minutos.",
+          "fr": "Ajoutez l'oignon et la carotte émincés, et faites revenir pendant 2 minutes."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "렌틸콩 80g을 넣는다.",
-          "en": "Add 80g of lentils."
+          "en": "Add 80g of lentils.",
+          "ja": "レンズ豆80gを加える。",
+          "zh": "加入80克小扁豆。",
+          "es": "Añada 80 g de lentejas.",
+          "fr": "Ajoutez 80 g de lentilles."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "채소 육수 300ml를 붓는다.",
-          "en": "Pour in 300ml of vegetable stock."
+          "en": "Pour in 300ml of vegetable stock.",
+          "ja": "野菜だし300mlを注ぐ。",
+          "zh": "倒入300毫升蔬菜高汤。",
+          "es": "Vierta 300 ml de caldo de verduras.",
+          "fr": "Versez 300 ml de bouillon de légumes."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "끓어오르면 약불로 줄여 20분간 끓인다.",
-          "en": "Once it boils, reduce to low heat and simmer for 20 minutes."
+          "en": "Once it boils, reduce to low heat and simmer for 20 minutes.",
+          "ja": "沸騰したら弱火にして20分煮る。",
+          "zh": "煮沸后转小火炖20分钟。",
+          "es": "Cuando hierva, reduzca a fuego lento y cueza durante 20 minutos.",
+          "fr": "Une fois à ébullition, réduisez à feu doux et laissez mijoter 20 minutes."
         }
       }
     ]
@@ -325,11 +509,19 @@
     "slug": "grilled-mackerel-greens",
     "title": {
       "ko": "고등어 구이와 채소",
-      "en": "Grilled Mackerel with Greens"
+      "en": "Grilled Mackerel with Greens",
+      "ja": "焼き鯖と野菜",
+      "zh": "烤鲭鱼配蔬菜",
+      "es": "Caballa a la plancha con verduras",
+      "fr": "Maquereau grillé aux légumes"
     },
     "description": {
       "ko": "혈당 부담이 낮은 재료로 구성한 저녁용 고등어 구이 플레이트입니다.",
-      "en": "A dinner grilled mackerel plate built with low glycemic-impact ingredients."
+      "en": "A dinner grilled mackerel plate built with low glycemic-impact ingredients.",
+      "ja": "血糖への負担が少ない食材で構成した夕食用の焼き鯖プレートです。",
+      "zh": "由低血糖负荷食材构成的晚餐烤鲭鱼餐盘。",
+      "es": "Un plato de caballa a la plancha para la cena elaborado con ingredientes de bajo impacto glucémico.",
+      "fr": "Une assiette de maquereau grillé pour le dîner, élaborée avec des ingrédients à faible impact glycémique."
     },
     "tags": [
       "dinner",
@@ -340,7 +532,11 @@
       {
         "name": {
           "ko": "고등어",
-          "en": "Mackerel"
+          "en": "Mackerel",
+          "ja": "鯖",
+          "zh": "鲭鱼",
+          "es": "Caballa",
+          "fr": "Maquereau"
         },
         "amount": "120g",
         "tags": [
@@ -350,19 +546,31 @@
         "substituteGroupId": "sub-mackerel",
         "benefits": {
           "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
-          "en": "Rich in omega-3 fatty acids, which may support heart health."
+          "en": "Rich in omega-3 fatty acids, which may support heart health.",
+          "ja": "オメガ3脂肪酸が豊富で、血管の健康に役立つ可能性があります。",
+          "zh": "富含Omega-3脂肪酸,可能有助于心血管健康。",
+          "es": "Rica en ácidos grasos omega-3, que pueden favorecer la salud cardiovascular.",
+          "fr": "Riche en acides gras oméga-3, qui peuvent favoriser la santé cardiovasculaire."
         },
         "pointTags": [
           {
             "ko": "오메가-3",
-            "en": "Omega-3"
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
           }
         ]
       },
       {
         "name": {
           "ko": "브로콜리",
-          "en": "Broccoli"
+          "en": "Broccoli",
+          "ja": "ブロッコリー",
+          "zh": "西兰花",
+          "es": "Brócoli",
+          "fr": "Brocoli"
         },
         "amount": "80g",
         "tags": [
@@ -370,24 +578,40 @@
         ],
         "benefits": {
           "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
-          "en": "A cruciferous vegetable rich in vitamin C and fiber."
+          "en": "A cruciferous vegetable rich in vitamin C and fiber.",
+          "ja": "ビタミンCと食物繊維が豊富なアブラナ科の野菜です。",
+          "zh": "富含维生素C和膳食纤维的十字花科蔬菜。",
+          "es": "Verdura crucífera rica en vitamina C y fibra.",
+          "fr": "Un légume crucifère riche en vitamine C et en fibres."
         },
         "substituteGroupId": "sub-broccoli",
         "pointTags": [
           {
             "ko": "비타민C",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "5ml",
         "tags": [
@@ -395,20 +619,32 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       },
       {
         "name": {
           "ko": "레몬",
-          "en": "Lemon"
+          "en": "Lemon",
+          "ja": "レモン",
+          "zh": "柠檬",
+          "es": "Limón",
+          "fr": "Citron"
         },
         "amount": "1/4개",
         "tags": [
@@ -416,13 +652,21 @@
         ],
         "benefits": {
           "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.",
-          "en": "Rich in vitamin C and adds bright acidity."
+          "en": "Rich in vitamin C and adds bright acidity.",
+          "ja": "ビタミンCが豊富で爽やかな酸味を加えます。",
+          "zh": "富含维生素C,能增添清爽的酸味。",
+          "es": "Rico en vitamina C y aporta una acidez fresca.",
+          "fr": "Riche en vitamine C, il apporte une acidité rafraîchissante."
         },
         "substituteGroupId": "sub-lemon",
         "pointTags": [
           {
             "ko": "비타민C",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
           }
         ]
       }
@@ -432,56 +676,88 @@
         "order": 1,
         "instruction": {
           "ko": "팬을 중불에 올려 달군다.",
-          "en": "Heat a pan over medium heat."
+          "en": "Heat a pan over medium heat.",
+          "ja": "フライパンを中火で熱する。",
+          "zh": "将平底锅置于中火加热。",
+          "es": "Caliente una sartén a fuego medio.",
+          "fr": "Faites chauffer une poêle à feu moyen."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "고등어 120g을 껍질 쪽부터 올린다.",
-          "en": "Place the 120g mackerel skin-side down."
+          "en": "Place the 120g mackerel skin-side down.",
+          "ja": "鯖120gを皮目から焼く。",
+          "zh": "将120克鲭鱼皮朝下放入锅中。",
+          "es": "Coloque los 120 g de caballa con la piel hacia abajo.",
+          "fr": "Déposez les 120 g de maquereau côté peau vers le bas."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "소금은 아주 조금만 뿌린다.",
-          "en": "Sprinkle on just a small pinch of salt."
+          "en": "Sprinkle on just a small pinch of salt.",
+          "ja": "塩をほんの少しだけ振る。",
+          "zh": "撒上少许盐。",
+          "es": "Añada solo una pizca de sal.",
+          "fr": "Ajoutez juste une pincée de sel."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "4분간 굽는다.",
-          "en": "Cook for 4 minutes."
+          "en": "Cook for 4 minutes.",
+          "ja": "4分間焼く。",
+          "zh": "煎4分钟。",
+          "es": "Cocine durante 4 minutos.",
+          "fr": "Faites cuire pendant 4 minutes."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "뒤집어서 4분 더 굽는다.",
-          "en": "Flip and cook for another 4 minutes."
+          "en": "Flip and cook for another 4 minutes.",
+          "ja": "裏返してさらに4分焼く。",
+          "zh": "翻面后再煎4分钟。",
+          "es": "Dele la vuelta y cocine 4 minutos más.",
+          "fr": "Retournez et poursuivez la cuisson 4 minutes."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "냄비에 물을 끓여 브로콜리 80g을 넣고 2분간 데친다.",
-          "en": "Boil water in a pot, add 80g of broccoli, and blanch for 2 minutes."
+          "en": "Boil water in a pot, add 80g of broccoli, and blanch for 2 minutes.",
+          "ja": "鍋に湯を沸かし、ブロッコリー80gを入れて2分ゆでる。",
+          "zh": "锅中烧开水,放入80克西兰花焯烫2分钟。",
+          "es": "Hierva agua en una olla, añada 80 g de brócoli y escalde durante 2 minutos.",
+          "fr": "Faites bouillir de l'eau dans une casserole, ajoutez 80 g de brocoli et blanchissez pendant 2 minutes."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "데친 브로콜리에 올리브유 5ml를 두른다.",
-          "en": "Drizzle 5ml of olive oil over the blanched broccoli."
+          "en": "Drizzle 5ml of olive oil over the blanched broccoli.",
+          "ja": "ゆでたブロッコリーにオリーブオイル5mlをかける。",
+          "zh": "在焯好的西兰花上淋5毫升橄榄油。",
+          "es": "Rocíe 5 ml de aceite de oliva sobre el brócoli escaldado.",
+          "fr": "Arrosez le brocoli blanchi de 5 ml d'huile d'olive."
         }
       },
       {
         "order": 8,
         "instruction": {
           "ko": "레몬 1/4개를 즙 내어 뿌린다.",
-          "en": "Squeeze the juice of 1/4 lemon over the plate."
+          "en": "Squeeze the juice of 1/4 lemon over the plate.",
+          "ja": "レモン1/4個分の果汁を絞りかける。",
+          "zh": "挤入1/4个柠檬的汁液。",
+          "es": "Exprima el zumo de 1/4 de limón por encima.",
+          "fr": "Pressez le jus d'1/4 de citron sur l'assiette."
         }
       }
     ]
@@ -491,11 +767,19 @@
     "slug": "buckwheat-apple-porridge",
     "title": {
       "ko": "메밀 사과 포리지",
-      "en": "Buckwheat Apple Porridge"
+      "en": "Buckwheat Apple Porridge",
+      "ja": "そばとりんごのポリッジ",
+      "zh": "荞麦苹果粥",
+      "es": "Gachas de trigo sarraceno con manzana",
+      "fr": "Porridge de sarrasin à la pomme"
     },
     "description": {
       "ko": "메밀의 고소함과 사과의 단맛을 살린 아침 포리지입니다.",
-      "en": "A morning porridge balancing nutty buckwheat with apple sweetness."
+      "en": "A morning porridge balancing nutty buckwheat with apple sweetness.",
+      "ja": "そばの香ばしさとりんごの甘さを活かした朝のポリッジです。",
+      "zh": "融合荞麦香气与苹果甜味的早餐粥品。",
+      "es": "Unas gachas matutinas que equilibran el sabor tostado del trigo sarraceno con la dulzura de la manzana.",
+      "fr": "Un porridge matinal qui équilibre la saveur du sarrasin torréfié avec la douceur de la pomme."
     },
     "tags": [
       "breakfast",
@@ -506,7 +790,11 @@
       {
         "name": {
           "ko": "메밀쌀",
-          "en": "Buckwheat groats"
+          "en": "Buckwheat groats",
+          "ja": "そば米",
+          "zh": "荞麦米",
+          "es": "Trigo sarraceno",
+          "fr": "Sarrasin décortiqué"
         },
         "amount": "50g",
         "tags": [
@@ -514,24 +802,40 @@
         ],
         "benefits": {
           "ko": "글루텐이 없는 통곡물로 식이섬유가 풍부해요.",
-          "en": "A gluten-free whole grain that's a good source of fiber."
+          "en": "A gluten-free whole grain that's a good source of fiber.",
+          "ja": "グルテンフリーの全粒穀物で食物繊維が豊富です。",
+          "zh": "不含麸质的全谷物,富含膳食纤维。",
+          "es": "Cereal integral sin gluten y buena fuente de fibra.",
+          "fr": "Une céréale complète sans gluten, riche en fibres."
         },
         "substituteGroupId": "sub-buckwheat-groats",
         "pointTags": [
           {
             "ko": "글루텐프리",
-            "en": "Gluten-Free"
+            "en": "Gluten-Free",
+            "ja": "グルテンフリー",
+            "zh": "无麸质",
+            "es": "Sin gluten",
+            "fr": "Sans gluten"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "사과",
-          "en": "Apple"
+          "en": "Apple",
+          "ja": "りんご",
+          "zh": "苹果",
+          "es": "Manzana",
+          "fr": "Pomme"
         },
         "amount": "60g",
         "tags": [
@@ -539,24 +843,40 @@
         ],
         "benefits": {
           "ko": "식이섬유인 펙틴이 풍부한 과일이에요.",
-          "en": "Rich in pectin, a type of dietary fiber."
+          "en": "Rich in pectin, a type of dietary fiber.",
+          "ja": "食物繊維であるペクチンが豊富な果物です。",
+          "zh": "富含果胶(一种膳食纤维)的水果。",
+          "es": "Fruta rica en pectina, un tipo de fibra dietética.",
+          "fr": "Un fruit riche en pectine, une fibre alimentaire."
         },
         "substituteGroupId": "sub-apple",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           },
           {
             "ko": "펙틴",
-            "en": "Pectin"
+            "en": "Pectin",
+            "ja": "ペクチン",
+            "zh": "果胶",
+            "es": "Pectina",
+            "fr": "Pectine"
           }
         ]
       },
       {
         "name": {
           "ko": "호두",
-          "en": "Walnuts"
+          "en": "Walnuts",
+          "ja": "くるみ",
+          "zh": "核桃",
+          "es": "Nueces",
+          "fr": "Noix"
         },
         "amount": "10g",
         "tags": [
@@ -565,20 +885,32 @@
         ],
         "benefits": {
           "ko": "오메가-3 지방산이 들어 있는 견과류예요.",
-          "en": "A nut that contains omega-3 fatty acids."
+          "en": "A nut that contains omega-3 fatty acids.",
+          "ja": "オメガ3脂肪酸を含むナッツです。",
+          "zh": "含有Omega-3脂肪酸的坚果。",
+          "es": "Fruto seco que contiene ácidos grasos omega-3.",
+          "fr": "Un fruit à coque contenant des acides gras oméga-3."
         },
         "substituteGroupId": "sub-walnuts",
         "pointTags": [
           {
             "ko": "오메가-3",
-            "en": "Omega-3"
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
           }
         ]
       },
       {
         "name": {
           "ko": "물",
-          "en": "Water"
+          "en": "Water",
+          "ja": "水",
+          "zh": "水",
+          "es": "Agua",
+          "fr": "Eau"
         },
         "amount": "180ml",
         "tags": []
@@ -589,49 +921,77 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 물 180ml를 붓는다.",
-          "en": "Pour 180ml of water into a pot."
+          "en": "Pour 180ml of water into a pot.",
+          "ja": "鍋に水180mlを注ぐ。",
+          "zh": "将180毫升水倒入锅中。",
+          "es": "Vierta 180 ml de agua en una olla.",
+          "fr": "Versez 180 ml d'eau dans une casserole."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "메밀쌀 50g을 넣는다.",
-          "en": "Add 50g of buckwheat groats."
+          "en": "Add 50g of buckwheat groats.",
+          "ja": "そば米50gを加える。",
+          "zh": "加入50克荞麦米。",
+          "es": "Añada 50 g de trigo sarraceno.",
+          "fr": "Ajoutez 50 g de sarrasin décortiqué."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "불을 약불로 켠다.",
-          "en": "Turn the heat to low."
+          "en": "Turn the heat to low.",
+          "ja": "弱火にかける。",
+          "zh": "转小火。",
+          "es": "Encienda el fuego a temperatura baja.",
+          "fr": "Faites chauffer à feu doux."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "저어가며 10분간 끓인다.",
-          "en": "Simmer for 10 minutes, stirring occasionally."
+          "en": "Simmer for 10 minutes, stirring occasionally.",
+          "ja": "かき混ぜながら10分煮る。",
+          "zh": "边搅拌边煮10分钟。",
+          "es": "Cueza a fuego lento 10 minutos, removiendo de vez en cuando.",
+          "fr": "Laissez mijoter 10 minutes en remuant de temps en temps."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "사과 60g을 잘게 썬다.",
-          "en": "Dice 60g of apple."
+          "en": "Dice 60g of apple.",
+          "ja": "りんご60gを細かく切る。",
+          "zh": "将60克苹果切碎。",
+          "es": "Corte 60 g de manzana en trozos pequeños.",
+          "fr": "Coupez 60 g de pomme en petits morceaux."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "불을 끄고 그릇에 옮겨 담는다.",
-          "en": "Turn off the heat and transfer to a bowl."
+          "en": "Turn off the heat and transfer to a bowl.",
+          "ja": "火を止めて器に移す。",
+          "zh": "关火后盛入碗中。",
+          "es": "Apague el fuego y páselo a un bol.",
+          "fr": "Éteignez le feu et transférez dans un bol."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "썰어둔 사과와 호두 10g을 얹는다.",
-          "en": "Top with the diced apple and 10g of walnuts."
+          "en": "Top with the diced apple and 10g of walnuts.",
+          "ja": "切ったりんごとくるみ10gをのせる。",
+          "zh": "撒上切好的苹果和10克核桃。",
+          "es": "Cubra con la manzana picada y 10 g de nueces.",
+          "fr": "Garnissez avec la pomme coupée et 10 g de noix."
         }
       }
     ]
@@ -641,11 +1001,19 @@
     "slug": "chia-berry-pudding",
     "title": {
       "ko": "치아씨드 베리 푸딩",
-      "en": "Chia Berry Pudding"
+      "en": "Chia Berry Pudding",
+      "ja": "チアシードベリープディング",
+      "zh": "奇亚籽莓果布丁",
+      "es": "Pudín de chía con bayas",
+      "fr": "Pudding de chia aux baies"
     },
     "description": {
       "ko": "전날 밤 재워두면 아침에 바로 먹을 수 있는 푸딩입니다.",
-      "en": "Soak it overnight and it is ready to eat in the morning."
+      "en": "Soak it overnight and it is ready to eat in the morning.",
+      "ja": "前の晩に仕込んでおけば朝すぐに食べられるプディングです。",
+      "zh": "前一晚准备好,早上即可直接享用的布丁。",
+      "es": "Prepárelo la noche anterior y estará listo para comer por la mañana.",
+      "fr": "Préparez-le la veille au soir et il sera prêt à déguster dès le matin."
     },
     "tags": [
       "breakfast",
@@ -656,7 +1024,11 @@
       {
         "name": {
           "ko": "치아씨드",
-          "en": "Chia seeds"
+          "en": "Chia seeds",
+          "ja": "チアシード",
+          "zh": "奇亚籽",
+          "es": "Semillas de chía",
+          "fr": "Graines de chia"
         },
         "amount": "25g",
         "tags": [
@@ -665,20 +1037,32 @@
         ],
         "benefits": {
           "ko": "물에 불리면 부풀어 오르는 씨앗으로 식이섬유가 풍부해요.",
-          "en": "Swells when soaked in liquid and is a good source of fiber."
+          "en": "Swells when soaked in liquid and is a good source of fiber.",
+          "ja": "液体に浸すと膨らむ種子で食物繊維が豊富です。",
+          "zh": "浸泡后会膨胀的种子,富含膳食纤维。",
+          "es": "Se hinchan al remojarlas en líquido y son una buena fuente de fibra.",
+          "fr": "Elles gonflent au contact d'un liquide et sont riches en fibres."
         },
         "substituteGroupId": "sub-chia-seeds",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "라즈베리",
-          "en": "Raspberries"
+          "en": "Raspberries",
+          "ja": "ラズベリー",
+          "zh": "覆盆子",
+          "es": "Frambuesas",
+          "fr": "Framboises"
         },
         "amount": "40g",
         "tags": [
@@ -686,55 +1070,91 @@
         ],
         "benefits": {
           "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.",
-          "en": "A berry rich in fiber and antioxidant compounds."
+          "en": "A berry rich in fiber and antioxidant compounds.",
+          "ja": "食物繊維と抗酸化成分が豊富なベリー類です。",
+          "zh": "富含膳食纤维和抗氧化成分的浆果。",
+          "es": "Baya rica en fibra y compuestos antioxidantes.",
+          "fr": "Une baie riche en fibres et en composés antioxydants."
         },
         "substituteGroupId": "sub-raspberries",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           },
           {
             "ko": "항산화",
-            "en": "Antioxidant"
+            "en": "Antioxidant",
+            "ja": "抗酸化",
+            "zh": "抗氧化",
+            "es": "Antioxidante",
+            "fr": "Antioxydant"
           }
         ]
       },
       {
         "name": {
           "ko": "무가당 아몬드유",
-          "en": "Unsweetened almond milk"
+          "en": "Unsweetened almond milk",
+          "ja": "無糖アーモンドミルク",
+          "zh": "无糖杏仁奶",
+          "es": "Leche de almendras sin azúcar",
+          "fr": "Lait d'amande non sucré"
         },
         "amount": "150ml",
         "tags": [],
         "benefits": {
           "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
-          "en": "An unsweetened plant-based milk alternative with no added sugar."
+          "en": "An unsweetened plant-based milk alternative with no added sugar.",
+          "ja": "砂糖不使用で、牛乳の代わりに使いやすい植物性飲料です。",
+          "zh": "不添加糖分,可替代牛奶的植物基饮品。",
+          "es": "Bebida vegetal sin azúcar añadido, ideal como alternativa a la leche.",
+          "fr": "Une boisson végétale sans sucre ajouté, une bonne alternative au lait."
         },
         "substituteGroupId": "sub-almond-milk",
         "pointTags": [
           {
             "ko": "무가당",
-            "en": "No Added Sugar"
+            "en": "No Added Sugar",
+            "ja": "無糖",
+            "zh": "无添加糖",
+            "es": "Sin azúcar añadido",
+            "fr": "Sans sucre ajouté"
           }
         ]
       },
       {
         "name": {
           "ko": "계피가루",
-          "en": "Ground cinnamon"
+          "en": "Ground cinnamon",
+          "ja": "シナモンパウダー",
+          "zh": "肉桂粉",
+          "es": "Canela molida",
+          "fr": "Cannelle moulue"
         },
         "amount": "1g",
         "tags": [],
         "benefits": {
           "ko": "향신료로 소량만 써도 단맛 없이 풍미를 더할 수 있어요.",
-          "en": "A spice that adds flavor without needing added sugar."
+          "en": "A spice that adds flavor without needing added sugar.",
+          "ja": "少量でも砂糖なしで風味を加えられるスパイスです。",
+          "zh": "只需少量即可增添风味,无需额外加糖的香料。",
+          "es": "Una especia que aporta sabor sin necesidad de azúcar añadido.",
+          "fr": "Une épice qui apporte de la saveur sans besoin de sucre ajouté."
         },
         "substituteGroupId": "sub-ground-cinnamon",
         "pointTags": [
           {
             "ko": "무가당 풍미",
-            "en": "Sugar-Free Flavor"
+            "en": "Sugar-Free Flavor",
+            "ja": "無糖の風味",
+            "zh": "无糖风味",
+            "es": "Sabor sin azúcar",
+            "fr": "Saveur sans sucre"
           }
         ]
       }
@@ -744,49 +1164,77 @@
         "order": 1,
         "instruction": {
           "ko": "병이나 그릇에 치아씨드 25g을 넣는다.",
-          "en": "Put 25g of chia seeds into a jar or bowl."
+          "en": "Put 25g of chia seeds into a jar or bowl.",
+          "ja": "瓶または器にチアシード25gを入れる。",
+          "zh": "将25克奇亚籽放入瓶子或碗中。",
+          "es": "Ponga 25 g de semillas de chía en un frasco o bol.",
+          "fr": "Mettez 25 g de graines de chia dans un bocal ou un bol."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "무가당 아몬드유 150ml를 붓는다.",
-          "en": "Pour in 150ml of unsweetened almond milk."
+          "en": "Pour in 150ml of unsweetened almond milk.",
+          "ja": "無糖アーモンドミルク150mlを注ぐ。",
+          "zh": "倒入150毫升无糖杏仁奶。",
+          "es": "Vierta 150 ml de leche de almendras sin azúcar.",
+          "fr": "Versez 150 ml de lait d'amande non sucré."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "계피가루 1g을 넣는다.",
-          "en": "Add 1g of ground cinnamon."
+          "en": "Add 1g of ground cinnamon.",
+          "ja": "シナモンパウダー1gを加える。",
+          "zh": "加入1克肉桂粉。",
+          "es": "Añada 1 g de canela molida.",
+          "fr": "Ajoutez 1 g de cannelle moulue."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "숟가락으로 잘 젓는다.",
-          "en": "Stir well with a spoon."
+          "en": "Stir well with a spoon.",
+          "ja": "スプーンでよく混ぜる。",
+          "zh": "用勺子搅拌均匀。",
+          "es": "Remueva bien con una cuchara.",
+          "fr": "Remuez bien avec une cuillère."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "뚜껑을 덮어 냉장고에 넣는다.",
-          "en": "Cover and place in the refrigerator."
+          "en": "Cover and place in the refrigerator.",
+          "ja": "ふたをして冷蔵庫に入れる。",
+          "zh": "盖上盖子放入冰箱。",
+          "es": "Tape y refrigere.",
+          "fr": "Couvrez et placez au réfrigérateur."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "최소 6시간 동안 그대로 둔다.",
-          "en": "Let it sit for at least 6 hours."
+          "en": "Let it sit for at least 6 hours.",
+          "ja": "最低6時間そのまま置く。",
+          "zh": "静置至少6小时。",
+          "es": "Deje reposar durante al menos 6 horas.",
+          "fr": "Laissez reposer au moins 6 heures."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "꺼내서 라즈베리 40g을 얹는다.",
-          "en": "Take it out and top with 40g of raspberries."
+          "en": "Take it out and top with 40g of raspberries.",
+          "ja": "取り出してラズベリー40gをのせる。",
+          "zh": "取出后撒上40克覆盆子。",
+          "es": "Sáquelo y cubra con 40 g de frambuesas.",
+          "fr": "Sortez-le et garnissez de 40 g de framboises."
         }
       }
     ]
@@ -796,11 +1244,19 @@
     "slug": "barley-pear-bowl",
     "title": {
       "ko": "보리 배 볼",
-      "en": "Barley Pear Bowl"
+      "en": "Barley Pear Bowl",
+      "ja": "麦と梨のボウル",
+      "zh": "大麦梨子碗",
+      "es": "Bol de cebada con pera",
+      "fr": "Bol d'orge à la poire"
     },
     "description": {
       "ko": "쫄깃한 보리와 배를 함께 낸 담백한 아침 볼입니다.",
-      "en": "A mild morning bowl pairing chewy barley with pear."
+      "en": "A mild morning bowl pairing chewy barley with pear.",
+      "ja": "噛み応えのある麦と梨を合わせたさっぱりとした朝のボウルです。",
+      "zh": "搭配有嚼劲的大麦与梨子的清爽早餐碗。",
+      "es": "Un bol matutino suave que combina la textura masticable de la cebada con la pera.",
+      "fr": "Un bol matinal léger associant la texture ferme de l'orge à la poire."
     },
     "tags": [
       "breakfast",
@@ -811,7 +1267,11 @@
       {
         "name": {
           "ko": "찰보리",
-          "en": "Pearl barley"
+          "en": "Pearl barley",
+          "ja": "押し麦",
+          "zh": "珍珠大麦",
+          "es": "Cebada perlada",
+          "fr": "Orge perlé"
         },
         "amount": "50g",
         "tags": [
@@ -819,20 +1279,32 @@
         ],
         "benefits": {
           "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
-          "en": "A whole grain rich in beta-glucan fiber."
+          "en": "A whole grain rich in beta-glucan fiber.",
+          "ja": "食物繊維であるベータグルカンが豊富な全粒穀物です。",
+          "zh": "富含β-葡聚糖(一种膳食纤维)的全谷物。",
+          "es": "Cereal integral rico en fibra de beta-glucano.",
+          "fr": "Une céréale complète riche en fibres de bêta-glucane."
         },
         "substituteGroupId": "sub-barley",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "배",
-          "en": "Pear"
+          "en": "Pear",
+          "ja": "梨",
+          "zh": "梨",
+          "es": "Pera",
+          "fr": "Poire"
         },
         "amount": "60g",
         "tags": [
@@ -840,24 +1312,40 @@
         ],
         "benefits": {
           "ko": "수분과 식이섬유가 풍부한 과일이에요.",
-          "en": "A fruit with high water content and dietary fiber."
+          "en": "A fruit with high water content and dietary fiber.",
+          "ja": "水分と食物繊維が豊富な果物です。",
+          "zh": "水分和膳食纤维都很丰富的水果。",
+          "es": "Fruta con alto contenido de agua y fibra dietética.",
+          "fr": "Un fruit riche en eau et en fibres alimentaires."
         },
         "substituteGroupId": "sub-pear",
         "pointTags": [
           {
             "ko": "수분",
-            "en": "Hydration"
+            "en": "Hydration",
+            "ja": "水分",
+            "zh": "水分",
+            "es": "Hidratación",
+            "fr": "Hydratation"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "아몬드",
-          "en": "Almonds"
+          "en": "Almonds",
+          "ja": "アーモンド",
+          "zh": "杏仁",
+          "es": "Almendras",
+          "fr": "Amandes"
         },
         "amount": "10g",
         "tags": [
@@ -866,24 +1354,40 @@
         ],
         "benefits": {
           "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
-          "en": "Contains unsaturated fats and vitamin E."
+          "en": "Contains unsaturated fats and vitamin E.",
+          "ja": "不飽和脂肪とビタミンEを含むナッツです。",
+          "zh": "含有不饱和脂肪和维生素E的坚果。",
+          "es": "Fruto seco que contiene grasas insaturadas y vitamina E.",
+          "fr": "Un fruit à coque contenant des graisses insaturées et de la vitamine E."
         },
         "substituteGroupId": "sub-almonds",
         "pointTags": [
           {
             "ko": "비타민E",
-            "en": "Vitamin E"
+            "en": "Vitamin E",
+            "ja": "ビタミンE",
+            "zh": "维生素E",
+            "es": "Vitamina E",
+            "fr": "Vitamine E"
           },
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       },
       {
         "name": {
           "ko": "물",
-          "en": "Water"
+          "en": "Water",
+          "ja": "水",
+          "zh": "水",
+          "es": "Agua",
+          "fr": "Eau"
         },
         "amount": "180ml",
         "tags": []
@@ -894,42 +1398,66 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 물 180ml와 미리 불려둔 찰보리 50g을 넣는다.",
-          "en": "Put 180ml of water and 50g of pre-soaked pearl barley into a pot."
+          "en": "Put 180ml of water and 50g of pre-soaked pearl barley into a pot.",
+          "ja": "鍋に水180mlと、あらかじめ水に浸しておいた押し麦50gを入れる。",
+          "zh": "将180毫升水和预先浸泡好的50克珍珠大麦放入锅中。",
+          "es": "Ponga en una olla 180 ml de agua y 50 g de cebada perlada previamente remojada.",
+          "fr": "Mettez dans une casserole 180 ml d'eau et 50 g d'orge perlé préalablement trempé."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "불을 중약불로 켠다.",
-          "en": "Turn the heat to medium-low."
+          "en": "Turn the heat to medium-low.",
+          "ja": "中弱火にかける。",
+          "zh": "转中小火。",
+          "es": "Encienda el fuego a temperatura media-baja.",
+          "fr": "Faites chauffer à feu moyen-doux."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "가끔 저으며 12분간 끓인다.",
-          "en": "Simmer for 12 minutes, stirring occasionally."
+          "en": "Simmer for 12 minutes, stirring occasionally.",
+          "ja": "時々かき混ぜながら12分煮る。",
+          "zh": "偶尔搅拌,煮12分钟。",
+          "es": "Cueza a fuego lento 12 minutos, removiendo de vez en cuando.",
+          "fr": "Laissez mijoter 12 minutes en remuant de temps en temps."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "배 60g을 얇게 썬다.",
-          "en": "Thinly slice 60g of pear."
+          "en": "Thinly slice 60g of pear.",
+          "ja": "梨60gを薄切りにする。",
+          "zh": "将60克梨切成薄片。",
+          "es": "Corte 60 g de pera en láminas finas.",
+          "fr": "Coupez 60 g de poire en tranches fines."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "불을 끄고 그릇에 옮겨 담는다.",
-          "en": "Turn off the heat and transfer to a bowl."
+          "en": "Turn off the heat and transfer to a bowl.",
+          "ja": "火を止めて器に移す。",
+          "zh": "关火后盛入碗中。",
+          "es": "Apague el fuego y páselo a un bol.",
+          "fr": "Éteignez le feu et transférez dans un bol."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "썰어둔 배와 아몬드 10g을 올린다.",
-          "en": "Top with the sliced pear and 10g of almonds."
+          "en": "Top with the sliced pear and 10g of almonds.",
+          "ja": "切った梨とアーモンド10gをのせる。",
+          "zh": "撒上切好的梨片和10克杏仁。",
+          "es": "Cubra con la pera en láminas y 10 g de almendras.",
+          "fr": "Garnissez avec la poire tranchée et 10 g d'amandes."
         }
       }
     ]
@@ -939,11 +1467,19 @@
     "slug": "quinoa-blackberry-bowl",
     "title": {
       "ko": "퀴노아 블랙베리 볼",
-      "en": "Quinoa Blackberry Bowl"
+      "en": "Quinoa Blackberry Bowl",
+      "ja": "キヌアブラックベリーボウル",
+      "zh": "藜麦黑莓碗",
+      "es": "Bol de quinoa con moras",
+      "fr": "Bol de quinoa aux mûres"
     },
     "description": {
       "ko": "퀴노아와 검은베리를 함께 낸 가벼운 아침 볼입니다.",
-      "en": "A light morning bowl of quinoa and dark berries."
+      "en": "A light morning bowl of quinoa and dark berries.",
+      "ja": "キヌアとブラックベリーを合わせた軽やかな朝のボウルです。",
+      "zh": "搭配藜麦与黑莓的清爽早餐碗。",
+      "es": "Un bol matutino ligero de quinoa y moras oscuras.",
+      "fr": "Un bol matinal léger à base de quinoa et de baies foncées."
     },
     "tags": [
       "breakfast",
@@ -954,7 +1490,11 @@
       {
         "name": {
           "ko": "퀴노아",
-          "en": "Quinoa"
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
         },
         "amount": "50g",
         "tags": [
@@ -962,20 +1502,32 @@
         ],
         "benefits": {
           "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
-          "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
+          "en": "A seed that, unlike most grains, contains a fairly complete protein profile.",
+          "ja": "穀物の中では珍しく、タンパク質をバランスよく含む種子です。",
+          "zh": "在谷物中较为少见,蛋白质构成较为完整的种子。",
+          "es": "Una semilla que, a diferencia de la mayoría de los cereales, tiene un perfil proteico bastante completo.",
+          "fr": "Une graine qui, contrairement à la plupart des céréales, présente un profil protéique assez complet."
         },
         "substituteGroupId": "sub-quinoa",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
       {
         "name": {
           "ko": "블랙베리",
-          "en": "Blackberries"
+          "en": "Blackberries",
+          "ja": "ブラックベリー",
+          "zh": "黑莓",
+          "es": "Moras",
+          "fr": "Mûres"
         },
         "amount": "40g",
         "tags": [
@@ -983,24 +1535,40 @@
         ],
         "benefits": {
           "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.",
-          "en": "A berry rich in fiber and antioxidant compounds."
+          "en": "A berry rich in fiber and antioxidant compounds.",
+          "ja": "食物繊維と抗酸化成分が豊富なベリー類です。",
+          "zh": "富含膳食纤维和抗氧化成分的浆果。",
+          "es": "Baya rica en fibra y compuestos antioxidantes.",
+          "fr": "Une baie riche en fibres et en composés antioxydants."
         },
         "substituteGroupId": "sub-blackberries",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           },
           {
             "ko": "항산화",
-            "en": "Antioxidant"
+            "en": "Antioxidant",
+            "ja": "抗酸化",
+            "zh": "抗氧化",
+            "es": "Antioxidante",
+            "fr": "Antioxydant"
           }
         ]
       },
       {
         "name": {
           "ko": "호박씨",
-          "en": "Pumpkin seeds"
+          "en": "Pumpkin seeds",
+          "ja": "かぼちゃの種",
+          "zh": "南瓜籽",
+          "es": "Semillas de calabaza",
+          "fr": "Graines de courge"
         },
         "amount": "10g",
         "tags": [
@@ -1009,32 +1577,52 @@
         ],
         "benefits": {
           "ko": "마그네슘과 불포화지방이 들어 있는 씨앗이에요.",
-          "en": "Contains magnesium and unsaturated fats."
+          "en": "Contains magnesium and unsaturated fats.",
+          "ja": "マグネシウムと不飽和脂肪を含む種子です。",
+          "zh": "含有镁和不饱和脂肪的种子。",
+          "es": "Contiene magnesio y grasas insaturadas.",
+          "fr": "Contient du magnésium et des graisses insaturées."
         },
         "substituteGroupId": "sub-pumpkin-seeds",
         "pointTags": [
           {
             "ko": "마그네슘",
-            "en": "Magnesium"
+            "en": "Magnesium",
+            "ja": "マグネシウム",
+            "zh": "镁",
+            "es": "Magnesio",
+            "fr": "Magnésium"
           }
         ]
       },
       {
         "name": {
           "ko": "무가당 아몬드유",
-          "en": "Unsweetened almond milk"
+          "en": "Unsweetened almond milk",
+          "ja": "無糖アーモンドミルク",
+          "zh": "无糖杏仁奶",
+          "es": "Leche de almendras sin azúcar",
+          "fr": "Lait d'amande non sucré"
         },
         "amount": "120ml",
         "tags": [],
         "benefits": {
           "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
-          "en": "An unsweetened plant-based milk alternative with no added sugar."
+          "en": "An unsweetened plant-based milk alternative with no added sugar.",
+          "ja": "砂糖不使用で、牛乳の代わりに使いやすい植物性飲料です。",
+          "zh": "不添加糖分,可替代牛奶的植物基饮品。",
+          "es": "Bebida vegetal sin azúcar añadido, ideal como alternativa a la leche.",
+          "fr": "Une boisson végétale sans sucre ajouté, une bonne alternative au lait."
         },
         "substituteGroupId": "sub-almond-milk",
         "pointTags": [
           {
             "ko": "무가당",
-            "en": "No Added Sugar"
+            "en": "No Added Sugar",
+            "ja": "無糖",
+            "zh": "无添加糖",
+            "es": "Sin azúcar añadido",
+            "fr": "Sans sucre ajouté"
           }
         ]
       }
@@ -1044,42 +1632,66 @@
         "order": 1,
         "instruction": {
           "ko": "퀴노아 50g을 체에 밭쳐 헹군다.",
-          "en": "Rinse 50g of quinoa in a strainer."
+          "en": "Rinse 50g of quinoa in a strainer.",
+          "ja": "キヌア50gをざるに入れてすすぐ。",
+          "zh": "将50克藜麦放入滤网中冲洗干净。",
+          "es": "Enjuague 50 g de quinoa en un colador.",
+          "fr": "Rincez 50 g de quinoa dans une passoire."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "냄비에 헹군 퀴노아와 무가당 아몬드유 120ml를 넣는다.",
-          "en": "Put the rinsed quinoa and 120ml of unsweetened almond milk into a pot."
+          "en": "Put the rinsed quinoa and 120ml of unsweetened almond milk into a pot.",
+          "ja": "鍋にすすいだキヌアと無糖アーモンドミルク120mlを入れる。",
+          "zh": "将冲洗好的藜麦和120毫升无糖杏仁奶放入锅中。",
+          "es": "Ponga en una olla la quinoa enjuagada y 120 ml de leche de almendras sin azúcar.",
+          "fr": "Mettez dans une casserole le quinoa rincé et 120 ml de lait d'amande non sucré."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "불을 약불로 켠다.",
-          "en": "Turn the heat to low."
+          "en": "Turn the heat to low.",
+          "ja": "弱火にかける。",
+          "zh": "转小火。",
+          "es": "Encienda el fuego a temperatura baja.",
+          "fr": "Faites chauffer à feu doux."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "12분간 끓인다.",
-          "en": "Simmer for 12 minutes."
+          "en": "Simmer for 12 minutes.",
+          "ja": "12分煮る。",
+          "zh": "煮12分钟。",
+          "es": "Cueza a fuego lento durante 12 minutos.",
+          "fr": "Laissez mijoter 12 minutes."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "불을 끄고 그릇에 옮겨 담는다.",
-          "en": "Turn off the heat and transfer to a bowl."
+          "en": "Turn off the heat and transfer to a bowl.",
+          "ja": "火を止めて器に移す。",
+          "zh": "关火后盛入碗中。",
+          "es": "Apague el fuego y páselo a un bol.",
+          "fr": "Éteignez le feu et transférez dans un bol."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "블랙베리 40g과 호박씨 10g을 얹는다.",
-          "en": "Top with 40g of blackberries and 10g of pumpkin seeds."
+          "en": "Top with 40g of blackberries and 10g of pumpkin seeds.",
+          "ja": "ブラックベリー40gとかぼちゃの種10gをのせる。",
+          "zh": "撒上40克黑莓和10克南瓜籽。",
+          "es": "Cubra con 40 g de moras y 10 g de semillas de calabaza.",
+          "fr": "Garnissez de 40 g de mûres et 10 g de graines de courge."
         }
       }
     ]
@@ -1089,11 +1701,19 @@
     "slug": "rye-flake-fig-porridge",
     "title": {
       "ko": "호밀 무화과 포리지",
-      "en": "Rye Fig Porridge"
+      "en": "Rye Fig Porridge",
+      "ja": "ライ麦といちじくのポリッジ",
+      "zh": "黑麦无花果粥",
+      "es": "Gachas de centeno con higo",
+      "fr": "Porridge de seigle à la figue"
     },
     "description": {
       "ko": "북유럽식 호밀 포리지에 무화과를 더한 아침 식사입니다.",
-      "en": "A Nordic-style rye porridge finished with fig."
+      "en": "A Nordic-style rye porridge finished with fig.",
+      "ja": "北欧風のライ麦ポリッジにいちじくを添えた朝食です。",
+      "zh": "北欧风味黑麦粥搭配无花果的早餐。",
+      "es": "Un desayuno de gachas de centeno al estilo nórdico rematado con higo.",
+      "fr": "Un petit-déjeuner de porridge de seigle façon nordique, rehaussé de figue."
     },
     "tags": [
       "breakfast",
@@ -1104,7 +1724,11 @@
       {
         "name": {
           "ko": "호밀 플레이크",
-          "en": "Rye flakes"
+          "en": "Rye flakes",
+          "ja": "ライ麦フレーク",
+          "zh": "黑麦片",
+          "es": "Copos de centeno",
+          "fr": "Flocons de seigle"
         },
         "amount": "50g",
         "tags": [
@@ -1112,20 +1736,32 @@
         ],
         "benefits": {
           "ko": "식이섬유가 풍부한 통곡물로 포만감 유지에 도움이 될 수 있어요.",
-          "en": "A fiber-rich whole grain that may help with satiety."
+          "en": "A fiber-rich whole grain that may help with satiety.",
+          "ja": "食物繊維が豊富な全粒穀物で、満腹感の維持に役立つ可能性があります。",
+          "zh": "富含膳食纤维的全谷物,可能有助于维持饱腹感。",
+          "es": "Cereal integral rico en fibra que puede ayudar a la saciedad.",
+          "fr": "Une céréale complète riche en fibres qui peut favoriser la satiété."
         },
         "substituteGroupId": "sub-rye-flakes",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "무화과",
-          "en": "Fig"
+          "en": "Fig",
+          "ja": "いちじく",
+          "zh": "无花果",
+          "es": "Higo",
+          "fr": "Figue"
         },
         "amount": "40g",
         "tags": [
@@ -1133,24 +1769,40 @@
         ],
         "benefits": {
           "ko": "식이섬유와 칼륨이 들어 있는 과일이에요.",
-          "en": "Contains dietary fiber and potassium."
+          "en": "Contains dietary fiber and potassium.",
+          "ja": "食物繊維とカリウムを含む果物です。",
+          "zh": "含有膳食纤维和钾的水果。",
+          "es": "Contiene fibra dietética y potasio.",
+          "fr": "Contient des fibres alimentaires et du potassium."
         },
         "substituteGroupId": "sub-fig",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           },
           {
             "ko": "칼륨",
-            "en": "Potassium"
+            "en": "Potassium",
+            "ja": "カリウム",
+            "zh": "钾",
+            "es": "Potasio",
+            "fr": "Potassium"
           }
         ]
       },
       {
         "name": {
           "ko": "헤이즐넛",
-          "en": "Hazelnuts"
+          "en": "Hazelnuts",
+          "ja": "ヘーゼルナッツ",
+          "zh": "榛子",
+          "es": "Avellanas",
+          "fr": "Noisettes"
         },
         "amount": "10g",
         "tags": [
@@ -1159,20 +1811,32 @@
         ],
         "benefits": {
           "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
-          "en": "Contains unsaturated fats and vitamin E."
+          "en": "Contains unsaturated fats and vitamin E.",
+          "ja": "不飽和脂肪とビタミンEを含むナッツです。",
+          "zh": "含有不饱和脂肪和维生素E的坚果。",
+          "es": "Fruto seco que contiene grasas insaturadas y vitamina E.",
+          "fr": "Un fruit à coque contenant des graisses insaturées et de la vitamine E."
         },
         "substituteGroupId": "sub-hazelnuts",
         "pointTags": [
           {
             "ko": "비타민E",
-            "en": "Vitamin E"
+            "en": "Vitamin E",
+            "ja": "ビタミンE",
+            "zh": "维生素E",
+            "es": "Vitamina E",
+            "fr": "Vitamine E"
           }
         ]
       },
       {
         "name": {
           "ko": "물",
-          "en": "Water"
+          "en": "Water",
+          "ja": "水",
+          "zh": "水",
+          "es": "Agua",
+          "fr": "Eau"
         },
         "amount": "180ml",
         "tags": []
@@ -1183,49 +1847,77 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 물 180ml를 붓는다.",
-          "en": "Pour 180ml of water into a pot."
+          "en": "Pour 180ml of water into a pot.",
+          "ja": "鍋に水180mlを注ぐ。",
+          "zh": "将180毫升水倒入锅中。",
+          "es": "Vierta 180 ml de agua en una olla.",
+          "fr": "Versez 180 ml d'eau dans une casserole."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "호밀 플레이크 50g을 넣는다.",
-          "en": "Add 50g of rye flakes."
+          "en": "Add 50g of rye flakes.",
+          "ja": "ライ麦フレーク50gを加える。",
+          "zh": "加入50克黑麦片。",
+          "es": "Añada 50 g de copos de centeno.",
+          "fr": "Ajoutez 50 g de flocons de seigle."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "불을 약불로 켠다.",
-          "en": "Turn the heat to low."
+          "en": "Turn the heat to low.",
+          "ja": "弱火にかける。",
+          "zh": "转小火。",
+          "es": "Encienda el fuego a temperatura baja.",
+          "fr": "Faites chauffer à feu doux."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "저어가며 8분간 끓인다.",
-          "en": "Simmer for 8 minutes, stirring occasionally."
+          "en": "Simmer for 8 minutes, stirring occasionally.",
+          "ja": "かき混ぜながら8分煮る。",
+          "zh": "边搅拌边煮8分钟。",
+          "es": "Cueza a fuego lento 8 minutos, removiendo de vez en cuando.",
+          "fr": "Laissez mijoter 8 minutes en remuant de temps en temps."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "무화과 40g을 얇게 썬다.",
-          "en": "Thinly slice 40g of fig."
+          "en": "Thinly slice 40g of fig.",
+          "ja": "いちじく40gを薄切りにする。",
+          "zh": "将40克无花果切成薄片。",
+          "es": "Corte 40 g de higo en láminas finas.",
+          "fr": "Coupez 40 g de figue en tranches fines."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "불을 끄고 그릇에 옮겨 담는다.",
-          "en": "Turn off the heat and transfer to a bowl."
+          "en": "Turn off the heat and transfer to a bowl.",
+          "ja": "火を止めて器に移す。",
+          "zh": "关火后盛入碗中。",
+          "es": "Apague el fuego y páselo a un bol.",
+          "fr": "Éteignez le feu et transférez dans un bol."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "썬 무화과와 헤이즐넛 10g을 올린다.",
-          "en": "Top with the sliced fig and 10g of hazelnuts."
+          "en": "Top with the sliced fig and 10g of hazelnuts.",
+          "ja": "切ったいちじくとヘーゼルナッツ10gをのせる。",
+          "zh": "撒上切好的无花果和10克榛子。",
+          "es": "Cubra con el higo en láminas y 10 g de avellanas.",
+          "fr": "Garnissez avec la figue tranchée et 10 g de noisettes."
         }
       }
     ]
@@ -1235,11 +1927,19 @@
     "slug": "millet-plum-porridge",
     "title": {
       "ko": "좁쌀 자두 포리지",
-      "en": "Millet Plum Porridge"
+      "en": "Millet Plum Porridge",
+      "ja": "あわとすもものポリッジ",
+      "zh": "小米李子粥",
+      "es": "Gachas de mijo con ciruela",
+      "fr": "Porridge de millet à la prune"
     },
     "description": {
       "ko": "부드러운 좁쌀 포리지에 자두의 산미를 더했습니다.",
-      "en": "A soft millet porridge lifted by the tartness of plum."
+      "en": "A soft millet porridge lifted by the tartness of plum.",
+      "ja": "なめらかなあわのポリッジにすももの酸味を加えました。",
+      "zh": "在细腻的小米粥中加入李子的酸味。",
+      "es": "Unas suaves gachas de mijo realzadas con la acidez de la ciruela.",
+      "fr": "Un porridge de millet onctueux rehaussé par l'acidité de la prune."
     },
     "tags": [
       "breakfast",
@@ -1250,7 +1950,11 @@
       {
         "name": {
           "ko": "좁쌀",
-          "en": "Millet"
+          "en": "Millet",
+          "ja": "あわ",
+          "zh": "小米",
+          "es": "Mijo",
+          "fr": "Millet"
         },
         "amount": "50g",
         "tags": [
@@ -1258,20 +1962,32 @@
         ],
         "benefits": {
           "ko": "글루텐이 없는 잡곡으로 소화가 비교적 편한 편이에요.",
-          "en": "A gluten-free grain that's generally easy to digest."
+          "en": "A gluten-free grain that's generally easy to digest.",
+          "ja": "グルテンフリーの雑穀で比較的消化しやすいです。",
+          "zh": "不含麸质、相对易消化的杂粮。",
+          "es": "Cereal sin gluten que suele ser fácil de digerir.",
+          "fr": "Une céréale sans gluten généralement facile à digérer."
         },
         "substituteGroupId": "sub-millet",
         "pointTags": [
           {
             "ko": "글루텐프리",
-            "en": "Gluten-Free"
+            "en": "Gluten-Free",
+            "ja": "グルテンフリー",
+            "zh": "无麸质",
+            "es": "Sin gluten",
+            "fr": "Sans gluten"
           }
         ]
       },
       {
         "name": {
           "ko": "자두",
-          "en": "Plum"
+          "en": "Plum",
+          "ja": "プラム",
+          "zh": "李子",
+          "es": "Ciruela",
+          "fr": "Prune"
         },
         "amount": "50g",
         "tags": [
@@ -1279,20 +1995,32 @@
         ],
         "benefits": {
           "ko": "식이섬유와 항산화 성분이 들어 있는 과일이에요.",
-          "en": "Contains dietary fiber and antioxidant compounds."
+          "en": "Contains dietary fiber and antioxidant compounds.",
+          "ja": "食物繊維と抗酸化成分を含む果物です。",
+          "zh": "含有膳食纤维和抗氧化成分的水果。",
+          "es": "Contiene fibra dietética y compuestos antioxidantes.",
+          "fr": "Contient des fibres alimentaires et des composés antioxydants."
         },
         "substituteGroupId": "sub-plum",
         "pointTags": [
           {
             "ko": "항산화",
-            "en": "Antioxidant"
+            "en": "Antioxidant",
+            "ja": "抗酸化",
+            "zh": "抗氧化",
+            "es": "Antioxidante",
+            "fr": "Antioxydant"
           }
         ]
       },
       {
         "name": {
           "ko": "해바라기씨",
-          "en": "Sunflower seeds"
+          "en": "Sunflower seeds",
+          "ja": "ひまわりの種",
+          "zh": "葵花籽",
+          "es": "Semillas de girasol",
+          "fr": "Graines de tournesol"
         },
         "amount": "10g",
         "tags": [
@@ -1301,20 +2029,32 @@
         ],
         "benefits": {
           "ko": "비타민 E와 불포화지방이 들어 있는 씨앗이에요.",
-          "en": "Contains vitamin E and unsaturated fats."
+          "en": "Contains vitamin E and unsaturated fats.",
+          "ja": "ビタミンEと不飽和脂肪を含む種子です。",
+          "zh": "含有维生素E和不饱和脂肪的种子。",
+          "es": "Contiene vitamina E y grasas insaturadas.",
+          "fr": "Contient de la vitamine E et des graisses insaturées."
         },
         "substituteGroupId": "sub-sunflower-seeds",
         "pointTags": [
           {
             "ko": "비타민E",
-            "en": "Vitamin E"
+            "en": "Vitamin E",
+            "ja": "ビタミンE",
+            "zh": "维生素E",
+            "es": "Vitamina E",
+            "fr": "Vitamine E"
           }
         ]
       },
       {
         "name": {
           "ko": "물",
-          "en": "Water"
+          "en": "Water",
+          "ja": "水",
+          "zh": "水",
+          "es": "Agua",
+          "fr": "Eau"
         },
         "amount": "200ml",
         "tags": []
@@ -1325,49 +2065,77 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 물 200ml를 붓는다.",
-          "en": "Pour 200ml of water into a pot."
+          "en": "Pour 200ml of water into a pot.",
+          "ja": "鍋に水200mlを注ぐ。",
+          "zh": "将200毫升水倒入锅中。",
+          "es": "Vierta 200 ml de agua en una olla.",
+          "fr": "Versez 200 ml d'eau dans une casserole."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "좁쌀 50g을 넣는다.",
-          "en": "Add 50g of millet."
+          "en": "Add 50g of millet.",
+          "ja": "あわ50gを加える。",
+          "zh": "加入50克小米。",
+          "es": "Añada 50 g de mijo.",
+          "fr": "Ajoutez 50 g de millet."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "불을 약불로 켠다.",
-          "en": "Turn the heat to low."
+          "en": "Turn the heat to low.",
+          "ja": "弱火にかける。",
+          "zh": "转小火。",
+          "es": "Encienda el fuego a temperatura baja.",
+          "fr": "Faites chauffer à feu doux."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "가끔 저으며 12분간 끓인다.",
-          "en": "Simmer for 12 minutes, stirring occasionally."
+          "en": "Simmer for 12 minutes, stirring occasionally.",
+          "ja": "時々かき混ぜながら12分煮る。",
+          "zh": "偶尔搅拌,煮12分钟。",
+          "es": "Cueza a fuego lento 12 minutos, removiendo de vez en cuando.",
+          "fr": "Laissez mijoter 12 minutes en remuant de temps en temps."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "자두 50g을 얇게 썬다.",
-          "en": "Thinly slice 50g of plum."
+          "en": "Thinly slice 50g of plum.",
+          "ja": "すもも50gを薄切りにする。",
+          "zh": "将50克李子切成薄片。",
+          "es": "Corte 50 g de ciruela en láminas finas.",
+          "fr": "Coupez 50 g de prune en tranches fines."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "불을 끄고 그릇에 옮겨 담는다.",
-          "en": "Turn off the heat and transfer to a bowl."
+          "en": "Turn off the heat and transfer to a bowl.",
+          "ja": "火を止めて器に移す。",
+          "zh": "关火后盛入碗中。",
+          "es": "Apague el fuego y páselo a un bol.",
+          "fr": "Éteignez le feu et transférez dans un bol."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "썬 자두와 해바라기씨 10g을 얹는다.",
-          "en": "Top with the sliced plum and 10g of sunflower seeds."
+          "en": "Top with the sliced plum and 10g of sunflower seeds.",
+          "ja": "切ったすももとひまわりの種10gをのせる。",
+          "zh": "撒上切好的李子和10克葵花籽。",
+          "es": "Cubra con la ciruela en láminas y 10 g de semillas de girasol.",
+          "fr": "Garnissez avec la prune tranchée et 10 g de graines de tournesol."
         }
       }
     ]
@@ -1377,11 +2145,19 @@
     "slug": "lentil-barley-salad",
     "title": {
       "ko": "렌틸 보리 샐러드",
-      "en": "Lentil Barley Salad"
+      "en": "Lentil Barley Salad",
+      "ja": "レンズ豆と麦のサラダ",
+      "zh": "小扁豆大麦沙拉",
+      "es": "Ensalada de lentejas y cebada",
+      "fr": "Salade de lentilles à l'orge"
     },
     "description": {
       "ko": "삶은 렌틸콩과 보리에 채소를 더한 점심 샐러드입니다.",
-      "en": "A lunch salad of cooked lentils and barley with vegetables."
+      "en": "A lunch salad of cooked lentils and barley with vegetables.",
+      "ja": "茹でたレンズ豆と麦に野菜を加えた昼食用サラダです。",
+      "zh": "加入蔬菜的水煮小扁豆与大麦午餐沙拉。",
+      "es": "Una ensalada de almuerzo de lentejas y cebada cocidas con verduras.",
+      "fr": "Une salade de déjeuner de lentilles et d'orge cuites, agrémentée de légumes."
     },
     "tags": [
       "lunch",
@@ -1392,7 +2168,11 @@
       {
         "name": {
           "ko": "렌틸콩",
-          "en": "Lentils"
+          "en": "Lentils",
+          "ja": "レンズ豆",
+          "zh": "小扁豆",
+          "es": "Lentejas",
+          "fr": "Lentilles"
         },
         "amount": "70g",
         "tags": [
@@ -1401,23 +2181,39 @@
         "substituteGroupId": "sub-lentils",
         "benefits": {
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
-          "en": "A legume rich in plant-based protein and fiber."
+          "en": "A legume rich in plant-based protein and fiber.",
+          "ja": "植物性タンパク質と食物繊維が豊富な豆類です。",
+          "zh": "富含植物蛋白和膳食纤维的豆类。",
+          "es": "Legumbre rica en proteína vegetal y fibra.",
+          "fr": "Une légumineuse riche en protéines végétales et en fibres."
         },
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "찰보리",
-          "en": "Pearl barley"
+          "en": "Pearl barley",
+          "ja": "押し麦",
+          "zh": "珍珠大麦",
+          "es": "Cebada perlada",
+          "fr": "Orge perlé"
         },
         "amount": "50g",
         "tags": [
@@ -1425,20 +2221,32 @@
         ],
         "benefits": {
           "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
-          "en": "A whole grain rich in beta-glucan fiber."
+          "en": "A whole grain rich in beta-glucan fiber.",
+          "ja": "食物繊維であるベータグルカンが豊富な全粒穀物です。",
+          "zh": "富含β-葡聚糖(一种膳食纤维)的全谷物。",
+          "es": "Cereal integral rico en fibra de beta-glucano.",
+          "fr": "Une céréale complète riche en fibres de bêta-glucane."
         },
         "substituteGroupId": "sub-barley",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "방울토마토",
-          "en": "Cherry tomatoes"
+          "en": "Cherry tomatoes",
+          "ja": "プチトマト",
+          "zh": "圣女果",
+          "es": "Tomates cherry",
+          "fr": "Tomates cerises"
         },
         "amount": "60g",
         "tags": [
@@ -1446,20 +2254,32 @@
         ],
         "benefits": {
           "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
-          "en": "Contains lycopene, an antioxidant compound."
+          "en": "Contains lycopene, an antioxidant compound.",
+          "ja": "リコピンという抗酸化成分を含む野菜です。",
+          "zh": "含有番茄红素(一种抗氧化成分)的蔬菜。",
+          "es": "Contiene licopeno, un compuesto antioxidante.",
+          "fr": "Contient du lycopène, un composé antioxydant."
         },
         "substituteGroupId": "sub-cherry-tomatoes",
         "pointTags": [
           {
             "ko": "라이코펜",
-            "en": "Lycopene"
+            "en": "Lycopene",
+            "ja": "リコピン",
+            "zh": "番茄红素",
+            "es": "Licopeno",
+            "fr": "Lycopène"
           }
         ]
       },
       {
         "name": {
           "ko": "루꼴라",
-          "en": "Arugula"
+          "en": "Arugula",
+          "ja": "ルッコラ",
+          "zh": "芝麻菜",
+          "es": "Rúcula",
+          "fr": "Roquette"
         },
         "amount": "40g",
         "tags": [
@@ -1467,24 +2287,40 @@
         ],
         "benefits": {
           "ko": "잎채소 중에서도 칼슘과 비타민 K가 있는 편이에요.",
-          "en": "A leafy green that provides calcium and vitamin K."
+          "en": "A leafy green that provides calcium and vitamin K.",
+          "ja": "葉物野菜の中でもカルシウムとビタミンKを含む方です。",
+          "zh": "在叶菜中钙和维生素K含量相对较高。",
+          "es": "Verdura de hoja que aporta calcio y vitamina K.",
+          "fr": "Un légume feuille qui apporte du calcium et de la vitamine K."
         },
         "substituteGroupId": "sub-arugula",
         "pointTags": [
           {
             "ko": "칼슘",
-            "en": "Calcium"
+            "en": "Calcium",
+            "ja": "カルシウム",
+            "zh": "钙",
+            "es": "Calcio",
+            "fr": "Calcium"
           },
           {
             "ko": "비타민K",
-            "en": "Vitamin K"
+            "en": "Vitamin K",
+            "ja": "ビタミンK",
+            "zh": "维生素K",
+            "es": "Vitamina K",
+            "fr": "Vitamine K"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "10ml",
         "tags": [
@@ -1492,32 +2328,52 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       },
       {
         "name": {
           "ko": "레몬즙",
-          "en": "Lemon juice"
+          "en": "Lemon juice",
+          "ja": "レモン汁",
+          "zh": "柠檬汁",
+          "es": "Zumo de limón",
+          "fr": "Jus de citron"
         },
         "amount": "10ml",
         "tags": [],
         "benefits": {
           "ko": "비타민 C를 더해주고 소금 없이도 감칠맛을 살려줘요.",
-          "en": "Adds vitamin C and brightens flavor without needing extra salt."
+          "en": "Adds vitamin C and brightens flavor without needing extra salt.",
+          "ja": "ビタミンCを加え、塩を使わずに風味を引き立てます。",
+          "zh": "增添维生素C,无需额外加盐也能提升风味。",
+          "es": "Aporta vitamina C y realza el sabor sin necesidad de sal adicional.",
+          "fr": "Apporte de la vitamine C et rehausse la saveur sans besoin de sel supplémentaire."
         },
         "substituteGroupId": "sub-lemon",
         "pointTags": [
           {
             "ko": "비타민C",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
           }
         ]
       }
@@ -1527,49 +2383,77 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 물을 끓여 렌틸콩 70g을 넣고 15분간 삶는다.",
-          "en": "Boil water in a pot, add 70g of lentils, and cook for 15 minutes."
+          "en": "Boil water in a pot, add 70g of lentils, and cook for 15 minutes.",
+          "ja": "鍋に湯を沸かし、レンズ豆70gを入れて15分ゆでる。",
+          "zh": "锅中烧开水,放入70克小扁豆煮15分钟。",
+          "es": "Hierva agua en una olla, añada 70 g de lentejas y cueza durante 15 minutos.",
+          "fr": "Faites bouillir de l'eau dans une casserole, ajoutez 70 g de lentilles et faites cuire pendant 15 minutes."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "다른 냄비에 물을 끓여 찰보리 50g을 넣고 20분간 삶는다.",
-          "en": "In another pot, boil water, add 50g of pearl barley, and cook for 20 minutes."
+          "en": "In another pot, boil water, add 50g of pearl barley, and cook for 20 minutes.",
+          "ja": "別の鍋に湯を沸かし、押し麦50gを入れて20分ゆでる。",
+          "zh": "另用一锅烧开水,放入50克珍珠大麦煮20分钟。",
+          "es": "En otra olla, hierva agua, añada 50 g de cebada perlada y cueza durante 20 minutos.",
+          "fr": "Dans une autre casserole, faites bouillir de l'eau, ajoutez 50 g d'orge perlé et faites cuire pendant 20 minutes."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "삶은 렌틸콩과 보리를 체에 밭쳐 물기를 빼고 식힌다.",
-          "en": "Drain the cooked lentils and barley in a strainer and let them cool."
+          "en": "Drain the cooked lentils and barley in a strainer and let them cool.",
+          "ja": "茹でたレンズ豆と麦をざるに上げて水気を切り、冷ます。",
+          "zh": "将煮好的小扁豆和大麦沥干水分并放凉。",
+          "es": "Escurra las lentejas y la cebada cocidas en un colador y déjelas enfriar.",
+          "fr": "Égouttez les lentilles et l'orge cuites dans une passoire et laissez-les refroidir."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "방울토마토 60g을 반으로 자른다.",
-          "en": "Halve 60g of cherry tomatoes."
+          "en": "Halve 60g of cherry tomatoes.",
+          "ja": "プチトマト60gを半分に切る。",
+          "zh": "将60克圣女果切成两半。",
+          "es": "Corte por la mitad 60 g de tomates cherry.",
+          "fr": "Coupez en deux 60 g de tomates cerises."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "큰 그릇에 식힌 렌틸콩, 보리, 방울토마토, 루꼴라 40g을 담는다.",
-          "en": "Put the cooled lentils, barley, cherry tomatoes, and 40g of arugula into a large bowl."
+          "en": "Put the cooled lentils, barley, cherry tomatoes, and 40g of arugula into a large bowl.",
+          "ja": "大きな器に冷ましたレンズ豆、麦、プチトマト、ルッコラ40gを入れる。",
+          "zh": "将放凉的小扁豆、大麦、圣女果和40克芝麻菜放入大碗中。",
+          "es": "Ponga en un bol grande las lentejas y la cebada enfriadas, los tomates cherry y 40 g de rúcula.",
+          "fr": "Mettez dans un grand bol les lentilles et l'orge refroidies, les tomates cerises et 40 g de roquette."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "올리브유 10ml와 레몬즙 10ml를 뿌린다.",
-          "en": "Drizzle with 10ml of olive oil and 10ml of lemon juice."
+          "en": "Drizzle with 10ml of olive oil and 10ml of lemon juice.",
+          "ja": "オリーブオイル10mlとレモン汁10mlをかける。",
+          "zh": "淋上10毫升橄榄油和10毫升柠檬汁。",
+          "es": "Rocíe con 10 ml de aceite de oliva y 10 ml de zumo de limón.",
+          "fr": "Arrosez de 10 ml d'huile d'olive et 10 ml de jus de citron."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "숟가락으로 가볍게 버무린다.",
-          "en": "Toss gently with a spoon."
+          "en": "Toss gently with a spoon.",
+          "ja": "スプーンで軽く和える。",
+          "zh": "用勺子轻轻拌匀。",
+          "es": "Mezcle suavemente con una cuchara.",
+          "fr": "Mélangez délicatement avec une cuillère."
         }
       }
     ]
@@ -1579,11 +2463,19 @@
     "slug": "chickpea-kale-bowl",
     "title": {
       "ko": "병아리콩 케일 볼",
-      "en": "Chickpea Kale Bowl"
+      "en": "Chickpea Kale Bowl",
+      "ja": "ひよこ豆とケールのボウル",
+      "zh": "鹰嘴豆羽衣甘蓝碗",
+      "es": "Bol de garbanzos con col rizada",
+      "fr": "Bol de pois chiches au chou frisé"
     },
     "description": {
       "ko": "구운 병아리콩과 케일을 현미와 함께 낸 볼입니다.",
-      "en": "Roasted chickpeas and kale served over brown rice."
+      "en": "Roasted chickpeas and kale served over brown rice.",
+      "ja": "焼いたひよこ豆とケールを玄米に合わせたボウルです。",
+      "zh": "烤鹰嘴豆与羽衣甘蓝搭配糙米的碗装料理。",
+      "es": "Garbanzos asados y col rizada servidos sobre arroz integral.",
+      "fr": "Pois chiches rôtis et chou frisé servis sur riz complet."
     },
     "tags": [
       "lunch",
@@ -1594,7 +2486,11 @@
       {
         "name": {
           "ko": "병아리콩",
-          "en": "Chickpeas"
+          "en": "Chickpeas",
+          "ja": "ひよこ豆",
+          "zh": "鹰嘴豆",
+          "es": "Garbanzos",
+          "fr": "Pois chiches"
         },
         "amount": "80g",
         "tags": [
@@ -1602,24 +2498,40 @@
         ],
         "benefits": {
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
-          "en": "A legume rich in plant-based protein and fiber."
+          "en": "A legume rich in plant-based protein and fiber.",
+          "ja": "植物性タンパク質と食物繊維が豊富な豆類です。",
+          "zh": "富含植物蛋白和膳食纤维的豆类。",
+          "es": "Legumbre rica en proteína vegetal y fibra.",
+          "fr": "Une légumineuse riche en protéines végétales et en fibres."
         },
         "substituteGroupId": "sub-chickpeas",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "케일",
-          "en": "Kale"
+          "en": "Kale",
+          "ja": "ケール",
+          "zh": "羽衣甘蓝",
+          "es": "Col rizada (kale)",
+          "fr": "Chou frisé (kale)"
         },
         "amount": "60g",
         "tags": [
@@ -1627,24 +2539,40 @@
         ],
         "benefits": {
           "ko": "비타민 K와 비타민 C가 풍부한 잎채소예요.",
-          "en": "A leafy green rich in vitamin K and vitamin C."
+          "en": "A leafy green rich in vitamin K and vitamin C.",
+          "ja": "ビタミンKとビタミンCが豊富な葉物野菜です。",
+          "zh": "富含维生素K和维生素C的叶菜。",
+          "es": "Verdura de hoja rica en vitamina K y vitamina C.",
+          "fr": "Un légume feuille riche en vitamine K et en vitamine C."
         },
         "substituteGroupId": "sub-kale",
         "pointTags": [
           {
             "ko": "비타민K",
-            "en": "Vitamin K"
+            "en": "Vitamin K",
+            "ja": "ビタミンK",
+            "zh": "维生素K",
+            "es": "Vitamina K",
+            "fr": "Vitamine K"
           },
           {
             "ko": "비타민C",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
           }
         ]
       },
       {
         "name": {
           "ko": "현미밥",
-          "en": "Cooked brown rice"
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
         },
         "amount": "100g",
         "tags": [
@@ -1652,20 +2580,32 @@
         ],
         "benefits": {
           "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice."
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
         },
         "substituteGroupId": "sub-brown-rice",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "10ml",
         "tags": [
@@ -1673,20 +2613,32 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       },
       {
         "name": {
           "ko": "마늘",
-          "en": "Garlic"
+          "en": "Garlic",
+          "ja": "にんにく",
+          "zh": "大蒜",
+          "es": "Ajo",
+          "fr": "Ail"
         },
         "amount": "5g",
         "tags": [
@@ -1694,12 +2646,20 @@
         ],
         "benefits": {
           "ko": "알리신이라는 화합물이 들어 있는 향신채예요.",
-          "en": "Contains allicin, a compound formed when garlic is crushed."
+          "en": "Contains allicin, a compound formed when garlic is crushed.",
+          "ja": "潰すとアリシンという化合物が生成される香味野菜です。",
+          "zh": "压碎后会生成大蒜素(一种化合物)的香辛蔬菜。",
+          "es": "Contiene alicina, un compuesto que se forma al triturar el ajo.",
+          "fr": "Contient de l'allicine, un composé qui se forme lorsque l'ail est écrasé."
         },
         "pointTags": [
           {
             "ko": "알리신",
-            "en": "Allicin"
+            "en": "Allicin",
+            "ja": "アリシン",
+            "zh": "大蒜素",
+            "es": "Alicina",
+            "fr": "Allicine"
           }
         ]
       }
@@ -1709,56 +2669,88 @@
         "order": 1,
         "instruction": {
           "ko": "마늘 5g을 잘게 다진다.",
-          "en": "Finely mince 5g of garlic."
+          "en": "Finely mince 5g of garlic.",
+          "ja": "にんにく5gを細かくみじん切りにする。",
+          "zh": "将5克大蒜切碎。",
+          "es": "Pique finamente 5 g de ajo.",
+          "fr": "Hachez finement 5 g d'ail."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.",
-          "en": "Heat a pan over medium heat and add 10ml of olive oil."
+          "en": "Heat a pan over medium heat and add 10ml of olive oil.",
+          "ja": "フライパンを中火にかけ、オリーブオイル10mlを入れる。",
+          "zh": "将平底锅置于中火,倒入10毫升橄榄油。",
+          "es": "Caliente una sartén a fuego medio y añada 10 ml de aceite de oliva.",
+          "fr": "Faites chauffer une poêle à feu moyen et ajoutez 10 ml d'huile d'olive."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "다진 마늘을 넣고 30초간 볶는다.",
-          "en": "Add the minced garlic and sauté for 30 seconds."
+          "en": "Add the minced garlic and sauté for 30 seconds.",
+          "ja": "みじん切りのにんにくを加え、30秒炒める。",
+          "zh": "加入蒜末,翻炒30秒。",
+          "es": "Añada el ajo picado y saltee durante 30 segundos.",
+          "fr": "Ajoutez l'ail haché et faites revenir pendant 30 secondes."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "병아리콩 80g을 넣고 3분간 볶는다.",
-          "en": "Add 80g of chickpeas and sauté for 3 minutes."
+          "en": "Add 80g of chickpeas and sauté for 3 minutes.",
+          "ja": "ひよこ豆80gを加え、3分間炒める。",
+          "zh": "加入80克鹰嘴豆,翻炒3分钟。",
+          "es": "Añada 80 g de garbanzos y saltee durante 3 minutos.",
+          "fr": "Ajoutez 80 g de pois chiches et faites revenir pendant 3 minutes."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "케일 60g을 손으로 찢어 넣는다.",
-          "en": "Tear 60g of kale by hand and add it to the pan."
+          "en": "Tear 60g of kale by hand and add it to the pan.",
+          "ja": "ケール60gを手でちぎって加える。",
+          "zh": "将60克羽衣甘蓝用手撕碎后加入。",
+          "es": "Trocee a mano 60 g de col rizada y añádala a la sartén.",
+          "fr": "Déchirez à la main 60 g de chou frisé et ajoutez-le à la poêle."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "잎이 숨이 죽을 때까지 2분간 더 볶는다.",
-          "en": "Sauté for 2 more minutes until the leaves wilt."
+          "en": "Sauté for 2 more minutes until the leaves wilt.",
+          "ja": "葉がしんなりするまでさらに2分炒める。",
+          "zh": "继续翻炒2分钟直至叶片变软。",
+          "es": "Saltee 2 minutos más hasta que las hojas se ablanden.",
+          "fr": "Faites revenir 2 minutes de plus jusqu'à ce que les feuilles ramollissent."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "현미밥 100g을 그릇에 담는다.",
-          "en": "Put 100g of cooked brown rice into a bowl."
+          "en": "Put 100g of cooked brown rice into a bowl.",
+          "ja": "玄米ご飯100gを器に盛る。",
+          "zh": "将100克糙米饭盛入碗中。",
+          "es": "Ponga 100 g de arroz integral cocido en un bol.",
+          "fr": "Mettez 100 g de riz complet cuit dans un bol."
         }
       },
       {
         "order": 8,
         "instruction": {
           "ko": "볶은 병아리콩과 케일을 그 위에 올린다.",
-          "en": "Top with the sautéed chickpeas and kale."
+          "en": "Top with the sautéed chickpeas and kale.",
+          "ja": "炒めたひよこ豆とケールをその上にのせる。",
+          "zh": "将炒好的鹰嘴豆和羽衣甘蓝盖在上面。",
+          "es": "Cubra con los garbanzos y la col rizada salteados.",
+          "fr": "Garnissez avec les pois chiches et le chou frisé sautés."
         }
       }
     ]
@@ -1768,11 +2760,19 @@
     "slug": "tofu-buckwheat-noodle-bowl",
     "title": {
       "ko": "두부 메밀국수 볼",
-      "en": "Tofu Buckwheat Noodle Bowl"
+      "en": "Tofu Buckwheat Noodle Bowl",
+      "ja": "豆腐とそばのボウル",
+      "zh": "豆腐荞麦面碗",
+      "es": "Bol de tofu con fideos de trigo sarraceno",
+      "fr": "Bol de tofu aux nouilles de sarrasin"
     },
     "description": {
       "ko": "차게 낸 메밀국수에 두부와 채소를 곁들였습니다.",
-      "en": "Chilled buckwheat noodles served with tofu and vegetables."
+      "en": "Chilled buckwheat noodles served with tofu and vegetables.",
+      "ja": "冷たいそばに豆腐と野菜を添えました。",
+      "zh": "冷荞麦面搭配豆腐与蔬菜。",
+      "es": "Fideos de trigo sarraceno fríos servidos con tofu y verduras.",
+      "fr": "Nouilles de sarrasin froides servies avec du tofu et des légumes."
     },
     "tags": [
       "lunch",
@@ -1783,7 +2783,11 @@
       {
         "name": {
           "ko": "메밀국수",
-          "en": "Buckwheat noodles"
+          "en": "Buckwheat noodles",
+          "ja": "そば",
+          "zh": "荞麦面",
+          "es": "Fideos de trigo sarraceno",
+          "fr": "Nouilles de sarrasin"
         },
         "amount": "70g",
         "tags": [
@@ -1791,20 +2795,32 @@
         ],
         "benefits": {
           "ko": "메밀로 만들어 정제 밀가루 면보다 식이섬유가 더 있는 편이에요.",
-          "en": "Made from buckwheat, so it retains more fiber than noodles made from refined flour."
+          "en": "Made from buckwheat, so it retains more fiber than noodles made from refined flour.",
+          "ja": "そば粉で作られ、精製小麦の麺より食物繊維が多く残っています。",
+          "zh": "用荞麦制成,比精制面粉面条保留更多膳食纤维。",
+          "es": "Elaborados con trigo sarraceno, conservan más fibra que los fideos de harina refinada.",
+          "fr": "Fabriquées à partir de sarrasin, elles conservent plus de fibres que les nouilles de farine raffinée."
         },
         "substituteGroupId": "sub-buckwheat-noodles",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "두부",
-          "en": "Firm tofu"
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
         },
         "amount": "100g",
         "tags": [
@@ -1812,20 +2828,32 @@
         ],
         "benefits": {
           "ko": "콩으로 만든 식물성 단백질 식품이에요.",
-          "en": "A plant-based protein food made from soybeans."
+          "en": "A plant-based protein food made from soybeans.",
+          "ja": "大豆から作られる植物性タンパク質食品です。",
+          "zh": "由大豆制成的植物蛋白食品。",
+          "es": "Alimento proteico vegetal elaborado con soja.",
+          "fr": "Un aliment protéiné végétal fabriqué à partir de soja."
         },
         "substituteGroupId": "sub-tofu",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
       {
         "name": {
           "ko": "오이",
-          "en": "Cucumber"
+          "en": "Cucumber",
+          "ja": "きゅうり",
+          "zh": "黄瓜",
+          "es": "Pepino",
+          "fr": "Concombre"
         },
         "amount": "50g",
         "tags": [
@@ -1833,19 +2861,31 @@
         ],
         "benefits": {
           "ko": "수분 함량이 높은 채소예요.",
-          "en": "A vegetable with high water content."
+          "en": "A vegetable with high water content.",
+          "ja": "水分含量の高い野菜です。",
+          "zh": "水分含量高的蔬菜。",
+          "es": "Verdura con alto contenido de agua.",
+          "fr": "Un légume à forte teneur en eau."
         },
         "pointTags": [
           {
             "ko": "수분",
-            "en": "Hydration"
+            "en": "Hydration",
+            "ja": "水分",
+            "zh": "水分",
+            "es": "Hidratación",
+            "fr": "Hydratation"
           }
         ]
       },
       {
         "name": {
           "ko": "참깨",
-          "en": "Sesame seeds"
+          "en": "Sesame seeds",
+          "ja": "ごま",
+          "zh": "芝麻",
+          "es": "Semillas de sésamo",
+          "fr": "Graines de sésame"
         },
         "amount": "5g",
         "tags": [
@@ -1854,20 +2894,32 @@
         ],
         "benefits": {
           "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.",
-          "en": "Contains calcium and unsaturated fats."
+          "en": "Contains calcium and unsaturated fats.",
+          "ja": "カルシウムと不飽和脂肪を含む種子です。",
+          "zh": "含有钙和不饱和脂肪的种子。",
+          "es": "Contiene calcio y grasas insaturadas.",
+          "fr": "Contient du calcium et des graisses insaturées."
         },
         "substituteGroupId": "sub-sesame-seeds",
         "pointTags": [
           {
             "ko": "칼슘",
-            "en": "Calcium"
+            "en": "Calcium",
+            "ja": "カルシウム",
+            "zh": "钙",
+            "es": "Calcio",
+            "fr": "Calcium"
           }
         ]
       },
       {
         "name": {
           "ko": "참기름",
-          "en": "Sesame oil"
+          "en": "Sesame oil",
+          "ja": "ごま油",
+          "zh": "芝麻油",
+          "es": "Aceite de sésamo",
+          "fr": "Huile de sésame"
         },
         "amount": "5ml",
         "tags": [
@@ -1875,13 +2927,21 @@
         ],
         "benefits": {
           "ko": "볶은 참깨로 만들어 소량으로도 고소한 향을 더해줘요.",
-          "en": "Made from toasted sesame seeds; a little goes a long way for flavor."
+          "en": "Made from toasted sesame seeds; a little goes a long way for flavor.",
+          "ja": "煎りごまから作られ、少量でも香ばしい風味を加えます。",
+          "zh": "由炒芝麻制成,少量即可增添浓郁香气。",
+          "es": "Elaborado con semillas de sésamo tostadas; un poco basta para aportar mucho sabor.",
+          "fr": "Fabriquée à partir de graines de sésame torréfiées ; un peu suffit pour beaucoup de saveur."
         },
         "substituteGroupId": "sub-sesame-oil",
         "pointTags": [
           {
             "ko": "고소한 풍미",
-            "en": "Nutty Flavor"
+            "en": "Nutty Flavor",
+            "ja": "香ばしい風味",
+            "zh": "浓香风味",
+            "es": "Sabor tostado",
+            "fr": "Saveur grillée"
           }
         ]
       }
@@ -1891,49 +2951,77 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 물을 끓여 메밀국수 70g을 넣는다.",
-          "en": "Boil water in a pot and add 70g of buckwheat noodles."
+          "en": "Boil water in a pot and add 70g of buckwheat noodles.",
+          "ja": "鍋に湯を沸かし、そば70gを入れる。",
+          "zh": "锅中烧开水,放入70克荞麦面。",
+          "es": "Hierva agua en una olla y añada 70 g de fideos de trigo sarraceno.",
+          "fr": "Faites bouillir de l'eau dans une casserole et ajoutez 70 g de nouilles de sarrasin."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "포장지에 적힌 시간만큼 삶는다.",
-          "en": "Cook for the time listed on the package."
+          "en": "Cook for the time listed on the package.",
+          "ja": "袋の表示時間通りにゆでる。",
+          "zh": "按包装说明的时间煮制。",
+          "es": "Cueza según el tiempo indicado en el envase.",
+          "fr": "Faites cuire selon le temps indiqué sur l'emballage."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "삶은 국수를 체에 밭쳐 찬물에 헹군다.",
-          "en": "Drain the noodles in a strainer and rinse under cold water."
+          "en": "Drain the noodles in a strainer and rinse under cold water.",
+          "ja": "ゆでた麺をざるに上げ、冷水ですすぐ。",
+          "zh": "将煮好的面条捞出沥干,用冷水冲洗。",
+          "es": "Escurra los fideos en un colador y enjuáguelos con agua fría.",
+          "fr": "Égouttez les nouilles dans une passoire et rincez-les à l'eau froide."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "두부 100g을 도톰하게 썬다.",
-          "en": "Cut 100g of tofu into thick slices."
+          "en": "Cut 100g of tofu into thick slices.",
+          "ja": "豆腐100gを厚めに切る。",
+          "zh": "将100克豆腐切成厚片。",
+          "es": "Corte 100 g de tofu en rodajas gruesas.",
+          "fr": "Coupez 100 g de tofu en tranches épaisses."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "오이 50g을 가늘게 채썬다.",
-          "en": "Julienne 50g of cucumber into thin strips."
+          "en": "Julienne 50g of cucumber into thin strips.",
+          "ja": "きゅうり50gを細く千切りにする。",
+          "zh": "将50克黄瓜切成细丝。",
+          "es": "Corte 50 g de pepino en tiras finas.",
+          "fr": "Coupez 50 g de concombre en fines lanières."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "그릇에 국수를 담고 두부와 오이를 올린다.",
-          "en": "Put the noodles in a bowl and top with the tofu and cucumber."
+          "en": "Put the noodles in a bowl and top with the tofu and cucumber.",
+          "ja": "器に麺を盛り、豆腐ときゅうりをのせる。",
+          "zh": "将面条盛入碗中,放上豆腐和黄瓜。",
+          "es": "Ponga los fideos en un bol y cubra con el tofu y el pepino.",
+          "fr": "Mettez les nouilles dans un bol et garnissez avec le tofu et le concombre."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "참기름 5ml를 두르고 참깨 5g을 뿌린다.",
-          "en": "Drizzle with 5ml of sesame oil and sprinkle with 5g of sesame seeds."
+          "en": "Drizzle with 5ml of sesame oil and sprinkle with 5g of sesame seeds.",
+          "ja": "ごま油5mlをかけ、ごま5gを振る。",
+          "zh": "淋上5毫升芝麻油,撒上5克芝麻。",
+          "es": "Rocíe con 5 ml de aceite de sésamo y espolvoree 5 g de semillas de sésamo.",
+          "fr": "Arrosez de 5 ml d'huile de sésame et parsemez de 5 g de graines de sésame."
         }
       }
     ]
@@ -1943,11 +3031,19 @@
     "slug": "white-bean-quinoa-bowl",
     "title": {
       "ko": "흰강낭콩 퀴노아 볼",
-      "en": "White Bean Quinoa Bowl"
+      "en": "White Bean Quinoa Bowl",
+      "ja": "白いんげん豆とキヌアのボウル",
+      "zh": "白芸豆藜麦碗",
+      "es": "Bol de alubias blancas con quinoa",
+      "fr": "Bol de haricots blancs au quinoa"
     },
     "description": {
       "ko": "흰강낭콩과 퀴노아에 구운 채소를 더한 볼입니다.",
-      "en": "White beans and quinoa with roasted vegetables."
+      "en": "White beans and quinoa with roasted vegetables.",
+      "ja": "白いんげん豆とキヌアに焼き野菜を加えたボウルです。",
+      "zh": "白芸豆与藜麦搭配烤蔬菜的碗装料理。",
+      "es": "Alubias blancas y quinoa con verduras asadas.",
+      "fr": "Haricots blancs et quinoa accompagnés de légumes rôtis."
     },
     "tags": [
       "lunch",
@@ -1958,7 +3054,11 @@
       {
         "name": {
           "ko": "흰강낭콩",
-          "en": "White beans"
+          "en": "White beans",
+          "ja": "白いんげん豆",
+          "zh": "白芸豆",
+          "es": "Alubias blancas",
+          "fr": "Haricots blancs"
         },
         "amount": "80g",
         "tags": [
@@ -1966,24 +3066,40 @@
         ],
         "benefits": {
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
-          "en": "A legume rich in plant-based protein and fiber."
+          "en": "A legume rich in plant-based protein and fiber.",
+          "ja": "植物性タンパク質と食物繊維が豊富な豆類です。",
+          "zh": "富含植物蛋白和膳食纤维的豆类。",
+          "es": "Legumbre rica en proteína vegetal y fibra.",
+          "fr": "Une légumineuse riche en protéines végétales et en fibres."
         },
         "substituteGroupId": "sub-white-beans",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "퀴노아",
-          "en": "Quinoa"
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
         },
         "amount": "50g",
         "tags": [
@@ -1991,20 +3107,32 @@
         ],
         "benefits": {
           "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
-          "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
+          "en": "A seed that, unlike most grains, contains a fairly complete protein profile.",
+          "ja": "穀物の中では珍しく、タンパク質をバランスよく含む種子です。",
+          "zh": "在谷物中较为少见,蛋白质构成较为完整的种子。",
+          "es": "Una semilla que, a diferencia de la mayoría de los cereales, tiene un perfil proteico bastante completo.",
+          "fr": "Une graine qui, contrairement à la plupart des céréales, présente un profil protéique assez complet."
         },
         "substituteGroupId": "sub-quinoa",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
       {
         "name": {
           "ko": "애호박",
-          "en": "Zucchini"
+          "en": "Zucchini",
+          "ja": "ズッキーニ",
+          "zh": "西葫芦",
+          "es": "Calabacín",
+          "fr": "Courgette"
         },
         "amount": "70g",
         "tags": [
@@ -2012,24 +3140,40 @@
         ],
         "benefits": {
           "ko": "수분 함량이 높고 열량이 낮은 채소예요.",
-          "en": "A vegetable that's high in water content and low in calories."
+          "en": "A vegetable that's high in water content and low in calories.",
+          "ja": "水分が多く低カロリーな野菜です。",
+          "zh": "水分含量高、热量较低的蔬菜。",
+          "es": "Verdura con alto contenido de agua y baja en calorías.",
+          "fr": "Un légume à forte teneur en eau et pauvre en calories."
         },
         "substituteGroupId": "sub-zucchini",
         "pointTags": [
           {
             "ko": "저칼로리",
-            "en": "Low-Calorie"
+            "en": "Low-Calorie",
+            "ja": "低カロリー",
+            "zh": "低热量",
+            "es": "Baja en calorías",
+            "fr": "Faible en calories"
           },
           {
             "ko": "수분",
-            "en": "Hydration"
+            "en": "Hydration",
+            "ja": "水分",
+            "zh": "水分",
+            "es": "Hidratación",
+            "fr": "Hydratation"
           }
         ]
       },
       {
         "name": {
           "ko": "파프리카",
-          "en": "Bell pepper"
+          "en": "Bell pepper",
+          "ja": "パプリカ",
+          "zh": "甜椒",
+          "es": "Pimiento",
+          "fr": "Poivron"
         },
         "amount": "50g",
         "tags": [
@@ -2037,20 +3181,32 @@
         ],
         "benefits": {
           "ko": "비타민 C가 풍부한 채소예요.",
-          "en": "A vegetable rich in vitamin C."
+          "en": "A vegetable rich in vitamin C.",
+          "ja": "ビタミンCが豊富な野菜です。",
+          "zh": "富含维生素C的蔬菜。",
+          "es": "Verdura rica en vitamina C.",
+          "fr": "Un légume riche en vitamine C."
         },
         "substituteGroupId": "sub-bell-pepper",
         "pointTags": [
           {
             "ko": "비타민C",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "10ml",
         "tags": [
@@ -2058,13 +3214,21 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       }
@@ -2074,49 +3238,77 @@
         "order": 1,
         "instruction": {
           "ko": "퀴노아 50g을 헹궈 냄비에 물과 함께 넣고 12분간 끓인 뒤 식힌다.",
-          "en": "Rinse 50g of quinoa, simmer in water for 12 minutes, then let it cool."
+          "en": "Rinse 50g of quinoa, simmer in water for 12 minutes, then let it cool.",
+          "ja": "キヌア50gをすすぎ、鍋に水と共に入れて12分煮た後、冷ます。",
+          "zh": "将50克藜麦冲洗干净,与水一同放入锅中煮12分钟后放凉。",
+          "es": "Enjuague 50 g de quinoa, cuézala en agua durante 12 minutos y déjela enfriar.",
+          "fr": "Rincez 50 g de quinoa, faites-le cuire dans l'eau pendant 12 minutes, puis laissez-le refroidir."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "애호박 70g을 반달 모양으로 썬다.",
-          "en": "Cut 70g of zucchini into half-moon slices."
+          "en": "Cut 70g of zucchini into half-moon slices.",
+          "ja": "ズッキーニ70gを半月切りにする。",
+          "zh": "将70克西葫芦切成半月形。",
+          "es": "Corte 70 g de calabacín en medias lunas.",
+          "fr": "Coupez 70 g de courgette en demi-lunes."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "파프리카 50g을 채썬다.",
-          "en": "Cut 50g of bell pepper into strips."
+          "en": "Cut 50g of bell pepper into strips.",
+          "ja": "パプリカ50gを千切りにする。",
+          "zh": "将50克甜椒切成条状。",
+          "es": "Corte 50 g de pimiento en tiras.",
+          "fr": "Coupez 50 g de poivron en lanières."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.",
-          "en": "Heat a pan over medium heat and add 10ml of olive oil."
+          "en": "Heat a pan over medium heat and add 10ml of olive oil.",
+          "ja": "フライパンを中火にかけ、オリーブオイル10mlを入れる。",
+          "zh": "将平底锅置于中火,倒入10毫升橄榄油。",
+          "es": "Caliente una sartén a fuego medio y añada 10 ml de aceite de oliva.",
+          "fr": "Faites chauffer une poêle à feu moyen et ajoutez 10 ml d'huile d'olive."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "애호박과 파프리카를 넣고 5분간 굽는다.",
-          "en": "Add the zucchini and bell pepper, and cook for 5 minutes."
+          "en": "Add the zucchini and bell pepper, and cook for 5 minutes.",
+          "ja": "ズッキーニとパプリカを加え、5分間焼く。",
+          "zh": "加入西葫芦和甜椒,煎5分钟。",
+          "es": "Añada el calabacín y el pimiento, y cocine durante 5 minutos.",
+          "fr": "Ajoutez la courgette et le poivron, et faites cuire pendant 5 minutes."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "그릇에 퀴노아를 담는다.",
-          "en": "Put the quinoa into a bowl."
+          "en": "Put the quinoa into a bowl.",
+          "ja": "器にキヌアを盛る。",
+          "zh": "将藜麦盛入碗中。",
+          "es": "Ponga la quinoa en un bol.",
+          "fr": "Mettez le quinoa dans un bol."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "구운 채소와 흰강낭콩 80g을 그 위에 올린다.",
-          "en": "Top with the roasted vegetables and 80g of white beans."
+          "en": "Top with the roasted vegetables and 80g of white beans.",
+          "ja": "焼いた野菜と白いんげん豆80gをその上にのせる。",
+          "zh": "将烤好的蔬菜和80克白芸豆盖在上面。",
+          "es": "Cubra con las verduras asadas y 80 g de alubias blancas.",
+          "fr": "Garnissez avec les légumes rôtis et 80 g de haricots blancs."
         }
       }
     ]
@@ -2126,11 +3318,19 @@
     "slug": "egg-vegetable-barley-bowl",
     "title": {
       "ko": "달걀 채소 보리 볼",
-      "en": "Egg and Vegetable Barley Bowl"
+      "en": "Egg and Vegetable Barley Bowl",
+      "ja": "卵と野菜の麦ボウル",
+      "zh": "鸡蛋蔬菜大麦碗",
+      "es": "Bol de huevo, verduras y cebada",
+      "fr": "Bol d'œuf, légumes et orge"
     },
     "description": {
       "ko": "삶은 달걀과 데친 채소를 보리밥에 올린 볼입니다.",
-      "en": "Boiled egg and blanched vegetables over barley."
+      "en": "Boiled egg and blanched vegetables over barley.",
+      "ja": "茹で卵と湯通しした野菜を麦飯にのせたボウルです。",
+      "zh": "水煮蛋与焯烫蔬菜搭配大麦饭的碗装料理。",
+      "es": "Huevo cocido y verduras escaldadas sobre cebada.",
+      "fr": "Œuf dur et légumes blanchis sur lit d'orge."
     },
     "tags": [
       "lunch",
@@ -2140,7 +3340,11 @@
       {
         "name": {
           "ko": "달걀",
-          "en": "Egg"
+          "en": "Egg",
+          "ja": "卵",
+          "zh": "鸡蛋",
+          "es": "Huevo",
+          "fr": "Œuf"
         },
         "amount": "2개",
         "tags": [
@@ -2148,19 +3352,31 @@
         ],
         "benefits": {
           "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.",
-          "en": "A food that provides protein along with a range of vitamins."
+          "en": "A food that provides protein along with a range of vitamins.",
+          "ja": "タンパク質とさまざまなビタミンをバランスよく含む食材です。",
+          "zh": "提供蛋白质及多种维生素的食材。",
+          "es": "Un alimento que aporta proteína junto con diversas vitaminas.",
+          "fr": "Un aliment qui apporte des protéines ainsi qu'un éventail de vitamines."
         },
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
       {
         "name": {
           "ko": "보리밥",
-          "en": "Cooked barley"
+          "en": "Cooked barley",
+          "ja": "麦飯",
+          "zh": "大麦饭",
+          "es": "Cebada cocida",
+          "fr": "Orge cuite"
         },
         "amount": "100g",
         "tags": [
@@ -2168,20 +3384,32 @@
         ],
         "benefits": {
           "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
-          "en": "A whole grain rich in beta-glucan fiber."
+          "en": "A whole grain rich in beta-glucan fiber.",
+          "ja": "食物繊維であるベータグルカンが豊富な全粒穀物です。",
+          "zh": "富含β-葡聚糖(一种膳食纤维)的全谷物。",
+          "es": "Cereal integral rico en fibra de beta-glucano.",
+          "fr": "Une céréale complète riche en fibres de bêta-glucane."
         },
         "substituteGroupId": "sub-barley",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "시금치",
-          "en": "Spinach"
+          "en": "Spinach",
+          "ja": "ほうれん草",
+          "zh": "菠菜",
+          "es": "Espinaca",
+          "fr": "Épinard"
         },
         "amount": "60g",
         "tags": [
@@ -2189,24 +3417,40 @@
         ],
         "benefits": {
           "ko": "철분과 엽산이 들어 있는 잎채소예요.",
-          "en": "A leafy green that contains iron and folate."
+          "en": "A leafy green that contains iron and folate.",
+          "ja": "鉄分と葉酸を含む葉物野菜です。",
+          "zh": "含有铁和叶酸的叶菜。",
+          "es": "Verdura de hoja que contiene hierro y ácido fólico.",
+          "fr": "Un légume feuille qui contient du fer et de l'acide folique."
         },
         "substituteGroupId": "sub-spinach",
         "pointTags": [
           {
             "ko": "철분",
-            "en": "Iron"
+            "en": "Iron",
+            "ja": "鉄分",
+            "zh": "铁",
+            "es": "Hierro",
+            "fr": "Fer"
           },
           {
             "ko": "엽산",
-            "en": "Folate"
+            "en": "Folate",
+            "ja": "葉酸",
+            "zh": "叶酸",
+            "es": "Folato",
+            "fr": "Folate"
           }
         ]
       },
       {
         "name": {
           "ko": "당근",
-          "en": "Carrot"
+          "en": "Carrot",
+          "ja": "にんじん",
+          "zh": "胡萝卜",
+          "es": "Zanahoria",
+          "fr": "Carotte"
         },
         "amount": "40g",
         "tags": [
@@ -2214,19 +3458,31 @@
         ],
         "benefits": {
           "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
-          "en": "Rich in beta-carotene, which gives it its orange color."
+          "en": "Rich in beta-carotene, which gives it its orange color.",
+          "ja": "ベータカロテンが豊富でオレンジ色をした根菜です。",
+          "zh": "富含β-胡萝卜素,呈橙色的根茎类蔬菜。",
+          "es": "Raíz de color naranja rica en betacaroteno.",
+          "fr": "Une racine de couleur orange riche en bêta-carotène."
         },
         "pointTags": [
           {
             "ko": "베타카로틴",
-            "en": "Beta-Carotene"
+            "en": "Beta-Carotene",
+            "ja": "ベータカロテン",
+            "zh": "β-胡萝卜素",
+            "es": "Betacaroteno",
+            "fr": "Bêta-carotène"
           }
         ]
       },
       {
         "name": {
           "ko": "들기름",
-          "en": "Perilla oil"
+          "en": "Perilla oil",
+          "ja": "えごま油",
+          "zh": "紫苏籽油",
+          "es": "Aceite de perilla",
+          "fr": "Huile de périlla"
         },
         "amount": "5ml",
         "tags": [
@@ -2234,13 +3490,21 @@
         ],
         "benefits": {
           "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of omega-3 fatty acids."
+          "en": "A plant-based oil with a high proportion of omega-3 fatty acids.",
+          "ja": "オメガ3脂肪酸の比率が高い植物性油です。",
+          "zh": "Omega-3脂肪酸比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de ácidos grasos omega-3.",
+          "fr": "Une huile végétale à forte proportion d'acides gras oméga-3."
         },
         "substituteGroupId": "sub-perilla-oil",
         "pointTags": [
           {
             "ko": "오메가-3",
-            "en": "Omega-3"
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
           }
         ]
       }
@@ -2250,56 +3514,88 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 물을 끓여 달걀 2개를 넣는다.",
-          "en": "Boil water in a pot and add 2 eggs."
+          "en": "Boil water in a pot and add 2 eggs.",
+          "ja": "鍋に湯を沸かし、卵2個を入れる。",
+          "zh": "锅中烧开水,放入2个鸡蛋。",
+          "es": "Hierva agua en una olla y añada 2 huevos.",
+          "fr": "Faites bouillir de l'eau dans une casserole et ajoutez 2 œufs."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "10분간 삶는다.",
-          "en": "Boil for 10 minutes."
+          "en": "Boil for 10 minutes.",
+          "ja": "10分ゆでる。",
+          "zh": "煮10分钟。",
+          "es": "Cueza durante 10 minutos.",
+          "fr": "Faites cuire pendant 10 minutes."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "삶은 달걀을 찬물에 식힌 뒤 껍질을 벗겨 반으로 자른다.",
-          "en": "Cool the eggs in cold water, peel, and halve them."
+          "en": "Cool the eggs in cold water, peel, and halve them.",
+          "ja": "ゆでた卵を冷水で冷まし、殻をむいて半分に切る。",
+          "zh": "将煮好的鸡蛋放入冷水冷却,剥壳后切成两半。",
+          "es": "Enfríe los huevos en agua fría, pélelos y córtelos por la mitad.",
+          "fr": "Refroidissez les œufs à l'eau froide, écalez-les et coupez-les en deux."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "당근 40g을 얇게 채썬다.",
-          "en": "Thinly julienne 40g of carrot."
+          "en": "Thinly julienne 40g of carrot.",
+          "ja": "にんじん40gを細く千切りにする。",
+          "zh": "将40克胡萝卜切成细丝。",
+          "es": "Corte 40 g de zanahoria en tiras finas.",
+          "fr": "Coupez 40 g de carotte en fines lanières."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "냄비에 물을 끓여 시금치 60g과 당근을 30초간 데친다.",
-          "en": "Boil water in a pot and blanch 60g of spinach and the carrot for 30 seconds."
+          "en": "Boil water in a pot and blanch 60g of spinach and the carrot for 30 seconds.",
+          "ja": "鍋に湯を沸かし、ほうれん草60gとにんじんを30秒ゆでる。",
+          "zh": "锅中烧开水,将60克菠菜和胡萝卜焯烫30秒。",
+          "es": "Hierva agua en una olla y escalde 60 g de espinaca y la zanahoria durante 30 segundos.",
+          "fr": "Faites bouillir de l'eau dans une casserole et blanchissez 60 g d'épinard et la carotte pendant 30 secondes."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "데친 채소를 찬물에 헹궈 물기를 짠다.",
-          "en": "Rinse the blanched vegetables in cold water and squeeze out the excess water."
+          "en": "Rinse the blanched vegetables in cold water and squeeze out the excess water.",
+          "ja": "ゆでた野菜を冷水ですすぎ、水気を絞る。",
+          "zh": "将焯好的蔬菜过冷水后挤干水分。",
+          "es": "Enjuague las verduras escaldadas en agua fría y escurra el exceso de agua.",
+          "fr": "Rincez les légumes blanchis à l'eau froide et essorez l'excès d'eau."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "그릇에 보리밥 100g을 담는다.",
-          "en": "Put 100g of cooked barley into a bowl."
+          "en": "Put 100g of cooked barley into a bowl.",
+          "ja": "器に麦飯100gを盛る。",
+          "zh": "将100克大麦饭盛入碗中。",
+          "es": "Ponga 100 g de cebada cocida en un bol.",
+          "fr": "Mettez 100 g d'orge cuite dans un bol."
         }
       },
       {
         "order": 8,
         "instruction": {
           "ko": "채소와 달걀을 올리고 들기름 5ml를 두른다.",
-          "en": "Top with the vegetables and eggs, and drizzle with 5ml of perilla oil."
+          "en": "Top with the vegetables and eggs, and drizzle with 5ml of perilla oil.",
+          "ja": "野菜と卵をのせ、えごま油5mlをかける。",
+          "zh": "放上蔬菜和鸡蛋,淋上5毫升紫苏籽油。",
+          "es": "Cubra con las verduras y los huevos, y rocíe con 5 ml de aceite de perilla.",
+          "fr": "Garnissez avec les légumes et les œufs, puis arrosez de 5 ml d'huile de périlla."
         }
       }
     ]
@@ -2309,11 +3605,19 @@
     "slug": "edamame-brown-rice-bowl",
     "title": {
       "ko": "풋콩 현미 볼",
-      "en": "Edamame Brown Rice Bowl"
+      "en": "Edamame Brown Rice Bowl",
+      "ja": "枝豆玄米ボウル",
+      "zh": "毛豆糙米碗",
+      "es": "Bol de edamame con arroz integral",
+      "fr": "Bol d'edamame au riz complet"
     },
     "description": {
       "ko": "풋콩과 채소를 현미밥에 올린 간단한 점심입니다.",
-      "en": "A simple lunch of edamame and vegetables over brown rice."
+      "en": "A simple lunch of edamame and vegetables over brown rice.",
+      "ja": "枝豆と野菜を玄米にのせたシンプルな昼食です。",
+      "zh": "毛豆与蔬菜搭配糙米的简单午餐。",
+      "es": "Un almuerzo sencillo de edamame y verduras sobre arroz integral.",
+      "fr": "Un déjeuner simple d'edamame et de légumes sur riz complet."
     },
     "tags": [
       "lunch",
@@ -2324,7 +3628,11 @@
       {
         "name": {
           "ko": "풋콩",
-          "en": "Edamame"
+          "en": "Edamame",
+          "ja": "枝豆",
+          "zh": "毛豆",
+          "es": "Edamame",
+          "fr": "Edamame"
         },
         "amount": "90g",
         "tags": [
@@ -2332,20 +3640,32 @@
         ],
         "benefits": {
           "ko": "식물성 단백질이 풍부한 덜 여문 콩이에요.",
-          "en": "Young soybeans that are a good source of plant-based protein."
+          "en": "Young soybeans that are a good source of plant-based protein.",
+          "ja": "植物性タンパク質が豊富な未熟な大豆です。",
+          "zh": "富含植物蛋白的嫩大豆。",
+          "es": "Soja verde joven, buena fuente de proteína vegetal.",
+          "fr": "Jeunes graines de soja, riches en protéines végétales."
         },
         "substituteGroupId": "sub-edamame",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
       {
         "name": {
           "ko": "현미밥",
-          "en": "Cooked brown rice"
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
         },
         "amount": "100g",
         "tags": [
@@ -2353,20 +3673,32 @@
         ],
         "benefits": {
           "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice."
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
         },
         "substituteGroupId": "sub-brown-rice",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "브로콜리",
-          "en": "Broccoli"
+          "en": "Broccoli",
+          "ja": "ブロッコリー",
+          "zh": "西兰花",
+          "es": "Brócoli",
+          "fr": "Brocoli"
         },
         "amount": "70g",
         "tags": [
@@ -2374,24 +3706,40 @@
         ],
         "benefits": {
           "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
-          "en": "A cruciferous vegetable rich in vitamin C and fiber."
+          "en": "A cruciferous vegetable rich in vitamin C and fiber.",
+          "ja": "ビタミンCと食物繊維が豊富なアブラナ科の野菜です。",
+          "zh": "富含维生素C和膳食纤维的十字花科蔬菜。",
+          "es": "Verdura crucífera rica en vitamina C y fibra.",
+          "fr": "Un légume crucifère riche en vitamine C et en fibres."
         },
         "substituteGroupId": "sub-broccoli",
         "pointTags": [
           {
             "ko": "비타민C",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "아보카도",
-          "en": "Avocado"
+          "en": "Avocado",
+          "ja": "アボカド",
+          "zh": "牛油果",
+          "es": "Aguacate",
+          "fr": "Avocat"
         },
         "amount": "40g",
         "tags": [
@@ -2400,20 +3748,32 @@
         ],
         "benefits": {
           "ko": "불포화지방이 풍부한 과일이에요.",
-          "en": "A fruit rich in unsaturated fat."
+          "en": "A fruit rich in unsaturated fat.",
+          "ja": "不飽和脂肪が豊富な果物です。",
+          "zh": "富含不饱和脂肪的水果。",
+          "es": "Fruta rica en grasas insaturadas.",
+          "fr": "Un fruit riche en graisses insaturées."
         },
         "substituteGroupId": "sub-avocado",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       },
       {
         "name": {
           "ko": "참깨",
-          "en": "Sesame seeds"
+          "en": "Sesame seeds",
+          "ja": "ごま",
+          "zh": "芝麻",
+          "es": "Semillas de sésamo",
+          "fr": "Graines de sésame"
         },
         "amount": "5g",
         "tags": [
@@ -2422,13 +3782,21 @@
         ],
         "benefits": {
           "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.",
-          "en": "Contains calcium and unsaturated fats."
+          "en": "Contains calcium and unsaturated fats.",
+          "ja": "カルシウムと不飽和脂肪を含む種子です。",
+          "zh": "含有钙和不饱和脂肪的种子。",
+          "es": "Contiene calcio y grasas insaturadas.",
+          "fr": "Contient du calcium et des graisses insaturées."
         },
         "substituteGroupId": "sub-sesame-seeds",
         "pointTags": [
           {
             "ko": "칼슘",
-            "en": "Calcium"
+            "en": "Calcium",
+            "ja": "カルシウム",
+            "zh": "钙",
+            "es": "Calcio",
+            "fr": "Calcium"
           }
         ]
       }
@@ -2438,49 +3806,77 @@
         "order": 1,
         "instruction": {
           "ko": "냄비에 물을 끓여 풋콩 90g을 3분간 데친다.",
-          "en": "Boil water in a pot and blanch 90g of edamame for 3 minutes."
+          "en": "Boil water in a pot and blanch 90g of edamame for 3 minutes.",
+          "ja": "鍋に湯を沸かし、枝豆90gを3分ゆでる。",
+          "zh": "锅中烧开水,将90克毛豆焯烫3分钟。",
+          "es": "Hierva agua en una olla y escalde 90 g de edamame durante 3 minutos.",
+          "fr": "Faites bouillir de l'eau dans une casserole et blanchissez 90 g d'edamame pendant 3 minutes."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "같은 물에 브로콜리 70g을 넣고 2분간 더 데친다.",
-          "en": "Add 70g of broccoli to the same water and blanch for 2 more minutes."
+          "en": "Add 70g of broccoli to the same water and blanch for 2 more minutes.",
+          "ja": "同じ湯にブロッコリー70gを入れ、さらに2分ゆでる。",
+          "zh": "在同一锅水中加入70克西兰花,再焯烫2分钟。",
+          "es": "Añada 70 g de brócoli a la misma agua y escalde 2 minutos más.",
+          "fr": "Ajoutez 70 g de brocoli à la même eau et blanchissez 2 minutes de plus."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "데친 풋콩과 브로콜리를 체에 밭쳐 물기를 뺀다.",
-          "en": "Drain the blanched edamame and broccoli in a strainer."
+          "en": "Drain the blanched edamame and broccoli in a strainer.",
+          "ja": "ゆでた枝豆とブロッコリーをざるに上げて水気を切る。",
+          "zh": "将焯好的毛豆和西兰花沥干水分。",
+          "es": "Escurra el edamame y el brócoli escaldados en un colador.",
+          "fr": "Égouttez l'edamame et le brocoli blanchis dans une passoire."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "아보카도 40g을 얇게 썬다.",
-          "en": "Thinly slice 40g of avocado."
+          "en": "Thinly slice 40g of avocado.",
+          "ja": "アボカド40gを薄切りにする。",
+          "zh": "将40克牛油果切成薄片。",
+          "es": "Corte 40 g de aguacate en láminas finas.",
+          "fr": "Coupez 40 g d'avocat en tranches fines."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "그릇에 현미밥 100g을 담는다.",
-          "en": "Put 100g of cooked brown rice into a bowl."
+          "en": "Put 100g of cooked brown rice into a bowl.",
+          "ja": "器に玄米ご飯100gを盛る。",
+          "zh": "将100克糙米饭盛入碗中。",
+          "es": "Ponga 100 g de arroz integral cocido en un bol.",
+          "fr": "Mettez 100 g de riz complet cuit dans un bol."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "풋콩, 브로콜리, 아보카도를 올린다.",
-          "en": "Top with the edamame, broccoli, and avocado."
+          "en": "Top with the edamame, broccoli, and avocado.",
+          "ja": "枝豆、ブロッコリー、アボカドをのせる。",
+          "zh": "放上毛豆、西兰花和牛油果。",
+          "es": "Cubra con el edamame, el brócoli y el aguacate.",
+          "fr": "Garnissez avec l'edamame, le brocoli et l'avocat."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "참깨 5g을 뿌린다.",
-          "en": "Sprinkle with 5g of sesame seeds."
+          "en": "Sprinkle with 5g of sesame seeds.",
+          "ja": "ごま5gを振る。",
+          "zh": "撒上5克芝麻。",
+          "es": "Espolvoree 5 g de semillas de sésamo.",
+          "fr": "Parsemez de 5 g de graines de sésame."
         }
       }
     ]
@@ -2490,11 +3886,19 @@
     "slug": "chicken-vegetable-stew",
     "title": {
       "ko": "닭가슴살 채소 스튜",
-      "en": "Chicken and Vegetable Stew"
+      "en": "Chicken and Vegetable Stew",
+      "ja": "鶏むね肉と野菜のシチュー",
+      "zh": "鸡胸肉蔬菜炖菜",
+      "es": "Estofado de pollo y verduras",
+      "fr": "Ragoût de poulet aux légumes"
     },
     "description": {
       "ko": "닭가슴살과 뿌리채소를 오래 끓여낸 스튜입니다.",
-      "en": "Chicken breast slowly simmered with root vegetables."
+      "en": "Chicken breast slowly simmered with root vegetables.",
+      "ja": "鶏むね肉と根菜をじっくり煮込んだシチューです。",
+      "zh": "鸡胸肉与根茎类蔬菜慢炖而成的炖菜。",
+      "es": "Pechuga de pollo cocida a fuego lento con verduras de raíz.",
+      "fr": "Blanc de poulet mijoté longuement avec des légumes racines."
     },
     "tags": [
       "dinner",
@@ -2504,7 +3908,11 @@
       {
         "name": {
           "ko": "닭가슴살",
-          "en": "Chicken breast"
+          "en": "Chicken breast",
+          "ja": "鶏むね肉",
+          "zh": "鸡胸肉",
+          "es": "Pechuga de pollo",
+          "fr": "Blanc de poulet"
         },
         "amount": "120g",
         "tags": [
@@ -2512,24 +3920,40 @@
         ],
         "benefits": {
           "ko": "지방이 적은 편인 단백질 식재료예요.",
-          "en": "A relatively lean source of protein."
+          "en": "A relatively lean source of protein.",
+          "ja": "比較的脂肪が少ないタンパク質源です。",
+          "zh": "脂肪相对较少的蛋白质来源。",
+          "es": "Fuente de proteína relativamente baja en grasa.",
+          "fr": "Une source de protéines relativement pauvre en graisses."
         },
         "substituteGroupId": "sub-chicken-breast",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           },
           {
             "ko": "저지방",
-            "en": "Lean"
+            "en": "Lean",
+            "ja": "低脂肪",
+            "zh": "低脂",
+            "es": "Magra",
+            "fr": "Maigre"
           }
         ]
       },
       {
         "name": {
           "ko": "양파",
-          "en": "Onion"
+          "en": "Onion",
+          "ja": "玉ねぎ",
+          "zh": "洋葱",
+          "es": "Cebolla",
+          "fr": "Oignon"
         },
         "amount": "60g",
         "tags": [
@@ -2537,19 +3961,31 @@
         ],
         "benefits": {
           "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
-          "en": "Contains quercetin, a plant compound found in many vegetables."
+          "en": "Contains quercetin, a plant compound found in many vegetables.",
+          "ja": "ケルセチンという植物性化合物を含む野菜です。",
+          "zh": "含有槲皮素(一种植物化合物)的蔬菜,多种蔬菜中都能找到。",
+          "es": "Contiene quercetina, un compuesto vegetal presente en muchas verduras.",
+          "fr": "Contient de la quercétine, un composé végétal présent dans de nombreux légumes."
         },
         "pointTags": [
           {
             "ko": "퀘르세틴",
-            "en": "Quercetin"
+            "en": "Quercetin",
+            "ja": "ケルセチン",
+            "zh": "槲皮素",
+            "es": "Quercetina",
+            "fr": "Quercétine"
           }
         ]
       },
       {
         "name": {
           "ko": "당근",
-          "en": "Carrot"
+          "en": "Carrot",
+          "ja": "にんじん",
+          "zh": "胡萝卜",
+          "es": "Zanahoria",
+          "fr": "Carotte"
         },
         "amount": "60g",
         "tags": [
@@ -2557,19 +3993,31 @@
         ],
         "benefits": {
           "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
-          "en": "Rich in beta-carotene, which gives it its orange color."
+          "en": "Rich in beta-carotene, which gives it its orange color.",
+          "ja": "ベータカロテンが豊富でオレンジ色をした根菜です。",
+          "zh": "富含β-胡萝卜素,呈橙色的根茎类蔬菜。",
+          "es": "Raíz de color naranja rica en betacaroteno.",
+          "fr": "Une racine de couleur orange riche en bêta-carotène."
         },
         "pointTags": [
           {
             "ko": "베타카로틴",
-            "en": "Beta-Carotene"
+            "en": "Beta-Carotene",
+            "ja": "ベータカロテン",
+            "zh": "β-胡萝卜素",
+            "es": "Betacaroteno",
+            "fr": "Bêta-carotène"
           }
         ]
       },
       {
         "name": {
           "ko": "셀러리",
-          "en": "Celery"
+          "en": "Celery",
+          "ja": "セロリ",
+          "zh": "芹菜",
+          "es": "Apio",
+          "fr": "Céleri"
         },
         "amount": "40g",
         "tags": [
@@ -2577,19 +4025,31 @@
         ],
         "benefits": {
           "ko": "수분 함량이 높고 아삭한 식감의 채소예요.",
-          "en": "A crunchy vegetable with high water content."
+          "en": "A crunchy vegetable with high water content.",
+          "ja": "水分が多くシャキシャキした食感の野菜です。",
+          "zh": "水分含量高、口感清脆的蔬菜。",
+          "es": "Verdura crujiente con alto contenido de agua.",
+          "fr": "Un légume croquant à forte teneur en eau."
         },
         "pointTags": [
           {
             "ko": "수분",
-            "en": "Hydration"
+            "en": "Hydration",
+            "ja": "水分",
+            "zh": "水分",
+            "es": "Hidratación",
+            "fr": "Hydratation"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "10ml",
         "tags": [
@@ -2597,20 +4057,32 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       },
       {
         "name": {
           "ko": "물",
-          "en": "Water"
+          "en": "Water",
+          "ja": "水",
+          "zh": "水",
+          "es": "Agua",
+          "fr": "Eau"
         },
         "amount": "300ml",
         "tags": []
@@ -2621,56 +4093,88 @@
         "order": 1,
         "instruction": {
           "ko": "양파 60g, 당근 60g, 셀러리 40g을 잘게 썬다.",
-          "en": "Dice 60g of onion, 60g of carrot, and 40g of celery."
+          "en": "Dice 60g of onion, 60g of carrot, and 40g of celery.",
+          "ja": "玉ねぎ60g、にんじん60g、セロリ40gを細かく刻む。",
+          "zh": "将60克洋葱、60克胡萝卜和40克芹菜切碎。",
+          "es": "Pique 60 g de cebolla, 60 g de zanahoria y 40 g de apio.",
+          "fr": "Émincez 60 g d'oignon, 60 g de carotte et 40 g de céleri."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "냄비를 중불에 올리고 올리브유 10ml를 두른다.",
-          "en": "Heat a pot over medium heat and add 10ml of olive oil."
+          "en": "Heat a pot over medium heat and add 10ml of olive oil.",
+          "ja": "鍋を中火にかけ、オリーブオイル10mlを入れる。",
+          "zh": "将锅置于中火,倒入10毫升橄榄油。",
+          "es": "Caliente una olla a fuego medio y añada 10 ml de aceite de oliva.",
+          "fr": "Faites chauffer une casserole à feu moyen et ajoutez 10 ml d'huile d'olive."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "썰어둔 채소를 넣고 3분간 볶는다.",
-          "en": "Add the diced vegetables and sauté for 3 minutes."
+          "en": "Add the diced vegetables and sauté for 3 minutes.",
+          "ja": "刻んだ野菜を加え、3分間炒める。",
+          "zh": "加入切好的蔬菜,翻炒3分钟。",
+          "es": "Añada las verduras picadas y saltee durante 3 minutos.",
+          "fr": "Ajoutez les légumes émincés et faites revenir pendant 3 minutes."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "닭가슴살 120g을 넣는다.",
-          "en": "Add 120g of chicken breast."
+          "en": "Add 120g of chicken breast.",
+          "ja": "鶏むね肉120gを加える。",
+          "zh": "加入120克鸡胸肉。",
+          "es": "Añada 120 g de pechuga de pollo.",
+          "fr": "Ajoutez 120 g de blanc de poulet."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "물 300ml를 붓는다.",
-          "en": "Pour in 300ml of water."
+          "en": "Pour in 300ml of water.",
+          "ja": "水300mlを注ぐ。",
+          "zh": "倒入300毫升水。",
+          "es": "Vierta 300 ml de agua.",
+          "fr": "Versez 300 ml d'eau."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "끓어오르면 약불로 줄인다.",
-          "en": "Once it boils, reduce to low heat."
+          "en": "Once it boils, reduce to low heat.",
+          "ja": "沸騰したら弱火にする。",
+          "zh": "煮沸后转小火。",
+          "es": "Cuando hierva, reduzca a fuego lento.",
+          "fr": "Une fois à ébullition, réduisez à feu doux."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "뚜껑을 덮고 20분간 끓인다.",
-          "en": "Cover and simmer for 20 minutes."
+          "en": "Cover and simmer for 20 minutes.",
+          "ja": "ふたをして20分煮る。",
+          "zh": "盖上锅盖炖20分钟。",
+          "es": "Tape y cueza a fuego lento durante 20 minutos.",
+          "fr": "Couvrez et laissez mijoter pendant 20 minutes."
         }
       },
       {
         "order": 8,
         "instruction": {
           "ko": "닭가슴살을 꺼내 두 갈래로 찢은 뒤 다시 넣는다.",
-          "en": "Take out the chicken, shred it into pieces, and return it to the pot."
+          "en": "Take out the chicken, shred it into pieces, and return it to the pot.",
+          "ja": "鶏肉を取り出して手で裂き、再び鍋に戻す。",
+          "zh": "取出鸡肉撕成小块后重新放回锅中。",
+          "es": "Saque el pollo, deshiláchelo y vuelva a ponerlo en la olla.",
+          "fr": "Retirez le poulet, effilochez-le, puis remettez-le dans la casserole."
         }
       }
     ]
@@ -2680,11 +4184,19 @@
     "slug": "tofu-mushroom-stirfry",
     "title": {
       "ko": "두부 버섯 볶음",
-      "en": "Tofu and Mushroom Stir-fry"
+      "en": "Tofu and Mushroom Stir-fry",
+      "ja": "豆腐ときのこの炒め物",
+      "zh": "豆腐炒菌菇",
+      "es": "Salteado de tofu con setas",
+      "fr": "Sauté de tofu aux champignons"
     },
     "description": {
       "ko": "두부와 버섯을 함께 볶아 낸 담백한 저녁입니다.",
-      "en": "A light dinner of tofu stir-fried with mushrooms."
+      "en": "A light dinner of tofu stir-fried with mushrooms.",
+      "ja": "豆腐ときのこを一緒に炒めた軽めの夕食です。",
+      "zh": "豆腐与菌菇一同翻炒的清淡晚餐。",
+      "es": "Una cena ligera de tofu salteado con setas.",
+      "fr": "Un dîner léger de tofu sauté aux champignons."
     },
     "tags": [
       "dinner",
@@ -2695,7 +4207,11 @@
       {
         "name": {
           "ko": "두부",
-          "en": "Firm tofu"
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
         },
         "amount": "150g",
         "tags": [
@@ -2703,20 +4219,32 @@
         ],
         "benefits": {
           "ko": "콩으로 만든 식물성 단백질 식품이에요.",
-          "en": "A plant-based protein food made from soybeans."
+          "en": "A plant-based protein food made from soybeans.",
+          "ja": "大豆から作られる植物性タンパク質食品です。",
+          "zh": "由大豆制成的植物蛋白食品。",
+          "es": "Alimento proteico vegetal elaborado con soja.",
+          "fr": "Un aliment protéiné végétal fabriqué à partir de soja."
         },
         "substituteGroupId": "sub-tofu",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
       {
         "name": {
           "ko": "표고버섯",
-          "en": "Shiitake mushrooms"
+          "en": "Shiitake mushrooms",
+          "ja": "しいたけ",
+          "zh": "香菇",
+          "es": "Setas shiitake",
+          "fr": "Champignons shiitake"
         },
         "amount": "80g",
         "tags": [
@@ -2724,24 +4252,40 @@
         ],
         "benefits": {
           "ko": "식이섬유와 비타민 D 전구체가 들어 있는 버섯이에요.",
-          "en": "Contains fiber and a precursor to vitamin D."
+          "en": "Contains fiber and a precursor to vitamin D.",
+          "ja": "食物繊維とビタミンDの前駆体を含むきのこです。",
+          "zh": "含有膳食纤维和维生素D前体的菌菇。",
+          "es": "Contiene fibra y un precursor de la vitamina D.",
+          "fr": "Contient des fibres et un précurseur de la vitamine D."
         },
         "substituteGroupId": "sub-shiitake-mushroom",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           },
           {
             "ko": "비타민D",
-            "en": "Vitamin D"
+            "en": "Vitamin D",
+            "ja": "ビタミンD",
+            "zh": "维生素D",
+            "es": "Vitamina D",
+            "fr": "Vitamine D"
           }
         ]
       },
       {
         "name": {
           "ko": "청경채",
-          "en": "Bok choy"
+          "en": "Bok choy",
+          "ja": "チンゲン菜",
+          "zh": "小白菜",
+          "es": "Bok choy",
+          "fr": "Pak-choï"
         },
         "amount": "70g",
         "tags": [
@@ -2749,24 +4293,40 @@
         ],
         "benefits": {
           "ko": "칼슘과 비타민 K가 들어 있는 잎채소예요.",
-          "en": "A leafy green that contains calcium and vitamin K."
+          "en": "A leafy green that contains calcium and vitamin K.",
+          "ja": "カルシウムとビタミンKを含む葉物野菜です。",
+          "zh": "含有钙和维生素K的叶菜。",
+          "es": "Verdura de hoja que contiene calcio y vitamina K.",
+          "fr": "Un légume feuille qui contient du calcium et de la vitamine K."
         },
         "substituteGroupId": "sub-bok-choy",
         "pointTags": [
           {
             "ko": "칼슘",
-            "en": "Calcium"
+            "en": "Calcium",
+            "ja": "カルシウム",
+            "zh": "钙",
+            "es": "Calcio",
+            "fr": "Calcium"
           },
           {
             "ko": "비타민K",
-            "en": "Vitamin K"
+            "en": "Vitamin K",
+            "ja": "ビタミンK",
+            "zh": "维生素K",
+            "es": "Vitamina K",
+            "fr": "Vitamine K"
           }
         ]
       },
       {
         "name": {
           "ko": "현미밥",
-          "en": "Cooked brown rice"
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
         },
         "amount": "80g",
         "tags": [
@@ -2774,20 +4334,32 @@
         ],
         "benefits": {
           "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice."
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
         },
         "substituteGroupId": "sub-brown-rice",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "10ml",
         "tags": [
@@ -2795,13 +4367,21 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       }
@@ -2811,56 +4391,88 @@
         "order": 1,
         "instruction": {
           "ko": "두부 150g을 도톰하게 썬다.",
-          "en": "Cut 150g of tofu into thick slices."
+          "en": "Cut 150g of tofu into thick slices.",
+          "ja": "豆腐150gを厚めに切る。",
+          "zh": "将150克豆腐切成厚片。",
+          "es": "Corte 150 g de tofu en rodajas gruesas.",
+          "fr": "Coupez 150 g de tofu en tranches épaisses."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "표고버섯 80g을 얇게 썬다.",
-          "en": "Thinly slice 80g of shiitake mushrooms."
+          "en": "Thinly slice 80g of shiitake mushrooms.",
+          "ja": "しいたけ80gを薄切りにする。",
+          "zh": "将80克香菇切成薄片。",
+          "es": "Corte 80 g de setas shiitake en láminas finas.",
+          "fr": "Coupez 80 g de champignons shiitake en tranches fines."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "청경채 70g을 밑동을 잘라내고 한 잎씩 뗀다.",
-          "en": "Trim the base of 70g of bok choy and separate the leaves."
+          "en": "Trim the base of 70g of bok choy and separate the leaves.",
+          "ja": "チンゲン菜70gの根元を切り落とし、一枚ずつはがす。",
+          "zh": "切去70克小白菜的根部,一片片剥开。",
+          "es": "Corte la base de 70 g de bok choy y separe las hojas.",
+          "fr": "Coupez la base de 70 g de pak-choï et détachez les feuilles une à une."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.",
-          "en": "Heat a pan over medium heat and add 10ml of olive oil."
+          "en": "Heat a pan over medium heat and add 10ml of olive oil.",
+          "ja": "フライパンを中火にかけ、オリーブオイル10mlを入れる。",
+          "zh": "将平底锅置于中火,倒入10毫升橄榄油。",
+          "es": "Caliente una sartén a fuego medio y añada 10 ml de aceite de oliva.",
+          "fr": "Faites chauffer une poêle à feu moyen et ajoutez 10 ml d'huile d'olive."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "두부를 올려 앞뒤로 각 2분씩 노릇하게 굽는다.",
-          "en": "Add the tofu and brown each side for 2 minutes."
+          "en": "Add the tofu and brown each side for 2 minutes.",
+          "ja": "豆腐を入れ、両面をそれぞれ2分ずつきつね色に焼く。",
+          "zh": "放入豆腐,两面各煎2分钟至金黄。",
+          "es": "Añada el tofu y dórelo por cada lado durante 2 minutos.",
+          "fr": "Ajoutez le tofu et faites-le dorer 2 minutes de chaque côté."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "버섯을 넣고 2분간 볶는다.",
-          "en": "Add the mushrooms and stir-fry for 2 minutes."
+          "en": "Add the mushrooms and stir-fry for 2 minutes.",
+          "ja": "きのこを加え、2分間炒める。",
+          "zh": "加入菌菇,翻炒2分钟。",
+          "es": "Añada las setas y saltéelas durante 2 minutos.",
+          "fr": "Ajoutez les champignons et faites revenir pendant 2 minutes."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "청경채를 넣고 1분간 더 볶는다.",
-          "en": "Add the bok choy and stir-fry for 1 more minute."
+          "en": "Add the bok choy and stir-fry for 1 more minute.",
+          "ja": "チンゲン菜を加え、さらに1分炒める。",
+          "zh": "加入小白菜,再翻炒1分钟。",
+          "es": "Añada el bok choy y saltee 1 minuto más.",
+          "fr": "Ajoutez le pak-choï et faites revenir 1 minute de plus."
         }
       },
       {
         "order": 8,
         "instruction": {
           "ko": "현미밥 80g과 함께 그릇에 담는다.",
-          "en": "Serve with 80g of cooked brown rice."
+          "en": "Serve with 80g of cooked brown rice.",
+          "ja": "玄米ご飯80gと共に器に盛る。",
+          "zh": "与80克糙米饭一同盛入碗中。",
+          "es": "Sirva con 80 g de arroz integral cocido.",
+          "fr": "Servez avec 80 g de riz complet cuit."
         }
       }
     ]
@@ -2870,11 +4482,19 @@
     "slug": "salmon-broccoli-plate",
     "title": {
       "ko": "연어 브로콜리 구이",
-      "en": "Roasted Salmon with Broccoli"
+      "en": "Roasted Salmon with Broccoli",
+      "ja": "鮭とブロッコリーのロースト",
+      "zh": "烤三文鱼西兰花",
+      "es": "Salmón al horno con brócoli",
+      "fr": "Saumon rôti au brocoli"
     },
     "description": {
       "ko": "연어와 브로콜리를 함께 구워 낸 저녁 한 접시입니다.",
-      "en": "Salmon and broccoli roasted together on one plate."
+      "en": "Salmon and broccoli roasted together on one plate.",
+      "ja": "鮭とブロッコリーを一緒に焼いた夕食の一皿です。",
+      "zh": "三文鱼与西兰花同烤的晚餐一盘。",
+      "es": "Salmón y brócoli asados juntos en un solo plato para la cena.",
+      "fr": "Saumon et brocoli rôtis ensemble dans une seule assiette pour le dîner."
     },
     "tags": [
       "dinner",
@@ -2884,7 +4504,11 @@
       {
         "name": {
           "ko": "연어",
-          "en": "Salmon"
+          "en": "Salmon",
+          "ja": "鮭",
+          "zh": "三文鱼",
+          "es": "Salmón",
+          "fr": "Saumon"
         },
         "amount": "120g",
         "tags": [
@@ -2893,20 +4517,32 @@
         ],
         "benefits": {
           "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
-          "en": "Rich in omega-3 fatty acids, which may support heart health."
+          "en": "Rich in omega-3 fatty acids, which may support heart health.",
+          "ja": "オメガ3脂肪酸が豊富で、血管の健康に役立つ可能性があります。",
+          "zh": "富含Omega-3脂肪酸,可能有助于心血管健康。",
+          "es": "Rica en ácidos grasos omega-3, que pueden favorecer la salud cardiovascular.",
+          "fr": "Riche en acides gras oméga-3, qui peuvent favoriser la santé cardiovasculaire."
         },
         "substituteGroupId": "sub-salmon",
         "pointTags": [
           {
             "ko": "오메가-3",
-            "en": "Omega-3"
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
           }
         ]
       },
       {
         "name": {
           "ko": "브로콜리",
-          "en": "Broccoli"
+          "en": "Broccoli",
+          "ja": "ブロッコリー",
+          "zh": "西兰花",
+          "es": "Brócoli",
+          "fr": "Brocoli"
         },
         "amount": "100g",
         "tags": [
@@ -2914,24 +4550,40 @@
         ],
         "benefits": {
           "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
-          "en": "A cruciferous vegetable rich in vitamin C and fiber."
+          "en": "A cruciferous vegetable rich in vitamin C and fiber.",
+          "ja": "ビタミンCと食物繊維が豊富なアブラナ科の野菜です。",
+          "zh": "富含维生素C和膳食纤维的十字花科蔬菜。",
+          "es": "Verdura crucífera rica en vitamina C y fibra.",
+          "fr": "Un légume crucifère riche en vitamine C et en fibres."
         },
         "substituteGroupId": "sub-broccoli",
         "pointTags": [
           {
             "ko": "비타민C",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "퀴노아",
-          "en": "Quinoa"
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
         },
         "amount": "50g",
         "tags": [
@@ -2939,20 +4591,32 @@
         ],
         "benefits": {
           "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
-          "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
+          "en": "A seed that, unlike most grains, contains a fairly complete protein profile.",
+          "ja": "穀物の中では珍しく、タンパク質をバランスよく含む種子です。",
+          "zh": "在谷物中较为少见,蛋白质构成较为完整的种子。",
+          "es": "Una semilla que, a diferencia de la mayoría de los cereales, tiene un perfil proteico bastante completo.",
+          "fr": "Une graine qui, contrairement à la plupart des céréales, présente un profil protéique assez complet."
         },
         "substituteGroupId": "sub-quinoa",
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "10ml",
         "tags": [
@@ -2960,20 +4624,32 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       },
       {
         "name": {
           "ko": "레몬",
-          "en": "Lemon"
+          "en": "Lemon",
+          "ja": "レモン",
+          "zh": "柠檬",
+          "es": "Limón",
+          "fr": "Citron"
         },
         "amount": "20g",
         "tags": [
@@ -2981,13 +4657,21 @@
         ],
         "benefits": {
           "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.",
-          "en": "Rich in vitamin C and adds bright acidity."
+          "en": "Rich in vitamin C and adds bright acidity.",
+          "ja": "ビタミンCが豊富で爽やかな酸味を加えます。",
+          "zh": "富含维生素C,能增添清爽的酸味。",
+          "es": "Rico en vitamina C y aporta una acidez fresca.",
+          "fr": "Riche en vitamine C, il apporte une acidité rafraîchissante."
         },
         "substituteGroupId": "sub-lemon",
         "pointTags": [
           {
             "ko": "비타민C",
-            "en": "Vitamin C"
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
           }
         ]
       }
@@ -2997,49 +4681,77 @@
         "order": 1,
         "instruction": {
           "ko": "오븐을 200도로 예열한다.",
-          "en": "Preheat the oven to 200°C (390°F)."
+          "en": "Preheat the oven to 200°C (390°F).",
+          "ja": "オーブンを200度に予熱する。",
+          "zh": "将烤箱预热至200摄氏度。",
+          "es": "Precaliente el horno a 200 °C.",
+          "fr": "Préchauffez le four à 200 °C."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "퀴노아 50g을 헹궈 냄비에 물과 함께 넣고 12분간 끓인다.",
-          "en": "Rinse 50g of quinoa, then simmer in water for 12 minutes."
+          "en": "Rinse 50g of quinoa, then simmer in water for 12 minutes.",
+          "ja": "キヌア50gをすすぎ、鍋に水と共に入れて12分煮る。",
+          "zh": "将50克藜麦冲洗干净,与水一同放入锅中煮12分钟。",
+          "es": "Enjuague 50 g de quinoa y cuézala en agua durante 12 minutos.",
+          "fr": "Rincez 50 g de quinoa et faites-le cuire dans l'eau pendant 12 minutes."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "오븐 팬에 연어 120g과 브로콜리 100g을 올린다.",
-          "en": "Place 120g of salmon and 100g of broccoli on a baking tray."
+          "en": "Place 120g of salmon and 100g of broccoli on a baking tray.",
+          "ja": "オーブン用トレイに鮭120gとブロッコリー100gをのせる。",
+          "zh": "将120克三文鱼和100克西兰花放在烤盘上。",
+          "es": "Coloque 120 g de salmón y 100 g de brócoli en una bandeja de horno.",
+          "fr": "Placez 120 g de saumon et 100 g de brocoli sur une plaque de cuisson."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "올리브유 10ml를 골고루 두른다.",
-          "en": "Drizzle evenly with 10ml of olive oil."
+          "en": "Drizzle evenly with 10ml of olive oil.",
+          "ja": "オリーブオイル10mlを均一にかける。",
+          "zh": "均匀淋上10毫升橄榄油。",
+          "es": "Rocíe uniformemente con 10 ml de aceite de oliva.",
+          "fr": "Arrosez uniformément de 10 ml d'huile d'olive."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "오븐에서 12분간 굽는다.",
-          "en": "Bake for 12 minutes."
+          "en": "Bake for 12 minutes.",
+          "ja": "オーブンで12分焼く。",
+          "zh": "入烤箱烤12分钟。",
+          "es": "Hornee durante 12 minutos.",
+          "fr": "Faites cuire au four pendant 12 minutes."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "구운 연어와 브로콜리를 삶은 퀴노아와 함께 접시에 담는다.",
-          "en": "Plate the roasted salmon and broccoli with the cooked quinoa."
+          "en": "Plate the roasted salmon and broccoli with the cooked quinoa.",
+          "ja": "焼いた鮭とブロッコリーを、ゆでたキヌアと共に皿に盛る。",
+          "zh": "将烤好的三文鱼和西兰花与煮好的藜麦一起装盘。",
+          "es": "Sirva en un plato el salmón y el brócoli asados junto con la quinoa cocida.",
+          "fr": "Dressez le saumon et le brocoli rôtis dans une assiette avec le quinoa cuit."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "레몬 20g을 즙 내어 뿌린다.",
-          "en": "Squeeze 20g of lemon juice over the plate."
+          "en": "Squeeze 20g of lemon juice over the plate.",
+          "ja": "レモン20g分の果汁を絞りかける。",
+          "zh": "挤入20克柠檬的汁液。",
+          "es": "Exprima 20 g de zumo de limón por encima.",
+          "fr": "Pressez 20 g de jus de citron sur l'assiette."
         }
       }
     ]
@@ -3049,11 +4761,19 @@
     "slug": "vegetable-frittata",
     "title": {
       "ko": "채소 프리타타",
-      "en": "Vegetable Frittata"
+      "en": "Vegetable Frittata",
+      "ja": "野菜フリッタータ",
+      "zh": "蔬菜烘蛋",
+      "es": "Frittata de verduras",
+      "fr": "Frittata aux légumes"
     },
     "description": {
       "ko": "달걀과 채소를 팬에 구워 낸 이탈리아식 프리타타입니다.",
-      "en": "An Italian-style frittata of eggs and vegetables."
+      "en": "An Italian-style frittata of eggs and vegetables.",
+      "ja": "卵と野菜をフライパンで焼き上げたイタリア風フリッタータです。",
+      "zh": "鸡蛋与蔬菜煎制而成的意式烘蛋。",
+      "es": "Una frittata al estilo italiano de huevo y verduras cocinada en sartén.",
+      "fr": "Une frittata à l'italienne d'œufs et de légumes cuite à la poêle."
     },
     "tags": [
       "dinner",
@@ -3063,7 +4783,11 @@
       {
         "name": {
           "ko": "달걀",
-          "en": "Egg"
+          "en": "Egg",
+          "ja": "卵",
+          "zh": "鸡蛋",
+          "es": "Huevo",
+          "fr": "Œuf"
         },
         "amount": "3개",
         "tags": [
@@ -3071,19 +4795,31 @@
         ],
         "benefits": {
           "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.",
-          "en": "A food that provides protein along with a range of vitamins."
+          "en": "A food that provides protein along with a range of vitamins.",
+          "ja": "タンパク質とさまざまなビタミンをバランスよく含む食材です。",
+          "zh": "提供蛋白质及多种维生素的食材。",
+          "es": "Un alimento que aporta proteína junto con diversas vitaminas.",
+          "fr": "Un aliment qui apporte des protéines ainsi qu'un éventail de vitamines."
         },
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
       {
         "name": {
           "ko": "시금치",
-          "en": "Spinach"
+          "en": "Spinach",
+          "ja": "ほうれん草",
+          "zh": "菠菜",
+          "es": "Espinaca",
+          "fr": "Épinard"
         },
         "amount": "60g",
         "tags": [
@@ -3091,24 +4827,40 @@
         ],
         "benefits": {
           "ko": "철분과 엽산이 들어 있는 잎채소예요.",
-          "en": "A leafy green that contains iron and folate."
+          "en": "A leafy green that contains iron and folate.",
+          "ja": "鉄分と葉酸を含む葉物野菜です。",
+          "zh": "含有铁和叶酸的叶菜。",
+          "es": "Verdura de hoja que contiene hierro y ácido fólico.",
+          "fr": "Un légume feuille qui contient du fer et de l'acide folique."
         },
         "substituteGroupId": "sub-spinach",
         "pointTags": [
           {
             "ko": "철분",
-            "en": "Iron"
+            "en": "Iron",
+            "ja": "鉄分",
+            "zh": "铁",
+            "es": "Hierro",
+            "fr": "Fer"
           },
           {
             "ko": "엽산",
-            "en": "Folate"
+            "en": "Folate",
+            "ja": "葉酸",
+            "zh": "叶酸",
+            "es": "Folato",
+            "fr": "Folate"
           }
         ]
       },
       {
         "name": {
           "ko": "양파",
-          "en": "Onion"
+          "en": "Onion",
+          "ja": "玉ねぎ",
+          "zh": "洋葱",
+          "es": "Cebolla",
+          "fr": "Oignon"
         },
         "amount": "50g",
         "tags": [
@@ -3116,19 +4868,31 @@
         ],
         "benefits": {
           "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
-          "en": "Contains quercetin, a plant compound found in many vegetables."
+          "en": "Contains quercetin, a plant compound found in many vegetables.",
+          "ja": "ケルセチンという植物性化合物を含む野菜です。",
+          "zh": "含有槲皮素(一种植物化合物)的蔬菜,多种蔬菜中都能找到。",
+          "es": "Contiene quercetina, un compuesto vegetal presente en muchas verduras.",
+          "fr": "Contient de la quercétine, un composé végétal présent dans de nombreux légumes."
         },
         "pointTags": [
           {
             "ko": "퀘르세틴",
-            "en": "Quercetin"
+            "en": "Quercetin",
+            "ja": "ケルセチン",
+            "zh": "槲皮素",
+            "es": "Quercetina",
+            "fr": "Quercétine"
           }
         ]
       },
       {
         "name": {
           "ko": "방울토마토",
-          "en": "Cherry tomatoes"
+          "en": "Cherry tomatoes",
+          "ja": "プチトマト",
+          "zh": "圣女果",
+          "es": "Tomates cherry",
+          "fr": "Tomates cerises"
         },
         "amount": "60g",
         "tags": [
@@ -3136,20 +4900,32 @@
         ],
         "benefits": {
           "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
-          "en": "Contains lycopene, an antioxidant compound."
+          "en": "Contains lycopene, an antioxidant compound.",
+          "ja": "リコピンという抗酸化成分を含む野菜です。",
+          "zh": "含有番茄红素(一种抗氧化成分)的蔬菜。",
+          "es": "Contiene licopeno, un compuesto antioxidante.",
+          "fr": "Contient du lycopène, un composé antioxydant."
         },
         "substituteGroupId": "sub-cherry-tomatoes",
         "pointTags": [
           {
             "ko": "라이코펜",
-            "en": "Lycopene"
+            "en": "Lycopene",
+            "ja": "リコピン",
+            "zh": "番茄红素",
+            "es": "Licopeno",
+            "fr": "Lycopène"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "10ml",
         "tags": [
@@ -3157,13 +4933,21 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       }
@@ -3173,56 +4957,88 @@
         "order": 1,
         "instruction": {
           "ko": "양파 50g을 잘게 썬다.",
-          "en": "Dice 50g of onion."
+          "en": "Dice 50g of onion.",
+          "ja": "玉ねぎ50gを細かく刻む。",
+          "zh": "将50克洋葱切碎。",
+          "es": "Pique 50 g de cebolla.",
+          "fr": "Émincez 50 g d'oignon."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "달걀 3개를 그릇에 깨서 넣고 잘 푼다.",
-          "en": "Crack 3 eggs into a bowl and beat well."
+          "en": "Crack 3 eggs into a bowl and beat well.",
+          "ja": "卵3個をボウルに割り入れ、よく溶きほぐす。",
+          "zh": "将3个鸡蛋打入碗中,充分打散。",
+          "es": "Casque 3 huevos en un bol y bátalos bien.",
+          "fr": "Cassez 3 œufs dans un bol et battez-les bien."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "팬을 중약불에 올리고 올리브유 10ml를 두른다.",
-          "en": "Heat a pan over medium-low heat and add 10ml of olive oil."
+          "en": "Heat a pan over medium-low heat and add 10ml of olive oil.",
+          "ja": "フライパンを中弱火にかけ、オリーブオイル10mlを入れる。",
+          "zh": "将平底锅置于中小火,倒入10毫升橄榄油。",
+          "es": "Caliente una sartén a fuego medio-bajo y añada 10 ml de aceite de oliva.",
+          "fr": "Faites chauffer une poêle à feu moyen-doux et ajoutez 10 ml d'huile d'olive."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "양파를 넣고 2분간 볶는다.",
-          "en": "Add the onion and sauté for 2 minutes."
+          "en": "Add the onion and sauté for 2 minutes.",
+          "ja": "玉ねぎを加え、2分間炒める。",
+          "zh": "加入洋葱,翻炒2分钟。",
+          "es": "Añada la cebolla y saltee durante 2 minutos.",
+          "fr": "Ajoutez l'oignon et faites revenir pendant 2 minutes."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "시금치 60g을 넣고 숨이 죽을 때까지 1분간 볶는다.",
-          "en": "Add 60g of spinach and sauté for 1 minute until wilted."
+          "en": "Add 60g of spinach and sauté for 1 minute until wilted.",
+          "ja": "ほうれん草60gを加え、しんなりするまで1分炒める。",
+          "zh": "加入60克菠菜,翻炒1分钟至变软。",
+          "es": "Añada 60 g de espinaca y saltee 1 minuto hasta que se ablande.",
+          "fr": "Ajoutez 60 g d'épinard et faites revenir 1 minute jusqu'à ce qu'il ramollisse."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "풀어둔 달걀물을 팬에 붓는다.",
-          "en": "Pour the beaten eggs into the pan."
+          "en": "Pour the beaten eggs into the pan.",
+          "ja": "溶いた卵をフライパンに流し入れる。",
+          "zh": "将打散的蛋液倒入锅中。",
+          "es": "Vierta los huevos batidos en la sartén.",
+          "fr": "Versez les œufs battus dans la poêle."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "방울토마토 60g을 반으로 잘라 올린다.",
-          "en": "Halve 60g of cherry tomatoes and arrange them on top."
+          "en": "Halve 60g of cherry tomatoes and arrange them on top.",
+          "ja": "プチトマト60gを半分に切ってのせる。",
+          "zh": "将60克圣女果切成两半摆在上面。",
+          "es": "Corte por la mitad 60 g de tomates cherry y colóquelos encima.",
+          "fr": "Coupez en deux 60 g de tomates cerises et disposez-les dessus."
         }
       },
       {
         "order": 8,
         "instruction": {
           "ko": "뚜껑을 덮고 약불에서 8분간 익힌다.",
-          "en": "Cover and cook on low heat for 8 minutes."
+          "en": "Cover and cook on low heat for 8 minutes.",
+          "ja": "ふたをして弱火で8分焼く。",
+          "zh": "盖上锅盖用小火煎8分钟。",
+          "es": "Tape y cocine a fuego lento durante 8 minutos.",
+          "fr": "Couvrez et faites cuire à feu doux pendant 8 minutes."
         }
       }
     ]
@@ -3232,11 +5048,19 @@
     "slug": "lentil-tomato-stew",
     "title": {
       "ko": "렌틸 토마토 스튜",
-      "en": "Lentil Tomato Stew"
+      "en": "Lentil Tomato Stew",
+      "ja": "レンズ豆とトマトのシチュー",
+      "zh": "小扁豆番茄炖菜",
+      "es": "Estofado de lentejas con tomate",
+      "fr": "Ragoût de lentilles à la tomate"
     },
     "description": {
       "ko": "렌틸콩을 토마토와 함께 끓여낸 지중해식 스튜입니다.",
-      "en": "A Mediterranean stew of lentils simmered with tomatoes."
+      "en": "A Mediterranean stew of lentils simmered with tomatoes.",
+      "ja": "レンズ豆をトマトと一緒に煮込んだ地中海風シチューです。",
+      "zh": "小扁豆与番茄同炖的地中海风味炖菜。",
+      "es": "Un estofado mediterráneo de lentejas cocidas a fuego lento con tomate.",
+      "fr": "Un ragoût méditerranéen de lentilles mijotées avec de la tomate."
     },
     "tags": [
       "dinner",
@@ -3247,7 +5071,11 @@
       {
         "name": {
           "ko": "렌틸콩",
-          "en": "Lentils"
+          "en": "Lentils",
+          "ja": "レンズ豆",
+          "zh": "小扁豆",
+          "es": "Lentejas",
+          "fr": "Lentilles"
         },
         "amount": "90g",
         "tags": [
@@ -3256,23 +5084,39 @@
         "substituteGroupId": "sub-lentils",
         "benefits": {
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
-          "en": "A legume rich in plant-based protein and fiber."
+          "en": "A legume rich in plant-based protein and fiber.",
+          "ja": "植物性タンパク質と食物繊維が豊富な豆類です。",
+          "zh": "富含植物蛋白和膳食纤维的豆类。",
+          "es": "Legumbre rica en proteína vegetal y fibra.",
+          "fr": "Une légumineuse riche en protéines végétales et en fibres."
         },
         "pointTags": [
           {
             "ko": "단백질",
-            "en": "Protein"
+            "en": "Protein",
+            "ja": "タンパク質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           },
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "토마토",
-          "en": "Tomato"
+          "en": "Tomato",
+          "ja": "トマト",
+          "zh": "番茄",
+          "es": "Tomate",
+          "fr": "Tomate"
         },
         "amount": "120g",
         "tags": [
@@ -3280,20 +5124,32 @@
         ],
         "benefits": {
           "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
-          "en": "Contains lycopene, an antioxidant compound."
+          "en": "Contains lycopene, an antioxidant compound.",
+          "ja": "リコピンという抗酸化成分を含む野菜です。",
+          "zh": "含有番茄红素(一种抗氧化成分)的蔬菜。",
+          "es": "Contiene licopeno, un compuesto antioxidante.",
+          "fr": "Contient du lycopène, un composé antioxydant."
         },
         "substituteGroupId": "sub-tomato",
         "pointTags": [
           {
             "ko": "라이코펜",
-            "en": "Lycopene"
+            "en": "Lycopene",
+            "ja": "リコピン",
+            "zh": "番茄红素",
+            "es": "Licopeno",
+            "fr": "Lycopène"
           }
         ]
       },
       {
         "name": {
           "ko": "양파",
-          "en": "Onion"
+          "en": "Onion",
+          "ja": "玉ねぎ",
+          "zh": "洋葱",
+          "es": "Cebolla",
+          "fr": "Oignon"
         },
         "amount": "50g",
         "tags": [
@@ -3301,19 +5157,31 @@
         ],
         "benefits": {
           "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
-          "en": "Contains quercetin, a plant compound found in many vegetables."
+          "en": "Contains quercetin, a plant compound found in many vegetables.",
+          "ja": "ケルセチンという植物性化合物を含む野菜です。",
+          "zh": "含有槲皮素(一种植物化合物)的蔬菜,多种蔬菜中都能找到。",
+          "es": "Contiene quercetina, un compuesto vegetal presente en muchas verduras.",
+          "fr": "Contient de la quercétine, un composé végétal présent dans de nombreux légumes."
         },
         "pointTags": [
           {
             "ko": "퀘르세틴",
-            "en": "Quercetin"
+            "en": "Quercetin",
+            "ja": "ケルセチン",
+            "zh": "槲皮素",
+            "es": "Quercetina",
+            "fr": "Quercétine"
           }
         ]
       },
       {
         "name": {
           "ko": "시금치",
-          "en": "Spinach"
+          "en": "Spinach",
+          "ja": "ほうれん草",
+          "zh": "菠菜",
+          "es": "Espinaca",
+          "fr": "Épinard"
         },
         "amount": "50g",
         "tags": [
@@ -3321,24 +5189,40 @@
         ],
         "benefits": {
           "ko": "철분과 엽산이 들어 있는 잎채소예요.",
-          "en": "A leafy green that contains iron and folate."
+          "en": "A leafy green that contains iron and folate.",
+          "ja": "鉄分と葉酸を含む葉物野菜です。",
+          "zh": "含有铁和叶酸的叶菜。",
+          "es": "Verdura de hoja que contiene hierro y ácido fólico.",
+          "fr": "Un légume feuille qui contient du fer et de l'acide folique."
         },
         "substituteGroupId": "sub-spinach",
         "pointTags": [
           {
             "ko": "철분",
-            "en": "Iron"
+            "en": "Iron",
+            "ja": "鉄分",
+            "zh": "铁",
+            "es": "Hierro",
+            "fr": "Fer"
           },
           {
             "ko": "엽산",
-            "en": "Folate"
+            "en": "Folate",
+            "ja": "葉酸",
+            "zh": "叶酸",
+            "es": "Folato",
+            "fr": "Folate"
           }
         ]
       },
       {
         "name": {
           "ko": "올리브유",
-          "en": "Olive oil"
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
         },
         "amount": "10ml",
         "tags": [
@@ -3346,13 +5230,21 @@
         ],
         "benefits": {
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of unsaturated fat."
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
         },
         "substituteGroupId": "sub-olive-oil",
         "pointTags": [
           {
             "ko": "불포화지방",
-            "en": "Unsaturated Fat"
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       }
@@ -3362,56 +5254,88 @@
         "order": 1,
         "instruction": {
           "ko": "양파 50g을 잘게 썬다.",
-          "en": "Dice 50g of onion."
+          "en": "Dice 50g of onion.",
+          "ja": "玉ねぎ50gを細かく刻む。",
+          "zh": "将50克洋葱切碎。",
+          "es": "Pique 50 g de cebolla.",
+          "fr": "Émincez 50 g d'oignon."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "토마토 120g을 큼직하게 썬다.",
-          "en": "Roughly chop 120g of tomato."
+          "en": "Roughly chop 120g of tomato.",
+          "ja": "トマト120gをざく切りにする。",
+          "zh": "将120克番茄大致切块。",
+          "es": "Corte 120 g de tomate en trozos grandes.",
+          "fr": "Coupez grossièrement 120 g de tomate."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "냄비를 중불에 올리고 올리브유 10ml를 두른다.",
-          "en": "Heat a pot over medium heat and add 10ml of olive oil."
+          "en": "Heat a pot over medium heat and add 10ml of olive oil.",
+          "ja": "鍋を中火にかけ、オリーブオイル10mlを入れる。",
+          "zh": "将锅置于中火,倒入10毫升橄榄油。",
+          "es": "Caliente una olla a fuego medio y añada 10 ml de aceite de oliva.",
+          "fr": "Faites chauffer une casserole à feu moyen et ajoutez 10 ml d'huile d'olive."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "양파를 넣고 2분간 볶는다.",
-          "en": "Add the onion and sauté for 2 minutes."
+          "en": "Add the onion and sauté for 2 minutes.",
+          "ja": "玉ねぎを加え、2分間炒める。",
+          "zh": "加入洋葱,翻炒2分钟。",
+          "es": "Añada la cebolla y saltee durante 2 minutos.",
+          "fr": "Ajoutez l'oignon et faites revenir pendant 2 minutes."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "썰어둔 토마토를 넣고 2분간 더 볶는다.",
-          "en": "Add the chopped tomato and sauté for 2 more minutes."
+          "en": "Add the chopped tomato and sauté for 2 more minutes.",
+          "ja": "切ったトマトを加え、さらに2分炒める。",
+          "zh": "加入切好的番茄,再翻炒2分钟。",
+          "es": "Añada el tomate picado y saltee 2 minutos más.",
+          "fr": "Ajoutez la tomate coupée et faites revenir 2 minutes de plus."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "렌틸콩 90g과 물 200ml를 넣는다.",
-          "en": "Add 90g of lentils and 200ml of water."
+          "en": "Add 90g of lentils and 200ml of water.",
+          "ja": "レンズ豆90gと水200mlを加える。",
+          "zh": "加入90克小扁豆和200毫升水。",
+          "es": "Añada 90 g de lentejas y 200 ml de agua.",
+          "fr": "Ajoutez 90 g de lentilles et 200 ml d'eau."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "끓어오르면 약불로 줄여 25분간 끓인다.",
-          "en": "Once it boils, reduce to low heat and simmer for 25 minutes."
+          "en": "Once it boils, reduce to low heat and simmer for 25 minutes.",
+          "ja": "沸騰したら弱火にして25分煮る。",
+          "zh": "煮沸后转小火炖25分钟。",
+          "es": "Cuando hierva, reduzca a fuego lento y cueza durante 25 minutos.",
+          "fr": "Une fois à ébullition, réduisez à feu doux et laissez mijoter 25 minutes."
         }
       },
       {
         "order": 8,
         "instruction": {
           "ko": "시금치 50g을 넣고 1분간 저어 숨을 죽인다.",
-          "en": "Add 50g of spinach and stir for 1 minute until wilted."
+          "en": "Add 50g of spinach and stir for 1 minute until wilted.",
+          "ja": "ほうれん草50gを加え、1分混ぜてしんなりさせる。",
+          "zh": "加入50克菠菜,搅拌1分钟至变软。",
+          "es": "Añada 50 g de espinaca y remueva durante 1 minuto hasta que se ablande.",
+          "fr": "Ajoutez 50 g d'épinard et remuez pendant 1 minute jusqu'à ce qu'il ramollisse."
         }
       }
     ]
@@ -3421,11 +5345,19 @@
     "slug": "grilled-mackerel-daikon-bowl",
     "title": {
       "ko": "고등어 구이와 데친 채소",
-      "en": "Grilled Mackerel with Greens"
+      "en": "Grilled Mackerel with Greens",
+      "ja": "焼き鯖と湯通し野菜",
+      "zh": "烤鲭鱼配焯蔬菜",
+      "es": "Caballa a la plancha con verduras escaldadas",
+      "fr": "Maquereau grillé aux légumes blanchis"
     },
     "description": {
       "ko": "고등어를 구워 데친 채소와 함께 낸 저녁 한 상입니다.",
-      "en": "Grilled mackerel served with blanched greens."
+      "en": "Grilled mackerel served with blanched greens.",
+      "ja": "焼いた鯖に湯通しした野菜を添えた夕食の一皿です。",
+      "zh": "烤鲭鱼搭配焯烫蔬菜的晚餐一盘。",
+      "es": "Caballa a la plancha servida con verduras escaldadas para la cena.",
+      "fr": "Maquereau grillé servi avec des légumes blanchis pour le dîner."
     },
     "tags": [
       "dinner",
@@ -3435,7 +5367,11 @@
       {
         "name": {
           "ko": "고등어",
-          "en": "Mackerel"
+          "en": "Mackerel",
+          "ja": "鯖",
+          "zh": "鲭鱼",
+          "es": "Caballa",
+          "fr": "Maquereau"
         },
         "amount": "120g",
         "tags": [
@@ -3445,19 +5381,31 @@
         "substituteGroupId": "sub-mackerel",
         "benefits": {
           "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
-          "en": "Rich in omega-3 fatty acids, which may support heart health."
+          "en": "Rich in omega-3 fatty acids, which may support heart health.",
+          "ja": "オメガ3脂肪酸が豊富で、血管の健康に役立つ可能性があります。",
+          "zh": "富含Omega-3脂肪酸,可能有助于心血管健康。",
+          "es": "Rica en ácidos grasos omega-3, que pueden favorecer la salud cardiovascular.",
+          "fr": "Riche en acides gras oméga-3, qui peuvent favoriser la santé cardiovasculaire."
         },
         "pointTags": [
           {
             "ko": "오메가-3",
-            "en": "Omega-3"
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
           }
         ]
       },
       {
         "name": {
           "ko": "시금치",
-          "en": "Spinach"
+          "en": "Spinach",
+          "ja": "ほうれん草",
+          "zh": "菠菜",
+          "es": "Espinaca",
+          "fr": "Épinard"
         },
         "amount": "80g",
         "tags": [
@@ -3465,24 +5413,40 @@
         ],
         "benefits": {
           "ko": "철분과 엽산이 들어 있는 잎채소예요.",
-          "en": "A leafy green that contains iron and folate."
+          "en": "A leafy green that contains iron and folate.",
+          "ja": "鉄分と葉酸を含む葉物野菜です。",
+          "zh": "含有铁和叶酸的叶菜。",
+          "es": "Verdura de hoja que contiene hierro y ácido fólico.",
+          "fr": "Un légume feuille qui contient du fer et de l'acide folique."
         },
         "substituteGroupId": "sub-spinach",
         "pointTags": [
           {
             "ko": "철분",
-            "en": "Iron"
+            "en": "Iron",
+            "ja": "鉄分",
+            "zh": "铁",
+            "es": "Hierro",
+            "fr": "Fer"
           },
           {
             "ko": "엽산",
-            "en": "Folate"
+            "en": "Folate",
+            "ja": "葉酸",
+            "zh": "叶酸",
+            "es": "Folato",
+            "fr": "Folate"
           }
         ]
       },
       {
         "name": {
           "ko": "현미밥",
-          "en": "Cooked brown rice"
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
         },
         "amount": "80g",
         "tags": [
@@ -3490,20 +5454,32 @@
         ],
         "benefits": {
           "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice."
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
         },
         "substituteGroupId": "sub-brown-rice",
         "pointTags": [
           {
             "ko": "식이섬유",
-            "en": "Fiber"
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
           }
         ]
       },
       {
         "name": {
           "ko": "무",
-          "en": "Daikon radish"
+          "en": "Daikon radish",
+          "ja": "大根",
+          "zh": "白萝卜",
+          "es": "Rábano daikon",
+          "fr": "Radis daikon"
         },
         "amount": "50g",
         "tags": [
@@ -3511,24 +5487,40 @@
         ],
         "benefits": {
           "ko": "수분 함량이 높고 소화 효소가 들어 있다고 알려진 뿌리채소예요.",
-          "en": "A root vegetable known for its high water content and natural digestive enzymes."
+          "en": "A root vegetable known for its high water content and natural digestive enzymes.",
+          "ja": "水分が多く、消化酵素を含むとされる根菜です。",
+          "zh": "水分含量高,据说含有消化酶的根茎类蔬菜。",
+          "es": "Raíz conocida por su alto contenido de agua y sus enzimas digestivas naturales.",
+          "fr": "Une racine connue pour sa forte teneur en eau et ses enzymes digestives naturelles."
         },
         "substituteGroupId": "sub-daikon-radish",
         "pointTags": [
           {
             "ko": "수분",
-            "en": "Hydration"
+            "en": "Hydration",
+            "ja": "水分",
+            "zh": "水分",
+            "es": "Hidratación",
+            "fr": "Hydratation"
           },
           {
             "ko": "소화 효소",
-            "en": "Digestive Enzymes"
+            "en": "Digestive Enzymes",
+            "ja": "消化酵素",
+            "zh": "消化酶",
+            "es": "Enzimas digestivas",
+            "fr": "Enzymes digestives"
           }
         ]
       },
       {
         "name": {
           "ko": "들기름",
-          "en": "Perilla oil"
+          "en": "Perilla oil",
+          "ja": "えごま油",
+          "zh": "紫苏籽油",
+          "es": "Aceite de perilla",
+          "fr": "Huile de périlla"
         },
         "amount": "5ml",
         "tags": [
@@ -3536,13 +5528,21 @@
         ],
         "benefits": {
           "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.",
-          "en": "A plant-based oil with a high proportion of omega-3 fatty acids."
+          "en": "A plant-based oil with a high proportion of omega-3 fatty acids.",
+          "ja": "オメガ3脂肪酸の比率が高い植物性油です。",
+          "zh": "Omega-3脂肪酸比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de ácidos grasos omega-3.",
+          "fr": "Une huile végétale à forte proportion d'acides gras oméga-3."
         },
         "substituteGroupId": "sub-perilla-oil",
         "pointTags": [
           {
             "ko": "오메가-3",
-            "en": "Omega-3"
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
           }
         ]
       }
@@ -3552,63 +5552,99 @@
         "order": 1,
         "instruction": {
           "ko": "팬을 중불에 올려 달군다.",
-          "en": "Heat a pan over medium heat."
+          "en": "Heat a pan over medium heat.",
+          "ja": "フライパンを中火で熱する。",
+          "zh": "将平底锅置于中火加热。",
+          "es": "Caliente una sartén a fuego medio.",
+          "fr": "Faites chauffer une poêle à feu moyen."
         }
       },
       {
         "order": 2,
         "instruction": {
           "ko": "고등어 120g을 껍질 쪽부터 올린다.",
-          "en": "Place the 120g mackerel skin-side down."
+          "en": "Place the 120g mackerel skin-side down.",
+          "ja": "鯖120gを皮目から焼く。",
+          "zh": "将120克鲭鱼皮朝下放入锅中。",
+          "es": "Coloque los 120 g de caballa con la piel hacia abajo.",
+          "fr": "Déposez les 120 g de maquereau côté peau vers le bas."
         }
       },
       {
         "order": 3,
         "instruction": {
           "ko": "소금은 아주 조금만 뿌린다.",
-          "en": "Sprinkle on just a small pinch of salt."
+          "en": "Sprinkle on just a small pinch of salt.",
+          "ja": "塩をほんの少しだけ振る。",
+          "zh": "撒上少许盐。",
+          "es": "Añada solo una pizca de sal.",
+          "fr": "Ajoutez juste une pincée de sel."
         }
       },
       {
         "order": 4,
         "instruction": {
           "ko": "4분간 굽는다.",
-          "en": "Cook for 4 minutes."
+          "en": "Cook for 4 minutes.",
+          "ja": "4分間焼く。",
+          "zh": "煎4分钟。",
+          "es": "Cocine durante 4 minutos.",
+          "fr": "Faites cuire pendant 4 minutes."
         }
       },
       {
         "order": 5,
         "instruction": {
           "ko": "뒤집어서 4분 더 굽는다.",
-          "en": "Flip and cook for another 4 minutes."
+          "en": "Flip and cook for another 4 minutes.",
+          "ja": "裏返してさらに4分焼く。",
+          "zh": "翻面后再煎4分钟。",
+          "es": "Dele la vuelta y cocine 4 minutos más.",
+          "fr": "Retournez et poursuivez la cuisson 4 minutes."
         }
       },
       {
         "order": 6,
         "instruction": {
           "ko": "무 50g을 강판에 간다.",
-          "en": "Grate 50g of daikon radish."
+          "en": "Grate 50g of daikon radish.",
+          "ja": "大根50gをすりおろす。",
+          "zh": "将50克白萝卜磨成泥。",
+          "es": "Ralle 50 g de rábano daikon.",
+          "fr": "Râpez 50 g de radis daikon."
         }
       },
       {
         "order": 7,
         "instruction": {
           "ko": "냄비에 물을 끓여 시금치 80g을 30초간 데친다.",
-          "en": "Boil water in a pot and blanch 80g of spinach for 30 seconds."
+          "en": "Boil water in a pot and blanch 80g of spinach for 30 seconds.",
+          "ja": "鍋に湯を沸かし、ほうれん草80gを30秒ゆでる。",
+          "zh": "锅中烧开水,将80克菠菜焯烫30秒。",
+          "es": "Hierva agua en una olla y escalde 80 g de espinaca durante 30 segundos.",
+          "fr": "Faites bouillir de l'eau dans une casserole et blanchissez 80 g d'épinard pendant 30 secondes."
         }
       },
       {
         "order": 8,
         "instruction": {
           "ko": "데친 시금치의 물기를 짜고 들기름 5ml로 무친다.",
-          "en": "Squeeze the water out of the spinach and dress it with 5ml of perilla oil."
+          "en": "Squeeze the water out of the spinach and dress it with 5ml of perilla oil.",
+          "ja": "ゆでたほうれん草の水気を絞り、えごま油5mlで和える。",
+          "zh": "挤干焯好的菠菜水分,用5毫升紫苏籽油拌匀。",
+          "es": "Escurra el agua de la espinaca escaldada y adérecela con 5 ml de aceite de perilla.",
+          "fr": "Essorez l'eau de l'épinard blanchi et assaisonnez-le avec 5 ml d'huile de périlla."
         }
       },
       {
         "order": 9,
         "instruction": {
           "ko": "현미밥 80g, 구운 고등어, 무친 시금치, 간 무를 그릇에 함께 담는다.",
-          "en": "Plate the brown rice, grilled mackerel, dressed spinach, and grated daikon together."
+          "en": "Plate the brown rice, grilled mackerel, dressed spinach, and grated daikon together.",
+          "ja": "玄米ご飯80g、焼いた鯖、和えたほうれん草、すりおろした大根を器に盛り合わせる。",
+          "zh": "将80克糙米饭、烤好的鲭鱼、拌好的菠菜和萝卜泥一起装入碗中。",
+          "es": "Sirva juntos en un bol el arroz integral, la caballa a la plancha, la espinaca aderezada y el rábano rallado.",
+          "fr": "Dressez ensemble dans un bol le riz complet, le maquereau grillé, l'épinard assaisonné et le radis râpé."
         }
       }
     ]

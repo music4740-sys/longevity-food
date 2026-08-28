@@ -1,0 +1,87 @@
+{
+  "common": {
+    "appName": "International Longevity Food",
+    "disclaimer": "本内容不能替代医学诊断、治疗或处方。请根据自身健康状况咨询专业医生。",
+    "langToggle": "语言",
+    "cartEmpty": "购物车是空的。",
+    "cartTitle": "购物车",
+    "cartClearAll": "清空全部",
+    "cartClearAllConfirm": "要清空购物车中的所有内容吗?",
+    "cartRemoveItem": "删除",
+    "settingsTitle": "设置",
+    "settingsLanguageLabel": "语言"
+  },
+  "nav": {
+    "planList": "计划列表",
+    "planDetail": "计划详情",
+    "recipeDetail": "食谱详情",
+    "home": "首页",
+    "plans": "计划",
+    "cart": "购物车",
+    "settings": "设置"
+  },
+  "plan": {
+    "durationUnit": "天",
+    "longevityScoreLabel": "长寿指数",
+    "scoreUnit": "分",
+    "dayLabelFormat": "第{n}天",
+    "mealLabels": {
+      "breakfast": "早餐",
+      "lunch": "午餐",
+      "dinner": "晚餐"
+    },
+    "cuisineRegionLabel": "选择饮食风味区",
+    "cuisineRegions": {
+      "KR": "东亚",
+      "IT": "地中海·欧洲",
+      "IN": "南亚·东南亚",
+      "TR": "中东·北非",
+      "MX": "拉丁美洲"
+    }
+  },
+  "recipe": {
+    "scoreBreakdownTitle": "长寿指数详情",
+    "axisLabels": {
+      "plantRatio": "植物性比例",
+      "processedFood": "超加工食品",
+      "fatQuality": "脂肪质量",
+      "sodium": "钠负荷",
+      "addedSugar": "添加糖负荷"
+    },
+    "ingredientsTitle": "食材",
+    "stepsTitle": "烹饪步骤",
+    "addToCart": "加入购物车",
+    "substitutesToggle": "查看各地区替代食材",
+    "originalIngredientLabel": "原始食材",
+    "regionSelectedBadge": "已选择"
+  },
+  "home": {
+    "trustHeadline1": "基于世界长寿地区的饮食文化与公开营养指南设计",
+    "trustHeadline2": "每一餐都经过长寿指数验证",
+    "featuredPlansTitle": "精选计划",
+    "viewAllPlans": "查看全部计划"
+  },
+  "ingredientTags": {
+    "whole-grain": "全谷物",
+    "refined-grain": "精制谷物",
+    "vegetable": "蔬菜",
+    "leafy-green": "叶菜类",
+    "fruit": "水果",
+    "legume": "豆类",
+    "nuts-seeds": "坚果·种子",
+    "fish": "鱼类",
+    "poultry": "禽肉",
+    "red-meat": "红肉",
+    "processed-meat": "加工肉类",
+    "dairy": "乳制品",
+    "egg": "鸡蛋",
+    "healthy-fat": "优质脂肪",
+    "saturated-fat": "饱和脂肪",
+    "ultra-processed": "超加工食品",
+    "fried": "油炸食品",
+    "sugary-drink": "含糖饮料",
+    "high-sodium": "高钠",
+    "pickled-salted": "腌制·盐渍",
+    "added-sugar": "添加糖"
+  }
+}

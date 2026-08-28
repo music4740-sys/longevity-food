@@ -1,0 +1,87 @@
+{
+  "common": {
+    "appName": "International Longevity Food",
+    "disclaimer": "本コンテンツは医学的診断・治療・処方の代わりにはなりません。健康状態に応じて医療専門家にご相談ください。",
+    "langToggle": "言語",
+    "cartEmpty": "カートは空です。",
+    "cartTitle": "カート",
+    "cartClearAll": "全て削除",
+    "cartClearAllConfirm": "カートの中身を全て削除しますか?",
+    "cartRemoveItem": "削除",
+    "settingsTitle": "設定",
+    "settingsLanguageLabel": "言語"
+  },
+  "nav": {
+    "planList": "プラン一覧",
+    "planDetail": "プラン詳細",
+    "recipeDetail": "レシピ詳細",
+    "home": "ホーム",
+    "plans": "プラン",
+    "cart": "カート",
+    "settings": "設定"
+  },
+  "plan": {
+    "durationUnit": "日間",
+    "longevityScoreLabel": "長寿スコア",
+    "scoreUnit": "点",
+    "dayLabelFormat": "{n}日目",
+    "mealLabels": {
+      "breakfast": "朝食",
+      "lunch": "昼食",
+      "dinner": "夕食"
+    },
+    "cuisineRegionLabel": "料理圏を選択",
+    "cuisineRegions": {
+      "KR": "東アジア",
+      "IT": "地中海・ヨーロッパ",
+      "IN": "南アジア・東南アジア",
+      "TR": "中東・北アフリカ",
+      "MX": "ラテンアメリカ"
+    }
+  },
+  "recipe": {
+    "scoreBreakdownTitle": "長寿スコア詳細",
+    "axisLabels": {
+      "plantRatio": "植物性の割合",
+      "processedFood": "超加工食品",
+      "fatQuality": "脂質の質",
+      "sodium": "ナトリウム負荷",
+      "addedSugar": "添加糖負荷"
+    },
+    "ingredientsTitle": "材料",
+    "stepsTitle": "作り方",
+    "addToCart": "カートに追加",
+    "substitutesToggle": "国別の代替材料を見る",
+    "originalIngredientLabel": "元の材料",
+    "regionSelectedBadge": "選択中"
+  },
+  "home": {
+    "trustHeadline1": "世界の長寿地域の食文化と公開された栄養ガイドラインをもとに設計",
+    "trustHeadline2": "すべての食事を長寿スコアで検証",
+    "featuredPlansTitle": "おすすめプラン",
+    "viewAllPlans": "すべてのプランを見る"
+  },
+  "ingredientTags": {
+    "whole-grain": "全粒穀物",
+    "refined-grain": "精製穀物",
+    "vegetable": "野菜",
+    "leafy-green": "葉物野菜",
+    "fruit": "果物",
+    "legume": "豆類",
+    "nuts-seeds": "ナッツ・種子",
+    "fish": "魚",
+    "poultry": "鶏肉",
+    "red-meat": "赤身肉",
+    "processed-meat": "加工肉",
+    "dairy": "乳製品",
+    "egg": "卵",
+    "healthy-fat": "良質な脂質",
+    "saturated-fat": "飽和脂肪",
+    "ultra-processed": "超加工食品",
+    "fried": "揚げ物",
+    "sugary-drink": "加糖飲料",
+    "high-sodium": "高ナトリウム",
+    "pickled-salted": "漬物・塩蔵",
+    "added-sugar": "添加糖"
+  }
+}

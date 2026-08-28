@@ -1,541 +1,3462 @@
 [
   {
     "id": "sub-oats",
-    "originalIngredient": { "ko": "귀리", "en": "Oats" },
+    "originalIngredient": {
+      "ko": "귀리",
+      "en": "Oats",
+      "ja": "オーツ麦",
+      "zh": "燕麦",
+      "es": "Avena",
+      "fr": "Avoine"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "현미", "en": "Brown rice" } },
-      { "country": "IT", "ingredient": { "ko": "파로", "en": "Farro" } },
-      { "country": "IN", "ingredient": { "ko": "라기(핑거밀렛)", "en": "Ragi (finger millet)" }, "note": { "ko": "남인도에서 장수 곡물로 알려진 라기로 대체 가능", "en": "Ragi is a South Indian grain associated with longevity diets" } },
-      { "country": "TR", "ingredient": { "ko": "불구르", "en": "Bulgur" } },
-      { "country": "MX", "ingredient": { "ko": "퀴노아", "en": "Quinoa" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "현미",
+          "en": "Brown rice",
+          "ja": "玄米",
+          "zh": "糙米",
+          "es": "Arroz integral",
+          "fr": "Riz complet"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파로",
+          "en": "Farro",
+          "ja": "ファッロ(スペルト小麦)",
+          "zh": "法罗小麦",
+          "es": "Farro",
+          "fr": "Farro (épeautre)"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "라기(핑거밀렛)",
+          "en": "Ragi (finger millet)",
+          "ja": "ラギ(フィンガーミレット)",
+          "zh": "龙爪稷(指状小米)",
+          "es": "Ragi (mijo dedo)",
+          "fr": "Ragi (millet à chandelle)"
+        },
+        "note": {
+          "ko": "남인도에서 장수 곡물로 알려진 라기로 대체 가능",
+          "en": "Ragi is a South Indian grain associated with longevity diets",
+          "ja": "南インドで長寿食材として知られるラギに置き換え可能です。",
+          "zh": "可用南印度被视为长寿谷物的龙爪稷替代。",
+          "es": "Se puede sustituir por ragi, un cereal del sur de la India asociado a dietas de longevidad.",
+          "fr": "Peut être remplacé par le ragi, une céréale du sud de l'Inde associée aux régimes de longévité."
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "불구르",
+          "en": "Bulgur",
+          "ja": "ブルグル",
+          "zh": "布格麦",
+          "es": "Bulgur",
+          "fr": "Boulgour"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "퀴노아",
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
+        }
+      }
     ]
   },
   {
     "id": "sub-brown-rice",
-    "originalIngredient": { "ko": "현미밥", "en": "Cooked brown rice" },
+    "originalIngredient": {
+      "ko": "현미밥",
+      "en": "Cooked brown rice",
+      "ja": "玄米ご飯",
+      "zh": "糙米饭",
+      "es": "Arroz integral cocido",
+      "fr": "Riz complet cuit"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "흑미밥", "en": "Black rice" } },
-      { "country": "IT", "ingredient": { "ko": "파로", "en": "Farro" } },
-      { "country": "IN", "ingredient": { "ko": "바스마티 현미", "en": "Brown basmati rice" } },
-      { "country": "TR", "ingredient": { "ko": "불구르", "en": "Bulgur" } },
-      { "country": "MX", "ingredient": { "ko": "퀴노아", "en": "Quinoa" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "흑미밥",
+          "en": "Black rice",
+          "ja": "黒米ご飯",
+          "zh": "黑米饭",
+          "es": "Arroz negro cocido",
+          "fr": "Riz noir cuit"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파로",
+          "en": "Farro",
+          "ja": "ファッロ(スペルト小麦)",
+          "zh": "法罗小麦",
+          "es": "Farro",
+          "fr": "Farro (épeautre)"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "바스마티 현미",
+          "en": "Brown basmati rice",
+          "ja": "玄米バスマティライス",
+          "zh": "印度香糙米",
+          "es": "Arroz basmati integral",
+          "fr": "Riz basmati complet"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "불구르",
+          "en": "Bulgur",
+          "ja": "ブルグル",
+          "zh": "布格麦",
+          "es": "Bulgur",
+          "fr": "Boulgour"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "퀴노아",
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
+        }
+      }
     ]
   },
   {
     "id": "sub-barley",
-    "originalIngredient": { "ko": "보리", "en": "Barley" },
+    "originalIngredient": {
+      "ko": "보리",
+      "en": "Barley",
+      "ja": "大麦",
+      "zh": "大麦",
+      "es": "Cebada",
+      "fr": "Orge"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "현미", "en": "Brown rice" } },
-      { "country": "IT", "ingredient": { "ko": "파로", "en": "Farro" } },
-      { "country": "IN", "ingredient": { "ko": "기장", "en": "Proso millet" } },
-      { "country": "TR", "ingredient": { "ko": "불구르", "en": "Bulgur" } },
-      { "country": "MX", "ingredient": { "ko": "퀴노아", "en": "Quinoa" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "현미",
+          "en": "Brown rice",
+          "ja": "玄米",
+          "zh": "糙米",
+          "es": "Arroz integral",
+          "fr": "Riz complet"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파로",
+          "en": "Farro",
+          "ja": "ファッロ(スペルト小麦)",
+          "zh": "法罗小麦",
+          "es": "Farro",
+          "fr": "Farro (épeautre)"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "기장",
+          "en": "Proso millet",
+          "ja": "きび",
+          "zh": "黍米",
+          "es": "Mijo común",
+          "fr": "Millet commun"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "불구르",
+          "en": "Bulgur",
+          "ja": "ブルグル",
+          "zh": "布格麦",
+          "es": "Bulgur",
+          "fr": "Boulgour"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "퀴노아",
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
+        }
+      }
     ]
   },
   {
     "id": "sub-buckwheat-groats",
-    "originalIngredient": { "ko": "메밀쌀", "en": "Buckwheat groats" },
+    "originalIngredient": {
+      "ko": "메밀쌀",
+      "en": "Buckwheat groats",
+      "ja": "そば米",
+      "zh": "荞麦米",
+      "es": "Trigo sarraceno",
+      "fr": "Sarrasin décortiqué"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "현미", "en": "Brown rice" } },
-      { "country": "IT", "ingredient": { "ko": "파로", "en": "Farro" } },
-      { "country": "IN", "ingredient": { "ko": "기장", "en": "Proso millet" } },
-      { "country": "TR", "ingredient": { "ko": "불구르", "en": "Bulgur" } },
-      { "country": "MX", "ingredient": { "ko": "퀴노아", "en": "Quinoa" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "현미",
+          "en": "Brown rice",
+          "ja": "玄米",
+          "zh": "糙米",
+          "es": "Arroz integral",
+          "fr": "Riz complet"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파로",
+          "en": "Farro",
+          "ja": "ファッロ(スペルト小麦)",
+          "zh": "法罗小麦",
+          "es": "Farro",
+          "fr": "Farro (épeautre)"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "기장",
+          "en": "Proso millet",
+          "ja": "きび",
+          "zh": "黍米",
+          "es": "Mijo común",
+          "fr": "Millet commun"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "불구르",
+          "en": "Bulgur",
+          "ja": "ブルグル",
+          "zh": "布格麦",
+          "es": "Bulgur",
+          "fr": "Boulgour"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "퀴노아",
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
+        }
+      }
     ]
   },
   {
     "id": "sub-buckwheat-noodles",
-    "originalIngredient": { "ko": "메밀국수", "en": "Buckwheat noodles" },
+    "originalIngredient": {
+      "ko": "메밀국수",
+      "en": "Buckwheat noodles",
+      "ja": "そば",
+      "zh": "荞麦面",
+      "es": "Fideos de trigo sarraceno",
+      "fr": "Nouilles de sarrasin"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "칡국수", "en": "Kudzu noodles" } },
-      { "country": "IT", "ingredient": { "ko": "통밀 스파게티", "en": "Whole-wheat spaghetti" } },
-      { "country": "IN", "ingredient": { "ko": "라이스누들", "en": "Rice noodles" } },
-      { "country": "TR", "ingredient": { "ko": "불구르 필라프", "en": "Bulgur pilaf" } },
-      { "country": "MX", "ingredient": { "ko": "옥수수 토르티야", "en": "Corn tortillas" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "칡국수",
+          "en": "Kudzu noodles",
+          "ja": "くず麺",
+          "zh": "葛根面",
+          "es": "Fideos de kudzu",
+          "fr": "Nouilles de kudzu"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "통밀 스파게티",
+          "en": "Whole-wheat spaghetti",
+          "ja": "全粒粉スパゲティ",
+          "zh": "全麦意面",
+          "es": "Espaguetis integrales",
+          "fr": "Spaghettis complets"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "라이스누들",
+          "en": "Rice noodles",
+          "ja": "ライスヌードル",
+          "zh": "米粉",
+          "es": "Fideos de arroz",
+          "fr": "Nouilles de riz"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "불구르 필라프",
+          "en": "Bulgur pilaf",
+          "ja": "ブルグルピラフ",
+          "zh": "布格麦抓饭",
+          "es": "Pilaf de bulgur",
+          "fr": "Pilaf de boulgour"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "옥수수 토르티야",
+          "en": "Corn tortillas",
+          "ja": "コーントルティーヤ",
+          "zh": "玉米薄饼",
+          "es": "Tortillas de maíz",
+          "fr": "Tortillas de maïs"
+        }
+      }
     ]
   },
   {
     "id": "sub-quinoa",
-    "originalIngredient": { "ko": "퀴노아", "en": "Quinoa" },
+    "originalIngredient": {
+      "ko": "퀴노아",
+      "en": "Quinoa",
+      "ja": "キヌア",
+      "zh": "藜麦",
+      "es": "Quinoa",
+      "fr": "Quinoa"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "현미", "en": "Brown rice" } },
-      { "country": "IT", "ingredient": { "ko": "파로", "en": "Farro" } },
-      { "country": "IN", "ingredient": { "ko": "기장", "en": "Proso millet" } },
-      { "country": "TR", "ingredient": { "ko": "불구르", "en": "Bulgur" } },
-      { "country": "MX", "ingredient": { "ko": "아마란스", "en": "Amaranth" }, "note": { "ko": "퀴노아처럼 안데스가 원산지인 씨앗류", "en": "Another Andean-native seed, like quinoa" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "현미",
+          "en": "Brown rice",
+          "ja": "玄米",
+          "zh": "糙米",
+          "es": "Arroz integral",
+          "fr": "Riz complet"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파로",
+          "en": "Farro",
+          "ja": "ファッロ(スペルト小麦)",
+          "zh": "法罗小麦",
+          "es": "Farro",
+          "fr": "Farro (épeautre)"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "기장",
+          "en": "Proso millet",
+          "ja": "きび",
+          "zh": "黍米",
+          "es": "Mijo común",
+          "fr": "Millet commun"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "불구르",
+          "en": "Bulgur",
+          "ja": "ブルグル",
+          "zh": "布格麦",
+          "es": "Bulgur",
+          "fr": "Boulgour"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "아마란스",
+          "en": "Amaranth",
+          "ja": "アマランサス",
+          "zh": "苋籽",
+          "es": "Amaranto",
+          "fr": "Amarante"
+        },
+        "note": {
+          "ko": "퀴노아처럼 안데스가 원산지인 씨앗류",
+          "en": "Another Andean-native seed, like quinoa",
+          "ja": "キヌアと同じくアンデス原産の種子です。",
+          "zh": "与藜麦一样,同为安第斯山脉原产的种子。",
+          "es": "Otra semilla originaria de los Andes, como la quinoa.",
+          "fr": "Une autre graine originaire des Andes, comme le quinoa."
+        }
+      }
     ]
   },
   {
     "id": "sub-millet",
-    "originalIngredient": { "ko": "좁쌀", "en": "Millet" },
+    "originalIngredient": {
+      "ko": "좁쌀",
+      "en": "Millet",
+      "ja": "あわ",
+      "zh": "小米",
+      "es": "Mijo",
+      "fr": "Millet"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "현미", "en": "Brown rice" } },
-      { "country": "IT", "ingredient": { "ko": "파로", "en": "Farro" } },
-      { "country": "IN", "ingredient": { "ko": "라기(핑거밀렛)", "en": "Ragi (finger millet)" } },
-      { "country": "TR", "ingredient": { "ko": "불구르", "en": "Bulgur" } },
-      { "country": "MX", "ingredient": { "ko": "퀴노아", "en": "Quinoa" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "현미",
+          "en": "Brown rice",
+          "ja": "玄米",
+          "zh": "糙米",
+          "es": "Arroz integral",
+          "fr": "Riz complet"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파로",
+          "en": "Farro",
+          "ja": "ファッロ(スペルト小麦)",
+          "zh": "法罗小麦",
+          "es": "Farro",
+          "fr": "Farro (épeautre)"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "라기(핑거밀렛)",
+          "en": "Ragi (finger millet)",
+          "ja": "ラギ(フィンガーミレット)",
+          "zh": "龙爪稷(指状小米)",
+          "es": "Ragi (mijo dedo)",
+          "fr": "Ragi (millet à chandelle)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "불구르",
+          "en": "Bulgur",
+          "ja": "ブルグル",
+          "zh": "布格麦",
+          "es": "Bulgur",
+          "fr": "Boulgour"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "퀴노아",
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
+        }
+      }
     ]
   },
   {
     "id": "sub-rye-flakes",
-    "originalIngredient": { "ko": "호밀 플레이크", "en": "Rye flakes" },
+    "originalIngredient": {
+      "ko": "호밀 플레이크",
+      "en": "Rye flakes",
+      "ja": "ライ麦フレーク",
+      "zh": "黑麦片",
+      "es": "Copos de centeno",
+      "fr": "Flocons de seigle"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "귀리", "en": "Rolled oats" } },
-      { "country": "IT", "ingredient": { "ko": "파로", "en": "Farro" } },
-      { "country": "IN", "ingredient": { "ko": "기장", "en": "Proso millet" } },
-      { "country": "TR", "ingredient": { "ko": "불구르", "en": "Bulgur" } },
-      { "country": "MX", "ingredient": { "ko": "퀴노아", "en": "Quinoa" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "귀리",
+          "en": "Rolled oats",
+          "ja": "オートミール",
+          "zh": "燕麦片",
+          "es": "Avena",
+          "fr": "Flocons d'avoine"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파로",
+          "en": "Farro",
+          "ja": "ファッロ(スペルト小麦)",
+          "zh": "法罗小麦",
+          "es": "Farro",
+          "fr": "Farro (épeautre)"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "기장",
+          "en": "Proso millet",
+          "ja": "きび",
+          "zh": "黍米",
+          "es": "Mijo común",
+          "fr": "Millet commun"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "불구르",
+          "en": "Bulgur",
+          "ja": "ブルグル",
+          "zh": "布格麦",
+          "es": "Bulgur",
+          "fr": "Boulgour"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "퀴노아",
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
+        }
+      }
     ]
   },
   {
     "id": "sub-lentils",
-    "originalIngredient": { "ko": "렌틸콩", "en": "Lentils" },
+    "originalIngredient": {
+      "ko": "렌틸콩",
+      "en": "Lentils",
+      "ja": "レンズ豆",
+      "zh": "小扁豆",
+      "es": "Lentejas",
+      "fr": "Lentilles"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "녹두", "en": "Mung beans" } },
-      { "country": "IT", "ingredient": { "ko": "카넬리니콩", "en": "Cannellini beans" } },
-      { "country": "IN", "ingredient": { "ko": "차나달(병아리콩)", "en": "Chana dal (split chickpeas)" } },
-      { "country": "TR", "ingredient": { "ko": "병아리콩", "en": "Chickpeas" } },
-      { "country": "MX", "ingredient": { "ko": "검은콩", "en": "Black beans" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "녹두",
+          "en": "Mung beans",
+          "ja": "緑豆",
+          "zh": "绿豆",
+          "es": "Judías mung",
+          "fr": "Haricots mungo"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "카넬리니콩",
+          "en": "Cannellini beans",
+          "ja": "カネリーニ豆",
+          "zh": "白腰豆",
+          "es": "Alubias cannellini",
+          "fr": "Haricots cannellini"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "차나달(병아리콩)",
+          "en": "Chana dal (split chickpeas)",
+          "ja": "チャナダル(挽き割りひよこ豆)",
+          "zh": "鹰嘴豆瓣(查纳豆)",
+          "es": "Chana dal (garbanzos partidos)",
+          "fr": "Chana dal (pois chiches cassés)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "병아리콩",
+          "en": "Chickpeas",
+          "ja": "ひよこ豆",
+          "zh": "鹰嘴豆",
+          "es": "Garbanzos",
+          "fr": "Pois chiches"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "검은콩",
+          "en": "Black beans",
+          "ja": "黒豆(ブラックビーンズ)",
+          "zh": "黑豆",
+          "es": "Frijoles negros",
+          "fr": "Haricots noirs"
+        }
+      }
     ]
   },
   {
     "id": "sub-chickpeas",
-    "originalIngredient": { "ko": "병아리콩", "en": "Chickpeas" },
+    "originalIngredient": {
+      "ko": "병아리콩",
+      "en": "Chickpeas",
+      "ja": "ひよこ豆",
+      "zh": "鹰嘴豆",
+      "es": "Garbanzos",
+      "fr": "Pois chiches"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "대두", "en": "Soybeans" } },
-      { "country": "IT", "ingredient": { "ko": "카넬리니콩", "en": "Cannellini beans" } },
-      { "country": "IN", "ingredient": { "ko": "차나달", "en": "Chana dal (split chickpeas)" } },
-      { "country": "TR", "ingredient": { "ko": "잠두", "en": "Fava beans" } },
-      { "country": "MX", "ingredient": { "ko": "검은콩", "en": "Black beans" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "대두",
+          "en": "Soybeans",
+          "ja": "大豆",
+          "zh": "大豆",
+          "es": "Soja",
+          "fr": "Soja"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "카넬리니콩",
+          "en": "Cannellini beans",
+          "ja": "カネリーニ豆",
+          "zh": "白腰豆",
+          "es": "Alubias cannellini",
+          "fr": "Haricots cannellini"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "차나달",
+          "en": "Chana dal (split chickpeas)",
+          "ja": "チャナダル(挽き割りひよこ豆)",
+          "zh": "鹰嘴豆瓣(查纳豆)",
+          "es": "Chana dal (garbanzos partidos)",
+          "fr": "Chana dal (pois chiches cassés)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "잠두",
+          "en": "Fava beans",
+          "ja": "そら豆",
+          "zh": "蚕豆",
+          "es": "Habas",
+          "fr": "Fèves"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "검은콩",
+          "en": "Black beans",
+          "ja": "黒豆(ブラックビーンズ)",
+          "zh": "黑豆",
+          "es": "Frijoles negros",
+          "fr": "Haricots noirs"
+        }
+      }
     ]
   },
   {
     "id": "sub-white-beans",
-    "originalIngredient": { "ko": "흰강낭콩", "en": "White beans" },
+    "originalIngredient": {
+      "ko": "흰강낭콩",
+      "en": "White beans",
+      "ja": "白いんげん豆",
+      "zh": "白芸豆",
+      "es": "Alubias blancas",
+      "fr": "Haricots blancs"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "대두", "en": "Soybeans" } },
-      { "country": "IT", "ingredient": { "ko": "보로티콩", "en": "Borlotti beans" } },
-      { "country": "IN", "ingredient": { "ko": "차나달", "en": "Chana dal (split chickpeas)" } },
-      { "country": "TR", "ingredient": { "ko": "병아리콩", "en": "Chickpeas" } },
-      { "country": "MX", "ingredient": { "ko": "검은콩", "en": "Black beans" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "대두",
+          "en": "Soybeans",
+          "ja": "大豆",
+          "zh": "大豆",
+          "es": "Soja",
+          "fr": "Soja"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "보로티콩",
+          "en": "Borlotti beans",
+          "ja": "ボルロッティ豆",
+          "zh": "波萝蒂豆",
+          "es": "Alubias borlotti",
+          "fr": "Haricots borlotti"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "차나달",
+          "en": "Chana dal (split chickpeas)",
+          "ja": "チャナダル(挽き割りひよこ豆)",
+          "zh": "鹰嘴豆瓣(查纳豆)",
+          "es": "Chana dal (garbanzos partidos)",
+          "fr": "Chana dal (pois chiches cassés)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "병아리콩",
+          "en": "Chickpeas",
+          "ja": "ひよこ豆",
+          "zh": "鹰嘴豆",
+          "es": "Garbanzos",
+          "fr": "Pois chiches"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "검은콩",
+          "en": "Black beans",
+          "ja": "黒豆(ブラックビーンズ)",
+          "zh": "黑豆",
+          "es": "Frijoles negros",
+          "fr": "Haricots noirs"
+        }
+      }
     ]
   },
   {
     "id": "sub-tofu",
-    "originalIngredient": { "ko": "두부", "en": "Firm tofu" },
+    "originalIngredient": {
+      "ko": "두부",
+      "en": "Firm tofu",
+      "ja": "木綿豆腐",
+      "zh": "老豆腐",
+      "es": "Tofu firme",
+      "fr": "Tofu ferme"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "순두부", "en": "Silken tofu" } },
-      { "country": "IT", "ingredient": { "ko": "리코타 치즈", "en": "Ricotta cheese" } },
-      { "country": "IN", "ingredient": { "ko": "파니르", "en": "Paneer" } },
-      { "country": "TR", "ingredient": { "ko": "병아리콩(팔라펠용)", "en": "Chickpeas (for falafel)" } },
-      { "country": "MX", "ingredient": { "ko": "검은콩", "en": "Black beans" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "순두부",
+          "en": "Silken tofu",
+          "ja": "絹ごし豆腐",
+          "zh": "嫩豆腐",
+          "es": "Tofu sedoso",
+          "fr": "Tofu soyeux"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "리코타 치즈",
+          "en": "Ricotta cheese",
+          "ja": "リコッタチーズ",
+          "zh": "意大利乳清干酪",
+          "es": "Queso ricotta",
+          "fr": "Fromage ricotta"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "파니르",
+          "en": "Paneer",
+          "ja": "パニール",
+          "zh": "印度奶酪(帕尼尔)",
+          "es": "Paneer",
+          "fr": "Paneer"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "병아리콩(팔라펠용)",
+          "en": "Chickpeas (for falafel)",
+          "ja": "ひよこ豆(ファラフェル用)",
+          "zh": "鹰嘴豆(用于炸豆丸子)",
+          "es": "Garbanzos (para falafel)",
+          "fr": "Pois chiches (pour falafel)"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "검은콩",
+          "en": "Black beans",
+          "ja": "黒豆(ブラックビーンズ)",
+          "zh": "黑豆",
+          "es": "Frijoles negros",
+          "fr": "Haricots noirs"
+        }
+      }
     ]
   },
   {
     "id": "sub-edamame",
-    "originalIngredient": { "ko": "풋콩", "en": "Edamame" },
+    "originalIngredient": {
+      "ko": "풋콩",
+      "en": "Edamame",
+      "ja": "枝豆",
+      "zh": "毛豆",
+      "es": "Edamame",
+      "fr": "Edamame"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "완두콩", "en": "Green peas" } },
-      { "country": "IT", "ingredient": { "ko": "잠두", "en": "Fava beans" } },
-      { "country": "IN", "ingredient": { "ko": "녹두", "en": "Mung beans" } },
-      { "country": "TR", "ingredient": { "ko": "병아리콩", "en": "Chickpeas" } },
-      { "country": "MX", "ingredient": { "ko": "검은콩", "en": "Black beans" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "완두콩",
+          "en": "Green peas",
+          "ja": "グリーンピース",
+          "zh": "青豆",
+          "es": "Guisantes",
+          "fr": "Petits pois"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "잠두",
+          "en": "Fava beans",
+          "ja": "そら豆",
+          "zh": "蚕豆",
+          "es": "Habas",
+          "fr": "Fèves"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "녹두",
+          "en": "Mung beans",
+          "ja": "緑豆",
+          "zh": "绿豆",
+          "es": "Judías mung",
+          "fr": "Haricots mungo"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "병아리콩",
+          "en": "Chickpeas",
+          "ja": "ひよこ豆",
+          "zh": "鹰嘴豆",
+          "es": "Garbanzos",
+          "fr": "Pois chiches"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "검은콩",
+          "en": "Black beans",
+          "ja": "黒豆(ブラックビーンズ)",
+          "zh": "黑豆",
+          "es": "Frijoles negros",
+          "fr": "Haricots noirs"
+        }
+      }
     ]
   },
   {
     "id": "sub-chicken-breast",
-    "originalIngredient": { "ko": "닭가슴살", "en": "Chicken breast" },
+    "originalIngredient": {
+      "ko": "닭가슴살",
+      "en": "Chicken breast",
+      "ja": "鶏むね肉",
+      "zh": "鸡胸肉",
+      "es": "Pechuga de pollo",
+      "fr": "Blanc de poulet"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "돼지 안심", "en": "Pork tenderloin" } },
-      { "country": "IT", "ingredient": { "ko": "칠면조 가슴살", "en": "Turkey breast" } },
-      { "country": "IN", "ingredient": { "ko": "렌틸콩(채식 대체)", "en": "Lentils (vegetarian option)" } },
-      { "country": "TR", "ingredient": { "ko": "양고기", "en": "Lamb" } },
-      { "country": "MX", "ingredient": { "ko": "검은콩(채식 대체)", "en": "Black beans (vegetarian option)" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "돼지 안심",
+          "en": "Pork tenderloin",
+          "ja": "豚ヒレ肉",
+          "zh": "猪里脊肉",
+          "es": "Solomillo de cerdo",
+          "fr": "Filet de porc"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "칠면조 가슴살",
+          "en": "Turkey breast",
+          "ja": "七面鳥の胸肉",
+          "zh": "火鸡胸肉",
+          "es": "Pechuga de pavo",
+          "fr": "Blanc de dinde"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "렌틸콩(채식 대체)",
+          "en": "Lentils (vegetarian option)",
+          "ja": "レンズ豆(ベジタリアン向け)",
+          "zh": "小扁豆(素食替代)",
+          "es": "Lentejas (opción vegetariana)",
+          "fr": "Lentilles (option végétarienne)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "양고기",
+          "en": "Lamb",
+          "ja": "ラム肉",
+          "zh": "羊肉",
+          "es": "Cordero",
+          "fr": "Agneau"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "검은콩(채식 대체)",
+          "en": "Black beans (vegetarian option)",
+          "ja": "黒豆(ベジタリアン向け)",
+          "zh": "黑豆(素食替代)",
+          "es": "Frijoles negros (opción vegetariana)",
+          "fr": "Haricots noirs (option végétarienne)"
+        }
+      }
     ]
   },
   {
     "id": "sub-mackerel",
-    "originalIngredient": { "ko": "고등어", "en": "Mackerel" },
+    "originalIngredient": {
+      "ko": "고등어",
+      "en": "Mackerel",
+      "ja": "鯖",
+      "zh": "鲭鱼",
+      "es": "Caballa",
+      "fr": "Maquereau"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "고등어", "en": "Mackerel" }, "note": { "ko": "동아시아에서 흔히 구할 수 있는 등푸른생선", "en": "A widely available oily fish across East Asia" } },
-      { "country": "IT", "ingredient": { "ko": "정어리", "en": "Sardines" } },
-      { "country": "IN", "ingredient": { "ko": "정어리", "en": "Sardines" }, "note": { "ko": "인도 서해안(케랄라 등)에서 흔히 먹는 등푸른생선", "en": "A common oily fish along India's west coast (e.g. Kerala)" } },
-      { "country": "TR", "ingredient": { "ko": "멸치", "en": "Anchovies" } },
-      { "country": "MX", "ingredient": { "ko": "틸라피아", "en": "Tilapia" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "고등어",
+          "en": "Mackerel",
+          "ja": "鯖",
+          "zh": "鲭鱼",
+          "es": "Caballa",
+          "fr": "Maquereau"
+        },
+        "note": {
+          "ko": "동아시아에서 흔히 구할 수 있는 등푸른생선",
+          "en": "A widely available oily fish across East Asia",
+          "ja": "東アジアで広く手に入る青魚です。",
+          "zh": "东亚地区常见易得的深海鱼类。",
+          "es": "Un pescado azul ampliamente disponible en Asia Oriental.",
+          "fr": "Un poisson gras largement disponible en Asie de l'Est."
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "정어리",
+          "en": "Sardines",
+          "ja": "イワシ",
+          "zh": "沙丁鱼",
+          "es": "Sardinas",
+          "fr": "Sardines"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "정어리",
+          "en": "Sardines",
+          "ja": "イワシ",
+          "zh": "沙丁鱼",
+          "es": "Sardinas",
+          "fr": "Sardines"
+        },
+        "note": {
+          "ko": "인도 서해안(케랄라 등)에서 흔히 먹는 등푸른생선",
+          "en": "A common oily fish along India's west coast (e.g. Kerala)",
+          "ja": "インド西海岸(ケーララ州など)でよく食べられる青魚です。",
+          "zh": "印度西海岸(如喀拉拉邦)常食用的深海鱼类。",
+          "es": "Un pescado azul habitual en la costa oeste de la India (por ejemplo, Kerala).",
+          "fr": "Un poisson gras courant sur la côte ouest de l'Inde (par exemple au Kerala)."
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "멸치",
+          "en": "Anchovies",
+          "ja": "アンチョビ",
+          "zh": "凤尾鱼",
+          "es": "Anchoas",
+          "fr": "Anchois"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "틸라피아",
+          "en": "Tilapia",
+          "ja": "ティラピア",
+          "zh": "罗非鱼",
+          "es": "Tilapia",
+          "fr": "Tilapia"
+        }
+      }
     ]
   },
   {
     "id": "sub-salmon",
-    "originalIngredient": { "ko": "연어", "en": "Salmon" },
+    "originalIngredient": {
+      "ko": "연어",
+      "en": "Salmon",
+      "ja": "鮭",
+      "zh": "三文鱼",
+      "es": "Salmón",
+      "fr": "Saumon"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "고등어", "en": "Mackerel" } },
-      { "country": "IT", "ingredient": { "ko": "참치", "en": "Tuna" } },
-      { "country": "IN", "ingredient": { "ko": "정어리", "en": "Sardines" } },
-      { "country": "TR", "ingredient": { "ko": "농어", "en": "Sea bass" } },
-      { "country": "MX", "ingredient": { "ko": "틸라피아", "en": "Tilapia" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "고등어",
+          "en": "Mackerel",
+          "ja": "鯖",
+          "zh": "鲭鱼",
+          "es": "Caballa",
+          "fr": "Maquereau"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "참치",
+          "en": "Tuna",
+          "ja": "マグロ",
+          "zh": "金枪鱼",
+          "es": "Atún",
+          "fr": "Thon"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "정어리",
+          "en": "Sardines",
+          "ja": "イワシ",
+          "zh": "沙丁鱼",
+          "es": "Sardinas",
+          "fr": "Sardines"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "농어",
+          "en": "Sea bass",
+          "ja": "スズキ",
+          "zh": "鲈鱼",
+          "es": "Lubina",
+          "fr": "Bar"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "틸라피아",
+          "en": "Tilapia",
+          "ja": "ティラピア",
+          "zh": "罗非鱼",
+          "es": "Tilapia",
+          "fr": "Tilapia"
+        }
+      }
     ]
   },
   {
     "id": "sub-spinach",
-    "originalIngredient": { "ko": "시금치", "en": "Spinach" },
+    "originalIngredient": {
+      "ko": "시금치",
+      "en": "Spinach",
+      "ja": "ほうれん草",
+      "zh": "菠菜",
+      "es": "Espinaca",
+      "fr": "Épinard"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "배추", "en": "Napa cabbage" } },
-      { "country": "IT", "ingredient": { "ko": "근대", "en": "Swiss chard" } },
-      { "country": "IN", "ingredient": { "ko": "시금치(사그용)", "en": "Spinach (for saag)" } },
-      { "country": "TR", "ingredient": { "ko": "근대", "en": "Swiss chard" } },
-      { "country": "MX", "ingredient": { "ko": "치차요테 잎", "en": "Chayote leaves" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "배추",
+          "en": "Napa cabbage",
+          "ja": "白菜",
+          "zh": "大白菜",
+          "es": "Col china",
+          "fr": "Chou chinois"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "근대",
+          "en": "Swiss chard",
+          "ja": "スイスチャード(フダンソウ)",
+          "zh": "瑞士甜菜",
+          "es": "Acelga",
+          "fr": "Blette"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "시금치(사그용)",
+          "en": "Spinach (for saag)",
+          "ja": "ほうれん草(サーグ用)",
+          "zh": "菠菜(用于萨格)",
+          "es": "Espinaca (para saag)",
+          "fr": "Épinard (pour le saag)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "근대",
+          "en": "Swiss chard",
+          "ja": "スイスチャード(フダンソウ)",
+          "zh": "瑞士甜菜",
+          "es": "Acelga",
+          "fr": "Blette"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "치차요테 잎",
+          "en": "Chayote leaves",
+          "ja": "チャヨテの葉",
+          "zh": "佛手瓜叶",
+          "es": "Hojas de chayote",
+          "fr": "Feuilles de chayote"
+        }
+      }
     ]
   },
   {
     "id": "sub-kale",
-    "originalIngredient": { "ko": "케일", "en": "Kale" },
+    "originalIngredient": {
+      "ko": "케일",
+      "en": "Kale",
+      "ja": "ケール",
+      "zh": "羽衣甘蓝",
+      "es": "Col rizada (kale)",
+      "fr": "Chou frisé (kale)"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "배추", "en": "Napa cabbage" } },
-      { "country": "IT", "ingredient": { "ko": "근대", "en": "Swiss chard" } },
-      { "country": "IN", "ingredient": { "ko": "겨자잎", "en": "Mustard greens" } },
-      { "country": "TR", "ingredient": { "ko": "근대", "en": "Swiss chard" } },
-      { "country": "MX", "ingredient": { "ko": "시금치", "en": "Spinach" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "배추",
+          "en": "Napa cabbage",
+          "ja": "白菜",
+          "zh": "大白菜",
+          "es": "Col china",
+          "fr": "Chou chinois"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "근대",
+          "en": "Swiss chard",
+          "ja": "スイスチャード(フダンソウ)",
+          "zh": "瑞士甜菜",
+          "es": "Acelga",
+          "fr": "Blette"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "겨자잎",
+          "en": "Mustard greens",
+          "ja": "からし菜",
+          "zh": "芥菜",
+          "es": "Hojas de mostaza",
+          "fr": "Feuilles de moutarde"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "근대",
+          "en": "Swiss chard",
+          "ja": "スイスチャード(フダンソウ)",
+          "zh": "瑞士甜菜",
+          "es": "Acelga",
+          "fr": "Blette"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "시금치",
+          "en": "Spinach",
+          "ja": "ほうれん草",
+          "zh": "菠菜",
+          "es": "Espinaca",
+          "fr": "Épinard"
+        }
+      }
     ]
   },
   {
     "id": "sub-bok-choy",
-    "originalIngredient": { "ko": "청경채", "en": "Bok choy" },
+    "originalIngredient": {
+      "ko": "청경채",
+      "en": "Bok choy",
+      "ja": "チンゲン菜",
+      "zh": "小白菜",
+      "es": "Bok choy",
+      "fr": "Pak-choï"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "배추", "en": "Napa cabbage" } },
-      { "country": "IT", "ingredient": { "ko": "근대", "en": "Swiss chard" } },
-      { "country": "IN", "ingredient": { "ko": "겨자잎", "en": "Mustard greens" } },
-      { "country": "TR", "ingredient": { "ko": "근대", "en": "Swiss chard" } },
-      { "country": "MX", "ingredient": { "ko": "시금치", "en": "Spinach" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "배추",
+          "en": "Napa cabbage",
+          "ja": "白菜",
+          "zh": "大白菜",
+          "es": "Col china",
+          "fr": "Chou chinois"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "근대",
+          "en": "Swiss chard",
+          "ja": "スイスチャード(フダンソウ)",
+          "zh": "瑞士甜菜",
+          "es": "Acelga",
+          "fr": "Blette"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "겨자잎",
+          "en": "Mustard greens",
+          "ja": "からし菜",
+          "zh": "芥菜",
+          "es": "Hojas de mostaza",
+          "fr": "Feuilles de moutarde"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "근대",
+          "en": "Swiss chard",
+          "ja": "スイスチャード(フダンソウ)",
+          "zh": "瑞士甜菜",
+          "es": "Acelga",
+          "fr": "Blette"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "시금치",
+          "en": "Spinach",
+          "ja": "ほうれん草",
+          "zh": "菠菜",
+          "es": "Espinaca",
+          "fr": "Épinard"
+        }
+      }
     ]
   },
   {
     "id": "sub-broccoli",
-    "originalIngredient": { "ko": "브로콜리", "en": "Broccoli" },
+    "originalIngredient": {
+      "ko": "브로콜리",
+      "en": "Broccoli",
+      "ja": "ブロッコリー",
+      "zh": "西兰花",
+      "es": "Brócoli",
+      "fr": "Brocoli"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "콜리플라워", "en": "Cauliflower" } },
-      { "country": "IT", "ingredient": { "ko": "콜리플라워", "en": "Cauliflower" } },
-      { "country": "IN", "ingredient": { "ko": "콜리플라워", "en": "Cauliflower" } },
-      { "country": "TR", "ingredient": { "ko": "콜리플라워", "en": "Cauliflower" } },
-      { "country": "MX", "ingredient": { "ko": "콜리플라워", "en": "Cauliflower" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "콜리플라워",
+          "en": "Cauliflower",
+          "ja": "カリフラワー",
+          "zh": "花椰菜",
+          "es": "Coliflor",
+          "fr": "Chou-fleur"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "콜리플라워",
+          "en": "Cauliflower",
+          "ja": "カリフラワー",
+          "zh": "花椰菜",
+          "es": "Coliflor",
+          "fr": "Chou-fleur"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "콜리플라워",
+          "en": "Cauliflower",
+          "ja": "カリフラワー",
+          "zh": "花椰菜",
+          "es": "Coliflor",
+          "fr": "Chou-fleur"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "콜리플라워",
+          "en": "Cauliflower",
+          "ja": "カリフラワー",
+          "zh": "花椰菜",
+          "es": "Coliflor",
+          "fr": "Chou-fleur"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "콜리플라워",
+          "en": "Cauliflower",
+          "ja": "カリフラワー",
+          "zh": "花椰菜",
+          "es": "Coliflor",
+          "fr": "Chou-fleur"
+        }
+      }
     ]
   },
   {
     "id": "sub-zucchini",
-    "originalIngredient": { "ko": "애호박", "en": "Zucchini" },
+    "originalIngredient": {
+      "ko": "애호박",
+      "en": "Zucchini",
+      "ja": "ズッキーニ",
+      "zh": "西葫芦",
+      "es": "Calabacín",
+      "fr": "Courgette"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "오이호박", "en": "Yellow summer squash" } },
-      { "country": "IT", "ingredient": { "ko": "가지", "en": "Eggplant" } },
-      { "country": "IN", "ingredient": { "ko": "여주", "en": "Bitter melon" } },
-      { "country": "TR", "ingredient": { "ko": "가지", "en": "Eggplant" } },
-      { "country": "MX", "ingredient": { "ko": "치차요테", "en": "Chayote" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "오이호박",
+          "en": "Yellow summer squash",
+          "ja": "イエロースカッシュ",
+          "zh": "黄西葫芦",
+          "es": "Calabaza amarilla de verano",
+          "fr": "Courge d'été jaune"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "가지",
+          "en": "Eggplant",
+          "ja": "なす",
+          "zh": "茄子",
+          "es": "Berenjena",
+          "fr": "Aubergine"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "여주",
+          "en": "Bitter melon",
+          "ja": "ゴーヤ(にがうり)",
+          "zh": "苦瓜",
+          "es": "Melón amargo",
+          "fr": "Margose (melon amer)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "가지",
+          "en": "Eggplant",
+          "ja": "なす",
+          "zh": "茄子",
+          "es": "Berenjena",
+          "fr": "Aubergine"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "치차요테",
+          "en": "Chayote",
+          "ja": "チャヨテ",
+          "zh": "佛手瓜",
+          "es": "Chayote",
+          "fr": "Chayote"
+        }
+      }
     ]
   },
   {
     "id": "sub-bell-pepper",
-    "originalIngredient": { "ko": "파프리카", "en": "Bell pepper" },
+    "originalIngredient": {
+      "ko": "파프리카",
+      "en": "Bell pepper",
+      "ja": "パプリカ",
+      "zh": "甜椒",
+      "es": "Pimiento",
+      "fr": "Poivron"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "피망", "en": "Green bell pepper" } },
-      { "country": "IT", "ingredient": { "ko": "피망", "en": "Green bell pepper" } },
-      { "country": "IN", "ingredient": { "ko": "피망", "en": "Green bell pepper" } },
-      { "country": "TR", "ingredient": { "ko": "고추", "en": "Chili pepper" } },
-      { "country": "MX", "ingredient": { "ko": "포블라노 고추", "en": "Poblano pepper" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "피망",
+          "en": "Green bell pepper",
+          "ja": "ピーマン",
+          "zh": "青椒",
+          "es": "Pimiento verde",
+          "fr": "Poivron vert"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "피망",
+          "en": "Green bell pepper",
+          "ja": "ピーマン",
+          "zh": "青椒",
+          "es": "Pimiento verde",
+          "fr": "Poivron vert"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "피망",
+          "en": "Green bell pepper",
+          "ja": "ピーマン",
+          "zh": "青椒",
+          "es": "Pimiento verde",
+          "fr": "Poivron vert"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "고추",
+          "en": "Chili pepper",
+          "ja": "唐辛子",
+          "zh": "辣椒",
+          "es": "Chile",
+          "fr": "Piment"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "포블라노 고추",
+          "en": "Poblano pepper",
+          "ja": "ポブラノペッパー",
+          "zh": "波布拉诺辣椒",
+          "es": "Chile poblano",
+          "fr": "Piment poblano"
+        }
+      }
     ]
   },
   {
     "id": "sub-shiitake-mushroom",
-    "originalIngredient": { "ko": "표고버섯", "en": "Shiitake mushrooms" },
+    "originalIngredient": {
+      "ko": "표고버섯",
+      "en": "Shiitake mushrooms",
+      "ja": "しいたけ",
+      "zh": "香菇",
+      "es": "Setas shiitake",
+      "fr": "Champignons shiitake"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "느타리버섯", "en": "Oyster mushrooms" } },
-      { "country": "IT", "ingredient": { "ko": "포르치니버섯", "en": "Porcini mushrooms" } },
-      { "country": "IN", "ingredient": { "ko": "버튼머시룸", "en": "Button mushrooms" } },
-      { "country": "TR", "ingredient": { "ko": "버튼머시룸", "en": "Button mushrooms" } },
-      { "country": "MX", "ingredient": { "ko": "우이틀라코체(옥수수버섯)", "en": "Huitlacoche (corn mushroom)" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "느타리버섯",
+          "en": "Oyster mushrooms",
+          "ja": "ヒラタケ(オイスターマッシュルーム)",
+          "zh": "平菇",
+          "es": "Setas ostra",
+          "fr": "Pleurotes"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "포르치니버섯",
+          "en": "Porcini mushrooms",
+          "ja": "ポルチーニ茸",
+          "zh": "牛肝菌",
+          "es": "Setas porcini",
+          "fr": "Cèpes"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "버튼머시룸",
+          "en": "Button mushrooms",
+          "ja": "マッシュルーム",
+          "zh": "白蘑菇",
+          "es": "Champiñones",
+          "fr": "Champignons de Paris"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "버튼머시룸",
+          "en": "Button mushrooms",
+          "ja": "マッシュルーム",
+          "zh": "白蘑菇",
+          "es": "Champiñones",
+          "fr": "Champignons de Paris"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "우이틀라코체(옥수수버섯)",
+          "en": "Huitlacoche (corn mushroom)",
+          "ja": "ウイトラコチェ(トウモロコシ黒穂菌)",
+          "zh": "玉米黑粉菌(墨西哥松露)",
+          "es": "Huitlacoche (hongo del maíz)",
+          "fr": "Huitlacoche (champignon du maïs)"
+        }
+      }
     ]
   },
   {
     "id": "sub-daikon-radish",
-    "originalIngredient": { "ko": "무", "en": "Daikon radish" },
+    "originalIngredient": {
+      "ko": "무",
+      "en": "Daikon radish",
+      "ja": "大根",
+      "zh": "白萝卜",
+      "es": "Rábano daikon",
+      "fr": "Radis daikon"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "순무", "en": "Turnip" } },
-      { "country": "IT", "ingredient": { "ko": "순무", "en": "Turnip" } },
-      { "country": "IN", "ingredient": { "ko": "무", "en": "Daikon radish" } },
-      { "country": "TR", "ingredient": { "ko": "순무", "en": "Turnip" } },
-      { "country": "MX", "ingredient": { "ko": "히카마", "en": "Jicama" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "순무",
+          "en": "Turnip",
+          "ja": "かぶ",
+          "zh": "芜菁",
+          "es": "Nabo",
+          "fr": "Navet"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "순무",
+          "en": "Turnip",
+          "ja": "かぶ",
+          "zh": "芜菁",
+          "es": "Nabo",
+          "fr": "Navet"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "무",
+          "en": "Daikon radish",
+          "ja": "大根",
+          "zh": "白萝卜",
+          "es": "Rábano daikon",
+          "fr": "Radis daikon"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "순무",
+          "en": "Turnip",
+          "ja": "かぶ",
+          "zh": "芜菁",
+          "es": "Nabo",
+          "fr": "Navet"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "히카마",
+          "en": "Jicama",
+          "ja": "ヒカマ",
+          "zh": "豆薯",
+          "es": "Jícama",
+          "fr": "Jicama"
+        }
+      }
     ]
   },
   {
     "id": "sub-cherry-tomatoes",
-    "originalIngredient": { "ko": "방울토마토", "en": "Cherry tomatoes" },
+    "originalIngredient": {
+      "ko": "방울토마토",
+      "en": "Cherry tomatoes",
+      "ja": "プチトマト",
+      "zh": "圣女果",
+      "es": "Tomates cherry",
+      "fr": "Tomates cerises"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "토마토", "en": "Tomato" } },
-      { "country": "IT", "ingredient": { "ko": "산마르자노토마토", "en": "San Marzano tomatoes" } },
-      { "country": "IN", "ingredient": { "ko": "토마토", "en": "Tomato" } },
-      { "country": "TR", "ingredient": { "ko": "토마토", "en": "Tomato" } },
-      { "country": "MX", "ingredient": { "ko": "토마티요", "en": "Tomatillo" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "토마토",
+          "en": "Tomato",
+          "ja": "トマト",
+          "zh": "番茄",
+          "es": "Tomate",
+          "fr": "Tomate"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "산마르자노토마토",
+          "en": "San Marzano tomatoes",
+          "ja": "サンマルツァーノトマト",
+          "zh": "圣马扎诺番茄",
+          "es": "Tomates San Marzano",
+          "fr": "Tomates San Marzano"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "토마토",
+          "en": "Tomato",
+          "ja": "トマト",
+          "zh": "番茄",
+          "es": "Tomate",
+          "fr": "Tomate"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "토마토",
+          "en": "Tomato",
+          "ja": "トマト",
+          "zh": "番茄",
+          "es": "Tomate",
+          "fr": "Tomate"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "토마티요",
+          "en": "Tomatillo",
+          "ja": "トマティージョ",
+          "zh": "绿番茄(墨西哥酸浆)",
+          "es": "Tomatillo",
+          "fr": "Tomatille"
+        }
+      }
     ]
   },
   {
     "id": "sub-tomato",
-    "originalIngredient": { "ko": "토마토", "en": "Tomato" },
+    "originalIngredient": {
+      "ko": "토마토",
+      "en": "Tomato",
+      "ja": "トマト",
+      "zh": "番茄",
+      "es": "Tomate",
+      "fr": "Tomate"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "토마토", "en": "Tomato" } },
-      { "country": "IT", "ingredient": { "ko": "산마르자노토마토", "en": "San Marzano tomatoes" } },
-      { "country": "IN", "ingredient": { "ko": "토마토", "en": "Tomato" } },
-      { "country": "TR", "ingredient": { "ko": "토마토", "en": "Tomato" } },
-      { "country": "MX", "ingredient": { "ko": "토마티요", "en": "Tomatillo" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "토마토",
+          "en": "Tomato",
+          "ja": "トマト",
+          "zh": "番茄",
+          "es": "Tomate",
+          "fr": "Tomate"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "산마르자노토마토",
+          "en": "San Marzano tomatoes",
+          "ja": "サンマルツァーノトマト",
+          "zh": "圣马扎诺番茄",
+          "es": "Tomates San Marzano",
+          "fr": "Tomates San Marzano"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "토마토",
+          "en": "Tomato",
+          "ja": "トマト",
+          "zh": "番茄",
+          "es": "Tomate",
+          "fr": "Tomate"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "토마토",
+          "en": "Tomato",
+          "ja": "トマト",
+          "zh": "番茄",
+          "es": "Tomate",
+          "fr": "Tomate"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "토마티요",
+          "en": "Tomatillo",
+          "ja": "トマティージョ",
+          "zh": "绿番茄(墨西哥酸浆)",
+          "es": "Tomatillo",
+          "fr": "Tomatille"
+        }
+      }
     ]
   },
   {
     "id": "sub-arugula",
-    "originalIngredient": { "ko": "루꼴라", "en": "Arugula" },
+    "originalIngredient": {
+      "ko": "루꼴라",
+      "en": "Arugula",
+      "ja": "ルッコラ",
+      "zh": "芝麻菜",
+      "es": "Rúcula",
+      "fr": "Roquette"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "겨자잎", "en": "Mustard greens" } },
-      { "country": "IT", "ingredient": { "ko": "라디치오", "en": "Radicchio" } },
-      { "country": "IN", "ingredient": { "ko": "겨자잎", "en": "Mustard greens" } },
-      { "country": "TR", "ingredient": { "ko": "물냉이", "en": "Watercress" } },
-      { "country": "MX", "ingredient": { "ko": "물냉이", "en": "Watercress" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "겨자잎",
+          "en": "Mustard greens",
+          "ja": "からし菜",
+          "zh": "芥菜",
+          "es": "Hojas de mostaza",
+          "fr": "Feuilles de moutarde"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "라디치오",
+          "en": "Radicchio",
+          "ja": "ラディッキオ",
+          "zh": "紫菊苣",
+          "es": "Radicchio",
+          "fr": "Radicchio"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "겨자잎",
+          "en": "Mustard greens",
+          "ja": "からし菜",
+          "zh": "芥菜",
+          "es": "Hojas de mostaza",
+          "fr": "Feuilles de moutarde"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "물냉이",
+          "en": "Watercress",
+          "ja": "クレソン",
+          "zh": "西洋菜(豆瓣菜)",
+          "es": "Berro",
+          "fr": "Cresson"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "물냉이",
+          "en": "Watercress",
+          "ja": "クレソン",
+          "zh": "西洋菜(豆瓣菜)",
+          "es": "Berro",
+          "fr": "Cresson"
+        }
+      }
     ]
   },
   {
     "id": "sub-blueberries",
-    "originalIngredient": { "ko": "블루베리", "en": "Blueberries" },
+    "originalIngredient": {
+      "ko": "블루베리",
+      "en": "Blueberries",
+      "ja": "ブルーベリー",
+      "zh": "蓝莓",
+      "es": "Arándanos",
+      "fr": "Myrtilles"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "오디(뽕나무 열매)", "en": "Mulberries" } },
-      { "country": "IT", "ingredient": { "ko": "포도", "en": "Grapes" } },
-      { "country": "IN", "ingredient": { "ko": "망고", "en": "Mango" } },
-      { "country": "TR", "ingredient": { "ko": "석류", "en": "Pomegranate" } },
-      { "country": "MX", "ingredient": { "ko": "구아바", "en": "Guava" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "오디(뽕나무 열매)",
+          "en": "Mulberries",
+          "ja": "桑の実(マルベリー)",
+          "zh": "桑葚",
+          "es": "Moras (del morero)",
+          "fr": "Mûres (du mûrier)"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "포도",
+          "en": "Grapes",
+          "ja": "ぶどう",
+          "zh": "葡萄",
+          "es": "Uvas",
+          "fr": "Raisins"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "망고",
+          "en": "Mango",
+          "ja": "マンゴー",
+          "zh": "芒果",
+          "es": "Mango",
+          "fr": "Mangue"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "석류",
+          "en": "Pomegranate",
+          "ja": "ざくろ",
+          "zh": "石榴",
+          "es": "Granada",
+          "fr": "Grenade"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "구아바",
+          "en": "Guava",
+          "ja": "グアバ",
+          "zh": "番石榴",
+          "es": "Guayaba",
+          "fr": "Goyave"
+        }
+      }
     ]
   },
   {
     "id": "sub-raspberries",
-    "originalIngredient": { "ko": "라즈베리", "en": "Raspberries" },
+    "originalIngredient": {
+      "ko": "라즈베리",
+      "en": "Raspberries",
+      "ja": "ラズベリー",
+      "zh": "覆盆子",
+      "es": "Frambuesas",
+      "fr": "Framboises"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "오디(뽕나무 열매)", "en": "Mulberries" } },
-      { "country": "IT", "ingredient": { "ko": "포도", "en": "Grapes" } },
-      { "country": "IN", "ingredient": { "ko": "망고", "en": "Mango" } },
-      { "country": "TR", "ingredient": { "ko": "석류", "en": "Pomegranate" } },
-      { "country": "MX", "ingredient": { "ko": "구아바", "en": "Guava" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "오디(뽕나무 열매)",
+          "en": "Mulberries",
+          "ja": "桑の実(マルベリー)",
+          "zh": "桑葚",
+          "es": "Moras (del morero)",
+          "fr": "Mûres (du mûrier)"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "포도",
+          "en": "Grapes",
+          "ja": "ぶどう",
+          "zh": "葡萄",
+          "es": "Uvas",
+          "fr": "Raisins"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "망고",
+          "en": "Mango",
+          "ja": "マンゴー",
+          "zh": "芒果",
+          "es": "Mango",
+          "fr": "Mangue"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "석류",
+          "en": "Pomegranate",
+          "ja": "ざくろ",
+          "zh": "石榴",
+          "es": "Granada",
+          "fr": "Grenade"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "구아바",
+          "en": "Guava",
+          "ja": "グアバ",
+          "zh": "番石榴",
+          "es": "Guayaba",
+          "fr": "Goyave"
+        }
+      }
     ]
   },
   {
     "id": "sub-blackberries",
-    "originalIngredient": { "ko": "블랙베리", "en": "Blackberries" },
+    "originalIngredient": {
+      "ko": "블랙베리",
+      "en": "Blackberries",
+      "ja": "ブラックベリー",
+      "zh": "黑莓",
+      "es": "Moras",
+      "fr": "Mûres"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "오디(뽕나무 열매)", "en": "Mulberries" } },
-      { "country": "IT", "ingredient": { "ko": "포도", "en": "Grapes" } },
-      { "country": "IN", "ingredient": { "ko": "망고", "en": "Mango" } },
-      { "country": "TR", "ingredient": { "ko": "석류", "en": "Pomegranate" } },
-      { "country": "MX", "ingredient": { "ko": "구아바", "en": "Guava" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "오디(뽕나무 열매)",
+          "en": "Mulberries",
+          "ja": "桑の実(マルベリー)",
+          "zh": "桑葚",
+          "es": "Moras (del morero)",
+          "fr": "Mûres (du mûrier)"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "포도",
+          "en": "Grapes",
+          "ja": "ぶどう",
+          "zh": "葡萄",
+          "es": "Uvas",
+          "fr": "Raisins"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "망고",
+          "en": "Mango",
+          "ja": "マンゴー",
+          "zh": "芒果",
+          "es": "Mango",
+          "fr": "Mangue"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "석류",
+          "en": "Pomegranate",
+          "ja": "ざくろ",
+          "zh": "石榴",
+          "es": "Granada",
+          "fr": "Grenade"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "구아바",
+          "en": "Guava",
+          "ja": "グアバ",
+          "zh": "番石榴",
+          "es": "Guayaba",
+          "fr": "Goyave"
+        }
+      }
     ]
   },
   {
     "id": "sub-apple",
-    "originalIngredient": { "ko": "사과", "en": "Apple" },
+    "originalIngredient": {
+      "ko": "사과",
+      "en": "Apple",
+      "ja": "りんご",
+      "zh": "苹果",
+      "es": "Manzana",
+      "fr": "Pomme"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "배", "en": "Asian pear" } },
-      { "country": "IT", "ingredient": { "ko": "배", "en": "Pear" } },
-      { "country": "IN", "ingredient": { "ko": "망고", "en": "Mango" } },
-      { "country": "TR", "ingredient": { "ko": "석류", "en": "Pomegranate" } },
-      { "country": "MX", "ingredient": { "ko": "구아바", "en": "Guava" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "배",
+          "en": "Asian pear",
+          "ja": "梨",
+          "zh": "梨",
+          "es": "Pera asiática",
+          "fr": "Poire asiatique"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "배",
+          "en": "Pear",
+          "ja": "洋梨",
+          "zh": "西洋梨",
+          "es": "Pera",
+          "fr": "Poire"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "망고",
+          "en": "Mango",
+          "ja": "マンゴー",
+          "zh": "芒果",
+          "es": "Mango",
+          "fr": "Mangue"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "석류",
+          "en": "Pomegranate",
+          "ja": "ざくろ",
+          "zh": "石榴",
+          "es": "Granada",
+          "fr": "Grenade"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "구아바",
+          "en": "Guava",
+          "ja": "グアバ",
+          "zh": "番石榴",
+          "es": "Guayaba",
+          "fr": "Goyave"
+        }
+      }
     ]
   },
   {
     "id": "sub-pear",
-    "originalIngredient": { "ko": "배", "en": "Pear" },
+    "originalIngredient": {
+      "ko": "배",
+      "en": "Pear",
+      "ja": "梨",
+      "zh": "梨",
+      "es": "Pera",
+      "fr": "Poire"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "사과", "en": "Apple" } },
-      { "country": "IT", "ingredient": { "ko": "사과", "en": "Apple" } },
-      { "country": "IN", "ingredient": { "ko": "망고", "en": "Mango" } },
-      { "country": "TR", "ingredient": { "ko": "석류", "en": "Pomegranate" } },
-      { "country": "MX", "ingredient": { "ko": "구아바", "en": "Guava" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "사과",
+          "en": "Apple",
+          "ja": "りんご",
+          "zh": "苹果",
+          "es": "Manzana",
+          "fr": "Pomme"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "사과",
+          "en": "Apple",
+          "ja": "りんご",
+          "zh": "苹果",
+          "es": "Manzana",
+          "fr": "Pomme"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "망고",
+          "en": "Mango",
+          "ja": "マンゴー",
+          "zh": "芒果",
+          "es": "Mango",
+          "fr": "Mangue"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "석류",
+          "en": "Pomegranate",
+          "ja": "ざくろ",
+          "zh": "石榴",
+          "es": "Granada",
+          "fr": "Grenade"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "구아바",
+          "en": "Guava",
+          "ja": "グアバ",
+          "zh": "番石榴",
+          "es": "Guayaba",
+          "fr": "Goyave"
+        }
+      }
     ]
   },
   {
     "id": "sub-fig",
-    "originalIngredient": { "ko": "무화과", "en": "Fig" },
+    "originalIngredient": {
+      "ko": "무화과",
+      "en": "Fig",
+      "ja": "いちじく",
+      "zh": "无花果",
+      "es": "Higo",
+      "fr": "Figue"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "곶감", "en": "Dried persimmon" } },
-      { "country": "IT", "ingredient": { "ko": "포도", "en": "Grapes" } },
-      { "country": "IN", "ingredient": { "ko": "대추야자", "en": "Dates" } },
-      { "country": "TR", "ingredient": { "ko": "대추야자", "en": "Dates" }, "note": { "ko": "무화과처럼 중동에서 흔히 나는 말린 과일", "en": "Another dried fruit native to the Middle East, like figs" } },
-      { "country": "MX", "ingredient": { "ko": "구아바", "en": "Guava" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "곶감",
+          "en": "Dried persimmon",
+          "ja": "干し柿",
+          "zh": "柿饼",
+          "es": "Caqui seco",
+          "fr": "Kaki séché"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "포도",
+          "en": "Grapes",
+          "ja": "ぶどう",
+          "zh": "葡萄",
+          "es": "Uvas",
+          "fr": "Raisins"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "대추야자",
+          "en": "Dates",
+          "ja": "デーツ(なつめやし)",
+          "zh": "椰枣",
+          "es": "Dátiles",
+          "fr": "Dattes"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "대추야자",
+          "en": "Dates",
+          "ja": "デーツ(なつめやし)",
+          "zh": "椰枣",
+          "es": "Dátiles",
+          "fr": "Dattes"
+        },
+        "note": {
+          "ko": "무화과처럼 중동에서 흔히 나는 말린 과일",
+          "en": "Another dried fruit native to the Middle East, like figs",
+          "ja": "いちじくと同じく中東でよく採れるドライフルーツです。",
+          "zh": "和无花果一样,是中东常见的干果。",
+          "es": "Otra fruta seca originaria de Oriente Medio, como los higos.",
+          "fr": "Un autre fruit sec originaire du Moyen-Orient, comme la figue."
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "구아바",
+          "en": "Guava",
+          "ja": "グアバ",
+          "zh": "番石榴",
+          "es": "Guayaba",
+          "fr": "Goyave"
+        }
+      }
     ]
   },
   {
     "id": "sub-plum",
-    "originalIngredient": { "ko": "자두", "en": "Plum" },
+    "originalIngredient": {
+      "ko": "자두",
+      "en": "Plum",
+      "ja": "プラム",
+      "zh": "李子",
+      "es": "Ciruela",
+      "fr": "Prune"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "살구", "en": "Apricot" } },
-      { "country": "IT", "ingredient": { "ko": "살구", "en": "Apricot" } },
-      { "country": "IN", "ingredient": { "ko": "망고", "en": "Mango" } },
-      { "country": "TR", "ingredient": { "ko": "살구", "en": "Apricot" } },
-      { "country": "MX", "ingredient": { "ko": "구아바", "en": "Guava" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "살구",
+          "en": "Apricot",
+          "ja": "あんず",
+          "zh": "杏",
+          "es": "Albaricoque",
+          "fr": "Abricot"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "살구",
+          "en": "Apricot",
+          "ja": "あんず",
+          "zh": "杏",
+          "es": "Albaricoque",
+          "fr": "Abricot"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "망고",
+          "en": "Mango",
+          "ja": "マンゴー",
+          "zh": "芒果",
+          "es": "Mango",
+          "fr": "Mangue"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "살구",
+          "en": "Apricot",
+          "ja": "あんず",
+          "zh": "杏",
+          "es": "Albaricoque",
+          "fr": "Abricot"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "구아바",
+          "en": "Guava",
+          "ja": "グアバ",
+          "zh": "番石榴",
+          "es": "Guayaba",
+          "fr": "Goyave"
+        }
+      }
     ]
   },
   {
     "id": "sub-avocado",
-    "originalIngredient": { "ko": "아보카도", "en": "Avocado" },
+    "originalIngredient": {
+      "ko": "아보카도",
+      "en": "Avocado",
+      "ja": "アボカド",
+      "zh": "牛油果",
+      "es": "Aguacate",
+      "fr": "Avocat"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "으깬 두부", "en": "Mashed tofu" }, "note": { "ko": "지방 함량은 다르지만 부드러운 질감을 대신할 수 있음", "en": "Different fat content, but mimics the creamy texture" } },
-      { "country": "IT", "ingredient": { "ko": "올리브", "en": "Olives" } },
-      { "country": "IN", "ingredient": { "ko": "바나나", "en": "Banana" }, "note": { "ko": "질감 대체용 — 맛은 다름", "en": "For texture only — flavor differs" } },
-      { "country": "TR", "ingredient": { "ko": "올리브", "en": "Olives" } },
-      { "country": "MX", "ingredient": { "ko": "아보카도", "en": "Avocado" }, "note": { "ko": "라틴아메리카가 원산지라 대체가 거의 필요 없음", "en": "Native to Latin America, rarely needs substituting here" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "으깬 두부",
+          "en": "Mashed tofu",
+          "ja": "つぶした豆腐",
+          "zh": "压碎的豆腐",
+          "es": "Tofu triturado",
+          "fr": "Tofu écrasé"
+        },
+        "note": {
+          "ko": "지방 함량은 다르지만 부드러운 질감을 대신할 수 있음",
+          "en": "Different fat content, but mimics the creamy texture",
+          "ja": "脂質の含有量は異なりますが、なめらかな食感を代用できます。",
+          "zh": "脂肪含量不同,但可以模拟顺滑的口感。",
+          "es": "El contenido de grasa es diferente, pero imita la textura cremosa.",
+          "fr": "La teneur en matières grasses diffère, mais imite la texture crémeuse."
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "올리브",
+          "en": "Olives",
+          "ja": "オリーブ",
+          "zh": "橄榄",
+          "es": "Aceitunas",
+          "fr": "Olives"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "바나나",
+          "en": "Banana",
+          "ja": "バナナ",
+          "zh": "香蕉",
+          "es": "Plátano",
+          "fr": "Banane"
+        },
+        "note": {
+          "ko": "질감 대체용 — 맛은 다름",
+          "en": "For texture only — flavor differs",
+          "ja": "食感の代用のみを目的としており、味は異なります。",
+          "zh": "仅用于替代口感,风味不同。",
+          "es": "Solo para la textura; el sabor es diferente.",
+          "fr": "Uniquement pour la texture — la saveur diffère."
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "올리브",
+          "en": "Olives",
+          "ja": "オリーブ",
+          "zh": "橄榄",
+          "es": "Aceitunas",
+          "fr": "Olives"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "아보카도",
+          "en": "Avocado",
+          "ja": "アボカド",
+          "zh": "牛油果",
+          "es": "Aguacate",
+          "fr": "Avocat"
+        },
+        "note": {
+          "ko": "라틴아메리카가 원산지라 대체가 거의 필요 없음",
+          "en": "Native to Latin America, rarely needs substituting here",
+          "ja": "ラテンアメリカ原産のため、ここではほぼ代替の必要がありません。",
+          "zh": "原产于拉丁美洲,在此地几乎不需要替代。",
+          "es": "Originario de América Latina, aquí rara vez es necesario sustituirlo.",
+          "fr": "Originaire d'Amérique latine, il n'y a ici presque jamais besoin de le remplacer."
+        }
+      }
     ]
   },
   {
     "id": "sub-almonds",
-    "originalIngredient": { "ko": "아몬드", "en": "Almonds" },
+    "originalIngredient": {
+      "ko": "아몬드",
+      "en": "Almonds",
+      "ja": "アーモンド",
+      "zh": "杏仁",
+      "es": "Almendras",
+      "fr": "Amandes"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "잣", "en": "Pine nuts" } },
-      { "country": "IT", "ingredient": { "ko": "잣", "en": "Pine nuts" } },
-      { "country": "IN", "ingredient": { "ko": "캐슈넛", "en": "Cashews" } },
-      { "country": "TR", "ingredient": { "ko": "피스타치오", "en": "Pistachios" } },
-      { "country": "MX", "ingredient": { "ko": "땅콩", "en": "Peanuts" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "잣",
+          "en": "Pine nuts",
+          "ja": "松の実",
+          "zh": "松子",
+          "es": "Piñones",
+          "fr": "Pignons de pin"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "잣",
+          "en": "Pine nuts",
+          "ja": "松の実",
+          "zh": "松子",
+          "es": "Piñones",
+          "fr": "Pignons de pin"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "캐슈넛",
+          "en": "Cashews",
+          "ja": "カシューナッツ",
+          "zh": "腰果",
+          "es": "Anacardos",
+          "fr": "Noix de cajou"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "피스타치오",
+          "en": "Pistachios",
+          "ja": "ピスタチオ",
+          "zh": "开心果",
+          "es": "Pistachos",
+          "fr": "Pistaches"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "땅콩",
+          "en": "Peanuts",
+          "ja": "ピーナッツ",
+          "zh": "花生",
+          "es": "Cacahuetes",
+          "fr": "Cacahuètes"
+        }
+      }
     ]
   },
   {
     "id": "sub-walnuts",
-    "originalIngredient": { "ko": "호두", "en": "Walnuts" },
+    "originalIngredient": {
+      "ko": "호두",
+      "en": "Walnuts",
+      "ja": "くるみ",
+      "zh": "核桃",
+      "es": "Nueces",
+      "fr": "Noix"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "잣", "en": "Pine nuts" } },
-      { "country": "IT", "ingredient": { "ko": "잣", "en": "Pine nuts" } },
-      { "country": "IN", "ingredient": { "ko": "캐슈넛", "en": "Cashews" } },
-      { "country": "TR", "ingredient": { "ko": "피스타치오", "en": "Pistachios" } },
-      { "country": "MX", "ingredient": { "ko": "피칸", "en": "Pecans" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "잣",
+          "en": "Pine nuts",
+          "ja": "松の実",
+          "zh": "松子",
+          "es": "Piñones",
+          "fr": "Pignons de pin"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "잣",
+          "en": "Pine nuts",
+          "ja": "松の実",
+          "zh": "松子",
+          "es": "Piñones",
+          "fr": "Pignons de pin"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "캐슈넛",
+          "en": "Cashews",
+          "ja": "カシューナッツ",
+          "zh": "腰果",
+          "es": "Anacardos",
+          "fr": "Noix de cajou"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "피스타치오",
+          "en": "Pistachios",
+          "ja": "ピスタチオ",
+          "zh": "开心果",
+          "es": "Pistachos",
+          "fr": "Pistaches"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "피칸",
+          "en": "Pecans",
+          "ja": "ピーカンナッツ",
+          "zh": "山核桃(碧根果)",
+          "es": "Pacanas",
+          "fr": "Noix de pécan"
+        }
+      }
     ]
   },
   {
     "id": "sub-pumpkin-seeds",
-    "originalIngredient": { "ko": "호박씨", "en": "Pumpkin seeds" },
+    "originalIngredient": {
+      "ko": "호박씨",
+      "en": "Pumpkin seeds",
+      "ja": "かぼちゃの種",
+      "zh": "南瓜籽",
+      "es": "Semillas de calabaza",
+      "fr": "Graines de courge"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "잣", "en": "Pine nuts" } },
-      { "country": "IT", "ingredient": { "ko": "해바라기씨", "en": "Sunflower seeds" } },
-      { "country": "IN", "ingredient": { "ko": "캐슈넛", "en": "Cashews" } },
-      { "country": "TR", "ingredient": { "ko": "해바라기씨", "en": "Sunflower seeds" } },
-      { "country": "MX", "ingredient": { "ko": "호박씨", "en": "Pumpkin seeds" }, "note": { "ko": "멕시코 요리에서 흔히 쓰이는 재료(페피타)", "en": "Common in Mexican cooking (pepitas)" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "잣",
+          "en": "Pine nuts",
+          "ja": "松の実",
+          "zh": "松子",
+          "es": "Piñones",
+          "fr": "Pignons de pin"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "해바라기씨",
+          "en": "Sunflower seeds",
+          "ja": "ひまわりの種",
+          "zh": "葵花籽",
+          "es": "Semillas de girasol",
+          "fr": "Graines de tournesol"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "캐슈넛",
+          "en": "Cashews",
+          "ja": "カシューナッツ",
+          "zh": "腰果",
+          "es": "Anacardos",
+          "fr": "Noix de cajou"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "해바라기씨",
+          "en": "Sunflower seeds",
+          "ja": "ひまわりの種",
+          "zh": "葵花籽",
+          "es": "Semillas de girasol",
+          "fr": "Graines de tournesol"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "호박씨",
+          "en": "Pumpkin seeds",
+          "ja": "かぼちゃの種",
+          "zh": "南瓜籽",
+          "es": "Semillas de calabaza",
+          "fr": "Graines de courge"
+        },
+        "note": {
+          "ko": "멕시코 요리에서 흔히 쓰이는 재료(페피타)",
+          "en": "Common in Mexican cooking (pepitas)",
+          "ja": "メキシコ料理でよく使われる食材です(ペピータ)。",
+          "zh": "墨西哥料理中常用的食材(佩皮塔籽)。",
+          "es": "Un ingrediente habitual en la cocina mexicana (pepitas).",
+          "fr": "Un ingrédient courant dans la cuisine mexicaine (pepitas)."
+        }
+      }
     ]
   },
   {
     "id": "sub-hazelnuts",
-    "originalIngredient": { "ko": "헤이즐넛", "en": "Hazelnuts" },
+    "originalIngredient": {
+      "ko": "헤이즐넛",
+      "en": "Hazelnuts",
+      "ja": "ヘーゼルナッツ",
+      "zh": "榛子",
+      "es": "Avellanas",
+      "fr": "Noisettes"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "잣", "en": "Pine nuts" } },
-      { "country": "IT", "ingredient": { "ko": "잣", "en": "Pine nuts" } },
-      { "country": "IN", "ingredient": { "ko": "캐슈넛", "en": "Cashews" } },
-      { "country": "TR", "ingredient": { "ko": "피스타치오", "en": "Pistachios" }, "note": { "ko": "튀르키예는 세계 최대 헤이즐넛 생산국이라 원재료도 쉽게 구할 수 있음", "en": "Turkey is the world's largest hazelnut producer, so the original is easy to find too" } },
-      { "country": "MX", "ingredient": { "ko": "땅콩", "en": "Peanuts" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "잣",
+          "en": "Pine nuts",
+          "ja": "松の実",
+          "zh": "松子",
+          "es": "Piñones",
+          "fr": "Pignons de pin"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "잣",
+          "en": "Pine nuts",
+          "ja": "松の実",
+          "zh": "松子",
+          "es": "Piñones",
+          "fr": "Pignons de pin"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "캐슈넛",
+          "en": "Cashews",
+          "ja": "カシューナッツ",
+          "zh": "腰果",
+          "es": "Anacardos",
+          "fr": "Noix de cajou"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "피스타치오",
+          "en": "Pistachios",
+          "ja": "ピスタチオ",
+          "zh": "开心果",
+          "es": "Pistachos",
+          "fr": "Pistaches"
+        },
+        "note": {
+          "ko": "튀르키예는 세계 최대 헤이즐넛 생산국이라 원재료도 쉽게 구할 수 있음",
+          "en": "Turkey is the world's largest hazelnut producer, so the original is easy to find too",
+          "ja": "トルコは世界最大のヘーゼルナッツ生産国のため、原材料も入手しやすいです。",
+          "zh": "土耳其是世界最大的榛子生产国,原料也容易获取。",
+          "es": "Turquía es el mayor productor mundial de avellanas, por lo que el ingrediente original también es fácil de conseguir.",
+          "fr": "La Turquie est le premier producteur mondial de noisettes, l'ingrédient d'origine y est donc aussi facile à trouver."
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "땅콩",
+          "en": "Peanuts",
+          "ja": "ピーナッツ",
+          "zh": "花生",
+          "es": "Cacahuetes",
+          "fr": "Cacahuètes"
+        }
+      }
     ]
   },
   {
     "id": "sub-sunflower-seeds",
-    "originalIngredient": { "ko": "해바라기씨", "en": "Sunflower seeds" },
+    "originalIngredient": {
+      "ko": "해바라기씨",
+      "en": "Sunflower seeds",
+      "ja": "ひまわりの種",
+      "zh": "葵花籽",
+      "es": "Semillas de girasol",
+      "fr": "Graines de tournesol"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "호박씨", "en": "Pumpkin seeds" } },
-      { "country": "IT", "ingredient": { "ko": "잣", "en": "Pine nuts" } },
-      { "country": "IN", "ingredient": { "ko": "참깨", "en": "Sesame seeds" } },
-      { "country": "TR", "ingredient": { "ko": "호박씨", "en": "Pumpkin seeds" } },
-      { "country": "MX", "ingredient": { "ko": "호박씨", "en": "Pumpkin seeds" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "호박씨",
+          "en": "Pumpkin seeds",
+          "ja": "かぼちゃの種",
+          "zh": "南瓜籽",
+          "es": "Semillas de calabaza",
+          "fr": "Graines de courge"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "잣",
+          "en": "Pine nuts",
+          "ja": "松の実",
+          "zh": "松子",
+          "es": "Piñones",
+          "fr": "Pignons de pin"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "참깨",
+          "en": "Sesame seeds",
+          "ja": "ごま",
+          "zh": "芝麻",
+          "es": "Semillas de sésamo",
+          "fr": "Graines de sésame"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "호박씨",
+          "en": "Pumpkin seeds",
+          "ja": "かぼちゃの種",
+          "zh": "南瓜籽",
+          "es": "Semillas de calabaza",
+          "fr": "Graines de courge"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "호박씨",
+          "en": "Pumpkin seeds",
+          "ja": "かぼちゃの種",
+          "zh": "南瓜籽",
+          "es": "Semillas de calabaza",
+          "fr": "Graines de courge"
+        }
+      }
     ]
   },
   {
     "id": "sub-sesame-seeds",
-    "originalIngredient": { "ko": "참깨", "en": "Sesame seeds" },
+    "originalIngredient": {
+      "ko": "참깨",
+      "en": "Sesame seeds",
+      "ja": "ごま",
+      "zh": "芝麻",
+      "es": "Semillas de sésamo",
+      "fr": "Graines de sésame"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "들깨", "en": "Perilla seeds" } },
-      { "country": "IT", "ingredient": { "ko": "해바라기씨", "en": "Sunflower seeds" } },
-      { "country": "IN", "ingredient": { "ko": "겨자씨", "en": "Mustard seeds" } },
-      { "country": "TR", "ingredient": { "ko": "해바라기씨", "en": "Sunflower seeds" } },
-      { "country": "MX", "ingredient": { "ko": "호박씨", "en": "Pumpkin seeds" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "들깨",
+          "en": "Perilla seeds",
+          "ja": "えごま",
+          "zh": "紫苏籽",
+          "es": "Semillas de perilla",
+          "fr": "Graines de périlla"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "해바라기씨",
+          "en": "Sunflower seeds",
+          "ja": "ひまわりの種",
+          "zh": "葵花籽",
+          "es": "Semillas de girasol",
+          "fr": "Graines de tournesol"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "겨자씨",
+          "en": "Mustard seeds",
+          "ja": "からし種",
+          "zh": "芥菜籽",
+          "es": "Semillas de mostaza",
+          "fr": "Graines de moutarde"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "해바라기씨",
+          "en": "Sunflower seeds",
+          "ja": "ひまわりの種",
+          "zh": "葵花籽",
+          "es": "Semillas de girasol",
+          "fr": "Graines de tournesol"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "호박씨",
+          "en": "Pumpkin seeds",
+          "ja": "かぼちゃの種",
+          "zh": "南瓜籽",
+          "es": "Semillas de calabaza",
+          "fr": "Graines de courge"
+        }
+      }
     ]
   },
   {
     "id": "sub-chia-seeds",
-    "originalIngredient": { "ko": "치아씨드", "en": "Chia seeds" },
+    "originalIngredient": {
+      "ko": "치아씨드",
+      "en": "Chia seeds",
+      "ja": "チアシード",
+      "zh": "奇亚籽",
+      "es": "Semillas de chía",
+      "fr": "Graines de chia"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "들깨", "en": "Perilla seeds" } },
-      { "country": "IT", "ingredient": { "ko": "아마씨", "en": "Flaxseeds" } },
-      { "country": "IN", "ingredient": { "ko": "바질씨(사부자씨)", "en": "Basil seeds (sabja)" } },
-      { "country": "TR", "ingredient": { "ko": "아마씨", "en": "Flaxseeds" } },
-      { "country": "MX", "ingredient": { "ko": "치아씨드", "en": "Chia seeds" }, "note": { "ko": "멕시코 원산이라 원재료도 쉽게 구할 수 있음", "en": "Native to Mexico, so the original is easy to find here too" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "들깨",
+          "en": "Perilla seeds",
+          "ja": "えごま",
+          "zh": "紫苏籽",
+          "es": "Semillas de perilla",
+          "fr": "Graines de périlla"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "아마씨",
+          "en": "Flaxseeds",
+          "ja": "亜麻仁",
+          "zh": "亚麻籽",
+          "es": "Semillas de lino",
+          "fr": "Graines de lin"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "바질씨(사부자씨)",
+          "en": "Basil seeds (sabja)",
+          "ja": "バジルシード(サブジャシード)",
+          "zh": "罗勒籽(萨布嘉籽)",
+          "es": "Semillas de albahaca (sabja)",
+          "fr": "Graines de basilic (sabja)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "아마씨",
+          "en": "Flaxseeds",
+          "ja": "亜麻仁",
+          "zh": "亚麻籽",
+          "es": "Semillas de lino",
+          "fr": "Graines de lin"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "치아씨드",
+          "en": "Chia seeds",
+          "ja": "チアシード",
+          "zh": "奇亚籽",
+          "es": "Semillas de chía",
+          "fr": "Graines de chia"
+        },
+        "note": {
+          "ko": "멕시코 원산이라 원재료도 쉽게 구할 수 있음",
+          "en": "Native to Mexico, so the original is easy to find here too",
+          "ja": "メキシコ原産のため、ここでも原材料が入手しやすいです。",
+          "zh": "原产于墨西哥,在此地原料也容易获取。",
+          "es": "Originaria de México, aquí también es fácil encontrar el ingrediente original.",
+          "fr": "Originaire du Mexique, l'ingrédient d'origine y est donc également facile à trouver."
+        }
+      }
     ]
   },
   {
     "id": "sub-olive-oil",
-    "originalIngredient": { "ko": "올리브유", "en": "Olive oil" },
+    "originalIngredient": {
+      "ko": "올리브유",
+      "en": "Olive oil",
+      "ja": "オリーブオイル",
+      "zh": "橄榄油",
+      "es": "Aceite de oliva",
+      "fr": "Huile d'olive"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "참기름", "en": "Sesame oil" } },
-      { "country": "IT", "ingredient": { "ko": "올리브유", "en": "Olive oil" }, "note": { "ko": "지중해 지역 원산지라 대체가 거의 필요 없음", "en": "Native to the Mediterranean, rarely needs substituting here" } },
-      { "country": "IN", "ingredient": { "ko": "겨자유", "en": "Mustard oil" } },
-      { "country": "TR", "ingredient": { "ko": "올리브유", "en": "Olive oil" }, "note": { "ko": "지중해 연안 국가라 원재료를 쉽게 구할 수 있음", "en": "A Mediterranean-coast country, so the original is easy to find here too" } },
-      { "country": "MX", "ingredient": { "ko": "아보카도유", "en": "Avocado oil" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "참기름",
+          "en": "Sesame oil",
+          "ja": "ごま油",
+          "zh": "芝麻油",
+          "es": "Aceite de sésamo",
+          "fr": "Huile de sésame"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        },
+        "note": {
+          "ko": "지중해 지역 원산지라 대체가 거의 필요 없음",
+          "en": "Native to the Mediterranean, rarely needs substituting here",
+          "ja": "地中海地域原産のため、ここではほぼ代替の必要がありません。",
+          "zh": "原产于地中海地区,在此地几乎不需要替代。",
+          "es": "Originario del Mediterráneo, aquí rara vez es necesario sustituirlo.",
+          "fr": "Originaire de la Méditerranée, il n'y a ici presque jamais besoin de la remplacer."
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "겨자유",
+          "en": "Mustard oil",
+          "ja": "マスタードオイル",
+          "zh": "芥末油",
+          "es": "Aceite de mostaza",
+          "fr": "Huile de mostaza"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        },
+        "note": {
+          "ko": "지중해 연안 국가라 원재료를 쉽게 구할 수 있음",
+          "en": "A Mediterranean-coast country, so the original is easy to find here too",
+          "ja": "地中海沿岸国のため、原材料も入手しやすいです。",
+          "zh": "地处地中海沿岸国家,原料也容易获取。",
+          "es": "Un país de la costa mediterránea, por lo que el ingrediente original también es fácil de conseguir aquí.",
+          "fr": "Un pays du littoral méditerranéen, l'ingrédient d'origine y est donc aussi facile à trouver."
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "아보카도유",
+          "en": "Avocado oil",
+          "ja": "アボカドオイル",
+          "zh": "牛油果油",
+          "es": "Aceite de aguacate",
+          "fr": "Huile d'avocat"
+        }
+      }
     ]
   },
   {
     "id": "sub-sesame-oil",
-    "originalIngredient": { "ko": "참기름", "en": "Sesame oil" },
+    "originalIngredient": {
+      "ko": "참기름",
+      "en": "Sesame oil",
+      "ja": "ごま油",
+      "zh": "芝麻油",
+      "es": "Aceite de sésamo",
+      "fr": "Huile de sésame"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "참기름", "en": "Sesame oil" }, "note": { "ko": "동아시아 요리에서 흔히 쓰여 대체가 거의 필요 없음", "en": "A staple in East Asian cooking, rarely needs substituting here" } },
-      { "country": "IT", "ingredient": { "ko": "올리브유", "en": "Olive oil" } },
-      { "country": "IN", "ingredient": { "ko": "겨자유", "en": "Mustard oil" } },
-      { "country": "TR", "ingredient": { "ko": "올리브유", "en": "Olive oil" } },
-      { "country": "MX", "ingredient": { "ko": "아보카도유", "en": "Avocado oil" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "참기름",
+          "en": "Sesame oil",
+          "ja": "ごま油",
+          "zh": "芝麻油",
+          "es": "Aceite de sésamo",
+          "fr": "Huile de sésame"
+        },
+        "note": {
+          "ko": "동아시아 요리에서 흔히 쓰여 대체가 거의 필요 없음",
+          "en": "A staple in East Asian cooking, rarely needs substituting here",
+          "ja": "東アジア料理でよく使われ、ここではほぼ代替の必要がありません。",
+          "zh": "东亚料理中常用食材,在此地几乎不需要替代。",
+          "es": "Un ingrediente habitual en la cocina de Asia Oriental, aquí rara vez es necesario sustituirlo.",
+          "fr": "Un ingrédient courant dans la cuisine d'Asie de l'Est, il n'y a ici presque jamais besoin de la remplacer."
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "겨자유",
+          "en": "Mustard oil",
+          "ja": "マスタードオイル",
+          "zh": "芥末油",
+          "es": "Aceite de mostaza",
+          "fr": "Huile de mostaza"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "아보카도유",
+          "en": "Avocado oil",
+          "ja": "アボカドオイル",
+          "zh": "牛油果油",
+          "es": "Aceite de aguacate",
+          "fr": "Huile d'avocat"
+        }
+      }
     ]
   },
   {
     "id": "sub-perilla-oil",
-    "originalIngredient": { "ko": "들기름", "en": "Perilla oil" },
+    "originalIngredient": {
+      "ko": "들기름",
+      "en": "Perilla oil",
+      "ja": "えごま油",
+      "zh": "紫苏籽油",
+      "es": "Aceite de perilla",
+      "fr": "Huile de périlla"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "참기름", "en": "Sesame oil" } },
-      { "country": "IT", "ingredient": { "ko": "올리브유", "en": "Olive oil" } },
-      { "country": "IN", "ingredient": { "ko": "겨자유", "en": "Mustard oil" } },
-      { "country": "TR", "ingredient": { "ko": "올리브유", "en": "Olive oil" } },
-      { "country": "MX", "ingredient": { "ko": "아보카도유", "en": "Avocado oil" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "참기름",
+          "en": "Sesame oil",
+          "ja": "ごま油",
+          "zh": "芝麻油",
+          "es": "Aceite de sésamo",
+          "fr": "Huile de sésame"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "겨자유",
+          "en": "Mustard oil",
+          "ja": "マスタードオイル",
+          "zh": "芥末油",
+          "es": "Aceite de mostaza",
+          "fr": "Huile de mostaza"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "아보카도유",
+          "en": "Avocado oil",
+          "ja": "アボカドオイル",
+          "zh": "牛油果油",
+          "es": "Aceite de aguacate",
+          "fr": "Huile d'avocat"
+        }
+      }
     ]
   },
   {
     "id": "sub-almond-milk",
-    "originalIngredient": { "ko": "무가당 아몬드유", "en": "Unsweetened almond milk" },
+    "originalIngredient": {
+      "ko": "무가당 아몬드유",
+      "en": "Unsweetened almond milk",
+      "ja": "無糖アーモンドミルク",
+      "zh": "无糖杏仁奶",
+      "es": "Leche de almendras sin azúcar",
+      "fr": "Lait d'amande non sucré"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "무가당 두유", "en": "Unsweetened soy milk" } },
-      { "country": "IT", "ingredient": { "ko": "무가당 귀리우유", "en": "Unsweetened oat milk" } },
-      { "country": "IN", "ingredient": { "ko": "무가당 코코넛밀크", "en": "Unsweetened coconut milk" } },
-      { "country": "TR", "ingredient": { "ko": "무가당 두유", "en": "Unsweetened soy milk" } },
-      { "country": "MX", "ingredient": { "ko": "무가당 코코넛밀크", "en": "Unsweetened coconut milk" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "무가당 두유",
+          "en": "Unsweetened soy milk",
+          "ja": "無糖豆乳",
+          "zh": "无糖豆浆",
+          "es": "Leche de soja sin azúcar",
+          "fr": "Lait de soja non sucré"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "무가당 귀리우유",
+          "en": "Unsweetened oat milk",
+          "ja": "無糖オーツミルク",
+          "zh": "无糖燕麦奶",
+          "es": "Leche de avena sin azúcar",
+          "fr": "Lait d'avoine non sucré"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "무가당 코코넛밀크",
+          "en": "Unsweetened coconut milk",
+          "ja": "無糖ココナッツミルク",
+          "zh": "无糖椰奶",
+          "es": "Leche de coco sin azúcar",
+          "fr": "Lait de coco non sucré"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "무가당 두유",
+          "en": "Unsweetened soy milk",
+          "ja": "無糖豆乳",
+          "zh": "无糖豆浆",
+          "es": "Leche de soja sin azúcar",
+          "fr": "Lait de soja non sucré"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "무가당 코코넛밀크",
+          "en": "Unsweetened coconut milk",
+          "ja": "無糖ココナッツミルク",
+          "zh": "无糖椰奶",
+          "es": "Leche de coco sin azúcar",
+          "fr": "Lait de coco non sucré"
+        }
+      }
     ]
   },
   {
     "id": "sub-lemon",
-    "originalIngredient": { "ko": "레몬", "en": "Lemon" },
+    "originalIngredient": {
+      "ko": "레몬",
+      "en": "Lemon",
+      "ja": "レモン",
+      "zh": "柠檬",
+      "es": "Limón",
+      "fr": "Citron"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "유자", "en": "Yuzu" } },
-      { "country": "IT", "ingredient": { "ko": "레몬", "en": "Lemon" }, "note": { "ko": "지중해 지역 원산지라 대체가 거의 필요 없음", "en": "Native to the Mediterranean, rarely needs substituting here" } },
-      { "country": "IN", "ingredient": { "ko": "라임", "en": "Lime" } },
-      { "country": "TR", "ingredient": { "ko": "레몬", "en": "Lemon" }, "note": { "ko": "중동 요리에서 흔히 쓰여 대체가 거의 필요 없음", "en": "A staple in Middle Eastern cooking, rarely needs substituting here" } },
-      { "country": "MX", "ingredient": { "ko": "라임", "en": "Lime" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "유자",
+          "en": "Yuzu",
+          "ja": "柚子",
+          "zh": "柚子",
+          "es": "Yuzu",
+          "fr": "Yuzu"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "레몬",
+          "en": "Lemon",
+          "ja": "レモン",
+          "zh": "柠檬",
+          "es": "Limón",
+          "fr": "Citron"
+        },
+        "note": {
+          "ko": "지중해 지역 원산지라 대체가 거의 필요 없음",
+          "en": "Native to the Mediterranean, rarely needs substituting here",
+          "ja": "地中海地域原産のため、ここではほぼ代替の必要がありません。",
+          "zh": "原产于地中海地区,在此地几乎不需要替代。",
+          "es": "Originario del Mediterráneo, aquí rara vez es necesario sustituirlo.",
+          "fr": "Originaire de la Méditerranée, il n'y a ici presque jamais besoin de le remplacer."
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "라임",
+          "en": "Lime",
+          "ja": "ライム",
+          "zh": "青柠",
+          "es": "Lima",
+          "fr": "Citron vert"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "레몬",
+          "en": "Lemon",
+          "ja": "レモン",
+          "zh": "柠檬",
+          "es": "Limón",
+          "fr": "Citron"
+        },
+        "note": {
+          "ko": "중동 요리에서 흔히 쓰여 대체가 거의 필요 없음",
+          "en": "A staple in Middle Eastern cooking, rarely needs substituting here",
+          "ja": "中東料理でよく使われ、ここではほぼ代替の必要がありません。",
+          "zh": "中东料理中常用食材,在此地几乎不需要替代。",
+          "es": "Un ingrediente habitual en la cocina de Oriente Medio, aquí rara vez es necesario sustituirlo.",
+          "fr": "Un ingrédient courant dans la cuisine du Moyen-Orient, il n'y a ici presque jamais besoin de le remplacer."
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "라임",
+          "en": "Lime",
+          "ja": "ライム",
+          "zh": "青柠",
+          "es": "Lima",
+          "fr": "Citron vert"
+        }
+      }
     ]
   },
   {
     "id": "sub-vegetable-stock",
-    "originalIngredient": { "ko": "채소 육수", "en": "Vegetable stock" },
+    "originalIngredient": {
+      "ko": "채소 육수",
+      "en": "Vegetable stock",
+      "ja": "野菜だし",
+      "zh": "蔬菜高汤",
+      "es": "Caldo de verduras",
+      "fr": "Bouillon de légumes"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "멸치 다시마 육수", "en": "Anchovy-kelp broth" } },
-      { "country": "IT", "ingredient": { "ko": "파마산 껍질 육수", "en": "Parmesan rind broth" } },
-      { "country": "IN", "ingredient": { "ko": "향신료 육수", "en": "Spiced broth" } },
-      { "country": "TR", "ingredient": { "ko": "레몬 육수", "en": "Lemon-infused broth" } },
-      { "country": "MX", "ingredient": { "ko": "고수 라임 육수", "en": "Cilantro-lime broth" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "멸치 다시마 육수",
+          "en": "Anchovy-kelp broth",
+          "ja": "煮干し昆布だし",
+          "zh": "鳀鱼海带高汤",
+          "es": "Caldo de anchoa y alga kelp",
+          "fr": "Bouillon d'anchois et de kelp"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파마산 껍질 육수",
+          "en": "Parmesan rind broth",
+          "ja": "パルメザンチーズの皮のだし",
+          "zh": "帕玛森芝士皮高汤",
+          "es": "Caldo de corteza de parmesano",
+          "fr": "Bouillon de croûte de parmesan"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "향신료 육수",
+          "en": "Spiced broth",
+          "ja": "スパイスだし",
+          "zh": "香料高汤",
+          "es": "Caldo especiado",
+          "fr": "Bouillon épicé"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "레몬 육수",
+          "en": "Lemon-infused broth",
+          "ja": "レモン風味のだし",
+          "zh": "柠檬风味高汤",
+          "es": "Caldo con limón",
+          "fr": "Bouillon au citron"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "고수 라임 육수",
+          "en": "Cilantro-lime broth",
+          "ja": "パクチーライムだし",
+          "zh": "香菜青柠高汤",
+          "es": "Caldo de cilantro y lima",
+          "fr": "Bouillon coriandre-citron vert"
+        }
+      }
     ]
   },
   {
     "id": "sub-ground-cinnamon",
-    "originalIngredient": { "ko": "계피가루", "en": "Ground cinnamon" },
+    "originalIngredient": {
+      "ko": "계피가루",
+      "en": "Ground cinnamon",
+      "ja": "シナモンパウダー",
+      "zh": "肉桂粉",
+      "es": "Canela molida",
+      "fr": "Cannelle moulue"
+    },
     "options": [
-      { "country": "KR", "ingredient": { "ko": "생강가루", "en": "Ground ginger" } },
-      { "country": "IT", "ingredient": { "ko": "넛맥", "en": "Nutmeg" } },
-      { "country": "IN", "ingredient": { "ko": "카다멈", "en": "Cardamom" } },
-      { "country": "TR", "ingredient": { "ko": "올스파이스", "en": "Allspice" } },
-      { "country": "MX", "ingredient": { "ko": "카카오파우더", "en": "Cocoa powder" } }
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "생강가루",
+          "en": "Ground ginger",
+          "ja": "生姜パウダー",
+          "zh": "姜粉",
+          "es": "Jengibre molido",
+          "fr": "Gingembre moulu"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "넛맥",
+          "en": "Nutmeg",
+          "ja": "ナツメグ",
+          "zh": "肉豆蔻",
+          "es": "Nuez moscada",
+          "fr": "Noix de muscade"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "카다멈",
+          "en": "Cardamom",
+          "ja": "カルダモン",
+          "zh": "小豆蔻",
+          "es": "Cardamomo",
+          "fr": "Cardamome"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "올스파이스",
+          "en": "Allspice",
+          "ja": "オールスパイス",
+          "zh": "多香果",
+          "es": "Pimienta de Jamaica",
+          "fr": "Quatre-épices"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "카카오파우더",
+          "en": "Cocoa powder",
+          "ja": "ココアパウダー",
+          "zh": "可可粉",
+          "es": "Cacao en polvo",
+          "fr": "Cacao en poudre"
+        }
+      }
     ]
   }
 ]

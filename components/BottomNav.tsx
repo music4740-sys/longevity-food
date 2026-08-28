@@ -2,9 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { getDictionary, type Locale } from "@/lib/i18n";
-
-const LOCALES: Locale[] = ["ko", "en"];
+import { getDictionary, LOCALES, type Locale } from "@/lib/i18n";
 
 function HomeIcon({ active }: { active: boolean }) {
   return (

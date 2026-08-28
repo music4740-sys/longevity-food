@@ -1,0 +1,87 @@
+{
+  "common": {
+    "appName": "International Longevity Food",
+    "disclaimer": "Este contenido no sustituye un diagnóstico, tratamiento o prescripción médica. Consulte a un profesional de la salud según su estado de salud.",
+    "langToggle": "Idioma",
+    "cartEmpty": "Tu carrito está vacío.",
+    "cartTitle": "Carrito",
+    "cartClearAll": "Vaciar todo",
+    "cartClearAllConfirm": "¿Vaciar todo el carrito?",
+    "cartRemoveItem": "Eliminar",
+    "settingsTitle": "Ajustes",
+    "settingsLanguageLabel": "Idioma"
+  },
+  "nav": {
+    "planList": "Lista de planes",
+    "planDetail": "Detalle del plan",
+    "recipeDetail": "Detalle de la receta",
+    "home": "Inicio",
+    "plans": "Planes",
+    "cart": "Carrito",
+    "settings": "Ajustes"
+  },
+  "plan": {
+    "durationUnit": " días",
+    "longevityScoreLabel": "Índice de longevidad",
+    "scoreUnit": "/100",
+    "dayLabelFormat": "Día {n}",
+    "mealLabels": {
+      "breakfast": "Desayuno",
+      "lunch": "Almuerzo",
+      "dinner": "Cena"
+    },
+    "cuisineRegionLabel": "Estilo culinario",
+    "cuisineRegions": {
+      "KR": "Asia Oriental",
+      "IT": "Mediterráneo y Europa",
+      "IN": "Sur y Sudeste Asiático",
+      "TR": "Oriente Medio y Norte de África",
+      "MX": "América Latina"
+    }
+  },
+  "recipe": {
+    "scoreBreakdownTitle": "Desglose del índice de longevidad",
+    "axisLabels": {
+      "plantRatio": "Proporción vegetal",
+      "processedFood": "Alimentos procesados",
+      "fatQuality": "Calidad de las grasas",
+      "sodium": "Carga de sodio",
+      "addedSugar": "Carga de azúcar añadida"
+    },
+    "ingredientsTitle": "Ingredientes",
+    "stepsTitle": "Preparación",
+    "addToCart": "Añadir al carrito",
+    "substitutesToggle": "Ver sustitutos por país",
+    "originalIngredientLabel": "Ingrediente original",
+    "regionSelectedBadge": "Seleccionado"
+  },
+  "home": {
+    "trustHeadline1": "Diseñado a partir de la cultura culinaria de las regiones más longevas del mundo y guías nutricionales públicas",
+    "trustHeadline2": "Cada comida verificada con el índice de longevidad",
+    "featuredPlansTitle": "Planes destacados",
+    "viewAllPlans": "Ver todos los planes"
+  },
+  "ingredientTags": {
+    "whole-grain": "Cereal integral",
+    "refined-grain": "Cereal refinado",
+    "vegetable": "Verdura",
+    "leafy-green": "Verdura de hoja",
+    "fruit": "Fruta",
+    "legume": "Legumbre",
+    "nuts-seeds": "Frutos secos y semillas",
+    "fish": "Pescado",
+    "poultry": "Aves",
+    "red-meat": "Carne roja",
+    "processed-meat": "Carne procesada",
+    "dairy": "Lácteos",
+    "egg": "Huevo",
+    "healthy-fat": "Grasa saludable",
+    "saturated-fat": "Grasa saturada",
+    "ultra-processed": "Ultraprocesado",
+    "fried": "Frito",
+    "sugary-drink": "Bebida azucarada",
+    "high-sodium": "Alto en sodio",
+    "pickled-salted": "Encurtido/salado",
+    "added-sugar": "Azúcar añadida"
+  }
+}
