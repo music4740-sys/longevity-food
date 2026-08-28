@@ -71,7 +71,10 @@
     "trustHeadline1": "세계 장수 지역의 지혜, 7일 리셋 플랜",
     "trustHeadline2": "모든 끼니를 장수 지수로 검증",
     "featuredPlansTitle": "추천 플랜",
-    "viewAllPlans": "전체 플랜 보기"
+    "viewAllPlans": "전체 플랜 보기",
+    "whyRegionBased": "세계 장수 지역 기반",
+    "whyScoreVerified": "장수 지수로 매 끼니 검증",
+    "whyMultilingual": "6개 언어 지원"
   },
   "ingredientTags": {
     "whole-grain": "통곡물",
