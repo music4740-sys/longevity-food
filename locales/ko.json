@@ -9,7 +9,12 @@
     "cartClearAllConfirm": "장바구니를 전부 비울까요?",
     "cartRemoveItem": "삭제",
     "settingsTitle": "설정",
-    "settingsLanguageLabel": "언어"
+    "settingsLanguageLabel": "언어",
+    "donationTitle": "후원",
+    "donationBankLabel": "은행",
+    "donationAccountLabel": "계좌번호",
+    "donationHolderLabel": "예금주",
+    "donationBankName": "새마을금고"
   },
   "nav": {
     "planList": "플랜 목록",

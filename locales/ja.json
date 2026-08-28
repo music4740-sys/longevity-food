@@ -9,7 +9,12 @@
     "cartClearAllConfirm": "カートの中身を全て削除しますか?",
     "cartRemoveItem": "削除",
     "settingsTitle": "設定",
-    "settingsLanguageLabel": "言語"
+    "settingsLanguageLabel": "言語",
+    "donationTitle": "応援",
+    "donationBankLabel": "銀行",
+    "donationAccountLabel": "口座番号",
+    "donationHolderLabel": "口座名義",
+    "donationBankName": "セマウル金庫(韓国)"
   },
   "nav": {
     "planList": "プラン一覧",

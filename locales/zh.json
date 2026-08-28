@@ -9,7 +9,12 @@
     "cartClearAllConfirm": "要清空购物车中的所有内容吗?",
     "cartRemoveItem": "删除",
     "settingsTitle": "设置",
-    "settingsLanguageLabel": "语言"
+    "settingsLanguageLabel": "语言",
+    "donationTitle": "支持",
+    "donationBankLabel": "银行",
+    "donationAccountLabel": "账号",
+    "donationHolderLabel": "账户名",
+    "donationBankName": "Saemaul金库(韩国社区信用合作社)"
   },
   "nav": {
     "planList": "计划列表",

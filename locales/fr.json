@@ -9,7 +9,12 @@
     "cartClearAllConfirm": "Vider entièrement le panier ?",
     "cartRemoveItem": "Supprimer",
     "settingsTitle": "Paramètres",
-    "settingsLanguageLabel": "Langue"
+    "settingsLanguageLabel": "Langue",
+    "donationTitle": "Soutien",
+    "donationBankLabel": "Banque",
+    "donationAccountLabel": "Numéro de compte",
+    "donationHolderLabel": "Titulaire du compte",
+    "donationBankName": "Coopérative de crédit Saemaul (Corée)"
   },
   "nav": {
     "planList": "Liste des plans",

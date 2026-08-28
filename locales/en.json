@@ -9,7 +9,12 @@
     "cartClearAllConfirm": "Clear everything from your cart?",
     "cartRemoveItem": "Remove",
     "settingsTitle": "Settings",
-    "settingsLanguageLabel": "Language"
+    "settingsLanguageLabel": "Language",
+    "donationTitle": "Support",
+    "donationBankLabel": "Bank",
+    "donationAccountLabel": "Account number",
+    "donationHolderLabel": "Account holder",
+    "donationBankName": "MG Community Credit Cooperative (Korea)"
   },
   "nav": {
     "planList": "Plan List",
