@@ -29,7 +29,17 @@
         "benefits": {
           "ko": "베타글루칸이라는 식이섬유가 풍부해 포만감 유지에 도움이 될 수 있어요.",
           "en": "Rich in beta-glucan fiber, which may help you feel fuller for longer."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          },
+          {
+            "ko": "포만감",
+            "en": "Satiety"
+          }
+        ]
       },
       {
         "name": {
@@ -44,7 +54,17 @@
           "ko": "안토시아닌이라는 항산화 성분이 풍부한 과일이에요.",
           "en": "Rich in anthocyanins, antioxidant compounds found in dark berries."
         },
-        "substituteGroupId": "sub-blueberries"
+        "substituteGroupId": "sub-blueberries",
+        "pointTags": [
+          {
+            "ko": "항산화",
+            "en": "Antioxidant"
+          },
+          {
+            "ko": "안토시아닌",
+            "en": "Anthocyanins"
+          }
+        ]
       },
       {
         "name": {
@@ -60,7 +80,17 @@
           "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
           "en": "Contains unsaturated fats and vitamin E."
         },
-        "substituteGroupId": "sub-almonds"
+        "substituteGroupId": "sub-almonds",
+        "pointTags": [
+          {
+            "ko": "비타민E",
+            "en": "Vitamin E"
+          },
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       },
       {
         "name": {
@@ -73,7 +103,13 @@
           "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
           "en": "An unsweetened plant-based milk alternative with no added sugar."
         },
-        "substituteGroupId": "sub-almond-milk"
+        "substituteGroupId": "sub-almond-milk",
+        "pointTags": [
+          {
+            "ko": "무가당",
+            "en": "No Added Sugar"
+          }
+        ]
       }
     ],
     "steps": [
@@ -158,7 +194,17 @@
         "benefits": {
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
           "en": "A legume rich in plant-based protein and fiber."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -172,7 +218,13 @@
         "benefits": {
           "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
           "en": "Contains quercetin, a plant compound found in many vegetables."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "퀘르세틴",
+            "en": "Quercetin"
+          }
+        ]
       },
       {
         "name": {
@@ -186,7 +238,13 @@
         "benefits": {
           "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
           "en": "Rich in beta-carotene, which gives it its orange color."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "베타카로틴",
+            "en": "Beta-Carotene"
+          }
+        ]
       },
       {
         "name": {
@@ -201,7 +259,13 @@
           "ko": "감칠맛을 더해주지만 시판 제품은 나트륨이 있는 편이라 조금만 써요.",
           "en": "Adds savory depth, but store-bought versions tend to be higher in sodium, so use it sparingly."
         },
-        "substituteGroupId": "sub-vegetable-stock"
+        "substituteGroupId": "sub-vegetable-stock",
+        "pointTags": [
+          {
+            "ko": "나트륨 주의",
+            "en": "Watch Sodium"
+          }
+        ]
       }
     ],
     "steps": [
@@ -287,7 +351,13 @@
         "benefits": {
           "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
           "en": "Rich in omega-3 fatty acids, which may support heart health."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3"
+          }
+        ]
       },
       {
         "name": {
@@ -302,7 +372,17 @@
           "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
           "en": "A cruciferous vegetable rich in vitamin C and fiber."
         },
-        "substituteGroupId": "sub-broccoli"
+        "substituteGroupId": "sub-broccoli",
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -317,7 +397,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       },
       {
         "name": {
@@ -332,7 +418,13 @@
           "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.",
           "en": "Rich in vitamin C and adds bright acidity."
         },
-        "substituteGroupId": "sub-lemon"
+        "substituteGroupId": "sub-lemon",
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C"
+          }
+        ]
       }
     ],
     "steps": [
@@ -424,7 +516,17 @@
           "ko": "글루텐이 없는 통곡물로 식이섬유가 풍부해요.",
           "en": "A gluten-free whole grain that's a good source of fiber."
         },
-        "substituteGroupId": "sub-buckwheat-groats"
+        "substituteGroupId": "sub-buckwheat-groats",
+        "pointTags": [
+          {
+            "ko": "글루텐프리",
+            "en": "Gluten-Free"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -439,7 +541,17 @@
           "ko": "식이섬유인 펙틴이 풍부한 과일이에요.",
           "en": "Rich in pectin, a type of dietary fiber."
         },
-        "substituteGroupId": "sub-apple"
+        "substituteGroupId": "sub-apple",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          },
+          {
+            "ko": "펙틴",
+            "en": "Pectin"
+          }
+        ]
       },
       {
         "name": {
@@ -455,7 +567,13 @@
           "ko": "오메가-3 지방산이 들어 있는 견과류예요.",
           "en": "A nut that contains omega-3 fatty acids."
         },
-        "substituteGroupId": "sub-walnuts"
+        "substituteGroupId": "sub-walnuts",
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3"
+          }
+        ]
       },
       {
         "name": {
@@ -549,7 +667,13 @@
           "ko": "물에 불리면 부풀어 오르는 씨앗으로 식이섬유가 풍부해요.",
           "en": "Swells when soaked in liquid and is a good source of fiber."
         },
-        "substituteGroupId": "sub-chia-seeds"
+        "substituteGroupId": "sub-chia-seeds",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -564,7 +688,17 @@
           "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.",
           "en": "A berry rich in fiber and antioxidant compounds."
         },
-        "substituteGroupId": "sub-raspberries"
+        "substituteGroupId": "sub-raspberries",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          },
+          {
+            "ko": "항산화",
+            "en": "Antioxidant"
+          }
+        ]
       },
       {
         "name": {
@@ -577,7 +711,13 @@
           "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
           "en": "An unsweetened plant-based milk alternative with no added sugar."
         },
-        "substituteGroupId": "sub-almond-milk"
+        "substituteGroupId": "sub-almond-milk",
+        "pointTags": [
+          {
+            "ko": "무가당",
+            "en": "No Added Sugar"
+          }
+        ]
       },
       {
         "name": {
@@ -590,7 +730,13 @@
           "ko": "향신료로 소량만 써도 단맛 없이 풍미를 더할 수 있어요.",
           "en": "A spice that adds flavor without needing added sugar."
         },
-        "substituteGroupId": "sub-ground-cinnamon"
+        "substituteGroupId": "sub-ground-cinnamon",
+        "pointTags": [
+          {
+            "ko": "무가당 풍미",
+            "en": "Sugar-Free Flavor"
+          }
+        ]
       }
     ],
     "steps": [
@@ -675,7 +821,13 @@
           "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
           "en": "A whole grain rich in beta-glucan fiber."
         },
-        "substituteGroupId": "sub-barley"
+        "substituteGroupId": "sub-barley",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -690,7 +842,17 @@
           "ko": "수분과 식이섬유가 풍부한 과일이에요.",
           "en": "A fruit with high water content and dietary fiber."
         },
-        "substituteGroupId": "sub-pear"
+        "substituteGroupId": "sub-pear",
+        "pointTags": [
+          {
+            "ko": "수분",
+            "en": "Hydration"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -706,7 +868,17 @@
           "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
           "en": "Contains unsaturated fats and vitamin E."
         },
-        "substituteGroupId": "sub-almonds"
+        "substituteGroupId": "sub-almonds",
+        "pointTags": [
+          {
+            "ko": "비타민E",
+            "en": "Vitamin E"
+          },
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       },
       {
         "name": {
@@ -792,7 +964,13 @@
           "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
           "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
         },
-        "substituteGroupId": "sub-quinoa"
+        "substituteGroupId": "sub-quinoa",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          }
+        ]
       },
       {
         "name": {
@@ -807,7 +985,17 @@
           "ko": "식이섬유와 항산화 성분이 풍부한 베리류예요.",
           "en": "A berry rich in fiber and antioxidant compounds."
         },
-        "substituteGroupId": "sub-blackberries"
+        "substituteGroupId": "sub-blackberries",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          },
+          {
+            "ko": "항산화",
+            "en": "Antioxidant"
+          }
+        ]
       },
       {
         "name": {
@@ -823,7 +1011,13 @@
           "ko": "마그네슘과 불포화지방이 들어 있는 씨앗이에요.",
           "en": "Contains magnesium and unsaturated fats."
         },
-        "substituteGroupId": "sub-pumpkin-seeds"
+        "substituteGroupId": "sub-pumpkin-seeds",
+        "pointTags": [
+          {
+            "ko": "마그네슘",
+            "en": "Magnesium"
+          }
+        ]
       },
       {
         "name": {
@@ -836,7 +1030,13 @@
           "ko": "설탕을 넣지 않아 우유 대신 쓰기 좋은 식물성 음료예요.",
           "en": "An unsweetened plant-based milk alternative with no added sugar."
         },
-        "substituteGroupId": "sub-almond-milk"
+        "substituteGroupId": "sub-almond-milk",
+        "pointTags": [
+          {
+            "ko": "무가당",
+            "en": "No Added Sugar"
+          }
+        ]
       }
     ],
     "steps": [
@@ -914,7 +1114,13 @@
           "ko": "식이섬유가 풍부한 통곡물로 포만감 유지에 도움이 될 수 있어요.",
           "en": "A fiber-rich whole grain that may help with satiety."
         },
-        "substituteGroupId": "sub-rye-flakes"
+        "substituteGroupId": "sub-rye-flakes",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -929,7 +1135,17 @@
           "ko": "식이섬유와 칼륨이 들어 있는 과일이에요.",
           "en": "Contains dietary fiber and potassium."
         },
-        "substituteGroupId": "sub-fig"
+        "substituteGroupId": "sub-fig",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          },
+          {
+            "ko": "칼륨",
+            "en": "Potassium"
+          }
+        ]
       },
       {
         "name": {
@@ -945,7 +1161,13 @@
           "ko": "불포화지방과 비타민 E가 들어 있는 견과류예요.",
           "en": "Contains unsaturated fats and vitamin E."
         },
-        "substituteGroupId": "sub-hazelnuts"
+        "substituteGroupId": "sub-hazelnuts",
+        "pointTags": [
+          {
+            "ko": "비타민E",
+            "en": "Vitamin E"
+          }
+        ]
       },
       {
         "name": {
@@ -1038,7 +1260,13 @@
           "ko": "글루텐이 없는 잡곡으로 소화가 비교적 편한 편이에요.",
           "en": "A gluten-free grain that's generally easy to digest."
         },
-        "substituteGroupId": "sub-millet"
+        "substituteGroupId": "sub-millet",
+        "pointTags": [
+          {
+            "ko": "글루텐프리",
+            "en": "Gluten-Free"
+          }
+        ]
       },
       {
         "name": {
@@ -1053,7 +1281,13 @@
           "ko": "식이섬유와 항산화 성분이 들어 있는 과일이에요.",
           "en": "Contains dietary fiber and antioxidant compounds."
         },
-        "substituteGroupId": "sub-plum"
+        "substituteGroupId": "sub-plum",
+        "pointTags": [
+          {
+            "ko": "항산화",
+            "en": "Antioxidant"
+          }
+        ]
       },
       {
         "name": {
@@ -1069,7 +1303,13 @@
           "ko": "비타민 E와 불포화지방이 들어 있는 씨앗이에요.",
           "en": "Contains vitamin E and unsaturated fats."
         },
-        "substituteGroupId": "sub-sunflower-seeds"
+        "substituteGroupId": "sub-sunflower-seeds",
+        "pointTags": [
+          {
+            "ko": "비타민E",
+            "en": "Vitamin E"
+          }
+        ]
       },
       {
         "name": {
@@ -1162,7 +1402,17 @@
         "benefits": {
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
           "en": "A legume rich in plant-based protein and fiber."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1177,7 +1427,13 @@
           "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
           "en": "A whole grain rich in beta-glucan fiber."
         },
-        "substituteGroupId": "sub-barley"
+        "substituteGroupId": "sub-barley",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1192,7 +1448,13 @@
           "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
           "en": "Contains lycopene, an antioxidant compound."
         },
-        "substituteGroupId": "sub-cherry-tomatoes"
+        "substituteGroupId": "sub-cherry-tomatoes",
+        "pointTags": [
+          {
+            "ko": "라이코펜",
+            "en": "Lycopene"
+          }
+        ]
       },
       {
         "name": {
@@ -1207,7 +1469,17 @@
           "ko": "잎채소 중에서도 칼슘과 비타민 K가 있는 편이에요.",
           "en": "A leafy green that provides calcium and vitamin K."
         },
-        "substituteGroupId": "sub-arugula"
+        "substituteGroupId": "sub-arugula",
+        "pointTags": [
+          {
+            "ko": "칼슘",
+            "en": "Calcium"
+          },
+          {
+            "ko": "비타민K",
+            "en": "Vitamin K"
+          }
+        ]
       },
       {
         "name": {
@@ -1222,7 +1494,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       },
       {
         "name": {
@@ -1235,7 +1513,13 @@
           "ko": "비타민 C를 더해주고 소금 없이도 감칠맛을 살려줘요.",
           "en": "Adds vitamin C and brightens flavor without needing extra salt."
         },
-        "substituteGroupId": "sub-lemon"
+        "substituteGroupId": "sub-lemon",
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C"
+          }
+        ]
       }
     ],
     "steps": [
@@ -1320,7 +1604,17 @@
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
           "en": "A legume rich in plant-based protein and fiber."
         },
-        "substituteGroupId": "sub-chickpeas"
+        "substituteGroupId": "sub-chickpeas",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1335,7 +1629,17 @@
           "ko": "비타민 K와 비타민 C가 풍부한 잎채소예요.",
           "en": "A leafy green rich in vitamin K and vitamin C."
         },
-        "substituteGroupId": "sub-kale"
+        "substituteGroupId": "sub-kale",
+        "pointTags": [
+          {
+            "ko": "비타민K",
+            "en": "Vitamin K"
+          },
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C"
+          }
+        ]
       },
       {
         "name": {
@@ -1350,7 +1654,13 @@
           "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
           "en": "A whole grain that retains more fiber than white rice."
         },
-        "substituteGroupId": "sub-brown-rice"
+        "substituteGroupId": "sub-brown-rice",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1365,7 +1675,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       },
       {
         "name": {
@@ -1379,7 +1695,13 @@
         "benefits": {
           "ko": "알리신이라는 화합물이 들어 있는 향신채예요.",
           "en": "Contains allicin, a compound formed when garlic is crushed."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "알리신",
+            "en": "Allicin"
+          }
+        ]
       }
     ],
     "steps": [
@@ -1471,7 +1793,13 @@
           "ko": "메밀로 만들어 정제 밀가루 면보다 식이섬유가 더 있는 편이에요.",
           "en": "Made from buckwheat, so it retains more fiber than noodles made from refined flour."
         },
-        "substituteGroupId": "sub-buckwheat-noodles"
+        "substituteGroupId": "sub-buckwheat-noodles",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1486,7 +1814,13 @@
           "ko": "콩으로 만든 식물성 단백질 식품이에요.",
           "en": "A plant-based protein food made from soybeans."
         },
-        "substituteGroupId": "sub-tofu"
+        "substituteGroupId": "sub-tofu",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          }
+        ]
       },
       {
         "name": {
@@ -1500,7 +1834,13 @@
         "benefits": {
           "ko": "수분 함량이 높은 채소예요.",
           "en": "A vegetable with high water content."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "수분",
+            "en": "Hydration"
+          }
+        ]
       },
       {
         "name": {
@@ -1516,7 +1856,13 @@
           "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.",
           "en": "Contains calcium and unsaturated fats."
         },
-        "substituteGroupId": "sub-sesame-seeds"
+        "substituteGroupId": "sub-sesame-seeds",
+        "pointTags": [
+          {
+            "ko": "칼슘",
+            "en": "Calcium"
+          }
+        ]
       },
       {
         "name": {
@@ -1531,7 +1877,13 @@
           "ko": "볶은 참깨로 만들어 소량으로도 고소한 향을 더해줘요.",
           "en": "Made from toasted sesame seeds; a little goes a long way for flavor."
         },
-        "substituteGroupId": "sub-sesame-oil"
+        "substituteGroupId": "sub-sesame-oil",
+        "pointTags": [
+          {
+            "ko": "고소한 풍미",
+            "en": "Nutty Flavor"
+          }
+        ]
       }
     ],
     "steps": [
@@ -1616,7 +1968,17 @@
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
           "en": "A legume rich in plant-based protein and fiber."
         },
-        "substituteGroupId": "sub-white-beans"
+        "substituteGroupId": "sub-white-beans",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1631,7 +1993,13 @@
           "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
           "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
         },
-        "substituteGroupId": "sub-quinoa"
+        "substituteGroupId": "sub-quinoa",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          }
+        ]
       },
       {
         "name": {
@@ -1646,7 +2014,17 @@
           "ko": "수분 함량이 높고 열량이 낮은 채소예요.",
           "en": "A vegetable that's high in water content and low in calories."
         },
-        "substituteGroupId": "sub-zucchini"
+        "substituteGroupId": "sub-zucchini",
+        "pointTags": [
+          {
+            "ko": "저칼로리",
+            "en": "Low-Calorie"
+          },
+          {
+            "ko": "수분",
+            "en": "Hydration"
+          }
+        ]
       },
       {
         "name": {
@@ -1661,7 +2039,13 @@
           "ko": "비타민 C가 풍부한 채소예요.",
           "en": "A vegetable rich in vitamin C."
         },
-        "substituteGroupId": "sub-bell-pepper"
+        "substituteGroupId": "sub-bell-pepper",
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C"
+          }
+        ]
       },
       {
         "name": {
@@ -1676,7 +2060,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       }
     ],
     "steps": [
@@ -1759,7 +2149,13 @@
         "benefits": {
           "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.",
           "en": "A food that provides protein along with a range of vitamins."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          }
+        ]
       },
       {
         "name": {
@@ -1774,7 +2170,13 @@
           "ko": "식이섬유인 베타글루칸이 풍부한 통곡물이에요.",
           "en": "A whole grain rich in beta-glucan fiber."
         },
-        "substituteGroupId": "sub-barley"
+        "substituteGroupId": "sub-barley",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1789,7 +2191,17 @@
           "ko": "철분과 엽산이 들어 있는 잎채소예요.",
           "en": "A leafy green that contains iron and folate."
         },
-        "substituteGroupId": "sub-spinach"
+        "substituteGroupId": "sub-spinach",
+        "pointTags": [
+          {
+            "ko": "철분",
+            "en": "Iron"
+          },
+          {
+            "ko": "엽산",
+            "en": "Folate"
+          }
+        ]
       },
       {
         "name": {
@@ -1803,7 +2215,13 @@
         "benefits": {
           "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
           "en": "Rich in beta-carotene, which gives it its orange color."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "베타카로틴",
+            "en": "Beta-Carotene"
+          }
+        ]
       },
       {
         "name": {
@@ -1818,7 +2236,13 @@
           "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of omega-3 fatty acids."
         },
-        "substituteGroupId": "sub-perilla-oil"
+        "substituteGroupId": "sub-perilla-oil",
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3"
+          }
+        ]
       }
     ],
     "steps": [
@@ -1910,7 +2334,13 @@
           "ko": "식물성 단백질이 풍부한 덜 여문 콩이에요.",
           "en": "Young soybeans that are a good source of plant-based protein."
         },
-        "substituteGroupId": "sub-edamame"
+        "substituteGroupId": "sub-edamame",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          }
+        ]
       },
       {
         "name": {
@@ -1925,7 +2355,13 @@
           "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
           "en": "A whole grain that retains more fiber than white rice."
         },
-        "substituteGroupId": "sub-brown-rice"
+        "substituteGroupId": "sub-brown-rice",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1940,7 +2376,17 @@
           "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
           "en": "A cruciferous vegetable rich in vitamin C and fiber."
         },
-        "substituteGroupId": "sub-broccoli"
+        "substituteGroupId": "sub-broccoli",
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -1956,7 +2402,13 @@
           "ko": "불포화지방이 풍부한 과일이에요.",
           "en": "A fruit rich in unsaturated fat."
         },
-        "substituteGroupId": "sub-avocado"
+        "substituteGroupId": "sub-avocado",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       },
       {
         "name": {
@@ -1972,7 +2424,13 @@
           "ko": "칼슘과 불포화지방이 들어 있는 씨앗이에요.",
           "en": "Contains calcium and unsaturated fats."
         },
-        "substituteGroupId": "sub-sesame-seeds"
+        "substituteGroupId": "sub-sesame-seeds",
+        "pointTags": [
+          {
+            "ko": "칼슘",
+            "en": "Calcium"
+          }
+        ]
       }
     ],
     "steps": [
@@ -2056,7 +2514,17 @@
           "ko": "지방이 적은 편인 단백질 식재료예요.",
           "en": "A relatively lean source of protein."
         },
-        "substituteGroupId": "sub-chicken-breast"
+        "substituteGroupId": "sub-chicken-breast",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          },
+          {
+            "ko": "저지방",
+            "en": "Lean"
+          }
+        ]
       },
       {
         "name": {
@@ -2070,7 +2538,13 @@
         "benefits": {
           "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
           "en": "Contains quercetin, a plant compound found in many vegetables."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "퀘르세틴",
+            "en": "Quercetin"
+          }
+        ]
       },
       {
         "name": {
@@ -2084,7 +2558,13 @@
         "benefits": {
           "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
           "en": "Rich in beta-carotene, which gives it its orange color."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "베타카로틴",
+            "en": "Beta-Carotene"
+          }
+        ]
       },
       {
         "name": {
@@ -2098,7 +2578,13 @@
         "benefits": {
           "ko": "수분 함량이 높고 아삭한 식감의 채소예요.",
           "en": "A crunchy vegetable with high water content."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "수분",
+            "en": "Hydration"
+          }
+        ]
       },
       {
         "name": {
@@ -2113,7 +2599,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       },
       {
         "name": {
@@ -2213,7 +2705,13 @@
           "ko": "콩으로 만든 식물성 단백질 식품이에요.",
           "en": "A plant-based protein food made from soybeans."
         },
-        "substituteGroupId": "sub-tofu"
+        "substituteGroupId": "sub-tofu",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          }
+        ]
       },
       {
         "name": {
@@ -2228,7 +2726,17 @@
           "ko": "식이섬유와 비타민 D 전구체가 들어 있는 버섯이에요.",
           "en": "Contains fiber and a precursor to vitamin D."
         },
-        "substituteGroupId": "sub-shiitake-mushroom"
+        "substituteGroupId": "sub-shiitake-mushroom",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          },
+          {
+            "ko": "비타민D",
+            "en": "Vitamin D"
+          }
+        ]
       },
       {
         "name": {
@@ -2243,7 +2751,17 @@
           "ko": "칼슘과 비타민 K가 들어 있는 잎채소예요.",
           "en": "A leafy green that contains calcium and vitamin K."
         },
-        "substituteGroupId": "sub-bok-choy"
+        "substituteGroupId": "sub-bok-choy",
+        "pointTags": [
+          {
+            "ko": "칼슘",
+            "en": "Calcium"
+          },
+          {
+            "ko": "비타민K",
+            "en": "Vitamin K"
+          }
+        ]
       },
       {
         "name": {
@@ -2258,7 +2776,13 @@
           "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
           "en": "A whole grain that retains more fiber than white rice."
         },
-        "substituteGroupId": "sub-brown-rice"
+        "substituteGroupId": "sub-brown-rice",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -2273,7 +2797,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       }
     ],
     "steps": [
@@ -2365,7 +2895,13 @@
           "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
           "en": "Rich in omega-3 fatty acids, which may support heart health."
         },
-        "substituteGroupId": "sub-salmon"
+        "substituteGroupId": "sub-salmon",
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3"
+          }
+        ]
       },
       {
         "name": {
@@ -2380,7 +2916,17 @@
           "ko": "비타민 C와 식이섬유가 풍부한 십자화과 채소예요.",
           "en": "A cruciferous vegetable rich in vitamin C and fiber."
         },
-        "substituteGroupId": "sub-broccoli"
+        "substituteGroupId": "sub-broccoli",
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -2395,7 +2941,13 @@
           "ko": "곡물 중에서는 드물게 단백질을 고루 갖춘 씨앗류예요.",
           "en": "A seed that, unlike most grains, contains a fairly complete protein profile."
         },
-        "substituteGroupId": "sub-quinoa"
+        "substituteGroupId": "sub-quinoa",
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          }
+        ]
       },
       {
         "name": {
@@ -2410,7 +2962,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       },
       {
         "name": {
@@ -2425,7 +2983,13 @@
           "ko": "비타민 C가 풍부하고 상큼한 산미를 더해줘요.",
           "en": "Rich in vitamin C and adds bright acidity."
         },
-        "substituteGroupId": "sub-lemon"
+        "substituteGroupId": "sub-lemon",
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C"
+          }
+        ]
       }
     ],
     "steps": [
@@ -2508,7 +3072,13 @@
         "benefits": {
           "ko": "단백질과 여러 비타민을 고루 갖춘 식재료예요.",
           "en": "A food that provides protein along with a range of vitamins."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          }
+        ]
       },
       {
         "name": {
@@ -2523,7 +3093,17 @@
           "ko": "철분과 엽산이 들어 있는 잎채소예요.",
           "en": "A leafy green that contains iron and folate."
         },
-        "substituteGroupId": "sub-spinach"
+        "substituteGroupId": "sub-spinach",
+        "pointTags": [
+          {
+            "ko": "철분",
+            "en": "Iron"
+          },
+          {
+            "ko": "엽산",
+            "en": "Folate"
+          }
+        ]
       },
       {
         "name": {
@@ -2537,7 +3117,13 @@
         "benefits": {
           "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
           "en": "Contains quercetin, a plant compound found in many vegetables."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "퀘르세틴",
+            "en": "Quercetin"
+          }
+        ]
       },
       {
         "name": {
@@ -2552,7 +3138,13 @@
           "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
           "en": "Contains lycopene, an antioxidant compound."
         },
-        "substituteGroupId": "sub-cherry-tomatoes"
+        "substituteGroupId": "sub-cherry-tomatoes",
+        "pointTags": [
+          {
+            "ko": "라이코펜",
+            "en": "Lycopene"
+          }
+        ]
       },
       {
         "name": {
@@ -2567,7 +3159,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       }
     ],
     "steps": [
@@ -2659,7 +3257,17 @@
         "benefits": {
           "ko": "식물성 단백질과 식이섬유가 풍부한 콩류예요.",
           "en": "A legume rich in plant-based protein and fiber."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -2674,7 +3282,13 @@
           "ko": "라이코펜이라는 항산화 성분이 들어 있는 채소예요.",
           "en": "Contains lycopene, an antioxidant compound."
         },
-        "substituteGroupId": "sub-tomato"
+        "substituteGroupId": "sub-tomato",
+        "pointTags": [
+          {
+            "ko": "라이코펜",
+            "en": "Lycopene"
+          }
+        ]
       },
       {
         "name": {
@@ -2688,7 +3302,13 @@
         "benefits": {
           "ko": "퀘르세틴이라는 식물성 화합물이 들어 있는 채소예요.",
           "en": "Contains quercetin, a plant compound found in many vegetables."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "퀘르세틴",
+            "en": "Quercetin"
+          }
+        ]
       },
       {
         "name": {
@@ -2703,7 +3323,17 @@
           "ko": "철분과 엽산이 들어 있는 잎채소예요.",
           "en": "A leafy green that contains iron and folate."
         },
-        "substituteGroupId": "sub-spinach"
+        "substituteGroupId": "sub-spinach",
+        "pointTags": [
+          {
+            "ko": "철분",
+            "en": "Iron"
+          },
+          {
+            "ko": "엽산",
+            "en": "Folate"
+          }
+        ]
       },
       {
         "name": {
@@ -2718,7 +3348,13 @@
           "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of unsaturated fat."
         },
-        "substituteGroupId": "sub-olive-oil"
+        "substituteGroupId": "sub-olive-oil",
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat"
+          }
+        ]
       }
     ],
     "steps": [
@@ -2810,7 +3446,13 @@
         "benefits": {
           "ko": "오메가-3 지방산이 풍부해 혈관 건강에 도움이 될 수 있어요.",
           "en": "Rich in omega-3 fatty acids, which may support heart health."
-        }
+        },
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3"
+          }
+        ]
       },
       {
         "name": {
@@ -2825,7 +3467,17 @@
           "ko": "철분과 엽산이 들어 있는 잎채소예요.",
           "en": "A leafy green that contains iron and folate."
         },
-        "substituteGroupId": "sub-spinach"
+        "substituteGroupId": "sub-spinach",
+        "pointTags": [
+          {
+            "ko": "철분",
+            "en": "Iron"
+          },
+          {
+            "ko": "엽산",
+            "en": "Folate"
+          }
+        ]
       },
       {
         "name": {
@@ -2840,7 +3492,13 @@
           "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
           "en": "A whole grain that retains more fiber than white rice."
         },
-        "substituteGroupId": "sub-brown-rice"
+        "substituteGroupId": "sub-brown-rice",
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber"
+          }
+        ]
       },
       {
         "name": {
@@ -2855,7 +3513,17 @@
           "ko": "수분 함량이 높고 소화 효소가 들어 있다고 알려진 뿌리채소예요.",
           "en": "A root vegetable known for its high water content and natural digestive enzymes."
         },
-        "substituteGroupId": "sub-daikon-radish"
+        "substituteGroupId": "sub-daikon-radish",
+        "pointTags": [
+          {
+            "ko": "수분",
+            "en": "Hydration"
+          },
+          {
+            "ko": "소화 효소",
+            "en": "Digestive Enzymes"
+          }
+        ]
       },
       {
         "name": {
@@ -2870,7 +3538,13 @@
           "ko": "오메가-3 지방산 비중이 높은 식물성 기름이에요.",
           "en": "A plant-based oil with a high proportion of omega-3 fatty acids."
         },
-        "substituteGroupId": "sub-perilla-oil"
+        "substituteGroupId": "sub-perilla-oil",
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3"
+          }
+        ]
       }
     ],
     "steps": [

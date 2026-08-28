@@ -70,6 +70,19 @@ export default function IngredientRow({
         </div>
       )}
 
+      {ingredient.pointTags && ingredient.pointTags.length > 0 && (
+        <div className="flex flex-wrap gap-1.5">
+          {ingredient.pointTags.map((pointTag) => (
+            <span
+              key={localizedText(pointTag, "en")}
+              className="rounded-full bg-sky-50 px-2 py-0.5 text-xs font-medium text-sky-700 dark:bg-sky-950 dark:text-sky-300"
+            >
+              {localizedText(pointTag, locale)}
+            </span>
+          ))}
+        </div>
+      )}
+
       {substituteGroup && (
         <details className="text-sm">
           <summary className="cursor-pointer font-medium text-emerald-700 dark:text-emerald-400">

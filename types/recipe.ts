@@ -10,6 +10,8 @@ export interface Ingredient {
   substituteGroupId?: string;
   /** Short, hedged explanation of why this ingredient is included (not a treatment claim) */
   benefits?: LocalizedText;
+  /** Short scannable keyword chips summarizing benefits (e.g. "Fiber", "Omega-3") — display only, not used in scoring */
+  pointTags?: LocalizedText[];
 }
 
 export interface RecipeStep {
