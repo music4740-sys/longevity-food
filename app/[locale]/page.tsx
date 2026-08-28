@@ -1,4 +1,4 @@
-import PlanListView from "@/components/PlanListView";
+import HomeView from "@/components/HomeView";
 import type { Locale } from "@/lib/i18n";
 
 export default async function Home({ params }: PageProps<"/[locale]">) {
@@ -6,5 +6,5 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
   const { locale: rawLocale } = await params;
   const locale = rawLocale as Locale;
 
-  return <PlanListView locale={locale} />;
+  return <HomeView locale={locale} />;
 }

@@ -55,6 +55,12 @@
     "originalIngredientLabel": "Original",
     "regionSelectedBadge": "Selected"
   },
+  "home": {
+    "trustHeadline1": "Designed around the food traditions of the world's longevity regions and published nutrition guidelines",
+    "trustHeadline2": "Every meal verified with a Longevity Score",
+    "featuredPlansTitle": "Featured Plans",
+    "viewAllPlans": "View All Plans"
+  },
   "ingredientTags": {
     "whole-grain": "Whole Grain",
     "refined-grain": "Refined Grain",

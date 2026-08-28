@@ -55,6 +55,12 @@
     "originalIngredientLabel": "원래 재료",
     "regionSelectedBadge": "선택됨"
   },
+  "home": {
+    "trustHeadline1": "세계 장수 지역의 식문화와 공개 영양 가이드라인을 기반으로 설계",
+    "trustHeadline2": "모든 끼니를 장수 지수로 검증",
+    "featuredPlansTitle": "추천 플랜",
+    "viewAllPlans": "전체 플랜 보기"
+  },
   "ingredientTags": {
     "whole-grain": "통곡물",
     "refined-grain": "정제곡물",
