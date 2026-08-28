@@ -19,6 +19,10 @@ export default function CuisineRegionPicker({ locale }: CuisineRegionPickerProps
   function handleSelect(region: CuisineRegion) {
     setSelectedRegion(region);
     setSelected(region);
+    // localStorage's "storage" event only fires in *other* tabs, so same-tab
+    // listeners (PlanDayGrid, the score badge) need an explicit nudge to
+    // pick up the change immediately instead of waiting for a reload.
+    window.dispatchEvent(new Event("cuisine-region-change"));
   }
 
   return (
@@ -26,7 +30,7 @@ export default function CuisineRegionPicker({ locale }: CuisineRegionPickerProps
       <span className="text-sm font-semibold text-zinc-500 dark:text-zinc-400">
         {t.plan.cuisineRegionLabel}
       </span>
-      <div className="flex flex-wrap gap-2">
+      <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1">
         {CUISINE_REGIONS.map((region) => (
           <button
             key={region}
@@ -35,11 +39,28 @@ export default function CuisineRegionPicker({ locale }: CuisineRegionPickerProps
             aria-pressed={selected === region}
             className={
               selected === region
-                ? "rounded-full bg-emerald-600 px-3 py-1.5 text-sm font-medium text-white"
-                : "rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-sm font-medium text-zinc-600 hover:border-emerald-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300"
+                ? "flex shrink-0 flex-col items-start gap-0.5 rounded-xl bg-emerald-600 px-3 py-2 text-left"
+                : "flex shrink-0 flex-col items-start gap-0.5 rounded-xl border border-zinc-200 bg-white px-3 py-2 text-left hover:border-emerald-300 dark:border-zinc-800 dark:bg-zinc-900"
             }
           >
-            {t.plan.cuisineRegions[region]}
+            <span
+              className={
+                selected === region
+                  ? "text-sm font-medium text-white"
+                  : "text-sm font-medium text-zinc-600 dark:text-zinc-300"
+              }
+            >
+              {t.plan.cuisineRegions[region]}
+            </span>
+            <span
+              className={
+                selected === region
+                  ? "whitespace-nowrap text-xs text-emerald-50"
+                  : "whitespace-nowrap text-xs text-zinc-400 dark:text-zinc-500"
+              }
+            >
+              {t.plan.cuisineRegionDescriptions[region]}
+            </span>
           </button>
         ))}
       </div>

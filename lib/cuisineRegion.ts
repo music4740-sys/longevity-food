@@ -1,4 +1,6 @@
-export type CuisineRegion = "KR" | "IT" | "IN" | "TR" | "MX";
+import type { CuisineRegion } from "@/types";
+
+export type { CuisineRegion };
 
 export const CUISINE_REGIONS: CuisineRegion[] = ["KR", "IT", "IN", "TR", "MX"];
 

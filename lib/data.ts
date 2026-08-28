@@ -3,7 +3,7 @@ import recipesJson from "@/data/recipes.json";
 import substitutesJson from "@/data/substitutes.json";
 import { calculateLongevityScore } from "@/lib/score";
 import { TAG_SET } from "@/types";
-import type { LongevityScoreBreakdown, Plan, Recipe, SubstituteGroup } from "@/types";
+import type { CuisineRegion, DayMeal, LongevityScoreBreakdown, Plan, Recipe, SubstituteGroup } from "@/types";
 
 // TypeScript widens JSON string arrays to `string[]`, so a literal-union field
 // like Ingredient.tags can't be checked at compile time (`satisfies` would
@@ -48,9 +48,23 @@ export function getRecipeLongevityScore(recipe: Recipe): LongevityScoreBreakdown
   return calculateLongevityScore(ingredientTags);
 }
 
+function resolveMealRecipeId(
+  day: DayMeal,
+  meal: "breakfast" | "lunch" | "dinner",
+  region?: CuisineRegion | null,
+): string {
+  if (!region) return day[meal];
+  const byRegion = day[`${meal}ByRegion`];
+  return byRegion?.[region] ?? day[meal];
+}
+
 /** Average longevity score across every meal slot in the plan's 7-day grid (duplicates included). */
-export function getPlanAverageLongevityScore(plan: Plan): number {
-  const mealRecipeIds = plan.days.flatMap((day) => [day.breakfast, day.lunch, day.dinner]);
+export function getPlanAverageLongevityScore(plan: Plan, region?: CuisineRegion | null): number {
+  const mealRecipeIds = plan.days.flatMap((day) => [
+    resolveMealRecipeId(day, "breakfast", region),
+    resolveMealRecipeId(day, "lunch", region),
+    resolveMealRecipeId(day, "dinner", region),
+  ]);
   const totals = mealRecipeIds.map((recipeId) => {
     const recipe = getRecipeById(recipeId);
     if (!recipe) {

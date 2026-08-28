@@ -37,6 +37,13 @@
       "IN": "南アジア・東南アジア",
       "TR": "中東・北アフリカ",
       "MX": "ラテンアメリカ"
+    },
+    "cuisineRegionDescriptions": {
+      "KR": "米・豆・発酵食品中心",
+      "IT": "オリーブオイル・魚介類・乳製品",
+      "IN": "スパイス・ハーブ・熱帯食材",
+      "TR": "豆類・ナッツ・赤身肉",
+      "MX": "とうもろこし・唐辛子・スーパーフード穀物"
     }
   },
   "recipe": {
@@ -56,7 +63,7 @@
     "regionSelectedBadge": "選択中"
   },
   "home": {
-    "trustHeadline1": "世界の長寿地域の食文化と公開された栄養ガイドラインをもとに設計",
+    "trustHeadline1": "世界の長寿地域の知恵、7日間リセットプラン",
     "trustHeadline2": "すべての食事を長寿スコアで検証",
     "featuredPlansTitle": "おすすめプラン",
     "viewAllPlans": "すべてのプランを見る"

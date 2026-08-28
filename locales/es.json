@@ -37,6 +37,13 @@
       "IN": "Sur y Sudeste Asiático",
       "TR": "Oriente Medio y Norte de África",
       "MX": "América Latina"
+    },
+    "cuisineRegionDescriptions": {
+      "KR": "Arroz, legumbres y alimentos fermentados",
+      "IT": "Aceite de oliva, marisco y lácteos",
+      "IN": "Especias, hierbas e ingredientes tropicales",
+      "TR": "Legumbres, frutos secos y carnes magras",
+      "MX": "Maíz, chile y cereales superalimento"
     }
   },
   "recipe": {
@@ -56,7 +63,7 @@
     "regionSelectedBadge": "Seleccionado"
   },
   "home": {
-    "trustHeadline1": "Diseñado a partir de la cultura culinaria de las regiones más longevas del mundo y guías nutricionales públicas",
+    "trustHeadline1": "La sabiduría de las regiones más longevas del mundo, en un plan de reinicio de 7 días",
     "trustHeadline2": "Cada comida verificada con el índice de longevidad",
     "featuredPlansTitle": "Planes destacados",
     "viewAllPlans": "Ver todos los planes"

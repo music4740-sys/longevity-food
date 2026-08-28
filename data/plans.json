@@ -28,43 +28,190 @@
         "day": 1,
         "breakfast": "oatmeal-berry-bowl",
         "lunch": "lentil-vegetable-soup",
-        "dinner": "grilled-mackerel-greens"
+        "dinner": "grilled-mackerel-greens",
+        "breakfastByRegion": {
+          "KR": "kr-tofu-doenjang-soup",
+          "IT": "it-greek-yogurt-nut-bowl",
+          "IN": "in-turmeric-lentil-porridge",
+          "TR": "tr-yogurt-almond-fig-bowl",
+          "MX": "mx-avocado-egg-bowl"
+        },
+        "lunchByRegion": {
+          "KR": "kr-vegetable-bibimbap",
+          "IT": "it-chickpea-farro-salad",
+          "IN": "in-chickpea-curry",
+          "TR": "tr-hummus-bowl",
+          "MX": "mx-black-bean-corn-salad"
+        },
+        "dinnerByRegion": {
+          "KR": "kr-grilled-mackerel-radish-salad",
+          "IT": "it-salmon-white-bean-salad",
+          "IN": "in-chicken-tikka-curry",
+          "TR": "tr-chicken-kebab-style",
+          "MX": "mx-chicken-salsa-grill"
+        }
       },
       {
         "day": 2,
         "breakfast": "chia-berry-pudding",
         "lunch": "chickpea-kale-bowl",
-        "dinner": "vegetable-frittata"
+        "dinner": "vegetable-frittata",
+        "breakfastByRegion": {
+          "KR": "kr-soybean-sprout-soup",
+          "IT": "it-egg-frittata-cherry-tomato",
+          "IN": "in-cucumber-yogurt-oat-bowl",
+          "TR": "tr-bulgur-tomato-bowl",
+          "MX": "mx-quinoa-avocado-bowl"
+        },
+        "lunchByRegion": {
+          "KR": "kr-tofu-kimchi-stew",
+          "IT": "it-lentil-farro-soup",
+          "IN": "in-chana-palak",
+          "TR": "tr-lentil-bulgur-soup",
+          "MX": "mx-black-bean-soup"
+        },
+        "dinnerByRegion": {
+          "KR": "kr-chicken-vegetable-stirfry",
+          "IT": "it-chicken-caprese",
+          "IN": "in-coconut-lentil-soup",
+          "TR": "tr-chickpea-spinach-stew",
+          "MX": "mx-salmon-corn-salsa"
+        }
       },
       {
         "day": 3,
         "breakfast": "buckwheat-apple-porridge",
         "lunch": "white-bean-quinoa-bowl",
-        "dinner": "salmon-broccoli-plate"
+        "dinner": "salmon-broccoli-plate",
+        "breakfastByRegion": {
+          "KR": "kr-steamed-egg",
+          "IT": "it-oat-yogurt-fig-bowl",
+          "IN": "in-turmeric-scrambled-eggs",
+          "TR": "tr-feta-cucumber-yogurt-bowl",
+          "MX": "mx-egg-salsa-scramble"
+        },
+        "lunchByRegion": {
+          "KR": "kr-buckwheat-noodles-spicy",
+          "IT": "it-white-bean-kale-soup",
+          "IN": "in-dal-brown-rice-bowl",
+          "TR": "tr-bulgur-pilaf-salad",
+          "MX": "mx-black-bean-quinoa-bowl"
+        },
+        "dinnerByRegion": {
+          "KR": "kr-tofu-steak-spinach",
+          "IT": "it-chickpea-ratatouille",
+          "IN": "in-chicken-saag",
+          "TR": "tr-salmon-tahini-sauce",
+          "MX": "mx-chicken-pumpkin-seed-bowl"
+        }
       },
       {
         "day": 4,
         "breakfast": "barley-pear-bowl",
         "lunch": "lentil-barley-salad",
-        "dinner": "tofu-mushroom-stirfry"
+        "dinner": "tofu-mushroom-stirfry",
+        "breakfastByRegion": {
+          "KR": "kr-seaweed-soup",
+          "IT": "it-ricotta-fig-bowl",
+          "IN": "in-yogurt-fig-bowl",
+          "TR": "tr-yogurt-walnut-fig-bowl",
+          "MX": "mx-avocado-tomato-bowl"
+        },
+        "lunchByRegion": {
+          "KR": "kr-brown-rice-porridge",
+          "IT": "it-lentil-spinach-stew",
+          "IN": "in-coconut-chickpea-curry",
+          "TR": "tr-chickpea-bell-pepper-stew",
+          "MX": "mx-black-bean-corn-soup"
+        },
+        "dinnerByRegion": {
+          "KR": "kr-doenjang-chicken",
+          "IT": "it-salmon-chickpea-puree",
+          "IN": "in-mixed-vegetable-dal-curry",
+          "TR": "tr-chicken-lentil-stew",
+          "MX": "mx-lime-garlic-chicken"
+        }
       },
       {
         "day": 5,
         "breakfast": "quinoa-blackberry-bowl",
         "lunch": "edamame-brown-rice-bowl",
-        "dinner": "grilled-mackerel-daikon-bowl"
+        "dinner": "grilled-mackerel-daikon-bowl",
+        "breakfastByRegion": {
+          "KR": "kr-bokchoy-tofu-fried-rice",
+          "IT": "it-greek-yogurt-blackberry-bowl",
+          "IN": "in-golden-turmeric-oatmeal",
+          "TR": "tr-bulgur-almond-bowl",
+          "MX": "mx-quinoa-pumpkin-seed-bowl"
+        },
+        "lunchByRegion": {
+          "KR": "kr-soybean-sprout-bibimbap",
+          "IT": "it-farro-kale-salad",
+          "IN": "in-chicken-chickpea-bowl",
+          "TR": "tr-chickpea-cucumber-salad",
+          "MX": "mx-black-bean-avocado-salad"
+        },
+        "dinnerByRegion": {
+          "KR": "kr-grilled-salmon-napa-salad",
+          "IT": "it-chicken-bell-pepper-stew",
+          "IN": "in-coconut-salmon-curry",
+          "TR": "tr-yogurt-marinated-chicken",
+          "MX": "mx-salmon-chili-salsa"
+        }
       },
       {
         "day": 6,
         "breakfast": "rye-flake-fig-porridge",
         "lunch": "egg-vegetable-barley-bowl",
-        "dinner": "chicken-vegetable-stew"
+        "dinner": "chicken-vegetable-stew",
+        "breakfastByRegion": {
+          "KR": "kr-egg-vegetable-porridge",
+          "IT": "it-oat-fig-bowl",
+          "IN": "in-chickpea-scramble",
+          "TR": "tr-feta-tomato-bowl",
+          "MX": "mx-egg-black-bean-scramble"
+        },
+        "lunchByRegion": {
+          "KR": "kr-tofu-kimchi-fried-rice",
+          "IT": "it-white-bean-pasta-soup",
+          "IN": "in-spinach-brown-rice-bowl",
+          "TR": "tr-cumin-lentil-soup",
+          "MX": "mx-chicken-quinoa-bowl"
+        },
+        "dinnerByRegion": {
+          "KR": "kr-steamed-chicken-vegetables",
+          "IT": "it-sauteed-chickpea-spinach",
+          "IN": "in-coconut-chicken-curry",
+          "TR": "tr-chickpea-zucchini-stew",
+          "MX": "mx-black-bean-vegetable-stew"
+        }
       },
       {
         "day": 7,
         "breakfast": "millet-plum-porridge",
         "lunch": "tofu-buckwheat-noodle-bowl",
-        "dinner": "lentil-tomato-stew"
+        "dinner": "lentil-tomato-stew",
+        "breakfastByRegion": {
+          "KR": "kr-tofu-scramble",
+          "IT": "it-ricotta-almond-bowl",
+          "IN": "in-yogurt-nut-bowl",
+          "TR": "tr-yogurt-cinnamon-fig-bowl",
+          "MX": "mx-avocado-pumpkin-seed-bowl"
+        },
+        "lunchByRegion": {
+          "KR": "kr-cold-buckwheat-salad",
+          "IT": "it-lentil-farro-bell-pepper-salad",
+          "IN": "in-mixed-lentil-chickpea-curry",
+          "TR": "tr-bulgur-chickpea-salad",
+          "MX": "mx-quinoa-black-bean-salsa-bowl"
+        },
+        "dinnerByRegion": {
+          "KR": "kr-braised-mackerel-bokchoy",
+          "IT": "it-salmon-caprese-plate",
+          "IN": "in-salmon-saag",
+          "TR": "tr-salmon-bell-pepper",
+          "MX": "mx-chicken-avocado-plate"
+        }
       }
     ]
   },
@@ -72,12 +219,12 @@
     "id": "heart-health-reset-7day",
     "slug": "heart-health-reset-7day",
     "title": {
-      "ko": "심장 건강 리셋",
-      "en": "Heart Health Reset",
-      "ja": "心臓の健康リセット",
-      "zh": "心脏健康调节计划",
-      "es": "Reinicio para la salud del corazón",
-      "fr": "Programme pour la santé cardiaque"
+      "ko": "7일 심장 건강 리셋 플랜",
+      "en": "7-Day Heart Health Reset Plan",
+      "ja": "7日間心臓健康リセットプラン",
+      "zh": "7天心脏健康调节计划",
+      "es": "Plan de reinicio de 7 días para la salud del corazón",
+      "fr": "Programme de 7 jours pour la santé cardiaque"
     },
     "description": {
       "ko": "혈관 건강에 도움이 될 수 있는 오메가-3와 식이섬유 중심으로 구성한 7일 리셋 플랜입니다.",
@@ -141,12 +288,12 @@
     "id": "gut-health-reset-7day",
     "slug": "gut-health-reset-7day",
     "title": {
-      "ko": "장 건강 식단",
-      "en": "Gut Health Reset",
-      "ja": "腸内環境ケアプラン",
-      "zh": "肠道健康饮食计划",
-      "es": "Reinicio para la salud intestinal",
-      "fr": "Programme pour la santé intestinale"
+      "ko": "7일 장 건강 식단",
+      "en": "7-Day Gut Health Reset",
+      "ja": "7日間腸内環境ケアプラン",
+      "zh": "7天肠道健康饮食计划",
+      "es": "Reinicio de 7 días para la salud intestinal",
+      "fr": "Programme de 7 jours pour la santé intestinale"
     },
     "description": {
       "ko": "식이섬유가 풍부한 재료로 구성해 장 건강에 도움을 줄 수 있는 7일 플랜입니다.",
@@ -210,12 +357,12 @@
     "id": "plant-forward-reset-7day",
     "slug": "plant-forward-reset-7day",
     "title": {
-      "ko": "식물성 중심 플랜",
-      "en": "Plant-Forward Reset",
-      "ja": "植物性中心プラン",
-      "zh": "植物性为主计划",
-      "es": "Reinicio con enfoque vegetal",
-      "fr": "Programme à dominante végétale"
+      "ko": "7일 식물성 중심 플랜",
+      "en": "7-Day Plant-Forward Reset",
+      "ja": "7日間植物性中心プラン",
+      "zh": "7天植物性为主计划",
+      "es": "Reinicio de 7 días con enfoque vegetal",
+      "fr": "Programme de 7 jours à dominante végétale"
     },
     "description": {
       "ko": "식물성 재료 비중을 최대한 높여 구성한 7일 플랜입니다.",
@@ -278,12 +425,12 @@
     "id": "balanced-energy-reset-7day",
     "slug": "balanced-energy-reset-7day",
     "title": {
-      "ko": "활력 균형 플랜",
-      "en": "Balanced Energy Reset",
-      "ja": "活力バランスプラン",
-      "zh": "活力均衡计划",
-      "es": "Reinicio de energía equilibrada",
-      "fr": "Programme d'énergie équilibrée"
+      "ko": "7일 활력 균형 플랜",
+      "en": "7-Day Balanced Energy Reset",
+      "ja": "7日間活力バランスプラン",
+      "zh": "7天活力均衡计划",
+      "es": "Reinicio de energía equilibrada de 7 días",
+      "fr": "Programme d'énergie équilibrée de 7 jours"
     },
     "description": {
       "ko": "다양한 영양소를 골고루 갖춘 균형 잡힌 7일 플랜입니다.",
@@ -346,12 +493,12 @@
     "id": "cardiovascular-reset-7day",
     "slug": "cardiovascular-reset-7day",
     "title": {
-      "ko": "심혈관 건강 리셋",
-      "en": "Cardiovascular Health Reset",
-      "ja": "心血管健康リセット",
-      "zh": "心血管健康调节计划",
-      "es": "Reinicio cardiovascular",
-      "fr": "Programme cardiovasculaire"
+      "ko": "7일 혈관 건강 리셋 플랜",
+      "en": "7-Day Vascular Health Reset Plan",
+      "ja": "7日間血管健康リセットプラン",
+      "zh": "7天血管健康调节计划",
+      "es": "Plan de reinicio de 7 días para la salud vascular",
+      "fr": "Programme de 7 jours pour la santé vasculaire"
     },
     "description": {
       "ko": "나트륨 부담을 줄이고 채소·통곡물 비중을 높인 7일 심혈관 건강 리셋 플랜입니다.",
@@ -415,12 +562,12 @@
     "id": "brain-cognitive-reset-7day",
     "slug": "brain-cognitive-reset-7day",
     "title": {
-      "ko": "뇌 건강 리셋",
-      "en": "Brain Health Reset",
-      "ja": "脳の健康リセット",
-      "zh": "大脑健康调节计划",
-      "es": "Reinicio para la salud cerebral",
-      "fr": "Programme pour la santé cérébrale"
+      "ko": "7일 뇌 건강 리셋 플랜",
+      "en": "7-Day Brain Health Reset Plan",
+      "ja": "7日間脳健康リセットプラン",
+      "zh": "7天大脑健康调节计划",
+      "es": "Plan de reinicio de 7 días para la salud cerebral",
+      "fr": "Programme de 7 jours pour la santé cérébrale"
     },
     "description": {
       "ko": "베리류와 견과류, 잎채소를 중심으로 구성한 7일 인지 건강 리셋 플랜입니다.",
@@ -485,12 +632,12 @@
     "id": "anti-inflammatory-reset-7day",
     "slug": "anti-inflammatory-reset-7day",
     "title": {
-      "ko": "염증 완화 리셋",
-      "en": "Anti-Inflammatory Reset",
-      "ja": "炎症ケアリセット",
-      "zh": "抗炎调节计划",
-      "es": "Reinicio antiinflamatorio",
-      "fr": "Programme anti-inflammatoire"
+      "ko": "7일 염증 완화 리셋 플랜",
+      "en": "7-Day Anti-Inflammatory Reset Plan",
+      "ja": "7日間炎症ケアリセットプラン",
+      "zh": "7天抗炎调节计划",
+      "es": "Plan de reinicio antiinflamatorio de 7 días",
+      "fr": "Programme anti-inflammatoire de 7 jours"
     },
     "description": {
       "ko": "항산화 성분과 건강한 지방이 풍부한 재료로 구성해 염증 부담을 낮추는 데 도움이 될 수 있는 7일 플랜입니다.",
@@ -554,12 +701,12 @@
     "id": "skin-hair-reset-7day",
     "slug": "skin-hair-reset-7day",
     "title": {
-      "ko": "피부·모발 건강 리셋",
-      "en": "Skin & Hair Health Reset",
-      "ja": "肌・髪の健康リセット",
-      "zh": "肌肤秀发健康调节计划",
-      "es": "Reinicio para la piel y el cabello",
-      "fr": "Programme pour la peau et les cheveux"
+      "ko": "7일 피부 건강 리셋 플랜",
+      "en": "7-Day Skin Health Reset Plan",
+      "ja": "7日間肌健康リセットプラン",
+      "zh": "7天肌肤健康调节计划",
+      "es": "Plan de reinicio de 7 días para la salud de la piel",
+      "fr": "Programme de 7 jours pour la santé de la peau"
     },
     "description": {
       "ko": "비타민과 건강한 지방이 풍부한 재료로 구성한 7일 피부·모발 건강 리셋 플랜입니다.",
@@ -623,12 +770,12 @@
     "id": "muscle-maintenance-reset-7day",
     "slug": "muscle-maintenance-reset-7day",
     "title": {
-      "ko": "근육 건강 리셋",
-      "en": "Muscle Health Reset",
-      "ja": "筋肉の健康リセット",
-      "zh": "肌肉健康调节计划",
-      "es": "Reinicio para la salud muscular",
-      "fr": "Programme pour la santé musculaire"
+      "ko": "7일 근육 건강 리셋 플랜",
+      "en": "7-Day Muscle Health Reset Plan",
+      "ja": "7日間筋肉健康リセットプラン",
+      "zh": "7天肌肉健康调节计划",
+      "es": "Plan de reinicio de 7 días para la salud muscular",
+      "fr": "Programme de 7 jours pour la santé musculaire"
     },
     "description": {
       "ko": "단백질이 풍부한 재료 위주로 구성해 근육 건강 유지에 도움이 될 수 있는 7일 플랜입니다.",
@@ -692,12 +839,12 @@
     "id": "weight-management-reset-7day",
     "slug": "weight-management-reset-7day",
     "title": {
-      "ko": "체중 관리 리셋",
-      "en": "Weight Management Reset",
-      "ja": "体重管理リセット",
-      "zh": "体重管理调节计划",
-      "es": "Reinicio para el control de peso",
-      "fr": "Programme de gestion du poids"
+      "ko": "7일 체중 관리 리셋",
+      "en": "7-Day Weight Management Reset",
+      "ja": "7日間体重管理リセット",
+      "zh": "7天体重管理调节计划",
+      "es": "Reinicio de 7 días para el control de peso",
+      "fr": "Programme de 7 jours de gestion du poids"
     },
     "description": {
       "ko": "포만감을 주면서도 가벼운 재료로 구성한 7일 체중 관리 리셋 플랜입니다.",
@@ -761,12 +908,12 @@
     "id": "light-eating-days-reset-7day",
     "slug": "light-eating-days-reset-7day",
     "title": {
-      "ko": "가볍게 먹는 날 플랜",
-      "en": "Light Eating Days Plan",
-      "ja": "軽めの日プラン",
-      "zh": "轻食日计划",
-      "es": "Plan de días ligeros",
-      "fr": "Programme de jours légers"
+      "ko": "7일 가볍게 먹는 날 플랜",
+      "en": "7-Day Light Eating Days Plan",
+      "ja": "7日間軽めの日プラン",
+      "zh": "7天轻食日计划",
+      "es": "Plan de días ligeros de 7 días",
+      "fr": "Programme de 7 jours de repas légers"
     },
     "description": {
       "ko": "하루 섭취량 부담을 줄인 가벼운 재료 위주로 구성한 7일 플랜입니다. 의학적 단식 요법이 아니며, 평소보다 가볍게 먹는 날을 위한 식단 제안입니다.",
@@ -829,12 +976,12 @@
     "id": "okinawa-style-reset-7day",
     "slug": "okinawa-style-reset-7day",
     "title": {
-      "ko": "오키나와 스타일 리셋",
-      "en": "Okinawa-Inspired Reset",
-      "ja": "沖縄スタイルリセット",
-      "zh": "冲绳风味调节计划",
-      "es": "Reinicio inspirado en Okinawa",
-      "fr": "Programme inspiré d'Okinawa"
+      "ko": "7일 오키나와 스타일 리셋",
+      "en": "7-Day Okinawa-Inspired Reset",
+      "ja": "7日間沖縄スタイルリセット",
+      "zh": "7天冲绳风味调节计划",
+      "es": "Reinicio de 7 días inspirado en Okinawa",
+      "fr": "Programme de 7 jours inspiré d'Okinawa"
     },
     "description": {
       "ko": "오키나와 식문화에서 영감을 받아 두부와 채소 중심으로 재구성한 7일 플랜입니다.",
@@ -898,12 +1045,12 @@
     "id": "sardinia-style-reset-7day",
     "slug": "sardinia-style-reset-7day",
     "title": {
-      "ko": "사르데냐 스타일 리셋",
-      "en": "Sardinia-Inspired Reset",
-      "ja": "サルデーニャスタイルリセット",
-      "zh": "撒丁岛风味调节计划",
-      "es": "Reinicio inspirado en Cerdeña",
-      "fr": "Programme inspiré de la Sardaigne"
+      "ko": "7일 사르데냐 스타일 리셋",
+      "en": "7-Day Sardinia-Inspired Reset",
+      "ja": "7日間サルデーニャスタイルリセット",
+      "zh": "7天撒丁岛风味调节计划",
+      "es": "Reinicio de 7 días inspirado en Cerdeña",
+      "fr": "Programme de 7 jours inspiré de la Sardaigne"
     },
     "description": {
       "ko": "사르데냐 식문화에서 영감을 받아 통곡물과 콩류 중심으로 재구성한 7일 플랜입니다.",
@@ -967,12 +1114,12 @@
     "id": "ikaria-style-reset-7day",
     "slug": "ikaria-style-reset-7day",
     "title": {
-      "ko": "이카리아 스타일 리셋",
-      "en": "Ikaria-Inspired Reset",
-      "ja": "イカリアスタイルリセット",
-      "zh": "伊卡利亚风味调节计划",
-      "es": "Reinicio inspirado en Icaria",
-      "fr": "Programme inspiré d'Ikaria"
+      "ko": "7일 이카리아 스타일 리셋",
+      "en": "7-Day Ikaria-Inspired Reset",
+      "ja": "7日間イカリアスタイルリセット",
+      "zh": "7天伊卡利亚风味调节计划",
+      "es": "Reinicio de 7 días inspirado en Icaria",
+      "fr": "Programme de 7 jours inspiré d'Ikaria"
     },
     "description": {
       "ko": "이카리아 식문화에서 영감을 받아 잎채소와 콩류 중심으로 재구성한 7일 플랜입니다.",
@@ -1036,12 +1183,12 @@
     "id": "nicoya-style-reset-7day",
     "slug": "nicoya-style-reset-7day",
     "title": {
-      "ko": "니코야 스타일 리셋",
-      "en": "Nicoya-Inspired Reset",
-      "ja": "ニコヤスタイルリセット",
-      "zh": "尼科亚风味调节计划",
-      "es": "Reinicio inspirado en Nicoya",
-      "fr": "Programme inspiré de Nicoya"
+      "ko": "7일 니코야 스타일 리셋",
+      "en": "7-Day Nicoya-Inspired Reset",
+      "ja": "7日間ニコヤスタイルリセット",
+      "zh": "7天尼科亚风味调节计划",
+      "es": "Reinicio de 7 días inspirado en Nicoya",
+      "fr": "Programme de 7 jours inspiré de Nicoya"
     },
     "description": {
       "ko": "니코야 식문화에서 영감을 받아 콩류와 과일 중심으로 재구성한 7일 플랜입니다.",
@@ -1105,12 +1252,12 @@
     "id": "loma-linda-style-reset-7day",
     "slug": "loma-linda-style-reset-7day",
     "title": {
-      "ko": "로마린다 스타일 리셋",
-      "en": "Loma Linda-Inspired Reset",
-      "ja": "ロマリンダスタイルリセット",
-      "zh": "罗马林达风味调节计划",
-      "es": "Reinicio inspirado en Loma Linda",
-      "fr": "Programme inspiré de Loma Linda"
+      "ko": "7일 로마린다 스타일 리셋",
+      "en": "7-Day Loma Linda-Inspired Reset",
+      "ja": "7日間ロマリンダスタイルリセット",
+      "zh": "7天罗马林达风味调节计划",
+      "es": "Reinicio de 7 días inspirado en Loma Linda",
+      "fr": "Programme de 7 jours inspiré de Loma Linda"
     },
     "description": {
       "ko": "로마린다 식문화에서 영감을 받아 식물성 재료만으로 재구성한 7일 플랜입니다.",

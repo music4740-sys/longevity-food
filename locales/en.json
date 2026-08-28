@@ -37,6 +37,13 @@
       "IN": "South & Southeast Asia",
       "TR": "Middle East & North Africa",
       "MX": "Latin America"
+    },
+    "cuisineRegionDescriptions": {
+      "KR": "Rice, legumes, and fermented foods",
+      "IT": "Olive oil, seafood, and dairy",
+      "IN": "Spices, herbs, and tropical ingredients",
+      "TR": "Legumes, nuts, and lean meats",
+      "MX": "Corn, chili, and superfood grains"
     }
   },
   "recipe": {
@@ -56,7 +63,7 @@
     "regionSelectedBadge": "Selected"
   },
   "home": {
-    "trustHeadline1": "Designed around the food traditions of the world's longevity regions and published nutrition guidelines",
+    "trustHeadline1": "The wisdom of the world's longevity regions, in a 7-day reset plan",
     "trustHeadline2": "Every meal verified with a Longevity Score",
     "featuredPlansTitle": "Featured Plans",
     "viewAllPlans": "View All Plans"

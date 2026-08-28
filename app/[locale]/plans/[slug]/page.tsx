@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import CuisineRegionPicker from "@/components/CuisineRegionPicker";
 import PlanDayGrid from "@/components/PlanDayGrid";
-import { getPlanAverageLongevityScore, getPlanBySlug, plans } from "@/lib/data";
+import PlanScoreBadge from "@/components/PlanScoreBadge";
+import { getPlanBySlug, plans } from "@/lib/data";
 import { getDictionary, localizedText, type Locale } from "@/lib/i18n";
 
 export function generateStaticParams() {
@@ -19,7 +20,6 @@ export default async function PlanDetailPage({ params }: PageProps<"/[locale]/pl
   }
 
   const t = getDictionary(locale);
-  const averageScore = getPlanAverageLongevityScore(plan);
 
   return (
     <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-black">
@@ -28,10 +28,7 @@ export default async function PlanDetailPage({ params }: PageProps<"/[locale]/pl
           <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
             {localizedText(plan.title, locale)}
           </h1>
-          <span className="w-fit rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
-            {t.plan.longevityScoreLabel} {averageScore}
-            {t.plan.scoreUnit}
-          </span>
+          <PlanScoreBadge plan={plan} locale={locale} />
         </div>
         <CuisineRegionPicker locale={locale} />
         <PlanDayGrid plan={plan} locale={locale} />

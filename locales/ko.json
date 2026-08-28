@@ -37,6 +37,13 @@
       "IN": "남아시아·동남아시아",
       "TR": "중동·북아프리카",
       "MX": "라틴아메리카"
+    },
+    "cuisineRegionDescriptions": {
+      "KR": "쌀·콩·발효식품 중심 식단",
+      "IT": "올리브유·해산물·유제품",
+      "IN": "향신료·허브·열대재료",
+      "TR": "콩·견과류·담백한 육류",
+      "MX": "옥수수·고추·슈퍼푸드 곡물"
     }
   },
   "recipe": {
@@ -56,7 +63,7 @@
     "regionSelectedBadge": "선택됨"
   },
   "home": {
-    "trustHeadline1": "세계 장수 지역의 식문화와 공개 영양 가이드라인을 기반으로 설계",
+    "trustHeadline1": "세계 장수 지역의 지혜, 7일 리셋 플랜",
     "trustHeadline2": "모든 끼니를 장수 지수로 검증",
     "featuredPlansTitle": "추천 플랜",
     "viewAllPlans": "전체 플랜 보기"

@@ -37,6 +37,13 @@
       "IN": "南亚·东南亚",
       "TR": "中东·北非",
       "MX": "拉丁美洲"
+    },
+    "cuisineRegionDescriptions": {
+      "KR": "米饭·豆类·发酵食品为主",
+      "IT": "橄榄油·海鲜·乳制品",
+      "IN": "香料·香草·热带食材",
+      "TR": "豆类·坚果·瘦肉",
+      "MX": "玉米·辣椒·超级食物谷物"
     }
   },
   "recipe": {
@@ -56,7 +63,7 @@
     "regionSelectedBadge": "已选择"
   },
   "home": {
-    "trustHeadline1": "基于世界长寿地区的饮食文化与公开营养指南设计",
+    "trustHeadline1": "世界长寿地区的智慧,7天调节计划",
     "trustHeadline2": "每一餐都经过长寿指数验证",
     "featuredPlansTitle": "精选计划",
     "viewAllPlans": "查看全部计划"

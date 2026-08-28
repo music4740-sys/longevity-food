@@ -1,16 +1,41 @@
-import { Fragment } from "react";
+"use client";
+
+import { Fragment, useEffect, useState } from "react";
 import MealCell from "@/components/MealCell";
+import { getSelectedRegion, type CuisineRegion } from "@/lib/cuisineRegion";
 import { getDictionary, type Locale } from "@/lib/i18n";
-import type { Plan } from "@/types";
+import type { DayMeal, Plan } from "@/types";
 
 interface PlanDayGridProps {
   plan: Plan;
   locale: Locale;
 }
 
+function resolveRecipeId(
+  day: DayMeal,
+  meal: "breakfast" | "lunch" | "dinner",
+  region: CuisineRegion | null,
+): string {
+  if (!region) return day[meal];
+  const byRegion = day[`${meal}ByRegion`];
+  return byRegion?.[region] ?? day[meal];
+}
+
 export default function PlanDayGrid({ plan, locale }: PlanDayGridProps) {
   const t = getDictionary(locale);
   const dayLabel = (day: number) => t.plan.dayLabelFormat.replace("{n}", String(day));
+  const [region, setRegion] = useState<CuisineRegion | null>(null);
+
+  useEffect(() => {
+    setRegion(getSelectedRegion());
+    const onStorage = () => setRegion(getSelectedRegion());
+    window.addEventListener("storage", onStorage);
+    window.addEventListener("cuisine-region-change", onStorage);
+    return () => {
+      window.removeEventListener("storage", onStorage);
+      window.removeEventListener("cuisine-region-change", onStorage);
+    };
+  }, []);
 
   return (
     <>
@@ -25,9 +50,9 @@ export default function PlanDayGrid({ plan, locale }: PlanDayGridProps) {
               {dayLabel(day.day)}
             </h2>
             <div className="flex flex-col gap-2">
-              <MealCell recipeId={day.breakfast} mealLabel={t.plan.mealLabels.breakfast} locale={locale} />
-              <MealCell recipeId={day.lunch} mealLabel={t.plan.mealLabels.lunch} locale={locale} />
-              <MealCell recipeId={day.dinner} mealLabel={t.plan.mealLabels.dinner} locale={locale} />
+              <MealCell recipeId={resolveRecipeId(day, "breakfast", region)} mealLabel={t.plan.mealLabels.breakfast} locale={locale} />
+              <MealCell recipeId={resolveRecipeId(day, "lunch", region)} mealLabel={t.plan.mealLabels.lunch} locale={locale} />
+              <MealCell recipeId={resolveRecipeId(day, "dinner", region)} mealLabel={t.plan.mealLabels.dinner} locale={locale} />
             </div>
           </section>
         ))}
@@ -50,9 +75,9 @@ export default function PlanDayGrid({ plan, locale }: PlanDayGridProps) {
             <div className="flex items-center px-1 text-sm font-semibold text-zinc-500 dark:text-zinc-400">
               {dayLabel(day.day)}
             </div>
-            <MealCell recipeId={day.breakfast} mealLabel={t.plan.mealLabels.breakfast} locale={locale} />
-            <MealCell recipeId={day.lunch} mealLabel={t.plan.mealLabels.lunch} locale={locale} />
-            <MealCell recipeId={day.dinner} mealLabel={t.plan.mealLabels.dinner} locale={locale} />
+            <MealCell recipeId={resolveRecipeId(day, "breakfast", region)} mealLabel={t.plan.mealLabels.breakfast} locale={locale} />
+            <MealCell recipeId={resolveRecipeId(day, "lunch", region)} mealLabel={t.plan.mealLabels.lunch} locale={locale} />
+            <MealCell recipeId={resolveRecipeId(day, "dinner", region)} mealLabel={t.plan.mealLabels.dinner} locale={locale} />
           </Fragment>
         ))}
       </div>

@@ -37,6 +37,13 @@
       "IN": "Asie du Sud et du Sud-Est",
       "TR": "Moyen-Orient et Afrique du Nord",
       "MX": "Amérique latine"
+    },
+    "cuisineRegionDescriptions": {
+      "KR": "Riz, légumineuses et aliments fermentés",
+      "IT": "Huile d'olive, fruits de mer et produits laitiers",
+      "IN": "Épices, herbes et ingrédients tropicaux",
+      "TR": "Légumineuses, fruits à coque et viandes maigres",
+      "MX": "Maïs, piment et céréales superaliments"
     }
   },
   "recipe": {
@@ -56,7 +63,7 @@
     "regionSelectedBadge": "Sélectionné"
   },
   "home": {
-    "trustHeadline1": "Conçu à partir des traditions culinaires des régions les plus longévives au monde et de recommandations nutritionnelles publiques",
+    "trustHeadline1": "La sagesse des régions les plus longévives au monde, en un programme de 7 jours",
     "trustHeadline2": "Chaque repas vérifié par l'indice de longévité",
     "featuredPlansTitle": "Plans à la une",
     "viewAllPlans": "Voir tous les plans"
