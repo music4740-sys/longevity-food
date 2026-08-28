@@ -76,6 +76,17 @@
     "whyScoreVerified": "毎食を長寿スコアで検証",
     "whyMultilingual": "6言語に対応"
   },
+  "settings": {
+    "sectionGeneral": "一般",
+    "sectionAbout": "情報",
+    "donationCardTitle": "ILFを応援する",
+    "donationCardDesc": "サーバー運用とデータ更新に使われます",
+    "copyAccountNumber": "口座番号をコピー",
+    "copiedFeedback": "コピーしました",
+    "aboutVersionLabel": "バージョン",
+    "aboutLanguagesLabel": "対応言語",
+    "languageCountUnit": "つ"
+  },
   "ingredientTags": {
     "whole-grain": "全粒穀物",
     "refined-grain": "精製穀物",

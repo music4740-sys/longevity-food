@@ -76,6 +76,17 @@
     "whyScoreVerified": "Chaque repas vérifié par un indice",
     "whyMultilingual": "Disponible en 6 langues"
   },
+  "settings": {
+    "sectionGeneral": "Général",
+    "sectionAbout": "À propos",
+    "donationCardTitle": "Soutenir ILF",
+    "donationCardDesc": "Sert à l'hébergement et à la mise à jour des données",
+    "copyAccountNumber": "Copier le numéro de compte",
+    "copiedFeedback": "Copié",
+    "aboutVersionLabel": "Version",
+    "aboutLanguagesLabel": "Langues prises en charge",
+    "languageCountUnit": ""
+  },
   "ingredientTags": {
     "whole-grain": "Céréale complète",
     "refined-grain": "Céréale raffinée",

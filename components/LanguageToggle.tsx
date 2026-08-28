@@ -13,6 +13,17 @@ const LOCALE_LABELS: Record<Locale, string> = {
   fr: "Français",
 };
 
+// Display-only decoration, not translated UI text — same reasoning as
+// REGION_EMOJI in HomeView.tsx.
+const LOCALE_FLAG: Record<Locale, string> = {
+  ko: "🇰🇷",
+  en: "🇺🇸",
+  ja: "🇯🇵",
+  zh: "🇨🇳",
+  es: "🇪🇸",
+  fr: "🇫🇷",
+};
+
 export default function LanguageToggle() {
   const pathname = usePathname();
   const segments = pathname.split("/");
@@ -20,21 +31,45 @@ export default function LanguageToggle() {
   const restOfPath = segments.slice(2).join("/");
 
   return (
-    <nav className="flex flex-wrap gap-x-3 gap-y-1 text-sm">
-      {LOCALES.map((locale) => (
-        <Link
-          key={locale}
-          href={restOfPath ? `/${locale}/${restOfPath}` : `/${locale}`}
-          aria-current={locale === currentLocale ? "page" : undefined}
-          className={
-            locale === currentLocale
-              ? "font-semibold text-emerald-700 dark:text-emerald-400"
-              : "text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"
-          }
-        >
-          {LOCALE_LABELS[locale]}
-        </Link>
-      ))}
+    <nav className="flex flex-col divide-y divide-zinc-200 dark:divide-zinc-800">
+      {LOCALES.map((locale) => {
+        const isCurrent = locale === currentLocale;
+        return (
+          <Link
+            key={locale}
+            href={restOfPath ? `/${locale}/${restOfPath}` : `/${locale}`}
+            aria-current={isCurrent ? "page" : undefined}
+            className={
+              "flex items-center gap-3 px-4 py-3 " +
+              (isCurrent
+                ? "bg-emerald-50 dark:bg-emerald-950/40"
+                : "hover:bg-zinc-50 dark:hover:bg-zinc-800/60")
+            }
+          >
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-zinc-100 text-sm dark:bg-zinc-800">
+              {LOCALE_FLAG[locale]}
+            </span>
+            <span
+              className={
+                "flex-1 text-sm " +
+                (isCurrent
+                  ? "font-semibold text-emerald-800 dark:text-emerald-400"
+                  : "font-medium text-zinc-600 dark:text-zinc-300")
+              }
+            >
+              {LOCALE_LABELS[locale]}
+            </span>
+            {isCurrent && (
+              <span
+                aria-hidden
+                className="flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-emerald-700 text-[10px] text-emerald-50 dark:bg-emerald-600"
+              >
+                ✓
+              </span>
+            )}
+          </Link>
+        );
+      })}
     </nav>
   );
 }

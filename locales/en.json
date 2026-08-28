@@ -76,6 +76,17 @@
     "whyScoreVerified": "Every meal verified with a score",
     "whyMultilingual": "Available in 6 languages"
   },
+  "settings": {
+    "sectionGeneral": "General",
+    "sectionAbout": "About",
+    "donationCardTitle": "Support ILF",
+    "donationCardDesc": "Goes toward hosting and keeping the data up to date",
+    "copyAccountNumber": "Copy account number",
+    "copiedFeedback": "Copied",
+    "aboutVersionLabel": "Version",
+    "aboutLanguagesLabel": "Supported languages",
+    "languageCountUnit": ""
+  },
   "ingredientTags": {
     "whole-grain": "Whole Grain",
     "refined-grain": "Refined Grain",

@@ -76,6 +76,17 @@
     "whyScoreVerified": "Cada comida verificada con un índice",
     "whyMultilingual": "Disponible en 6 idiomas"
   },
+  "settings": {
+    "sectionGeneral": "General",
+    "sectionAbout": "Acerca de",
+    "donationCardTitle": "Apoya a ILF",
+    "donationCardDesc": "Se destina al hosting y a mantener los datos actualizados",
+    "copyAccountNumber": "Copiar número de cuenta",
+    "copiedFeedback": "Copiado",
+    "aboutVersionLabel": "Versión",
+    "aboutLanguagesLabel": "Idiomas disponibles",
+    "languageCountUnit": ""
+  },
   "ingredientTags": {
     "whole-grain": "Cereal integral",
     "refined-grain": "Cereal refinado",

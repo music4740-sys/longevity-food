@@ -76,6 +76,17 @@
     "whyScoreVerified": "每餐都经过长寿指数验证",
     "whyMultilingual": "支持6种语言"
   },
+  "settings": {
+    "sectionGeneral": "通用",
+    "sectionAbout": "关于",
+    "donationCardTitle": "支持 ILF",
+    "donationCardDesc": "用于服务器运营和数据更新",
+    "copyAccountNumber": "复制账号",
+    "copiedFeedback": "已复制",
+    "aboutVersionLabel": "版本",
+    "aboutLanguagesLabel": "支持语言",
+    "languageCountUnit": "种"
+  },
   "ingredientTags": {
     "whole-grain": "全谷物",
     "refined-grain": "精制谷物",
