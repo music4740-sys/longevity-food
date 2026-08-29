@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Geist, Geist_Mono } from "next/font/google";
+import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 import { getDictionary, LOCALES, type Locale } from "@/lib/i18n";
 import "../globals.css";
 
@@ -27,8 +28,15 @@ export async function generateMetadata({
 }: LayoutProps<"/[locale]">): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
-  return { title: getDictionary(locale).common.appName };
+  return {
+    title: getDictionary(locale).common.appName,
+    appleWebApp: { capable: true, statusBarStyle: "black-translucent" },
+  };
 }
+
+export const viewport: Viewport = {
+  themeColor: "#5b6b4a",
+};
 
 export default async function LocaleLayout({ children, params }: LayoutProps<"/[locale]">) {
   const { locale } = await params;
@@ -41,7 +49,10 @@ export default async function LocaleLayout({ children, params }: LayoutProps<"/[
       lang={locale}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        <ServiceWorkerRegister />
+        {children}
+      </body>
     </html>
   );
 }
