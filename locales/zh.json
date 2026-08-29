@@ -88,6 +88,8 @@
     "languageCountUnit": "种"
   },
   "onboarding": {
+    "stepProfileLabel": "个人资料",
+    "stepGoalLabel": "目标",
     "profileTitle": "简单告诉我们一些信息",
     "profileSub": "信息仅保存在本设备上,仅用于下方的参考数值计算。",
     "ageLabel": "年龄",
@@ -121,6 +123,7 @@
     "skipButton": "跳过",
     "goalTitle": "您想关注哪方面?",
     "goalSub": "选择您关心的项目,我们会为您展示匹配的计划。",
+    "matchBadgeFormat": "适合{concern}",
     "startPlanButton": "开始这个计划",
     "skipToHomeButton": "跳过并前往首页",
     "concernTags": {

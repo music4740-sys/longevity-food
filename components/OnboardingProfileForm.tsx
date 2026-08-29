@@ -2,7 +2,9 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import OnboardingStepper from "@/components/OnboardingStepper";
 import { bmiCategory, calculateBmi, calculateTdee } from "@/lib/bmi";
+import type { BmiCategory } from "@/lib/bmi";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { saveProfile } from "@/lib/onboardingProfile";
 import type { ActivityLevel, Gender } from "@/types";
@@ -35,11 +37,20 @@ export default function OnboardingProfileForm({ locale }: OnboardingProfileFormP
     moderate: t.onboarding.activityModerate,
     active: t.onboarding.activityActive,
   };
-  const bmiCategoryLabel: Record<ReturnType<typeof bmiCategory>, string> = {
+  const bmiCategoryLabel: Record<BmiCategory, string> = {
     under: t.onboarding.bmiUnder,
     normal: t.onboarding.bmiNormal,
     over: t.onboarding.bmiOver,
     obese: t.onboarding.bmiObese,
+  };
+  const bmiBadgeClass: Record<BmiCategory, string> = {
+    normal:
+      "rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-bold text-emerald-800 dark:bg-emerald-900 dark:text-emerald-300",
+    under:
+      "rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-700 dark:bg-amber-950 dark:text-amber-400",
+    over: "rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-700 dark:bg-amber-950 dark:text-amber-400",
+    obese:
+      "rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-700 dark:bg-amber-950 dark:text-amber-400",
   };
 
   const heightNum = Number(heightCm);
@@ -83,7 +94,8 @@ export default function OnboardingProfileForm({ locale }: OnboardingProfileFormP
 
   return (
     <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-black">
-      <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-6 px-4 py-8">
+      <OnboardingStepper step={2} label={t.onboarding.stepProfileLabel} />
+      <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-6 px-4 py-6">
         <div className="flex flex-col gap-1.5">
           <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
             {t.onboarding.profileTitle}
@@ -94,8 +106,8 @@ export default function OnboardingProfileForm({ locale }: OnboardingProfileFormP
         <div className="flex flex-col gap-4 rounded-2xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
           <div className="grid grid-cols-3 gap-3">
             <label className="flex flex-col gap-1.5">
-              <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
-                {t.onboarding.ageLabel}
+              <span className="flex items-center gap-1 text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                🎂 {t.onboarding.ageLabel}
               </span>
               <input
                 type="number"
@@ -108,8 +120,8 @@ export default function OnboardingProfileForm({ locale }: OnboardingProfileFormP
               />
             </label>
             <label className="flex flex-col gap-1.5">
-              <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
-                {t.onboarding.heightLabel} ({t.onboarding.heightUnit})
+              <span className="flex items-center gap-1 text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                📏 {t.onboarding.heightLabel} ({t.onboarding.heightUnit})
               </span>
               <input
                 type="number"
@@ -122,8 +134,8 @@ export default function OnboardingProfileForm({ locale }: OnboardingProfileFormP
               />
             </label>
             <label className="flex flex-col gap-1.5">
-              <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
-                {t.onboarding.weightLabel} ({t.onboarding.weightUnit})
+              <span className="flex items-center gap-1 text-xs font-medium text-zinc-500 dark:text-zinc-400">
+                ⚖️ {t.onboarding.weightLabel} ({t.onboarding.weightUnit})
               </span>
               <input
                 type="number"
@@ -176,25 +188,28 @@ export default function OnboardingProfileForm({ locale }: OnboardingProfileFormP
           </div>
         </div>
 
-        <div className="flex flex-col gap-2 rounded-2xl border border-emerald-200 bg-emerald-50 p-4 dark:border-emerald-900 dark:bg-emerald-950/40">
+        <div className="flex flex-col gap-2 rounded-2xl border border-emerald-200 bg-gradient-to-b from-emerald-50 to-white p-4 dark:border-emerald-900 dark:from-emerald-950/40 dark:to-zinc-950">
           {bmi === null ? (
             <p className="text-sm text-emerald-800 dark:text-emerald-300">
               {t.onboarding.emptyCalcNote}
             </p>
           ) : (
             <>
-              <div className="flex items-baseline justify-between">
-                <span className="text-sm font-semibold text-emerald-900 dark:text-emerald-200">
-                  {t.onboarding.bmiLabel}
+              <div className="flex items-center justify-between">
+                <span className="flex items-center gap-1 text-sm font-semibold text-emerald-900 dark:text-emerald-200">
+                  📊 {t.onboarding.bmiLabel}
                 </span>
-                <span className="text-sm font-bold text-emerald-800 dark:text-emerald-300">
-                  {bmi.toFixed(1)} · {bmiCategoryLabel[bmiCategory(bmi)]}
+                <span className="flex items-center gap-2 text-sm font-bold text-emerald-800 dark:text-emerald-300">
+                  {bmi.toFixed(1)}
+                  <span className={bmiBadgeClass[bmiCategory(bmi)]}>
+                    {bmiCategoryLabel[bmiCategory(bmi)]}
+                  </span>
                 </span>
               </div>
               {tdee !== null ? (
                 <div className="flex items-baseline justify-between">
-                  <span className="text-sm font-semibold text-emerald-900 dark:text-emerald-200">
-                    {t.onboarding.calorieLabel}
+                  <span className="flex items-center gap-1 text-sm font-semibold text-emerald-900 dark:text-emerald-200">
+                    🔥 {t.onboarding.calorieLabel}
                   </span>
                   <span className="text-sm font-bold text-emerald-800 dark:text-emerald-300">
                     {tdee.toLocaleString(locale)} {t.onboarding.calorieUnit}
@@ -223,7 +238,7 @@ export default function OnboardingProfileForm({ locale }: OnboardingProfileFormP
           <button
             type="button"
             onClick={() => goNext(true)}
-            className="flex-1 rounded-xl bg-emerald-700 py-3 text-sm font-semibold text-white"
+            className="flex-1 rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 py-3 text-sm font-semibold text-white"
           >
             {t.onboarding.nextButton}
           </button>

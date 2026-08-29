@@ -88,6 +88,8 @@
     "languageCountUnit": ""
   },
   "onboarding": {
+    "stepProfileLabel": "Profile",
+    "stepGoalLabel": "Goal",
     "profileTitle": "Tell us a bit about yourself",
     "profileSub": "Stored only on this device, and used only for the reference numbers below.",
     "ageLabel": "Age",
@@ -121,6 +123,7 @@
     "skipButton": "Skip",
     "goalTitle": "What would you like to focus on?",
     "goalSub": "Pick what you're interested in and we'll show matching plans.",
+    "matchBadgeFormat": "Matches {concern}",
     "startPlanButton": "Start this plan",
     "skipToHomeButton": "Skip to home",
     "concernTags": {

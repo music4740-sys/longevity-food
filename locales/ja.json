@@ -88,6 +88,8 @@
     "languageCountUnit": "つ"
   },
   "onboarding": {
+    "stepProfileLabel": "プロフィール",
+    "stepGoalLabel": "目標",
     "profileTitle": "簡単なプロフィールを教えてください",
     "profileSub": "入力内容はこの端末にのみ保存され、参考数値の計算にのみ使われます。",
     "ageLabel": "年齢",
@@ -121,6 +123,7 @@
     "skipButton": "スキップ",
     "goalTitle": "何を重視したいですか?",
     "goalSub": "気になる項目を選ぶと、合うプランを表示します。",
+    "matchBadgeFormat": "{concern}に合う",
     "startPlanButton": "このプランで始める",
     "skipToHomeButton": "スキップしてホームへ",
     "concernTags": {

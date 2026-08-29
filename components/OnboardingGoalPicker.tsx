@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import OnboardingStepper from "@/components/OnboardingStepper";
 import PlanCard from "@/components/PlanCard";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import {
@@ -15,6 +16,23 @@ import {
 interface OnboardingGoalPickerProps {
   locale: Locale;
 }
+
+// Display-only decoration, not translated UI text — same reasoning as
+// REGION_EMOJI in HomeView.tsx.
+const CONCERN_ICON: Record<ConcernTag, string> = {
+  "blood-sugar": "🩸",
+  "heart-health": "❤️",
+  "gut-health": "🌾",
+  "plant-based": "🥦",
+  balanced: "🍽️",
+  cardiovascular: "🫀",
+  "brain-health": "🧠",
+  "anti-inflammatory": "🍃",
+  "skin-hair": "✨",
+  "muscle-health": "💪",
+  "weight-management": "⚖️",
+  "blue-zone": "🌍",
+};
 
 export default function OnboardingGoalPicker({ locale }: OnboardingGoalPickerProps) {
   const router = useRouter();
@@ -36,7 +54,8 @@ export default function OnboardingGoalPicker({ locale }: OnboardingGoalPickerPro
 
   return (
     <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-black">
-      <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-6 px-4 py-8">
+      <OnboardingStepper step={3} label={t.onboarding.stepGoalLabel} />
+      <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-6 px-4 py-6">
         <div className="flex flex-col gap-1.5">
           <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
             {t.onboarding.goalTitle}
@@ -53,24 +72,29 @@ export default function OnboardingGoalPicker({ locale }: OnboardingGoalPickerPro
               onClick={() => setConcern(tag)}
               className={
                 concern === tag
-                  ? "rounded-xl bg-emerald-600 px-3 py-2.5 text-center text-sm font-medium text-white"
-                  : "rounded-xl border border-zinc-200 bg-white px-3 py-2.5 text-center text-sm font-medium text-zinc-600 hover:border-emerald-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300"
+                  ? "flex items-center gap-1.5 rounded-xl bg-emerald-600 px-3 py-2.5 text-left text-sm font-medium text-white"
+                  : "flex items-center gap-1.5 rounded-xl border border-zinc-200 bg-white px-3 py-2.5 text-left text-sm font-medium text-zinc-600 hover:border-emerald-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300"
               }
             >
+              <span aria-hidden>{CONCERN_ICON[tag]}</span>
               {t.onboarding.concernTags[tag]}
             </button>
           ))}
         </div>
 
-        {matchingPlans.length > 0 && (
+        {matchingPlans.length > 0 && concern && (
           <div className="flex flex-col gap-3">
             {matchingPlans.map((plan) => (
               <div key={plan.id} className="flex flex-col gap-2">
+                <span className="w-fit rounded-full bg-emerald-100 px-2.5 py-1 text-xs font-bold text-emerald-800 dark:bg-emerald-900 dark:text-emerald-300">
+                  {CONCERN_ICON[concern]}{" "}
+                  {t.onboarding.matchBadgeFormat.replace("{concern}", t.onboarding.concernTags[concern])}
+                </span>
                 <PlanCard plan={plan} locale={locale} />
                 <button
                   type="button"
                   onClick={() => handleStart(plan.id, plan.slug)}
-                  className="rounded-xl bg-emerald-700 py-2.5 text-sm font-semibold text-white"
+                  className="rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 py-2.5 text-sm font-semibold text-white"
                 >
                   {t.onboarding.startPlanButton}
                 </button>

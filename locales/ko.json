@@ -88,6 +88,8 @@
     "languageCountUnit": "개"
   },
   "onboarding": {
+    "stepProfileLabel": "프로필",
+    "stepGoalLabel": "목표",
     "profileTitle": "몇 가지만 알려주세요",
     "profileSub": "입력한 정보는 이 기기에만 저장돼요. 참고용 계산에만 쓰여요.",
     "ageLabel": "나이",
@@ -121,6 +123,7 @@
     "skipButton": "건너뛰기",
     "goalTitle": "어떤 걸 챙기고 싶으세요?",
     "goalSub": "관심 있는 항목을 고르면 어울리는 플랜을 보여드려요.",
+    "matchBadgeFormat": "{concern}에 맞음",
     "startPlanButton": "이 플랜으로 시작하기",
     "skipToHomeButton": "건너뛰고 홈으로",
     "concernTags": {
