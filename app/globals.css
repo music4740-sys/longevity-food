@@ -1,5 +1,36 @@
 @import "tailwindcss";
 
+/* Olive & stone palette — replaces Tailwind's default emerald, zinc, and
+   black color scales app-wide so every existing utility class using those
+   names picks up the new colors without touching component files. */
+@theme {
+  --color-black: #17140f;
+
+  --color-zinc-50: #f6f4ec;
+  --color-zinc-100: #efebe0;
+  --color-zinc-200: #e4dfd1;
+  --color-zinc-300: #cfc6b0;
+  --color-zinc-400: #a79d89;
+  --color-zinc-500: #7c7469;
+  --color-zinc-600: #635c52;
+  --color-zinc-700: #4b453d;
+  --color-zinc-800: #383430;
+  --color-zinc-900: #2b2621;
+  --color-zinc-950: #1c1815;
+
+  --color-emerald-50: #f2f4ec;
+  --color-emerald-100: #e7ebdd;
+  --color-emerald-200: #d3dcc0;
+  --color-emerald-300: #b7c49a;
+  --color-emerald-400: #93a66e;
+  --color-emerald-500: #78905a;
+  --color-emerald-600: #5b6b4a;
+  --color-emerald-700: #4a5a3c;
+  --color-emerald-800: #3b4630;
+  --color-emerald-900: #2e3626;
+  --color-emerald-950: #1e2418;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
