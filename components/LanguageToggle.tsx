@@ -2,27 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LOCALES, type Locale } from "@/lib/i18n";
-
-const LOCALE_LABELS: Record<Locale, string> = {
-  ko: "한국어",
-  en: "English",
-  ja: "日本語",
-  zh: "中文",
-  es: "Español",
-  fr: "Français",
-};
-
-// Display-only decoration, not translated UI text — same reasoning as
-// REGION_EMOJI in HomeView.tsx.
-const LOCALE_FLAG: Record<Locale, string> = {
-  ko: "🇰🇷",
-  en: "🇺🇸",
-  ja: "🇯🇵",
-  zh: "🇨🇳",
-  es: "🇪🇸",
-  fr: "🇫🇷",
-};
+import { LOCALE_FLAG, LOCALE_LABELS, LOCALES } from "@/lib/i18n";
 
 export default function LanguageToggle() {
   const pathname = usePathname();
