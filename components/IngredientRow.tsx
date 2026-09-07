@@ -85,7 +85,7 @@ export default function IngredientRow({
 
       {substituteGroup && (
         <details className="text-sm">
-          <summary className="cursor-pointer font-medium text-emerald-700 dark:text-emerald-400">
+          <summary className="cursor-pointer font-medium text-emerald-700 dark:text-accent-400">
             {t.recipe.substitutesToggle}
           </summary>
           <ul className="mt-2 flex flex-col gap-1.5 pl-1">
@@ -99,7 +99,7 @@ export default function IngredientRow({
                     {localizedText(option.ingredient, locale)}
                   </span>
                   {option.country === selectedRegion && (
-                    <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
+                    <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-xs font-medium text-emerald-700 dark:bg-accent-950 dark:text-accent-400">
                       {t.recipe.regionSelectedBadge}
                     </span>
                   )}

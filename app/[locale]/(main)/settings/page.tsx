@@ -27,7 +27,7 @@ export default async function SettingsPage({ params }: PageProps<"/[locale]/sett
           {t.common.settingsTitle}
         </h1>
 
-        <section className="relative isolate overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-700 to-emerald-950 p-4 dark:from-emerald-900 dark:to-black">
+        <section className="relative isolate overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-700 to-emerald-950 p-4 dark:from-accent-900 dark:to-black">
           <div aria-hidden className="absolute inset-0 -z-10" style={HERO_DOT_PATTERN} />
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-xl ring-1 ring-inset ring-white/15">
@@ -60,7 +60,7 @@ export default async function SettingsPage({ params }: PageProps<"/[locale]/sett
           </h2>
           <div className="flex flex-col gap-3 rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
             <div className="flex items-center gap-2.5">
-              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-50 text-base text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
+              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-emerald-50 text-base text-emerald-700 dark:bg-accent-950 dark:text-accent-400">
                 ☕
               </span>
               <div className="min-w-0">

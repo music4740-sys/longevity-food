@@ -29,6 +29,16 @@
   --color-emerald-800: #3b4630;
   --color-emerald-900: #2e3b22;
   --color-emerald-950: #1b2414;
+
+  /* Dark-mode-only accent scale (Material Design 3 pastel lavender-blue).
+     Only ever referenced via `dark:` utilities — light mode keeps emerald. */
+  --color-accent-200: #dce7fd;
+  --color-accent-300: #c7d9fc;
+  --color-accent-400: #a8c7fa;
+  --color-accent-700: #7fa6e8;
+  --color-accent-800: #5d7fb8;
+  --color-accent-900: #33415c;
+  --color-accent-950: #232c3d;
 }
 
 :root {
@@ -47,6 +57,19 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    /* M3 dark theme: desaturated charcoal surfaces + pastel lavender accent.
+       These tokens are shared with light mode but only ever render where a
+       `dark:` utility wins the cascade, so light mode is unaffected. */
+    --color-black: #121212;
+    --color-zinc-950: #1e1e1e;
+    --color-zinc-900: #242424;
+    --color-zinc-800: #333333;
+    --color-zinc-50: #ececec;
+    --color-zinc-200: #d6d6d6;
+    --color-zinc-300: #c7c7c7;
+    --color-zinc-400: #ababab;
+    --color-zinc-500: #8a8a8a;
   }
 }
 

@@ -72,7 +72,7 @@ export default function CartView({ locale }: CartViewProps) {
               {recipe ? (
                 <Link
                   href={`/${locale}/recipes/${recipe.slug}`}
-                  className="text-sm font-semibold text-emerald-700 dark:text-emerald-400"
+                  className="text-sm font-semibold text-emerald-700 dark:text-accent-400"
                 >
                   {localizedText(recipe.title, locale)}
                 </Link>

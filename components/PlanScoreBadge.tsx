@@ -29,7 +29,7 @@ export default function PlanScoreBadge({ plan, locale }: PlanScoreBadgeProps) {
   const averageScore = getPlanAverageLongevityScore(plan, region);
 
   return (
-    <span className="w-fit rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
+    <span className="w-fit rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-accent-950 dark:text-accent-400">
       {t.plan.longevityScoreLabel} {averageScore}
       {t.plan.scoreUnit}
     </span>

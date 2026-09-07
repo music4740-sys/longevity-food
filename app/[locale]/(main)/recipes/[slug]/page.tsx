@@ -50,7 +50,7 @@ export default async function RecipeDetailPage({
                   key={step.order}
                   className="flex gap-3 rounded-xl border border-zinc-200 bg-white p-3 text-sm dark:border-zinc-800 dark:bg-zinc-900"
                 >
-                  <span className="font-semibold text-emerald-700 dark:text-emerald-400">
+                  <span className="font-semibold text-emerald-700 dark:text-accent-400">
                     {step.order}
                   </span>
                   <div className="flex flex-col gap-1">

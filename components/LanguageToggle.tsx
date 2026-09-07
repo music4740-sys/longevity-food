@@ -22,7 +22,7 @@ export default function LanguageToggle() {
             className={
               "flex items-center gap-3 px-4 py-3 " +
               (isCurrent
-                ? "bg-emerald-50 dark:bg-emerald-950/40"
+                ? "bg-emerald-50 dark:bg-accent-950/40"
                 : "hover:bg-zinc-50 dark:hover:bg-zinc-800/60")
             }
           >
@@ -33,7 +33,7 @@ export default function LanguageToggle() {
               className={
                 "flex-1 text-sm " +
                 (isCurrent
-                  ? "font-semibold text-emerald-800 dark:text-emerald-400"
+                  ? "font-semibold text-emerald-800 dark:text-accent-400"
                   : "font-medium text-zinc-600 dark:text-zinc-300")
               }
             >
@@ -42,7 +42,7 @@ export default function LanguageToggle() {
             {isCurrent && (
               <span
                 aria-hidden
-                className="flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-emerald-700 text-[10px] text-emerald-50 dark:bg-emerald-600"
+                className="flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-emerald-700 text-[10px] text-emerald-50 dark:bg-accent-600"
               >
                 ✓
               </span>

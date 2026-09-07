@@ -43,7 +43,7 @@ export default function HomeView({ locale }: HomeViewProps) {
   return (
     <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-black">
       <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-6 px-4 py-6">
-        <section className="relative isolate overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-700 to-emerald-950 p-5 dark:from-emerald-900 dark:to-black">
+        <section className="relative isolate overflow-hidden rounded-2xl bg-gradient-to-br from-emerald-700 to-emerald-950 p-5 dark:from-accent-900 dark:to-black">
           <div aria-hidden className="absolute inset-0 -z-10" style={HERO_DOT_PATTERN} />
           <p className="text-lg font-bold leading-snug text-emerald-50">
             {t.home.trustHeadline1}
@@ -73,7 +73,7 @@ export default function HomeView({ locale }: HomeViewProps) {
               key={item.label}
               className="flex flex-col items-center gap-1.5 rounded-xl border border-zinc-200 bg-white p-3 text-center dark:border-zinc-800 dark:bg-zinc-900"
             >
-              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-emerald-50 text-sm text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
+              <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-emerald-50 text-sm text-emerald-700 dark:bg-accent-950 dark:text-accent-400">
                 {item.icon}
               </span>
               <span className="text-xs font-medium leading-tight text-zinc-600 dark:text-zinc-300">
@@ -90,7 +90,7 @@ export default function HomeView({ locale }: HomeViewProps) {
             </h2>
             <Link
               href={`/${locale}/plans`}
-              className="text-xs font-semibold text-emerald-700 dark:text-emerald-400"
+              className="text-xs font-semibold text-emerald-700 dark:text-accent-400"
             >
               {t.home.viewAllPlans}
             </Link>
@@ -104,7 +104,7 @@ export default function HomeView({ locale }: HomeViewProps) {
           </div>
           <Link
             href={`/${locale}/plans`}
-            className="rounded-xl border border-zinc-200 bg-white py-2.5 text-center text-sm font-semibold text-emerald-700 hover:border-emerald-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-emerald-400"
+            className="rounded-xl border border-zinc-200 bg-white py-2.5 text-center text-sm font-semibold text-emerald-700 hover:border-emerald-300 dark:border-zinc-800 dark:bg-zinc-900 dark:text-accent-400"
           >
             {t.home.viewAllPlans}
           </Link>

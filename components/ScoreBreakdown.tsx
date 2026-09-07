@@ -24,7 +24,7 @@ export default function ScoreBreakdown({ score, locale }: ScoreBreakdownProps) {
         <h2 className="text-sm font-semibold text-zinc-500 dark:text-zinc-400">
           {t.recipe.scoreBreakdownTitle}
         </h2>
-        <span className="rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
+        <span className="rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-accent-950 dark:text-accent-400">
           {t.plan.longevityScoreLabel} {score.total}
           {t.plan.scoreUnit}
         </span>

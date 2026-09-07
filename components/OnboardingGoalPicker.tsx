@@ -86,7 +86,7 @@ export default function OnboardingGoalPicker({ locale }: OnboardingGoalPickerPro
           <div className="flex flex-col gap-3">
             {matchingPlans.map((plan) => (
               <div key={plan.id} className="flex flex-col gap-2">
-                <span className="w-fit rounded-full bg-emerald-100 px-2.5 py-1 text-xs font-bold text-emerald-800 dark:bg-emerald-900 dark:text-emerald-300">
+                <span className="w-fit rounded-full bg-emerald-100 px-2.5 py-1 text-xs font-bold text-emerald-800 dark:bg-accent-900 dark:text-accent-300">
                   {CONCERN_ICON[concern]}{" "}
                   {t.onboarding.matchBadgeFormat.replace("{concern}", t.onboarding.concernTags[concern])}
                 </span>
@@ -94,7 +94,7 @@ export default function OnboardingGoalPicker({ locale }: OnboardingGoalPickerPro
                 <button
                   type="button"
                   onClick={() => handleStart(plan.id, plan.slug)}
-                  className="rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 py-2.5 text-sm font-semibold text-white"
+                  className="rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-800 py-2.5 text-sm font-semibold text-white dark:bg-none dark:bg-accent-400 dark:text-black"
                 >
                   {t.onboarding.startPlanButton}
                 </button>

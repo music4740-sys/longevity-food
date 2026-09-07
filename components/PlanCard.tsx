@@ -15,7 +15,7 @@ export default function PlanCard({ plan, locale }: PlanCardProps) {
   return (
     <Link
       href={`/${locale}/plans/${plan.slug}`}
-      className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition-colors hover:border-emerald-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-emerald-800"
+      className="flex flex-col gap-3 rounded-2xl border border-zinc-200 bg-white p-5 shadow-sm transition-colors hover:border-emerald-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-accent-800"
     >
       <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
         {localizedText(plan.title, locale)}
@@ -28,7 +28,7 @@ export default function PlanCard({ plan, locale }: PlanCardProps) {
           {plan.durationDays}
           {t.plan.durationUnit}
         </span>
-        <span className="rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-emerald-950 dark:text-emerald-400">
+        <span className="rounded-full bg-emerald-50 px-3 py-1 text-sm font-medium text-emerald-700 dark:bg-accent-950 dark:text-accent-400">
           {t.plan.longevityScoreLabel} {averageScore}
           {t.plan.scoreUnit}
         </span>
