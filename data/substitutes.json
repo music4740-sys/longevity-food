@@ -3458,5 +3458,461 @@
         }
       }
     ]
+  },
+  {
+    "id": "sub-onion",
+    "originalIngredient": {
+      "ko": "양파",
+      "en": "Onion",
+      "ja": "玉ねぎ",
+      "zh": "洋葱",
+      "es": "Cebolla",
+      "fr": "Oignon"
+    },
+    "options": [
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "대파",
+          "en": "Korean green onion (daepa)",
+          "ja": "大葉ねぎ(テパ)",
+          "zh": "大葱",
+          "es": "Cebolleta coreana (daepa)",
+          "fr": "Oignon vert coréen (daepa)"
+        },
+        "note": {
+          "ko": "한식 국물 요리에서는 양파 대신 대파로 향을 낸다",
+          "en": "Korean soups often build their aromatic base with daepa (long green onion) instead of onion",
+          "ja": "韓国のスープ料理では玉ねぎの代わりに大葉ねぎで香りを出すことが多い",
+          "zh": "韩式汤类料理常用大葱代替洋葱提香",
+          "es": "En las sopas coreanas suele usarse daepa (cebolleta larga) en vez de cebolla para el aroma",
+          "fr": "Dans les soupes coréennes, le daepa (oignon vert long) remplace souvent l'oignon pour l'arôme"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "샬롯",
+          "en": "Shallot",
+          "ja": "エシャロット",
+          "zh": "红葱头",
+          "es": "Chalota",
+          "fr": "Échalote"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "적양파",
+          "en": "Red onion",
+          "ja": "赤玉ねぎ",
+          "zh": "红洋葱",
+          "es": "Cebolla morada",
+          "fr": "Oignon rouge"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "적양파",
+          "en": "Red onion",
+          "ja": "赤玉ねぎ",
+          "zh": "红洋葱",
+          "es": "Cebolla morada",
+          "fr": "Oignon rouge"
+        },
+        "note": {
+          "ko": "튀르키예 샐러드와 케밥에는 적양파가 흔히 쓰인다",
+          "en": "Red onion is a common topping for Turkish salads and kebabs",
+          "ja": "トルコのサラダやケバブには赤玉ねぎがよく使われる",
+          "zh": "土耳其沙拉和烤肉串常用红洋葱",
+          "es": "La cebolla morada es habitual en ensaladas y kebabs turcos",
+          "fr": "L'oignon rouge accompagne souvent les salades et kebabs turcs"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "백양파",
+          "en": "White onion",
+          "ja": "白玉ねぎ",
+          "zh": "白洋葱",
+          "es": "Cebolla blanca",
+          "fr": "Oignon blanc"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sub-carrot",
+    "originalIngredient": {
+      "ko": "당근",
+      "en": "Carrot",
+      "ja": "にんじん",
+      "zh": "胡萝卜",
+      "es": "Zanahoria",
+      "fr": "Carotte"
+    },
+    "options": [
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "무",
+          "en": "Korean radish (mu)",
+          "ja": "大根(ムー)",
+          "zh": "萝卜",
+          "es": "Rábano coreano (mu)",
+          "fr": "Radis coréen (mu)"
+        },
+        "note": {
+          "ko": "한식 조림·국물 요리에서는 당근 대신 무로 시원한 맛을 낸다",
+          "en": "Korean braises and soups often use radish instead of carrot for a clean, savory sweetness",
+          "ja": "韓国の煮物やスープでは、にんじんの代わりに大根であっさりした味を出すことが多い",
+          "zh": "韩式炖菜和汤类常用萝卜代替胡萝卜带来清爽口感",
+          "es": "Los guisos y sopas coreanos suelen usar rábano en vez de zanahoria para un sabor más limpio",
+          "fr": "Les mijotés et soupes coréens utilisent souvent le radis à la place de la carotte pour une saveur plus douce"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파스닙",
+          "en": "Parsnip",
+          "ja": "パースニップ",
+          "zh": "欧防风",
+          "es": "Chirivía",
+          "fr": "Panais"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "비트",
+          "en": "Beetroot",
+          "ja": "ビーツ",
+          "zh": "甜菜根",
+          "es": "Remolacha",
+          "fr": "Betterave"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "순무",
+          "en": "Turnip",
+          "ja": "かぶ",
+          "zh": "芜菁",
+          "es": "Nabo",
+          "fr": "Navet"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "치아요테",
+          "en": "Chayote",
+          "ja": "ハヤトウリ(チャヨテ)",
+          "zh": "佛手瓜",
+          "es": "Chayote",
+          "fr": "Chayote"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sub-cucumber",
+    "originalIngredient": {
+      "ko": "오이",
+      "en": "Cucumber",
+      "ja": "きゅうり",
+      "zh": "黄瓜",
+      "es": "Pepino",
+      "fr": "Concombre"
+    },
+    "options": [
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "조선오이",
+          "en": "Korean white cucumber",
+          "ja": "朝鮮きゅうり",
+          "zh": "朝鲜黄瓜",
+          "es": "Pepino blanco coreano",
+          "fr": "Concombre blanc coréen"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "주키니",
+          "en": "Zucchini",
+          "ja": "ズッキーニ",
+          "zh": "西葫芦",
+          "es": "Calabacín",
+          "fr": "Courgette"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "카크리(인도오이)",
+          "en": "Kakri (Armenian cucumber)",
+          "ja": "カクリ(アルメニアきゅうり)",
+          "zh": "卡克里黄瓜(亚美尼亚黄瓜)",
+          "es": "Kakri (pepino armenio)",
+          "fr": "Kakri (concombre arménien)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "레바논오이",
+          "en": "Lebanese (mini) cucumber",
+          "ja": "レバノンきゅうり",
+          "zh": "黎巴嫩黄瓜(迷你黄瓜)",
+          "es": "Pepino libanés (mini)",
+          "fr": "Concombre libanais (mini)"
+        },
+        "note": {
+          "ko": "튀르키예식 요거트 샐러드(자즉)에는 레바논오이가 흔히 쓰인다",
+          "en": "Lebanese mini cucumbers are common in Turkish yogurt salads (cacık)",
+          "ja": "トルコのヨーグルトサラダ(ジャジュク)にはレバノンきゅうりがよく使われる",
+          "zh": "土耳其酸奶沙拉(cacık)常用黎巴嫩迷你黄瓜",
+          "es": "El pepino libanés es habitual en las ensaladas de yogur turcas (cacık)",
+          "fr": "Le concombre libanais est courant dans les salades au yaourt turques (cacık)"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "히카마",
+          "en": "Jicama",
+          "ja": "ヒカマ",
+          "zh": "豆薯(墨西哥凉薯)",
+          "es": "Jícama",
+          "fr": "Jicama"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sub-yogurt",
+    "originalIngredient": {
+      "ko": "요거트",
+      "en": "Yogurt",
+      "ja": "ヨーグルト",
+      "zh": "酸奶",
+      "es": "Yogur",
+      "fr": "Yaourt"
+    },
+    "options": [
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "무가당 두유 요거트",
+          "en": "Unsweetened soy yogurt",
+          "ja": "無糖豆乳ヨーグルト",
+          "zh": "无糖豆奶酸奶",
+          "es": "Yogur de soja sin azúcar",
+          "fr": "Yaourt de soja non sucré"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "리코타 치즈",
+          "en": "Ricotta cheese",
+          "ja": "リコッタチーズ",
+          "zh": "里科塔奶酪",
+          "es": "Queso ricotta",
+          "fr": "Fromage ricotta"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "다히(인도식 커드)",
+          "en": "Dahi (Indian curd)",
+          "ja": "ダヒ(インドヨーグルト)",
+          "zh": "达希(印度酸奶)",
+          "es": "Dahi (yogur indio)",
+          "fr": "Dahi (yaourt indien)"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "쉬즈메(그릭식 물기 뺀 요거트)",
+          "en": "Süzme (strained Turkish yogurt)",
+          "ja": "スュズメ(濃厚トルコヨーグルト)",
+          "zh": "苏兹梅(浓稠土耳其酸奶)",
+          "es": "Süzme (yogur turco colado)",
+          "fr": "Süzme (yaourt turc égoutté)"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "멕시칸 크레마",
+          "en": "Mexican crema",
+          "ja": "メキシカンクレマ",
+          "zh": "墨西哥酸奶油",
+          "es": "Crema mexicana",
+          "fr": "Crème mexicaine"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sub-black-beans",
+    "originalIngredient": {
+      "ko": "검은콩",
+      "en": "Black beans",
+      "ja": "黒豆",
+      "zh": "黑豆",
+      "es": "Frijoles negros",
+      "fr": "Haricots noirs"
+    },
+    "options": [
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "서리태",
+          "en": "Seoritae (Korean black soybean)",
+          "ja": "ソリテ(韓国産黒豆)",
+          "zh": "瑞太黑豆(韩式黑豆)",
+          "es": "Seoritae (soja negra coreana)",
+          "fr": "Seoritae (soja noir coréen)"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "카넬리니콩",
+          "en": "Cannellini beans",
+          "ja": "カネリーニ豆",
+          "zh": "白腰豆",
+          "es": "Alubias cannellini",
+          "fr": "Haricots cannellini"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "병아리콩",
+          "en": "Chickpeas",
+          "ja": "ひよこ豆",
+          "zh": "鹰嘴豆",
+          "es": "Garbanzos",
+          "fr": "Pois chiches"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "병아리콩",
+          "en": "Chickpeas",
+          "ja": "ひよこ豆",
+          "zh": "鹰嘴豆",
+          "es": "Garbanzos",
+          "fr": "Pois chiches"
+        },
+        "note": {
+          "ko": "후무스 등 튀르키예·중동 요리는 병아리콩을 기본으로 한다",
+          "en": "Turkish and Middle Eastern dishes like hummus are built on chickpeas",
+          "ja": "フムスなどトルコ・中東料理はひよこ豆が基本になる",
+          "zh": "鹰嘴豆泥等土耳其、中东料理以鹰嘴豆为基础",
+          "es": "Platos turcos y de Oriente Medio como el hummus se basan en garbanzos",
+          "fr": "Des plats turcs et moyen-orientaux comme le houmous reposent sur les pois chiches"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "핀토콩",
+          "en": "Pinto beans",
+          "ja": "ピント豆",
+          "zh": "斑豆",
+          "es": "Frijoles pintos",
+          "fr": "Haricots pinto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "sub-coriander",
+    "originalIngredient": {
+      "ko": "고수",
+      "en": "Cilantro (coriander leaves)",
+      "ja": "コリアンダー(パクチー)",
+      "zh": "香菜",
+      "es": "Cilantro",
+      "fr": "Coriandre"
+    },
+    "options": [
+      {
+        "country": "KR",
+        "ingredient": {
+          "ko": "미나리",
+          "en": "Minari (Korean watercress)",
+          "ja": "ミナリ(セリ)",
+          "zh": "水芹(미나리)",
+          "es": "Minari (berro coreano)",
+          "fr": "Minari (cresson coréen)"
+        }
+      },
+      {
+        "country": "IT",
+        "ingredient": {
+          "ko": "파슬리",
+          "en": "Parsley",
+          "ja": "パセリ",
+          "zh": "欧芹",
+          "es": "Perejil",
+          "fr": "Persil"
+        }
+      },
+      {
+        "country": "IN",
+        "ingredient": {
+          "ko": "커리잎",
+          "en": "Curry leaves",
+          "ja": "カレーリーフ",
+          "zh": "咖喱叶",
+          "es": "Hojas de curry",
+          "fr": "Feuilles de curry"
+        }
+      },
+      {
+        "country": "TR",
+        "ingredient": {
+          "ko": "딜",
+          "en": "Dill",
+          "ja": "ディル",
+          "zh": "莳萝",
+          "es": "Eneldo",
+          "fr": "Aneth"
+        }
+      },
+      {
+        "country": "MX",
+        "ingredient": {
+          "ko": "에파소테",
+          "en": "Epazote",
+          "ja": "エパソテ",
+          "zh": "土荆芥",
+          "es": "Epazote",
+          "fr": "Épazote"
+        },
+        "note": {
+          "ko": "멕시코 콩 요리에는 고수 대신 에파소테라는 토착 허브를 쓰기도 한다",
+          "en": "Some Mexican bean dishes use the native herb epazote instead of cilantro",
+          "ja": "メキシコの豆料理では、コリアンダーの代わりに在来ハーブのエパソテを使うこともある",
+          "zh": "部分墨西哥豆类料理会用本地香草土荆芥代替香菜",
+          "es": "Algunos platos de frijoles mexicanos usan la hierba nativa epazote en lugar de cilantro",
+          "fr": "Certains plats de haricots mexicains utilisent l'épazote, une herbe locale, à la place de la coriandre"
+        }
+      }
+    ]
   }
 ]

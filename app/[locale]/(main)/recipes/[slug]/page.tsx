@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import IngredientChecklist from "@/components/IngredientChecklist";
+import RecipeSteps from "@/components/RecipeSteps";
 import ScoreBreakdown from "@/components/ScoreBreakdown";
 import { getRecipeBySlug, getRecipeLongevityScore, recipes } from "@/lib/data";
 import { getDictionary, localizedText, type Locale } from "@/lib/i18n";
@@ -37,36 +38,7 @@ export default async function RecipeDetailPage({
 
         <IngredientChecklist recipeId={recipe.id} ingredients={recipe.ingredients} locale={locale} />
 
-        <section className="flex flex-col gap-3">
-          <h2 className="text-sm font-semibold text-zinc-500 dark:text-zinc-400">
-            {t.recipe.stepsTitle}
-          </h2>
-          <ol className="flex flex-col gap-2">
-            {recipe.steps
-              .slice()
-              .sort((a, b) => a.order - b.order)
-              .map((step) => (
-                <li
-                  key={step.order}
-                  className="flex gap-3 rounded-xl border border-zinc-200 bg-white p-3 text-sm dark:border-zinc-800 dark:bg-zinc-900"
-                >
-                  <span className="font-semibold text-emerald-700 dark:text-accent-400">
-                    {step.order}
-                  </span>
-                  <div className="flex flex-col gap-1">
-                    <span className="text-zinc-800 dark:text-zinc-200">
-                      {localizedText(step.instruction, locale)}
-                    </span>
-                    {step.detail && (
-                      <span className="text-xs text-zinc-500 dark:text-zinc-400">
-                        {localizedText(step.detail, locale)}
-                      </span>
-                    )}
-                  </div>
-                </li>
-              ))}
-          </ol>
-        </section>
+        <RecipeSteps steps={recipe.steps} ingredients={recipe.ingredients} locale={locale} />
 
         <ScoreBreakdown score={score} locale={locale} />
       </main>

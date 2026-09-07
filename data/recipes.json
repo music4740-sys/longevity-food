@@ -356,7 +356,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -388,7 +389,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -2876,7 +2878,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       },
       {
         "name": {
@@ -3473,7 +3476,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -3976,7 +3980,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -4008,7 +4013,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -4883,7 +4889,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -5172,7 +5179,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -6020,7 +6028,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -6840,7 +6849,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -7268,7 +7278,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -7300,7 +7311,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -7503,7 +7515,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       },
       {
         "name": {
@@ -7535,7 +7548,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -8225,7 +8239,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -8590,7 +8605,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       }
     ],
     "steps": [
@@ -9052,7 +9068,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -9486,7 +9503,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -9990,7 +10008,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -10192,7 +10211,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -10436,7 +10456,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       },
       {
         "name": {
@@ -11878,7 +11899,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -14615,7 +14637,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -15828,7 +15851,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       }
     ],
     "steps": [
@@ -16006,7 +16030,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -16221,7 +16246,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -16426,7 +16452,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -16458,7 +16485,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       },
       {
         "name": {
@@ -16982,7 +17010,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -17014,7 +17043,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       }
     ],
     "steps": [
@@ -17180,7 +17210,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -17453,7 +17484,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       }
     ],
     "steps": [
@@ -17811,7 +17843,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -18115,7 +18148,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       }
     ],
     "steps": [
@@ -18260,7 +18294,8 @@
             "es": "Betacaroteno",
             "fr": "Bêta-carotène"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-carrot"
       },
       {
         "name": {
@@ -18808,7 +18843,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       }
     ],
     "steps": [
@@ -19213,7 +19249,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -19483,7 +19520,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       }
     ],
     "steps": [
@@ -19720,7 +19758,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       }
     ],
     "steps": [
@@ -19832,7 +19871,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -20145,7 +20185,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       }
     ],
     "steps": [
@@ -20496,7 +20537,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -20847,7 +20889,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       }
     ],
     "steps": [
@@ -21258,7 +21301,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       },
       {
         "name": {
@@ -21498,7 +21542,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -21954,7 +21999,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       },
       {
         "name": {
@@ -21994,7 +22040,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -22606,7 +22653,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -23097,7 +23145,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -23302,7 +23351,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -23489,7 +23539,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       },
       {
         "name": {
@@ -23728,7 +23779,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -23998,7 +24050,8 @@
             "es": "Hidratación",
             "fr": "Hydratation"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-cucumber"
       },
       {
         "name": {
@@ -24206,7 +24259,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -24633,7 +24687,8 @@
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-yogurt"
       },
       {
         "name": {
@@ -25517,7 +25572,8 @@
             "es": "Fibra",
             "fr": "Fibres"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-black-beans"
       },
       {
         "name": {
@@ -25614,7 +25670,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       },
       {
         "name": {
@@ -25852,7 +25909,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -26196,7 +26254,8 @@
             "es": "Fibra",
             "fr": "Fibres"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-black-beans"
       },
       {
         "name": {
@@ -26228,7 +26287,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -26322,7 +26382,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       }
     ],
     "steps": [
@@ -26555,7 +26616,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       }
     ],
     "steps": [
@@ -26754,7 +26816,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       }
     ],
     "steps": [
@@ -26866,7 +26929,8 @@
             "es": "Fibra",
             "fr": "Fibres"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-black-beans"
       },
       {
         "name": {
@@ -26963,7 +27027,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       },
       {
         "name": {
@@ -27414,7 +27479,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       },
       {
         "name": {
@@ -27545,7 +27611,8 @@
             "es": "Fibra",
             "fr": "Fibres"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-black-beans"
       },
       {
         "name": {
@@ -27609,7 +27676,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -27878,7 +27946,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       },
       {
         "name": {
@@ -28225,7 +28294,8 @@
             "es": "Fibra",
             "fr": "Fibres"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-black-beans"
       },
       {
         "name": {
@@ -28323,7 +28393,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       },
       {
         "name": {
@@ -28728,7 +28799,8 @@
             "es": "Fibra",
             "fr": "Fibres"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-black-beans"
       },
       {
         "name": {
@@ -29001,7 +29073,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       },
       {
         "name": {
@@ -29143,7 +29216,8 @@
             "es": "Fibra",
             "fr": "Fibres"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-black-beans"
       },
       {
         "name": {
@@ -29240,7 +29314,8 @@
             "es": "Quercetina",
             "fr": "Quercétine"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-onion"
       },
       {
         "name": {
@@ -29607,7 +29682,8 @@
             "es": "Fibra",
             "fr": "Fibres"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-black-beans"
       },
       {
         "name": {
@@ -29702,7 +29778,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       }
     ],
     "steps": [
@@ -29911,7 +29988,8 @@
             "es": "Hierba aromática",
             "fr": "Herbe aromatique"
           }
-        ]
+        ],
+        "substituteGroupId": "sub-coriander"
       },
       {
         "name": {
