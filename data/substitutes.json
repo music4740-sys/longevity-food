@@ -293,12 +293,12 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "칡국수",
-          "en": "Kudzu noodles",
-          "ja": "くず麺",
-          "zh": "葛根面",
-          "es": "Fideos de kudzu",
-          "fr": "Nouilles de kudzu"
+          "ko": "소면",
+          "en": "Somyeon (thin wheat noodles)",
+          "ja": "ソミョン(韓国の細めん)",
+          "zh": "素面(韩式细面)",
+          "es": "Somyeon (fideos finos coreanos)",
+          "fr": "Somyeon (nouilles fines coréennes)"
         }
       },
       {
@@ -799,7 +799,7 @@
       {
         "country": "IN",
         "ingredient": {
-          "ko": "파니르",
+          "ko": "파니르(인도식 치즈)",
           "en": "Paneer",
           "ja": "パニール",
           "zh": "印度奶酪(帕尼尔)",
@@ -913,12 +913,12 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "돼지 안심",
-          "en": "Pork tenderloin",
-          "ja": "豚ヒレ肉",
-          "zh": "猪里脊肉",
-          "es": "Solomillo de cerdo",
-          "fr": "Filet de porc"
+          "ko": "닭가슴살",
+          "en": "Chicken breast",
+          "ja": "鶏むね肉",
+          "zh": "鸡胸肉",
+          "es": "Pechuga de pollo",
+          "fr": "Blanc de poulet"
         }
       },
       {
@@ -1177,7 +1177,7 @@
       {
         "country": "MX",
         "ingredient": {
-          "ko": "치차요테 잎",
+          "ko": "치아요테 잎",
           "en": "Chayote leaves",
           "ja": "チャヨテの葉",
           "zh": "佛手瓜叶",
@@ -1348,12 +1348,12 @@
       {
         "country": "IT",
         "ingredient": {
-          "ko": "콜리플라워",
-          "en": "Cauliflower",
-          "ja": "カリフラワー",
-          "zh": "花椰菜",
-          "es": "Coliflor",
-          "fr": "Chou-fleur"
+          "ko": "로마네스코 브로콜리",
+          "en": "Romanesco broccoli",
+          "ja": "ロマネスコブロッコリー",
+          "zh": "罗马花椰菜",
+          "es": "Brócoli romanesco",
+          "fr": "Chou romanesco"
         }
       },
       {
@@ -1370,23 +1370,23 @@
       {
         "country": "TR",
         "ingredient": {
-          "ko": "콜리플라워",
-          "en": "Cauliflower",
-          "ja": "カリフラワー",
-          "zh": "花椰菜",
-          "es": "Coliflor",
-          "fr": "Chou-fleur"
+          "ko": "아티초크",
+          "en": "Artichoke",
+          "ja": "アーティチョーク",
+          "zh": "洋蓟",
+          "es": "Alcachofa",
+          "fr": "Artichaut"
         }
       },
       {
         "country": "MX",
         "ingredient": {
-          "ko": "콜리플라워",
-          "en": "Cauliflower",
-          "ja": "カリフラワー",
-          "zh": "花椰菜",
-          "es": "Coliflor",
-          "fr": "Chou-fleur"
+          "ko": "칼라바시타(멕시칸 스쿼시)",
+          "en": "Calabacita (Mexican squash)",
+          "ja": "カラバシータ(メキシカンスカッシュ)",
+          "zh": "卡拉巴西塔(墨西哥南瓜)",
+          "es": "Calabacita",
+          "fr": "Calabacita (courge mexicaine)"
         }
       }
     ]
@@ -1405,7 +1405,7 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "오이호박",
+          "ko": "노란 애호박",
           "en": "Yellow summer squash",
           "ja": "イエロースカッシュ",
           "zh": "黄西葫芦",
@@ -1449,7 +1449,7 @@
       {
         "country": "MX",
         "ingredient": {
-          "ko": "치차요테",
+          "ko": "치아요테",
           "en": "Chayote",
           "ja": "チャヨテ",
           "zh": "佛手瓜",
@@ -1653,7 +1653,7 @@
       {
         "country": "MX",
         "ingredient": {
-          "ko": "히카마",
+          "ko": "히카마(멕시코 무)",
           "en": "Jicama",
           "ja": "ヒカマ",
           "zh": "豆薯",
@@ -1721,7 +1721,7 @@
       {
         "country": "MX",
         "ingredient": {
-          "ko": "토마티요",
+          "ko": "토마티요(멕시코 그린토마토)",
           "en": "Tomatillo",
           "ja": "トマティージョ",
           "zh": "绿番茄(墨西哥酸浆)",
@@ -1789,7 +1789,7 @@
       {
         "country": "MX",
         "ingredient": {
-          "ko": "토마티요",
+          "ko": "토마티요(멕시코 그린토마토)",
           "en": "Tomatillo",
           "ja": "トマティージョ",
           "zh": "绿番茄(墨西哥酸浆)",
@@ -3685,7 +3685,7 @@
       {
         "country": "MX",
         "ingredient": {
-          "ko": "히카마",
+          "ko": "히카마(멕시코 무)",
           "en": "Jicama",
           "ja": "ヒカマ",
           "zh": "豆薯(墨西哥凉薯)",
@@ -3897,7 +3897,7 @@
       {
         "country": "MX",
         "ingredient": {
-          "ko": "에파소테",
+          "ko": "에파소테(멕시코 허브)",
           "en": "Epazote",
           "ja": "エパソテ",
           "zh": "土荆芥",
