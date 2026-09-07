@@ -13,12 +13,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "현미",
-          "en": "Brown rice",
-          "ja": "玄米",
-          "zh": "糙米",
-          "es": "Arroz integral",
-          "fr": "Riz complet"
+          "ko": "귀리",
+          "en": "Oats",
+          "ja": "オーツ麦",
+          "zh": "燕麦",
+          "es": "Avena",
+          "fr": "Avoine"
+        },
+        "note": {
+          "ko": "부재료: 대추·잣",
+          "en": "Common pairing: jujube, pine nuts",
+          "ja": "副材料: なつめ、松の実",
+          "zh": "常用辅料: 红枣、松子",
+          "es": "Ingredientes de apoyo: dátiles chinos, piñones",
+          "fr": "Ingrédients d'accompagnement : jujubes, pignons de pin"
         }
       },
       {
@@ -89,12 +97,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "흑미밥",
-          "en": "Black rice",
-          "ja": "黒米ご飯",
-          "zh": "黑米饭",
-          "es": "Arroz negro cocido",
-          "fr": "Riz noir cuit"
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "note": {
+          "ko": "부재료: 검은깨·참기름",
+          "en": "Common pairing: black sesame, sesame oil",
+          "ja": "副材料: 黒ごま、ごま油",
+          "zh": "常用辅料: 黑芝麻、香油",
+          "es": "Ingredientes de apoyo: sésamo negro, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : sésame noir, huile de sésame"
         }
       },
       {
@@ -157,12 +173,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "현미",
-          "en": "Brown rice",
-          "ja": "玄米",
-          "zh": "糙米",
-          "es": "Arroz integral",
-          "fr": "Riz complet"
+          "ko": "보리",
+          "en": "Barley",
+          "ja": "大麦",
+          "zh": "大麦",
+          "es": "Cebada",
+          "fr": "Orge"
+        },
+        "note": {
+          "ko": "부재료: 고추장",
+          "en": "Common pairing: gochujang (Korean chili paste)",
+          "ja": "副材料: コチュジャン(韓国唐辛子味噌)",
+          "zh": "常用辅料: 韩式辣椒酱",
+          "es": "Ingredientes de apoyo: gochujang (pasta de chile coreana)",
+          "fr": "Ingrédients d'accompagnement : gochujang (pâte de piment coréenne)"
         }
       },
       {
@@ -225,12 +249,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "현미",
-          "en": "Brown rice",
-          "ja": "玄米",
-          "zh": "糙米",
-          "es": "Arroz integral",
-          "fr": "Riz complet"
+          "ko": "메밀쌀",
+          "en": "Buckwheat groats",
+          "ja": "そば米",
+          "zh": "荞麦米",
+          "es": "Trigo sarraceno",
+          "fr": "Sarrasin décortiqué"
+        },
+        "note": {
+          "ko": "부재료: 무생채·참기름",
+          "en": "Common pairing: seasoned radish salad, sesame oil",
+          "ja": "副材料: 大根の和え物、ごま油",
+          "zh": "常用辅料: 凉拌萝卜丝、香油",
+          "es": "Ingredientes de apoyo: ensalada de rábano sazonada, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : salade de radis assaisonnée, huile de sésame"
         }
       },
       {
@@ -293,12 +325,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "소면",
-          "en": "Somyeon (thin wheat noodles)",
-          "ja": "ソミョン(韓国の細めん)",
-          "zh": "素面(韩式细面)",
-          "es": "Somyeon (fideos finos coreanos)",
-          "fr": "Somyeon (nouilles fines coréennes)"
+          "ko": "메밀국수",
+          "en": "Buckwheat noodles",
+          "ja": "そば",
+          "zh": "荞麦面",
+          "es": "Fideos de trigo sarraceno",
+          "fr": "Nouilles de sarrasin"
+        },
+        "note": {
+          "ko": "부재료: 양념장(간장·식초·겨자)",
+          "en": "Common pairing: seasoning sauce (soy sauce, vinegar, mustard)",
+          "ja": "副材料: ヤンニョムジャン(醤油・酢・からし)",
+          "zh": "常用辅料: 调味酱汁(酱油、醋、芥末)",
+          "es": "Ingredientes de apoyo: salsa sazonada (soja, vinagre, mostaza)",
+          "fr": "Ingrédients d'accompagnement : sauce assaisonnée (soja, vinaigre, moutarde)"
         }
       },
       {
@@ -361,12 +401,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "현미",
-          "en": "Brown rice",
-          "ja": "玄米",
-          "zh": "糙米",
-          "es": "Arroz integral",
-          "fr": "Riz complet"
+          "ko": "퀴노아",
+          "en": "Quinoa",
+          "ja": "キヌア",
+          "zh": "藜麦",
+          "es": "Quinoa",
+          "fr": "Quinoa"
+        },
+        "note": {
+          "ko": "부재료: 참기름·깨소금",
+          "en": "Common pairing: sesame oil, toasted sesame salt",
+          "ja": "副材料: ごま油、炒りごま塩",
+          "zh": "常用辅料: 香油、芝麻盐",
+          "es": "Ingredientes de apoyo: aceite de sésamo, sal de sésamo tostado",
+          "fr": "Ingrédients d'accompagnement : huile de sésame, sel de sésame grillé"
         }
       },
       {
@@ -437,12 +485,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "현미",
-          "en": "Brown rice",
-          "ja": "玄米",
-          "zh": "糙米",
-          "es": "Arroz integral",
-          "fr": "Riz complet"
+          "ko": "좁쌀",
+          "en": "Millet",
+          "ja": "あわ",
+          "zh": "小米",
+          "es": "Mijo",
+          "fr": "Millet"
+        },
+        "note": {
+          "ko": "부재료: 대추·강낭콩",
+          "en": "Common pairing: jujube, kidney beans",
+          "ja": "副材料: なつめ、いんげん豆",
+          "zh": "常用辅料: 红枣、芸豆",
+          "es": "Ingredientes de apoyo: dátiles chinos, judías rojas",
+          "fr": "Ingrédients d'accompagnement : jujubes, haricots rouges"
         }
       },
       {
@@ -505,12 +561,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "귀리",
-          "en": "Rolled oats",
-          "ja": "オートミール",
-          "zh": "燕麦片",
-          "es": "Avena",
-          "fr": "Flocons d'avoine"
+          "ko": "호밀 플레이크",
+          "en": "Rye flakes",
+          "ja": "ライ麦フレーク",
+          "zh": "黑麦片",
+          "es": "Copos de centeno",
+          "fr": "Flocons de seigle"
+        },
+        "note": {
+          "ko": "부재료: 견과류·건과일",
+          "en": "Common pairing: nuts, dried fruit",
+          "ja": "副材料: ナッツ、ドライフルーツ",
+          "zh": "常用辅料: 坚果、果干",
+          "es": "Ingredientes de apoyo: frutos secos, fruta deshidratada",
+          "fr": "Ingrédients d'accompagnement : noix, fruits secs"
         }
       },
       {
@@ -573,12 +637,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "녹두",
-          "en": "Mung beans",
-          "ja": "緑豆",
-          "zh": "绿豆",
-          "es": "Judías mung",
-          "fr": "Haricots mungo"
+          "ko": "렌틸콩",
+          "en": "Lentils",
+          "ja": "レンズ豆",
+          "zh": "小扁豆",
+          "es": "Lentejas",
+          "fr": "Lentilles"
+        },
+        "note": {
+          "ko": "부재료: 마늘·대파",
+          "en": "Common pairing: garlic, scallion",
+          "ja": "副材料: にんにく、長ねぎ",
+          "zh": "常用辅料: 大蒜、大葱",
+          "es": "Ingredientes de apoyo: ajo, cebolleta larga",
+          "fr": "Ingrédients d'accompagnement : ail, oignon vert long"
         }
       },
       {
@@ -641,12 +713,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "대두",
-          "en": "Soybeans",
-          "ja": "大豆",
-          "zh": "大豆",
-          "es": "Soja",
-          "fr": "Soja"
+          "ko": "병아리콩",
+          "en": "Chickpeas",
+          "ja": "ひよこ豆",
+          "zh": "鹰嘴豆",
+          "es": "Garbanzos",
+          "fr": "Pois chiches"
+        },
+        "note": {
+          "ko": "부재료: 간장·마늘",
+          "en": "Common pairing: soy sauce, garlic",
+          "ja": "副材料: 醤油、にんにく",
+          "zh": "常用辅料: 酱油、大蒜",
+          "es": "Ingredientes de apoyo: salsa de soja, ajo",
+          "fr": "Ingrédients d'accompagnement : sauce soja, ail"
         }
       },
       {
@@ -709,12 +789,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "대두",
-          "en": "Soybeans",
-          "ja": "大豆",
-          "zh": "大豆",
-          "es": "Soja",
-          "fr": "Soja"
+          "ko": "흰강낭콩",
+          "en": "White beans",
+          "ja": "白いんげん豆",
+          "zh": "白芸豆",
+          "es": "Alubias blancas",
+          "fr": "Haricots blancs"
+        },
+        "note": {
+          "ko": "부재료: 간장·다진 마늘",
+          "en": "Common pairing: soy sauce, minced garlic",
+          "ja": "副材料: 醤油、すりおろしにんにく",
+          "zh": "常用辅料: 酱油、蒜末",
+          "es": "Ingredientes de apoyo: salsa de soja, ajo picado",
+          "fr": "Ingrédients d'accompagnement : sauce soja, ail haché"
         }
       },
       {
@@ -777,12 +865,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "순두부",
-          "en": "Silken tofu",
-          "ja": "絹ごし豆腐",
-          "zh": "嫩豆腐",
-          "es": "Tofu sedoso",
-          "fr": "Tofu soyeux"
+          "ko": "두부",
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
+        },
+        "note": {
+          "ko": "부재료: 대파·참기름",
+          "en": "Common pairing: scallion, sesame oil",
+          "ja": "副材料: 長ねぎ、ごま油",
+          "zh": "常用辅料: 大葱、香油",
+          "es": "Ingredientes de apoyo: cebolleta larga, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : oignon vert long, huile de sésame"
         }
       },
       {
@@ -845,12 +941,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "완두콩",
-          "en": "Green peas",
-          "ja": "グリーンピース",
-          "zh": "青豆",
-          "es": "Guisantes",
-          "fr": "Petits pois"
+          "ko": "풋콩",
+          "en": "Edamame",
+          "ja": "枝豆",
+          "zh": "毛豆",
+          "es": "Edamame",
+          "fr": "Edamame"
+        },
+        "note": {
+          "ko": "부재료: 소금·마늘",
+          "en": "Common pairing: salt, garlic",
+          "ja": "副材料: 塩、にんにく",
+          "zh": "常用辅料: 盐、大蒜",
+          "es": "Ingredientes de apoyo: sal, ajo",
+          "fr": "Ingrédients d'accompagnement : sel, ail"
         }
       },
       {
@@ -919,6 +1023,14 @@
           "zh": "鸡胸肉",
           "es": "Pechuga de pollo",
           "fr": "Blanc de poulet"
+        },
+        "note": {
+          "ko": "부재료: 마늘·대파",
+          "en": "Common pairing: garlic, scallion",
+          "ja": "副材料: にんにく、長ねぎ",
+          "zh": "常用辅料: 大蒜、大葱",
+          "es": "Ingredientes de apoyo: ajo, cebolleta larga",
+          "fr": "Ingrédients d'accompagnement : ail, oignon vert long"
         }
       },
       {
@@ -989,12 +1101,12 @@
           "fr": "Maquereau"
         },
         "note": {
-          "ko": "동아시아에서 흔히 구할 수 있는 등푸른생선",
-          "en": "A widely available oily fish across East Asia",
-          "ja": "東アジアで広く手に入る青魚です。",
-          "zh": "东亚地区常见易得的深海鱼类。",
-          "es": "Un pescado azul ampliamente disponible en Asia Oriental.",
-          "fr": "Un poisson gras largement disponible en Asie de l'Est."
+          "ko": "부재료: 무·고춧가루",
+          "en": "Common pairing: radish, chili powder",
+          "ja": "副材料: 大根、唐辛子粉",
+          "zh": "常用辅料: 萝卜、辣椒粉",
+          "es": "Ingredientes de apoyo: rábano, chile en polvo",
+          "fr": "Ingrédients d'accompagnement : radis, piment en poudre"
         }
       },
       {
@@ -1065,12 +1177,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "고등어",
-          "en": "Mackerel",
-          "ja": "鯖",
-          "zh": "鲭鱼",
-          "es": "Caballa",
-          "fr": "Maquereau"
+          "ko": "연어",
+          "en": "Salmon",
+          "ja": "鮭",
+          "zh": "三文鱼",
+          "es": "Salmón",
+          "fr": "Saumon"
+        },
+        "note": {
+          "ko": "부재료: 마늘·참기름",
+          "en": "Common pairing: garlic, sesame oil",
+          "ja": "副材料: にんにく、ごま油",
+          "zh": "常用辅料: 大蒜、香油",
+          "es": "Ingredientes de apoyo: ajo, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : ail, huile de sésame"
         }
       },
       {
@@ -1133,12 +1253,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "배추",
-          "en": "Napa cabbage",
-          "ja": "白菜",
-          "zh": "大白菜",
-          "es": "Col china",
-          "fr": "Chou chinois"
+          "ko": "시금치",
+          "en": "Spinach",
+          "ja": "ほうれん草",
+          "zh": "菠菜",
+          "es": "Espinaca",
+          "fr": "Épinard"
+        },
+        "note": {
+          "ko": "부재료: 마늘·참기름",
+          "en": "Common pairing: garlic, sesame oil",
+          "ja": "副材料: にんにく、ごま油",
+          "zh": "常用辅料: 大蒜、香油",
+          "es": "Ingredientes de apoyo: ajo, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : ail, huile de sésame"
         }
       },
       {
@@ -1201,12 +1329,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "배추",
-          "en": "Napa cabbage",
-          "ja": "白菜",
-          "zh": "大白菜",
-          "es": "Col china",
-          "fr": "Chou chinois"
+          "ko": "케일",
+          "en": "Kale",
+          "ja": "ケール",
+          "zh": "羽衣甘蓝",
+          "es": "Col rizada (kale)",
+          "fr": "Chou frisé (kale)"
+        },
+        "note": {
+          "ko": "부재료: 마늘·들기름",
+          "en": "Common pairing: garlic, perilla oil",
+          "ja": "副材料: にんにく、えごま油",
+          "zh": "常用辅料: 大蒜、紫苏油",
+          "es": "Ingredientes de apoyo: ajo, aceite de perilla",
+          "fr": "Ingrédients d'accompagnement : ail, huile de périlla"
         }
       },
       {
@@ -1269,12 +1405,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "배추",
-          "en": "Napa cabbage",
-          "ja": "白菜",
-          "zh": "大白菜",
-          "es": "Col china",
-          "fr": "Chou chinois"
+          "ko": "청경채",
+          "en": "Bok choy",
+          "ja": "チンゲン菜",
+          "zh": "小白菜",
+          "es": "Bok choy",
+          "fr": "Pak-choï"
+        },
+        "note": {
+          "ko": "부재료: 마늘·참기름",
+          "en": "Common pairing: garlic, sesame oil",
+          "ja": "副材料: にんにく、ごま油",
+          "zh": "常用辅料: 大蒜、香油",
+          "es": "Ingredientes de apoyo: ajo, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : ail, huile de sésame"
         }
       },
       {
@@ -1337,12 +1481,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "콜리플라워",
-          "en": "Cauliflower",
-          "ja": "カリフラワー",
-          "zh": "花椰菜",
-          "es": "Coliflor",
-          "fr": "Chou-fleur"
+          "ko": "브로콜리",
+          "en": "Broccoli",
+          "ja": "ブロッコリー",
+          "zh": "西兰花",
+          "es": "Brócoli",
+          "fr": "Brocoli"
+        },
+        "note": {
+          "ko": "부재료: 마늘·참기름",
+          "en": "Common pairing: garlic, sesame oil",
+          "ja": "副材料: にんにく、ごま油",
+          "zh": "常用辅料: 大蒜、香油",
+          "es": "Ingredientes de apoyo: ajo, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : ail, huile de sésame"
         }
       },
       {
@@ -1405,12 +1557,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "노란 애호박",
-          "en": "Yellow summer squash",
-          "ja": "イエロースカッシュ",
-          "zh": "黄西葫芦",
-          "es": "Calabaza amarilla de verano",
-          "fr": "Courge d'été jaune"
+          "ko": "애호박",
+          "en": "Zucchini",
+          "ja": "ズッキーニ",
+          "zh": "西葫芦",
+          "es": "Calabacín",
+          "fr": "Courgette"
+        },
+        "note": {
+          "ko": "부재료: 다진 마늘·새우젓",
+          "en": "Common pairing: minced garlic, salted shrimp",
+          "ja": "副材料: すりおろしにんにく、アミの塩辛",
+          "zh": "常用辅料: 蒜末、虾酱",
+          "es": "Ingredientes de apoyo: ajo picado, camarones salados fermentados",
+          "fr": "Ingrédients d'accompagnement : ail haché, crevettes salées fermentées"
         }
       },
       {
@@ -1473,12 +1633,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "피망",
-          "en": "Green bell pepper",
-          "ja": "ピーマン",
-          "zh": "青椒",
-          "es": "Pimiento verde",
-          "fr": "Poivron vert"
+          "ko": "파프리카",
+          "en": "Bell pepper",
+          "ja": "パプリカ",
+          "zh": "甜椒",
+          "es": "Pimiento",
+          "fr": "Poivron"
+        },
+        "note": {
+          "ko": "부재료: 양파·마늘",
+          "en": "Common pairing: onion, garlic",
+          "ja": "副材料: 玉ねぎ、にんにく",
+          "zh": "常用辅料: 洋葱、大蒜",
+          "es": "Ingredientes de apoyo: cebolla, ajo",
+          "fr": "Ingrédients d'accompagnement : oignon, ail"
         }
       },
       {
@@ -1541,12 +1709,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "느타리버섯",
-          "en": "Oyster mushrooms",
-          "ja": "ヒラタケ(オイスターマッシュルーム)",
-          "zh": "平菇",
-          "es": "Setas ostra",
-          "fr": "Pleurotes"
+          "ko": "표고버섯",
+          "en": "Shiitake mushrooms",
+          "ja": "しいたけ",
+          "zh": "香菇",
+          "es": "Setas shiitake",
+          "fr": "Champignons shiitake"
+        },
+        "note": {
+          "ko": "부재료: 마늘·참기름",
+          "en": "Common pairing: garlic, sesame oil",
+          "ja": "副材料: にんにく、ごま油",
+          "zh": "常用辅料: 大蒜、香油",
+          "es": "Ingredientes de apoyo: ajo, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : ail, huile de sésame"
         }
       },
       {
@@ -1609,12 +1785,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "순무",
-          "en": "Turnip",
-          "ja": "かぶ",
-          "zh": "芜菁",
-          "es": "Nabo",
-          "fr": "Navet"
+          "ko": "무",
+          "en": "Daikon radish",
+          "ja": "大根",
+          "zh": "白萝卜",
+          "es": "Rábano daikon",
+          "fr": "Radis daikon"
+        },
+        "note": {
+          "ko": "부재료: 마늘·파",
+          "en": "Common pairing: garlic, scallion",
+          "ja": "副材料: にんにく、ねぎ",
+          "zh": "常用辅料: 大蒜、葱",
+          "es": "Ingredientes de apoyo: ajo, cebolleta",
+          "fr": "Ingrédients d'accompagnement : ail, oignon vert"
         }
       },
       {
@@ -1677,12 +1861,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "토마토",
-          "en": "Tomato",
-          "ja": "トマト",
-          "zh": "番茄",
-          "es": "Tomate",
-          "fr": "Tomate"
+          "ko": "방울토마토",
+          "en": "Cherry tomatoes",
+          "ja": "プチトマト",
+          "zh": "圣女果",
+          "es": "Tomates cherry",
+          "fr": "Tomates cerises"
+        },
+        "note": {
+          "ko": "부재료: 양파·올리브유",
+          "en": "Common pairing: onion, olive oil",
+          "ja": "副材料: 玉ねぎ、オリーブオイル",
+          "zh": "常用辅料: 洋葱、橄榄油",
+          "es": "Ingredientes de apoyo: cebolla, aceite de oliva",
+          "fr": "Ingrédients d'accompagnement : oignon, huile d'olive"
         }
       },
       {
@@ -1751,6 +1943,14 @@
           "zh": "番茄",
           "es": "Tomate",
           "fr": "Tomate"
+        },
+        "note": {
+          "ko": "부재료: 양파·설탕",
+          "en": "Common pairing: onion, sugar",
+          "ja": "副材料: 玉ねぎ、砂糖",
+          "zh": "常用辅料: 洋葱、糖",
+          "es": "Ingredientes de apoyo: cebolla, azúcar",
+          "fr": "Ingrédients d'accompagnement : oignon, sucre"
         }
       },
       {
@@ -1813,12 +2013,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "겨자잎",
-          "en": "Mustard greens",
-          "ja": "からし菜",
-          "zh": "芥菜",
-          "es": "Hojas de mostaza",
-          "fr": "Feuilles de moutarde"
+          "ko": "루꼴라",
+          "en": "Arugula",
+          "ja": "ルッコラ",
+          "zh": "芝麻菜",
+          "es": "Rúcula",
+          "fr": "Roquette"
+        },
+        "note": {
+          "ko": "부재료: 양파·견과류",
+          "en": "Common pairing: onion, nuts",
+          "ja": "副材料: 玉ねぎ、ナッツ",
+          "zh": "常用辅料: 洋葱、坚果",
+          "es": "Ingredientes de apoyo: cebolla, frutos secos",
+          "fr": "Ingrédients d'accompagnement : oignon, noix"
         }
       },
       {
@@ -1881,12 +2089,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "오디(뽕나무 열매)",
-          "en": "Mulberries",
-          "ja": "桑の実(マルベリー)",
-          "zh": "桑葚",
-          "es": "Moras (del morero)",
-          "fr": "Mûres (du mûrier)"
+          "ko": "블루베리",
+          "en": "Blueberries",
+          "ja": "ブルーベリー",
+          "zh": "蓝莓",
+          "es": "Arándanos",
+          "fr": "Myrtilles"
+        },
+        "note": {
+          "ko": "부재료: 그래놀라·꿀",
+          "en": "Common pairing: granola, honey",
+          "ja": "副材料: グラノーラ、はちみつ",
+          "zh": "常用辅料: 格兰诺拉麦片、蜂蜜",
+          "es": "Ingredientes de apoyo: granola, miel",
+          "fr": "Ingrédients d'accompagnement : granola, miel"
         }
       },
       {
@@ -1949,12 +2165,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "오디(뽕나무 열매)",
-          "en": "Mulberries",
-          "ja": "桑の実(マルベリー)",
-          "zh": "桑葚",
-          "es": "Moras (del morero)",
-          "fr": "Mûres (du mûrier)"
+          "ko": "라즈베리",
+          "en": "Raspberries",
+          "ja": "ラズベリー",
+          "zh": "覆盆子",
+          "es": "Frambuesas",
+          "fr": "Framboises"
+        },
+        "note": {
+          "ko": "부재료: 그래놀라·꿀",
+          "en": "Common pairing: granola, honey",
+          "ja": "副材料: グラノーラ、はちみつ",
+          "zh": "常用辅料: 格兰诺拉麦片、蜂蜜",
+          "es": "Ingredientes de apoyo: granola, miel",
+          "fr": "Ingrédients d'accompagnement : granola, miel"
         }
       },
       {
@@ -2017,12 +2241,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "오디(뽕나무 열매)",
-          "en": "Mulberries",
-          "ja": "桑の実(マルベリー)",
-          "zh": "桑葚",
-          "es": "Moras (del morero)",
-          "fr": "Mûres (du mûrier)"
+          "ko": "블랙베리",
+          "en": "Blackberries",
+          "ja": "ブラックベリー",
+          "zh": "黑莓",
+          "es": "Moras",
+          "fr": "Mûres"
+        },
+        "note": {
+          "ko": "부재료: 그래놀라·꿀",
+          "en": "Common pairing: granola, honey",
+          "ja": "副材料: グラノーラ、はちみつ",
+          "zh": "常用辅料: 格兰诺拉麦片、蜂蜜",
+          "es": "Ingredientes de apoyo: granola, miel",
+          "fr": "Ingrédients d'accompagnement : granola, miel"
         }
       },
       {
@@ -2085,12 +2317,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "배",
-          "en": "Asian pear",
-          "ja": "梨",
-          "zh": "梨",
-          "es": "Pera asiática",
-          "fr": "Poire asiatique"
+          "ko": "사과",
+          "en": "Apple",
+          "ja": "りんご",
+          "zh": "苹果",
+          "es": "Manzana",
+          "fr": "Pomme"
+        },
+        "note": {
+          "ko": "부재료: 견과류·꿀",
+          "en": "Common pairing: nuts, honey",
+          "ja": "副材料: ナッツ、はちみつ",
+          "zh": "常用辅料: 坚果、蜂蜜",
+          "es": "Ingredientes de apoyo: frutos secos, miel",
+          "fr": "Ingrédients d'accompagnement : noix, miel"
         }
       },
       {
@@ -2153,12 +2393,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "사과",
-          "en": "Apple",
-          "ja": "りんご",
-          "zh": "苹果",
-          "es": "Manzana",
-          "fr": "Pomme"
+          "ko": "배",
+          "en": "Pear",
+          "ja": "梨",
+          "zh": "梨",
+          "es": "Pera",
+          "fr": "Poire"
+        },
+        "note": {
+          "ko": "부재료: 꿀·계피",
+          "en": "Common pairing: honey, cinnamon",
+          "ja": "副材料: はちみつ、シナモン",
+          "zh": "常用辅料: 蜂蜜、肉桂",
+          "es": "Ingredientes de apoyo: miel, canela",
+          "fr": "Ingrédients d'accompagnement : miel, cannelle"
         }
       },
       {
@@ -2221,12 +2469,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "곶감",
-          "en": "Dried persimmon",
-          "ja": "干し柿",
-          "zh": "柿饼",
-          "es": "Caqui seco",
-          "fr": "Kaki séché"
+          "ko": "무화과",
+          "en": "Fig",
+          "ja": "いちじく",
+          "zh": "无花果",
+          "es": "Higo",
+          "fr": "Figue"
+        },
+        "note": {
+          "ko": "부재료: 견과류·꿀",
+          "en": "Common pairing: nuts, honey",
+          "ja": "副材料: ナッツ、はちみつ",
+          "zh": "常用辅料: 坚果、蜂蜜",
+          "es": "Ingredientes de apoyo: frutos secos, miel",
+          "fr": "Ingrédients d'accompagnement : noix, miel"
         }
       },
       {
@@ -2297,12 +2553,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "살구",
-          "en": "Apricot",
-          "ja": "あんず",
-          "zh": "杏",
-          "es": "Albaricoque",
-          "fr": "Abricot"
+          "ko": "자두",
+          "en": "Plum",
+          "ja": "プラム",
+          "zh": "李子",
+          "es": "Ciruela",
+          "fr": "Prune"
+        },
+        "note": {
+          "ko": "부재료: 설탕·식초",
+          "en": "Common pairing: sugar, vinegar",
+          "ja": "副材料: 砂糖、酢",
+          "zh": "常用辅料: 糖、醋",
+          "es": "Ingredientes de apoyo: azúcar, vinagre",
+          "fr": "Ingrédients d'accompagnement : sucre, vinaigre"
         }
       },
       {
@@ -2365,20 +2629,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "으깬 두부",
-          "en": "Mashed tofu",
-          "ja": "つぶした豆腐",
-          "zh": "压碎的豆腐",
-          "es": "Tofu triturado",
-          "fr": "Tofu écrasé"
+          "ko": "아보카도",
+          "en": "Avocado",
+          "ja": "アボカド",
+          "zh": "牛油果",
+          "es": "Aguacate",
+          "fr": "Avocat"
         },
         "note": {
-          "ko": "지방 함량은 다르지만 부드러운 질감을 대신할 수 있음",
-          "en": "Different fat content, but mimics the creamy texture",
-          "ja": "脂質の含有量は異なりますが、なめらかな食感を代用できます。",
-          "zh": "脂肪含量不同,但可以模拟顺滑的口感。",
-          "es": "El contenido de grasa es diferente, pero imita la textura cremosa.",
-          "fr": "La teneur en matières grasses diffère, mais imite la texture crémeuse."
+          "ko": "부재료: 간장·참기름",
+          "en": "Common pairing: soy sauce, sesame oil",
+          "ja": "副材料: 醤油、ごま油",
+          "zh": "常用辅料: 酱油、香油",
+          "es": "Ingredientes de apoyo: salsa de soja, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : sauce soja, huile de sésame"
         }
       },
       {
@@ -2457,12 +2721,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "잣",
-          "en": "Pine nuts",
-          "ja": "松の実",
-          "zh": "松子",
-          "es": "Piñones",
-          "fr": "Pignons de pin"
+          "ko": "아몬드",
+          "en": "Almonds",
+          "ja": "アーモンド",
+          "zh": "杏仁",
+          "es": "Almendras",
+          "fr": "Amandes"
+        },
+        "note": {
+          "ko": "부재료: 통깨·참기름",
+          "en": "Common pairing: toasted sesame, sesame oil",
+          "ja": "副材料: 炒りごま、ごま油",
+          "zh": "常用辅料: 芝麻、香油",
+          "es": "Ingredientes de apoyo: sésamo tostado, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : sésame grillé, huile de sésame"
         }
       },
       {
@@ -2525,12 +2797,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "잣",
-          "en": "Pine nuts",
-          "ja": "松の実",
-          "zh": "松子",
-          "es": "Piñones",
-          "fr": "Pignons de pin"
+          "ko": "호두",
+          "en": "Walnuts",
+          "ja": "くるみ",
+          "zh": "核桃",
+          "es": "Nueces",
+          "fr": "Noix"
+        },
+        "note": {
+          "ko": "부재료: 통깨·참기름",
+          "en": "Common pairing: toasted sesame, sesame oil",
+          "ja": "副材料: 炒りごま、ごま油",
+          "zh": "常用辅料: 芝麻、香油",
+          "es": "Ingredientes de apoyo: sésamo tostado, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : sésame grillé, huile de sésame"
         }
       },
       {
@@ -2593,12 +2873,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "잣",
-          "en": "Pine nuts",
-          "ja": "松の実",
-          "zh": "松子",
-          "es": "Piñones",
-          "fr": "Pignons de pin"
+          "ko": "호박씨",
+          "en": "Pumpkin seeds",
+          "ja": "かぼちゃの種",
+          "zh": "南瓜籽",
+          "es": "Semillas de calabaza",
+          "fr": "Graines de courge"
+        },
+        "note": {
+          "ko": "부재료: 통깨·참기름",
+          "en": "Common pairing: toasted sesame, sesame oil",
+          "ja": "副材料: 炒りごま、ごま油",
+          "zh": "常用辅料: 芝麻、香油",
+          "es": "Ingredientes de apoyo: sésamo tostado, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : sésame grillé, huile de sésame"
         }
       },
       {
@@ -2669,12 +2957,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "잣",
-          "en": "Pine nuts",
-          "ja": "松の実",
-          "zh": "松子",
-          "es": "Piñones",
-          "fr": "Pignons de pin"
+          "ko": "헤이즐넛",
+          "en": "Hazelnuts",
+          "ja": "ヘーゼルナッツ",
+          "zh": "榛子",
+          "es": "Avellanas",
+          "fr": "Noisettes"
+        },
+        "note": {
+          "ko": "부재료: 통깨·참기름",
+          "en": "Common pairing: toasted sesame, sesame oil",
+          "ja": "副材料: 炒りごま、ごま油",
+          "zh": "常用辅料: 芝麻、香油",
+          "es": "Ingredientes de apoyo: sésamo tostado, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : sésame grillé, huile de sésame"
         }
       },
       {
@@ -2745,12 +3041,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "호박씨",
-          "en": "Pumpkin seeds",
-          "ja": "かぼちゃの種",
-          "zh": "南瓜籽",
-          "es": "Semillas de calabaza",
-          "fr": "Graines de courge"
+          "ko": "해바라기씨",
+          "en": "Sunflower seeds",
+          "ja": "ひまわりの種",
+          "zh": "葵花籽",
+          "es": "Semillas de girasol",
+          "fr": "Graines de tournesol"
+        },
+        "note": {
+          "ko": "부재료: 통깨·참기름",
+          "en": "Common pairing: toasted sesame, sesame oil",
+          "ja": "副材料: 炒りごま、ごま油",
+          "zh": "常用辅料: 芝麻、香油",
+          "es": "Ingredientes de apoyo: sésamo tostado, aceite de sésamo",
+          "fr": "Ingrédients d'accompagnement : sésame grillé, huile de sésame"
         }
       },
       {
@@ -2813,12 +3117,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "들깨",
-          "en": "Perilla seeds",
-          "ja": "えごま",
-          "zh": "紫苏籽",
-          "es": "Semillas de perilla",
-          "fr": "Graines de périlla"
+          "ko": "참깨",
+          "en": "Sesame seeds",
+          "ja": "ごま",
+          "zh": "芝麻",
+          "es": "Semillas de sésamo",
+          "fr": "Graines de sésame"
+        },
+        "note": {
+          "ko": "부재료: 참기름·마늘",
+          "en": "Common pairing: sesame oil, garlic",
+          "ja": "副材料: ごま油、にんにく",
+          "zh": "常用辅料: 香油、大蒜",
+          "es": "Ingredientes de apoyo: aceite de sésamo, ajo",
+          "fr": "Ingrédients d'accompagnement : huile de sésame, ail"
         }
       },
       {
@@ -2881,12 +3193,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "들깨",
-          "en": "Perilla seeds",
-          "ja": "えごま",
-          "zh": "紫苏籽",
-          "es": "Semillas de perilla",
-          "fr": "Graines de périlla"
+          "ko": "치아씨드",
+          "en": "Chia seeds",
+          "ja": "チアシード",
+          "zh": "奇亚籽",
+          "es": "Semillas de chía",
+          "fr": "Graines de chia"
+        },
+        "note": {
+          "ko": "부재료: 견과류·꿀",
+          "en": "Common pairing: nuts, honey",
+          "ja": "副材料: ナッツ、はちみつ",
+          "zh": "常用辅料: 坚果、蜂蜜",
+          "es": "Ingredientes de apoyo: frutos secos, miel",
+          "fr": "Ingrédients d'accompagnement : noix, miel"
         }
       },
       {
@@ -2957,12 +3277,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "참기름",
-          "en": "Sesame oil",
-          "ja": "ごま油",
-          "zh": "芝麻油",
-          "es": "Aceite de sésamo",
-          "fr": "Huile de sésame"
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        },
+        "note": {
+          "ko": "부재료: 마늘·통깨",
+          "en": "Common pairing: garlic, toasted sesame",
+          "ja": "副材料: にんにく、炒りごま",
+          "zh": "常用辅料: 大蒜、芝麻",
+          "es": "Ingredientes de apoyo: ajo, sésamo tostado",
+          "fr": "Ingrédients d'accompagnement : ail, sésame grillé"
         }
       },
       {
@@ -3049,12 +3377,12 @@
           "fr": "Huile de sésame"
         },
         "note": {
-          "ko": "동아시아 요리에서 흔히 쓰여 대체가 거의 필요 없음",
-          "en": "A staple in East Asian cooking, rarely needs substituting here",
-          "ja": "東アジア料理でよく使われ、ここではほぼ代替の必要がありません。",
-          "zh": "东亚料理中常用食材,在此地几乎不需要替代。",
-          "es": "Un ingrediente habitual en la cocina de Asia Oriental, aquí rara vez es necesario sustituirlo.",
-          "fr": "Un ingrédient courant dans la cuisine d'Asie de l'Est, il n'y a ici presque jamais besoin de la remplacer."
+          "ko": "부재료: 마늘·통깨",
+          "en": "Common pairing: garlic, toasted sesame",
+          "ja": "副材料: にんにく、炒りごま",
+          "zh": "常用辅料: 大蒜、芝麻",
+          "es": "Ingredientes de apoyo: ajo, sésamo tostado",
+          "fr": "Ingrédients d'accompagnement : ail, sésame grillé"
         }
       },
       {
@@ -3117,12 +3445,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "참기름",
-          "en": "Sesame oil",
-          "ja": "ごま油",
-          "zh": "芝麻油",
-          "es": "Aceite de sésamo",
-          "fr": "Huile de sésame"
+          "ko": "들기름",
+          "en": "Perilla oil",
+          "ja": "えごま油",
+          "zh": "紫苏籽油",
+          "es": "Aceite de perilla",
+          "fr": "Huile de périlla"
+        },
+        "note": {
+          "ko": "부재료: 들깨가루",
+          "en": "Common pairing: ground perilla seeds",
+          "ja": "副材料: えごまの粉",
+          "zh": "常用辅料: 紫苏籽粉",
+          "es": "Ingredientes de apoyo: semillas de perilla molidas",
+          "fr": "Ingrédients d'accompagnement : graines de périlla moulues"
         }
       },
       {
@@ -3185,12 +3521,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "무가당 두유",
-          "en": "Unsweetened soy milk",
-          "ja": "無糖豆乳",
-          "zh": "无糖豆浆",
-          "es": "Leche de soja sin azúcar",
-          "fr": "Lait de soja non sucré"
+          "ko": "무가당 아몬드유",
+          "en": "Unsweetened almond milk",
+          "ja": "無糖アーモンドミルク",
+          "zh": "无糖杏仁奶",
+          "es": "Leche de almendras sin azúcar",
+          "fr": "Lait d'amande non sucré"
+        },
+        "note": {
+          "ko": "부재료: 견과류",
+          "en": "Common pairing: nuts",
+          "ja": "副材料: ナッツ",
+          "zh": "常用辅料: 坚果",
+          "es": "Ingredientes de apoyo: frutos secos",
+          "fr": "Ingrédients d'accompagnement : noix"
         }
       },
       {
@@ -3253,12 +3597,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "유자",
-          "en": "Yuzu",
-          "ja": "柚子",
-          "zh": "柚子",
-          "es": "Yuzu",
-          "fr": "Yuzu"
+          "ko": "레몬",
+          "en": "Lemon",
+          "ja": "レモン",
+          "zh": "柠檬",
+          "es": "Limón",
+          "fr": "Citron"
+        },
+        "note": {
+          "ko": "부재료: 유자청",
+          "en": "Common pairing: yuzu honey syrup",
+          "ja": "副材料: ゆずシロップ",
+          "zh": "常用辅料: 柚子蜜",
+          "es": "Ingredientes de apoyo: sirope de yuzu con miel",
+          "fr": "Ingrédients d'accompagnement : sirop de yuzu au miel"
         }
       },
       {
@@ -3337,12 +3689,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "멸치 다시마 육수",
-          "en": "Anchovy-kelp broth",
-          "ja": "煮干し昆布だし",
-          "zh": "鳀鱼海带高汤",
-          "es": "Caldo de anchoa y alga kelp",
-          "fr": "Bouillon d'anchois et de kelp"
+          "ko": "채소 육수",
+          "en": "Vegetable stock",
+          "ja": "野菜だし",
+          "zh": "蔬菜高汤",
+          "es": "Caldo de verduras",
+          "fr": "Bouillon de légumes"
+        },
+        "note": {
+          "ko": "부재료: 멸치·다시마",
+          "en": "Common pairing: dried anchovy, kelp",
+          "ja": "副材料: いりこ、昆布",
+          "zh": "常用辅料: 鳀鱼干、海带",
+          "es": "Ingredientes de apoyo: anchoas secas, alga kelp",
+          "fr": "Ingrédients d'accompagnement : anchois séchés, algue kombu"
         }
       },
       {
@@ -3405,12 +3765,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "생강가루",
-          "en": "Ground ginger",
-          "ja": "生姜パウダー",
-          "zh": "姜粉",
-          "es": "Jengibre molido",
-          "fr": "Gingembre moulu"
+          "ko": "계피가루",
+          "en": "Ground cinnamon",
+          "ja": "シナモンパウダー",
+          "zh": "肉桂粉",
+          "es": "Canela molida",
+          "fr": "Cannelle moulue"
+        },
+        "note": {
+          "ko": "부재료: 생강",
+          "en": "Common pairing: ginger",
+          "ja": "副材料: しょうが",
+          "zh": "常用辅料: 姜",
+          "es": "Ingredientes de apoyo: jengibre",
+          "fr": "Ingrédients d'accompagnement : gingembre"
         }
       },
       {
@@ -3473,20 +3841,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "대파",
-          "en": "Korean green onion (daepa)",
-          "ja": "大葉ねぎ(テパ)",
-          "zh": "大葱",
-          "es": "Cebolleta coreana (daepa)",
-          "fr": "Oignon vert coréen (daepa)"
+          "ko": "양파",
+          "en": "Onion",
+          "ja": "玉ねぎ",
+          "zh": "洋葱",
+          "es": "Cebolla",
+          "fr": "Oignon"
         },
         "note": {
-          "ko": "한식 국물 요리에서는 양파 대신 대파로 향을 낸다",
-          "en": "Korean soups often build their aromatic base with daepa (long green onion) instead of onion",
-          "ja": "韓国のスープ料理では玉ねぎの代わりに大葉ねぎで香りを出すことが多い",
-          "zh": "韩式汤类料理常用大葱代替洋葱提香",
-          "es": "En las sopas coreanas suele usarse daepa (cebolleta larga) en vez de cebolla para el aroma",
-          "fr": "Dans les soupes coréennes, le daepa (oignon vert long) remplace souvent l'oignon pour l'arôme"
+          "ko": "부재료: 대파",
+          "en": "Common pairing: scallion",
+          "ja": "副材料: 長ねぎ",
+          "zh": "常用辅料: 大葱",
+          "es": "Ingredientes de apoyo: cebolleta larga",
+          "fr": "Ingrédients d'accompagnement : oignon vert long"
         }
       },
       {
@@ -3557,20 +3925,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "무",
-          "en": "Korean radish (mu)",
-          "ja": "大根(ムー)",
-          "zh": "萝卜",
-          "es": "Rábano coreano (mu)",
-          "fr": "Radis coréen (mu)"
+          "ko": "당근",
+          "en": "Carrot",
+          "ja": "にんじん",
+          "zh": "胡萝卜",
+          "es": "Zanahoria",
+          "fr": "Carotte"
         },
         "note": {
-          "ko": "한식 조림·국물 요리에서는 당근 대신 무로 시원한 맛을 낸다",
-          "en": "Korean braises and soups often use radish instead of carrot for a clean, savory sweetness",
-          "ja": "韓国の煮物やスープでは、にんじんの代わりに大根であっさりした味を出すことが多い",
-          "zh": "韩式炖菜和汤类常用萝卜代替胡萝卜带来清爽口感",
-          "es": "Los guisos y sopas coreanos suelen usar rábano en vez de zanahoria para un sabor más limpio",
-          "fr": "Les mijotés et soupes coréens utilisent souvent le radis à la place de la carotte pour une saveur plus douce"
+          "ko": "부재료: 양파·마늘",
+          "en": "Common pairing: onion, garlic",
+          "ja": "副材料: 玉ねぎ、にんにく",
+          "zh": "常用辅料: 洋葱、大蒜",
+          "es": "Ingredientes de apoyo: cebolla, ajo",
+          "fr": "Ingrédients d'accompagnement : oignon, ail"
         }
       },
       {
@@ -3633,12 +4001,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "조선오이",
-          "en": "Korean white cucumber",
-          "ja": "朝鮮きゅうり",
-          "zh": "朝鲜黄瓜",
-          "es": "Pepino blanco coreano",
-          "fr": "Concombre blanc coréen"
+          "ko": "오이",
+          "en": "Cucumber",
+          "ja": "きゅうり",
+          "zh": "黄瓜",
+          "es": "Pepino",
+          "fr": "Concombre"
+        },
+        "note": {
+          "ko": "부재료: 마늘·고춧가루",
+          "en": "Common pairing: garlic, chili powder",
+          "ja": "副材料: にんにく、唐辛子粉",
+          "zh": "常用辅料: 大蒜、辣椒粉",
+          "es": "Ingredientes de apoyo: ajo, chile en polvo",
+          "fr": "Ingrédients d'accompagnement : ail, piment en poudre"
         }
       },
       {
@@ -3709,12 +4085,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "무가당 두유 요거트",
-          "en": "Unsweetened soy yogurt",
-          "ja": "無糖豆乳ヨーグルト",
-          "zh": "无糖豆奶酸奶",
-          "es": "Yogur de soja sin azúcar",
-          "fr": "Yaourt de soja non sucré"
+          "ko": "요거트",
+          "en": "Yogurt",
+          "ja": "ヨーグルト",
+          "zh": "酸奶",
+          "es": "Yogur",
+          "fr": "Yaourt"
+        },
+        "note": {
+          "ko": "부재료: 견과류·꿀",
+          "en": "Common pairing: nuts, honey",
+          "ja": "副材料: ナッツ、はちみつ",
+          "zh": "常用辅料: 坚果、蜂蜜",
+          "es": "Ingredientes de apoyo: frutos secos, miel",
+          "fr": "Ingrédients d'accompagnement : noix, miel"
         }
       },
       {
@@ -3777,12 +4161,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "서리태",
-          "en": "Seoritae (Korean black soybean)",
-          "ja": "ソリテ(韓国産黒豆)",
-          "zh": "瑞太黑豆(韩式黑豆)",
-          "es": "Seoritae (soja negra coreana)",
-          "fr": "Seoritae (soja noir coréen)"
+          "ko": "검은콩",
+          "en": "Black beans",
+          "ja": "黒豆",
+          "zh": "黑豆",
+          "es": "Frijoles negros",
+          "fr": "Haricots noirs"
+        },
+        "note": {
+          "ko": "부재료: 간장·조청",
+          "en": "Common pairing: soy sauce, rice syrup",
+          "ja": "副材料: 醤油、水あめ",
+          "zh": "常用辅料: 酱油、米糖浆",
+          "es": "Ingredientes de apoyo: salsa de soja, jarabe de arroz",
+          "fr": "Ingrédients d'accompagnement : sauce soja, sirop de riz"
         }
       },
       {
@@ -3853,12 +4245,20 @@
       {
         "country": "KR",
         "ingredient": {
-          "ko": "미나리",
-          "en": "Minari (Korean watercress)",
-          "ja": "ミナリ(セリ)",
-          "zh": "水芹(미나리)",
-          "es": "Minari (berro coreano)",
-          "fr": "Minari (cresson coréen)"
+          "ko": "고수",
+          "en": "Cilantro (coriander leaves)",
+          "ja": "コリアンダー(パクチー)",
+          "zh": "香菜",
+          "es": "Cilantro",
+          "fr": "Coriandre"
+        },
+        "note": {
+          "ko": "부재료: 마늘",
+          "en": "Common pairing: garlic",
+          "ja": "副材料: にんにく",
+          "zh": "常用辅料: 大蒜",
+          "es": "Ingredientes de apoyo: ajo",
+          "fr": "Ingrédients d'accompagnement : ail"
         }
       },
       {
