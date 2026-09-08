@@ -36,6 +36,7 @@
       "dinner": "晚餐"
     },
     "cuisineRegionLabel": "选择饮食风味区",
+    "personalTargetTitle": "基于我的信息",
     "cuisineRegions": {
       "KR": "东亚",
       "IT": "地中海·欧洲",

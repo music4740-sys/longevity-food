@@ -36,6 +36,7 @@
       "dinner": "Dîner"
     },
     "cuisineRegionLabel": "Style culinaire",
+    "personalTargetTitle": "Selon vos informations",
     "cuisineRegions": {
       "KR": "Asie de l'Est",
       "IT": "Méditerranée et Europe",

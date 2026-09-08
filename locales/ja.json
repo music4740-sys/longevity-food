@@ -36,6 +36,7 @@
       "dinner": "夕食"
     },
     "cuisineRegionLabel": "料理圏を選択",
+    "personalTargetTitle": "あなたの情報に基づく目標",
     "cuisineRegions": {
       "KR": "東アジア",
       "IT": "地中海・ヨーロッパ",

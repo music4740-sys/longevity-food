@@ -36,6 +36,7 @@
       "dinner": "저녁"
     },
     "cuisineRegionLabel": "요리권 선택",
+    "personalTargetTitle": "내 정보 기준 목표",
     "cuisineRegions": {
       "KR": "동아시아",
       "IT": "지중해·유럽",

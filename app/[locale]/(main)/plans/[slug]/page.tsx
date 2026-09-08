@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import CuisineRegionPicker from "@/components/CuisineRegionPicker";
+import PersonalCalorieCard from "@/components/PersonalCalorieCard";
 import PlanDayGrid from "@/components/PlanDayGrid";
 import PlanScoreBadge from "@/components/PlanScoreBadge";
 import { getPlanBySlug, plans } from "@/lib/data";
@@ -30,6 +31,7 @@ export default async function PlanDetailPage({ params }: PageProps<"/[locale]/pl
           </h1>
           <PlanScoreBadge plan={plan} locale={locale} />
         </div>
+        <PersonalCalorieCard locale={locale} />
         <CuisineRegionPicker locale={locale} />
         <PlanDayGrid plan={plan} locale={locale} />
       </main>

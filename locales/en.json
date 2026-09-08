@@ -36,6 +36,7 @@
       "dinner": "Dinner"
     },
     "cuisineRegionLabel": "Cuisine Style",
+    "personalTargetTitle": "Based on your info",
     "cuisineRegions": {
       "KR": "East Asia",
       "IT": "Mediterranean & Europe",
