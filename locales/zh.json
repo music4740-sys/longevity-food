@@ -65,7 +65,11 @@
     "addToCart": "加入购物车",
     "substitutesToggle": "查看各地区替代食材",
     "originalIngredientLabel": "原始食材",
-    "regionSelectedBadge": "已选择"
+    "regionSelectedBadge": "已选择",
+    "tasteGuideToggle": "黄金比例指南",
+    "tasteGuideBeginnerLabel": "入门比例",
+    "tasteGuideAdvancedLabel": "进阶比例",
+    "tasteGuideTipLabel": "烹饪小贴士"
   },
   "home": {
     "trustHeadline1": "身体重启 7天饮食计划",

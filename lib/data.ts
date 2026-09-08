@@ -1,9 +1,18 @@
 import plansJson from "@/data/plans.json";
 import recipesJson from "@/data/recipes.json";
 import substitutesJson from "@/data/substitutes.json";
+import tasteGuidesJson from "@/data/tasteGuides.json";
 import { calculateLongevityScore } from "@/lib/score";
 import { TAG_SET } from "@/types";
-import type { CuisineRegion, DayMeal, LongevityScoreBreakdown, Plan, Recipe, SubstituteGroup } from "@/types";
+import type {
+  CuisineRegion,
+  DayMeal,
+  LongevityScoreBreakdown,
+  Plan,
+  Recipe,
+  SubstituteGroup,
+  TasteGuide,
+} from "@/types";
 
 // TypeScript widens JSON string arrays to `string[]`, so a literal-union field
 // like Ingredient.tags can't be checked at compile time (`satisfies` would
@@ -26,6 +35,7 @@ function assertValidRecipes(data: Recipe[]): Recipe[] {
 export const plans: Plan[] = plansJson satisfies Plan[];
 export const recipes: Recipe[] = assertValidRecipes(recipesJson as Recipe[]);
 export const substitutes: SubstituteGroup[] = substitutesJson satisfies SubstituteGroup[];
+export const tasteGuides: TasteGuide[] = tasteGuidesJson satisfies TasteGuide[];
 
 export function getPlanBySlug(slug: string): Plan | undefined {
   return plans.find((plan) => plan.slug === slug);
@@ -41,6 +51,11 @@ export function getRecipeBySlug(slug: string): Recipe | undefined {
 
 export function getSubstituteGroupById(id: string): SubstituteGroup | undefined {
   return substitutes.find((group) => group.id === id);
+}
+
+/** Matched by ingredient name (ko), not a stored id, so recipes need no linking field. */
+export function getTasteGuideByIngredientName(nameKo: string): TasteGuide | undefined {
+  return tasteGuides.find((guide) => guide.targetIngredient.ko === nameKo);
 }
 
 export function getRecipeLongevityScore(recipe: Recipe): LongevityScoreBreakdown {

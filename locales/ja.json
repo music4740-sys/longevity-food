@@ -65,7 +65,11 @@
     "addToCart": "カートに追加",
     "substitutesToggle": "国別の代替材料を見る",
     "originalIngredientLabel": "元の材料",
-    "regionSelectedBadge": "選択中"
+    "regionSelectedBadge": "選択中",
+    "tasteGuideToggle": "黄金比ガイド",
+    "tasteGuideBeginnerLabel": "初心者向け配合",
+    "tasteGuideAdvancedLabel": "上級者向け配合",
+    "tasteGuideTipLabel": "調理のコツ"
   },
   "home": {
     "trustHeadline1": "体リセット 7日間食事プラン",

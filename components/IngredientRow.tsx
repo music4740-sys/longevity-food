@@ -1,6 +1,6 @@
 "use client";
 
-import { getSubstituteGroupById } from "@/lib/data";
+import { getSubstituteGroupById, getTasteGuideByIngredientName } from "@/lib/data";
 import type { CuisineRegion } from "@/lib/cuisineRegion";
 import { getDictionary, ingredientTagLabel, localizedText, type Locale } from "@/lib/i18n";
 import type { Ingredient } from "@/types";
@@ -27,6 +27,7 @@ export default function IngredientRow({
   const regionalOption = substituteGroup?.options.find(
     (option) => option.country === selectedRegion,
   );
+  const tasteGuide = getTasteGuideByIngredientName(ingredient.name.ko);
 
   return (
     <li className="flex flex-col gap-2 rounded-xl border border-zinc-200 bg-white p-3 dark:border-zinc-800 dark:bg-zinc-900">
@@ -112,6 +113,43 @@ export default function IngredientRow({
               </li>
             ))}
           </ul>
+        </details>
+      )}
+
+      {tasteGuide && (
+        <details className="text-sm">
+          <summary className="cursor-pointer font-medium text-emerald-700 dark:text-accent-400">
+            {t.recipe.tasteGuideToggle}
+          </summary>
+          <div className="mt-2 flex flex-col gap-2 pl-1">
+            <p className="text-xs text-zinc-500 dark:text-zinc-400">
+              {localizedText(tasteGuide.reason, locale)}
+            </p>
+            <div className="flex flex-col gap-0.5">
+              <span className="text-xs font-semibold text-zinc-500 dark:text-zinc-400">
+                {t.recipe.tasteGuideBeginnerLabel}
+              </span>
+              <span className="text-zinc-800 dark:text-zinc-200">
+                {localizedText(tasteGuide.beginnerRatio.label, locale)}
+              </span>
+            </div>
+            <div className="flex flex-col gap-0.5">
+              <span className="text-xs font-semibold text-zinc-500 dark:text-zinc-400">
+                {t.recipe.tasteGuideAdvancedLabel}
+              </span>
+              <span className="text-zinc-800 dark:text-zinc-200">
+                {localizedText(tasteGuide.advancedRatio.label, locale)}
+              </span>
+            </div>
+            <div className="flex flex-col gap-0.5">
+              <span className="text-xs font-semibold text-zinc-500 dark:text-zinc-400">
+                {t.recipe.tasteGuideTipLabel}
+              </span>
+              <span className="text-xs text-zinc-500 dark:text-zinc-400">
+                {localizedText(tasteGuide.tip, locale)}
+              </span>
+            </div>
+          </div>
         </details>
       )}
     </li>

@@ -65,7 +65,11 @@
     "addToCart": "장바구니 추가",
     "substitutesToggle": "국가별 대체재 보기",
     "originalIngredientLabel": "원래 재료",
-    "regionSelectedBadge": "선택됨"
+    "regionSelectedBadge": "선택됨",
+    "tasteGuideToggle": "황금 비율 가이드",
+    "tasteGuideBeginnerLabel": "입문자 비율",
+    "tasteGuideAdvancedLabel": "숙련자 비율",
+    "tasteGuideTipLabel": "조리 팁"
   },
   "home": {
     "trustHeadline1": "몸리셋 7일 식단",

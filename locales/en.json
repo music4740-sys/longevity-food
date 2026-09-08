@@ -65,7 +65,11 @@
     "addToCart": "Add to Cart",
     "substitutesToggle": "View substitutes by country",
     "originalIngredientLabel": "Original",
-    "regionSelectedBadge": "Selected"
+    "regionSelectedBadge": "Selected",
+    "tasteGuideToggle": "Golden ratio guide",
+    "tasteGuideBeginnerLabel": "Beginner blend",
+    "tasteGuideAdvancedLabel": "Advanced blend",
+    "tasteGuideTipLabel": "Cooking tip"
   },
   "home": {
     "trustHeadline1": "Body Reset, 7-Day Plan",

@@ -65,7 +65,11 @@
     "addToCart": "Ajouter au panier",
     "substitutesToggle": "Voir les substituts par pays",
     "originalIngredientLabel": "Ingrédient d'origine",
-    "regionSelectedBadge": "Sélectionné"
+    "regionSelectedBadge": "Sélectionné",
+    "tasteGuideToggle": "Guide du ratio idéal",
+    "tasteGuideBeginnerLabel": "Mélange débutant",
+    "tasteGuideAdvancedLabel": "Mélange avancé",
+    "tasteGuideTipLabel": "Astuce de cuisson"
   },
   "home": {
     "trustHeadline1": "Reset corporel, programme de 7 jours",

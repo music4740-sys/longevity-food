@@ -1,0 +1,284 @@
+[
+  {
+    "id": "taste-brown-rice",
+    "targetIngredient": {
+      "ko": "현미밥",
+      "en": "Cooked brown rice",
+      "ja": "玄米ご飯",
+      "zh": "糙米饭",
+      "es": "Arroz integral cocido",
+      "fr": "Riz complet cuit"
+    },
+    "reason": {
+      "ko": "현미 100%로만 지으면 거칠고 뻑뻑한 식감에 씹기 힘들어 쉽게 물릴 수 있어요.",
+      "en": "Cooking rice with 100% brown rice makes it coarse and dense, tiring to chew and easy to get sick of.",
+      "ja": "玄米100%で炊くと食感が硬くパサつき、噛みにくくて飽きやすくなります。",
+      "zh": "如果只用糙米做饭,口感会又粗又干,咀嚼费劲,容易吃腻。",
+      "es": "Cocinar arroz 100% integral queda áspero y seco, cansa masticarlo y aburre pronto.",
+      "fr": "Cuire du riz 100% complet donne une texture rêche et sèche, fatigante à mâcher et vite lassante."
+    },
+    "beginnerRatio": {
+      "label": {
+        "ko": "현미 30% + 백미 50% + 찰보리 20%",
+        "en": "30% brown rice + 50% white rice + 20% pearled barley",
+        "ja": "玄米30%+白米50%+押し麦20%",
+        "zh": "糙米30%+白米50%+珍珠大麦20%",
+        "es": "30% arroz integral + 50% arroz blanco + 20% cebada perlada",
+        "fr": "30% riz complet + 50% riz blanc + 20% orge perlé"
+      }
+    },
+    "advancedRatio": {
+      "label": {
+        "ko": "현미 50% + 귀리 30% + 찹쌀현미 20%",
+        "en": "50% brown rice + 30% oats + 20% sweet brown rice",
+        "ja": "玄米50%+オーツ麦30%+もち玄米20%",
+        "zh": "糙米50%+燕麦30%+糙糯米20%",
+        "es": "50% arroz integral + 30% avena + 20% arroz integral glutinoso",
+        "fr": "50% riz complet + 30% avoine + 20% riz complet gluant"
+      }
+    },
+    "tip": {
+      "ko": "현미는 백미보다 물을 10~20% 더 넣고 최소 30분 이상 불린 뒤 짓고, 소금 한 꼬집이나 들기름 한 방울을 더하면 훨씬 부드럽고 고소해져요.",
+      "en": "Use 10-20% more water than for white rice, soak at least 30 minutes first, and add a pinch of salt or a drop of perilla oil for a softer, nuttier result.",
+      "ja": "白米より水を10〜20%多めにし、最低30分は浸水させてから炊き、塩ひとつまみやえごま油を一滴加えるとぐっと柔らかく香ばしくなります。",
+      "zh": "水量比煮白米多放10~20%,提前浸泡至少30分钟再煮,加一小撮盐或一滴紫苏油,口感会更软更香。",
+      "es": "Usa un 10-20% más de agua que para el arroz blanco, remójalo al menos 30 minutos antes y añade una pizca de sal o una gota de aceite de perilla para un resultado más suave y sabroso.",
+      "fr": "Utilisez 10 à 20% d'eau de plus que pour le riz blanc, faites-le tremper au moins 30 minutes, puis ajoutez une pincée de sel ou une goutte d'huile de périlla pour un résultat plus moelleux et savoureux."
+    }
+  },
+  {
+    "id": "taste-barley",
+    "targetIngredient": {
+      "ko": "보리",
+      "en": "Barley",
+      "ja": "大麦",
+      "zh": "大麦",
+      "es": "Cebada",
+      "fr": "Orge"
+    },
+    "reason": {
+      "ko": "보리 100%는 톡톡 튀는 거친 식감과 밍밍한 맛 때문에 물리기 쉬워요.",
+      "en": "100% barley has a chewy, popping texture and a bland taste that gets old fast.",
+      "ja": "大麦100%はプチプチとした硬い食感と淡白な味で飽きやすいです。",
+      "zh": "只用大麦口感会又硬又有弹性,味道也偏淡,容易吃腻。",
+      "es": "La cebada al 100% tiene una textura dura y saltarina y un sabor soso que cansa rápido.",
+      "fr": "L'orge à 100% a une texture ferme et sautillante et un goût fade qui lasse vite."
+    },
+    "beginnerRatio": {
+      "label": {
+        "ko": "보리 30% + 백미 60% + 찹쌀 10%",
+        "en": "30% barley + 60% white rice + 10% sweet rice",
+        "ja": "大麦30%+白米60%+もち米10%",
+        "zh": "大麦30%+白米60%+糯米10%",
+        "es": "30% cebada + 60% arroz blanco + 10% arroz glutinoso",
+        "fr": "30% orge + 60% riz blanc + 10% riz gluant"
+      }
+    },
+    "advancedRatio": {
+      "label": {
+        "ko": "보리 50% + 현미 30% + 찰보리 20%",
+        "en": "50% barley + 30% brown rice + 20% pearled barley",
+        "ja": "大麦50%+玄米30%+押し麦20%",
+        "zh": "大麦50%+糙米30%+珍珠大麦20%",
+        "es": "50% cebada + 30% arroz integral + 20% cebada perlada",
+        "fr": "50% orge + 30% riz complet + 20% orge perlé"
+      }
+    },
+    "tip": {
+      "ko": "압맥이나 할맥(눌리거나 쪼갠 보리)을 쓰면 식감이 훨씬 부드러워지고, 물은 백미보다 15% 정도 더 넣어주세요.",
+      "en": "Use pressed or split barley for a much softer bite, and add about 15% more water than for white rice.",
+      "ja": "押し麦や割り麦を使うと食感がぐっと柔らかくなり、水は白米より15%ほど多めにしてください。",
+      "zh": "使用压扁或碾碎的大麦口感会更软,水量比白米多放约15%。",
+      "es": "Usa cebada prensada o partida para una textura mucho más suave, y añade un 15% más de agua que para el arroz blanco.",
+      "fr": "Utilisez de l'orge aplatie ou concassée pour une texture bien plus tendre, et ajoutez environ 15% d'eau de plus que pour le riz blanc."
+    }
+  },
+  {
+    "id": "taste-buckwheat-groats",
+    "targetIngredient": {
+      "ko": "메밀쌀",
+      "en": "Buckwheat groats",
+      "ja": "そばの実",
+      "zh": "荞麦米",
+      "es": "Granos de trigo sarraceno",
+      "fr": "Gruau de sarrasin"
+    },
+    "reason": {
+      "ko": "메밀쌀만 넣으면 특유의 쌉쌀한 맛과 텁텁한 식감이 두드러져 거부감이 들 수 있어요.",
+      "en": "Buckwheat groats alone bring out a bitter edge and a slightly chalky texture that many find off-putting.",
+      "ja": "そばの実だけだと独特の苦味とパサついた食感が際立ち、苦手に感じることがあります。",
+      "zh": "只用荞麦米,特有的苦味和干涩口感会很明显,容易让人不习惯。",
+      "es": "Los granos de trigo sarraceno solos resaltan un toque amargo y una textura algo seca que a muchos no les gusta.",
+      "fr": "Le sarrasin seul fait ressortir une amertume et une texture un peu sèche qui déplaisent souvent."
+    },
+    "beginnerRatio": {
+      "label": {
+        "ko": "메밀쌀 20% + 백미 70% + 현미 10%",
+        "en": "20% buckwheat groats + 70% white rice + 10% brown rice",
+        "ja": "そばの実20%+白米70%+玄米10%",
+        "zh": "荞麦米20%+白米70%+糙米10%",
+        "es": "20% trigo sarraceno + 70% arroz blanco + 10% arroz integral",
+        "fr": "20% sarrasin + 70% riz blanc + 10% riz complet"
+      }
+    },
+    "advancedRatio": {
+      "label": {
+        "ko": "메밀쌀 40% + 현미 40% + 찹쌀 20%",
+        "en": "40% buckwheat groats + 40% brown rice + 20% sweet rice",
+        "ja": "そばの実40%+玄米40%+もち米20%",
+        "zh": "荞麦米40%+糙米40%+糯米20%",
+        "es": "40% trigo sarraceno + 40% arroz integral + 20% arroz glutinoso",
+        "fr": "40% sarrasin + 40% riz complet + 20% riz gluant"
+      }
+    },
+    "tip": {
+      "ko": "볶은 메밀(메밀차용)을 살짝 섞으면 고소한 향이 살아나고, 참기름 한 방울을 더하면 텁텁함이 줄어들어요.",
+      "en": "Mix in a little roasted buckwheat (the tea-grade kind) for a nuttier aroma, and a drop of sesame oil cuts the chalkiness.",
+      "ja": "炒りそば(そば茶用)を少し混ぜると香ばしさが増し、ごま油を一滴加えるとパサつきが和らぎます。",
+      "zh": "混入少量炒荞麦(泡荞麦茶用的那种)香气会更浓,再加一滴香油能减少干涩感。",
+      "es": "Mezcla un poco de trigo sarraceno tostado (el de té) para más aroma, y una gota de aceite de sésamo reduce la sequedad.",
+      "fr": "Mélangez un peu de sarrasin torréfié (celui pour infusion) pour plus d'arôme, et une goutte d'huile de sésame atténue la sécheresse."
+    }
+  },
+  {
+    "id": "taste-millet",
+    "targetIngredient": {
+      "ko": "좁쌀",
+      "en": "Millet",
+      "ja": "粟",
+      "zh": "小米",
+      "es": "Mijo",
+      "fr": "Millet"
+    },
+    "reason": {
+      "ko": "좁쌀만 지으면 폭신하지 않고 팍팍한 느낌이 들어 목 넘김이 불편할 수 있어요.",
+      "en": "Millet on its own isn't fluffy — it comes out dry and dense, which can be uncomfortable to swallow.",
+      "ja": "粟だけだとふっくらせずパサパサして、飲み込みにくく感じることがあります。",
+      "zh": "只用小米做饭不蓬松,口感干硬,咽下去可能不太舒服。",
+      "es": "El mijo solo no queda esponjoso, sale seco y compacto, incómodo de tragar.",
+      "fr": "Le millet seul ne gonfle pas — il reste sec et dense, ce qui peut rendre la déglutition inconfortable."
+    },
+    "beginnerRatio": {
+      "label": {
+        "ko": "좁쌀 15% + 백미 75% + 찹쌀 10%",
+        "en": "15% millet + 75% white rice + 10% sweet rice",
+        "ja": "粟15%+白米75%+もち米10%",
+        "zh": "小米15%+白米75%+糯米10%",
+        "es": "15% mijo + 75% arroz blanco + 10% arroz glutinoso",
+        "fr": "15% millet + 75% riz blanc + 10% riz gluant"
+      }
+    },
+    "advancedRatio": {
+      "label": {
+        "ko": "좁쌀 30% + 현미 40% + 찰보리 30%",
+        "en": "30% millet + 40% brown rice + 30% pearled barley",
+        "ja": "粟30%+玄米40%+押し麦30%",
+        "zh": "小米30%+糙米40%+珍珠大麦30%",
+        "es": "30% mijo + 40% arroz integral + 30% cebada perlada",
+        "fr": "30% millet + 40% riz complet + 30% orge perlé"
+      }
+    },
+    "tip": {
+      "ko": "좁쌀은 문질러 씻으면 전분이 빠져나가 더 팍팍해지니 가볍게 헹구기만 하고, 물은 평소보다 살짝 더 넣어주세요.",
+      "en": "Don't scrub millet while rinsing — it loses starch and gets even drier; just rinse gently and add a bit more water than usual.",
+      "ja": "粟はゴシゴシ洗うとでんぷんが流れてさらにパサつくので、軽くすすぐ程度にし、水はいつもより少し多めに。",
+      "zh": "淘小米时不要用力搓洗,否则会流失淀粉变得更干硬,轻轻冲洗即可,水量比平时略多一些。",
+      "es": "No frotes el mijo al lavarlo, pierde almidón y queda más seco; solo enjuágalo suavemente y añade un poco más de agua de lo normal.",
+      "fr": "Ne frottez pas le millet en le rinçant — il perd son amidon et devient encore plus sec ; rincez-le doucement et ajoutez un peu plus d'eau que d'habitude."
+    }
+  },
+  {
+    "id": "taste-rye-flakes",
+    "targetIngredient": {
+      "ko": "호밀 플레이크",
+      "en": "Rye flakes",
+      "ja": "ライ麦フレーク",
+      "zh": "黑麦片",
+      "es": "Copos de centeno",
+      "fr": "Flocons de seigle"
+    },
+    "reason": {
+      "ko": "호밀 플레이크만 먹으면 특유의 시큼하고 톡 쏘는 맛과 거친 식감이 그대로 느껴져요.",
+      "en": "Rye flakes alone taste distinctly tangy and sharp, with a coarse texture that's hard to enjoy on its own.",
+      "ja": "ライ麦フレークだけだと独特の酸味と刺激的な風味、ざらついた食感がそのまま感じられます。",
+      "zh": "只吃黑麦片会直接感受到特有的酸味和刺激感,口感也比较粗糙。",
+      "es": "Los copos de centeno solos tienen un sabor ácido y punzante muy marcado, con una textura áspera difícil de disfrutar.",
+      "fr": "Les flocons de seigle seuls ont un goût acidulé et piquant marqué, avec une texture rêche peu agréable."
+    },
+    "beginnerRatio": {
+      "label": {
+        "ko": "호밀 플레이크 20% + 오트밀 60% + 요거트/우유 약간",
+        "en": "20% rye flakes + 60% rolled oats + a little yogurt or milk",
+        "ja": "ライ麦フレーク20%+オートミール60%+ヨーグルトか牛乳少々",
+        "zh": "黑麦片20%+燕麦片60%+少量酸奶或牛奶",
+        "es": "20% copos de centeno + 60% avena en copos + un poco de yogur o leche",
+        "fr": "20% flocons de seigle + 60% flocons d'avoine + un peu de yaourt ou de lait"
+      }
+    },
+    "advancedRatio": {
+      "label": {
+        "ko": "호밀 플레이크 40% + 귀리 40% + 치아씨드 20%",
+        "en": "40% rye flakes + 40% oats + 20% chia seeds",
+        "ja": "ライ麦フレーク40%+オーツ麦40%+チアシード20%",
+        "zh": "黑麦片40%+燕麦40%+奇亚籽20%",
+        "es": "40% copos de centeno + 40% avena + 20% semillas de chía",
+        "fr": "40% flocons de seigle + 40% avoine + 20% graines de chia"
+      }
+    },
+    "tip": {
+      "ko": "하루 전날 우유나 요거트에 불려두는 '오버나잇' 방식으로 준비하면 훨씬 부드러워지고 신맛도 줄어들어요.",
+      "en": "Soak it overnight in milk or yogurt — it softens the texture and mellows the tang considerably.",
+      "ja": "前日から牛乳やヨーグルトに浸けておく「オーバーナイト」方式にすると、食感が柔らかくなり酸味も和らぎます。",
+      "zh": "提前一晚用牛奶或酸奶泡好(隔夜燕麦做法),口感会软很多,酸味也会减弱。",
+      "es": "Déjalos en remojo toda la noche en leche o yogur: la textura se suaviza mucho y el sabor ácido se atenúa.",
+      "fr": "Faites-les tremper toute la nuit dans du lait ou du yaourt : la texture s'adoucit nettement et l'acidité s'atténue."
+    }
+  },
+  {
+    "id": "taste-quinoa",
+    "targetIngredient": {
+      "ko": "퀴노아",
+      "en": "Quinoa",
+      "ja": "キヌア",
+      "zh": "藜麦",
+      "es": "Quinoa",
+      "fr": "Quinoa"
+    },
+    "reason": {
+      "ko": "퀴노아 100%는 톡톡 튀는 식감과 은은한 쓴맛(사포닌) 때문에 낯설게 느껴질 수 있어요.",
+      "en": "100% quinoa has a popping texture and a faint bitterness (from saponins) that can taste unfamiliar.",
+      "ja": "キヌア100%はプチプチとした食感とサポニンによるほのかな苦味があり、なじみにくいことがあります。",
+      "zh": "只吃藜麦口感偏弹,还带有皂苷带来的淡淡苦味,吃起来会觉得陌生。",
+      "es": "La quinoa al 100% tiene una textura que estalla en boca y un ligero amargor (por las saponinas) que puede resultar extraño.",
+      "fr": "Le quinoa à 100% a une texture qui éclate en bouche et une légère amertume (due aux saponines) qui peut sembler inhabituelle."
+    },
+    "beginnerRatio": {
+      "label": {
+        "ko": "퀴노아 30% + 백미 60% + 현미 10%",
+        "en": "30% quinoa + 60% white rice + 10% brown rice",
+        "ja": "キヌア30%+白米60%+玄米10%",
+        "zh": "藜麦30%+白米60%+糙米10%",
+        "es": "30% quinoa + 60% arroz blanco + 10% arroz integral",
+        "fr": "30% quinoa + 60% riz blanc + 10% riz complet"
+      }
+    },
+    "advancedRatio": {
+      "label": {
+        "ko": "퀴노아 50% + 현미 30% + 삶은 병아리콩 20%",
+        "en": "50% quinoa + 30% brown rice + 20% cooked chickpeas",
+        "ja": "キヌア50%+玄米30%+ゆでひよこ豆20%",
+        "zh": "藜麦50%+糙米30%+熟鹰嘴豆20%",
+        "es": "50% quinoa + 30% arroz integral + 20% garbanzos cocidos",
+        "fr": "50% quinoa + 30% riz complet + 20% pois chiches cuits"
+      }
+    },
+    "tip": {
+      "ko": "조리 전 찬물에 2~3번 헹궈 사포닌의 쓴맛을 제거하면 훨씬 먹기 편해져요.",
+      "en": "Rinse it in cold water 2-3 times before cooking to wash away the saponins' bitterness — it's much easier to eat afterward.",
+      "ja": "調理前に冷水で2〜3回すすいでサポニンの苦味を取り除くと、ぐっと食べやすくなります。",
+      "zh": "烹饪前用冷水冲洗2~3次去除皂苷的苦味,吃起来会顺口很多。",
+      "es": "Enjuágala con agua fría 2-3 veces antes de cocinarla para eliminar el amargor de las saponinas; queda mucho más agradable.",
+      "fr": "Rincez-le à l'eau froide 2 à 3 fois avant la cuisson pour éliminer l'amertume des saponines — c'est bien plus agréable ensuite."
+    }
+  }
+]

@@ -65,7 +65,11 @@
     "addToCart": "Añadir al carrito",
     "substitutesToggle": "Ver sustitutos por país",
     "originalIngredientLabel": "Ingrediente original",
-    "regionSelectedBadge": "Seleccionado"
+    "regionSelectedBadge": "Seleccionado",
+    "tasteGuideToggle": "Guía de proporción ideal",
+    "tasteGuideBeginnerLabel": "Mezcla para principiantes",
+    "tasteGuideAdvancedLabel": "Mezcla avanzada",
+    "tasteGuideTipLabel": "Consejo de cocción"
   },
   "home": {
     "trustHeadline1": "Reinicio corporal, plan de 7 días",
