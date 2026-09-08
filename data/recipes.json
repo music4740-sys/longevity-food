@@ -2670,6 +2670,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "현미밥 100g을 그릇에 담는다.",
+          "en": "Put 100g of cooked brown rice into a bowl.",
+          "ja": "玄米ご飯100gを器に盛る。",
+          "zh": "将100克糙米饭盛入碗中。",
+          "es": "Ponga 100 g de arroz integral cocido en un bol.",
+          "fr": "Mettez 100 g de riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "마늘 5g을 잘게 다진다.",
           "en": "Finely mince 5g of garlic.",
           "ja": "にんにく5gを細かくみじん切りにする。",
@@ -2679,7 +2690,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.",
           "en": "Heat a pan over medium heat and add 10ml of olive oil.",
@@ -2690,7 +2701,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "다진 마늘을 넣고 30초간 볶는다.",
           "en": "Add the minced garlic and sauté for 30 seconds.",
@@ -2701,7 +2712,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "병아리콩 80g을 넣고 3분간 볶는다.",
           "en": "Add 80g of chickpeas and sauté for 3 minutes.",
@@ -2712,7 +2723,7 @@
         }
       },
       {
-        "order": 5,
+        "order": 6,
         "instruction": {
           "ko": "케일 60g을 손으로 찢어 넣는다.",
           "en": "Tear 60g of kale by hand and add it to the pan.",
@@ -2723,7 +2734,7 @@
         }
       },
       {
-        "order": 6,
+        "order": 7,
         "instruction": {
           "ko": "잎이 숨이 죽을 때까지 2분간 더 볶는다.",
           "en": "Sauté for 2 more minutes until the leaves wilt.",
@@ -2731,17 +2742,6 @@
           "zh": "继续翻炒2分钟直至叶片变软。",
           "es": "Saltee 2 minutos más hasta que las hojas se ablanden.",
           "fr": "Faites revenir 2 minutes de plus jusqu'à ce que les feuilles ramollissent."
-        }
-      },
-      {
-        "order": 7,
-        "instruction": {
-          "ko": "현미밥 100g을 그릇에 담는다.",
-          "en": "Put 100g of cooked brown rice into a bowl.",
-          "ja": "玄米ご飯100gを器に盛る。",
-          "zh": "将100克糙米饭盛入碗中。",
-          "es": "Ponga 100 g de arroz integral cocido en un bol.",
-          "fr": "Mettez 100 g de riz complet cuit dans un bol."
         }
       },
       {
@@ -3517,6 +3517,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 보리밥 100g을 담는다.",
+          "en": "Put 100g of cooked barley into a bowl.",
+          "ja": "器に麦飯100gを盛る。",
+          "zh": "将100克大麦饭盛入碗中。",
+          "es": "Ponga 100 g de cebada cocida en un bol.",
+          "fr": "Mettez 100 g d'orge cuite dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "냄비에 물을 끓여 달걀 2개를 넣는다.",
           "en": "Boil water in a pot and add 2 eggs.",
           "ja": "鍋に湯を沸かし、卵2個を入れる。",
@@ -3526,7 +3537,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "10분간 삶는다.",
           "en": "Boil for 10 minutes.",
@@ -3537,7 +3548,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "삶은 달걀을 찬물에 식힌 뒤 껍질을 벗겨 반으로 자른다.",
           "en": "Cool the eggs in cold water, peel, and halve them.",
@@ -3548,7 +3559,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "당근 40g을 얇게 채썬다.",
           "en": "Thinly julienne 40g of carrot.",
@@ -3559,7 +3570,7 @@
         }
       },
       {
-        "order": 5,
+        "order": 6,
         "instruction": {
           "ko": "냄비에 물을 끓여 시금치 60g과 당근을 30초간 데친다.",
           "en": "Boil water in a pot and blanch 60g of spinach and the carrot for 30 seconds.",
@@ -3570,7 +3581,7 @@
         }
       },
       {
-        "order": 6,
+        "order": 7,
         "instruction": {
           "ko": "데친 채소를 찬물에 헹궈 물기를 짠다.",
           "en": "Rinse the blanched vegetables in cold water and squeeze out the excess water.",
@@ -3578,17 +3589,6 @@
           "zh": "将焯好的蔬菜过冷水后挤干水分。",
           "es": "Enjuague las verduras escaldadas en agua fría y escurra el exceso de agua.",
           "fr": "Rincez les légumes blanchis à l'eau froide et essorez l'excès d'eau."
-        }
-      },
-      {
-        "order": 7,
-        "instruction": {
-          "ko": "그릇에 보리밥 100g을 담는다.",
-          "en": "Put 100g of cooked barley into a bowl.",
-          "ja": "器に麦飯100gを盛る。",
-          "zh": "将100克大麦饭盛入碗中。",
-          "es": "Ponga 100 g de cebada cocida en un bol.",
-          "fr": "Mettez 100 g d'orge cuite dans un bol."
         }
       },
       {
@@ -3809,6 +3809,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥 100g을 담는다.",
+          "en": "Put 100g of cooked brown rice into a bowl.",
+          "ja": "器に玄米ご飯100gを盛る。",
+          "zh": "将100克糙米饭盛入碗中。",
+          "es": "Ponga 100 g de arroz integral cocido en un bol.",
+          "fr": "Mettez 100 g de riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "냄비에 물을 끓여 풋콩 90g을 3분간 데친다.",
           "en": "Boil water in a pot and blanch 90g of edamame for 3 minutes.",
           "ja": "鍋に湯を沸かし、枝豆90gを3分ゆでる。",
@@ -3818,7 +3829,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "같은 물에 브로콜리 70g을 넣고 2분간 더 데친다.",
           "en": "Add 70g of broccoli to the same water and blanch for 2 more minutes.",
@@ -3829,7 +3840,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "데친 풋콩과 브로콜리를 체에 밭쳐 물기를 뺀다.",
           "en": "Drain the blanched edamame and broccoli in a strainer.",
@@ -3840,7 +3851,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "아보카도 40g을 얇게 썬다.",
           "en": "Thinly slice 40g of avocado.",
@@ -3848,17 +3859,6 @@
           "zh": "将40克牛油果切成薄片。",
           "es": "Corte 40 g de aguacate en láminas finas.",
           "fr": "Coupez 40 g d'avocat en tranches fines."
-        }
-      },
-      {
-        "order": 5,
-        "instruction": {
-          "ko": "그릇에 현미밥 100g을 담는다.",
-          "en": "Put 100g of cooked brown rice into a bowl.",
-          "ja": "器に玄米ご飯100gを盛る。",
-          "zh": "将100克糙米饭盛入碗中。",
-          "es": "Ponga 100 g de arroz integral cocido en un bol.",
-          "fr": "Mettez 100 g de riz complet cuit dans un bol."
         }
       },
       {
@@ -4396,6 +4396,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥 80g을 담는다.",
+          "en": "Put 80g cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯80gを盛る。",
+          "zh": "将80g糙米饭盛入碗中。",
+          "es": "Pon 80 g de arroz integral cocido en un bol.",
+          "fr": "Mettez 80 g de riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "두부 150g을 도톰하게 썬다.",
           "en": "Cut 150g of tofu into thick slices.",
           "ja": "豆腐150gを厚めに切る。",
@@ -4405,7 +4416,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "표고버섯 80g을 얇게 썬다.",
           "en": "Thinly slice 80g of shiitake mushrooms.",
@@ -4416,7 +4427,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "청경채 70g을 밑동을 잘라내고 한 잎씩 뗀다.",
           "en": "Trim the base of 70g of bok choy and separate the leaves.",
@@ -4427,7 +4438,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "팬을 중불에 올리고 올리브유 10ml를 두른다.",
           "en": "Heat a pan over medium heat and add 10ml of olive oil.",
@@ -4438,7 +4449,7 @@
         }
       },
       {
-        "order": 5,
+        "order": 6,
         "instruction": {
           "ko": "두부를 올려 앞뒤로 각 2분씩 노릇하게 굽는다.",
           "en": "Add the tofu and brown each side for 2 minutes.",
@@ -4449,7 +4460,7 @@
         }
       },
       {
-        "order": 6,
+        "order": 7,
         "instruction": {
           "ko": "버섯을 넣고 2분간 볶는다.",
           "en": "Add the mushrooms and stir-fry for 2 minutes.",
@@ -4460,7 +4471,7 @@
         }
       },
       {
-        "order": 7,
+        "order": 8,
         "instruction": {
           "ko": "청경채를 넣고 1분간 더 볶는다.",
           "en": "Add the bok choy and stir-fry for 1 more minute.",
@@ -4471,14 +4482,14 @@
         }
       },
       {
-        "order": 8,
+        "order": 9,
         "instruction": {
-          "ko": "현미밥 80g과 함께 그릇에 담는다.",
-          "en": "Serve with 80g of cooked brown rice.",
-          "ja": "玄米ご飯80gと共に器に盛る。",
-          "zh": "与80克糙米饭一同盛入碗中。",
-          "es": "Sirva con 80 g de arroz integral cocido.",
-          "fr": "Servez avec 80 g de riz complet cuit."
+          "ko": "구운 두부와 볶은 버섯, 청경채를 밥 위에 얹는다.",
+          "en": "Top the rice with the seared tofu, mushrooms, and bok choy.",
+          "ja": "焼いた豆腐と炒めたきのこ、チンゲン菜をご飯にのせる。",
+          "zh": "将煎豆腐、炒香菇和小白菜盖在饭上。",
+          "es": "Corona el arroz con el tofu dorado, los champiñones y el bok choy salteados.",
+          "fr": "Garnissez le riz avec le tofu doré, les champignons et le pak-choï sautés."
         }
       }
     ]
@@ -5559,6 +5570,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥 80g을 담는다.",
+          "en": "Put 80g cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯80gを盛る。",
+          "zh": "将80g糙米饭盛入碗中。",
+          "es": "Pon 80 g de arroz integral cocido en un bol.",
+          "fr": "Mettez 80 g de riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "팬을 중불에 올려 달군다.",
           "en": "Heat a pan over medium heat.",
           "ja": "フライパンを中火で熱する。",
@@ -5568,7 +5590,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "고등어 120g을 껍질 쪽부터 올린다.",
           "en": "Place the 120g mackerel skin-side down.",
@@ -5579,7 +5601,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "소금은 아주 조금만 뿌린다.",
           "en": "Sprinkle on just a small pinch of salt.",
@@ -5590,7 +5612,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "4분간 굽는다.",
           "en": "Cook for 4 minutes.",
@@ -5601,7 +5623,7 @@
         }
       },
       {
-        "order": 5,
+        "order": 6,
         "instruction": {
           "ko": "뒤집어서 4분 더 굽는다.",
           "en": "Flip and cook for another 4 minutes.",
@@ -5612,7 +5634,7 @@
         }
       },
       {
-        "order": 6,
+        "order": 7,
         "instruction": {
           "ko": "무 50g을 강판에 간다.",
           "en": "Grate 50g of daikon radish.",
@@ -5623,7 +5645,7 @@
         }
       },
       {
-        "order": 7,
+        "order": 8,
         "instruction": {
           "ko": "냄비에 물을 끓여 시금치 80g을 30초간 데친다.",
           "en": "Boil water in a pot and blanch 80g of spinach for 30 seconds.",
@@ -5634,7 +5656,7 @@
         }
       },
       {
-        "order": 8,
+        "order": 9,
         "instruction": {
           "ko": "데친 시금치의 물기를 짜고 들기름 5ml로 무친다.",
           "en": "Squeeze the water out of the spinach and dress it with 5ml of perilla oil.",
@@ -5645,14 +5667,14 @@
         }
       },
       {
-        "order": 9,
+        "order": 10,
         "instruction": {
-          "ko": "현미밥 80g, 구운 고등어, 무친 시금치, 간 무를 그릇에 함께 담는다.",
-          "en": "Plate the brown rice, grilled mackerel, dressed spinach, and grated daikon together.",
-          "ja": "玄米ご飯80g、焼いた鯖、和えたほうれん草、すりおろした大根を器に盛り合わせる。",
-          "zh": "将80克糙米饭、烤好的鲭鱼、拌好的菠菜和萝卜泥一起装入碗中。",
-          "es": "Sirva juntos en un bol el arroz integral, la caballa a la plancha, la espinaca aderezada y el rábano rallado.",
-          "fr": "Dressez ensemble dans un bol le riz complet, le maquereau grillé, l'épinard assaisonné et le radis râpé."
+          "ko": "구운 고등어, 무친 시금치, 간 무를 밥 위에 올린다.",
+          "en": "Top the rice with the grilled mackerel, seasoned spinach, and grated radish.",
+          "ja": "焼いたサバ、和えたほうれん草、大根おろしをご飯にのせる。",
+          "zh": "将烤鲭鱼、拌菠菜和萝卜泥盖在饭上。",
+          "es": "Corona el arroz con la caballa a la plancha, las espinacas aliñadas y el rábano rallado.",
+          "fr": "Garnissez le riz avec le maquereau grillé, les épinards assaisonnés et le radis râpé."
         }
       }
     ]
@@ -6174,6 +6196,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥을 담는다.",
+          "en": "Put the cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯を盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Pon el arroz integral cocido en un bol.",
+          "fr": "Mettez le riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "시금치를 데쳐 물기를 짠다.",
           "en": "Blanch the spinach and squeeze out the water.",
           "ja": "ほうれん草をゆでて水気を絞る。",
@@ -6183,7 +6216,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "당근과 표고버섯을 각각 볶는다.",
           "en": "Sauté the carrot and shiitake mushrooms separately.",
@@ -6194,7 +6227,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "달걀을 프라이한다.",
           "en": "Fry the egg.",
@@ -6205,18 +6238,18 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
-          "ko": "현미밥 위에 채소와 달걀을 색깔별로 올린다.",
-          "en": "Arrange the vegetables and egg by color over the brown rice.",
-          "ja": "玄米ご飯の上に野菜と卵を彩りよくのせる。",
-          "zh": "将蔬菜和鸡蛋按颜色摆放在糙米饭上。",
-          "es": "Coloque las verduras y el huevo sobre el arroz integral, distribuidos por color.",
-          "fr": "Disposez les légumes et l'œuf par couleur sur le riz complet."
+          "ko": "밥 위에 채소와 달걀을 색깔별로 올린다.",
+          "en": "Arrange the vegetables and egg by color on top of the rice.",
+          "ja": "ご飯の上に野菜と卵を彩りよくのせる。",
+          "zh": "将蔬菜和鸡蛋按颜色摆在饭上。",
+          "es": "Coloca las verduras y el huevo sobre el arroz por colores.",
+          "fr": "Disposez les légumes et l'œuf sur le riz par couleur."
         }
       },
       {
-        "order": 5,
+        "order": 6,
         "instruction": {
           "ko": "고추장과 참기름을 곁들인다.",
           "en": "Serve with the gochujang and sesame oil.",
@@ -9108,6 +9141,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥을 담는다.",
+          "en": "Put the cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯を盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Pon el arroz integral cocido en un bol.",
+          "fr": "Mettez le riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "콩나물과 시금치를 각각 데친다.",
           "en": "Blanch the soybean sprouts and spinach separately.",
           "ja": "豆もやしとほうれん草をそれぞれゆでる。",
@@ -9117,7 +9161,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "당근을 채썰어 볶는다.",
           "en": "Julienne the carrot and sauté it.",
@@ -9128,18 +9172,18 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
-          "ko": "현미밥 위에 나물들을 올린다.",
-          "en": "Arrange the vegetables over the brown rice.",
-          "ja": "玄米ご飯の上にナムルをのせる。",
-          "zh": "将拌菜摆放在糙米饭上。",
-          "es": "Coloque las verduras sobre el arroz integral.",
-          "fr": "Disposez les légumes sur le riz complet."
+          "ko": "밥 위에 나물들을 올린다.",
+          "en": "Arrange the seasoned vegetables on top of the rice.",
+          "ja": "ご飯の上にナムルをのせる。",
+          "zh": "将拌好的时蔬摆在饭上。",
+          "es": "Coloca las verduras aliñadas sobre el arroz.",
+          "fr": "Disposez les légumes assaisonnés sur le riz."
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "고추장을 곁들인다.",
           "en": "Serve with the gochujang.",
@@ -17492,6 +17536,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "현미밥을 그릇에 담는다.",
+          "en": "Put the brown rice into a bowl.",
+          "ja": "玄米ご飯を器に盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Ponga el arroz integral en un bol.",
+          "fr": "Mettez le riz complet dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "냄비에 마늘과 강황을 넣고 1분간 볶는다.",
           "en": "Sauté the garlic and turmeric for 1 minute.",
           "ja": "鍋ににんにくとターメリックを入れて1分炒める。",
@@ -17501,7 +17556,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "렌틸콩과 물 250ml를 넣고 20분간 끓인다.",
           "en": "Add the lentils and 250ml of water, and simmer for 20 minutes.",
@@ -17509,17 +17564,6 @@
           "zh": "加入小扁豆和250毫升水煮20分钟。",
           "es": "Añada las lentejas y 250 ml de agua, y cueza a fuego lento 20 minutos.",
           "fr": "Ajoutez les lentilles et 250 ml d'eau, et laissez mijoter 20 minutes."
-        }
-      },
-      {
-        "order": 3,
-        "instruction": {
-          "ko": "현미밥을 그릇에 담는다.",
-          "en": "Put the brown rice into a bowl.",
-          "ja": "玄米ご飯を器に盛る。",
-          "zh": "将糙米饭盛入碗中。",
-          "es": "Ponga el arroz integral en un bol.",
-          "fr": "Mettez le riz complet dans un bol."
         }
       },
       {
@@ -19528,6 +19572,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "현미밥을 그릇에 담는다.",
+          "en": "Put the brown rice into a bowl.",
+          "ja": "玄米ご飯を器に盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Ponga el arroz integral en un bol.",
+          "fr": "Mettez le riz complet dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "팬에 마늘과 커민을 넣고 1분간 볶는다.",
           "en": "Sauté the garlic and cumin for 1 minute.",
           "ja": "フライパンににんにくとクミンを入れて1分炒める。",
@@ -19537,7 +19592,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "시금치를 넣고 숨이 죽을 때까지 3분간 볶는다.",
           "en": "Add the spinach and sauté for 3 minutes until wilted.",
@@ -19545,17 +19600,6 @@
           "zh": "加入菠菜翻炒3分钟至变软。",
           "es": "Añada la espinaca y saltee 3 minutos hasta que se ablande.",
           "fr": "Ajoutez l'épinard et faites revenir 3 minutes jusqu'à ce qu'il ramollisse."
-        }
-      },
-      {
-        "order": 3,
-        "instruction": {
-          "ko": "현미밥을 그릇에 담는다.",
-          "en": "Put the brown rice into a bowl.",
-          "ja": "玄米ご飯を器に盛る。",
-          "zh": "将糙米饭盛入碗中。",
-          "es": "Ponga el arroz integral en un bol.",
-          "fr": "Mettez le riz complet dans un bol."
         }
       },
       {
