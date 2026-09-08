@@ -5879,6 +5879,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥을 담는다.",
+          "en": "Put the cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯を盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Pon el arroz integral cocido en un bol.",
+          "fr": "Mettez le riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "냄비에 물 300ml를 붓고 된장을 푼다.",
           "en": "Pour 300ml of water into a pot and dissolve the doenjang in it.",
           "ja": "鍋に水300mlを注ぎ、味噌を溶かし入れる。",
@@ -5888,7 +5899,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "애호박과 두부를 넣고 5분간 끓인다.",
           "en": "Add the zucchini and tofu, and simmer for 5 minutes.",
@@ -5899,7 +5910,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "다진 마늘을 넣고 2분 더 끓인다.",
           "en": "Add the minced garlic and simmer for 2 more minutes.",
@@ -5910,14 +5921,14 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
-          "ko": "현미밥과 함께 그릇에 담는다.",
-          "en": "Serve together with the brown rice.",
-          "ja": "玄米ご飯と一緒に器に盛る。",
-          "zh": "与糙米饭一起盛入碗中。",
-          "es": "Sirva junto con el arroz integral.",
-          "fr": "Servez avec le riz complet."
+          "ko": "찌개를 그릇에 담아낸다.",
+          "en": "Ladle the stew into a bowl and serve.",
+          "ja": "チゲを器に盛って出す。",
+          "zh": "将汤盛入碗中即可上桌。",
+          "es": "Sirve el guiso en un cuenco.",
+          "fr": "Servez le ragoût dans un bol."
         }
       }
     ]
@@ -6670,6 +6681,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥을 담는다.",
+          "en": "Put the cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯を盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Pon el arroz integral cocido en un bol.",
+          "fr": "Mettez le riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "냄비에 물 300ml를 끓인다.",
           "en": "Bring 300ml of water to a boil in a pot.",
           "ja": "鍋に水300mlを沸かす。",
@@ -6679,7 +6701,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "콩나물을 넣고 5분간 끓인다.",
           "en": "Add the soybean sprouts and simmer for 5 minutes.",
@@ -6690,7 +6712,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "두부와 다진 마늘을 넣고 2분 더 끓인다.",
           "en": "Add the tofu and minced garlic, and simmer for 2 more minutes.",
@@ -6701,14 +6723,14 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
-          "ko": "현미밥과 함께 담는다.",
-          "en": "Serve together with the brown rice.",
-          "ja": "玄米ご飯と一緒に盛る。",
-          "zh": "与糙米饭一起盛出。",
-          "es": "Sirva junto con el arroz integral.",
-          "fr": "Servez avec le riz complet."
+          "ko": "국을 그릇에 담아낸다.",
+          "en": "Ladle the soup into a bowl and serve.",
+          "ja": "スープを器に盛って出す。",
+          "zh": "将汤盛入碗中即可上桌。",
+          "es": "Sirve la sopa en un cuenco.",
+          "fr": "Servez la soupe dans un bol."
         }
       }
     ]
@@ -7418,6 +7440,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥을 담는다.",
+          "en": "Put the cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯を盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Pon el arroz integral cocido en un bol.",
+          "fr": "Mettez le riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "달걀을 풀어 잘게 썬 당근과 양파를 섞는다.",
           "en": "Beat the eggs and mix in the finely diced carrot and onion.",
           "ja": "卵を溶き、細かく刻んだにんじんと玉ねぎを混ぜる。",
@@ -7427,7 +7460,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "그릇에 담아 찜기에서 10분간 찐다.",
           "en": "Pour into a bowl and steam for 10 minutes.",
@@ -7438,7 +7471,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "참기름을 살짝 두른다.",
           "en": "Drizzle with a little sesame oil.",
@@ -7449,14 +7482,14 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
-          "ko": "현미밥과 함께 낸다.",
-          "en": "Serve with the brown rice.",
-          "ja": "玄米ご飯と一緒に出す。",
-          "zh": "配糙米饭一同享用。",
-          "es": "Sirva con el arroz integral.",
-          "fr": "Servez avec le riz complet."
+          "ko": "따뜻할 때 낸다.",
+          "en": "Serve while warm.",
+          "ja": "温かいうちに出す。",
+          "zh": "趁热食用。",
+          "es": "Sírvelo mientras esté caliente.",
+          "fr": "Servez tant que c'est chaud."
         }
       }
     ]
@@ -8142,6 +8175,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥을 담는다.",
+          "en": "Put the cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯を盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Pon el arroz integral cocido en un bol.",
+          "fr": "Mettez le riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "불린 미역을 참기름에 살짝 볶는다.",
           "en": "Lightly stir-fry the soaked seaweed in sesame oil.",
           "ja": "戻したわかめをごま油でさっと炒める。",
@@ -8151,7 +8195,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "물 300ml를 붓고 10분간 끓인다.",
           "en": "Pour in 300ml of water and simmer for 10 minutes.",
@@ -8162,7 +8206,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "두부와 다진 마늘을 넣고 3분 더 끓인다.",
           "en": "Add the tofu and minced garlic, and simmer for 3 more minutes.",
@@ -8173,14 +8217,14 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
-          "ko": "현미밥과 함께 낸다.",
-          "en": "Serve with the brown rice.",
-          "ja": "玄米ご飯と一緒に出す。",
-          "zh": "配糙米饭一同享用。",
-          "es": "Sirva con el arroz integral.",
-          "fr": "Servez avec le riz complet."
+          "ko": "국을 그릇에 담아낸다.",
+          "en": "Ladle the soup into a bowl and serve.",
+          "ja": "スープを器に盛って出す。",
+          "zh": "将汤盛入碗中即可上桌。",
+          "es": "Sirve la sopa en un cuenco.",
+          "fr": "Servez la soupe dans un bol."
         }
       }
     ]
@@ -8395,6 +8439,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "현미밥을 준비한다.",
+          "en": "Have the cooked brown rice ready.",
+          "ja": "玄米ご飯を用意する。",
+          "zh": "准备好糙米饭。",
+          "es": "Ten listo el arroz integral cocido.",
+          "fr": "Préparez le riz complet cuit."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "당근, 애호박, 표고버섯을 잘게 썬다.",
           "en": "Finely dice the carrot, zucchini, and shiitake mushrooms.",
           "ja": "にんじん、ズッキーニ、しいたけを細かく切る。",
@@ -8404,7 +8459,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "냄비에 참기름을 두르고 채소를 볶는다.",
           "en": "Heat sesame oil in a pot and sauté the vegetables.",
@@ -8415,7 +8470,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "현미밥과 물 200ml를 넣고 끓인다.",
           "en": "Add the brown rice and 200ml of water, and bring to a boil.",
@@ -8426,7 +8481,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "걸쭉해질 때까지 저으며 끓인다.",
           "en": "Stir and simmer until it thickens.",
@@ -8890,6 +8945,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "현미밥을 준비한다.",
+          "en": "Have the cooked brown rice ready.",
+          "ja": "玄米ご飯を用意する。",
+          "zh": "准备好糙米饭。",
+          "es": "Ten listo el arroz integral cocido.",
+          "fr": "Préparez le riz complet cuit."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "두부를 잘게 썰어 팬에 굽는다.",
           "en": "Dice the tofu and pan-sear it.",
           "ja": "豆腐を細かく切り、フライパンで焼く。",
@@ -8899,7 +8965,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "청경채를 썰어 넣고 볶는다.",
           "en": "Add the chopped bok choy and stir-fry.",
@@ -8910,7 +8976,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "현미밥과 다진 마늘을 넣고 3분간 볶는다.",
           "en": "Add the brown rice and minced garlic, and stir-fry for 3 minutes.",
@@ -8921,7 +8987,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "참기름을 둘러 마무리한다.",
           "en": "Finish with a drizzle of sesame oil.",
@@ -9629,6 +9695,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "현미밥을 준비한다.",
+          "en": "Have the cooked brown rice ready.",
+          "ja": "玄米ご飯を用意する。",
+          "zh": "准备好糙米饭。",
+          "es": "Ten listo el arroz integral cocido.",
+          "fr": "Préparez le riz complet cuit."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "당근과 애호박을 잘게 썬다.",
           "en": "Finely dice the carrot and zucchini.",
           "ja": "にんじんとズッキーニを細かく切る。",
@@ -9638,7 +9715,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "현미밥과 물 200ml를 넣고 끓인다.",
           "en": "Add the brown rice and 200ml of water, and bring to a boil.",
@@ -9649,7 +9726,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "풀어둔 달걀을 천천히 흘려 넣는다.",
           "en": "Slowly pour in the beaten egg.",
@@ -9660,7 +9737,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "참기름을 둘러 마무리한다.",
           "en": "Finish with a drizzle of sesame oil.",
@@ -9873,6 +9950,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "현미밥을 준비한다.",
+          "en": "Have the cooked brown rice ready.",
+          "ja": "玄米ご飯を用意する。",
+          "zh": "准备好糙米饭。",
+          "es": "Ten listo el arroz integral cocido.",
+          "fr": "Préparez le riz complet cuit."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "두부를 잘게 썰어 팬에 굽는다.",
           "en": "Dice the tofu and pan-sear it.",
           "ja": "豆腐を細かく切り、フライパンで焼く。",
@@ -9882,7 +9970,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "김치를 넣고 2분간 볶는다.",
           "en": "Add the kimchi and stir-fry for 2 minutes.",
@@ -9893,7 +9981,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "현미밥과 다진 마늘을 넣고 3분간 볶는다.",
           "en": "Add the brown rice and minced garlic, and stir-fry for 3 minutes.",
@@ -9904,7 +9992,7 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
           "ko": "참기름을 둘러 마무리한다.",
           "en": "Finish with a drizzle of sesame oil.",
@@ -10370,6 +10458,17 @@
       {
         "order": 1,
         "instruction": {
+          "ko": "그릇에 현미밥을 담는다.",
+          "en": "Put the cooked brown rice in a bowl.",
+          "ja": "器に玄米ご飯を盛る。",
+          "zh": "将糙米饭盛入碗中。",
+          "es": "Pon el arroz integral cocido en un bol.",
+          "fr": "Mettez le riz complet cuit dans un bol."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
           "ko": "두부를 으깬다.",
           "en": "Crumble the tofu.",
           "ja": "豆腐を崩す。",
@@ -10379,7 +10478,7 @@
         }
       },
       {
-        "order": 2,
+        "order": 3,
         "instruction": {
           "ko": "팬에 참기름을 두르고 당근을 볶는다.",
           "en": "Heat sesame oil in a pan and sauté the carrot.",
@@ -10390,7 +10489,7 @@
         }
       },
       {
-        "order": 3,
+        "order": 4,
         "instruction": {
           "ko": "으깬 두부와 시금치를 넣고 3분간 볶는다.",
           "en": "Add the crumbled tofu and spinach, and stir-fry for 3 minutes.",
@@ -10401,14 +10500,14 @@
         }
       },
       {
-        "order": 4,
+        "order": 5,
         "instruction": {
-          "ko": "현미밥과 함께 낸다.",
-          "en": "Serve with the brown rice.",
-          "ja": "玄米ご飯と一緒に出す。",
-          "zh": "配糙米饭一同享用。",
-          "es": "Sirva con el arroz integral.",
-          "fr": "Servez avec le riz complet."
+          "ko": "밥 위에 얹어 낸다.",
+          "en": "Serve spooned over the rice.",
+          "ja": "ご飯にのせて出す。",
+          "zh": "盛在饭上即可食用。",
+          "es": "Sírvelo sobre el arroz.",
+          "fr": "Servez sur le riz."
         }
       }
     ]
