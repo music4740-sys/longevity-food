@@ -5705,6 +5705,39 @@
     "ingredients": [
       {
         "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
           "ko": "두부",
           "en": "Firm tofu",
           "ja": "木綿豆腐",
@@ -5840,39 +5873,6 @@
             "fr": "Allicine"
           }
         ]
-      },
-      {
-        "name": {
-          "ko": "현미밥",
-          "en": "Cooked brown rice",
-          "ja": "玄米ご飯",
-          "zh": "糙米饭",
-          "es": "Arroz integral cocido",
-          "fr": "Riz complet cuit"
-        },
-        "amount": "100g",
-        "tags": [
-          "whole-grain"
-        ],
-        "benefits": {
-          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice.",
-          "ja": "白米より食物繊維が多く残る全粒穀物です。",
-          "zh": "比白米保留更多膳食纤维的全谷物。",
-          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
-          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
-        },
-        "pointTags": [
-          {
-            "ko": "식이섬유",
-            "en": "Fiber",
-            "ja": "食物繊維",
-            "zh": "膳食纤维",
-            "es": "Fibra",
-            "fr": "Fibres"
-          }
-        ],
-        "substituteGroupId": "sub-brown-rice"
       }
     ],
     "steps": [
@@ -6540,6 +6540,39 @@
     "ingredients": [
       {
         "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
           "ko": "콩나물",
           "en": "Soybean sprouts",
           "ja": "豆もやし",
@@ -6642,39 +6675,6 @@
           }
         ],
         "substituteGroupId": "sub-tofu"
-      },
-      {
-        "name": {
-          "ko": "현미밥",
-          "en": "Cooked brown rice",
-          "ja": "玄米ご飯",
-          "zh": "糙米饭",
-          "es": "Arroz integral cocido",
-          "fr": "Riz complet cuit"
-        },
-        "amount": "100g",
-        "tags": [
-          "whole-grain"
-        ],
-        "benefits": {
-          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice.",
-          "ja": "白米より食物繊維が多く残る全粒穀物です。",
-          "zh": "比白米保留更多膳食纤维的全谷物。",
-          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
-          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
-        },
-        "pointTags": [
-          {
-            "ko": "식이섬유",
-            "en": "Fiber",
-            "ja": "食物繊維",
-            "zh": "膳食纤维",
-            "es": "Fibra",
-            "fr": "Fibres"
-          }
-        ],
-        "substituteGroupId": "sub-brown-rice"
       }
     ],
     "steps": [
@@ -7273,6 +7273,39 @@
     "ingredients": [
       {
         "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
           "ko": "달걀",
           "en": "Egg",
           "ja": "卵",
@@ -7401,39 +7434,6 @@
           }
         ],
         "substituteGroupId": "sub-sesame-oil"
-      },
-      {
-        "name": {
-          "ko": "현미밥",
-          "en": "Cooked brown rice",
-          "ja": "玄米ご飯",
-          "zh": "糙米饭",
-          "es": "Arroz integral cocido",
-          "fr": "Riz complet cuit"
-        },
-        "amount": "100g",
-        "tags": [
-          "whole-grain"
-        ],
-        "benefits": {
-          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice.",
-          "ja": "白米より食物繊維が多く残る全粒穀物です。",
-          "zh": "比白米保留更多膳食纤维的全谷物。",
-          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
-          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
-        },
-        "pointTags": [
-          {
-            "ko": "식이섬유",
-            "en": "Fiber",
-            "ja": "食物繊維",
-            "zh": "膳食纤维",
-            "es": "Fibra",
-            "fr": "Fibres"
-          }
-        ],
-        "substituteGroupId": "sub-brown-rice"
       }
     ],
     "steps": [
@@ -8001,6 +8001,39 @@
     "ingredients": [
       {
         "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
           "ko": "미역",
           "en": "Dried seaweed (wakame)",
           "ja": "わかめ",
@@ -8136,39 +8169,6 @@
           }
         ],
         "substituteGroupId": "sub-sesame-oil"
-      },
-      {
-        "name": {
-          "ko": "현미밥",
-          "en": "Cooked brown rice",
-          "ja": "玄米ご飯",
-          "zh": "糙米饭",
-          "es": "Arroz integral cocido",
-          "fr": "Riz complet cuit"
-        },
-        "amount": "100g",
-        "tags": [
-          "whole-grain"
-        ],
-        "benefits": {
-          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice.",
-          "ja": "白米より食物繊維が多く残る全粒穀物です。",
-          "zh": "比白米保留更多膳食纤维的全谷物。",
-          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
-          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
-        },
-        "pointTags": [
-          {
-            "ko": "식이섬유",
-            "en": "Fiber",
-            "ja": "食物繊維",
-            "zh": "膳食纤维",
-            "es": "Fibra",
-            "fr": "Fibres"
-          }
-        ],
-        "substituteGroupId": "sub-brown-rice"
       }
     ],
     "steps": [
@@ -10282,6 +10282,39 @@
     "ingredients": [
       {
         "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
           "ko": "두부",
           "en": "Firm tofu",
           "ja": "木綿豆腐",
@@ -10419,39 +10452,6 @@
           }
         ],
         "substituteGroupId": "sub-sesame-oil"
-      },
-      {
-        "name": {
-          "ko": "현미밥",
-          "en": "Cooked brown rice",
-          "ja": "玄米ご飯",
-          "zh": "糙米饭",
-          "es": "Arroz integral cocido",
-          "fr": "Riz complet cuit"
-        },
-        "amount": "100g",
-        "tags": [
-          "whole-grain"
-        ],
-        "benefits": {
-          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
-          "en": "A whole grain that retains more fiber than white rice.",
-          "ja": "白米より食物繊維が多く残る全粒穀物です。",
-          "zh": "比白米保留更多膳食纤维的全谷物。",
-          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
-          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
-        },
-        "pointTags": [
-          {
-            "ko": "식이섬유",
-            "en": "Fiber",
-            "ja": "食物繊維",
-            "zh": "膳食纤维",
-            "es": "Fibra",
-            "fr": "Fibres"
-          }
-        ],
-        "substituteGroupId": "sub-brown-rice"
       }
     ],
     "steps": [
