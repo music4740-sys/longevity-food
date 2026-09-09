@@ -1,0 +1,401 @@
+[
+  {
+    "recipeId": "kr-tofu-doenjang-soup",
+    "stage2Detail": {
+      "ko": "현미밥은 현미:찰보리:백미를 5:3:2 비율로 지어 씹는 맛은 살리되 뻑뻑함을 줄여보세요. 된장은 기존 15g 그대로 사용하되, 마지막에 들기름 한 방울을 국에 살짝 둘러 향을 더하면 일상적으로 먹기 좋은 밸런스가 됩니다.",
+      "en": "Cook the rice with brown rice, pearled barley, and white rice in a 5:3:2 ratio to keep some bite while cutting the dryness. Keep the doenjang at the same 15g, and finish the soup with a drop of perilla oil for an everyday-friendly balance.",
+      "ja": "ご飯は玄米:押し麦:白米を5:3:2の割合で炊き、噛み応えは残しつつパサつきを減らしましょう。味噌は同じ15gのままにし、仕上げにえごま油を一滴加えると、日常的に食べやすいバランスになります。",
+      "zh": "米饭按糙米:珍珠大麦:白米5:3:2的比例煮,既保留嚼劲又减少干硬感。大酱保持原来的15克不变,汤煮好后淋一滴紫苏油提香,就是日常也能轻松接受的平衡版。",
+      "es": "Cocina el arroz con arroz integral, cebada perlada y arroz blanco en proporción 5:3:2 para mantener algo de textura sin que quede tan seco. Deja el doenjang en los mismos 15 g y termina la sopa con una gota de aceite de perilla para un equilibrio fácil de comer a diario.",
+      "fr": "Faites cuire le riz avec du riz complet, de l'orge perlé et du riz blanc dans une proportion 5:3:2 pour garder un peu de mâche sans trop de sécheresse. Gardez la même quantité de doenjang (15 g) et terminez la soupe avec une goutte d'huile de périlla pour un équilibre facile à manger au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "다시마+건표고 우린 물로 육수를 잡고, 마지막에 마늘기름을 국자로 두르듯 넉넉히 뿌려 향을 확 끌어올리세요. 두부는 팬에 소금 살짝 뿌려 겉면을 바삭하게 지진 뒤 넣고, 청양고추를 조금 다져 넣으면 알싸한 감칠맛까지 폭발합니다.",
+      "en": "Base the broth on water steeped with kelp and dried shiitake, then finish with a generous swirl of garlic-infused oil to really lift the aroma. Pan-sear the tofu with a pinch of salt until the surface turns crisp, then add it in, and toss in a bit of minced cheongyang chili for a spicy umami kick.",
+      "ja": "だし昆布と干し椎茸を浸した水をベースにし、仕上げでにんにく油をたっぷり回しかけて香りを一気に引き立てます。豆腐は塩を軽く振ってフライパンで表面をカリッと焼いてから加え、青陽唐辛子を少し刻んで入れるとピリッとした旨味も加わります。",
+      "zh": "汤底先用泡过昆布和干香菇的水打底,最后大方地淋上蒜香油,让香气瞬间提升。豆腐撒少许盐后用平底锅煎至表皮微焦再放入,再加一点切碎的青阳辣椒,连辣味鲜味都会一起爆发。",
+      "es": "Prepara el caldo con agua en la que se hayan remojado alga kelp y shiitake seco, y termina con un generoso chorro de aceite de ajo para realzar el aroma de golpe. Sazona el tofu con un poco de sal y dóralo en la sartén hasta que quede crujiente antes de añadirlo, y agrega un poco de chile cheongyang picado para un toque umami picante.",
+      "fr": "Préparez le bouillon avec de l'eau dans laquelle ont trempé du kelp séché et du shiitake séché, puis terminez avec un généreux filet d'huile à l'ail pour relever l'arôme d'un coup. Salez légèrement le tofu et faites-le dorer à la poêle jusqu'à ce qu'il soit croustillant avant de l'ajouter, et incorporez un peu de piment cheongyang haché pour une touche umami relevée."
+    }
+  },
+  {
+    "recipeId": "kr-vegetable-bibimbap",
+    "stage2Detail": {
+      "ko": "현미밥은 현미:찰보리:백미 5:3:2 비율로 지어 부드럽게 만들고, 고추장은 10g 그대로 쓰되 참기름 한 바퀴를 더 둘러 향을 살리면 일상적으로 즐기기 좋아요.",
+      "en": "Cook the rice with brown rice, pearled barley, and white rice in a 5:3:2 ratio for a softer bite, keep the gochujang at the same 10g, and add an extra drizzle of sesame oil for an everyday-friendly balance.",
+      "ja": "ご飯は玄米:押し麦:白米を5:3:2の割合で炊いて食感を柔らかくし、コチュジャンは同じ10gのままにごま油をもう一回しプラスすると、日常的に楽しみやすいバランスになります。",
+      "zh": "米饭按糙米:珍珠大麦:白米5:3:2的比例煮得更软,辣椒酱保持原来的10克不变,再多淋一圈香油提香,就是日常也能轻松接受的平衡版。",
+      "es": "Cocina el arroz con arroz integral, cebada perlada y arroz blanco en proporción 5:3:2 para que quede más suave, deja el gochujang en los mismos 10 g y añade un chorro extra de aceite de sésamo para un equilibrio fácil de disfrutar a diario.",
+      "fr": "Faites cuire le riz avec du riz complet, de l'orge perlé et du riz blanc en proportion 5:3:2 pour plus de moelleux, gardez le gochujang à 10 g et ajoutez un filet d'huile de sésame supplémentaire pour un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "고추장에 다진 마늘과 매실청 약간을 섞어 감칠맛 나는 비빔장을 만들고, 달걀은 반숙 프라이로 지져 노른자 터뜨림 식감을 살리세요. 마지막에 참기름 대신 향이 강한 들기름을 듬뿍 둘러 고소함을 확 끌어올립니다.",
+      "en": "Mix minced garlic and a touch of plum syrup into the gochujang for a deeper umami sauce, fry the egg sunny-side up so the yolk stays runny for extra richness, and finish with a generous swirl of perilla oil instead of sesame oil for a bolder, nuttier punch.",
+      "ja": "コチュジャンにおろしにんにくと梅シロップ少々を混ぜて旨味のあるタレを作り、卵は黄身がとろりとした半熟の目玉焼きにします。仕上げはごま油の代わりにえごま油をたっぷり回しかけ、香ばしさを一気に引き上げましょう。",
+      "zh": "在辣椒酱里拌入蒜末和少许梅子糖浆,做成更有鲜味的酱料,鸡蛋煎成溏心荷包蛋增加浓郁口感。最后不用香油改用紫苏油大量淋上,香气瞬间提升。",
+      "es": "Mezcla ajo picado y un poco de jarabe de ciruela en el gochujang para una salsa más sabrosa, fríe el huevo con la yema líquida para más untuosidad, y termina con un buen chorro de aceite de perilla en lugar de sésamo para un toque más intenso y tostado.",
+      "fr": "Mélangez de l'ail haché et un peu de sirop de prune dans le gochujang pour une sauce plus savoureuse, faites cuire l'œuf au plat avec le jaune coulant pour plus d'onctuosité, et terminez avec une bonne dose d'huile de périlla à la place du sésame pour un goût plus intense et grillé."
+    }
+  },
+  {
+    "recipeId": "kr-grilled-mackerel-radish-salad",
+    "stage2Detail": {
+      "ko": "무생채의 고춧가루는 2g 그대로 두고 식초를 살짝만 더해 새콤함을 살리면, 짜지 않으면서도 일상적으로 먹기 좋은 밸런스가 됩니다.",
+      "en": "Keep the gochugaru at the same 2g and add a touch of vinegar to the radish salad for brightness — a balance that's easy to enjoy without being too salty.",
+      "ja": "唐辛子粉2gはそのままに、大根の和え物に酢を少し加えるとさっぱりして、塩辛くならずに日常的に楽しめるバランスになります。",
+      "zh": "辣椒粉保持2克不变,萝卜丝里加一点醋提鲜爽口,就是咸淡适中、日常也能接受的平衡版。",
+      "es": "Deja el gochugaru en los mismos 2 g y añade un poco de vinagre a la ensalada de rábano para refrescarla — un equilibrio fácil de disfrutar sin quedar salado.",
+      "fr": "Gardez le gochugaru à 2 g et ajoutez un peu de vinaigre à la salade de radis pour la rafraîchir — un équilibre facile à apprécier sans être trop salé."
+    },
+    "stage3Detail": {
+      "ko": "고등어는 굽기 전 소금과 후추를 넉넉히 뿌리고 마지막에 청주를 살짝 발라 구우면 비린내 없이 겉바속촉해져요. 무생채엔 액젓 한 방울과 참기름을 더해 감칠맛을 확 끌어올리세요.",
+      "en": "Season the mackerel generously with salt and pepper before grilling, and brush on a little rice wine near the end for a crisp, tender bite with no fishy edge. Add a drop of fish sauce and sesame oil to the radish salad for a big umami boost.",
+      "ja": "サバは焼く前に塩こしょうをしっかり振り、仕上げに少量の清酒を塗って焼くと生臭さがなく外はカリッと中はしっとりに。大根の和え物には魚醤を一滴とごま油を加えて旨味を引き上げましょう。",
+      "zh": "鲭鱼烤前撒足量盐和胡椒,快烤好时刷一点清酒,做出外脆里嫩、没有腥味的口感。萝卜丝里加一滴鱼露和香油,鲜味瞬间提升。",
+      "es": "Sazona la caballa generosamente con sal y pimienta antes de asarla, y pincélala con un poco de vino de arroz casi al final para un resultado crujiente por fuera y tierno por dentro sin sabor a pescado. Añade una gota de salsa de pescado y aceite de sésamo a la ensalada de rábano para un gran impulso de umami.",
+      "fr": "Assaisonnez généreusement le maquereau de sel et de poivre avant de le griller, et badigeonnez-le d'un peu de vin de riz juste avant la fin pour un résultat croustillant à l'extérieur et fondant à l'intérieur sans goût de poisson. Ajoutez une goutte de sauce de poisson et d'huile de sésame à la salade de radis pour un gros coup d'umami."
+    }
+  },
+  {
+    "recipeId": "kr-soybean-sprout-soup",
+    "stage2Detail": {
+      "ko": "콩나물은 뚜껑을 열지 않고 끓여 비린내 없이 아삭하게 삶고, 마늘 5g 그대로에 국간장 한 방울만 더해 심심하지 않게 간을 맞추면 일상 밸런스가 됩니다.",
+      "en": "Boil the bean sprouts with the lid on for a crisp, odor-free texture, and add just a drop of soy sauce to the same 5g of garlic so the seasoning isn't too plain — an easy everyday balance.",
+      "ja": "もやしは蓋を開けずに茹でて生臭さを出さずシャキッとさせ、にんにく5gはそのままに醤油を一滴加えると単調になりすぎず日常的なバランスになります。",
+      "zh": "豆芽不开盖煮才不会有腥味且保持爽脆,蒜末保持5克不变,再加一滴酱油调味,就是不单调、日常也能接受的平衡版。",
+      "es": "Hierve los brotes de soja con la tapa puesta para que queden crujientes y sin olor, y añade una gota de salsa de soja a los mismos 5 g de ajo para que no quede tan soso — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Faites bouillir les germes de soja à couvert pour qu'ils restent croquants et sans odeur, et ajoutez une goutte de sauce soja aux mêmes 5 g d'ail pour un assaisonnement moins fade — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "다시마와 건새우 우린 물로 육수를 잡고, 청양고추와 다진 마늘을 볶은 마늘기름을 마지막에 둘러 얼큰하고 감칠맛 나는 국물로 완성하세요.",
+      "en": "Base the broth on water steeped with kelp and dried shrimp, then finish with garlic oil sautéed with cheongyang chili for a spicy, deeply savory soup.",
+      "ja": "昆布と干しエビを浸しただしをベースにし、仕上げに青陽唐辛子とにんにくを炒めたにんにく油を回しかけると、ピリッと旨味の効いたスープに仕上がります。",
+      "zh": "汤底先用昆布和干虾泡水打底,最后淋上炒过青阳辣椒和蒜末的蒜香油,做成微辣又鲜味十足的汤。",
+      "es": "Prepara el caldo con agua en la que se hayan remojado alga kelp y camarones secos, y termina con aceite de ajo salteado con chile cheongyang para una sopa picante y muy sabrosa.",
+      "fr": "Préparez le bouillon avec de l'eau dans laquelle ont trempé du kelp séché et des crevettes séchées, puis terminez avec de l'huile à l'ail sautée avec du piment cheongyang pour une soupe relevée et très savoureuse."
+    }
+  },
+  {
+    "recipeId": "kr-tofu-kimchi-stew",
+    "stage2Detail": {
+      "ko": "김치는 80g 그대로 쓰되 신김치를 활용해 감칠맛을 자연스럽게 살리고, 마늘 5g에 멸치육수를 더하면 일상적으로 즐기기 좋은 깊은 맛이 됩니다.",
+      "en": "Keep the kimchi at 80g but use well-fermented kimchi for natural depth, and add a bit of anchovy broth to the same 5g of garlic for a richer everyday flavor.",
+      "ja": "キムチは80gのままに熟成キムチを使うと自然な旨味が出て、にんにく5gにいりこだしを加えると日常的に楽しめる深い味わいになります。",
+      "zh": "泡菜保持80克不变,用熟成泡菜自然提鲜,蒜末5克里加一点凤尾鱼高汤,就是日常也能接受的浓郁版。",
+      "es": "Deja el kimchi en los mismos 80 g pero usa uno bien fermentado para más profundidad natural, y añade un poco de caldo de anchoa a los mismos 5 g de ajo para un sabor más intenso a diario.",
+      "fr": "Gardez le kimchi à 80 g mais utilisez-en un bien fermenté pour plus de profondeur naturelle, et ajoutez un peu de bouillon d'anchois aux mêmes 5 g d'ail pour un goût plus riche au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "닭가슴살은 먼저 팬에 노릇하게 지진 뒤 찌개에 넣어 겉바속촉 식감을 살리고, 국물엔 건표고버섯가루와 들기름 한 바퀴를 더해 감칠맛을 폭발시키세요.",
+      "en": "Pan-sear the chicken breast until golden before adding it to the stew for a crisp-outside, tender-inside bite, and stir in dried shiitake powder and a swirl of perilla oil for an umami explosion.",
+      "ja": "鶏むね肉は先にフライパンで焼き色をつけてから加えると外はカリッと中はしっとりに。スープには干し椎茸パウダーとえごま油を一回し加え、旨味を爆発させましょう。",
+      "zh": "鸡胸肉先用平底锅煎至焦黄再放入汤里,做出外脆里嫩的口感,汤里再加干香菇粉和一圈紫苏油,让鲜味瞬间爆发。",
+      "es": "Dora el pollo en la sartén antes de añadirlo al guiso para un bocado crujiente por fuera y tierno por dentro, e incorpora polvo de shiitake seco y un chorro de aceite de perilla para una explosión de umami.",
+      "fr": "Faites dorer le poulet à la poêle avant de l'ajouter au ragoût pour un résultat croustillant à l'extérieur et fondant à l'intérieur, et incorporez de la poudre de shiitake séché et un filet d'huile de périlla pour une explosion d'umami."
+    }
+  },
+  {
+    "recipeId": "kr-chicken-vegetable-stirfry",
+    "stage2Detail": {
+      "ko": "참기름 5ml는 그대로 쓰되 조리 마지막 단계에만 넣어 향이 날아가지 않게 하고, 마늘은 얇게 슬라이스해 씹는 맛을 살리면 일상 밸런스가 됩니다.",
+      "en": "Keep the same 5ml of sesame oil but add it only at the very end so the aroma doesn't cook off, and slice the garlic thin for texture — an easy everyday balance.",
+      "ja": "ごま油5mlはそのままに、仕上げの段階でだけ加えて香りを飛ばさないようにし、にんにくは薄切りにして食感を残すと日常的なバランスになります。",
+      "zh": "香油保持5毫升不变,但只在最后一步加入以免香气流失,蒜切薄片保留嚼劲,就是日常也能接受的平衡版。",
+      "es": "Deja los mismos 5 ml de aceite de sésamo pero añádelo solo al final para que no pierda aroma, y corta el ajo en láminas finas para dar textura — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Gardez les mêmes 5 ml d'huile de sésame mais ajoutez-la seulement à la fin pour ne pas perdre l'arôme, et coupez l'ail en fines lamelles pour la texture — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "닭가슴살은 센 불에서 겉면을 바짝 구워 겉바속촉하게 만들고, 굴소스 대신 다진 마늘을 볶은 마늘기름과 참기름을 이중으로 둘러 감칠맛을 극대화하세요. 마지막에 통깨를 듬뿍 뿌리면 고소함까지 살아납니다.",
+      "en": "Sear the chicken breast over high heat until the surface is deeply browned for a crisp-outside, tender-inside bite, and double up on garlic-infused oil and sesame oil instead of oyster sauce for maximum umami. Finish with a generous sprinkle of toasted sesame seeds for extra nuttiness.",
+      "ja": "鶏むね肉は強火で表面をしっかり焼き付けて外はカリッと中はしっとりに。オイスターソースの代わりに、炒めたにんにく油とごま油を二重に回しかけて旨味を最大化しましょう。仕上げに炒りごまをたっぷり振ると香ばしさも際立ちます。",
+      "zh": "鸡胸肉用大火把表面煎得焦香,做出外脆里嫩的口感。用炒过的蒜香油和香油双重淋上代替蚝油,把鲜味发挥到极致。最后大把撒上熟芝麻,香气更突出。",
+      "es": "Sella el pollo a fuego alto hasta que la superficie quede bien dorada para un bocado crujiente por fuera y tierno por dentro. En vez de salsa de ostras, usa el doble de aceite de ajo y aceite de sésamo para maximizar el umami. Termina con un buen puñado de semillas de sésamo tostadas para más sabor tostado.",
+      "fr": "Saisissez le poulet à feu vif jusqu'à ce que la surface soit bien dorée pour un résultat croustillant à l'extérieur et fondant à l'intérieur. Remplacez la sauce d'huître par une double dose d'huile à l'ail et d'huile de sésame pour maximiser l'umami. Terminez avec une bonne poignée de graines de sésame grillées pour plus de goût grillé."
+    }
+  },
+  {
+    "recipeId": "kr-steamed-egg",
+    "stage2Detail": {
+      "ko": "달걀물에 물 대신 멸치육수를 살짝 섞어 감칠맛을 더하고, 당근·양파는 잘게 다져 부드러운 식감을 유지하면 일상 밸런스가 됩니다.",
+      "en": "Mix a little anchovy broth into the egg mixture instead of plain water for extra savoriness, and finely dice the carrot and onion to keep the texture smooth — an easy everyday balance.",
+      "ja": "卵液には水の代わりにいりこだしを少し混ぜて旨味を足し、にんじんと玉ねぎは細かく刻んでなめらかな食感を保つと日常的なバランスになります。",
+      "zh": "蛋液里用一点凤尾鱼高汤代替部分水提鲜,胡萝卜和洋葱切碎保持顺滑口感,就是日常也能接受的平衡版。",
+      "es": "Mezcla un poco de caldo de anchoa en la mezcla de huevo en lugar de agua para más sabor, y pica finamente la zanahoria y la cebolla para mantener una textura suave — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Mélangez un peu de bouillon d'anchois dans les œufs battus à la place de l'eau pour plus de saveur, et coupez finement la carotte et l'oignon pour garder une texture lisse — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "달걀물에 다시마육수와 새우젓 한 꼬집을 더해 감칠맛을 끌어올리고, 마지막에 참기름 한 방울과 잘게 썬 대파를 올려 향을 확 살리세요.",
+      "en": "Add kelp broth and a pinch of salted shrimp to the egg mixture for a deep umami lift, then finish with a drop of sesame oil and finely chopped scallion for a bright aroma.",
+      "ja": "卵液に昆布だしとアミの塩辛をひとつまみ加えて旨味を引き上げ、仕上げにごま油を一滴と刻んだ小ねぎをのせて香りを一気に立たせましょう。",
+      "zh": "蛋液里加昆布高汤和一小撮虾酱提升鲜味,最后淋一滴香油、撒上切碎的葱花,香气瞬间提升。",
+      "es": "Añade caldo de kelp y una pizca de camarones salados a la mezcla de huevo para más umami, y termina con una gota de aceite de sésamo y cebolleta picada para un aroma vivo.",
+      "fr": "Ajoutez du bouillon de kelp et une pincée de crevettes salées aux œufs battus pour plus d'umami, puis terminez avec une goutte d'huile de sésame et de la ciboule ciselée pour un arôme vif."
+    }
+  },
+  {
+    "recipeId": "kr-buckwheat-noodles-spicy",
+    "stage2Detail": {
+      "ko": "고추장은 15g 그대로 쓰되 식초와 매실청을 조금 더해 새콤달콤한 맛을 살리면 부담 없이 즐기기 좋아요.",
+      "en": "Keep the gochujang at the same 15g but add a touch of vinegar and plum syrup for a tangy-sweet balance that's easy to enjoy.",
+      "ja": "コチュジャン15gはそのままに、酢と梅シロップを少し加えると甘酸っぱくなり、負担なく楽しめます。",
+      "zh": "辣椒酱保持15克不变,加一点醋和梅子糖浆调出酸甜味,就是日常也能轻松接受的版本。",
+      "es": "Deja el gochujang en los mismos 15 g pero añade un poco de vinagre y jarabe de ciruela para un equilibrio agridulce fácil de disfrutar.",
+      "fr": "Gardez le gochujang à 15 g mais ajoutez un peu de vinaigre et de sirop de prune pour un équilibre aigre-doux facile à apprécier."
+    },
+    "stage3Detail": {
+      "ko": "양념장에 다진 마늘, 고춧가루, 참기름을 추가해 알싸하고 진한 맛으로 업그레이드하고, 삶은 메밀국수 위에 볶은 통깨와 김가루를 듬뿍 올려 고소한 감칠맛을 더하세요.",
+      "en": "Upgrade the sauce with minced garlic, gochugaru, and sesame oil for a bolder, deeper flavor, then top the boiled buckwheat noodles generously with toasted sesame seeds and crumbled seaweed for a savory finish.",
+      "ja": "タレにおろしにんにく、唐辛子粉、ごま油を加えて濃厚な味にアップグレードし、茹でたそばの上に炒りごまと韓国海苔フレークをたっぷりのせて香ばしい旨味を加えましょう。",
+      "zh": "酱料里加蒜末、辣椒粉和香油,升级成更浓郁的味道,煮好的荞麦面上大把撒上熟芝麻和海苔碎,增添鲜香。",
+      "es": "Mejora la salsa con ajo picado, gochugaru y aceite de sésamo para un sabor más intenso, y cubre los fideos de trigo sarraceno cocidos con abundantes semillas de sésamo tostadas y copos de alga nori para un final sabroso.",
+      "fr": "Enrichissez la sauce avec de l'ail haché, du gochugaru et de l'huile de sésame pour un goût plus intense, puis garnissez généreusement les nouilles de sarrasin cuites de graines de sésame grillées et de flocons d'algue nori pour une touche savoureuse."
+    }
+  },
+  {
+    "recipeId": "kr-tofu-steak-spinach",
+    "stage2Detail": {
+      "ko": "두부는 앞뒤로 노릇하게만 구워 담백함을 살리고, 시금치나물엔 참기름 5ml를 그대로 유지해 일상적인 밸런스를 잡으세요.",
+      "en": "Pan-sear the tofu just until golden on both sides to keep it light, and keep the spinach side dish at the same 5ml of sesame oil for an everyday balance.",
+      "ja": "豆腐は両面をこんがり焼く程度にとどめて軽やかさを保ち、ほうれん草のナムルはごま油5mlのままにすると日常的なバランスになります。",
+      "zh": "豆腐两面煎至微焦即可,保持清爽口感,菠菜拌菜的香油保持5毫升不变,就是日常也能接受的平衡版。",
+      "es": "Dora el tofu por ambos lados solo lo justo para mantenerlo ligero, y deja el plato de espinacas con los mismos 5 ml de aceite de sésamo para un equilibrio diario.",
+      "fr": "Faites dorer le tofu des deux côtés juste ce qu'il faut pour rester léger, et gardez l'accompagnement d'épinards aux mêmes 5 ml d'huile de sésame pour un équilibre quotidien."
+    },
+    "stage3Detail": {
+      "ko": "두부는 소금과 후추로 밑간해 겉면이 바삭해질 때까지 오래 구워 겉바속촉 식감을 극대화하고, 마지막에 간장 마늘 소스(간장+다진 마늘+참기름)를 끼얹으면 감칠맛이 확 살아납니다.",
+      "en": "Season the tofu with salt and pepper and sear it longer until the surface turns deeply crisp for maximum crisp-outside, tender-inside contrast, then finish with a soy-garlic sauce (soy sauce + minced garlic + sesame oil) drizzled on top for a big umami lift.",
+      "ja": "豆腐は塩こしょうで下味をつけ、表面がしっかりカリッとするまで長めに焼いて食感のコントラストを最大化。仕上げに醤油にんにくソース(醤油+おろしにんにく+ごま油)をかけると旨味が一気に引き立ちます。",
+      "zh": "豆腐用盐和胡椒调味后煎更久,直到表皮变得非常脆,把外脆里嫩的口感发挥到极致。最后淋上酱油蒜汁(酱油+蒜末+香油),鲜味瞬间提升。",
+      "es": "Sazona el tofu con sal y pimienta y dóralo más tiempo hasta que la superficie quede bien crujiente para maximizar el contraste de texturas, y termina con una salsa de soja y ajo (salsa de soja + ajo picado + aceite de sésamo) para un gran impulso de umami.",
+      "fr": "Assaisonnez le tofu de sel et de poivre et faites-le dorer plus longtemps jusqu'à ce que la surface soit bien croustillante pour maximiser le contraste de textures, puis terminez avec une sauce soja-ail (sauce soja + ail haché + huile de sésame) pour un gros coup d'umami."
+    }
+  },
+  {
+    "recipeId": "kr-seaweed-soup",
+    "stage2Detail": {
+      "ko": "미역은 참기름에 먼저 볶아 향을 낸 뒤 끓이고, 마늘 5g은 그대로 사용해 담백하면서도 일상적으로 먹기 좋게 만드세요.",
+      "en": "Sauté the seaweed in sesame oil first to build aroma before simmering, and keep the same 5g of garlic for a light, everyday-friendly result.",
+      "ja": "わかめは煮る前にごま油で軽く炒めて香りを出し、にんにく5gはそのままにすると軽やかで日常的な仕上がりになります。",
+      "zh": "海带下锅前先用香油炒出香气再煮,蒜末保持5克不变,就是清爽又日常的版本。",
+      "es": "Saltea el alga marina en aceite de sésamo antes de hervirla para generar aroma, y deja los mismos 5 g de ajo para un resultado ligero y fácil de disfrutar a diario.",
+      "fr": "Faites revenir les algues dans l'huile de sésame avant de les faire bouillir pour développer l'arôme, et gardez les mêmes 5 g d'ail pour un résultat léger et facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "국물에 다시마와 건새우를 함께 우려 감칠맛 베이스를 깊게 만들고, 국간장 대신 액젓을 살짝 더해 감칠맛을 끌어올리세요. 마지막에 들기름 한 바퀴를 둘러 고소함을 폭발시킵니다.",
+      "en": "Steep kelp and dried shrimp together for a deep umami broth base, swap the soy sauce for a touch of fish sauce to boost savoriness, and finish with a generous swirl of perilla oil for an umami explosion.",
+      "ja": "昆布と干しエビを一緒に浸して旨味の効いただしを作り、醤油の代わりに魚醤を少し加えて旨味を底上げ。仕上げにえごま油をたっぷり回しかけて旨味を爆発させましょう。",
+      "zh": "用昆布和干虾一起泡水做出鲜味十足的汤底,酱油换成一点鱼露提升鲜味。最后大方淋上紫苏油,让鲜味瞬间爆发。",
+      "es": "Remoja alga kelp y camarones secos juntos para un caldo con mucho umami, cambia la salsa de soja por un poco de salsa de pescado para más sabor, y termina con un buen chorro de aceite de perilla para una explosión de umami.",
+      "fr": "Faites tremper ensemble du kelp séché et des crevettes séchées pour un bouillon très umami, remplacez la sauce soja par un peu de sauce de poisson pour plus de saveur, et terminez avec une bonne dose d'huile de périlla pour une explosion d'umami."
+    }
+  },
+  {
+    "recipeId": "kr-brown-rice-porridge",
+    "stage2Detail": {
+      "ko": "채소는 잘게 다져 부드럽게 씹히도록 하고, 참기름 3ml는 마지막에 둘러 향을 살리면 일상적으로 먹기 좋은 죽이 됩니다.",
+      "en": "Dice the vegetables finely for a smoother bite, and add the 3ml of sesame oil only at the end to preserve its aroma — an easy everyday balance.",
+      "ja": "野菜は細かく刻んでなめらかな食感にし、ごま油3mlは仕上げにだけ加えて香りを保つと日常的なバランスになります。",
+      "zh": "蔬菜切碎让口感更顺滑,香油3毫升只在最后加入保留香气,就是日常也能接受的平衡版。",
+      "es": "Pica finamente las verduras para una textura más suave, y añade los 3 ml de aceite de sésamo solo al final para conservar el aroma — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Coupez finement les légumes pour une texture plus lisse, et ajoutez les 3 ml d'huile de sésame seulement à la fin pour préserver l'arôme — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "죽을 끓일 때 물 대신 건표고버섯과 다시마를 우린 육수를 사용하고, 마지막에 들기름과 참깨를 듬뿍 올려 고소한 감칠맛을 확 끌어올리세요.",
+      "en": "Cook the porridge in broth steeped with dried shiitake and kelp instead of plain water, then finish with a generous swirl of perilla oil and toasted sesame seeds for a big savory boost.",
+      "ja": "おかゆを炊く水の代わりに干し椎茸と昆布のだしを使い、仕上げにえごま油と炒りごまをたっぷりのせて旨味を一気に引き上げましょう。",
+      "zh": "煮粥的水换成干香菇和昆布泡的高汤,最后大方淋上紫苏油、撒上熟芝麻,让鲜味瞬间提升。",
+      "es": "Cocina las gachas con un caldo de shiitake seco y kelp en lugar de agua sola, y termina con un buen chorro de aceite de perilla y semillas de sésamo tostadas para un gran impulso de sabor.",
+      "fr": "Faites cuire le porridge dans un bouillon de shiitake séché et de kelp à la place de l'eau seule, puis terminez avec une bonne dose d'huile de périlla et de graines de sésame grillées pour un gros coup de saveur."
+    }
+  },
+  {
+    "recipeId": "kr-doenjang-chicken",
+    "stage2Detail": {
+      "ko": "된장은 10g 그대로 쓰되 무와 양파를 큼직하게 썰어 단맛이 우러나게 하면 일상적으로 즐기기 좋은 밸런스가 됩니다.",
+      "en": "Keep the doenjang at the same 10g but cut the radish and onion into large pieces so their natural sweetness comes through — an easy everyday balance.",
+      "ja": "味噌は同じ10gのままに、大根と玉ねぎを大きめに切って自然な甘みを引き出すと日常的なバランスになります。",
+      "zh": "大酱保持10克不变,萝卜和洋葱切大块让天然甜味释放出来,就是日常也能接受的平衡版。",
+      "es": "Deja el doenjang en los mismos 10 g pero corta el rábano y la cebolla en trozos grandes para que salga su dulzor natural — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Gardez le doenjang à 10 g mais coupez le radis et l'oignon en gros morceaux pour laisser ressortir leur douceur naturelle — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "된장 육수에 건표고버섯가루를 더하고, 닭가슴살은 먼저 팬에 지져 겉면을 노릇하게 만든 뒤 넣어 겉바속촉 식감을 살리세요. 마무리로 다진 마늘을 볶은 마늘기름을 둘러 감칠맛을 폭발시킵니다.",
+      "en": "Add dried shiitake powder to the doenjang broth, pan-sear the chicken breast until golden before adding it in for a crisp-outside, tender-inside bite, and finish with a swirl of garlic-infused oil for an umami explosion.",
+      "ja": "味噌だしに干し椎茸パウダーを加え、鶏むね肉は先にフライパンで焼き色をつけてから加えて外はカリッと中はしっとりに。仕上げににんにく油を回しかけて旨味を爆発させましょう。",
+      "zh": "大酱汤底加干香菇粉,鸡胸肉先用平底锅煎至焦黄再放入,做出外脆里嫩的口感。最后淋上蒜香油,让鲜味瞬间爆发。",
+      "es": "Añade polvo de shiitake seco al caldo de doenjang, dora el pollo antes de añadirlo para un bocado crujiente por fuera y tierno por dentro, y termina con un chorro de aceite de ajo para una explosión de umami.",
+      "fr": "Ajoutez de la poudre de shiitake séché au bouillon de doenjang, faites dorer le poulet avant de l'ajouter pour un résultat croustillant à l'extérieur et fondant à l'intérieur, et terminez avec un filet d'huile à l'ail pour une explosion d'umami."
+    }
+  },
+  {
+    "recipeId": "kr-bokchoy-tofu-fried-rice",
+    "stage2Detail": {
+      "ko": "참기름 5ml는 조리 마지막에만 둘러 향을 살리고, 두부는 큼직하게 썰어 씹는 맛을 유지하면 일상 밸런스가 됩니다.",
+      "en": "Add the 5ml of sesame oil only at the very end for aroma, and cut the tofu into large chunks to keep some bite — an easy everyday balance.",
+      "ja": "ごま油5mlは仕上げにだけ加えて香りを保ち、豆腐は大きめに切って食感を残すと日常的なバランスになります。",
+      "zh": "香油5毫升只在最后加入保留香气,豆腐切大块保留嚼劲,就是日常也能接受的平衡版。",
+      "es": "Añade los 5 ml de aceite de sésamo solo al final para el aroma, y corta el tofu en trozos grandes para mantener algo de textura — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Ajoutez les 5 ml d'huile de sésame seulement à la fin pour l'arôme, et coupez le tofu en gros morceaux pour garder de la texture — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "두부는 먼저 팬에 노릇하게 구워 겉바속촉하게 만든 뒤 볶고, 마늘기름과 국간장 한 방울을 더해 감칠맛을 끌어올리세요. 마지막에 통깨를 듬뿍 뿌리면 고소함이 확 살아납니다.",
+      "en": "Pan-sear the tofu until golden for a crisp-outside, tender-inside bite before stir-frying, add garlic oil and a drop of soy sauce for extra umami, then finish with a generous sprinkle of toasted sesame seeds for a nutty boost.",
+      "ja": "豆腐は先にフライパンでこんがり焼いて外はカリッと中はしっとりにしてから炒め、にんにく油と醤油を一滴加えて旨味アップ。仕上げに炒りごまをたっぷり振ると香ばしさが際立ちます。",
+      "zh": "豆腐先用平底锅煎至焦黄,做出外脆里嫩的口感后再炒,加蒜香油和一滴酱油提升鲜味。最后大把撒上熟芝麻,香气更突出。",
+      "es": "Dora el tofu hasta que quede crujiente por fuera y tierno por dentro antes de saltearlo, añade aceite de ajo y una gota de salsa de soja para más umami, y termina con un buen puñado de semillas de sésamo tostadas para un toque tostado.",
+      "fr": "Faites dorer le tofu jusqu'à ce qu'il soit croustillant à l'extérieur et fondant à l'intérieur avant de le faire sauter, ajoutez de l'huile à l'ail et une goutte de sauce soja pour plus d'umami, et terminez avec une bonne poignée de graines de sésame grillées pour une touche grillée."
+    }
+  },
+  {
+    "recipeId": "kr-soybean-sprout-bibimbap",
+    "stage2Detail": {
+      "ko": "고추장은 10g 그대로 쓰고 콩나물은 아삭하게 데쳐 식감을 살리면, 부담 없이 즐기기 좋은 비빔밥이 됩니다.",
+      "en": "Keep the gochujang at the same 10g and blanch the bean sprouts until just crisp — an easy, everyday-friendly bibimbap.",
+      "ja": "コチュジャンは同じ10gのままに、もやしはシャキッとするまで茹でると、負担なく楽しめるビビンバになります。",
+      "zh": "辣椒酱保持10克不变,豆芽焯水焯到刚好爽脆,就是日常也能轻松接受的拌饭。",
+      "es": "Deja el gochujang en los mismos 10 g y escalda los brotes de soja justo hasta que queden crujientes — un bibimbap fácil de disfrutar a diario.",
+      "fr": "Gardez le gochujang à 10 g et faites blanchir les germes de soja juste jusqu'à ce qu'ils soient croquants — un bibimbap facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "비빔장에 다진 마늘과 참기름을 더해 진한 양념을 만들고, 마지막에 들기름 한 바퀴와 통깨를 듬뿍 올려 고소한 감칠맛을 폭발시키세요.",
+      "en": "Mix minced garlic and sesame oil into the sauce for a bolder flavor, then finish with a generous swirl of perilla oil and toasted sesame seeds for an umami explosion.",
+      "ja": "タレにおろしにんにくとごま油を加えて濃厚に仕上げ、仕上げにえごま油と炒りごまをたっぷりのせて旨味を爆発させましょう。",
+      "zh": "酱料里加蒜末和香油调得更浓郁,最后大方淋上紫苏油、撒上熟芝麻,让鲜味瞬间爆发。",
+      "es": "Añade ajo picado y aceite de sésamo a la salsa para un sabor más intenso, y termina con un buen chorro de aceite de perilla y semillas de sésamo tostadas para una explosión de umami.",
+      "fr": "Ajoutez de l'ail haché et de l'huile de sésame à la sauce pour un goût plus intense, et terminez avec une bonne dose d'huile de périlla et de graines de sésame grillées pour une explosion d'umami."
+    }
+  },
+  {
+    "recipeId": "kr-grilled-salmon-napa-salad",
+    "stage2Detail": {
+      "ko": "고춧가루 3g은 그대로 두고 배추 겉절이에 식초를 살짝 더해 산뜻하게 만들면 일상적으로 즐기기 좋아요.",
+      "en": "Keep the gochugaru at the same 3g and add a touch of vinegar to the napa salad for a fresher, easy-to-enjoy balance.",
+      "ja": "唐辛子粉3gはそのままに、白菜の和え物に酢を少し加えるとさっぱりして楽しみやすいバランスになります。",
+      "zh": "辣椒粉保持3克不变,白菜拌菜里加一点醋更清爽,就是日常也能接受的平衡版。",
+      "es": "Deja el gochugaru en los mismos 3 g y añade un poco de vinagre a la ensalada de col para un toque más fresco y fácil de disfrutar.",
+      "fr": "Gardez le gochugaru à 3 g et ajoutez un peu de vinaigre à la salade de chou chinois pour la rendre plus fraîche et facile à apprécier."
+    },
+    "stage3Detail": {
+      "ko": "연어는 굽기 전 소금과 후추로 밑간해 껍질 쪽을 바삭하게 구워 겉바속촉 식감을 살리고, 겉절이엔 액젓 한 방울과 참기름을 더해 감칠맛을 확 끌어올리세요.",
+      "en": "Season the salmon with salt and pepper before grilling and crisp up the skin side for a crisp-outside, tender-inside bite. Add a drop of fish sauce and sesame oil to the napa salad for a big umami lift.",
+      "ja": "鮭は焼く前に塩こしょうをして皮目をパリッと焼き、外はカリッと中はしっとりに。白菜の和え物には魚醤を一滴とごま油を加えて旨味を引き上げましょう。",
+      "zh": "三文鱼烤前用盐和胡椒调味,把鱼皮一面煎得香脆,做出外脆里嫩的口感。白菜拌菜里加一滴鱼露和香油,鲜味瞬间提升。",
+      "es": "Sazona el salmón con sal y pimienta antes de asarlo y dora bien el lado de la piel para un bocado crujiente por fuera y tierno por dentro. Añade una gota de salsa de pescado y aceite de sésamo a la ensalada de col para un gran impulso de umami.",
+      "fr": "Assaisonnez le saumon de sel et de poivre avant de le griller et faites bien dorer le côté peau pour un résultat croustillant à l'extérieur et fondant à l'intérieur. Ajoutez une goutte de sauce de poisson et d'huile de sésame à la salade de chou chinois pour un gros coup d'umami."
+    }
+  },
+  {
+    "recipeId": "kr-egg-vegetable-porridge",
+    "stage2Detail": {
+      "ko": "죽을 끓일 때 물 일부를 멸치육수로 바꾸고, 참기름 3ml는 마지막에 둘러 향을 살리면 일상 밸런스가 됩니다.",
+      "en": "Swap part of the water for anchovy broth when cooking the porridge, and add the 3ml of sesame oil only at the end for aroma — an easy everyday balance.",
+      "ja": "おかゆを炊く水の一部をいりこだしに変え、ごま油3mlは仕上げにだけ加えると日常的なバランスになります。",
+      "zh": "煮粥时用凤尾鱼高汤代替部分水,香油3毫升只在最后加入,就是日常也能接受的平衡版。",
+      "es": "Sustituye parte del agua por caldo de anchoa al cocinar las gachas, y añade los 3 ml de aceite de sésamo solo al final — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Remplacez une partie de l'eau par du bouillon d'anchois pour cuire le porridge, et ajoutez les 3 ml d'huile de sésame seulement à la fin — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "다시마와 건새우로 우린 육수를 베이스로 죽을 끓이고, 달걀은 풀어 넣기 직전에 새우젓 한 꼬집을 더해 감칠맛을 끌어올리세요. 마지막에 들기름을 넉넉히 둘러 고소함을 폭발시킵니다.",
+      "en": "Cook the porridge in a base of kelp and dried shrimp broth, and stir in a pinch of salted shrimp right before adding the egg for extra umami. Finish with a generous swirl of perilla oil for a savory explosion.",
+      "ja": "昆布と干しエビのだしをベースにおかゆを炊き、卵を溶き入れる直前にアミの塩辛をひとつまみ加えて旨味を引き上げます。仕上げにえごま油をたっぷり回しかけて旨味を爆発させましょう。",
+      "zh": "用昆布和干虾高汤做粥底,打蛋前加一小撮虾酱提升鲜味。最后大方淋上紫苏油,让鲜味瞬间爆发。",
+      "es": "Cocina las gachas con una base de caldo de kelp y camarones secos, y añade una pizca de camarones salados justo antes de incorporar el huevo para más umami. Termina con un buen chorro de aceite de perilla para una explosión de sabor.",
+      "fr": "Faites cuire le porridge dans une base de bouillon de kelp et de crevettes séchées, et ajoutez une pincée de crevettes salées juste avant d'incorporer l'œuf pour plus d'umami. Terminez avec une bonne dose d'huile de périlla pour une explosion de saveur."
+    }
+  },
+  {
+    "recipeId": "kr-tofu-kimchi-fried-rice",
+    "stage2Detail": {
+      "ko": "김치는 60g 그대로 쓰되 신김치를 활용하고, 참기름 5ml는 마지막에 둘러 향을 살리면 일상적으로 즐기기 좋아요.",
+      "en": "Keep the kimchi at 60g but use well-fermented kimchi, and add the 5ml of sesame oil only at the end for aroma — an easy everyday balance.",
+      "ja": "キムチは60gのままに熟成キムチを使い、ごま油5mlは仕上げにだけ加えると日常的なバランスになります。",
+      "zh": "泡菜保持60克不变,用熟成泡菜,香油5毫升只在最后加入,就是日常也能接受的平衡版。",
+      "es": "Deja el kimchi en los mismos 60 g pero usa uno bien fermentado, y añade los 5 ml de aceite de sésamo solo al final — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Gardez le kimchi à 60 g mais utilisez-en un bien fermenté, et ajoutez les 5 ml d'huile de sésame seulement à la fin — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "두부는 먼저 노릇하게 지져 겉바속촉하게 만들고, 볶음밥에 마늘기름과 국간장 한 방울을 더해 감칠맛을 끌어올리세요. 마지막에 통깨와 김가루를 듬뿍 올리면 고소함이 확 살아납니다.",
+      "en": "Pan-sear the tofu until golden for a crisp-outside, tender-inside bite, then add garlic oil and a drop of soy sauce to the fried rice for extra umami. Finish with a generous topping of toasted sesame seeds and crumbled seaweed for a nutty boost.",
+      "ja": "豆腐は先にこんがり焼いて外はカリッと中はしっとりにし、チャーハンににんにく油と醤油を一滴加えて旨味アップ。仕上げに炒りごまと韓国海苔フレークをたっぷりのせて香ばしさを引き立てましょう。",
+      "zh": "豆腐先煎至焦黄,做出外脆里嫩的口感,炒饭里加蒜香油和一滴酱油提升鲜味。最后大把撒上熟芝麻和海苔碎,香气更突出。",
+      "es": "Dora el tofu hasta que quede crujiente por fuera y tierno por dentro, añade aceite de ajo y una gota de salsa de soja al arroz frito para más umami. Termina con abundantes semillas de sésamo tostadas y copos de alga nori para un toque tostado.",
+      "fr": "Faites dorer le tofu jusqu'à ce qu'il soit croustillant à l'extérieur et fondant à l'intérieur, ajoutez de l'huile à l'ail et une goutte de sauce soja au riz frit pour plus d'umami. Terminez avec une bonne quantité de graines de sésame grillées et de flocons d'algue nori pour une touche grillée."
+    }
+  },
+  {
+    "recipeId": "kr-steamed-chicken-vegetables",
+    "stage2Detail": {
+      "ko": "마늘 참기름 소스는 그대로 유지하되 소스에 통깨를 더해 고소함을 살리면 일상 밸런스가 됩니다.",
+      "en": "Keep the garlic-sesame sauce as is, but add toasted sesame seeds to it for extra nuttiness — an easy everyday balance.",
+      "ja": "にんにくごま油ソースはそのままに、炒りごまを加えると香ばしさが増して日常的なバランスになります。",
+      "zh": "蒜香油酱汁保持不变,里面加熟芝麻会更香,就是日常也能接受的平衡版。",
+      "es": "Deja la salsa de ajo y sésamo tal cual, pero añádele semillas de sésamo tostadas para más sabor tostado — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Gardez la sauce ail-sésame telle quelle, mais ajoutez-y des graines de sésame grillées pour plus de goût grillé — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "닭가슴살은 찌기 전 소금으로 밑간하고, 찐 후 팬에 살짝 구워 겉면을 바삭하게 만들어 겉바속촉 식감을 살리세요. 소스엔 다진 마늘을 볶은 마늘기름과 들기름을 더해 감칠맛을 폭발시킵니다.",
+      "en": "Season the chicken breast with salt before steaming, then quickly pan-sear it afterward until the surface turns crisp for a crisp-outside, tender-inside bite. Add garlic-infused oil and perilla oil to the sauce for an umami explosion.",
+      "ja": "鶏むね肉は蒸す前に塩で下味をつけ、蒸したあとフライパンで表面をサッと焼いて外はカリッと中はしっとりに。ソースににんにく油とえごま油を加えて旨味を爆発させましょう。",
+      "zh": "鸡胸肉蒸前用盐调味,蒸好后用平底锅快速煎一下表面,做出外脆里嫩的口感。酱汁里加蒜香油和紫苏油,让鲜味瞬间爆发。",
+      "es": "Sazona el pollo con sal antes de cocerlo al vapor, y después dóralo brevemente en la sartén hasta que la superficie quede crujiente para un bocado crujiente por fuera y tierno por dentro. Añade aceite de ajo y aceite de perilla a la salsa para una explosión de umami.",
+      "fr": "Assaisonnez le poulet de sel avant de le cuire à la vapeur, puis faites-le dorer rapidement à la poêle jusqu'à ce que la surface soit croustillante pour un résultat croustillant à l'extérieur et fondant à l'intérieur. Ajoutez de l'huile à l'ail et de l'huile de périlla à la sauce pour une explosion d'umami."
+    }
+  },
+  {
+    "recipeId": "kr-tofu-scramble",
+    "stage2Detail": {
+      "ko": "두부는 으깨지 말고 큼직하게 부숴 씹는 맛을 살리고, 참기름 5ml는 마지막에 둘러 향을 살리면 일상 밸런스가 됩니다.",
+      "en": "Break the tofu into large chunks instead of mashing it to keep some texture, and add the 5ml of sesame oil only at the end for aroma — an easy everyday balance.",
+      "ja": "豆腐は潰さず大きめに崩して食感を残し、ごま油5mlは仕上げにだけ加えると日常的なバランスになります。",
+      "zh": "豆腐不要压碎,掰成大块保留口感,香油5毫升只在最后加入,就是日常也能接受的平衡版。",
+      "es": "Desmenuza el tofu en trozos grandes en lugar de aplastarlo para mantener algo de textura, y añade los 5 ml de aceite de sésamo solo al final — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Émiettez le tofu en gros morceaux plutôt que de l'écraser pour garder de la texture, et ajoutez les 5 ml d'huile de sésame seulement à la fin — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "두부는 팬에 소금 살짝 뿌려 노릇하게 지진 뒤 채소와 볶고, 국간장 한 방울과 마늘기름을 더해 감칠맛을 끌어올리세요. 마지막에 통깨를 듬뿍 뿌리면 고소함이 확 살아납니다.",
+      "en": "Pan-sear the tofu with a pinch of salt until golden before stir-frying it with the vegetables, and add a drop of soy sauce and garlic oil for extra umami. Finish with a generous sprinkle of toasted sesame seeds for a nutty boost.",
+      "ja": "豆腐は塩を軽く振ってこんがり焼いてから野菜と炒め、醤油を一滴とにんにく油を加えて旨味アップ。仕上げに炒りごまをたっぷり振ると香ばしさが際立ちます。",
+      "zh": "豆腐撒一点盐煎至焦黄后再和蔬菜一起炒,加一滴酱油和蒜香油提升鲜味。最后大把撒上熟芝麻,香气更突出。",
+      "es": "Dora el tofu con una pizca de sal hasta que quede dorado antes de saltearlo con las verduras, y añade una gota de salsa de soja y aceite de ajo para más umami. Termina con un buen puñado de semillas de sésamo tostadas para un toque tostado.",
+      "fr": "Faites dorer le tofu avec une pincée de sel avant de le faire sauter avec les légumes, et ajoutez une goutte de sauce soja et de l'huile à l'ail pour plus d'umami. Terminez avec une bonne poignée de graines de sésame grillées pour une touche grillée."
+    }
+  },
+  {
+    "recipeId": "kr-cold-buckwheat-salad",
+    "stage2Detail": {
+      "ko": "고춧가루 3g은 그대로 두고 식초와 매실청을 조금 더해 새콤달콤하게 만들면 부담 없이 즐기기 좋아요.",
+      "en": "Keep the gochugaru at the same 3g and add a touch of vinegar and plum syrup for a tangy-sweet balance that's easy to enjoy.",
+      "ja": "唐辛子粉3gはそのままに、酢と梅シロップを少し加えると甘酸っぱくなり、負担なく楽しめます。",
+      "zh": "辣椒粉保持3克不变,加一点醋和梅子糖浆调出酸甜味,就是日常也能轻松接受的版本。",
+      "es": "Deja el gochugaru en los mismos 3 g y añade un poco de vinagre y jarabe de ciruela para un equilibrio agridulce fácil de disfrutar.",
+      "fr": "Gardez le gochugaru à 3 g et ajoutez un peu de vinaigre et de sirop de prune pour un équilibre aigre-doux facile à apprécier."
+    },
+    "stage3Detail": {
+      "ko": "양념에 다진 마늘과 참기름을 더해 진한 맛을 만들고, 마지막에 볶은 통깨와 김가루를 듬뿍 올려 고소한 감칠맛을 폭발시키세요.",
+      "en": "Add minced garlic and sesame oil to the dressing for a bolder flavor, then finish with a generous topping of toasted sesame seeds and crumbled seaweed for a savory explosion.",
+      "ja": "タレにおろしにんにくとごま油を加えて濃厚に仕上げ、仕上げに炒りごまと韓国海苔フレークをたっぷりのせて旨味を爆発させましょう。",
+      "zh": "酱料里加蒜末和香油调得更浓郁,最后大把撒上熟芝麻和海苔碎,让鲜味瞬间爆发。",
+      "es": "Añade ajo picado y aceite de sésamo al aderezo para un sabor más intenso, y termina con abundantes semillas de sésamo tostadas y copos de alga nori para una explosión de sabor.",
+      "fr": "Ajoutez de l'ail haché et de l'huile de sésame à l'assaisonnement pour un goût plus intense, et terminez avec une bonne quantité de graines de sésame grillées et de flocons d'algue nori pour une explosion de saveur."
+    }
+  },
+  {
+    "recipeId": "kr-braised-mackerel-bokchoy",
+    "stage2Detail": {
+      "ko": "간장 8ml는 그대로 쓰되 조림 국물을 마지막에 한 번 더 끼얹어 윤기와 맛이 배어들게 하면 일상 밸런스가 됩니다.",
+      "en": "Keep the soy sauce at the same 8ml but spoon the braising liquid over the fish once more at the end for extra glaze and flavor — an easy everyday balance.",
+      "ja": "醤油は同じ8mlのままに、煮汁を仕上げにもう一度かけるとつやと味がしっかり染み込み、日常的なバランスになります。",
+      "zh": "酱油保持8毫升不变,最后再淋一次煮汁让色泽和味道更入味,就是日常也能接受的平衡版。",
+      "es": "Deja la salsa de soja en los mismos 8 ml pero vuelve a rociar el líquido de cocción sobre el pescado al final para más brillo y sabor — un equilibrio fácil de disfrutar a diario.",
+      "fr": "Gardez la sauce soja à 8 ml mais arrosez à nouveau le poisson avec le jus de cuisson à la fin pour plus de brillance et de goût — un équilibre facile à apprécier au quotidien."
+    },
+    "stage3Detail": {
+      "ko": "조림 국물에 다진 마늘을 볶은 마늘기름과 청양고추를 더해 알싸하고 깊은 맛을 내고, 청경채나물엔 참기름 대신 들기름을 둘러 고소함을 폭발시키세요.",
+      "en": "Add garlic-infused oil and minced cheongyang chili to the braising liquid for a spicier, deeper flavor, and swap the sesame oil for perilla oil on the bok choy side dish for a savory explosion.",
+      "ja": "煮汁ににんにく油と刻んだ青陽唐辛子を加えてピリッと深い味にし、チンゲン菜のナムルはごま油の代わりにえごま油を使って旨味を爆発させましょう。",
+      "zh": "煮汁里加蒜香油和切碎的青阳辣椒,做出更辣更浓郁的味道,青江菜拌菜用紫苏油代替香油,让鲜味瞬间爆发。",
+      "es": "Añade aceite de ajo y chile cheongyang picado al líquido de cocción para un sabor más picante y profundo, y cambia el aceite de sésamo por aceite de perilla en el acompañamiento de bok choy para una explosión de sabor.",
+      "fr": "Ajoutez de l'huile à l'ail et du piment cheongyang haché au jus de cuisson pour un goût plus relevé et profond, et remplacez l'huile de sésame par de l'huile de périlla dans l'accompagnement de pak-choï pour une explosion de saveur."
+    }
+  }
+]

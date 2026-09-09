@@ -70,7 +70,13 @@
     "tasteGuideToggle": "Guía de proporción ideal",
     "tasteGuideBeginnerLabel": "Mezcla para principiantes",
     "tasteGuideAdvancedLabel": "Mezcla avanzada",
-    "tasteGuideTipLabel": "Consejo de cocción"
+    "tasteGuideTipLabel": "Consejo de cocción",
+    "stage1Label": "Etapa 1 · Ultra saludable",
+    "stage2Label": "Etapa 2 · Equilibrada",
+    "stage3Label": "Etapa 3 · Explosión de umami",
+    "stage1Note": "Esta es la receta tal como se muestra",
+    "stage2DetailHeading": "Prueba a ajustarla así",
+    "stage3DetailHeading": "Prueba a potenciar el umami así"
   },
   "home": {
     "trustHeadline1": "Reinicio corporal, plan de 7 días",

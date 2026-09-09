@@ -70,7 +70,13 @@
     "tasteGuideToggle": "黄金比例指南",
     "tasteGuideBeginnerLabel": "入门比例",
     "tasteGuideAdvancedLabel": "进阶比例",
-    "tasteGuideTipLabel": "烹饪小贴士"
+    "tasteGuideTipLabel": "烹饪小贴士",
+    "stage1Label": "1阶段 · 极致健康",
+    "stage2Label": "2阶段 · 平衡",
+    "stage3Label": "3阶段 · 鲜味爆发",
+    "stage1Note": "这就是当前显示的原始食谱",
+    "stage2DetailHeading": "可以这样调整",
+    "stage3DetailHeading": "可以这样提升鲜味"
   },
   "home": {
     "trustHeadline1": "身体重启 7天饮食计划",

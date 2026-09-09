@@ -70,7 +70,13 @@
     "tasteGuideToggle": "Golden ratio guide",
     "tasteGuideBeginnerLabel": "Beginner blend",
     "tasteGuideAdvancedLabel": "Advanced blend",
-    "tasteGuideTipLabel": "Cooking tip"
+    "tasteGuideTipLabel": "Cooking tip",
+    "stage1Label": "Stage 1 · Ultra-healthy",
+    "stage2Label": "Stage 2 · Balanced",
+    "stage3Label": "Stage 3 · Umami boost",
+    "stage1Note": "This is the recipe exactly as shown",
+    "stage2DetailHeading": "Try adjusting it like this",
+    "stage3DetailHeading": "Try boosting the umami like this"
   },
   "home": {
     "trustHeadline1": "Body Reset, 7-Day Plan",

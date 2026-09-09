@@ -70,7 +70,13 @@
     "tasteGuideToggle": "황금 비율 가이드",
     "tasteGuideBeginnerLabel": "입문자 비율",
     "tasteGuideAdvancedLabel": "숙련자 비율",
-    "tasteGuideTipLabel": "조리 팁"
+    "tasteGuideTipLabel": "조리 팁",
+    "stage1Label": "1단계 · 극건강",
+    "stage2Label": "2단계 · 밸런스",
+    "stage3Label": "3단계 · 미식(감칠맛)",
+    "stage1Note": "지금 보고 있는 레시피 그대로예요",
+    "stage2DetailHeading": "이렇게 조절해보세요",
+    "stage3DetailHeading": "이렇게 감칠맛을 살려보세요"
   },
   "home": {
     "trustHeadline1": "몸리셋 7일 식단",

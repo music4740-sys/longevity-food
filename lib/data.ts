@@ -1,5 +1,6 @@
 import plansJson from "@/data/plans.json";
 import recipesJson from "@/data/recipes.json";
+import recipeStageGuidesJson from "@/data/recipeStageGuides.json";
 import substitutesJson from "@/data/substitutes.json";
 import tasteGuidesJson from "@/data/tasteGuides.json";
 import { calculateLongevityScore } from "@/lib/score";
@@ -10,6 +11,7 @@ import type {
   LongevityScoreBreakdown,
   Plan,
   Recipe,
+  RecipeStageGuide,
   SubstituteGroup,
   TasteGuide,
 } from "@/types";
@@ -36,6 +38,8 @@ export const plans: Plan[] = plansJson satisfies Plan[];
 export const recipes: Recipe[] = assertValidRecipes(recipesJson as Recipe[]);
 export const substitutes: SubstituteGroup[] = substitutesJson satisfies SubstituteGroup[];
 export const tasteGuides: TasteGuide[] = tasteGuidesJson satisfies TasteGuide[];
+export const recipeStageGuides: RecipeStageGuide[] =
+  recipeStageGuidesJson satisfies RecipeStageGuide[];
 
 export function getPlanBySlug(slug: string): Plan | undefined {
   return plans.find((plan) => plan.slug === slug);
@@ -56,6 +60,10 @@ export function getSubstituteGroupById(id: string): SubstituteGroup | undefined 
 /** Matched by ingredient name (ko), not a stored id, so recipes need no linking field. */
 export function getTasteGuideByIngredientName(nameKo: string): TasteGuide | undefined {
   return tasteGuides.find((guide) => guide.targetIngredient.ko === nameKo);
+}
+
+export function getStageGuideByRecipeId(recipeId: string): RecipeStageGuide | undefined {
+  return recipeStageGuides.find((guide) => guide.recipeId === recipeId);
 }
 
 export function getRecipeLongevityScore(recipe: Recipe): LongevityScoreBreakdown {

@@ -70,7 +70,13 @@
     "tasteGuideToggle": "Guide du ratio idéal",
     "tasteGuideBeginnerLabel": "Mélange débutant",
     "tasteGuideAdvancedLabel": "Mélange avancé",
-    "tasteGuideTipLabel": "Astuce de cuisson"
+    "tasteGuideTipLabel": "Astuce de cuisson",
+    "stage1Label": "Étape 1 · Ultra-sain",
+    "stage2Label": "Étape 2 · Équilibré",
+    "stage3Label": "Étape 3 · Explosion d'umami",
+    "stage1Note": "C'est la recette telle qu'affichée",
+    "stage2DetailHeading": "Essayez de l'ajuster ainsi",
+    "stage3DetailHeading": "Essayez de rehausser l'umami ainsi"
   },
   "home": {
     "trustHeadline1": "Reset corporel, programme de 7 jours",

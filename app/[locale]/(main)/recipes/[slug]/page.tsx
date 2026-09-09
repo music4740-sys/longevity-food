@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import IngredientChecklist from "@/components/IngredientChecklist";
+import RecipeStageTabs from "@/components/RecipeStageTabs";
 import RecipeSteps from "@/components/RecipeSteps";
 import ScoreBreakdown from "@/components/ScoreBreakdown";
 import { getRecipeBySlug, getRecipeLongevityScore, recipes } from "@/lib/data";
@@ -35,6 +36,8 @@ export default async function RecipeDetailPage({
             {localizedText(recipe.description, locale)}
           </p>
         </div>
+
+        <RecipeStageTabs recipeId={recipe.id} locale={locale} />
 
         <IngredientChecklist recipeId={recipe.id} ingredients={recipe.ingredients} locale={locale} />
 

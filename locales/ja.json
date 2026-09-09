@@ -70,7 +70,13 @@
     "tasteGuideToggle": "黄金比ガイド",
     "tasteGuideBeginnerLabel": "初心者向け配合",
     "tasteGuideAdvancedLabel": "上級者向け配合",
-    "tasteGuideTipLabel": "調理のコツ"
+    "tasteGuideTipLabel": "調理のコツ",
+    "stage1Label": "1段階 · 極健康",
+    "stage2Label": "2段階 · バランス",
+    "stage3Label": "3段階 · 旨味爆発",
+    "stage1Note": "今表示されているレシピそのままです",
+    "stage2DetailHeading": "こう調整してみましょう",
+    "stage3DetailHeading": "こう旨味を引き出してみましょう"
   },
   "home": {
     "trustHeadline1": "体リセット 7日間食事プラン",
