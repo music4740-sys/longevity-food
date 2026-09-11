@@ -14,7 +14,9 @@
     "donationBankLabel": "Bank",
     "donationAccountLabel": "Account number",
     "donationHolderLabel": "Account holder",
-    "donationBankName": "MG Community Credit Cooperative (Korea)"
+    "donationBankName": "MG Community Credit Cooperative (Korea)",
+    "coupangBuyButton": "Buy on Coupang",
+    "coupangDisclosure": "As Coupang Partners affiliates, we may earn a commission from qualifying purchases made through this link."
   },
   "nav": {
     "planList": "Plan List",
@@ -50,7 +52,8 @@
       "IN": "Spices, herbs, and tropical ingredients",
       "TR": "Legumes, nuts, and lean meats",
       "MX": "Corn, chili, and superfood grains"
-    }
+    },
+    "addAllToCart": "Add this week's ingredients"
   },
   "recipe": {
     "scoreBreakdownTitle": "Longevity Score Breakdown",

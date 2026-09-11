@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import CoupangBuyButton from "@/components/CoupangBuyButton";
 import { clearCart, loadCart, removeFromCart, setPurchased, type CartItem } from "@/lib/cart";
 import { getRecipeById } from "@/lib/data";
 import { getDictionary, localizedText, type Locale } from "@/lib/i18n";
@@ -62,6 +63,11 @@ export default function CartView({ locale }: CartViewProps) {
             {t.common.cartClearAll}
           </button>
         </div>
+        {locale === "ko" && (
+          <p className="text-[11px] leading-relaxed text-zinc-400 dark:text-zinc-600">
+            {t.common.coupangDisclosure}
+          </p>
+        )}
         {[...groups.entries()].map(([recipeId, groupItems]) => {
           const recipe = getRecipeById(recipeId);
           return (
@@ -112,6 +118,9 @@ export default function CartView({ locale }: CartViewProps) {
                           <span className="text-xs text-zinc-400 dark:text-zinc-500">
                             {ingredient.amount}
                           </span>
+                        )}
+                        {ingredient && (
+                          <CoupangBuyButton keyword={ingredient.name.ko} locale={locale} />
                         )}
                         <button
                           type="button"

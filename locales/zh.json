@@ -14,7 +14,9 @@
     "donationBankLabel": "银行",
     "donationAccountLabel": "账号",
     "donationHolderLabel": "账户名",
-    "donationBankName": "Saemaul金库(韩国社区信用合作社)"
+    "donationBankName": "Saemaul金库(韩国社区信用合作社)",
+    "coupangBuyButton": "在Coupang购买",
+    "coupangDisclosure": "通过此链接购买商品,我们可能会从Coupang获得一定比例的佣金。"
   },
   "nav": {
     "planList": "计划列表",
@@ -50,7 +52,8 @@
       "IN": "香料·香草·热带食材",
       "TR": "豆类·坚果·瘦肉",
       "MX": "玉米·辣椒·超级食物谷物"
-    }
+    },
+    "addAllToCart": "一键添加本周食材"
   },
   "recipe": {
     "scoreBreakdownTitle": "长寿指数详情",

@@ -14,7 +14,9 @@
     "donationBankLabel": "銀行",
     "donationAccountLabel": "口座番号",
     "donationHolderLabel": "口座名義",
-    "donationBankName": "セマウル金庫(韓国)"
+    "donationBankName": "セマウル金庫(韓国)",
+    "coupangBuyButton": "Coupangで購入",
+    "coupangDisclosure": "このリンクから商品を購入すると、Coupangから一定額の手数料を受け取る場合があります。"
   },
   "nav": {
     "planList": "プラン一覧",
@@ -50,7 +52,8 @@
       "IN": "スパイス・ハーブ・熱帯食材",
       "TR": "豆類・ナッツ・赤身肉",
       "MX": "とうもろこし・唐辛子・スーパーフード穀物"
-    }
+    },
+    "addAllToCart": "今週の食材をまとめて追加"
   },
   "recipe": {
     "scoreBreakdownTitle": "長寿スコア詳細",

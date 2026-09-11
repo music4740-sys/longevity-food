@@ -14,7 +14,9 @@
     "donationBankLabel": "Banco",
     "donationAccountLabel": "Número de cuenta",
     "donationHolderLabel": "Titular de la cuenta",
-    "donationBankName": "Cooperativa de Crédito Saemaul (Corea)"
+    "donationBankName": "Cooperativa de Crédito Saemaul (Corea)",
+    "coupangBuyButton": "Comprar en Coupang",
+    "coupangDisclosure": "Como afiliados de Coupang Partners, podemos recibir una comisión por las compras realizadas a través de este enlace."
   },
   "nav": {
     "planList": "Lista de planes",
@@ -50,7 +52,8 @@
       "IN": "Especias, hierbas e ingredientes tropicales",
       "TR": "Legumbres, frutos secos y carnes magras",
       "MX": "Maíz, chile y cereales superalimento"
-    }
+    },
+    "addAllToCart": "Añadir los ingredientes de esta semana"
   },
   "recipe": {
     "scoreBreakdownTitle": "Desglose del índice de longevidad",

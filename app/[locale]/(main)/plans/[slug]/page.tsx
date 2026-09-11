@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import AddPlanToCartButton from "@/components/AddPlanToCartButton";
 import CuisineRegionPicker from "@/components/CuisineRegionPicker";
 import PersonalCalorieCard from "@/components/PersonalCalorieCard";
 import PlanDayGrid from "@/components/PlanDayGrid";
@@ -33,6 +34,7 @@ export default async function PlanDetailPage({ params }: PageProps<"/[locale]/pl
         </div>
         <PersonalCalorieCard locale={locale} />
         <CuisineRegionPicker locale={locale} />
+        <AddPlanToCartButton plan={plan} locale={locale} />
         <PlanDayGrid plan={plan} locale={locale} />
       </main>
       <footer className="border-t border-zinc-200 bg-white px-4 py-4 dark:border-zinc-800 dark:bg-zinc-950">
