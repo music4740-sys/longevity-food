@@ -1,8 +1,8 @@
-import { UPPER_BOUND_NUTRIENTS } from "@/lib/nutritionTargets";
+import { MEAL_FRACTIONS, UPPER_BOUND_NUTRIENTS } from "@/lib/nutritionTargets";
 import { NUTRIENT_KEYS } from "@/types";
-import type { Food, NutrientStatus, NutrientValues, NutritionLogEntry } from "@/types";
+import type { Food, MealType, NutrientStatus, NutrientValues, NutritionLogEntry } from "@/types";
 
-export function computeDailyTotals(
+function sumEntries(
   entries: NutritionLogEntry[],
   getFood: (id: string) => Food | undefined,
 ): NutrientValues {
@@ -28,6 +28,32 @@ export function computeDailyTotals(
   }
 
   return totals;
+}
+
+export function computeDailyTotals(
+  entries: NutritionLogEntry[],
+  getFood: (id: string) => Food | undefined,
+): NutrientValues {
+  return sumEntries(entries, getFood);
+}
+
+export function computeMealTotals(
+  entries: NutritionLogEntry[],
+  mealType: MealType,
+  getFood: (id: string) => Food | undefined,
+): NutrientValues {
+  return sumEntries(
+    entries.filter((entry) => entry.mealType === mealType),
+    getFood,
+  );
+}
+
+export function getMealTargets(dailyTargets: NutrientValues, mealType: MealType): NutrientValues {
+  const fraction = MEAL_FRACTIONS[mealType];
+  return NUTRIENT_KEYS.reduce((acc, key) => {
+    acc[key] = dailyTargets[key] * fraction;
+    return acc;
+  }, {} as NutrientValues);
 }
 
 const LOW_THRESHOLD = 0.7; // 기준치의 70% 미만이면 "부족"

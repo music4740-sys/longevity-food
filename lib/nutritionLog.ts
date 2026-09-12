@@ -1,4 +1,4 @@
-import type { NutritionLogEntry } from "@/types";
+import type { MealType, NutritionLogEntry } from "@/types";
 
 const LOG_STORAGE_KEY = "longevity-food-nutrition-log";
 
@@ -26,35 +26,62 @@ export function loadLog(date: string): NutritionLogEntry[] {
   return loadAll()[date] ?? [];
 }
 
-export function addEntry(date: string, foodId: string, servings = 1): NutritionLogEntry[] {
+/** Dates (as "YYYY-MM-DD" keys) that have at least one logged entry — for calendar dots. */
+export function listLoggedDates(): Set<string> {
+  const all = loadAll();
+  const dates = new Set<string>();
+  for (const [date, entries] of Object.entries(all)) {
+    if (entries.length > 0) dates.add(date);
+  }
+  return dates;
+}
+
+export function addEntry(
+  date: string,
+  foodId: string,
+  mealType: MealType,
+  servings = 1,
+): NutritionLogEntry[] {
   const all = loadAll();
   const dayEntries = all[date] ?? [];
-  const existing = dayEntries.find((entry) => entry.foodId === foodId);
+  const existing = dayEntries.find(
+    (entry) => entry.foodId === foodId && entry.mealType === mealType,
+  );
   const nextDayEntries = existing
     ? dayEntries.map((entry) =>
-        entry.foodId === foodId ? { ...entry, servings: entry.servings + servings } : entry,
+        entry.foodId === foodId && entry.mealType === mealType
+          ? { ...entry, servings: entry.servings + servings }
+          : entry,
       )
-    : [...dayEntries, { foodId, servings }];
+    : [...dayEntries, { foodId, mealType, servings }];
   all[date] = nextDayEntries;
   saveAll(all);
   return nextDayEntries;
 }
 
-export function setServings(date: string, foodId: string, servings: number): NutritionLogEntry[] {
+export function setServings(
+  date: string,
+  foodId: string,
+  mealType: MealType,
+  servings: number,
+): NutritionLogEntry[] {
   const all = loadAll();
   const dayEntries = all[date] ?? [];
+  const matches = (entry: NutritionLogEntry) => entry.foodId === foodId && entry.mealType === mealType;
   const nextDayEntries =
     servings <= 0
-      ? dayEntries.filter((entry) => entry.foodId !== foodId)
-      : dayEntries.map((entry) => (entry.foodId === foodId ? { ...entry, servings } : entry));
+      ? dayEntries.filter((entry) => !matches(entry))
+      : dayEntries.map((entry) => (matches(entry) ? { ...entry, servings } : entry));
   all[date] = nextDayEntries;
   saveAll(all);
   return nextDayEntries;
 }
 
-export function removeEntry(date: string, foodId: string): NutritionLogEntry[] {
+export function removeEntry(date: string, foodId: string, mealType: MealType): NutritionLogEntry[] {
   const all = loadAll();
-  const nextDayEntries = (all[date] ?? []).filter((entry) => entry.foodId !== foodId);
+  const nextDayEntries = (all[date] ?? []).filter(
+    (entry) => !(entry.foodId === foodId && entry.mealType === mealType),
+  );
   all[date] = nextDayEntries;
   saveAll(all);
   return nextDayEntries;

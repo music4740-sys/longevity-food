@@ -207,9 +207,14 @@
     "unitKcal": "kcal",
     "categoryLabels": {
       "rice": "Rice",
-      "soup_stew": "Soups & Stews",
-      "banchan": "Side Dishes",
+      "guk": "Clear Soup",
+      "tang": "Tang (Broth)",
+      "jjigae": "Jjigae (Stew)",
+      "jeongol": "Hot Pot",
+      "banchan": "Namul & Muchim",
       "kimchi": "Kimchi",
+      "jangajji": "Pickled Preserves",
+      "hoe": "Raw Fish & Muchim",
       "noodle": "Noodles",
       "meat": "Meat",
       "chicken": "Chicken",
@@ -220,6 +225,7 @@
       "porridge": "Porridge",
       "jjim_jorim": "Braised Dishes",
       "bakery": "Bakery",
+      "tteok_hangwa": "Rice Cakes & Sweets",
       "fruit": "Fruit",
       "dairy": "Dairy",
       "nuts_seeds": "Nuts & Seeds",
@@ -232,6 +238,16 @@
       "tea_health": "Tea & Health Drinks",
       "jeotgal": "Salted Seafood"
     },
+    "groupLabels": {
+      "staple": "Staples (Carbs)",
+      "broth": "Soups, Tang, Stews & Hot Pots",
+      "main_dish": "Main Dishes",
+      "vegetable": "Vegetables & Namul",
+      "preserved": "Preserved Side Dishes",
+      "dessert_drink": "Desserts & Drinks",
+      "snack_fruit": "Snacks, Fruit & Dairy",
+      "special_meal": "Street Food & Meal Sets"
+    },
     "nutrientLabels": {
       "calories": "Calories",
       "carbs": "Carbs",
@@ -243,6 +259,23 @@
       "sodium": "Sodium",
       "calcium": "Calcium",
       "iron": "Iron"
-    }
+    },
+    "mealLabels": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snack": "Snack"
+    },
+    "nutrientRecommendations": {
+      "carbs": "Try more whole grains and mixed-grain rice.",
+      "protein": "Focus on meat, fish, tofu, and eggs.",
+      "fat": "Add healthy fats like nuts, fish, and olive oil.",
+      "fiber": "Focus on vegetables, seaweed, and whole grains.",
+      "calcium": "Focus on milk, dairy, tofu, and small dried fish.",
+      "iron": "Focus on red meat, shellfish, and spinach."
+    },
+    "calendarToggle": "View calendar",
+    "calendarClose": "Close calendar",
+    "mealCaloriesLabel": "Meal calories"
   }
 }

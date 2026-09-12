@@ -206,10 +206,15 @@
     "unitMg": "mg",
     "unitKcal": "kcal",
     "categoryLabels": {
-      "rice": "ご飯類",
-      "soup_stew": "スープ・鍋類",
-      "banchan": "おかず・ナムル類",
-      "kimchi": "キムチ類",
+      "rice": "ご飯",
+      "guk": "スープ(グク)",
+      "tang": "湯(タン)",
+      "jjigae": "チゲ",
+      "jeongol": "チョンゴル(寄せ鍋)",
+      "banchan": "ナムル・和え物",
+      "kimchi": "キムチ",
+      "jangajji": "醤油漬け",
+      "hoe": "刺身・和え物",
       "noodle": "麺類",
       "meat": "肉類",
       "chicken": "チキン類",
@@ -220,6 +225,7 @@
       "porridge": "お粥類",
       "jjim_jorim": "蒸し物・煮物類",
       "bakery": "パン類",
+      "tteok_hangwa": "餅・韓菓",
       "fruit": "果物類",
       "dairy": "乳製品類",
       "nuts_seeds": "ナッツ・種子類",
@@ -232,6 +238,16 @@
       "tea_health": "健康茶・飲料類",
       "jeotgal": "塩辛類"
     },
+    "groupLabels": {
+      "staple": "主食(炭水化物)",
+      "broth": "汁物(スープ・湯・チゲ・鍋)",
+      "main_dish": "メインおかず",
+      "vegetable": "野菜・和え物",
+      "preserved": "保存食・常備菜",
+      "dessert_drink": "デザート・飲料",
+      "snack_fruit": "間食・果物・乳製品",
+      "special_meal": "軽食・定食"
+    },
     "nutrientLabels": {
       "calories": "カロリー",
       "carbs": "炭水化物",
@@ -243,6 +259,23 @@
       "sodium": "ナトリウム",
       "calcium": "カルシウム",
       "iron": "鉄分"
-    }
+    },
+    "mealLabels": {
+      "breakfast": "朝食",
+      "lunch": "昼食",
+      "dinner": "夕食",
+      "snack": "間食"
+    },
+    "nutrientRecommendations": {
+      "carbs": "雑穀ご飯や全粒穀物を増やしてみましょう",
+      "protein": "肉・魚・豆腐・卵の摂取を積極的に行いましょう",
+      "fat": "ナッツ・魚・オリーブオイルなど良質な脂質を増やしましょう",
+      "fiber": "野菜・海藻・雑穀の摂取を積極的に行いましょう",
+      "calcium": "牛乳・乳製品・豆腐・煮干しの摂取を積極的に行いましょう",
+      "iron": "赤身肉・貝類・ほうれん草の摂取を積極的に行いましょう"
+    },
+    "calendarToggle": "カレンダー表示",
+    "calendarClose": "カレンダーを閉じる",
+    "mealCaloriesLabel": "食事別カロリー"
   }
 }

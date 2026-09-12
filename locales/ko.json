@@ -206,10 +206,15 @@
     "unitMg": "mg",
     "unitKcal": "kcal",
     "categoryLabels": {
-      "rice": "밥류",
-      "soup_stew": "국·찌개류",
-      "banchan": "반찬·나물류",
-      "kimchi": "김치류",
+      "rice": "밥",
+      "guk": "국",
+      "tang": "탕",
+      "jjigae": "찌개",
+      "jeongol": "전골",
+      "banchan": "나물·무침",
+      "kimchi": "김치",
+      "jangajji": "장아찌",
+      "hoe": "회·무침",
       "noodle": "면류",
       "meat": "고기류",
       "chicken": "치킨류",
@@ -217,9 +222,10 @@
       "egg_tofu": "계란·두부류",
       "fried_pancake": "튀김·전류",
       "bunsik": "분식류",
-      "porridge": "죽류",
+      "porridge": "죽·미음",
       "jjim_jorim": "찜·조림류",
-      "bakery": "빵·베이커리류",
+      "bakery": "빵류",
+      "tteok_hangwa": "떡·한과",
       "fruit": "과일류",
       "dairy": "유제품류",
       "nuts_seeds": "견과·씨앗류",
@@ -232,6 +238,16 @@
       "tea_health": "건강음료·차류",
       "jeotgal": "젓갈류"
     },
+    "groupLabels": {
+      "staple": "주식 (기본 탄수화물)",
+      "broth": "국물류 (국·탕·찌개·전골)",
+      "main_dish": "메인 반찬",
+      "vegetable": "채소·생채 반찬",
+      "preserved": "보존식·밑반찬",
+      "dessert_drink": "후식 및 음료",
+      "snack_fruit": "간식·과일·유제품",
+      "special_meal": "별미·한상"
+    },
     "nutrientLabels": {
       "calories": "칼로리",
       "carbs": "탄수화물",
@@ -243,6 +259,23 @@
       "sodium": "나트륨",
       "calcium": "칼슘",
       "iron": "철분"
-    }
+    },
+    "mealLabels": {
+      "breakfast": "아침",
+      "lunch": "점심",
+      "dinner": "저녁",
+      "snack": "간식"
+    },
+    "nutrientRecommendations": {
+      "carbs": "잡곡밥·통곡물 섭취를 늘려보세요",
+      "protein": "어육류·생선·두부·달걀 섭취를 적극적으로 합니다",
+      "fat": "견과류·생선·올리브유 등 건강한 지방 섭취를 늘려보세요",
+      "fiber": "채소·해조류·잡곡 섭취를 적극적으로 합니다",
+      "calcium": "우유·유제품·두부·멸치 섭취를 적극적으로 합니다",
+      "iron": "붉은 살코기·조개류·시금치 섭취를 적극적으로 합니다"
+    },
+    "calendarToggle": "달력 보기",
+    "calendarClose": "달력 닫기",
+    "mealCaloriesLabel": "끼니 칼로리"
   }
 }

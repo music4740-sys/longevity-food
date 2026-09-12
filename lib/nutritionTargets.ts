@@ -1,4 +1,4 @@
-import type { NutrientValues } from "@/types";
+import type { MealType, NutrientValues } from "@/types";
 
 // 식약처(식품의약품안전처) "1일 영양성분 기준치" 공개 자료 기준의 일반 성인 참고값.
 // 개인 맞춤 열량 목표가 있으면(TDEE) calories만 대체해서 사용.
@@ -22,3 +22,11 @@ export const UPPER_BOUND_NUTRIENTS = new Set<keyof NutrientValues>([
   "sodium",
   "saturatedFat",
 ]);
+
+// 끼니별 부족 판단은 하루 기준치를 이 비중만큼 나눠서 비교(참고용 배분).
+export const MEAL_FRACTIONS: Record<MealType, number> = {
+  breakfast: 0.25,
+  lunch: 0.35,
+  dinner: 0.3,
+  snack: 0.1,
+};

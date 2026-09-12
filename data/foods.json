@@ -303,88 +303,8 @@
     }
   },
   {
-    "id": "soup_stew-doenjang-jjigae",
-    "category": "soup_stew",
-    "name": "된장찌개",
-    "emoji": "🍲",
-    "servingLabel": "1인분",
-    "servingGrams": 300,
-    "nutrients": {
-      "calories": 150,
-      "carbs": 12,
-      "sugar": 3,
-      "protein": 10,
-      "fat": 6,
-      "saturatedFat": 1.2,
-      "fiber": 3,
-      "sodium": 980,
-      "calcium": 80,
-      "iron": 2
-    }
-  },
-  {
-    "id": "soup_stew-kimchi-jjigae",
-    "category": "soup_stew",
-    "name": "김치찌개",
-    "emoji": "🍲",
-    "servingLabel": "1인분",
-    "servingGrams": 350,
-    "nutrients": {
-      "calories": 220,
-      "carbs": 10,
-      "sugar": 3,
-      "protein": 14,
-      "fat": 13,
-      "saturatedFat": 4,
-      "fiber": 3,
-      "sodium": 1100,
-      "calcium": 40,
-      "iron": 1.8
-    }
-  },
-  {
-    "id": "soup_stew-sundubu-jjigae",
-    "category": "soup_stew",
-    "name": "순두부찌개",
-    "emoji": "🍲",
-    "servingLabel": "1인분",
-    "servingGrams": 350,
-    "nutrients": {
-      "calories": 230,
-      "carbs": 9,
-      "sugar": 2,
-      "protein": 16,
-      "fat": 14,
-      "saturatedFat": 3,
-      "fiber": 2,
-      "sodium": 950,
-      "calcium": 90,
-      "iron": 2.5
-    }
-  },
-  {
-    "id": "soup_stew-budae-jjigae",
-    "category": "soup_stew",
-    "name": "부대찌개",
-    "emoji": "🍲",
-    "servingLabel": "1인분",
-    "servingGrams": 450,
-    "nutrients": {
-      "calories": 480,
-      "carbs": 30,
-      "sugar": 6,
-      "protein": 25,
-      "fat": 28,
-      "saturatedFat": 10,
-      "fiber": 3,
-      "sodium": 1600,
-      "calcium": 60,
-      "iron": 2
-    }
-  },
-  {
-    "id": "soup_stew-miyeok-guk",
-    "category": "soup_stew",
+    "id": "guk-miyeok-guk",
+    "category": "guk",
     "name": "미역국",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -403,8 +323,8 @@
     }
   },
   {
-    "id": "soup_stew-kongnamul-guk",
-    "category": "soup_stew",
+    "id": "guk-kongnamul-guk",
+    "category": "guk",
     "name": "콩나물국",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -423,8 +343,8 @@
     }
   },
   {
-    "id": "soup_stew-bugeoguk",
-    "category": "soup_stew",
+    "id": "guk-bugeoguk",
+    "category": "guk",
     "name": "북엇국",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -443,8 +363,28 @@
     }
   },
   {
-    "id": "soup_stew-yukgaejang",
-    "category": "soup_stew",
+    "id": "guk-gyeranguk",
+    "category": "guk",
+    "name": "계란국",
+    "emoji": "🍲",
+    "servingLabel": "1인분",
+    "servingGrams": 300,
+    "nutrients": {
+      "calories": 90,
+      "carbs": 4,
+      "sugar": 1,
+      "protein": 8,
+      "fat": 5,
+      "saturatedFat": 1.5,
+      "fiber": 0.3,
+      "sodium": 550,
+      "calcium": 30,
+      "iron": 1
+    }
+  },
+  {
+    "id": "tang-yukgaejang",
+    "category": "tang",
     "name": "육개장",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -463,8 +403,8 @@
     }
   },
   {
-    "id": "soup_stew-galbitang",
-    "category": "soup_stew",
+    "id": "tang-galbitang",
+    "category": "tang",
     "name": "갈비탕",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -483,8 +423,8 @@
     }
   },
   {
-    "id": "soup_stew-samgyetang",
-    "category": "soup_stew",
+    "id": "tang-samgyetang",
+    "category": "tang",
     "name": "삼계탕",
     "emoji": "🍲",
     "servingLabel": "1마리",
@@ -503,8 +443,8 @@
     }
   },
   {
-    "id": "soup_stew-seolleongtang",
-    "category": "soup_stew",
+    "id": "tang-seolleongtang",
+    "category": "tang",
     "name": "설렁탕",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -523,8 +463,8 @@
     }
   },
   {
-    "id": "soup_stew-gamjatang",
-    "category": "soup_stew",
+    "id": "tang-gamjatang",
+    "category": "tang",
     "name": "감자탕",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -543,8 +483,88 @@
     }
   },
   {
-    "id": "soup_stew-dongtae-jjigae",
-    "category": "soup_stew",
+    "id": "jjigae-doenjang-jjigae",
+    "category": "jjigae",
+    "name": "된장찌개",
+    "emoji": "🍲",
+    "servingLabel": "1인분",
+    "servingGrams": 300,
+    "nutrients": {
+      "calories": 150,
+      "carbs": 12,
+      "sugar": 3,
+      "protein": 10,
+      "fat": 6,
+      "saturatedFat": 1.2,
+      "fiber": 3,
+      "sodium": 980,
+      "calcium": 80,
+      "iron": 2
+    }
+  },
+  {
+    "id": "jjigae-kimchi-jjigae",
+    "category": "jjigae",
+    "name": "김치찌개",
+    "emoji": "🍲",
+    "servingLabel": "1인분",
+    "servingGrams": 350,
+    "nutrients": {
+      "calories": 220,
+      "carbs": 10,
+      "sugar": 3,
+      "protein": 14,
+      "fat": 13,
+      "saturatedFat": 4,
+      "fiber": 3,
+      "sodium": 1100,
+      "calcium": 40,
+      "iron": 1.8
+    }
+  },
+  {
+    "id": "jjigae-sundubu-jjigae",
+    "category": "jjigae",
+    "name": "순두부찌개",
+    "emoji": "🍲",
+    "servingLabel": "1인분",
+    "servingGrams": 350,
+    "nutrients": {
+      "calories": 230,
+      "carbs": 9,
+      "sugar": 2,
+      "protein": 16,
+      "fat": 14,
+      "saturatedFat": 3,
+      "fiber": 2,
+      "sodium": 950,
+      "calcium": 90,
+      "iron": 2.5
+    }
+  },
+  {
+    "id": "jjigae-budae-jjigae",
+    "category": "jjigae",
+    "name": "부대찌개",
+    "emoji": "🍲",
+    "servingLabel": "1인분",
+    "servingGrams": 450,
+    "nutrients": {
+      "calories": 480,
+      "carbs": 30,
+      "sugar": 6,
+      "protein": 25,
+      "fat": 28,
+      "saturatedFat": 10,
+      "fiber": 3,
+      "sodium": 1600,
+      "calcium": 60,
+      "iron": 2
+    }
+  },
+  {
+    "id": "jjigae-dongtae-jjigae",
+    "category": "jjigae",
     "name": "동태찌개",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -563,8 +583,8 @@
     }
   },
   {
-    "id": "soup_stew-cheonggukjang-jjigae",
-    "category": "soup_stew",
+    "id": "jjigae-cheonggukjang-jjigae",
+    "category": "jjigae",
     "name": "청국장찌개",
     "emoji": "🍲",
     "servingLabel": "1인분",
@@ -583,23 +603,63 @@
     }
   },
   {
-    "id": "soup_stew-gyeranguk",
-    "category": "soup_stew",
-    "name": "계란국",
+    "id": "jeongol-bulgogi-jeongol",
+    "category": "jeongol",
+    "name": "불고기전골",
     "emoji": "🍲",
     "servingLabel": "1인분",
-    "servingGrams": 300,
+    "servingGrams": 450,
     "nutrients": {
-      "calories": 90,
-      "carbs": 4,
-      "sugar": 1,
-      "protein": 8,
-      "fat": 5,
-      "saturatedFat": 1.5,
-      "fiber": 0.3,
-      "sodium": 550,
-      "calcium": 30,
-      "iron": 1
+      "calories": 420,
+      "carbs": 18,
+      "sugar": 8,
+      "protein": 28,
+      "fat": 22,
+      "saturatedFat": 7,
+      "fiber": 2.5,
+      "sodium": 1100,
+      "calcium": 40,
+      "iron": 2.5
+    }
+  },
+  {
+    "id": "jeongol-beoseot-jeongol",
+    "category": "jeongol",
+    "name": "버섯전골",
+    "emoji": "🍲",
+    "servingLabel": "1인분",
+    "servingGrams": 450,
+    "nutrients": {
+      "calories": 260,
+      "carbs": 16,
+      "sugar": 5,
+      "protein": 14,
+      "fat": 12,
+      "saturatedFat": 3,
+      "fiber": 4,
+      "sodium": 950,
+      "calcium": 40,
+      "iron": 1.8
+    }
+  },
+  {
+    "id": "jeongol-mandu-jeongol",
+    "category": "jeongol",
+    "name": "만두전골",
+    "emoji": "🍲",
+    "servingLabel": "1인분",
+    "servingGrams": 500,
+    "nutrients": {
+      "calories": 480,
+      "carbs": 40,
+      "sugar": 4,
+      "protein": 20,
+      "fat": 24,
+      "saturatedFat": 6,
+      "fiber": 3,
+      "sodium": 1300,
+      "calcium": 40,
+      "iron": 2
     }
   },
   {
@@ -900,6 +960,86 @@
       "sodium": 260,
       "calcium": 15,
       "iron": 0.3
+    }
+  },
+  {
+    "id": "hoe-saengseon-hoe",
+    "category": "hoe",
+    "name": "생선회",
+    "emoji": "🐟",
+    "servingLabel": "1인분",
+    "servingGrams": 200,
+    "nutrients": {
+      "calories": 220,
+      "carbs": 2,
+      "sugar": 0,
+      "protein": 34,
+      "fat": 8,
+      "saturatedFat": 1.5,
+      "fiber": 0,
+      "sodium": 250,
+      "calcium": 20,
+      "iron": 1
+    }
+  },
+  {
+    "id": "hoe-yukhoe",
+    "category": "hoe",
+    "name": "육회",
+    "emoji": "🥩",
+    "servingLabel": "1인분",
+    "servingGrams": 150,
+    "nutrients": {
+      "calories": 260,
+      "carbs": 6,
+      "sugar": 4,
+      "protein": 26,
+      "fat": 15,
+      "saturatedFat": 5,
+      "fiber": 0.5,
+      "sodium": 400,
+      "calcium": 15,
+      "iron": 3.5
+    }
+  },
+  {
+    "id": "hoe-hongeo-muchim",
+    "category": "hoe",
+    "name": "홍어무침",
+    "emoji": "🐟",
+    "servingLabel": "1인분",
+    "servingGrams": 200,
+    "nutrients": {
+      "calories": 200,
+      "carbs": 14,
+      "sugar": 6,
+      "protein": 20,
+      "fat": 6,
+      "saturatedFat": 1.2,
+      "fiber": 2,
+      "sodium": 850,
+      "calcium": 30,
+      "iron": 1.5
+    }
+  },
+  {
+    "id": "hoe-ojingeo-sukhoe",
+    "category": "hoe",
+    "name": "오징어숙회",
+    "emoji": "🦑",
+    "servingLabel": "1인분",
+    "servingGrams": 200,
+    "nutrients": {
+      "calories": 180,
+      "carbs": 10,
+      "sugar": 3,
+      "protein": 26,
+      "fat": 2,
+      "saturatedFat": 0.4,
+      "fiber": 1,
+      "sodium": 550,
+      "calcium": 30,
+      "iron": 1
     }
   },
   {
@@ -3020,6 +3160,106 @@
       "sodium": 850,
       "calcium": 25,
       "iron": 1.8
+    }
+  },
+  {
+    "id": "tteok_hangwa-songpyeon",
+    "category": "tteok_hangwa",
+    "name": "송편",
+    "emoji": "🍡",
+    "servingLabel": "5개",
+    "servingGrams": 100,
+    "nutrients": {
+      "calories": 220,
+      "carbs": 46,
+      "sugar": 8,
+      "protein": 4,
+      "fat": 2,
+      "saturatedFat": 0.3,
+      "fiber": 1.5,
+      "sodium": 60,
+      "calcium": 10,
+      "iron": 0.5
+    }
+  },
+  {
+    "id": "tteok_hangwa-injeolmi",
+    "category": "tteok_hangwa",
+    "name": "인절미",
+    "emoji": "🍡",
+    "servingLabel": "1인분",
+    "servingGrams": 100,
+    "nutrients": {
+      "calories": 240,
+      "carbs": 50,
+      "sugar": 6,
+      "protein": 6,
+      "fat": 2,
+      "saturatedFat": 0.4,
+      "fiber": 1.5,
+      "sodium": 30,
+      "calcium": 15,
+      "iron": 0.8
+    }
+  },
+  {
+    "id": "tteok_hangwa-siru-tteok",
+    "category": "tteok_hangwa",
+    "name": "시루떡",
+    "emoji": "🍡",
+    "servingLabel": "1인분",
+    "servingGrams": 120,
+    "nutrients": {
+      "calories": 260,
+      "carbs": 56,
+      "sugar": 10,
+      "protein": 5,
+      "fat": 2,
+      "saturatedFat": 0.3,
+      "fiber": 2,
+      "sodium": 40,
+      "calcium": 20,
+      "iron": 1
+    }
+  },
+  {
+    "id": "tteok_hangwa-yakgwa",
+    "category": "tteok_hangwa",
+    "name": "약과",
+    "emoji": "🍯",
+    "servingLabel": "3개",
+    "servingGrams": 60,
+    "nutrients": {
+      "calories": 260,
+      "carbs": 38,
+      "sugar": 20,
+      "protein": 2,
+      "fat": 11,
+      "saturatedFat": 3,
+      "fiber": 0.5,
+      "sodium": 60,
+      "calcium": 10,
+      "iron": 0.5
+    }
+  },
+  {
+    "id": "tteok_hangwa-gangjeong",
+    "category": "tteok_hangwa",
+    "name": "강정",
+    "emoji": "🍡",
+    "servingLabel": "1인분",
+    "servingGrams": 50,
+    "nutrients": {
+      "calories": 220,
+      "carbs": 34,
+      "sugar": 18,
+      "protein": 3,
+      "fat": 8,
+      "saturatedFat": 1.5,
+      "fiber": 1,
+      "sodium": 40,
+      "calcium": 15,
+      "iron": 0.6
     }
   },
   {
@@ -5402,6 +5642,66 @@
       "fiber": 0.1,
       "sodium": 3,
       "calcium": 5,
+      "iron": 0.2
+    }
+  },
+  {
+    "id": "jangajji-maneul-jangajji",
+    "category": "jangajji",
+    "name": "마늘장아찌",
+    "emoji": "🥒",
+    "servingLabel": "1인분",
+    "servingGrams": 30,
+    "nutrients": {
+      "calories": 40,
+      "carbs": 8,
+      "sugar": 4,
+      "protein": 1,
+      "fat": 0.1,
+      "saturatedFat": 0,
+      "fiber": 0.8,
+      "sodium": 400,
+      "calcium": 15,
+      "iron": 0.3
+    }
+  },
+  {
+    "id": "jangajji-kkaennip-jangajji",
+    "category": "jangajji",
+    "name": "깻잎장아찌",
+    "emoji": "🥬",
+    "servingLabel": "1인분",
+    "servingGrams": 30,
+    "nutrients": {
+      "calories": 30,
+      "carbs": 5,
+      "sugar": 2,
+      "protein": 1.5,
+      "fat": 0.3,
+      "saturatedFat": 0,
+      "fiber": 1,
+      "sodium": 420,
+      "calcium": 20,
+      "iron": 0.6
+    }
+  },
+  {
+    "id": "jangajji-yangpa-jangajji",
+    "category": "jangajji",
+    "name": "양파장아찌",
+    "emoji": "🧅",
+    "servingLabel": "1인분",
+    "servingGrams": 40,
+    "nutrients": {
+      "calories": 35,
+      "carbs": 7,
+      "sugar": 5,
+      "protein": 0.5,
+      "fat": 0.1,
+      "saturatedFat": 0,
+      "fiber": 0.8,
+      "sodium": 380,
+      "calcium": 10,
       "iron": 0.2
     }
   },

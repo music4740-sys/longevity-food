@@ -207,9 +207,14 @@
     "unitKcal": "kcal",
     "categoryLabels": {
       "rice": "Riz",
-      "soup_stew": "Soupes et ragoûts",
-      "banchan": "Accompagnements",
+      "guk": "Soupe claire",
+      "tang": "Tang (bouillon)",
+      "jjigae": "Jjigae (ragoût)",
+      "jeongol": "Fondue coréenne",
+      "banchan": "Namul et accompagnements",
       "kimchi": "Kimchi",
+      "jangajji": "Légumes marinés",
+      "hoe": "Poisson cru et muchim",
       "noodle": "Nouilles",
       "meat": "Viande",
       "chicken": "Poulet",
@@ -220,6 +225,7 @@
       "porridge": "Bouillie de riz",
       "jjim_jorim": "Plats braisés",
       "bakery": "Boulangerie",
+      "tteok_hangwa": "Gâteaux de riz et douceurs",
       "fruit": "Fruits",
       "dairy": "Produits laitiers",
       "nuts_seeds": "Noix et graines",
@@ -232,6 +238,16 @@
       "tea_health": "Thés et boissons santé",
       "jeotgal": "Fruits de mer fermentés"
     },
+    "groupLabels": {
+      "staple": "Féculents de base",
+      "broth": "Soupes, tang, ragoûts et fondues",
+      "main_dish": "Plats principaux",
+      "vegetable": "Légumes et namul",
+      "preserved": "Accompagnements conservés",
+      "dessert_drink": "Desserts et boissons",
+      "snack_fruit": "En-cas, fruits et produits laitiers",
+      "special_meal": "Street food et menus"
+    },
     "nutrientLabels": {
       "calories": "Calories",
       "carbs": "Glucides",
@@ -243,6 +259,23 @@
       "sodium": "Sodium",
       "calcium": "Calcium",
       "iron": "Fer"
-    }
+    },
+    "mealLabels": {
+      "breakfast": "Petit-déjeuner",
+      "lunch": "Déjeuner",
+      "dinner": "Dîner",
+      "snack": "Collation"
+    },
+    "nutrientRecommendations": {
+      "carbs": "Essayez plus de céréales complètes et de riz mélangé.",
+      "protein": "Privilégiez viande, poisson, tofu et œufs.",
+      "fat": "Ajoutez de bonnes graisses : noix, poisson, huile d'olive.",
+      "fiber": "Privilégiez légumes, algues et céréales complètes.",
+      "calcium": "Privilégiez lait, produits laitiers, tofu et petits poissons secs.",
+      "iron": "Privilégiez viande rouge, coquillages et épinards."
+    },
+    "calendarToggle": "Voir le calendrier",
+    "calendarClose": "Fermer le calendrier",
+    "mealCaloriesLabel": "Calories du repas"
   }
 }

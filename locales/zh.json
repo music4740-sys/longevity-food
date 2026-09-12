@@ -206,10 +206,15 @@
     "unitMg": "mg",
     "unitKcal": "kcal",
     "categoryLabels": {
-      "rice": "米饭类",
-      "soup_stew": "汤·锅类",
-      "banchan": "小菜·凉拌类",
-      "kimchi": "泡菜类",
+      "rice": "米饭",
+      "guk": "清汤",
+      "tang": "汤(汤类)",
+      "jjigae": "锅类(찌개)",
+      "jeongol": "什锦火锅",
+      "banchan": "凉拌·拌菜",
+      "kimchi": "泡菜",
+      "jangajji": "酱菜",
+      "hoe": "生鱼片·拌菜",
       "noodle": "面类",
       "meat": "肉类",
       "chicken": "鸡肉类",
@@ -220,6 +225,7 @@
       "porridge": "粥类",
       "jjim_jorim": "炖煮·卤味类",
       "bakery": "面包类",
+      "tteok_hangwa": "年糕·韩果",
       "fruit": "水果类",
       "dairy": "乳制品类",
       "nuts_seeds": "坚果·种子类",
@@ -232,6 +238,16 @@
       "tea_health": "养生茶饮类",
       "jeotgal": "咸鱼虾酱类"
     },
+    "groupLabels": {
+      "staple": "主食(基础碳水)",
+      "broth": "汤类(清汤·汤·锅·什锦火锅)",
+      "main_dish": "主菜",
+      "vegetable": "蔬菜·凉拌菜",
+      "preserved": "腌制·常备小菜",
+      "dessert_drink": "甜点及饮料",
+      "snack_fruit": "零食·水果·乳制品",
+      "special_meal": "小吃·套餐"
+    },
     "nutrientLabels": {
       "calories": "卡路里",
       "carbs": "碳水化合物",
@@ -243,6 +259,23 @@
       "sodium": "钠",
       "calcium": "钙",
       "iron": "铁"
-    }
+    },
+    "mealLabels": {
+      "breakfast": "早餐",
+      "lunch": "午餐",
+      "dinner": "晚餐",
+      "snack": "加餐"
+    },
+    "nutrientRecommendations": {
+      "carbs": "建议多摄入杂粮饭和全谷物",
+      "protein": "请积极摄入肉类·鱼类·豆腐·鸡蛋",
+      "fat": "请增加坚果·鱼类·橄榄油等优质脂肪的摄入",
+      "fiber": "请积极摄入蔬菜·海藻·杂粮",
+      "calcium": "请积极摄入牛奶·乳制品·豆腐·小鱼干",
+      "iron": "请积极摄入红肉·贝类·菠菜"
+    },
+    "calendarToggle": "查看日历",
+    "calendarClose": "关闭日历",
+    "mealCaloriesLabel": "该餐卡路里"
   }
 }

@@ -207,9 +207,14 @@
     "unitKcal": "kcal",
     "categoryLabels": {
       "rice": "Arroz",
-      "soup_stew": "Sopas y guisos",
-      "banchan": "Guarniciones",
+      "guk": "Sopa clara",
+      "tang": "Tang (caldo)",
+      "jjigae": "Jjigae (guiso)",
+      "jeongol": "Hot pot",
+      "banchan": "Namul y ensaladas",
       "kimchi": "Kimchi",
+      "jangajji": "Encurtidos",
+      "hoe": "Pescado crudo y muchim",
       "noodle": "Fideos",
       "meat": "Carne",
       "chicken": "Pollo",
@@ -220,6 +225,7 @@
       "porridge": "Gachas de arroz",
       "jjim_jorim": "Guisos braseados",
       "bakery": "Panadería",
+      "tteok_hangwa": "Pasteles de arroz y dulces",
       "fruit": "Fruta",
       "dairy": "Lácteos",
       "nuts_seeds": "Frutos secos y semillas",
@@ -232,6 +238,16 @@
       "tea_health": "Té y bebidas saludables",
       "jeotgal": "Mariscos fermentados"
     },
+    "groupLabels": {
+      "staple": "Alimentos base (carbohidratos)",
+      "broth": "Sopas, tang, guisos y hot pot",
+      "main_dish": "Platos principales",
+      "vegetable": "Verduras y namul",
+      "preserved": "Guarniciones conservadas",
+      "dessert_drink": "Postres y bebidas",
+      "snack_fruit": "Snacks, fruta y lácteos",
+      "special_meal": "Comida callejera y menús"
+    },
     "nutrientLabels": {
       "calories": "Calorías",
       "carbs": "Carbohidratos",
@@ -243,6 +259,23 @@
       "sodium": "Sodio",
       "calcium": "Calcio",
       "iron": "Hierro"
-    }
+    },
+    "mealLabels": {
+      "breakfast": "Desayuno",
+      "lunch": "Almuerzo",
+      "dinner": "Cena",
+      "snack": "Merienda"
+    },
+    "nutrientRecommendations": {
+      "carbs": "Prueba con más cereales integrales y arroz mixto.",
+      "protein": "Prioriza carne, pescado, tofu y huevos.",
+      "fat": "Añade grasas saludables como frutos secos, pescado y aceite de oliva.",
+      "fiber": "Prioriza verduras, algas y cereales integrales.",
+      "calcium": "Prioriza leche, lácteos, tofu y pescaditos secos.",
+      "iron": "Prioriza carne roja, mariscos y espinacas."
+    },
+    "calendarToggle": "Ver calendario",
+    "calendarClose": "Cerrar calendario",
+    "mealCaloriesLabel": "Calorías de la comida"
   }
 }
