@@ -5819,7 +5819,7 @@
           "es": "Doenjang (pasta de soja fermentada)",
           "fr": "Doenjang (pâte de soja fermentée)"
         },
-        "amount": "15g",
+        "amount": "10g",
         "tags": [
           "high-sodium"
         ],
@@ -7626,7 +7626,7 @@
           "es": "Gochujang (pasta de chile fermentada)",
           "fr": "Gochujang (pâte de piment fermentée)"
         },
-        "amount": "15g",
+        "amount": "10g",
         "tags": [
           "high-sodium"
         ],
@@ -7646,6 +7646,38 @@
             "zh": "发酵食品",
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "삶은 달걀",
+          "en": "Boiled egg",
+          "ja": "ゆで卵",
+          "zh": "水煮蛋",
+          "es": "Huevo cocido",
+          "fr": "Œuf dur"
+        },
+        "amount": "1개",
+        "tags": [
+          "egg"
+        ],
+        "benefits": {
+          "ko": "반으로 잘라 올리면 단백질을 더할 수 있어요.",
+          "en": "Halved and added on top, it boosts the protein content.",
+          "ja": "半分に切って乗せるとたんぱく質を補えます。",
+          "zh": "对半切开摆放,可以补充蛋白质。",
+          "es": "Cortado por la mitad y añadido encima, aporta proteína.",
+          "fr": "Coupé en deux et ajouté sur le dessus, il apporte des protéines."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
           }
         ]
       },
@@ -7726,6 +7758,17 @@
           "zh": "将面条与蔬菜和酱汁拌匀。",
           "es": "Mezcle los fideos con las verduras y la salsa.",
           "fr": "Mélangez les nouilles avec les légumes et la sauce."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "반으로 자른 삶은 달걀을 올려 마무리한다.",
+          "en": "Finish with the halved boiled egg on top.",
+          "ja": "半分に切ったゆで卵をのせて仕上げる。",
+          "zh": "最后放上切半的水煮蛋即可。",
+          "es": "Termine con el huevo cocido cortado por la mitad encima.",
+          "fr": "Terminez avec l'œuf dur coupé en deux sur le dessus."
         }
       }
     ]
@@ -8403,6 +8446,39 @@
       },
       {
         "name": {
+          "ko": "두부",
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
+        },
+        "amount": "50g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만든 식물성 단백질 식품으로 죽에 포만감을 더해요.",
+          "en": "A plant-based protein food made from soybeans that adds heartiness to the porridge.",
+          "ja": "大豆から作られた植物性たんぱく質食品で、おかゆに食べ応えを加えます。",
+          "zh": "由大豆制成的植物蛋白食品,为粥增添饱腹感。",
+          "es": "Un alimento de proteína vegetal hecho de soja que aporta cuerpo a las gachas.",
+          "fr": "Un aliment protéiné végétal à base de soja qui rend le porridge plus consistant."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ],
+        "substituteGroupId": "sub-tofu"
+      },
+      {
+        "name": {
           "ko": "참기름",
           "en": "Sesame oil",
           "ja": "ごま油",
@@ -8483,12 +8559,12 @@
       {
         "order": 5,
         "instruction": {
-          "ko": "걸쭉해질 때까지 저으며 끓인다.",
-          "en": "Stir and simmer until it thickens.",
-          "ja": "とろみが出るまでかき混ぜながら煮る。",
-          "zh": "边搅拌边煮至浓稠。",
-          "es": "Remueva y cueza a fuego lento hasta que espese.",
-          "fr": "Remuez et laissez mijoter jusqu'à épaississement."
+          "ko": "깍둑썬 두부를 넣고 걸쭉해질 때까지 저으며 끓인다.",
+          "en": "Add the diced tofu and stir and simmer until it thickens.",
+          "ja": "角切りにした豆腐を加え、とろみが出るまでかき混ぜながら煮る。",
+          "zh": "加入切丁的豆腐,边搅拌边煮至浓稠。",
+          "es": "Añada el tofu cortado en cubos y remueva mientras cuece a fuego lento hasta que espese.",
+          "fr": "Ajoutez le tofu coupé en dés et remuez en laissant mijoter jusqu'à épaississement."
         }
       }
     ]
@@ -9179,7 +9255,7 @@
           "es": "Gochujang (pasta de chile fermentada)",
           "fr": "Gochujang (pâte de piment fermentée)"
         },
-        "amount": "10g",
+        "amount": "8g",
         "tags": [
           "high-sodium"
         ],
@@ -9199,6 +9275,70 @@
             "zh": "发酵食品",
             "es": "Alimento fermentado",
             "fr": "Aliment fermenté"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "달걀후라이",
+          "en": "Fried egg",
+          "ja": "目玉焼き",
+          "zh": "煎鸡蛋",
+          "es": "Huevo frito",
+          "fr": "Œuf frit"
+        },
+        "amount": "1개",
+        "tags": [
+          "egg"
+        ],
+        "benefits": {
+          "ko": "비빔밥에 단백질을 더해주는 고명이에요.",
+          "en": "A topping that adds protein to the bibimbap.",
+          "ja": "ビビンバにたんぱく質を加えるトッピングです。",
+          "zh": "为拌饭增添蛋白质的配菜。",
+          "es": "Un aderezo que aporta proteína al bibimbap.",
+          "fr": "Une garniture qui apporte des protéines au bibimbap."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "참기름",
+          "en": "Sesame oil",
+          "ja": "ごま油",
+          "zh": "香油",
+          "es": "Aceite de sésamo",
+          "fr": "Huile de sésame"
+        },
+        "amount": "5ml",
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방이 있어 고소한 향과 함께 마무리해요.",
+          "en": "Contains unsaturated fat and finishes the dish with a nutty aroma.",
+          "ja": "不飽和脂肪を含み、香ばしい風味で仕上げます。",
+          "zh": "含不饱和脂肪,以浓郁香气收尾。",
+          "es": "Contiene grasa insaturada y aporta un aroma tostado al final.",
+          "fr": "Contient des graisses insaturées et apporte une touche finale au parfum grillé."
+        },
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
           }
         ]
       }
@@ -9251,12 +9391,23 @@
       {
         "order": 5,
         "instruction": {
-          "ko": "고추장을 곁들인다.",
-          "en": "Serve with the gochujang.",
-          "ja": "コチュジャンを添える。",
-          "zh": "配上韩式辣椒酱。",
-          "es": "Sirva con el gochujang.",
-          "fr": "Servez avec le gochujang."
+          "ko": "달걀을 후라이팬에 부친다.",
+          "en": "Fry the egg in a pan.",
+          "ja": "卵をフライパンで焼く。",
+          "zh": "在平底锅中煎鸡蛋。",
+          "es": "Fría el huevo en una sartén.",
+          "fr": "Faites frire l'œuf dans une poêle."
+        }
+      },
+      {
+        "order": 6,
+        "instruction": {
+          "ko": "고추장과 참기름, 달걀후라이를 올려 마무리한다.",
+          "en": "Top with the gochujang, sesame oil, and fried egg to finish.",
+          "ja": "コチュジャンとごま油、目玉焼きをのせて仕上げる。",
+          "zh": "最后放上韩式辣椒酱、香油和煎鸡蛋即可。",
+          "es": "Termine con el gochujang, el aceite de sésamo y el huevo frito.",
+          "fr": "Terminez avec le gochujang, l'huile de sésame et l'œuf frit."
         }
       }
     ]
@@ -10705,6 +10856,38 @@
           }
         ],
         "substituteGroupId": "sub-sesame-oil"
+      },
+      {
+        "name": {
+          "ko": "달걀지단",
+          "en": "Julienned fried egg garnish",
+          "ja": "錦糸卵",
+          "zh": "鸡蛋丝",
+          "es": "Tiras de huevo frito",
+          "fr": "Garniture d'œuf frit en lanières"
+        },
+        "amount": "1개분",
+        "tags": [
+          "egg"
+        ],
+        "benefits": {
+          "ko": "얇게 부쳐 채썬 달걀 고명으로 단백질을 더해요.",
+          "en": "A thin, julienned fried-egg garnish that adds protein.",
+          "ja": "薄く焼いて細切りにした卵の薬味で、たんぱく質を加えます。",
+          "zh": "煎薄后切丝的鸡蛋配菜,可以补充蛋白质。",
+          "es": "Un aderezo de huevo frito fino y cortado en tiras que aporta proteína.",
+          "fr": "Une garniture d'œuf frit fin et coupé en lanières qui apporte des protéines."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ]
       }
     ],
     "steps": [
@@ -10750,6 +10933,17 @@
           "zh": "将面条与蔬菜拌入调味料。",
           "es": "Mezcle los fideos y las verduras con el aliño.",
           "fr": "Mélangez les nouilles et les légumes avec l'assaisonnement."
+        }
+      },
+      {
+        "order": 5,
+        "instruction": {
+          "ko": "달걀지단을 올려 마무리한다.",
+          "en": "Finish by topping with the julienned egg garnish.",
+          "ja": "錦糸卵をのせて仕上げる。",
+          "zh": "最后放上鸡蛋丝即可。",
+          "es": "Termine cubriendo con las tiras de huevo frito.",
+          "fr": "Terminez en garnissant avec les lanières d'œuf frit."
         }
       }
     ]
@@ -10994,6 +11188,429 @@
           "zh": "与炖鲭鱼一起装盘。",
           "es": "Sirva junto con la caballa guisada.",
           "fr": "Dressez avec le maquereau mijoté."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-oat-walnut-soymilk-porridge",
+    "slug": "kr-oat-walnut-soymilk-porridge",
+    "title": {
+      "ko": "귀리 견과 두유죽",
+      "en": "Oat & Walnut Soy Milk Porridge",
+      "ja": "オーツ麦とくるみの豆乳がゆ",
+      "zh": "燕麦核桃豆浆粥",
+      "es": "Gachas de avena con nueces y leche de soja",
+      "fr": "Porridge d'avoine aux noix et au lait de soja"
+    },
+    "description": {
+      "ko": "귀리를 두유에 불려 끓이고 호두를 올린, 나트륨 없이 불포화지방과 식이섬유를 채운 아침입니다.",
+      "en": "Oats simmered in soy milk and topped with walnuts — a breakfast with no added sodium, built around unsaturated fat and fiber.",
+      "ja": "オーツ麦を豆乳で煮て、くるみをのせた朝食です。ナトリウム不使用で不飽和脂肪と食物繊維を満たします。",
+      "zh": "燕麦用豆浆煮熟并撒上核桃的早餐,不额外加盐,富含不饱和脂肪与膳食纤维。",
+      "es": "Avena cocida en leche de soja y cubierta con nueces — un desayuno sin sodio añadido, centrado en grasas insaturadas y fibra.",
+      "fr": "Avoine mijotée dans du lait de soja et garnie de noix — un petit-déjeuner sans sodium ajouté, riche en graisses insaturées et en fibres."
+    },
+    "tags": [
+      "breakfast",
+      "low-glycemic",
+      "low-sodium"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "귀리",
+          "en": "Oats",
+          "ja": "オーツ麦",
+          "zh": "燕麦",
+          "es": "Avena",
+          "fr": "Avoine"
+        },
+        "amount": "50g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "베타글루칸이라는 식이섬유가 있어 혈관 건강 관리 식단에 자주 쓰이는 통곡물이에요.",
+          "en": "A whole grain containing beta-glucan fiber, often used in diets that support vascular health.",
+          "ja": "ベータグルカンという食物繊維を含み、血管の健康を意識した食事によく使われる全粒穀物です。",
+          "zh": "含有β-葡聚糖膳食纤维,是关注血管健康饮食中常用的全谷物。",
+          "es": "Un cereal integral con fibra beta-glucano, muy usado en dietas que favorecen la salud vascular.",
+          "fr": "Une céréale complète contenant des fibres bêta-glucanes, souvent utilisée dans les régimes favorisant la santé vasculaire."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-oats"
+      },
+      {
+        "name": {
+          "ko": "무가당 두유",
+          "en": "Unsweetened soy milk",
+          "ja": "無糖豆乳",
+          "zh": "无糖豆浆",
+          "es": "Leche de soja sin azúcar",
+          "fr": "Lait de soja non sucré"
+        },
+        "amount": "200ml",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만들어 식물성 단백질을 더해주고 나트륨이 들어가지 않아요.",
+          "en": "Made from soybeans, it adds plant protein without contributing any sodium.",
+          "ja": "大豆から作られ、ナトリウムを加えずに植物性たんぱく質を補えます。",
+          "zh": "由大豆制成,补充植物蛋白且不含钠。",
+          "es": "Elaborada con soja, aporta proteína vegetal sin añadir sodio.",
+          "fr": "Fabriqué à partir de soja, il apporte des protéines végétales sans ajouter de sodium."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "호두",
+          "en": "Walnuts",
+          "ja": "くるみ",
+          "zh": "核桃",
+          "es": "Nueces",
+          "fr": "Noix"
+        },
+        "amount": "10g",
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방이 많은 견과류로 고소함을 더하는 고명이에요.",
+          "en": "A nut high in unsaturated fat, used here as a garnish for extra richness.",
+          "ja": "不飽和脂肪が多いナッツで、コクを加えるトッピングです。",
+          "zh": "富含不饱和脂肪的坚果,作为增添口感的配料。",
+          "es": "Un fruto seco rico en grasas insaturadas, usado aquí como aderezo para más cuerpo.",
+          "fr": "Un fruit à coque riche en graisses insaturées, utilisé ici en garniture pour plus de richesse."
+        },
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
+          }
+        ],
+        "substituteGroupId": "sub-walnuts"
+      },
+      {
+        "name": {
+          "ko": "계피가루",
+          "en": "Ground cinnamon",
+          "ja": "シナモンパウダー",
+          "zh": "肉桂粉",
+          "es": "Canela molida",
+          "fr": "Cannelle moulue"
+        },
+        "amount": "1g",
+        "tags": [],
+        "benefits": {
+          "ko": "소금 없이도 풍미를 더해주는 향신료예요.",
+          "en": "A spice that adds flavor without needing any salt.",
+          "ja": "塩を使わずに風味を加える香辛料です。",
+          "zh": "无需盐即可增添风味的香料。",
+          "es": "Una especia que aporta sabor sin necesidad de sal.",
+          "fr": "Une épice qui apporte de la saveur sans avoir besoin de sel."
+        },
+        "pointTags": [
+          {
+            "ko": "향신료",
+            "en": "Spice",
+            "ja": "香辛料",
+            "zh": "香料",
+            "es": "Especia",
+            "fr": "Épice"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "귀리를 두유에 넣고 5분간 불린다.",
+          "en": "Soak the oats in the soy milk for 5 minutes.",
+          "ja": "オーツ麦を豆乳に入れて5分ほど浸す。",
+          "zh": "将燕麦浸泡在豆浆中5分钟。",
+          "es": "Remoje la avena en la leche de soja durante 5 minutos.",
+          "fr": "Faites tremper l'avoine dans le lait de soja pendant 5 minutes."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "약불에서 저으며 걸쭉해질 때까지 끓인다.",
+          "en": "Simmer over low heat, stirring, until it thickens.",
+          "ja": "弱火でかき混ぜながらとろみが出るまで煮る。",
+          "zh": "小火搅拌煮至浓稠。",
+          "es": "Cueza a fuego lento, removiendo, hasta que espese.",
+          "fr": "Laissez mijoter à feu doux en remuant jusqu'à épaississement."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "그릇에 담고 다진 호두와 계피가루를 뿌린다.",
+          "en": "Transfer to a bowl and sprinkle with chopped walnuts and cinnamon.",
+          "ja": "器に盛り、刻んだくるみとシナモンパウダーをふりかける。",
+          "zh": "盛入碗中,撒上碎核桃和肉桂粉。",
+          "es": "Sirva en un bol y espolvoree con nueces picadas y canela.",
+          "fr": "Versez dans un bol et saupoudrez de noix hachées et de cannelle."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-black-soybean-tofu-salad",
+    "slug": "kr-black-soybean-tofu-salad",
+    "title": {
+      "ko": "서리태 두부 냉채",
+      "en": "Black Soybean & Tofu Cold Salad",
+      "ja": "黒豆と豆腐の冷菜",
+      "zh": "黑豆豆腐冷菜",
+      "es": "Ensalada fría de soja negra y tofu",
+      "fr": "Salade froide de soja noir et tofu"
+    },
+    "description": {
+      "ko": "삶은 서리태와 두부에 들기름 식초 드레싱을 곁들인, 고추장·된장 없이도 감칠맛을 낸 저나트륨 냉채입니다.",
+      "en": "Boiled black soybeans and tofu with a perilla oil and vinegar dressing — a low-sodium cold dish with flavor built without gochujang or doenjang.",
+      "ja": "茹でた黒豆と豆腐にえごま油と酢のドレッシングを合わせた、コチュジャンや味噌を使わない低ナトリウムの冷菜です。",
+      "zh": "水煮黑豆与豆腐搭配紫苏油醋汁,不用韩式辣椒酱或大酱调味的低钠冷菜。",
+      "es": "Soja negra hervida y tofu con un aliño de aceite de perilla y vinagre — un plato frío bajo en sodio con sabor logrado sin gochujang ni doenjang.",
+      "fr": "Soja noir bouilli et tofu avec une vinaigrette à l'huile de périlla — un plat froid pauvre en sodium, savoureux sans gochujang ni doenjang."
+    },
+    "tags": [
+      "lunch",
+      "low-glycemic",
+      "low-sodium"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "삶은 서리태",
+          "en": "Boiled black soybeans",
+          "ja": "茹で黒豆",
+          "zh": "水煮黑豆",
+          "es": "Soja negra hervida",
+          "fr": "Soja noir bouilli"
+        },
+        "amount": "60g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "식물성 단백질과 식이섬유가 풍부한 한국 재래종 콩이에요.",
+          "en": "A traditional Korean soybean rich in plant protein and fiber.",
+          "ja": "植物性たんぱく質と食物繊維が豊富な韓国在来種の豆です。",
+          "zh": "富含植物蛋白和膳食纤维的韩国传统黑豆。",
+          "es": "Una soja tradicional coreana rica en proteína vegetal y fibra.",
+          "fr": "Un soja traditionnel coréen riche en protéines végétales et en fibres."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          },
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "두부",
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
+        },
+        "amount": "80g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만든 식물성 단백질 식품이에요.",
+          "en": "A plant-based protein food made from soybeans.",
+          "ja": "大豆から作られた植物性たんぱく質食品です。",
+          "zh": "由大豆制成的植物蛋白食品。",
+          "es": "Un alimento de proteína vegetal hecho de soja.",
+          "fr": "Un aliment protéiné végétal à base de soja."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ],
+        "substituteGroupId": "sub-tofu"
+      },
+      {
+        "name": {
+          "ko": "깻잎",
+          "en": "Perilla leaves",
+          "ja": "えごまの葉",
+          "zh": "紫苏叶",
+          "es": "Hojas de perilla",
+          "fr": "Feuilles de périlla"
+        },
+        "amount": "20g",
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "향이 진한 잎채소로 비타민과 색을 더해요.",
+          "en": "An aromatic leafy green that adds vitamins and color.",
+          "ja": "香りの強い葉物野菜で、ビタミンと彩りを加えます。",
+          "zh": "香气浓郁的叶菜,增添维生素与色彩。",
+          "es": "Una verdura de hoja aromática que aporta vitaminas y color.",
+          "fr": "Un légume feuille aromatique qui apporte des vitamines et de la couleur."
+        },
+        "pointTags": [
+          {
+            "ko": "비타민",
+            "en": "Vitamins",
+            "ja": "ビタミン",
+            "zh": "维生素",
+            "es": "Vitaminas",
+            "fr": "Vitamines"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "들기름",
+          "en": "Perilla oil",
+          "ja": "えごま油",
+          "zh": "紫苏籽油",
+          "es": "Aceite de perilla",
+          "fr": "Huile de périlla"
+        },
+        "amount": "8ml",
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "식물성 오메가-3 지방산 비중이 높은 것으로 알려진 한식 기름이에요.",
+          "en": "A Korean cooking oil known for its high content of plant-based omega-3 fat.",
+          "ja": "植物性オメガ3脂肪酸の含有率が高いとされる韓国の食用油です。",
+          "zh": "以富含植物性Omega-3脂肪酸著称的韩式食用油。",
+          "es": "Un aceite de cocina coreano conocido por su alto contenido de grasa omega-3 vegetal.",
+          "fr": "Une huile de cuisine coréenne réputée pour sa forte teneur en graisses oméga-3 végétales."
+        },
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
+          }
+        ],
+        "substituteGroupId": "sub-perilla-oil"
+      },
+      {
+        "name": {
+          "ko": "식초",
+          "en": "Vinegar",
+          "ja": "酢",
+          "zh": "醋",
+          "es": "Vinagre",
+          "fr": "Vinaigre"
+        },
+        "amount": "10ml",
+        "tags": [],
+        "benefits": {
+          "ko": "소금 대신 산미로 드레싱의 맛을 살려줘요.",
+          "en": "Adds tang to the dressing in place of salt.",
+          "ja": "塩の代わりに酸味でドレッシングの味を引き立てます。",
+          "zh": "以酸味代替盐提升酱汁风味。",
+          "es": "Aporta acidez al aliño en lugar de sal.",
+          "fr": "Apporte de l'acidité à la vinaigrette à la place du sel."
+        },
+        "pointTags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "서리태를 삶아 식힌다.",
+          "en": "Boil the black soybeans and let them cool.",
+          "ja": "黒豆を茹でて冷ます。",
+          "zh": "煮熟黑豆后放凉。",
+          "es": "Hierva la soja negra y déjela enfriar.",
+          "fr": "Faites bouillir le soja noir et laissez-le refroidir."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "두부를 깍둑썰고 깻잎을 채썬다.",
+          "en": "Dice the tofu and julienne the perilla leaves.",
+          "ja": "豆腐を角切りにし、えごまの葉を千切りにする。",
+          "zh": "将豆腐切丁,紫苏叶切丝。",
+          "es": "Corte el tofu en cubos y las hojas de perilla en tiras finas.",
+          "fr": "Coupez le tofu en dés et les feuilles de périlla en fines lanières."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "들기름과 식초를 섞어 드레싱을 만든다.",
+          "en": "Mix the perilla oil and vinegar to make the dressing.",
+          "ja": "えごま油と酢を混ぜてドレッシングを作る。",
+          "zh": "将紫苏籽油与醋混合制成酱汁。",
+          "es": "Mezcle el aceite de perilla y el vinagre para hacer el aliño.",
+          "fr": "Mélangez l'huile de périlla et le vinaigre pour préparer la vinaigrette."
+        }
+      },
+      {
+        "order": 4,
+        "instruction": {
+          "ko": "모든 재료를 그릇에 담고 드레싱을 끼얹는다.",
+          "en": "Arrange everything in a bowl and drizzle with the dressing.",
+          "ja": "すべての材料を器に盛り、ドレッシングをかける。",
+          "zh": "将所有食材装碗,淋上酱汁即可。",
+          "es": "Coloque todo en un bol y rocíe con el aliño.",
+          "fr": "Disposez le tout dans un bol et arrosez de vinaigrette."
         }
       }
     ]
