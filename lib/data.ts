@@ -1,13 +1,15 @@
+import foodsJson from "@/data/foods.json";
 import plansJson from "@/data/plans.json";
 import recipesJson from "@/data/recipes.json";
 import recipeStageGuidesJson from "@/data/recipeStageGuides.json";
 import substitutesJson from "@/data/substitutes.json";
 import tasteGuidesJson from "@/data/tasteGuides.json";
 import { calculateLongevityScore } from "@/lib/score";
-import { TAG_SET } from "@/types";
+import { FOOD_CATEGORY_SET, TAG_SET } from "@/types";
 import type {
   CuisineRegion,
   DayMeal,
+  Food,
   LongevityScoreBreakdown,
   Plan,
   Recipe,
@@ -34,7 +36,28 @@ function assertValidRecipes(data: Recipe[]): Recipe[] {
   return data;
 }
 
+// Same TypeScript-widening issue as recipes: JSON string literals don't narrow
+// to the FoodCategory union, so this is the runtime typo check for foods.json.
+function assertValidFoods(data: Food[]): Food[] {
+  const seenIds = new Set<string>();
+  for (const food of data) {
+    if (seenIds.has(food.id)) {
+      throw new Error(`Duplicate food id "${food.id}"`);
+    }
+    seenIds.add(food.id);
+    if (!FOOD_CATEGORY_SET.has(food.category)) {
+      throw new Error(`Food "${food.id}" has unknown category "${food.category}"`);
+    }
+  }
+  return data;
+}
+
 export const plans: Plan[] = plansJson satisfies Plan[];
+export const foods: Food[] = assertValidFoods(foodsJson as Food[]);
+
+export function getFoodById(id: string): Food | undefined {
+  return foods.find((food) => food.id === id);
+}
 export const recipes: Recipe[] = assertValidRecipes(recipesJson as Recipe[]);
 export const substitutes: SubstituteGroup[] = substitutesJson satisfies SubstituteGroup[];
 export const tasteGuides: TasteGuide[] = tasteGuidesJson satisfies TasteGuide[];

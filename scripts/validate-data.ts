@@ -1,6 +1,8 @@
 // Reaching this import without throwing already means every ingredient tag
-// is valid — lib/data.ts asserts that at module load (see assertValidRecipes).
-import { plans, recipes, substitutes, getRecipeById, getSubstituteGroupById } from "../lib/data";
+// (and every food category) is valid — lib/data.ts asserts both at module
+// load (see assertValidRecipes, assertValidFoods).
+import { foods, plans, recipes, substitutes, getRecipeById, getSubstituteGroupById } from "../lib/data";
+import { NUTRIENT_KEYS } from "../types";
 
 let hasError = false;
 
@@ -33,6 +35,16 @@ function checkUnique(kind: string, items: { id: string; slug?: string }[]): void
 checkUnique("recipe", recipes);
 checkUnique("plan", plans);
 checkUnique("substitute group", substitutes);
+checkUnique("food", foods);
+
+for (const food of foods) {
+  for (const key of NUTRIENT_KEYS) {
+    const value = food.nutrients[key];
+    if (typeof value !== "number" || Number.isNaN(value) || value < 0) {
+      fail(`Food "${food.id}" has an invalid "${key}" value: ${value}`);
+    }
+  }
+}
 
 // recipes.json is loaded via `as Recipe[]` (not `satisfies`), so unlike plans.json and
 // substitutes.json it gets no compile-time check that every LocalizedText node carries all
@@ -98,4 +110,6 @@ if (hasError) {
   process.exit(1);
 }
 
-console.log(`✓ Data validation passed (${plans.length} plans, ${recipes.length} recipes)`);
+console.log(
+  `✓ Data validation passed (${plans.length} plans, ${recipes.length} recipes, ${foods.length} foods)`,
+);

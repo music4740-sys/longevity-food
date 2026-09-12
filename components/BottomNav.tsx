@@ -23,6 +23,15 @@ function PlansIcon({ active }: { active: boolean }) {
   );
 }
 
+function NutritionIcon({ active }: { active: boolean }) {
+  return (
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth={active ? 2.25 : 1.75} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 3c-4 0-7 2-7 6.5 0 5 4 10.5 7 11.5 3-1 7-6.5 7-11.5C19 5 16 3 12 3Z" />
+      <path d="M9.3 12.6 11.2 14.5 14.7 10.6" />
+    </svg>
+  );
+}
+
 function CartIcon({ active }: { active: boolean }) {
   return (
     <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth={active ? 2.25 : 1.75} strokeLinecap="round" strokeLinejoin="round">
@@ -52,12 +61,17 @@ export default function BottomNav() {
   const restPath = "/" + segments.slice(2).join("/");
   const isHome = restPath === "/";
   const isPlans = restPath.startsWith("/plans");
+  const isNutrition = restPath.startsWith("/nutrition");
   const isCart = restPath.startsWith("/cart");
   const isSettings = restPath.startsWith("/settings");
 
   const tabs = [
     { href: `/${locale}`, label: t.nav.home, active: isHome, Icon: HomeIcon },
     { href: `/${locale}/plans`, label: t.nav.plans, active: isPlans, Icon: PlansIcon },
+    // Nutrition-check data is Korean-food-only for now — hide the tab elsewhere.
+    ...(locale === "ko"
+      ? [{ href: `/${locale}/nutrition`, label: t.nutrition.tabLabel, active: isNutrition, Icon: NutritionIcon }]
+      : []),
     { href: `/${locale}/cart`, label: t.nav.cart, active: isCart, Icon: CartIcon },
     { href: `/${locale}/settings`, label: t.nav.settings, active: isSettings, Icon: SettingsIcon },
   ];
