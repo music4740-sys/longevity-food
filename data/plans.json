@@ -37,7 +37,7 @@
           "MX": "mx-avocado-egg-bowl"
         },
         "lunchByRegion": {
-          "KR": "kr-vegetable-bibimbap",
+          "KR": "kr-lentil-brown-rice-salad",
           "IT": "it-chickpea-farro-salad",
           "IN": "in-chickpea-curry",
           "TR": "tr-hummus-bowl",
@@ -246,7 +246,7 @@
         "lunch": "lentil-vegetable-soup",
         "dinner": "salmon-broccoli-plate",
         "breakfastByRegion": {
-          "KR": "kr-tofu-doenjang-soup"
+          "KR": "kr-flaxseed-soymilk-oatmeal"
         },
         "lunchByRegion": {
           "KR": "kr-vegetable-bibimbap"
@@ -378,7 +378,7 @@
         "lunch": "lentil-barley-salad",
         "dinner": "lentil-tomato-stew",
         "breakfastByRegion": {
-          "KR": "kr-soybean-sprout-soup"
+          "KR": "kr-cheonggukjang-brown-rice-porridge"
         },
         "lunchByRegion": {
           "KR": "kr-tofu-kimchi-stew"
@@ -509,7 +509,7 @@
         "lunch": "lentil-vegetable-soup",
         "dinner": "tofu-mushroom-stirfry",
         "breakfastByRegion": {
-          "KR": "kr-steamed-egg"
+          "KR": "kr-soymilk-avocado-overnight-oats"
         },
         "lunchByRegion": {
           "KR": "kr-buckwheat-noodles-spicy"
@@ -643,7 +643,7 @@
           "KR": "kr-seaweed-soup"
         },
         "lunchByRegion": {
-          "KR": "kr-brown-rice-porridge"
+          "KR": "kr-mixed-grain-tofu-vegetable-stirfry"
         },
         "dinnerByRegion": {
           "KR": "kr-doenjang-chicken"
@@ -905,7 +905,7 @@
         "lunch": "chickpea-kale-bowl",
         "dinner": "grilled-mackerel-greens",
         "breakfastByRegion": {
-          "KR": "kr-egg-vegetable-porridge"
+          "KR": "kr-blueberry-nut-soymilk-porridge"
         },
         "lunchByRegion": {
           "KR": "kr-tofu-kimchi-fried-rice"
@@ -1037,7 +1037,7 @@
         "lunch": "white-bean-quinoa-bowl",
         "dinner": "salmon-broccoli-plate",
         "breakfastByRegion": {
-          "KR": "kr-tofu-scramble"
+          "KR": "kr-turmeric-tofu-scramble"
         },
         "lunchByRegion": {
           "KR": "kr-cold-buckwheat-salad"
@@ -1172,7 +1172,7 @@
           "KR": "kr-tofu-doenjang-soup"
         },
         "lunchByRegion": {
-          "KR": "kr-vegetable-bibimbap"
+          "KR": "kr-bellpepper-carrot-nut-salad"
         },
         "dinnerByRegion": {
           "KR": "kr-grilled-mackerel-radish-salad"
@@ -1301,7 +1301,7 @@
         "lunch": "chickpea-kale-bowl",
         "dinner": "chicken-vegetable-stew",
         "breakfastByRegion": {
-          "KR": "kr-soybean-sprout-soup"
+          "KR": "kr-chicken-nut-brown-rice-bowl"
         },
         "lunchByRegion": {
           "KR": "kr-tofu-kimchi-stew"
@@ -1436,7 +1436,7 @@
           "KR": "kr-steamed-egg"
         },
         "lunchByRegion": {
-          "KR": "kr-buckwheat-noodles-spicy"
+          "KR": "kr-konjac-tofu-vegetable-salad"
         },
         "dinnerByRegion": {
           "KR": "kr-tofu-steak-spinach"
@@ -1564,7 +1564,7 @@
         "lunch": "lentil-vegetable-soup",
         "dinner": "vegetable-frittata",
         "breakfastByRegion": {
-          "KR": "kr-seaweed-soup"
+          "KR": "kr-radish-tofu-clear-soup"
         },
         "lunchByRegion": {
           "KR": "kr-brown-rice-porridge"

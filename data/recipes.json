@@ -11616,6 +11616,2072 @@
     ]
   },
   {
+    "id": "kr-lentil-brown-rice-salad",
+    "slug": "kr-lentil-brown-rice-salad",
+    "title": {
+      "ko": "렌틸 현미 샐러드",
+      "en": "Lentil & Brown Rice Salad",
+      "ja": "レンズ豆と玄米のサラダ",
+      "zh": "扁豆糙米沙拉",
+      "es": "Ensalada de lentejas y arroz integral",
+      "fr": "Salade de lentilles et de riz complet"
+    },
+    "description": {
+      "ko": "렌틸콩과 현미밥에 레몬즙 드레싱을 곁들여 혈당 부담이 낮은 조합으로 구성한 샐러드입니다.",
+      "en": "Lentils and brown rice with a lemon dressing — a combination with a low glycemic burden.",
+      "ja": "レンズ豆と玄米ご飯にレモン汁のドレッシングを合わせた、血糖負担の低い組み合わせのサラダです。",
+      "zh": "扁豆与糙米搭配柠檬汁酱汁,组成血糖负担较低的沙拉。",
+      "es": "Lentejas y arroz integral con aliño de limón — una combinación con baja carga glucémica.",
+      "fr": "Lentilles et riz complet avec une vinaigrette au citron — une combinaison à faible charge glycémique."
+    },
+    "tags": [
+      "lunch",
+      "low-glycemic"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "렌틸콩",
+          "en": "Lentils",
+          "ja": "レンズ豆",
+          "zh": "扁豆",
+          "es": "Lentejas",
+          "fr": "Lentilles"
+        },
+        "amount": "70g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "식이섬유와 식물성 단백질이 있어 혈당을 천천히 올리는 데 도움이 될 수 있어요.",
+          "en": "Contains fiber and plant protein that may help slow the rise in blood sugar.",
+          "ja": "食物繊維と植物性たんぱく質を含み、血糖値の上昇を緩やかにするのに役立つ可能性があります。",
+          "zh": "含有膳食纤维和植物蛋白,可能有助于减缓血糖上升。",
+          "es": "Contiene fibra y proteína vegetal que pueden ayudar a ralentizar el aumento del azúcar en sangre.",
+          "fr": "Contient des fibres et des protéines végétales qui peuvent aider à ralentir la hausse de la glycémie."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-lentils"
+      },
+      {
+        "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        },
+        "amount": "8ml",
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
+        },
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
+          }
+        ],
+        "substituteGroupId": "sub-olive-oil"
+      },
+      {
+        "name": {
+          "ko": "레몬즙",
+          "en": "Lemon juice",
+          "ja": "レモン汁",
+          "zh": "柠檬汁",
+          "es": "Zumo de limón",
+          "fr": "Jus de citron"
+        },
+        "amount": "10ml",
+        "tags": [],
+        "benefits": {
+          "ko": "설탕 없이도 상큼한 산미로 맛을 살려줘요.",
+          "en": "Adds bright acidity to the dish without any added sugar.",
+          "ja": "砂糖を使わずに爽やかな酸味で味を引き立てます。",
+          "zh": "无需加糖即可带来清爽的酸味。",
+          "es": "Aporta una acidez fresca al plato sin azúcar añadido.",
+          "fr": "Apporte une acidité fraîche au plat sans sucre ajouté."
+        },
+        "pointTags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "렌틸콩을 삶아 식힌다.",
+          "en": "Boil the lentils and let them cool.",
+          "ja": "レンズ豆を茹でて冷ます。",
+          "zh": "煮熟扁豆后放凉。",
+          "es": "Hierva las lentejas y déjelas enfriar.",
+          "fr": "Faites bouillir les lentilles et laissez-les refroidir."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "올리브유와 레몬즙을 섞어 드레싱을 만든다.",
+          "en": "Mix the olive oil and lemon juice to make the dressing.",
+          "ja": "オリーブオイルとレモン汁を混ぜてドレッシングを作る。",
+          "zh": "将橄榄油与柠檬汁混合制成酱汁。",
+          "es": "Mezcle el aceite de oliva y el zumo de limón para hacer el aliño.",
+          "fr": "Mélangez l'huile d'olive et le jus de citron pour préparer la vinaigrette."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "현미밥과 렌틸콩을 그릇에 담고 드레싱을 끼얹는다.",
+          "en": "Arrange the brown rice and lentils in a bowl and drizzle with the dressing.",
+          "ja": "玄米ご飯とレンズ豆を器に盛り、ドレッシングをかける。",
+          "zh": "将糙米饭与扁豆装碗,淋上酱汁即可。",
+          "es": "Coloque el arroz integral y las lentejas en un bol y rocíe con el aliño.",
+          "fr": "Disposez le riz complet et les lentilles dans un bol et arrosez de vinaigrette."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-flaxseed-soymilk-oatmeal",
+    "slug": "kr-flaxseed-soymilk-oatmeal",
+    "title": {
+      "ko": "아마씨 두유 오트밀",
+      "en": "Flaxseed & Soy Milk Oatmeal",
+      "ja": "亜麻仁と豆乳のオートミール",
+      "zh": "亚麻籽豆浆燕麦粥",
+      "es": "Avena con linaza y leche de soja",
+      "fr": "Porridge d'avoine au lin et au lait de soja"
+    },
+    "description": {
+      "ko": "귀리를 두유에 끓이고 아마씨가루와 바나나를 올린, 식물성 오메가-3 위주의 아침입니다.",
+      "en": "Oats simmered in soy milk, topped with ground flaxseed and banana — a breakfast built around plant-based omega-3.",
+      "ja": "オーツ麦を豆乳で煮て、亜麻仁パウダーとバナナをのせた、植物性オメガ3中心の朝食です。",
+      "zh": "燕麦用豆浆煮熟,撒上亚麻籽粉和香蕉的早餐,以植物性Omega-3为主。",
+      "es": "Avena cocida en leche de soja, cubierta con linaza molida y plátano — un desayuno centrado en omega-3 vegetal.",
+      "fr": "Avoine mijotée dans du lait de soja, garnie de lin moulu et de banane — un petit-déjeuner riche en oméga-3 végétal."
+    },
+    "tags": [
+      "breakfast",
+      "heart-health"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "귀리",
+          "en": "Oats",
+          "ja": "オーツ麦",
+          "zh": "燕麦",
+          "es": "Avena",
+          "fr": "Avoine"
+        },
+        "amount": "50g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "베타글루칸이라는 식이섬유가 있어 혈관 건강 관리 식단에 자주 쓰이는 통곡물이에요.",
+          "en": "A whole grain containing beta-glucan fiber, often used in diets that support vascular health.",
+          "ja": "ベータグルカンという食物繊維を含み、血管の健康を意識した食事によく使われる全粒穀物です。",
+          "zh": "含有β-葡聚糖膳食纤维,是关注血管健康饮食中常用的全谷物。",
+          "es": "Un cereal integral con fibra beta-glucano, muy usado en dietas que favorecen la salud vascular.",
+          "fr": "Une céréale complète contenant des fibres bêta-glucanes, souvent utilisée dans les régimes favorisant la santé vasculaire."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-oats"
+      },
+      {
+        "name": {
+          "ko": "무가당 두유",
+          "en": "Unsweetened soy milk",
+          "ja": "無糖豆乳",
+          "zh": "无糖豆浆",
+          "es": "Leche de soja sin azúcar",
+          "fr": "Lait de soja non sucré"
+        },
+        "amount": "200ml",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만들어 식물성 단백질을 더해주고 나트륨이 들어가지 않아요.",
+          "en": "Made from soybeans, it adds plant protein without contributing any sodium.",
+          "ja": "大豆から作られ、ナトリウムを加えずに植物性たんぱく質を補えます。",
+          "zh": "由大豆制成,补充植物蛋白且不含钠。",
+          "es": "Elaborada con soja, aporta proteína vegetal sin añadir sodio.",
+          "fr": "Fabriqué à partir de soja, il apporte des protéines végétales sans ajouter de sodium."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "아마씨가루",
+          "en": "Ground flaxseed",
+          "ja": "亜麻仁パウダー",
+          "zh": "亚麻籽粉",
+          "es": "Linaza molida",
+          "fr": "Graines de lin moulues"
+        },
+        "amount": "10g",
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "식물성 오메가-3 지방산 비중이 높은 것으로 알려진 씨앗이에요.",
+          "en": "A seed known for its high content of plant-based omega-3 fat.",
+          "ja": "植物性オメガ3脂肪酸の含有率が高いとされる種子です。",
+          "zh": "以富含植物性Omega-3脂肪酸著称的种子。",
+          "es": "Una semilla conocida por su alto contenido de grasa omega-3 vegetal.",
+          "fr": "Une graine réputée pour sa forte teneur en graisses oméga-3 végétales."
+        },
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "바나나",
+          "en": "Banana",
+          "ja": "バナナ",
+          "zh": "香蕉",
+          "es": "Plátano",
+          "fr": "Banane"
+        },
+        "amount": "1/2개",
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "설탕 없이도 자연스러운 단맛을 더해주는 과일이에요.",
+          "en": "A fruit that adds natural sweetness without any added sugar.",
+          "ja": "砂糖を使わずに自然な甘みを加える果物です。",
+          "zh": "无需加糖即可带来天然甜味的水果。",
+          "es": "Una fruta que aporta dulzor natural sin azúcar añadido.",
+          "fr": "Un fruit qui apporte une douceur naturelle sans sucre ajouté."
+        },
+        "pointTags": [
+          {
+            "ko": "칼륨",
+            "en": "Potassium",
+            "ja": "カリウム",
+            "zh": "钾",
+            "es": "Potasio",
+            "fr": "Potassium"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "귀리를 두유에 넣고 약불에서 저으며 끓인다.",
+          "en": "Add the oats to the soy milk and simmer over low heat, stirring.",
+          "ja": "オーツ麦を豆乳に入れ、弱火でかき混ぜながら煮る。",
+          "zh": "将燕麦放入豆浆中,小火搅拌煮熟。",
+          "es": "Añada la avena a la leche de soja y cueza a fuego lento, removiendo.",
+          "fr": "Ajoutez l'avoine au lait de soja et laissez mijoter à feu doux en remuant."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "그릇에 담고 바나나를 슬라이스해 올린다.",
+          "en": "Transfer to a bowl and top with sliced banana.",
+          "ja": "器に盛り、スライスしたバナナをのせる。",
+          "zh": "盛入碗中,放上切片香蕉。",
+          "es": "Sirva en un bol y cubra con el plátano en rodajas.",
+          "fr": "Versez dans un bol et garnissez de banane coupée en tranches."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "아마씨가루를 뿌려 마무리한다.",
+          "en": "Finish by sprinkling with ground flaxseed.",
+          "ja": "亜麻仁パウダーをふりかけて仕上げる。",
+          "zh": "最后撒上亚麻籽粉即可。",
+          "es": "Termine espolvoreando con la linaza molida.",
+          "fr": "Terminez en saupoudrant de lin moulu."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-cheonggukjang-brown-rice-porridge",
+    "slug": "kr-cheonggukjang-brown-rice-porridge",
+    "title": {
+      "ko": "청국장 현미죽",
+      "en": "Cheonggukjang Brown Rice Porridge",
+      "ja": "チョングッチャン玄米がゆ",
+      "zh": "清麹酱糙米粥",
+      "es": "Gachas de arroz integral con cheonggukjang",
+      "fr": "Porridge de riz complet au cheonggukjang"
+    },
+    "description": {
+      "ko": "짧게 발효한 청국장을 현미죽에 풀어 끓인, 발효식품과 식이섬유 중심의 아침입니다.",
+      "en": "Brown rice porridge stirred with quick-fermented cheonggukjang — a breakfast built around fermented food and fiber.",
+      "ja": "短期発酵のチョングッチャンを玄米がゆに溶いて煮た、発酵食品と食物繊維中心の朝食です。",
+      "zh": "将短期发酵的清麹酱融入糙米粥中熬煮,以发酵食品与膳食纤维为主的早餐。",
+      "es": "Gachas de arroz integral con cheonggukjang de fermentación corta — un desayuno centrado en alimentos fermentados y fibra.",
+      "fr": "Porridge de riz complet au cheonggukjang à fermentation courte — un petit-déjeuner riche en aliments fermentés et en fibres."
+    },
+    "tags": [
+      "breakfast",
+      "gut-health"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
+          "ko": "청국장",
+          "en": "Cheonggukjang (quick-fermented soybean paste)",
+          "ja": "チョングッチャン(発酵大豆)",
+          "zh": "清麹酱(短期发酵豆酱)",
+          "es": "Cheonggukjang (pasta de soja de fermentación rápida)",
+          "fr": "Cheonggukjang (pâte de soja à fermentation rapide)"
+        },
+        "amount": "30g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "된장보다 짧게 발효한 콩 식품으로 식물성 단백질과 발효균을 함께 얻을 수 있어요.",
+          "en": "A soybean food fermented for a shorter time than doenjang, providing plant protein along with fermentation cultures.",
+          "ja": "味噌より短期間発酵させた大豆食品で、植物性たんぱく質と発酵菌を一緒に摂れます。",
+          "zh": "发酵时间比大酱短的豆制品,可同时获得植物蛋白与发酵菌。",
+          "es": "Un alimento de soja fermentado durante menos tiempo que el doenjang, que aporta proteína vegetal junto con cultivos fermentados.",
+          "fr": "Un aliment à base de soja fermenté moins longtemps que le doenjang, apportant des protéines végétales et des ferments."
+        },
+        "pointTags": [
+          {
+            "ko": "발효식품",
+            "en": "Fermented Food",
+            "ja": "発酵食品",
+            "zh": "发酵食品",
+            "es": "Alimento fermentado",
+            "fr": "Aliment fermenté"
+          },
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "애호박",
+          "en": "Zucchini",
+          "ja": "ズッキーニ",
+          "zh": "西葫芦",
+          "es": "Calabacín",
+          "fr": "Courgette"
+        },
+        "amount": "30g",
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "수분 함량이 높고 열량이 낮은 채소예요.",
+          "en": "A vegetable that's high in water content and low in calories.",
+          "ja": "水分が多く低カロリーな野菜です。",
+          "zh": "水分含量高、热量较低的蔬菜。",
+          "es": "Verdura con alto contenido de agua y baja en calorías.",
+          "fr": "Un légume à forte teneur en eau et pauvre en calories."
+        },
+        "pointTags": [
+          {
+            "ko": "저칼로리",
+            "en": "Low-Calorie",
+            "ja": "低カロリー",
+            "zh": "低热量",
+            "es": "Baja en calorías",
+            "fr": "Faible en calories"
+          }
+        ],
+        "substituteGroupId": "sub-zucchini"
+      },
+      {
+        "name": {
+          "ko": "마늘",
+          "en": "Garlic",
+          "ja": "にんにく",
+          "zh": "大蒜",
+          "es": "Ajo",
+          "fr": "Ail"
+        },
+        "amount": "3g",
+        "tags": [],
+        "benefits": {
+          "ko": "향을 더해주는 향신채예요.",
+          "en": "An aromatic that adds flavor.",
+          "ja": "香りを加える香味野菜です。",
+          "zh": "增添香气的调味蔬菜。",
+          "es": "Un aromático que aporta sabor.",
+          "fr": "Un aromate qui apporte de la saveur."
+        },
+        "pointTags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "애호박과 마늘을 잘게 썬다.",
+          "en": "Finely dice the zucchini and garlic.",
+          "ja": "ズッキーニとにんにくを細かく切る。",
+          "zh": "将西葫芦和大蒜切碎。",
+          "es": "Corte en trozos pequeños el calabacín y el ajo.",
+          "fr": "Coupez finement la courgette et l'ail."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "현미밥과 물 200ml를 넣고 끓인다.",
+          "en": "Add the brown rice and 200ml of water, and bring to a boil.",
+          "ja": "玄米ご飯と水200mlを加えて煮る。",
+          "zh": "加入糙米饭和200毫升水煮沸。",
+          "es": "Añada el arroz integral y 200 ml de agua, y lleve a ebullición.",
+          "fr": "Ajoutez le riz complet et 200 ml d'eau, et portez à ébullition."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "청국장을 풀어 넣고 걸쭉해질 때까지 저으며 끓인다.",
+          "en": "Stir in the cheonggukjang and simmer, stirring, until it thickens.",
+          "ja": "チョングッチャンを溶き入れ、とろみが出るまでかき混ぜながら煮る。",
+          "zh": "拌入清麹酱,边搅拌边煮至浓稠。",
+          "es": "Incorpore el cheonggukjang y cueza a fuego lento, removiendo, hasta que espese.",
+          "fr": "Incorporez le cheonggukjang et laissez mijoter en remuant jusqu'à épaississement."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-soymilk-avocado-overnight-oats",
+    "slug": "kr-soymilk-avocado-overnight-oats",
+    "title": {
+      "ko": "두유 아보카도 오버나이트 오트",
+      "en": "Soy Milk & Avocado Overnight Oats",
+      "ja": "豆乳とアボカドのオーバーナイトオーツ",
+      "zh": "豆浆牛油果免煮燕麦",
+      "es": "Avena nocturna con leche de soja y aguacate",
+      "fr": "Overnight oats au lait de soja et à l'avocat"
+    },
+    "description": {
+      "ko": "귀리를 두유에 불려 아보카도와 치아씨를 올린, 동물성 재료 없이 구성한 아침입니다.",
+      "en": "Oats soaked in soy milk, topped with avocado and chia seeds — a breakfast made without any animal ingredients.",
+      "ja": "オーツ麦を豆乳に浸し、アボカドとチアシードをのせた、動物性食材を使わない朝食です。",
+      "zh": "燕麦用豆浆浸泡,搭配牛油果和奇亚籽的早餐,不含任何动物性食材。",
+      "es": "Avena remojada en leche de soja, cubierta con aguacate y semillas de chía — un desayuno sin ingredientes animales.",
+      "fr": "Avoine trempée dans du lait de soja, garnie d'avocat et de graines de chia — un petit-déjeuner sans aucun ingrédient animal."
+    },
+    "tags": [
+      "breakfast",
+      "plant-based"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "귀리",
+          "en": "Oats",
+          "ja": "オーツ麦",
+          "zh": "燕麦",
+          "es": "Avena",
+          "fr": "Avoine"
+        },
+        "amount": "50g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "베타글루칸이라는 식이섬유가 있는 통곡물이에요.",
+          "en": "A whole grain containing beta-glucan fiber.",
+          "ja": "ベータグルカンという食物繊維を含む全粒穀物です。",
+          "zh": "含有β-葡聚糖膳食纤维的全谷物。",
+          "es": "Un cereal integral con fibra beta-glucano.",
+          "fr": "Une céréale complète contenant des fibres bêta-glucanes."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-oats"
+      },
+      {
+        "name": {
+          "ko": "무가당 두유",
+          "en": "Unsweetened soy milk",
+          "ja": "無糖豆乳",
+          "zh": "无糖豆浆",
+          "es": "Leche de soja sin azúcar",
+          "fr": "Lait de soja non sucré"
+        },
+        "amount": "180ml",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만들어 동물성 재료 없이 단백질을 더해줘요.",
+          "en": "Made from soybeans, it adds protein with no animal ingredients.",
+          "ja": "大豆から作られ、動物性食材なしでたんぱく質を補えます。",
+          "zh": "由大豆制成,不含动物性成分即可补充蛋白质。",
+          "es": "Elaborada con soja, aporta proteína sin ingredientes animales.",
+          "fr": "Fabriqué à partir de soja, il apporte des protéines sans aucun ingrédient animal."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "아보카도",
+          "en": "Avocado",
+          "ja": "アボカド",
+          "zh": "牛油果",
+          "es": "Aguacate",
+          "fr": "Avocat"
+        },
+        "amount": "50g",
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방이 풍부한 식물성 과일이에요.",
+          "en": "A plant-based fruit rich in unsaturated fat.",
+          "ja": "不飽和脂肪が豊富な植物性の果物です。",
+          "zh": "富含不饱和脂肪的植物性水果。",
+          "es": "Una fruta vegetal rica en grasas insaturadas.",
+          "fr": "Un fruit végétal riche en graisses insaturées."
+        },
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
+          }
+        ],
+        "substituteGroupId": "sub-avocado"
+      },
+      {
+        "name": {
+          "ko": "치아씨",
+          "en": "Chia seeds",
+          "ja": "チアシード",
+          "zh": "奇亚籽",
+          "es": "Semillas de chía",
+          "fr": "Graines de chia"
+        },
+        "amount": "10g",
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "식물성 오메가-3와 식이섬유가 있는 씨앗이에요.",
+          "en": "A seed containing plant-based omega-3 and fiber.",
+          "ja": "植物性オメガ3と食物繊維を含む種子です。",
+          "zh": "含有植物性Omega-3和膳食纤维的种子。",
+          "es": "Una semilla que contiene omega-3 vegetal y fibra.",
+          "fr": "Une graine contenant des oméga-3 végétaux et des fibres."
+        },
+        "pointTags": [
+          {
+            "ko": "오메가-3",
+            "en": "Omega-3",
+            "ja": "オメガ3",
+            "zh": "Omega-3",
+            "es": "Omega-3",
+            "fr": "Oméga-3"
+          }
+        ],
+        "substituteGroupId": "sub-chia-seeds"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "귀리와 치아씨를 두유에 넣고 냉장고에서 하룻밤 불린다.",
+          "en": "Combine the oats and chia seeds with the soy milk and refrigerate overnight.",
+          "ja": "オーツ麦とチアシードを豆乳に入れ、冷蔵庫で一晩浸す。",
+          "zh": "将燕麦和奇亚籽放入豆浆中,冷藏浸泡一夜。",
+          "es": "Combine la avena y las semillas de chía con la leche de soja y refrigere toda la noche.",
+          "fr": "Mélangez l'avoine et les graines de chia avec le lait de soja et réfrigérez toute la nuit."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "아보카도를 슬라이스한다.",
+          "en": "Slice the avocado.",
+          "ja": "アボカドをスライスする。",
+          "zh": "将牛油果切片。",
+          "es": "Corte el aguacate en rodajas.",
+          "fr": "Coupez l'avocat en tranches."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "불린 오트 위에 아보카도를 올려 마무리한다.",
+          "en": "Finish by topping the soaked oats with the avocado.",
+          "ja": "浸したオーツの上にアボカドをのせて仕上げる。",
+          "zh": "最后在泡好的燕麦上放上牛油果即可。",
+          "es": "Termine cubriendo la avena remojada con el aguacate.",
+          "fr": "Terminez en garnissant l'avoine trempée d'avocat."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-mixed-grain-tofu-vegetable-stirfry",
+    "slug": "kr-mixed-grain-tofu-vegetable-stirfry",
+    "title": {
+      "ko": "현미밥 두부 파프리카 볶음",
+      "en": "Brown Rice with Tofu & Bell Pepper Stir-fry",
+      "ja": "玄米ご飯と豆腐パプリカ炒め",
+      "zh": "糙米饭配豆腐彩椒炒",
+      "es": "Arroz integral con tofu y pimiento salteado",
+      "fr": "Riz complet, tofu et poivron sautés"
+    },
+    "description": {
+      "ko": "두부와 파프리카를 참기름에 볶아 현미밥과 낸, 여러 영양 축이 고르게 갖춰진 균형 잡힌 한 끼입니다.",
+      "en": "Tofu and bell pepper sautéed in sesame oil, served over brown rice — a well-rounded meal balanced across several nutrient axes.",
+      "ja": "豆腐とパプリカをごま油で炒めて玄米ご飯に添えた、栄養バランスの取れた一食です。",
+      "zh": "豆腐与彩椒用香油翻炒后配糙米饭,营养均衡的一餐。",
+      "es": "Tofu y pimiento salteados en aceite de sésamo, servidos sobre arroz integral — una comida equilibrada en varios ejes nutricionales.",
+      "fr": "Tofu et poivron sautés à l'huile de sésame, servis sur riz complet — un repas équilibré sur plusieurs plans nutritionnels."
+    },
+    "tags": [
+      "lunch",
+      "balanced"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
+          "ko": "두부",
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
+        },
+        "amount": "80g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만든 식물성 단백질 식품이에요.",
+          "en": "A plant-based protein food made from soybeans.",
+          "ja": "大豆から作られた植物性たんぱく質食品です。",
+          "zh": "由大豆制成的植物蛋白食品。",
+          "es": "Un alimento de proteína vegetal hecho de soja.",
+          "fr": "Un aliment protéiné végétal à base de soja."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ],
+        "substituteGroupId": "sub-tofu"
+      },
+      {
+        "name": {
+          "ko": "파프리카",
+          "en": "Bell pepper",
+          "ja": "パプリカ",
+          "zh": "彩椒",
+          "es": "Pimiento",
+          "fr": "Poivron"
+        },
+        "amount": "50g",
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "비타민C가 풍부한 색깔 있는 채소예요.",
+          "en": "A colorful vegetable rich in vitamin C.",
+          "ja": "ビタミンCが豊富な彩り野菜です。",
+          "zh": "富含维生素C的彩色蔬菜。",
+          "es": "Una verdura colorida rica en vitamina C.",
+          "fr": "Un légume coloré riche en vitamine C."
+        },
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
+          }
+        ],
+        "substituteGroupId": "sub-bell-pepper"
+      },
+      {
+        "name": {
+          "ko": "참기름",
+          "en": "Sesame oil",
+          "ja": "ごま油",
+          "zh": "芝麻油",
+          "es": "Aceite de sésamo",
+          "fr": "Huile de sésame"
+        },
+        "amount": "5ml",
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "볶은 참깨로 만들어 소량으로도 고소한 향을 더해줘요.",
+          "en": "Made from toasted sesame seeds; a little goes a long way for flavor.",
+          "ja": "煎りごまから作られ、少量でも香ばしい風味を加えます。",
+          "zh": "由炒芝麻制成,少量即可增添浓郁香气。",
+          "es": "Elaborado con semillas de sésamo tostadas; un poco basta para aportar mucho sabor.",
+          "fr": "Fabriquée à partir de graines de sésame torréfiées ; un peu suffit pour beaucoup de saveur."
+        },
+        "pointTags": [
+          {
+            "ko": "고소한 풍미",
+            "en": "Nutty Flavor",
+            "ja": "香ばしい風味",
+            "zh": "浓香风味",
+            "es": "Sabor tostado",
+            "fr": "Saveur grillée"
+          }
+        ],
+        "substituteGroupId": "sub-sesame-oil"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "두부와 파프리카를 한입 크기로 썬다.",
+          "en": "Cut the tofu and bell pepper into bite-sized pieces.",
+          "ja": "豆腐とパプリカを一口大に切る。",
+          "zh": "将豆腐和彩椒切成一口大小。",
+          "es": "Corte el tofu y el pimiento en trozos del tamaño de un bocado.",
+          "fr": "Coupez le tofu et le poivron en bouchées."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "팬에 참기름을 두르고 두부와 파프리카를 볶는다.",
+          "en": "Heat sesame oil in a pan and stir-fry the tofu and bell pepper.",
+          "ja": "フライパンにごま油を熱し、豆腐とパプリカを炒める。",
+          "zh": "锅中倒入芝麻油,翻炒豆腐和彩椒。",
+          "es": "Caliente el aceite de sésamo en una sartén y saltee el tofu y el pimiento.",
+          "fr": "Faites chauffer l'huile de sésame dans une poêle et faites sauter le tofu et le poivron."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "현미밥과 함께 그릇에 담아낸다.",
+          "en": "Serve together with the brown rice.",
+          "ja": "玄米ご飯と一緒に器に盛る。",
+          "zh": "与糙米饭一起装盘即可。",
+          "es": "Sirva junto con el arroz integral.",
+          "fr": "Servez avec le riz complet."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-blueberry-nut-soymilk-porridge",
+    "slug": "kr-blueberry-nut-soymilk-porridge",
+    "title": {
+      "ko": "블루베리 견과 두유죽",
+      "en": "Blueberry & Nut Soy Milk Porridge",
+      "ja": "ブルーベリーとナッツの豆乳がゆ",
+      "zh": "蓝莓坚果豆浆粥",
+      "es": "Gachas de leche de soja con arándanos y frutos secos",
+      "fr": "Porridge au lait de soja, myrtilles et noix"
+    },
+    "description": {
+      "ko": "귀리를 두유에 끓이고 블루베리와 호두를 올린, 항산화 과일과 불포화지방 중심의 아침입니다.",
+      "en": "Oats simmered in soy milk, topped with blueberries and walnuts — a breakfast built around antioxidant fruit and unsaturated fat.",
+      "ja": "オーツ麦を豆乳で煮て、ブルーベリーとくるみをのせた、抗酸化フルーツと不飽和脂肪中心の朝食です。",
+      "zh": "燕麦用豆浆煮熟,撒上蓝莓和核桃的早餐,以抗氧化水果与不饱和脂肪为主。",
+      "es": "Avena cocida en leche de soja, cubierta con arándanos y nueces — un desayuno centrado en fruta antioxidante y grasas insaturadas.",
+      "fr": "Avoine mijotée dans du lait de soja, garnie de myrtilles et de noix — un petit-déjeuner riche en fruits antioxydants et en graisses insaturées."
+    },
+    "tags": [
+      "breakfast",
+      "brain-health"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "귀리",
+          "en": "Oats",
+          "ja": "オーツ麦",
+          "zh": "燕麦",
+          "es": "Avena",
+          "fr": "Avoine"
+        },
+        "amount": "50g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "베타글루칸이라는 식이섬유가 있는 통곡물이에요.",
+          "en": "A whole grain containing beta-glucan fiber.",
+          "ja": "ベータグルカンという食物繊維を含む全粒穀物です。",
+          "zh": "含有β-葡聚糖膳食纤维的全谷物。",
+          "es": "Un cereal integral con fibra beta-glucano.",
+          "fr": "Une céréale complète contenant des fibres bêta-glucanes."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-oats"
+      },
+      {
+        "name": {
+          "ko": "무가당 두유",
+          "en": "Unsweetened soy milk",
+          "ja": "無糖豆乳",
+          "zh": "无糖豆浆",
+          "es": "Leche de soja sin azúcar",
+          "fr": "Lait de soja non sucré"
+        },
+        "amount": "200ml",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만들어 식물성 단백질을 더해줘요.",
+          "en": "Made from soybeans, adding plant protein.",
+          "ja": "大豆から作られ、植物性たんぱく質を補います。",
+          "zh": "由大豆制成,补充植物蛋白。",
+          "es": "Elaborada con soja, aporta proteína vegetal.",
+          "fr": "Fabriqué à partir de soja, il apporte des protéines végétales."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "블루베리",
+          "en": "Blueberries",
+          "ja": "ブルーベリー",
+          "zh": "蓝莓",
+          "es": "Arándanos",
+          "fr": "Myrtilles"
+        },
+        "amount": "40g",
+        "tags": [
+          "fruit"
+        ],
+        "benefits": {
+          "ko": "안토시아닌이라는 항산화 성분이 있는 것으로 알려진 베리류예요.",
+          "en": "A berry known for containing the antioxidant compound anthocyanin.",
+          "ja": "アントシアニンという抗酸化成分を含むとされるベリー類です。",
+          "zh": "以含有花青素抗氧化成分著称的浆果。",
+          "es": "Una baya conocida por contener el compuesto antioxidante antocianina.",
+          "fr": "Une baie réputée pour sa teneur en anthocyanes, un composé antioxydant."
+        },
+        "pointTags": [
+          {
+            "ko": "항산화",
+            "en": "Antioxidant",
+            "ja": "抗酸化",
+            "zh": "抗氧化",
+            "es": "Antioxidante",
+            "fr": "Antioxydant"
+          }
+        ],
+        "substituteGroupId": "sub-blueberries"
+      },
+      {
+        "name": {
+          "ko": "호두",
+          "en": "Walnuts",
+          "ja": "くるみ",
+          "zh": "核桃",
+          "es": "Nueces",
+          "fr": "Noix"
+        },
+        "amount": "10g",
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방이 많은 견과류로 고소함을 더하는 고명이에요.",
+          "en": "A nut high in unsaturated fat, used here as a garnish for extra richness.",
+          "ja": "不飽和脂肪が多いナッツで、コクを加えるトッピングです。",
+          "zh": "富含不饱和脂肪的坚果,作为增添口感的配料。",
+          "es": "Un fruto seco rico en grasas insaturadas, usado aquí como aderezo para más cuerpo.",
+          "fr": "Un fruit à coque riche en graisses insaturées, utilisé ici en garniture pour plus de richesse."
+        },
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
+          }
+        ],
+        "substituteGroupId": "sub-walnuts"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "귀리를 두유에 넣고 약불에서 저으며 끓인다.",
+          "en": "Add the oats to the soy milk and simmer over low heat, stirring.",
+          "ja": "オーツ麦を豆乳に入れ、弱火でかき混ぜながら煮る。",
+          "zh": "将燕麦放入豆浆中,小火搅拌煮熟。",
+          "es": "Añada la avena a la leche de soja y cueza a fuego lento, removiendo.",
+          "fr": "Ajoutez l'avoine au lait de soja et laissez mijoter à feu doux en remuant."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "그릇에 담고 블루베리를 올린다.",
+          "en": "Transfer to a bowl and top with blueberries.",
+          "ja": "器に盛り、ブルーベリーをのせる。",
+          "zh": "盛入碗中,放上蓝莓。",
+          "es": "Sirva en un bol y cubra con los arándanos.",
+          "fr": "Versez dans un bol et garnissez de myrtilles."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "다진 호두를 뿌려 마무리한다.",
+          "en": "Finish by sprinkling with chopped walnuts.",
+          "ja": "刻んだくるみをふりかけて仕上げる。",
+          "zh": "最后撒上碎核桃即可。",
+          "es": "Termine espolvoreando con nueces picadas.",
+          "fr": "Terminez en saupoudrant de noix hachées."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-turmeric-tofu-scramble",
+    "slug": "kr-turmeric-tofu-scramble",
+    "title": {
+      "ko": "강황 두부 스크램블",
+      "en": "Turmeric Tofu Scramble",
+      "ja": "ターメリック豆腐スクランブル",
+      "zh": "姜黄豆腐炒",
+      "es": "Revuelto de tofu con cúrcuma",
+      "fr": "Tofu brouillé au curcuma"
+    },
+    "description": {
+      "ko": "으깬 두부를 강황가루와 파프리카로 볶은, 색깔 있는 채소와 향신료 중심의 아침입니다.",
+      "en": "Crumbled tofu sautéed with turmeric and bell pepper — a breakfast built around colorful vegetables and spice.",
+      "ja": "崩した豆腐をターメリックとパプリカで炒めた、彩り野菜とスパイス中心の朝食です。",
+      "zh": "压碎的豆腐用姜黄和彩椒翻炒的早餐,以彩色蔬菜与香料为主。",
+      "es": "Tofu desmenuzado salteado con cúrcuma y pimiento — un desayuno centrado en verduras coloridas y especias.",
+      "fr": "Tofu émietté sauté au curcuma et au poivron — un petit-déjeuner riche en légumes colorés et en épices."
+    },
+    "tags": [
+      "breakfast",
+      "anti-inflammatory"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "두부",
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
+        },
+        "amount": "100g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만든 식물성 단백질 식품이에요.",
+          "en": "A plant-based protein food made from soybeans.",
+          "ja": "大豆から作られた植物性たんぱく質食品です。",
+          "zh": "由大豆制成的植物蛋白食品。",
+          "es": "Un alimento de proteína vegetal hecho de soja.",
+          "fr": "Un aliment protéiné végétal à base de soja."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ],
+        "substituteGroupId": "sub-tofu"
+      },
+      {
+        "name": {
+          "ko": "파프리카",
+          "en": "Bell pepper",
+          "ja": "パプリカ",
+          "zh": "彩椒",
+          "es": "Pimiento",
+          "fr": "Poivron"
+        },
+        "amount": "50g",
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "비타민C가 풍부한 색깔 있는 채소예요.",
+          "en": "A colorful vegetable rich in vitamin C.",
+          "ja": "ビタミンCが豊富な彩り野菜です。",
+          "zh": "富含维生素C的彩色蔬菜。",
+          "es": "Una verdura colorida rica en vitamina C.",
+          "fr": "Un légume coloré riche en vitamine C."
+        },
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
+          }
+        ],
+        "substituteGroupId": "sub-bell-pepper"
+      },
+      {
+        "name": {
+          "ko": "강황가루",
+          "en": "Ground turmeric",
+          "ja": "ターメリックパウダー",
+          "zh": "姜黄粉",
+          "es": "Cúrcuma molida",
+          "fr": "Curcuma moulu"
+        },
+        "amount": "2g",
+        "tags": [],
+        "benefits": {
+          "ko": "커큐민 성분으로 잘 알려진 향신료로 색과 향을 더해요.",
+          "en": "A spice well known for its curcumin compound, adding color and aroma.",
+          "ja": "クルクミン成分でよく知られる香辛料で、色と香りを加えます。",
+          "zh": "以姜黄素成分闻名的香料,增添色泽与香气。",
+          "es": "Una especia conocida por su compuesto curcumina, que aporta color y aroma.",
+          "fr": "Une épice réputée pour sa curcumine, qui apporte couleur et arôme."
+        },
+        "pointTags": [
+          {
+            "ko": "향신료",
+            "en": "Spice",
+            "ja": "香辛料",
+            "zh": "香料",
+            "es": "Especia",
+            "fr": "Épice"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        },
+        "amount": "5ml",
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
+        },
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
+          }
+        ],
+        "substituteGroupId": "sub-olive-oil"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "두부를 으깨고 파프리카를 잘게 썬다.",
+          "en": "Crumble the tofu and finely dice the bell pepper.",
+          "ja": "豆腐を崩し、パプリカを細かく切る。",
+          "zh": "将豆腐压碎,彩椒切碎。",
+          "es": "Desmenuce el tofu y corte el pimiento en trozos pequeños.",
+          "fr": "Émiettez le tofu et coupez finement le poivron."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "팬에 올리브유를 두르고 파프리카를 볶는다.",
+          "en": "Heat olive oil in a pan and sauté the bell pepper.",
+          "ja": "フライパンにオリーブオイルを熱し、パプリカを炒める。",
+          "zh": "锅中倒入橄榄油,翻炒彩椒。",
+          "es": "Caliente el aceite de oliva en una sartén y saltee el pimiento.",
+          "fr": "Faites chauffer l'huile d'olive dans une poêle et faites revenir le poivron."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "으깬 두부와 강황가루를 넣고 함께 볶는다.",
+          "en": "Add the crumbled tofu and turmeric, and sauté together.",
+          "ja": "崩した豆腐とターメリックを加えて一緒に炒める。",
+          "zh": "加入压碎的豆腐和姜黄粉一起翻炒。",
+          "es": "Añada el tofu desmenuzado y la cúrcuma, y saltee todo junto.",
+          "fr": "Ajoutez le tofu émietté et le curcuma, puis faites revenir le tout."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-bellpepper-carrot-nut-salad",
+    "slug": "kr-bellpepper-carrot-nut-salad",
+    "title": {
+      "ko": "파프리카 당근 견과 샐러드",
+      "en": "Bell Pepper, Carrot & Nut Salad",
+      "ja": "パプリカとにんじん、ナッツのサラダ",
+      "zh": "彩椒胡萝卜坚果沙拉",
+      "es": "Ensalada de pimiento, zanahoria y frutos secos",
+      "fr": "Salade de poivron, carotte et noix"
+    },
+    "description": {
+      "ko": "파프리카와 당근에 아몬드와 올리브유를 곁들인, 비타민과 건강한 지방 중심의 샐러드입니다.",
+      "en": "Bell pepper and carrot with almonds and olive oil — a salad built around vitamins and healthy fat.",
+      "ja": "パプリカとにんじんにアーモンドとオリーブオイルを合わせた、ビタミンと良質な脂質中心のサラダです。",
+      "zh": "彩椒与胡萝卜搭配杏仁和橄榄油的沙拉,以维生素与健康脂肪为主。",
+      "es": "Pimiento y zanahoria con almendras y aceite de oliva — una ensalada centrada en vitaminas y grasas saludables.",
+      "fr": "Poivron et carotte avec amandes et huile d'olive — une salade riche en vitamines et en bonnes graisses."
+    },
+    "tags": [
+      "lunch",
+      "skin-hair"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "파프리카",
+          "en": "Bell pepper",
+          "ja": "パプリカ",
+          "zh": "彩椒",
+          "es": "Pimiento",
+          "fr": "Poivron"
+        },
+        "amount": "60g",
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "비타민C가 풍부한 색깔 있는 채소예요.",
+          "en": "A colorful vegetable rich in vitamin C.",
+          "ja": "ビタミンCが豊富な彩り野菜です。",
+          "zh": "富含维生素C的彩色蔬菜。",
+          "es": "Una verdura colorida rica en vitamina C.",
+          "fr": "Un légume coloré riche en vitamine C."
+        },
+        "pointTags": [
+          {
+            "ko": "비타민C",
+            "en": "Vitamin C",
+            "ja": "ビタミンC",
+            "zh": "维生素C",
+            "es": "Vitamina C",
+            "fr": "Vitamine C"
+          }
+        ],
+        "substituteGroupId": "sub-bell-pepper"
+      },
+      {
+        "name": {
+          "ko": "당근",
+          "en": "Carrot",
+          "ja": "にんじん",
+          "zh": "胡萝卜",
+          "es": "Zanahoria",
+          "fr": "Carotte"
+        },
+        "amount": "40g",
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "베타카로틴이 풍부해 주황색을 띠는 뿌리채소예요.",
+          "en": "Rich in beta-carotene, which gives it its orange color.",
+          "ja": "ベータカロテンが豊富でオレンジ色をした根菜です。",
+          "zh": "富含β-胡萝卜素,呈橙色的根茎类蔬菜。",
+          "es": "Raíz de color naranja rica en betacaroteno.",
+          "fr": "Une racine de couleur orange riche en bêta-carotène."
+        },
+        "pointTags": [
+          {
+            "ko": "베타카로틴",
+            "en": "Beta-Carotene",
+            "ja": "ベータカロテン",
+            "zh": "β-胡萝卜素",
+            "es": "Betacaroteno",
+            "fr": "Bêta-carotène"
+          }
+        ],
+        "substituteGroupId": "sub-carrot"
+      },
+      {
+        "name": {
+          "ko": "아몬드",
+          "en": "Almonds",
+          "ja": "アーモンド",
+          "zh": "杏仁",
+          "es": "Almendras",
+          "fr": "Amandes"
+        },
+        "amount": "15g",
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "비타민E와 불포화지방이 있는 견과류예요.",
+          "en": "A nut containing vitamin E and unsaturated fat.",
+          "ja": "ビタミンEと不飽和脂肪を含むナッツです。",
+          "zh": "含有维生素E和不饱和脂肪的坚果。",
+          "es": "Un fruto seco que contiene vitamina E y grasas insaturadas.",
+          "fr": "Un fruit à coque contenant de la vitamine E et des graisses insaturées."
+        },
+        "pointTags": [
+          {
+            "ko": "비타민E",
+            "en": "Vitamin E",
+            "ja": "ビタミンE",
+            "zh": "维生素E",
+            "es": "Vitamina E",
+            "fr": "Vitamine E"
+          }
+        ],
+        "substituteGroupId": "sub-almonds"
+      },
+      {
+        "name": {
+          "ko": "올리브유",
+          "en": "Olive oil",
+          "ja": "オリーブオイル",
+          "zh": "橄榄油",
+          "es": "Aceite de oliva",
+          "fr": "Huile d'olive"
+        },
+        "amount": "8ml",
+        "tags": [
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "불포화지방 비중이 높은 식물성 기름이에요.",
+          "en": "A plant-based oil with a high proportion of unsaturated fat.",
+          "ja": "不飽和脂肪の比率が高い植物性油です。",
+          "zh": "不饱和脂肪比例较高的植物油。",
+          "es": "Aceite vegetal con una alta proporción de grasas insaturadas.",
+          "fr": "Une huile végétale à forte proportion de graisses insaturées."
+        },
+        "pointTags": [
+          {
+            "ko": "불포화지방",
+            "en": "Unsaturated Fat",
+            "ja": "不飽和脂肪",
+            "zh": "不饱和脂肪",
+            "es": "Grasa insaturada",
+            "fr": "Graisse insaturée"
+          }
+        ],
+        "substituteGroupId": "sub-olive-oil"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "파프리카와 당근을 채썬다.",
+          "en": "Julienne the bell pepper and carrot.",
+          "ja": "パプリカとにんじんを千切りにする。",
+          "zh": "将彩椒和胡萝卜切成细丝。",
+          "es": "Corte el pimiento y la zanahoria en tiras finas.",
+          "fr": "Coupez le poivron et la carotte en fines lanières."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "그릇에 담고 아몬드를 올린다.",
+          "en": "Arrange in a bowl and top with almonds.",
+          "ja": "器に盛り、アーモンドをのせる。",
+          "zh": "装碗后放上杏仁。",
+          "es": "Coloque en un bol y cubra con las almendras.",
+          "fr": "Disposez dans un bol et garnissez d'amandes."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "올리브유를 뿌려 마무리한다.",
+          "en": "Finish by drizzling with olive oil.",
+          "ja": "オリーブオイルをかけて仕上げる。",
+          "zh": "最后淋上橄榄油即可。",
+          "es": "Termine rociando con aceite de oliva.",
+          "fr": "Terminez en arrosant d'huile d'olive."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-chicken-nut-brown-rice-bowl",
+    "slug": "kr-chicken-nut-brown-rice-bowl",
+    "title": {
+      "ko": "닭가슴살 견과 현미볼",
+      "en": "Chicken Breast & Nut Brown Rice Bowl",
+      "ja": "鶏むね肉とナッツの玄米ボウル",
+      "zh": "鸡胸肉坚果糙米碗",
+      "es": "Bol de arroz integral con pollo y frutos secos",
+      "fr": "Bol de riz complet au poulet et aux noix"
+    },
+    "description": {
+      "ko": "닭가슴살과 시금치, 아몬드를 현미밥에 올린, 매 끼니 단백질을 채우기 위한 근육 건강용 아침입니다.",
+      "en": "Chicken breast, spinach, and almonds over brown rice — a breakfast built to keep protein present at every meal.",
+      "ja": "鶏むね肉とほうれん草、アーモンドを玄米ご飯にのせた、毎食たんぱく質を満たすための朝食です。",
+      "zh": "鸡胸肉、菠菜与杏仁搭配糙米饭的早餐,旨在让每餐都摄入足够蛋白质。",
+      "es": "Pollo, espinaca y almendras sobre arroz integral — un desayuno diseñado para mantener proteína en cada comida.",
+      "fr": "Poulet, épinard et amandes sur riz complet — un petit-déjeuner conçu pour garder des protéines à chaque repas."
+    },
+    "tags": [
+      "breakfast",
+      "muscle-health"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "현미밥",
+          "en": "Cooked brown rice",
+          "ja": "玄米ご飯",
+          "zh": "糙米饭",
+          "es": "Arroz integral cocido",
+          "fr": "Riz complet cuit"
+        },
+        "amount": "100g",
+        "tags": [
+          "whole-grain"
+        ],
+        "benefits": {
+          "ko": "백미보다 식이섬유가 많이 남아있는 통곡물이에요.",
+          "en": "A whole grain that retains more fiber than white rice.",
+          "ja": "白米より食物繊維が多く残る全粒穀物です。",
+          "zh": "比白米保留更多膳食纤维的全谷物。",
+          "es": "Cereal integral que conserva más fibra que el arroz blanco.",
+          "fr": "Une céréale complète qui conserve plus de fibres que le riz blanc."
+        },
+        "pointTags": [
+          {
+            "ko": "식이섬유",
+            "en": "Fiber",
+            "ja": "食物繊維",
+            "zh": "膳食纤维",
+            "es": "Fibra",
+            "fr": "Fibres"
+          }
+        ],
+        "substituteGroupId": "sub-brown-rice"
+      },
+      {
+        "name": {
+          "ko": "닭가슴살",
+          "en": "Chicken breast",
+          "ja": "鶏むね肉",
+          "zh": "鸡胸肉",
+          "es": "Pechuga de pollo",
+          "fr": "Blanc de poulet"
+        },
+        "amount": "100g",
+        "tags": [
+          "poultry"
+        ],
+        "benefits": {
+          "ko": "지방이 적고 단백질이 풍부한 육류예요.",
+          "en": "A lean meat that's rich in protein.",
+          "ja": "脂肪が少なくたんぱく質が豊富な肉類です。",
+          "zh": "脂肪含量低、蛋白质丰富的肉类。",
+          "es": "Una carne magra y rica en proteína.",
+          "fr": "Une viande maigre et riche en protéines."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ],
+        "substituteGroupId": "sub-chicken-breast"
+      },
+      {
+        "name": {
+          "ko": "시금치",
+          "en": "Spinach",
+          "ja": "ほうれん草",
+          "zh": "菠菜",
+          "es": "Espinaca",
+          "fr": "Épinard"
+        },
+        "amount": "40g",
+        "tags": [
+          "leafy-green"
+        ],
+        "benefits": {
+          "ko": "철분과 엽산이 들어 있는 잎채소예요.",
+          "en": "A leafy green that contains iron and folate.",
+          "ja": "鉄分と葉酸を含む葉物野菜です。",
+          "zh": "含有铁和叶酸的叶菜。",
+          "es": "Verdura de hoja que contiene hierro y ácido fólico.",
+          "fr": "Un légume feuille qui contient du fer et de l'acide folique."
+        },
+        "pointTags": [
+          {
+            "ko": "철분",
+            "en": "Iron",
+            "ja": "鉄分",
+            "zh": "铁",
+            "es": "Hierro",
+            "fr": "Fer"
+          }
+        ],
+        "substituteGroupId": "sub-spinach"
+      },
+      {
+        "name": {
+          "ko": "아몬드",
+          "en": "Almonds",
+          "ja": "アーモンド",
+          "zh": "杏仁",
+          "es": "Almendras",
+          "fr": "Amandes"
+        },
+        "amount": "10g",
+        "tags": [
+          "nuts-seeds",
+          "healthy-fat"
+        ],
+        "benefits": {
+          "ko": "비타민E와 불포화지방이 있는 견과류예요.",
+          "en": "A nut containing vitamin E and unsaturated fat.",
+          "ja": "ビタミンEと不飽和脂肪を含むナッツです。",
+          "zh": "含有维生素E和不饱和脂肪的坚果。",
+          "es": "Un fruto seco que contiene vitamina E y grasas insaturadas.",
+          "fr": "Un fruit à coque contenant de la vitamine E et des graisses insaturées."
+        },
+        "pointTags": [
+          {
+            "ko": "비타민E",
+            "en": "Vitamin E",
+            "ja": "ビタミンE",
+            "zh": "维生素E",
+            "es": "Vitamina E",
+            "fr": "Vitamine E"
+          }
+        ],
+        "substituteGroupId": "sub-almonds"
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "닭가슴살을 삶아 결대로 찢는다.",
+          "en": "Boil the chicken breast and shred it.",
+          "ja": "鶏むね肉を茹でて手で裂く。",
+          "zh": "煮熟鸡胸肉后撕成丝。",
+          "es": "Hierva la pechuga de pollo y deshébrela.",
+          "fr": "Faites bouillir le blanc de poulet et effilochez-le."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "시금치를 데친다.",
+          "en": "Blanch the spinach.",
+          "ja": "ほうれん草をゆでる。",
+          "zh": "焯烫菠菜。",
+          "es": "Escalde la espinaca.",
+          "fr": "Blanchissez l'épinard."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "현미밥 위에 닭가슴살과 시금치를 올리고 아몬드를 뿌린다.",
+          "en": "Top the brown rice with the chicken and spinach, and sprinkle with almonds.",
+          "ja": "玄米ご飯の上に鶏むね肉とほうれん草をのせ、アーモンドをふりかける。",
+          "zh": "在糙米饭上放鸡胸肉和菠菜,撒上杏仁即可。",
+          "es": "Cubra el arroz integral con el pollo y la espinaca, y espolvoree con almendras.",
+          "fr": "Garnissez le riz complet de poulet et d'épinard, puis parsemez d'amandes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-konjac-tofu-vegetable-salad",
+    "slug": "kr-konjac-tofu-vegetable-salad",
+    "title": {
+      "ko": "곤약 두부 채소 샐러드",
+      "en": "Konjac & Tofu Vegetable Salad",
+      "ja": "こんにゃくと豆腐の野菜サラダ",
+      "zh": "魔芋豆腐蔬菜沙拉",
+      "es": "Ensalada de konjac, tofu y verduras",
+      "fr": "Salade de konjac, tofu et légumes"
+    },
+    "description": {
+      "ko": "곤약면과 두부에 오이를 곁들여 식초로 무친, 열량 부담이 적은 가벼운 샐러드입니다.",
+      "en": "Konjac noodles and tofu with cucumber in a vinegar dressing — a light salad with a low calorie burden.",
+      "ja": "こんにゃく麺と豆腐にきゅうりを添えて酢で和えた、カロリー負担の少ない軽いサラダです。",
+      "zh": "魔芋面与豆腐搭配黄瓜、以醋调味,热量负担较低的清爽沙拉。",
+      "es": "Fideos de konjac y tofu con pepino en un aliño de vinagre — una ensalada ligera y baja en calorías.",
+      "fr": "Nouilles de konjac et tofu avec du concombre dans une vinaigrette au vinaigre — une salade légère et peu calorique."
+    },
+    "tags": [
+      "lunch",
+      "weight-management"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "곤약면",
+          "en": "Konjac noodles",
+          "ja": "こんにゃく麺",
+          "zh": "魔芋面",
+          "es": "Fideos de konjac",
+          "fr": "Nouilles de konjac"
+        },
+        "amount": "150g",
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "열량이 매우 낮고 식이섬유가 있는 면이에요.",
+          "en": "A noodle that's very low in calories and contains fiber.",
+          "ja": "カロリーが非常に低く食物繊維を含む麺です。",
+          "zh": "热量极低且含有膳食纤维的面条。",
+          "es": "Un fideo muy bajo en calorías que contiene fibra.",
+          "fr": "Une nouille très pauvre en calories et riche en fibres."
+        },
+        "pointTags": [
+          {
+            "ko": "저칼로리",
+            "en": "Low-Calorie",
+            "ja": "低カロリー",
+            "zh": "低热量",
+            "es": "Baja en calorías",
+            "fr": "Faible en calories"
+          }
+        ]
+      },
+      {
+        "name": {
+          "ko": "두부",
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
+        },
+        "amount": "80g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "콩으로 만든 식물성 단백질 식품으로 포만감을 더해줘요.",
+          "en": "A plant-based protein food made from soybeans that adds satiety.",
+          "ja": "大豆から作られた植物性たんぱく質食品で、満腹感を加えます。",
+          "zh": "由大豆制成的植物蛋白食品,增添饱腹感。",
+          "es": "Un alimento de proteína vegetal hecho de soja que aporta saciedad.",
+          "fr": "Un aliment protéiné végétal à base de soja qui apporte de la satiété."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ],
+        "substituteGroupId": "sub-tofu"
+      },
+      {
+        "name": {
+          "ko": "오이",
+          "en": "Cucumber",
+          "ja": "きゅうり",
+          "zh": "黄瓜",
+          "es": "Pepino",
+          "fr": "Concombre"
+        },
+        "amount": "50g",
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "수분 함량이 높고 열량이 낮은 채소예요.",
+          "en": "A vegetable that's high in water content and low in calories.",
+          "ja": "水分が多く低カロリーな野菜です。",
+          "zh": "水分含量高、热量较低的蔬菜。",
+          "es": "Verdura con alto contenido de agua y baja en calorías.",
+          "fr": "Un légume à forte teneur en eau et pauvre en calories."
+        },
+        "pointTags": [
+          {
+            "ko": "저칼로리",
+            "en": "Low-Calorie",
+            "ja": "低カロリー",
+            "zh": "低热量",
+            "es": "Baja en calorías",
+            "fr": "Faible en calories"
+          }
+        ],
+        "substituteGroupId": "sub-cucumber"
+      },
+      {
+        "name": {
+          "ko": "식초",
+          "en": "Vinegar",
+          "ja": "酢",
+          "zh": "醋",
+          "es": "Vinagre",
+          "fr": "Vinaigre"
+        },
+        "amount": "10ml",
+        "tags": [],
+        "benefits": {
+          "ko": "소금이나 설탕 없이도 드레싱의 맛을 살려줘요.",
+          "en": "Brings out the dressing's flavor without any salt or sugar.",
+          "ja": "塩や砂糖を使わずにドレッシングの味を引き立てます。",
+          "zh": "无需盐或糖即可提升酱汁风味。",
+          "es": "Realza el sabor del aliño sin sal ni azúcar.",
+          "fr": "Rehausse la saveur de la vinaigrette sans sel ni sucre."
+        },
+        "pointTags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "곤약면을 끓는 물에 데쳐 헹군다.",
+          "en": "Blanch the konjac noodles in boiling water and rinse.",
+          "ja": "こんにゃく麺を熱湯でゆでてすすぐ。",
+          "zh": "将魔芋面用沸水焯烫后冲洗。",
+          "es": "Escalde los fideos de konjac en agua hirviendo y enjuáguelos.",
+          "fr": "Blanchissez les nouilles de konjac dans l'eau bouillante puis rincez-les."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "두부와 오이를 한입 크기로 썬다.",
+          "en": "Cut the tofu and cucumber into bite-sized pieces.",
+          "ja": "豆腐ときゅうりを一口大に切る。",
+          "zh": "将豆腐和黄瓜切成一口大小。",
+          "es": "Corte el tofu y el pepino en trozos del tamaño de un bocado.",
+          "fr": "Coupez le tofu et le concombre en bouchées."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "모든 재료를 그릇에 담고 식초를 뿌려 버무린다.",
+          "en": "Combine everything in a bowl and toss with the vinegar.",
+          "ja": "すべての材料を器に盛り、酢をかけて和える。",
+          "zh": "将所有食材装碗,淋上醋拌匀即可。",
+          "es": "Combine todo en un bol y mezcle con el vinagre.",
+          "fr": "Mélangez le tout dans un bol avec le vinaigre."
+        }
+      }
+    ]
+  },
+  {
+    "id": "kr-radish-tofu-clear-soup",
+    "slug": "kr-radish-tofu-clear-soup",
+    "title": {
+      "ko": "무 두부 맑은국",
+      "en": "Radish & Tofu Clear Soup",
+      "ja": "大根と豆腐の澄まし汁",
+      "zh": "萝卜豆腐清汤",
+      "es": "Sopa clara de rábano y tofu",
+      "fr": "Soupe claire au radis et au tofu"
+    },
+    "description": {
+      "ko": "무와 두부를 맑게 끓인, 소화가 편하고 가볍게 먹기 좋은 국입니다.",
+      "en": "Radish and tofu simmered in a clear broth — a soup that's easy to digest and light to eat.",
+      "ja": "大根と豆腐を澄まし汁で煮た、消化に優しく軽く食べられるスープです。",
+      "zh": "萝卜与豆腐煮成的清汤,易消化且清淡。",
+      "es": "Rábano y tofu cocidos en un caldo claro — una sopa fácil de digerir y ligera.",
+      "fr": "Radis et tofu mijotés dans un bouillon clair — une soupe légère et facile à digérer."
+    },
+    "tags": [
+      "breakfast",
+      "light-eating"
+    ],
+    "ingredients": [
+      {
+        "name": {
+          "ko": "무",
+          "en": "Daikon radish",
+          "ja": "大根",
+          "zh": "白萝卜",
+          "es": "Rábano daikon",
+          "fr": "Radis daikon"
+        },
+        "amount": "60g",
+        "tags": [
+          "vegetable"
+        ],
+        "benefits": {
+          "ko": "수분 함량이 높고 소화 효소가 들어 있다고 알려진 뿌리채소예요.",
+          "en": "A root vegetable known for its high water content and natural digestive enzymes.",
+          "ja": "水分が多く、消化酵素を含むとされる根菜です。",
+          "zh": "水分含量高,据说含有消化酶的根茎类蔬菜。",
+          "es": "Raíz conocida por su alto contenido de agua y sus enzimas digestivas naturales.",
+          "fr": "Une racine connue pour sa forte teneur en eau et ses enzymes digestives naturelles."
+        },
+        "pointTags": [
+          {
+            "ko": "소화 효소",
+            "en": "Digestive Enzymes",
+            "ja": "消化酵素",
+            "zh": "消化酶",
+            "es": "Enzimas digestivas",
+            "fr": "Enzymes digestives"
+          }
+        ],
+        "substituteGroupId": "sub-daikon-radish"
+      },
+      {
+        "name": {
+          "ko": "두부",
+          "en": "Firm tofu",
+          "ja": "木綿豆腐",
+          "zh": "老豆腐",
+          "es": "Tofu firme",
+          "fr": "Tofu ferme"
+        },
+        "amount": "60g",
+        "tags": [
+          "legume"
+        ],
+        "benefits": {
+          "ko": "가볍게 먹기 좋은 식물성 단백질 식품이에요.",
+          "en": "A plant-based protein food that's light and easy to eat.",
+          "ja": "軽く食べやすい植物性たんぱく質食品です。",
+          "zh": "清淡易入口的植物蛋白食品。",
+          "es": "Un alimento de proteína vegetal ligero y fácil de comer.",
+          "fr": "Un aliment protéiné végétal léger et facile à manger."
+        },
+        "pointTags": [
+          {
+            "ko": "단백질",
+            "en": "Protein",
+            "ja": "たんぱく質",
+            "zh": "蛋白质",
+            "es": "Proteína",
+            "fr": "Protéines"
+          }
+        ],
+        "substituteGroupId": "sub-tofu"
+      },
+      {
+        "name": {
+          "ko": "대파",
+          "en": "Green onion",
+          "ja": "長ねぎ",
+          "zh": "大葱",
+          "es": "Cebolleta",
+          "fr": "Oignon vert"
+        },
+        "amount": "10g",
+        "tags": [],
+        "benefits": {
+          "ko": "향을 더해주는 향신채예요.",
+          "en": "An aromatic that adds flavor.",
+          "ja": "香りを加える香味野菜です。",
+          "zh": "增添香气的调味蔬菜。",
+          "es": "Un aromático que aporta sabor.",
+          "fr": "Un aromate qui apporte de la saveur."
+        },
+        "pointTags": []
+      },
+      {
+        "name": {
+          "ko": "마늘",
+          "en": "Garlic",
+          "ja": "にんにく",
+          "zh": "大蒜",
+          "es": "Ajo",
+          "fr": "Ail"
+        },
+        "amount": "3g",
+        "tags": [],
+        "benefits": {
+          "ko": "향을 더해주는 향신채예요.",
+          "en": "An aromatic that adds flavor.",
+          "ja": "香りを加える香味野菜です。",
+          "zh": "增添香气的调味蔬菜。",
+          "es": "Un aromático que aporta sabor.",
+          "fr": "Un aromate qui apporte de la saveur."
+        },
+        "pointTags": []
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": {
+          "ko": "무를 얇게 썰어 물에 넣고 끓인다.",
+          "en": "Thinly slice the radish and simmer it in water.",
+          "ja": "大根を薄く切り、水に入れて煮る。",
+          "zh": "将萝卜切薄片,放入水中煮。",
+          "es": "Corte el rábano en rodajas finas y cuézalo en agua.",
+          "fr": "Coupez le radis en fines tranches et faites-le mijoter dans l'eau."
+        }
+      },
+      {
+        "order": 2,
+        "instruction": {
+          "ko": "두부를 썰어 넣고 마늘을 더한다.",
+          "en": "Add the sliced tofu and garlic.",
+          "ja": "切った豆腐を加え、にんにくを入れる。",
+          "zh": "加入切好的豆腐和大蒜。",
+          "es": "Añada el tofu cortado y el ajo.",
+          "fr": "Ajoutez le tofu coupé et l'ail."
+        }
+      },
+      {
+        "order": 3,
+        "instruction": {
+          "ko": "대파를 넣고 한소끔 더 끓인다.",
+          "en": "Add the green onion and simmer for a bit longer.",
+          "ja": "長ねぎを加えてもう少し煮る。",
+          "zh": "放入大葱,再煮一会儿即可。",
+          "es": "Añada la cebolleta y cueza un poco más.",
+          "fr": "Ajoutez l'oignon vert et laissez mijoter encore un peu."
+        }
+      }
+    ]
+  },
+  {
     "id": "it-greek-yogurt-nut-bowl",
     "slug": "it-greek-yogurt-nut-bowl",
     "title": {
