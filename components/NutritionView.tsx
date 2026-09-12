@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import FoodPickerModal from "@/components/FoodPickerModal";
+import MealNutrientHighlight from "@/components/MealNutrientHighlight";
 import NutritionCalendar from "@/components/NutritionCalendar";
 import NutritionSummaryCard from "@/components/NutritionSummaryCard";
 import { calculateTdee } from "@/lib/bmi";
@@ -134,8 +135,13 @@ export default function NutritionView({ locale }: NutritionViewProps) {
           return (
             <section key={mealType} className="flex flex-col gap-2">
               <div className="flex items-center justify-between">
-                <h2 className="text-sm font-bold text-zinc-800 dark:text-zinc-200">
+                <h2 className="flex items-baseline gap-2 text-sm font-bold text-zinc-800 dark:text-zinc-200">
                   {t.nutrition.mealLabels[mealType]}
+                  {mealEntries.length > 0 && (
+                    <span className="text-xs font-normal text-zinc-400">
+                      {Math.round(mealTotals.calories)} {t.nutrition.unitKcal}
+                    </span>
+                  )}
                 </h2>
                 <button
                   type="button"
@@ -183,14 +189,7 @@ export default function NutritionView({ locale }: NutritionViewProps) {
               {mealEntries.length === 0 ? (
                 <p className="text-xs text-zinc-400">{t.nutrition.emptyLogText}</p>
               ) : (
-                <NutritionSummaryCard
-                  totals={mealTotals}
-                  calorieTarget={mealTargets.calories}
-                  statuses={mealStatuses}
-                  locale={locale}
-                  compact
-                  title={t.nutrition.mealCaloriesLabel}
-                />
+                <MealNutrientHighlight statuses={mealStatuses} locale={locale} />
               )}
             </section>
           );
