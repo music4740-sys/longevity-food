@@ -1,8 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { addCustomFood, getCustomFoods } from "@/lib/customFoods";
 import { foods } from "@/lib/data";
 import { getDictionary, type Locale } from "@/lib/i18n";
+import { getFavorites, toggleFavorite } from "@/lib/nutritionFavorites";
+import { getRecents } from "@/lib/nutritionRecents";
 import { FOOD_GROUPS, GROUP_OF_CATEGORY, NUTRIENT_KEYS } from "@/types";
 import type { Food, FoodCategory, FoodGroup } from "@/types";
 
@@ -11,6 +14,8 @@ interface FoodPickerModalProps {
   onClose: () => void;
   onAdd: (foodId: string, servings: number) => void;
 }
+
+type Tab = "recent" | "favorites" | "category" | "custom";
 
 function matchesQuery(food: Food, query: string): boolean {
   const q = query.trim().toLowerCase();
@@ -31,19 +36,35 @@ function groupByCategory(items: Food[]): Map<FoodCategory, Food[]> {
   return map;
 }
 
+const EMPTY_CUSTOM_FORM = { name: "", servingLabel: "", calories: "", carbs: "", protein: "", fat: "" };
+
 export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerModalProps) {
   const t = getDictionary(locale);
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<Food | null>(null);
   const [servings, setServings] = useState(1);
   const [expandedGroups, setExpandedGroups] = useState<Set<FoodGroup>>(new Set());
+  const [tab, setTab] = useState<Tab>("recent");
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
+  const [recentIds, setRecentIds] = useState<string[]>([]);
+  const [customFoods, setCustomFoods] = useState<Food[]>([]);
+  const [customForm, setCustomForm] = useState(EMPTY_CUSTOM_FORM);
+
+  useEffect(() => {
+    setFavorites(getFavorites());
+    setRecentIds(getRecents());
+    setCustomFoods(getCustomFoods());
+  }, []);
+
+  const allFoods = useMemo(() => [...foods, ...customFoods], [customFoods]);
+  const foodById = useMemo(() => new Map(allFoods.map((food) => [food.id, food])), [allFoods]);
 
   const isSearching = query.trim().length > 0;
 
   const searchResults = useMemo(() => {
     if (!isSearching) return new Map<FoodCategory, Food[]>();
-    return groupByCategory(foods.filter((food) => matchesQuery(food, query)));
-  }, [query, isSearching]);
+    return groupByCategory(allFoods.filter((food) => matchesQuery(food, query)));
+  }, [query, isSearching, allFoods]);
   const totalSearchResults = [...searchResults.values()].reduce((sum, list) => sum + list.length, 0);
 
   const byGroup = useMemo(() => {
@@ -61,6 +82,9 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
     return map;
   }, []);
 
+  const recentFoods = recentIds.map((id) => foodById.get(id)).filter((food): food is Food => Boolean(food));
+  const favoriteFoods = allFoods.filter((food) => favorites.has(food.id));
+
   function toggleGroup(group: FoodGroup) {
     setExpandedGroups((prev) => {
       const next = new Set(prev);
@@ -71,6 +95,11 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
       }
       return next;
     });
+  }
+
+  function handleToggleFavorite(e: React.MouseEvent, foodId: string) {
+    e.stopPropagation();
+    setFavorites(toggleFavorite(foodId));
   }
 
   function handlePick(food: Food) {
@@ -84,13 +113,42 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
     onClose();
   }
 
+  function handleCustomSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    const calories = Number(customForm.calories) || 0;
+    const carbs = Number(customForm.carbs) || 0;
+    const protein = Number(customForm.protein) || 0;
+    const fat = Number(customForm.fat) || 0;
+    if (!customForm.name.trim() || calories <= 0) return;
+    const food = addCustomFood({
+      name: customForm.name.trim(),
+      servingLabel: customForm.servingLabel.trim(),
+      calories,
+      carbs,
+      protein,
+      fat,
+    });
+    setCustomFoods((prev) => [...prev, food]);
+    setCustomForm(EMPTY_CUSTOM_FORM);
+    handlePick(food);
+  }
+
   function renderFoodRow(food: Food) {
+    const isFavorite = favorites.has(food.id);
     return (
-      <li key={food.id}>
+      <li key={food.id} className="flex items-center gap-1 rounded-xl hover:bg-zinc-100 dark:hover:bg-zinc-900">
+        <button
+          type="button"
+          onClick={(e) => handleToggleFavorite(e, food.id)}
+          aria-label={isFavorite ? t.nutrition.favoriteRemove : t.nutrition.favoriteAdd}
+          className={`shrink-0 px-1.5 ${isFavorite ? "text-amber-500" : "text-zinc-300 dark:text-zinc-700"}`}
+        >
+          ★
+        </button>
         <button
           type="button"
           onClick={() => handlePick(food)}
-          className="flex w-full items-center gap-2 rounded-xl px-2 py-2 text-left text-sm text-zinc-800 hover:bg-zinc-100 dark:text-zinc-200 dark:hover:bg-zinc-900"
+          className="flex flex-1 items-center gap-2 py-2 pr-2 text-left text-sm text-zinc-800 dark:text-zinc-200"
         >
           <span className="text-lg">{food.emoji}</span>
           <span className="flex-1">{food.name}</span>
@@ -101,6 +159,13 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
       </li>
     );
   }
+
+  const TABS: { key: Tab; label: string }[] = [
+    { key: "recent", label: t.nutrition.tabRecent },
+    { key: "favorites", label: t.nutrition.tabFavorites },
+    { key: "category", label: t.nutrition.tabCategories },
+    { key: "custom", label: t.nutrition.tabCustom },
+  ];
 
   return (
     <div className="fixed inset-0 z-20 flex items-end justify-center bg-black/40 sm:items-center">
@@ -130,6 +195,26 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
                 className="w-full rounded-xl border border-zinc-300 bg-zinc-50 px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-emerald-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
               />
             </div>
+
+            {!isSearching && (
+              <div className="flex gap-1 overflow-x-auto px-4 pt-3">
+                {TABS.map(({ key, label }) => (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => setTab(key)}
+                    className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold ${
+                      tab === key
+                        ? "bg-emerald-600 text-white"
+                        : "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300"
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+            )}
+
             <div className="flex-1 overflow-y-auto px-4 py-3">
               {isSearching ? (
                 totalSearchResults === 0 ? (
@@ -144,6 +229,77 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
                     </div>
                   ))
                 )
+              ) : tab === "recent" ? (
+                recentFoods.length === 0 ? (
+                  <p className="py-8 text-center text-sm text-zinc-400">{t.nutrition.noRecentText}</p>
+                ) : (
+                  <ul className="flex flex-col gap-1">{recentFoods.map(renderFoodRow)}</ul>
+                )
+              ) : tab === "favorites" ? (
+                favoriteFoods.length === 0 ? (
+                  <p className="py-8 text-center text-sm text-zinc-400">{t.nutrition.noFavoritesText}</p>
+                ) : (
+                  <ul className="flex flex-col gap-1">{favoriteFoods.map(renderFoodRow)}</ul>
+                )
+              ) : tab === "custom" ? (
+                <form onSubmit={handleCustomSubmit} className="flex flex-col gap-3">
+                  <input
+                    type="text"
+                    required
+                    value={customForm.name}
+                    onChange={(e) => setCustomForm((f) => ({ ...f, name: e.target.value }))}
+                    placeholder={t.nutrition.customFoodNameLabel}
+                    className="w-full rounded-xl border border-zinc-300 bg-zinc-50 px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-emerald-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
+                  />
+                  <input
+                    type="text"
+                    value={customForm.servingLabel}
+                    onChange={(e) => setCustomForm((f) => ({ ...f, servingLabel: e.target.value }))}
+                    placeholder={t.nutrition.customFoodServingLabel}
+                    className="w-full rounded-xl border border-zinc-300 bg-zinc-50 px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-emerald-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
+                  />
+                  <div className="grid grid-cols-2 gap-2">
+                    <input
+                      type="number"
+                      min="0"
+                      required
+                      value={customForm.calories}
+                      onChange={(e) => setCustomForm((f) => ({ ...f, calories: e.target.value }))}
+                      placeholder={`${t.nutrition.caloriesLabel} (${t.nutrition.unitKcal})`}
+                      className="w-full rounded-xl border border-zinc-300 bg-zinc-50 px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-emerald-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
+                    />
+                    <input
+                      type="number"
+                      min="0"
+                      value={customForm.carbs}
+                      onChange={(e) => setCustomForm((f) => ({ ...f, carbs: e.target.value }))}
+                      placeholder={`${t.nutrition.nutrientLabels.carbs} (${t.nutrition.unitGram})`}
+                      className="w-full rounded-xl border border-zinc-300 bg-zinc-50 px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-emerald-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
+                    />
+                    <input
+                      type="number"
+                      min="0"
+                      value={customForm.protein}
+                      onChange={(e) => setCustomForm((f) => ({ ...f, protein: e.target.value }))}
+                      placeholder={`${t.nutrition.nutrientLabels.protein} (${t.nutrition.unitGram})`}
+                      className="w-full rounded-xl border border-zinc-300 bg-zinc-50 px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-emerald-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
+                    />
+                    <input
+                      type="number"
+                      min="0"
+                      value={customForm.fat}
+                      onChange={(e) => setCustomForm((f) => ({ ...f, fat: e.target.value }))}
+                      placeholder={`${t.nutrition.nutrientLabels.fat} (${t.nutrition.unitGram})`}
+                      className="w-full rounded-xl border border-zinc-300 bg-zinc-50 px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-emerald-500 focus:outline-none dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    className="rounded-xl bg-emerald-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
+                  >
+                    {t.nutrition.customFoodSubmitButton}
+                  </button>
+                </form>
               ) : (
                 FOOD_GROUPS.map((group) => {
                   const categories = byGroup.get(group)!;
