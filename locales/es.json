@@ -99,7 +99,8 @@
     "copiedFeedback": "Copiado",
     "aboutVersionLabel": "Versión",
     "aboutLanguagesLabel": "Idiomas disponibles",
-    "languageCountUnit": ""
+    "languageCountUnit": "",
+    "privacyPolicyLabel": "Política de privacidad"
   },
   "onboarding": {
     "stepProfileLabel": "Perfil",

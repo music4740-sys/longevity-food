@@ -99,7 +99,8 @@
     "copiedFeedback": "コピーしました",
     "aboutVersionLabel": "バージョン",
     "aboutLanguagesLabel": "対応言語",
-    "languageCountUnit": "つ"
+    "languageCountUnit": "つ",
+    "privacyPolicyLabel": "プライバシーポリシー"
   },
   "onboarding": {
     "stepProfileLabel": "プロフィール",

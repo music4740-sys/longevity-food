@@ -99,7 +99,8 @@
     "copiedFeedback": "已复制",
     "aboutVersionLabel": "版本",
     "aboutLanguagesLabel": "支持语言",
-    "languageCountUnit": "种"
+    "languageCountUnit": "种",
+    "privacyPolicyLabel": "隐私政策"
   },
   "onboarding": {
     "stepProfileLabel": "个人资料",

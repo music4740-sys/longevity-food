@@ -2,10 +2,12 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
+    id: "/",
     name: "International Longevity Food",
     short_name: "ILF",
     description: "세계 장수 지역의 식단, 7일 리셋 플랜",
     start_url: "/",
+    scope: "/",
     display: "standalone",
     background_color: "#0a0f16",
     theme_color: "#0d1620",

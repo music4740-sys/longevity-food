@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CopyAccountButton from "@/components/CopyAccountButton";
 import LanguageToggle from "@/components/LanguageToggle";
 import { getDictionary, LOCALES, type Locale } from "@/lib/i18n";
@@ -126,6 +127,20 @@ export default async function SettingsPage({ params }: PageProps<"/[locale]/sett
                 {t.settings.languageCountUnit}
               </span>
             </div>
+            <Link
+              href={`/${locale}/privacy`}
+              className="flex items-center gap-3 px-4 py-3 hover:bg-zinc-50 dark:hover:bg-zinc-800"
+            >
+              <span className="w-5 shrink-0 text-center text-sm" aria-hidden>
+                🔒
+              </span>
+              <span className="flex-1 text-sm font-medium text-zinc-900 dark:text-zinc-50">
+                {t.settings.privacyPolicyLabel}
+              </span>
+              <span className="text-zinc-300 dark:text-zinc-600" aria-hidden>
+                ›
+              </span>
+            </Link>
           </div>
         </section>
       </main>

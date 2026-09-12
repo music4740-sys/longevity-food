@@ -99,7 +99,8 @@
     "copiedFeedback": "복사됨",
     "aboutVersionLabel": "버전",
     "aboutLanguagesLabel": "지원 언어",
-    "languageCountUnit": "개"
+    "languageCountUnit": "개",
+    "privacyPolicyLabel": "개인정보처리방침"
   },
   "onboarding": {
     "stepProfileLabel": "프로필",
