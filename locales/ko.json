@@ -179,8 +179,8 @@
     "added-sugar": "첨가당"
   },
   "nutrition": {
-    "tabLabel": "영양체크",
-    "pageTitle": "영양체크",
+    "tabLabel": "일일 건강체크",
+    "pageTitle": "일일 건강체크",
     "dateToday": "오늘",
     "dateYesterday": "어제",
     "dateTomorrow": "내일",
@@ -288,6 +288,19 @@
     },
     "calendarToggle": "달력 보기",
     "calendarClose": "달력 닫기",
-    "mealCaloriesLabel": "끼니 칼로리"
+    "mealCaloriesLabel": "끼니 칼로리",
+    "healthChecklist": {
+      "title": "오늘의 건강 체크리스트",
+      "items": {
+        "sleep": { "title": "수면 패턴 유지", "subtitle": "일 7~8시간 딥슬립 시간 확보" },
+        "hydration": { "title": "충분한 수분 섭취", "subtitle": "일 1.5~2L, 순수 물 위주" },
+        "exercise": { "title": "중강도 운동", "subtitle": "주 150분 목표 (유산소·근력)" },
+        "nutritionBalance": { "title": "영양 균형 및 식단 조절", "subtitle": "채소·단백질 비율 늘리기" },
+        "sedentary": { "title": "좌식 시간 최소화", "subtitle": "1시간마다 5분 스트레칭" },
+        "checkup": { "title": "정기 건강검진", "subtitle": "연 1회 검진 계획/준비" },
+        "noSmokingDrinking": { "title": "금연 및 절주", "subtitle": "음주량 제한 및 비흡연" },
+        "mentalCare": { "title": "멘탈 케어", "subtitle": "하루 10분 명상·완전한 휴식" }
+      }
+    }
   }
 }

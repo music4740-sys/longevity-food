@@ -179,8 +179,8 @@
     "added-sugar": "添加糖"
   },
   "nutrition": {
-    "tabLabel": "营养检查",
-    "pageTitle": "营养检查",
+    "tabLabel": "每日健康检查",
+    "pageTitle": "每日健康检查",
     "dateToday": "今天",
     "dateYesterday": "昨天",
     "dateTomorrow": "明天",
@@ -288,6 +288,19 @@
     },
     "calendarToggle": "查看日历",
     "calendarClose": "关闭日历",
-    "mealCaloriesLabel": "该餐卡路里"
+    "mealCaloriesLabel": "该餐卡路里",
+    "healthChecklist": {
+      "title": "今日健康检查清单",
+      "items": {
+        "sleep": { "title": "保持睡眠规律", "subtitle": "每天7~8小时深度睡眠" },
+        "hydration": { "title": "充分补水", "subtitle": "每天1.5~2L,以白水为主" },
+        "exercise": { "title": "中等强度运动", "subtitle": "每周150分钟目标(有氧·力量)" },
+        "nutritionBalance": { "title": "营养均衡与饮食调整", "subtitle": "提高蔬菜·蛋白质比例" },
+        "sedentary": { "title": "减少久坐时间", "subtitle": "每小时活动拉伸5分钟" },
+        "checkup": { "title": "定期体检", "subtitle": "每年1次体检计划/准备" },
+        "noSmokingDrinking": { "title": "戒烟限酒", "subtitle": "限制饮酒并戒烟" },
+        "mentalCare": { "title": "心理调节", "subtitle": "每天10分钟冥想·充分休息" }
+      }
+    }
   }
 }

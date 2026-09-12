@@ -179,8 +179,8 @@
     "added-sugar": "Azúcar añadida"
   },
   "nutrition": {
-    "tabLabel": "Nutrición",
-    "pageTitle": "Control nutricional",
+    "tabLabel": "Control de salud diario",
+    "pageTitle": "Control de salud diario",
     "dateToday": "Hoy",
     "dateYesterday": "Ayer",
     "dateTomorrow": "Mañana",
@@ -288,6 +288,19 @@
     },
     "calendarToggle": "Ver calendario",
     "calendarClose": "Cerrar calendario",
-    "mealCaloriesLabel": "Calorías de la comida"
+    "mealCaloriesLabel": "Calorías de la comida",
+    "healthChecklist": {
+      "title": "Lista de salud de hoy",
+      "items": {
+        "sleep": { "title": "Mantener el horario de sueño", "subtitle": "7-8 horas de sueño profundo al día" },
+        "hydration": { "title": "Hidratación suficiente", "subtitle": "1.5-2L al día, principalmente agua" },
+        "exercise": { "title": "Ejercicio moderado", "subtitle": "Meta de 150 min/semana (cardio + fuerza)" },
+        "nutritionBalance": { "title": "Equilibrio nutricional", "subtitle": "Más verduras y proteína" },
+        "sedentary": { "title": "Reducir el sedentarismo", "subtitle": "Estirar 5 min cada hora" },
+        "checkup": { "title": "Chequeo médico regular", "subtitle": "Planificar un chequeo anual" },
+        "noSmokingDrinking": { "title": "No fumar, limitar el alcohol", "subtitle": "Limitar el alcohol y no fumar" },
+        "mentalCare": { "title": "Cuidado mental", "subtitle": "10 min de meditación o descanso pleno al día" }
+      }
+    }
   }
 }

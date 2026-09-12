@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import FoodPickerModal from "@/components/FoodPickerModal";
+import HealthChecklist from "@/components/HealthChecklist";
 import MealNutrientHighlight from "@/components/MealNutrientHighlight";
 import NutritionCalendar from "@/components/NutritionCalendar";
 import NutritionSummaryBar from "@/components/NutritionSummaryBar";
@@ -186,6 +187,8 @@ export default function NutritionView({ locale }: NutritionViewProps) {
               </section>
             );
           })}
+
+          <HealthChecklist dateKey={dateKey} locale={locale} />
 
           <h2 className="text-sm font-semibold text-zinc-500 dark:text-zinc-400">
             {t.nutrition.detailReportTitle}

@@ -179,8 +179,8 @@
     "added-sugar": "添加糖"
   },
   "nutrition": {
-    "tabLabel": "栄養チェック",
-    "pageTitle": "栄養チェック",
+    "tabLabel": "毎日の健康チェック",
+    "pageTitle": "毎日の健康チェック",
     "dateToday": "今日",
     "dateYesterday": "昨日",
     "dateTomorrow": "明日",
@@ -288,6 +288,19 @@
     },
     "calendarToggle": "カレンダー表示",
     "calendarClose": "カレンダーを閉じる",
-    "mealCaloriesLabel": "食事別カロリー"
+    "mealCaloriesLabel": "食事別カロリー",
+    "healthChecklist": {
+      "title": "今日の健康チェックリスト",
+      "items": {
+        "sleep": { "title": "睡眠パターンの維持", "subtitle": "1日7〜8時間の深い睡眠を確保" },
+        "hydration": { "title": "十分な水分補給", "subtitle": "1日1.5〜2L、水を中心に" },
+        "exercise": { "title": "中強度の運動", "subtitle": "週150分目標(有酸素・筋トレ)" },
+        "nutritionBalance": { "title": "栄養バランスの調整", "subtitle": "野菜・たんぱく質の比率を増やす" },
+        "sedentary": { "title": "座りっぱなしを減らす", "subtitle": "1時間ごとに5分ストレッチ" },
+        "checkup": { "title": "定期健康診断", "subtitle": "年1回の受診計画/準備" },
+        "noSmokingDrinking": { "title": "禁煙・節酒", "subtitle": "飲酒量の制限と禁煙" },
+        "mentalCare": { "title": "メンタルケア", "subtitle": "1日10分の瞑想・完全な休息" }
+      }
+    }
   }
 }

@@ -179,8 +179,8 @@
     "added-sugar": "Added Sugar"
   },
   "nutrition": {
-    "tabLabel": "Nutrition",
-    "pageTitle": "Nutrition Check",
+    "tabLabel": "Daily Health Check",
+    "pageTitle": "Daily Health Check",
     "dateToday": "Today",
     "dateYesterday": "Yesterday",
     "dateTomorrow": "Tomorrow",
@@ -288,6 +288,19 @@
     },
     "calendarToggle": "View calendar",
     "calendarClose": "Close calendar",
-    "mealCaloriesLabel": "Meal calories"
+    "mealCaloriesLabel": "Meal calories",
+    "healthChecklist": {
+      "title": "Today's Health Checklist",
+      "items": {
+        "sleep": { "title": "Maintain sleep schedule", "subtitle": "Aim for 7-8 hours of deep sleep" },
+        "hydration": { "title": "Drink enough water", "subtitle": "1.5-2L a day, mostly plain water" },
+        "exercise": { "title": "Moderate exercise", "subtitle": "150 min/week goal (cardio + strength)" },
+        "nutritionBalance": { "title": "Balanced nutrition", "subtitle": "More vegetables and protein" },
+        "sedentary": { "title": "Minimize sitting time", "subtitle": "Stretch 5 min every hour" },
+        "checkup": { "title": "Regular checkup", "subtitle": "Plan/schedule a yearly checkup" },
+        "noSmokingDrinking": { "title": "No smoking, limit alcohol", "subtitle": "Limit drinking, avoid smoking" },
+        "mentalCare": { "title": "Mental care", "subtitle": "10 min of meditation or full rest daily" }
+      }
+    }
   }
 }

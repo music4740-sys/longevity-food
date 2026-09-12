@@ -179,8 +179,8 @@
     "added-sugar": "Sucre ajouté"
   },
   "nutrition": {
-    "tabLabel": "Nutrition",
-    "pageTitle": "Bilan nutritionnel",
+    "tabLabel": "Bilan de santé quotidien",
+    "pageTitle": "Bilan de santé quotidien",
     "dateToday": "Aujourd'hui",
     "dateYesterday": "Hier",
     "dateTomorrow": "Demain",
@@ -288,6 +288,19 @@
     },
     "calendarToggle": "Voir le calendrier",
     "calendarClose": "Fermer le calendrier",
-    "mealCaloriesLabel": "Calories du repas"
+    "mealCaloriesLabel": "Calories du repas",
+    "healthChecklist": {
+      "title": "Liste de santé du jour",
+      "items": {
+        "sleep": { "title": "Maintenir un rythme de sommeil", "subtitle": "Viser 7-8 h de sommeil profond" },
+        "hydration": { "title": "Boire assez d'eau", "subtitle": "1,5-2L par jour, surtout de l'eau" },
+        "exercise": { "title": "Exercice modéré", "subtitle": "Objectif 150 min/semaine (cardio + force)" },
+        "nutritionBalance": { "title": "Équilibre nutritionnel", "subtitle": "Plus de légumes et de protéines" },
+        "sedentary": { "title": "Réduire la sédentarité", "subtitle": "S'étirer 5 min chaque heure" },
+        "checkup": { "title": "Bilan de santé régulier", "subtitle": "Planifier un bilan annuel" },
+        "noSmokingDrinking": { "title": "Ne pas fumer, limiter l'alcool", "subtitle": "Limiter l'alcool, éviter de fumer" },
+        "mentalCare": { "title": "Soin mental", "subtitle": "10 min de méditation ou repos complet par jour" }
+      }
+    }
   }
 }
