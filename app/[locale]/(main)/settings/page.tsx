@@ -31,7 +31,7 @@ export default async function SettingsPage({ params }: PageProps<"/[locale]/sett
           <div aria-hidden className="absolute inset-0 -z-10" style={HERO_DOT_PATTERN} />
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-white/10 text-xl ring-1 ring-inset ring-white/15">
-              🌿
+              🧬
             </div>
             <div className="min-w-0">
               <p className="truncate text-sm font-bold text-emerald-50">{t.common.appName}</p>
