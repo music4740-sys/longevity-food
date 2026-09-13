@@ -3,8 +3,8 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "REPLACE_WITH_YOUR_ANDROID_PACKAGE_NAME",
-      "sha256_cert_fingerprints": ["REPLACE_WITH_YOUR_APP_SHA256_FINGERPRINT"]
+      "package_name": "app.vercel.longevity_food_seven.twa",
+      "sha256_cert_fingerprints": ["ED:91:51:0F:F9:23:2F:D3:60:F4:3A:C0:C3:82:24:93:87:FA:A8:0B:9E:8C:99:26:6A:A3:3F:20:C2:A1:0D:3C"]
     }
   }
 ]
