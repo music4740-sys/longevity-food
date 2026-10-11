@@ -117,6 +117,111 @@
       "sodium": 3,
       "calcium": 20,
       "iron": 1.2
+    },
+    "aliases": [
+      "잡곡"
+    ]
+  },
+  {
+    "id": "rice-multigrain-rice",
+    "category": "rice",
+    "name": "잡곡밥",
+    "aliases": [
+      "혼합곡밥",
+      "멀티그레인",
+      "잡곡"
+    ],
+    "emoji": "🍚",
+    "servingLabel": "1공기",
+    "servingGrams": 210,
+    "nutrients": {
+      "calories": 310,
+      "carbs": 65,
+      "sugar": 0.4,
+      "protein": 8.4,
+      "fat": 1.6,
+      "saturatedFat": 0.3,
+      "fiber": 3.8,
+      "sodium": 4,
+      "calcium": 17,
+      "iron": 1.4
+    }
+  },
+  {
+    "id": "rice-oat-multigrain",
+    "category": "rice",
+    "name": "귀리잡곡밥",
+    "aliases": [
+      "귀리밥",
+      "오트밥",
+      "잡곡밥",
+      "잡곡"
+    ],
+    "emoji": "🍚",
+    "servingLabel": "1공기",
+    "servingGrams": 210,
+    "nutrients": {
+      "calories": 305,
+      "carbs": 62,
+      "sugar": 0.4,
+      "protein": 9,
+      "fat": 2.2,
+      "saturatedFat": 0.4,
+      "fiber": 5.0,
+      "sodium": 4,
+      "calcium": 20,
+      "iron": 1.5
+    }
+  },
+  {
+    "id": "rice-lentil-multigrain",
+    "category": "rice",
+    "name": "렌틸콩잡곡밥",
+    "aliases": [
+      "렌즈콩밥",
+      "렌틸콩밥",
+      "잡곡밥",
+      "잡곡"
+    ],
+    "emoji": "🍚",
+    "servingLabel": "1공기",
+    "servingGrams": 210,
+    "nutrients": {
+      "calories": 315,
+      "carbs": 61,
+      "sugar": 0.6,
+      "protein": 11,
+      "fat": 1.6,
+      "saturatedFat": 0.3,
+      "fiber": 6.0,
+      "sodium": 5,
+      "calcium": 25,
+      "iron": 2.6
+    }
+  },
+  {
+    "id": "rice-quinoa-multigrain",
+    "category": "rice",
+    "name": "퀴노아잡곡밥",
+    "aliases": [
+      "퀴노아밥",
+      "잡곡밥",
+      "잡곡"
+    ],
+    "emoji": "🍚",
+    "servingLabel": "1공기",
+    "servingGrams": 210,
+    "nutrients": {
+      "calories": 310,
+      "carbs": 62,
+      "sugar": 0.5,
+      "protein": 9.5,
+      "fat": 2.2,
+      "saturatedFat": 0.3,
+      "fiber": 4.5,
+      "sodium": 4,
+      "calcium": 22,
+      "iron": 2.0
     }
   },
   {
@@ -5879,6 +5984,893 @@
       "sodium": 0,
       "calcium": 1,
       "iron": 0
+    }
+  },
+  {
+    "id": "rice-bibimbap",
+    "category": "rice",
+    "name": "비빔밥",
+    "aliases": [
+      "돌솥비빔밥"
+    ],
+    "emoji": "🍲",
+    "servingLabel": "1그릇",
+    "servingGrams": 500,
+    "nutrients": {
+      "calories": 600,
+      "carbs": 100,
+      "sugar": 8,
+      "protein": 20,
+      "fat": 14,
+      "saturatedFat": 3,
+      "fiber": 7,
+      "sodium": 1100,
+      "calcium": 120,
+      "iron": 4
+    }
+  },
+  {
+    "id": "rice-shrimp-fried-rice",
+    "category": "rice",
+    "name": "새우볶음밥",
+    "aliases": [
+      "볶음밥"
+    ],
+    "emoji": "🍤",
+    "servingLabel": "1접시",
+    "servingGrams": 400,
+    "nutrients": {
+      "calories": 620,
+      "carbs": 90,
+      "sugar": 3,
+      "protein": 20,
+      "fat": 20,
+      "saturatedFat": 4,
+      "fiber": 2,
+      "sodium": 1500,
+      "calcium": 60,
+      "iron": 2
+    }
+  },
+  {
+    "id": "rice-curry-rice",
+    "category": "rice",
+    "name": "카레라이스",
+    "aliases": [
+      "카레",
+      "카레밥"
+    ],
+    "emoji": "🍛",
+    "servingLabel": "1그릇",
+    "servingGrams": 450,
+    "nutrients": {
+      "calories": 680,
+      "carbs": 105,
+      "sugar": 8,
+      "protein": 18,
+      "fat": 20,
+      "saturatedFat": 8,
+      "fiber": 5,
+      "sodium": 1200,
+      "calcium": 70,
+      "iron": 3
+    }
+  },
+  {
+    "id": "rice-hoedeopbap",
+    "category": "rice",
+    "name": "회덮밥",
+    "aliases": [
+      "물회덮밥"
+    ],
+    "emoji": "🍣",
+    "servingLabel": "1그릇",
+    "servingGrams": 450,
+    "nutrients": {
+      "calories": 560,
+      "carbs": 90,
+      "sugar": 12,
+      "protein": 25,
+      "fat": 10,
+      "saturatedFat": 2,
+      "fiber": 5,
+      "sodium": 1300,
+      "calcium": 80,
+      "iron": 2.5
+    }
+  },
+  {
+    "id": "guk-doenjang-guk",
+    "category": "guk",
+    "name": "된장국",
+    "aliases": [
+      "시금치된장국",
+      "토장국"
+    ],
+    "emoji": "🍲",
+    "servingLabel": "1그릇",
+    "servingGrams": 300,
+    "nutrients": {
+      "calories": 60,
+      "carbs": 6,
+      "sugar": 1.5,
+      "protein": 5,
+      "fat": 2,
+      "saturatedFat": 0.4,
+      "fiber": 2,
+      "sodium": 900,
+      "calcium": 60,
+      "iron": 1.5
+    }
+  },
+  {
+    "id": "guk-soegogi-mu-guk",
+    "category": "guk",
+    "name": "소고기무국",
+    "aliases": [
+      "무국",
+      "쇠고기뭇국"
+    ],
+    "emoji": "🍲",
+    "servingLabel": "1그릇",
+    "servingGrams": 350,
+    "nutrients": {
+      "calories": 90,
+      "carbs": 5,
+      "sugar": 2,
+      "protein": 9,
+      "fat": 4,
+      "saturatedFat": 1.5,
+      "fiber": 1.5,
+      "sodium": 950,
+      "calcium": 40,
+      "iron": 1.5
+    }
+  },
+  {
+    "id": "guk-eomuk-tang",
+    "category": "guk",
+    "name": "어묵탕",
+    "aliases": [
+      "오뎅탕",
+      "어묵국"
+    ],
+    "emoji": "🍢",
+    "servingLabel": "1그릇",
+    "servingGrams": 400,
+    "nutrients": {
+      "calories": 140,
+      "carbs": 14,
+      "sugar": 5,
+      "protein": 10,
+      "fat": 5,
+      "saturatedFat": 1,
+      "fiber": 1,
+      "sodium": 1300,
+      "calcium": 60,
+      "iron": 1
+    }
+  },
+  {
+    "id": "guk-tteokguk",
+    "category": "guk",
+    "name": "떡국",
+    "aliases": [
+      "떡만두국"
+    ],
+    "emoji": "🍲",
+    "servingLabel": "1그릇",
+    "servingGrams": 600,
+    "nutrients": {
+      "calories": 480,
+      "carbs": 85,
+      "sugar": 3,
+      "protein": 18,
+      "fat": 7,
+      "saturatedFat": 2,
+      "fiber": 2,
+      "sodium": 1500,
+      "calcium": 40,
+      "iron": 2.5
+    }
+  },
+  {
+    "id": "guk-mandu-guk",
+    "category": "guk",
+    "name": "만둣국",
+    "aliases": [
+      "만두국"
+    ],
+    "emoji": "🥟",
+    "servingLabel": "1그릇",
+    "servingGrams": 600,
+    "nutrients": {
+      "calories": 520,
+      "carbs": 70,
+      "sugar": 3,
+      "protein": 22,
+      "fat": 16,
+      "saturatedFat": 5,
+      "fiber": 3,
+      "sodium": 1600,
+      "calcium": 70,
+      "iron": 3
+    }
+  },
+  {
+    "id": "guk-gomtang",
+    "category": "guk",
+    "name": "곰탕",
+    "aliases": [
+      "사골국",
+      "곰국"
+    ],
+    "emoji": "🍲",
+    "servingLabel": "1그릇",
+    "servingGrams": 500,
+    "nutrients": {
+      "calories": 250,
+      "carbs": 3,
+      "sugar": 0,
+      "protein": 28,
+      "fat": 14,
+      "saturatedFat": 6,
+      "fiber": 0,
+      "sodium": 1100,
+      "calcium": 40,
+      "iron": 2
+    }
+  },
+  {
+    "id": "guk-sundae-guk",
+    "category": "guk",
+    "name": "순댓국",
+    "aliases": [
+      "순대국"
+    ],
+    "emoji": "🍲",
+    "servingLabel": "1그릇",
+    "servingGrams": 600,
+    "nutrients": {
+      "calories": 400,
+      "carbs": 15,
+      "sugar": 1,
+      "protein": 28,
+      "fat": 24,
+      "saturatedFat": 8,
+      "fiber": 2,
+      "sodium": 1700,
+      "calcium": 60,
+      "iron": 5
+    }
+  },
+  {
+    "id": "guk-haejang-guk",
+    "category": "guk",
+    "name": "해장국",
+    "aliases": [
+      "뼈해장국",
+      "선지해장국"
+    ],
+    "emoji": "🍲",
+    "servingLabel": "1그릇",
+    "servingGrams": 600,
+    "nutrients": {
+      "calories": 350,
+      "carbs": 12,
+      "sugar": 2,
+      "protein": 24,
+      "fat": 20,
+      "saturatedFat": 7,
+      "fiber": 3,
+      "sodium": 1800,
+      "calcium": 80,
+      "iron": 4
+    }
+  },
+  {
+    "id": "banchan-sukju-namul",
+    "category": "banchan",
+    "name": "숙주나물",
+    "aliases": [
+      "숙주무침"
+    ],
+    "emoji": "🌱",
+    "servingLabel": "1접시",
+    "servingGrams": 70,
+    "nutrients": {
+      "calories": 25,
+      "carbs": 4,
+      "sugar": 1,
+      "protein": 2.5,
+      "fat": 0.5,
+      "saturatedFat": 0.1,
+      "fiber": 1.5,
+      "sodium": 200,
+      "calcium": 20,
+      "iron": 0.7
+    }
+  },
+  {
+    "id": "banchan-gosari-namul",
+    "category": "banchan",
+    "name": "고사리나물",
+    "aliases": [
+      "고사리볶음"
+    ],
+    "emoji": "🌿",
+    "servingLabel": "1접시",
+    "servingGrams": 70,
+    "nutrients": {
+      "calories": 40,
+      "carbs": 5,
+      "sugar": 1,
+      "protein": 2.5,
+      "fat": 2,
+      "saturatedFat": 0.3,
+      "fiber": 3,
+      "sodium": 220,
+      "calcium": 30,
+      "iron": 1
+    }
+  },
+  {
+    "id": "banchan-gaji-namul",
+    "category": "banchan",
+    "name": "가지나물",
+    "aliases": [
+      "가지무침",
+      "가지볶음"
+    ],
+    "emoji": "🍆",
+    "servingLabel": "1접시",
+    "servingGrams": 70,
+    "nutrients": {
+      "calories": 35,
+      "carbs": 5,
+      "sugar": 2.5,
+      "protein": 1,
+      "fat": 1.5,
+      "saturatedFat": 0.2,
+      "fiber": 2.5,
+      "sodium": 200,
+      "calcium": 15,
+      "iron": 0.4
+    }
+  },
+  {
+    "id": "banchan-aehobak-bokkeum",
+    "category": "banchan",
+    "name": "애호박볶음",
+    "aliases": [
+      "호박볶음"
+    ],
+    "emoji": "🥒",
+    "servingLabel": "1접시",
+    "servingGrams": 80,
+    "nutrients": {
+      "calories": 55,
+      "carbs": 5,
+      "sugar": 3,
+      "protein": 1.5,
+      "fat": 3.5,
+      "saturatedFat": 0.5,
+      "fiber": 1.5,
+      "sodium": 230,
+      "calcium": 20,
+      "iron": 0.5
+    }
+  },
+  {
+    "id": "banchan-gamja-bokkeum",
+    "category": "banchan",
+    "name": "감자볶음",
+    "aliases": [
+      "감자채볶음"
+    ],
+    "emoji": "🥔",
+    "servingLabel": "1접시",
+    "servingGrams": 100,
+    "nutrients": {
+      "calories": 90,
+      "carbs": 14,
+      "sugar": 2,
+      "protein": 2,
+      "fat": 3.5,
+      "saturatedFat": 0.5,
+      "fiber": 1.8,
+      "sodium": 250,
+      "calcium": 12,
+      "iron": 0.6
+    }
+  },
+  {
+    "id": "banchan-seasoned-gim",
+    "category": "banchan",
+    "name": "조미김",
+    "aliases": [
+      "김",
+      "구운김",
+      "김구이",
+      "김자반"
+    ],
+    "emoji": "🟩",
+    "servingLabel": "1봉(5g)",
+    "servingGrams": 5,
+    "nutrients": {
+      "calories": 28,
+      "carbs": 1.5,
+      "sugar": 0.2,
+      "protein": 1.4,
+      "fat": 2,
+      "saturatedFat": 0.4,
+      "fiber": 1,
+      "sodium": 90,
+      "calcium": 12,
+      "iron": 0.6
+    }
+  },
+  {
+    "id": "seafood-jogi-gui",
+    "category": "seafood",
+    "name": "조기구이",
+    "aliases": [
+      "생선구이"
+    ],
+    "emoji": "🐟",
+    "servingLabel": "1마리",
+    "servingGrams": 80,
+    "nutrients": {
+      "calories": 150,
+      "carbs": 0,
+      "sugar": 0,
+      "protein": 17,
+      "fat": 9,
+      "saturatedFat": 2,
+      "fiber": 0,
+      "sodium": 400,
+      "calcium": 30,
+      "iron": 1
+    }
+  },
+  {
+    "id": "seafood-galchi-gui",
+    "category": "seafood",
+    "name": "갈치구이",
+    "aliases": [
+      "생선구이"
+    ],
+    "emoji": "🐟",
+    "servingLabel": "1토막",
+    "servingGrams": 100,
+    "nutrients": {
+      "calories": 200,
+      "carbs": 0,
+      "sugar": 0,
+      "protein": 18,
+      "fat": 14,
+      "saturatedFat": 3.5,
+      "fiber": 0,
+      "sodium": 350,
+      "calcium": 35,
+      "iron": 1
+    }
+  },
+  {
+    "id": "meat-suyuk",
+    "category": "meat",
+    "name": "수육",
+    "aliases": [
+      "돼지수육",
+      "보쌈고기"
+    ],
+    "emoji": "🥩",
+    "servingLabel": "1인분",
+    "servingGrams": 150,
+    "nutrients": {
+      "calories": 400,
+      "carbs": 0,
+      "sugar": 0,
+      "protein": 30,
+      "fat": 31,
+      "saturatedFat": 11,
+      "fiber": 0,
+      "sodium": 150,
+      "calcium": 10,
+      "iron": 1.5
+    }
+  },
+  {
+    "id": "meat-deungsim-gui",
+    "category": "meat",
+    "name": "등심구이",
+    "aliases": [
+      "소고기구이",
+      "한우구이"
+    ],
+    "emoji": "🥩",
+    "servingLabel": "1인분",
+    "servingGrams": 150,
+    "nutrients": {
+      "calories": 380,
+      "carbs": 0,
+      "sugar": 0,
+      "protein": 36,
+      "fat": 26,
+      "saturatedFat": 10,
+      "fiber": 0,
+      "sodium": 120,
+      "calcium": 10,
+      "iron": 3
+    }
+  },
+  {
+    "id": "bunsik-gun-mandu",
+    "category": "bunsik",
+    "name": "군만두",
+    "aliases": [
+      "만두",
+      "튀김만두"
+    ],
+    "emoji": "🥟",
+    "servingLabel": "5개",
+    "servingGrams": 150,
+    "nutrients": {
+      "calories": 380,
+      "carbs": 40,
+      "sugar": 2,
+      "protein": 12,
+      "fat": 19,
+      "saturatedFat": 4,
+      "fiber": 2,
+      "sodium": 750,
+      "calcium": 40,
+      "iron": 1.5
+    }
+  },
+  {
+    "id": "bunsik-mul-mandu",
+    "category": "bunsik",
+    "name": "물만두",
+    "aliases": [
+      "만두",
+      "찐만두"
+    ],
+    "emoji": "🥟",
+    "servingLabel": "5개",
+    "servingGrams": 150,
+    "nutrients": {
+      "calories": 300,
+      "carbs": 38,
+      "sugar": 2,
+      "protein": 12,
+      "fat": 10,
+      "saturatedFat": 2.5,
+      "fiber": 2,
+      "sodium": 650,
+      "calcium": 35,
+      "iron": 1.5
+    }
+  },
+  {
+    "id": "bunsik-hamburger",
+    "category": "bunsik",
+    "name": "햄버거",
+    "aliases": [
+      "버거"
+    ],
+    "emoji": "🍔",
+    "servingLabel": "1개",
+    "servingGrams": 200,
+    "nutrients": {
+      "calories": 500,
+      "carbs": 42,
+      "sugar": 8,
+      "protein": 24,
+      "fat": 25,
+      "saturatedFat": 9,
+      "fiber": 2,
+      "sodium": 900,
+      "calcium": 120,
+      "iron": 3
+    }
+  },
+  {
+    "id": "bunsik-pizza",
+    "category": "bunsik",
+    "name": "피자",
+    "emoji": "🍕",
+    "servingLabel": "2조각",
+    "servingGrams": 200,
+    "nutrients": {
+      "calories": 520,
+      "carbs": 56,
+      "sugar": 6,
+      "protein": 22,
+      "fat": 22,
+      "saturatedFat": 9,
+      "fiber": 3,
+      "sodium": 1000,
+      "calcium": 250,
+      "iron": 2.5
+    }
+  },
+  {
+    "id": "bakery-sandwich",
+    "category": "bakery",
+    "name": "샌드위치",
+    "aliases": [
+      "샌드위치"
+    ],
+    "emoji": "🥪",
+    "servingLabel": "1개",
+    "servingGrams": 200,
+    "nutrients": {
+      "calories": 380,
+      "carbs": 40,
+      "sugar": 6,
+      "protein": 17,
+      "fat": 16,
+      "saturatedFat": 4,
+      "fiber": 3,
+      "sodium": 800,
+      "calcium": 120,
+      "iron": 2
+    }
+  },
+  {
+    "id": "bakery-toast",
+    "category": "bakery",
+    "name": "토스트",
+    "aliases": [
+      "계란토스트",
+      "야채토스트"
+    ],
+    "emoji": "🍞",
+    "servingLabel": "1개",
+    "servingGrams": 150,
+    "nutrients": {
+      "calories": 340,
+      "carbs": 36,
+      "sugar": 9,
+      "protein": 12,
+      "fat": 16,
+      "saturatedFat": 4,
+      "fiber": 2,
+      "sodium": 600,
+      "calcium": 90,
+      "iron": 1.8
+    }
+  },
+  {
+    "id": "noodle-spaghetti",
+    "category": "noodle",
+    "name": "토마토스파게티",
+    "aliases": [
+      "스파게티",
+      "파스타"
+    ],
+    "emoji": "🍝",
+    "servingLabel": "1접시",
+    "servingGrams": 350,
+    "nutrients": {
+      "calories": 560,
+      "carbs": 90,
+      "sugar": 12,
+      "protein": 20,
+      "fat": 12,
+      "saturatedFat": 3,
+      "fiber": 5,
+      "sodium": 950,
+      "calcium": 80,
+      "iron": 3.5
+    }
+  },
+  {
+    "id": "noodle-sujebi",
+    "category": "noodle",
+    "name": "수제비",
+    "emoji": "🍜",
+    "servingLabel": "1그릇",
+    "servingGrams": 500,
+    "nutrients": {
+      "calories": 400,
+      "carbs": 75,
+      "sugar": 3,
+      "protein": 12,
+      "fat": 5,
+      "saturatedFat": 1,
+      "fiber": 4,
+      "sodium": 1600,
+      "calcium": 40,
+      "iron": 2
+    }
+  },
+  {
+    "id": "salad_diet-cereal-milk",
+    "category": "salad_diet",
+    "name": "시리얼(우유 포함)",
+    "aliases": [
+      "콘플레이크",
+      "그래놀라"
+    ],
+    "emoji": "🥣",
+    "servingLabel": "1그릇",
+    "servingGrams": 230,
+    "nutrients": {
+      "calories": 190,
+      "carbs": 33,
+      "sugar": 12,
+      "protein": 6,
+      "fat": 3,
+      "saturatedFat": 1.5,
+      "fiber": 2,
+      "sodium": 150,
+      "calcium": 150,
+      "iron": 3
+    }
+  },
+  {
+    "id": "beverage-soju",
+    "category": "beverage",
+    "name": "소주",
+    "aliases": [
+      "술"
+    ],
+    "emoji": "🍶",
+    "servingLabel": "1잔(50ml)",
+    "servingGrams": 50,
+    "nutrients": {
+      "calories": 55,
+      "carbs": 1.5,
+      "sugar": 1.2,
+      "protein": 0,
+      "fat": 0,
+      "saturatedFat": 0,
+      "fiber": 0,
+      "sodium": 0,
+      "calcium": 0,
+      "iron": 0
+    }
+  },
+  {
+    "id": "beverage-beer",
+    "category": "beverage",
+    "name": "맥주",
+    "aliases": [
+      "술",
+      "생맥주"
+    ],
+    "emoji": "🍺",
+    "servingLabel": "1잔(500ml)",
+    "servingGrams": 500,
+    "nutrients": {
+      "calories": 200,
+      "carbs": 15,
+      "sugar": 0,
+      "protein": 1.5,
+      "fat": 0,
+      "saturatedFat": 0,
+      "fiber": 0,
+      "sodium": 15,
+      "calcium": 10,
+      "iron": 0.1
+    }
+  },
+  {
+    "id": "beverage-makgeolli",
+    "category": "beverage",
+    "name": "막걸리",
+    "aliases": [
+      "술"
+    ],
+    "emoji": "🍶",
+    "servingLabel": "1잔(200ml)",
+    "servingGrams": 200,
+    "nutrients": {
+      "calories": 110,
+      "carbs": 8,
+      "sugar": 4,
+      "protein": 2,
+      "fat": 0.1,
+      "saturatedFat": 0,
+      "fiber": 0.5,
+      "sodium": 10,
+      "calcium": 5,
+      "iron": 0.2
+    }
+  },
+  {
+    "id": "beverage-wine",
+    "category": "beverage",
+    "name": "와인",
+    "aliases": [
+      "술",
+      "레드와인"
+    ],
+    "emoji": "🍷",
+    "servingLabel": "1잔(150ml)",
+    "servingGrams": 150,
+    "nutrients": {
+      "calories": 125,
+      "carbs": 4,
+      "sugar": 1,
+      "protein": 0,
+      "fat": 0,
+      "saturatedFat": 0,
+      "fiber": 0,
+      "sodium": 5,
+      "calcium": 10,
+      "iron": 0.5
+    }
+  },
+  {
+    "id": "tea_health-green-tea",
+    "category": "tea_health",
+    "name": "녹차",
+    "aliases": [
+      "차"
+    ],
+    "emoji": "🍵",
+    "servingLabel": "1잔(200ml)",
+    "servingGrams": 200,
+    "nutrients": {
+      "calories": 2,
+      "carbs": 0.3,
+      "sugar": 0,
+      "protein": 0.2,
+      "fat": 0,
+      "saturatedFat": 0,
+      "fiber": 0,
+      "sodium": 2,
+      "calcium": 3,
+      "iron": 0.1
+    }
+  },
+  {
+    "id": "tteok_hangwa-garaetteok",
+    "category": "tteok_hangwa",
+    "name": "가래떡",
+    "aliases": [
+      "떡"
+    ],
+    "emoji": "🍡",
+    "servingLabel": "1줄",
+    "servingGrams": 100,
+    "nutrients": {
+      "calories": 231,
+      "carbs": 52,
+      "sugar": 0,
+      "protein": 4,
+      "fat": 0.5,
+      "saturatedFat": 0.1,
+      "fiber": 0.8,
+      "sodium": 3,
+      "calcium": 5,
+      "iron": 0.8
+    }
+  },
+  {
+    "id": "tteok_hangwa-baekseolgi",
+    "category": "tteok_hangwa",
+    "name": "백설기",
+    "aliases": [
+      "떡"
+    ],
+    "emoji": "🍡",
+    "servingLabel": "1조각",
+    "servingGrams": 70,
+    "nutrients": {
+      "calories": 160,
+      "carbs": 36,
+      "sugar": 6,
+      "protein": 3,
+      "fat": 0.5,
+      "saturatedFat": 0.1,
+      "fiber": 0.7,
+      "sodium": 40,
+      "calcium": 8,
+      "iron": 0.5
     }
   }
 ]
