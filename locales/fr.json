@@ -88,7 +88,16 @@
     "viewAllPlans": "Voir tous les plans",
     "whyRegionBased": "Basé sur les régions les plus longévives",
     "whyScoreVerified": "Chaque repas vérifié par un indice",
-    "whyMultilingual": "Disponible en 6 langues"
+    "whyMultilingual": "Disponible en 6 langues",
+    "howToTitle": "Mode d'emploi",
+    "howToStep1Title": "1. Choisir un plan",
+    "howToStep1Body": "Choisissez un plan de 7 jours dans l'onglet Plans. Plus l'indice de longévité est élevé, plus le menu est équilibré.",
+    "howToStep2Title": "2. Voir 7 jours × 3 repas",
+    "howToStep2Body": "Consultez chaque repas dans le détail du plan et touchez une recette pour les ingrédients et les étapes.",
+    "howToStep3Title": "3. Ajouter les ingrédients",
+    "howToStep3Body": "Ajoutez les ingrédients au panier. Consultez les substituts pour les produits difficiles à trouver.",
+    "howToStep4Title": "4. Suivre la nutrition",
+    "howToStep4Body": "Notez ce que vous mangez dans l'onglet Nutrition et suivez votre apport quotidien."
   },
   "settings": {
     "sectionGeneral": "Général",

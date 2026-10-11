@@ -88,7 +88,16 @@
     "viewAllPlans": "View All Plans",
     "whyRegionBased": "Based on world longevity regions",
     "whyScoreVerified": "Every meal verified with a score",
-    "whyMultilingual": "Available in 6 languages"
+    "whyMultilingual": "Available in 6 languages",
+    "howToTitle": "How to use",
+    "howToStep1Title": "1. Pick a plan",
+    "howToStep1Body": "Choose a 7-day plan in the Plans tab. A higher Longevity Score means a more balanced menu.",
+    "howToStep2Title": "2. Check 7 days × 3 meals",
+    "howToStep2Body": "See each meal in the plan detail, and tap a recipe for ingredients and steps.",
+    "howToStep3Title": "3. Add ingredients",
+    "howToStep3Body": "Add the ingredients you need to your cart. Check substitutes for hard-to-find items.",
+    "howToStep4Title": "4. Log nutrition",
+    "howToStep4Body": "Record what you eat in the Nutrition tab and review your daily intake."
   },
   "settings": {
     "sectionGeneral": "General",

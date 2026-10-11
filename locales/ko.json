@@ -88,7 +88,16 @@
     "viewAllPlans": "전체 플랜 보기",
     "whyRegionBased": "세계 장수 지역 기반",
     "whyScoreVerified": "장수 지수로 매 끼니 검증",
-    "whyMultilingual": "6개 언어 지원"
+    "whyMultilingual": "6개 언어 지원",
+    "howToTitle": "기본 사용법",
+    "howToStep1Title": "1. 플랜 고르기",
+    "howToStep1Body": "플랜 탭에서 7일 식단을 고르세요. 장수 지수가 높을수록 균형 잡힌 구성입니다.",
+    "howToStep2Title": "2. 7일 × 3끼 확인",
+    "howToStep2Body": "플랜 상세에서 끼니별 메뉴를 보고, 레시피를 눌러 재료와 조리법을 확인하세요.",
+    "howToStep3Title": "3. 재료 담기",
+    "howToStep3Body": "필요한 재료를 장바구니에 담으세요. 구하기 어려운 재료는 대체재를 참고하세요.",
+    "howToStep4Title": "4. 영양 기록",
+    "howToStep4Body": "영양 탭에서 먹은 음식을 기록하고 하루 섭취량을 확인하세요."
   },
   "settings": {
     "sectionGeneral": "일반",

@@ -88,7 +88,16 @@
     "viewAllPlans": "すべてのプランを見る",
     "whyRegionBased": "世界の長寿地域が基準",
     "whyScoreVerified": "毎食を長寿スコアで検証",
-    "whyMultilingual": "6言語に対応"
+    "whyMultilingual": "6言語に対応",
+    "howToTitle": "基本の使い方",
+    "howToStep1Title": "1. プランを選ぶ",
+    "howToStep1Body": "プランタブで7日間の献立を選びます。長寿指数が高いほどバランスの良い構成です。",
+    "howToStep2Title": "2. 7日×3食を確認",
+    "howToStep2Body": "プラン詳細で食事ごとのメニューを見て、レシピをタップすると材料と作り方が見られます。",
+    "howToStep3Title": "3. 材料をカートへ",
+    "howToStep3Body": "必要な材料をカートに入れます。手に入りにくい材料は代替品を参考にしてください。",
+    "howToStep4Title": "4. 栄養を記録",
+    "howToStep4Body": "栄養タブで食べたものを記録し、1日の摂取量を確認します。"
   },
   "settings": {
     "sectionGeneral": "一般",

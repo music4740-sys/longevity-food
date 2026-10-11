@@ -40,6 +40,13 @@ export default function HomeView({ locale }: HomeViewProps) {
     { icon: "語", label: t.home.whyMultilingual },
   ];
 
+  const howToSteps = [
+    { title: t.home.howToStep1Title, body: t.home.howToStep1Body },
+    { title: t.home.howToStep2Title, body: t.home.howToStep2Body },
+    { title: t.home.howToStep3Title, body: t.home.howToStep3Body },
+    { title: t.home.howToStep4Title, body: t.home.howToStep4Body },
+  ];
+
   return (
     <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-black">
       <main className="mx-auto flex w-full max-w-md flex-1 flex-col gap-6 px-4 py-6">
@@ -82,6 +89,30 @@ export default function HomeView({ locale }: HomeViewProps) {
             </div>
           ))}
         </section>
+
+        <details
+          open
+          className="group rounded-2xl border border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900"
+        >
+          <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 text-sm font-semibold text-zinc-700 dark:text-zinc-200 [&::-webkit-details-marker]:hidden">
+            {t.home.howToTitle}
+            <span aria-hidden className="text-xs text-zinc-400 transition-transform group-open:rotate-180">
+              ▾
+            </span>
+          </summary>
+          <ol className="flex flex-col gap-3 px-4 pb-4">
+            {howToSteps.map((step) => (
+              <li key={step.title} className="flex flex-col gap-0.5">
+                <span className="text-sm font-semibold text-emerald-700 dark:text-accent-400">
+                  {step.title}
+                </span>
+                <span className="text-xs leading-relaxed text-zinc-600 dark:text-zinc-300">
+                  {step.body}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </details>
 
         <section className="flex flex-col gap-3">
           <div className="flex items-baseline justify-between">

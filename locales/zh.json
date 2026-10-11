@@ -88,7 +88,16 @@
     "viewAllPlans": "查看全部计划",
     "whyRegionBased": "基于世界长寿地区",
     "whyScoreVerified": "每餐都经过长寿指数验证",
-    "whyMultilingual": "支持6种语言"
+    "whyMultilingual": "支持6种语言",
+    "howToTitle": "基本用法",
+    "howToStep1Title": "1. 选择计划",
+    "howToStep1Body": "在计划标签中选择7天食谱。长寿指数越高，搭配越均衡。",
+    "howToStep2Title": "2. 查看7天×3餐",
+    "howToStep2Body": "在计划详情中查看每餐菜单，点击食谱可查看食材和做法。",
+    "howToStep3Title": "3. 添加食材",
+    "howToStep3Body": "将所需食材加入购物车。难找的食材可参考替代品。",
+    "howToStep4Title": "4. 记录营养",
+    "howToStep4Body": "在营养标签中记录所吃食物，并查看每日摄入量。"
   },
   "settings": {
     "sectionGeneral": "通用",

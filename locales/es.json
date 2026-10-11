@@ -88,7 +88,16 @@
     "viewAllPlans": "Ver todos los planes",
     "whyRegionBased": "Basado en regiones longevas del mundo",
     "whyScoreVerified": "Cada comida verificada con un índice",
-    "whyMultilingual": "Disponible en 6 idiomas"
+    "whyMultilingual": "Disponible en 6 idiomas",
+    "howToTitle": "Cómo usar",
+    "howToStep1Title": "1. Elige un plan",
+    "howToStep1Body": "Elige un plan de 7 días en la pestaña Planes. Un Índice de Longevidad más alto indica un menú más equilibrado.",
+    "howToStep2Title": "2. Revisa 7 días × 3 comidas",
+    "howToStep2Body": "Mira cada comida en el detalle del plan y toca una receta para ver ingredientes y pasos.",
+    "howToStep3Title": "3. Añade ingredientes",
+    "howToStep3Body": "Añade los ingredientes al carrito. Consulta los sustitutos para los difíciles de encontrar.",
+    "howToStep4Title": "4. Registra la nutrición",
+    "howToStep4Body": "Anota lo que comes en la pestaña Nutrición y revisa tu ingesta diaria."
   },
   "settings": {
     "sectionGeneral": "General",
