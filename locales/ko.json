@@ -100,7 +100,10 @@
     "aboutVersionLabel": "버전",
     "aboutLanguagesLabel": "지원 언어",
     "languageCountUnit": "개",
-    "privacyPolicyLabel": "개인정보처리방침"
+    "privacyPolicyLabel": "개인정보처리방침",
+    "sectionCreator": "만든 사람",
+    "creatorName": "김무정",
+    "creatorDesc": "이 앱을 만든 사람이에요"
   },
   "onboarding": {
     "stepProfileLabel": "프로필",

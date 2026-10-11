@@ -100,7 +100,10 @@
     "aboutVersionLabel": "バージョン",
     "aboutLanguagesLabel": "対応言語",
     "languageCountUnit": "つ",
-    "privacyPolicyLabel": "プライバシーポリシー"
+    "privacyPolicyLabel": "プライバシーポリシー",
+    "sectionCreator": "制作者",
+    "creatorName": "キム・ムジョン",
+    "creatorDesc": "このアプリを作った人です"
   },
   "onboarding": {
     "stepProfileLabel": "プロフィール",

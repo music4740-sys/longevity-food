@@ -100,7 +100,10 @@
     "aboutVersionLabel": "版本",
     "aboutLanguagesLabel": "支持语言",
     "languageCountUnit": "种",
-    "privacyPolicyLabel": "隐私政策"
+    "privacyPolicyLabel": "隐私政策",
+    "sectionCreator": "制作者",
+    "creatorName": "金武正",
+    "creatorDesc": "制作这款应用的人"
   },
   "onboarding": {
     "stepProfileLabel": "个人资料",

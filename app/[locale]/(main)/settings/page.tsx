@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import CopyAccountButton from "@/components/CopyAccountButton";
 import LanguageToggle from "@/components/LanguageToggle";
@@ -96,6 +97,29 @@ export default async function SettingsPage({ params }: PageProps<"/[locale]/sett
               copyLabel={t.settings.copyAccountNumber}
               copiedLabel={t.settings.copiedFeedback}
             />
+          </div>
+        </section>
+
+        <section className="flex flex-col gap-2">
+          <h2 className="px-1 text-xs font-bold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+            {t.settings.sectionCreator}
+          </h2>
+          <div className="flex items-center gap-3 rounded-xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
+            <Image
+              src="/images/mujeong.png"
+              alt={t.settings.creatorName}
+              width={56}
+              height={56}
+              className="h-14 w-14 shrink-0 rounded-full bg-white ring-1 ring-zinc-200 dark:ring-zinc-700"
+            />
+            <div className="min-w-0">
+              <p className="text-sm font-bold text-zinc-900 dark:text-zinc-50">
+                {t.settings.creatorName}
+              </p>
+              <p className="mt-0.5 text-[11px] leading-snug text-zinc-400 dark:text-zinc-500">
+                {t.settings.creatorDesc}
+              </p>
+            </div>
           </div>
         </section>
 

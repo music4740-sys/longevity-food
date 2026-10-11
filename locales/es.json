@@ -100,7 +100,10 @@
     "aboutVersionLabel": "Versión",
     "aboutLanguagesLabel": "Idiomas disponibles",
     "languageCountUnit": "",
-    "privacyPolicyLabel": "Política de privacidad"
+    "privacyPolicyLabel": "Política de privacidad",
+    "sectionCreator": "Creador",
+    "creatorName": "Mujeong Kim",
+    "creatorDesc": "La persona que creó esta app"
   },
   "onboarding": {
     "stepProfileLabel": "Perfil",
