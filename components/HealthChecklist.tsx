@@ -114,41 +114,42 @@ export default function HealthChecklist({ dateKey, locale }: HealthChecklistProp
     setChecked(toggleChecklistItem(dateKey, item));
   }
 
+  const doneCount = HEALTH_CHECKLIST_ITEMS.filter((item) => checked[item]).length;
+
   return (
-    <section className="flex flex-col gap-2">
-      <h2 className="text-sm font-semibold text-zinc-500 dark:text-zinc-400">
-        {t.nutrition.healthChecklist.title}
-      </h2>
-      <div className="grid grid-cols-2 gap-2">
+    <details className="group">
+      <summary className="cursor-pointer text-sm font-semibold text-zinc-500 dark:text-zinc-400">
+        {t.nutrition.healthChecklist.title} ({doneCount}/{HEALTH_CHECKLIST_ITEMS.length})
+      </summary>
+      <div className="grid grid-cols-2 gap-2 pt-2">
         {HEALTH_CHECKLIST_ITEMS.map((item) => {
           const Icon = ITEM_ICONS[item];
           const isChecked = Boolean(checked[item]);
           return (
             <label
               key={item}
-              className="flex cursor-pointer items-start gap-2 rounded-xl border border-zinc-200 bg-white p-3 dark:border-zinc-800 dark:bg-zinc-900"
+              className={`flex cursor-pointer items-center gap-2 rounded-xl border p-2.5 ${
+                isChecked
+                  ? "border-emerald-300 bg-emerald-50 dark:border-accent-900 dark:bg-accent-950/30"
+                  : "border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900"
+              }`}
             >
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-zinc-200 text-zinc-500 dark:border-zinc-700 dark:text-zinc-400">
+              <span className="shrink-0 text-zinc-500 dark:text-zinc-400">
                 <Icon />
               </span>
-              <span className="flex-1 min-w-0">
-                <span className="block text-sm font-semibold text-zinc-800 dark:text-zinc-200">
-                  {t.nutrition.healthChecklist.items[item].title}
-                </span>
-                <span className="block text-xs text-zinc-400 dark:text-zinc-500">
-                  {t.nutrition.healthChecklist.items[item].subtitle}
-                </span>
+              <span className="min-w-0 flex-1 text-xs font-semibold text-zinc-800 dark:text-zinc-200">
+                {t.nutrition.healthChecklist.items[item].title}
               </span>
               <input
                 type="checkbox"
                 checked={isChecked}
                 onChange={() => handleToggle(item)}
-                className="mt-1 h-4 w-4 shrink-0 accent-emerald-600"
+                className="h-4 w-4 shrink-0 accent-emerald-600"
               />
             </label>
           );
         })}
       </div>
-    </section>
+    </details>
   );
 }

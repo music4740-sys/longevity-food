@@ -93,3 +93,37 @@ export function formatDateKey(d: Date): string {
   const day = String(d.getDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
 }
+
+/** Consecutive days with at least one logged entry. Today not being logged yet doesn't break the streak. */
+export function getLogStreak(today = new Date()): number {
+  const logged = listLoggedDates();
+  const day = new Date(today);
+  if (!logged.has(formatDateKey(day))) day.setDate(day.getDate() - 1);
+  let streak = 0;
+  while (logged.has(formatDateKey(day))) {
+    streak += 1;
+    day.setDate(day.getDate() - 1);
+  }
+  return streak;
+}
+
+/** Moves an entry to another meal, merging servings if that meal already has the food. */
+export function moveEntry(
+  date: string,
+  foodId: string,
+  from: MealType,
+  to: MealType,
+): NutritionLogEntry[] {
+  const all = loadAll();
+  const dayEntries = all[date] ?? [];
+  const moving = dayEntries.find((entry) => entry.foodId === foodId && entry.mealType === from);
+  if (!moving || from === to) return dayEntries;
+  const rest = dayEntries.filter((entry) => entry !== moving);
+  const target = rest.find((entry) => entry.foodId === foodId && entry.mealType === to);
+  const next = target
+    ? rest.map((entry) => (entry === target ? { ...entry, servings: entry.servings + moving.servings } : entry))
+    : [...rest, { ...moving, mealType: to }];
+  all[date] = next;
+  saveAll(all);
+  return next;
+}

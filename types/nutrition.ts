@@ -30,6 +30,7 @@ export const FOOD_CATEGORIES = [
   "yasik",
   "tea_health",
   "jeotgal",
+  "ingredient",
 ] as const;
 
 export type FoodCategory = (typeof FOOD_CATEGORIES)[number];
@@ -47,6 +48,7 @@ export const FOOD_GROUPS = [
   "dessert_drink",
   "snack_fruit",
   "special_meal",
+  "ingredient",
 ] as const;
 
 export type FoodGroup = (typeof FOOD_GROUPS)[number];
@@ -83,6 +85,7 @@ export const GROUP_OF_CATEGORY: Record<FoodCategory, FoodGroup> = {
   dosirak: "special_meal",
   yasik: "special_meal",
   salad_diet: "special_meal",
+  ingredient: "ingredient",
 };
 
 export const NUTRIENT_KEYS = [
@@ -109,6 +112,10 @@ export interface Food {
   name: string;
   /** Search synonyms, e.g. "참치김밥" also matches when searching "김밥". */
   aliases?: string[];
+  /** Raw ingredients only: the species/representative food this variant belongs to (e.g. 상추). */
+  family?: string;
+  /** Raw ingredients only: top-level group (e.g. 채소류). */
+  subgroup?: string;
   emoji: string;
   servingLabel: string;
   servingGrams: number;

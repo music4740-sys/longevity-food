@@ -3,69 +3,120 @@
 import { useEffect, useMemo, useState } from "react";
 import { addCustomFood, getCustomFoods } from "@/lib/customFoods";
 import { foods } from "@/lib/data";
+import { resolveStaples, STAPLE_GROUPS, type StapleGroup } from "@/lib/dailyStaples";
+import { loadIngredients } from "@/lib/ingredients";
 import { getDictionary, type Locale } from "@/lib/i18n";
 import { getFavorites, toggleFavorite } from "@/lib/nutritionFavorites";
 import { getRecents } from "@/lib/nutritionRecents";
-import { FOOD_GROUPS, GROUP_OF_CATEGORY, NUTRIENT_KEYS } from "@/types";
-import type { Food, FoodCategory, FoodGroup } from "@/types";
+import { FOOD_GROUPS, GROUP_OF_CATEGORY, MEAL_TYPES, NUTRIENT_KEYS } from "@/types";
+import { getNutrientStatuses } from "@/lib/nutrition";
+import type { Food, FoodCategory, FoodGroup, MealType, NutrientValues } from "@/types";
 
 interface FoodPickerModalProps {
   locale: Locale;
   onClose: () => void;
-  onAdd: (foodId: string, servings: number) => void;
+  /** Opens on the everyday-ingredients tab at this group. */
+  initialStapleGroup?: StapleGroup;
+  /** Foods already logged today — marked with a check in the staples grid. */
+  loggedFoodIds?: Set<string>;
+  /** Today's totals/targets so the picker can preview what adding a food changes. */
+  totals: NutrientValues;
+  targets: NutrientValues;
+  onAdd: (foodId: string, servings: number, mealType: MealType) => void;
 }
 
-type Tab = "recent" | "favorites" | "category" | "custom";
+type Tab = "staples" | "recent" | "favorites" | "category" | "custom";
 
 function matchesQuery(food: Food, query: string): boolean {
   const q = query.trim().toLowerCase();
   if (!q) return true;
   if (food.name.toLowerCase().includes(q)) return true;
   if (food.aliases?.some((alias) => alias.toLowerCase().includes(q))) return true;
+  if (food.family?.toLowerCase().includes(q)) return true;
+  if (food.subgroup?.toLowerCase().includes(q)) return true;
   return false;
 }
 
-// FoodCategory -> Food[], preserving first-seen order.
-function groupByCategory(items: Food[]): Map<FoodCategory, Food[]> {
-  const map = new Map<FoodCategory, Food[]>();
-  for (const food of items) {
-    const list = map.get(food.category) ?? [];
-    list.push(food);
-    map.set(food.category, list);
-  }
-  return map;
+interface SearchGroup {
+  key: string;
+  title: string;
+  items: Food[];
+}
+
+// Raw ingredients cluster under their family (all 상추 variants together);
+// dishes keep their dish category.
+const MAX_SEARCH_GROUPS = 40;
+const VARIANTS_COLLAPSED = 5;
+
+// Best-guess meal for the current time so most adds need no extra tap.
+function guessMealType(date = new Date()): MealType {
+  const h = date.getHours();
+  if (h >= 5 && h < 10) return "breakfast";
+  if (h >= 10 && h < 15) return "lunch";
+  if (h >= 17 && h < 21) return "dinner";
+  return "snack";
 }
 
 const EMPTY_CUSTOM_FORM = { name: "", servingLabel: "", calories: "", carbs: "", protein: "", fat: "" };
 
-export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerModalProps) {
+export default function FoodPickerModal({
+  locale,
+  onClose,
+  initialStapleGroup,
+  loggedFoodIds,
+  totals,
+  targets,
+  onAdd,
+}: FoodPickerModalProps) {
   const t = getDictionary(locale);
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<Food | null>(null);
   const [servings, setServings] = useState(1);
+  const [mealType, setMealType] = useState<MealType>(() => guessMealType());
   const [expandedGroups, setExpandedGroups] = useState<Set<FoodGroup>>(new Set());
-  const [tab, setTab] = useState<Tab>("recent");
+  const [tab, setTab] = useState<Tab>("staples");
+  const [stapleGroup, setStapleGroup] = useState<StapleGroup>(initialStapleGroup ?? "veg");
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [recentIds, setRecentIds] = useState<string[]>([]);
   const [customFoods, setCustomFoods] = useState<Food[]>([]);
+  const [ingredients, setIngredients] = useState<Food[]>([]);
+  const [expandedKeys, setExpandedKeys] = useState<Set<string>>(new Set());
   const [customForm, setCustomForm] = useState(EMPTY_CUSTOM_FORM);
 
   useEffect(() => {
     setFavorites(getFavorites());
     setRecentIds(getRecents());
     setCustomFoods(getCustomFoods());
+    void loadIngredients().then(setIngredients);
   }, []);
 
-  const allFoods = useMemo(() => [...foods, ...customFoods], [customFoods]);
+  const allFoods = useMemo(() => [...foods, ...ingredients, ...customFoods], [ingredients, customFoods]);
   const foodById = useMemo(() => new Map(allFoods.map((food) => [food.id, food])), [allFoods]);
 
+  const staples = useMemo(() => resolveStaples(), [ingredients]); // eslint-disable-line react-hooks/exhaustive-deps
   const isSearching = query.trim().length > 0;
 
-  const searchResults = useMemo(() => {
-    if (!isSearching) return new Map<FoodCategory, Food[]>();
-    return groupByCategory(allFoods.filter((food) => matchesQuery(food, query)));
-  }, [query, isSearching, allFoods]);
-  const totalSearchResults = [...searchResults.values()].reduce((sum, list) => sum + list.length, 0);
+  const searchGroups = useMemo<SearchGroup[]>(() => {
+    if (!isSearching) return [];
+    const q = query.trim().toLowerCase();
+    const map = new Map<string, SearchGroup>();
+    for (const food of allFoods) {
+      if (!matchesQuery(food, query)) continue;
+      const key = food.family ? `fam:${food.family}` : `cat:${food.category}`;
+      const group = map.get(key) ?? {
+        key,
+        title: food.family ?? t.nutrition.categoryLabels[food.category],
+        items: [],
+      };
+      group.items.push(food);
+      map.set(key, group);
+    }
+    // Families whose name starts with the query (typing "상추" -> 상추 first) lead.
+    return [...map.values()]
+      .sort((a, b) => Number(!a.title.toLowerCase().startsWith(q)) - Number(!b.title.toLowerCase().startsWith(q)))
+      .slice(0, MAX_SEARCH_GROUPS);
+  }, [query, isSearching, allFoods, t]);
+  const totalSearchResults = searchGroups.reduce((sum, g) => sum + g.items.length, 0);
 
   const byGroup = useMemo(() => {
     const map = new Map<FoodGroup, Map<FoodCategory, Food[]>>();
@@ -97,10 +148,36 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
     });
   }
 
+  function toggleExpandedKey(key: string) {
+    setExpandedKeys((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
+
   function handleToggleFavorite(e: React.MouseEvent, foodId: string) {
     e.stopPropagation();
     setFavorites(toggleFavorite(foodId));
   }
+
+  // What adding the selected food would change: nutrients that become covered,
+  // and ones that would tip over their daily limit.
+  const preview = useMemo(() => {
+    if (!selected) return null;
+    const after = { ...totals };
+    for (const key of NUTRIENT_KEYS) after[key] += selected.nutrients[key] * servings;
+    const before = getNutrientStatuses(totals, targets);
+    const next = getNutrientStatuses(after, targets);
+    const nowOk = next.filter(
+      (s, i) => s.nutrient !== "calories" && before[i].level === "low" && s.level === "ok",
+    );
+    const nowHigh = next.filter(
+      (s, i) => s.nutrient !== "calories" && before[i].level !== "high" && s.level === "high",
+    );
+    return { nowOk, nowHigh };
+  }, [selected, servings, totals, targets]);
 
   function handlePick(food: Food) {
     setSelected(food);
@@ -109,7 +186,7 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
 
   function handleConfirm() {
     if (!selected) return;
-    onAdd(selected.id, servings);
+    onAdd(selected.id, servings, mealType);
     onClose();
   }
 
@@ -161,6 +238,7 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
   }
 
   const TABS: { key: Tab; label: string }[] = [
+    { key: "staples", label: t.nutrition.tabStaples },
     { key: "recent", label: t.nutrition.tabRecent },
     { key: "favorites", label: t.nutrition.tabFavorites },
     { key: "category", label: t.nutrition.tabCategories },
@@ -220,15 +298,79 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
                 totalSearchResults === 0 ? (
                   <p className="py-8 text-center text-sm text-zinc-400">{t.nutrition.searchEmpty}</p>
                 ) : (
-                  [...searchResults.entries()].map(([category, items]) => (
-                    <div key={category} className="mb-4">
-                      <h3 className="mb-1.5 text-xs font-semibold text-zinc-500 dark:text-zinc-400">
-                        {t.nutrition.categoryLabels[category]}
-                      </h3>
-                      <ul className="flex flex-col gap-1">{items.map(renderFoodRow)}</ul>
-                    </div>
-                  ))
+                  searchGroups.map(({ key, title, items }) => {
+                    const expanded = expandedKeys.has(key);
+                    const shown = expanded ? items : items.slice(0, VARIANTS_COLLAPSED);
+                    return (
+                      <div key={key} className="mb-4">
+                        <h3 className="mb-1.5 text-xs font-semibold text-zinc-500 dark:text-zinc-400">
+                          {title}
+                        </h3>
+                        <ul className="flex flex-col gap-1">{shown.map(renderFoodRow)}</ul>
+                        {items.length > VARIANTS_COLLAPSED && (
+                          <button
+                            type="button"
+                            onClick={() => toggleExpandedKey(key)}
+                            className="mt-1 px-2 py-1 text-xs font-semibold text-emerald-700 dark:text-accent-400"
+                          >
+                            {expanded
+                              ? t.nutrition.showFewer
+                              : t.nutrition.showMore.replace("{n}", String(items.length - VARIANTS_COLLAPSED))}
+                          </button>
+                        )}
+                      </div>
+                    );
+                  })
                 )
+              ) : tab === "staples" ? (
+                <div className="flex flex-col gap-3">
+                  <div className="flex gap-1.5 overflow-x-auto">
+                    {STAPLE_GROUPS.map((group) => (
+                      <button
+                        key={group}
+                        type="button"
+                        onClick={() => setStapleGroup(group)}
+                        className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold ${
+                          stapleGroup === group
+                            ? "bg-emerald-100 text-emerald-800 ring-1 ring-emerald-400 dark:bg-accent-900 dark:text-accent-300"
+                            : "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300"
+                        }`}
+                      >
+                        {t.nutrition.stapleGroups[group]}
+                      </button>
+                    ))}
+                  </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    {staples
+                      .filter((s) => s.group === stapleGroup)
+                      .map((s) => {
+                        const logged = loggedFoodIds?.has(s.food.id);
+                        return (
+                          <button
+                            key={s.label}
+                            type="button"
+                            onClick={() => handlePick(s.food)}
+                            className={`flex items-center gap-2 rounded-xl border p-2.5 text-left ${
+                              logged
+                                ? "border-emerald-300 bg-emerald-50 dark:border-accent-900 dark:bg-accent-950/30"
+                                : "border-zinc-200 dark:border-zinc-800"
+                            }`}
+                          >
+                            <span className="text-xl">{s.emoji}</span>
+                            <span className="min-w-0 flex-1">
+                              <span className="block truncate text-sm font-semibold text-zinc-800 dark:text-zinc-200">
+                                {s.label}
+                              </span>
+                              <span className="block text-[11px] text-zinc-400">
+                                {s.food.servingLabel} · {s.food.nutrients.calories} {t.nutrition.unitKcal}
+                              </span>
+                            </span>
+                            {logged && <span className="text-emerald-600">✓</span>}
+                          </button>
+                        );
+                      })}
+                  </div>
+                </div>
               ) : tab === "recent" ? (
                 recentFoods.length === 0 ? (
                   <p className="py-8 text-center text-sm text-zinc-400">{t.nutrition.noRecentText}</p>
@@ -302,6 +444,31 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
                 </form>
               ) : (
                 FOOD_GROUPS.map((group) => {
+                  if (group === "ingredient") {
+                    const subgroups = [...new Set(ingredients.map((food) => food.subgroup))].filter(
+                      (name): name is string => Boolean(name),
+                    );
+                    return (
+                      <div key={group} className="mb-2 rounded-xl border border-zinc-200 p-3 dark:border-zinc-800">
+                        <div className="mb-2 text-sm font-semibold text-zinc-800 dark:text-zinc-200">
+                          {t.nutrition.groupLabels[group]}
+                        </div>
+                        <p className="mb-2 text-xs text-zinc-400">{t.nutrition.ingredientHint}</p>
+                        <div className="flex flex-wrap gap-1.5">
+                          {subgroups.map((name) => (
+                            <button
+                              key={name}
+                              type="button"
+                              onClick={() => setQuery(name)}
+                              className="rounded-full bg-zinc-100 px-3 py-1.5 text-xs font-semibold text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300"
+                            >
+                              {name}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  }
                   const categories = byGroup.get(group)!;
                   const itemCount = [...categories.values()].reduce((sum, list) => sum + list.length, 0);
                   const isExpanded = expandedGroups.has(group);
@@ -365,6 +532,45 @@ export default function FoodPickerModal({ locale, onClose, onAdd }: FoodPickerMo
               >
                 ▶
               </button>
+            </div>
+
+            {preview && (preview.nowOk.length > 0 || preview.nowHigh.length > 0) && (
+              <div className="flex flex-col gap-1.5 rounded-xl bg-zinc-50 p-3 dark:bg-zinc-900">
+                {preview.nowOk.length > 0 && (
+                  <p className="text-xs font-semibold text-emerald-700 dark:text-accent-400">
+                    ✅ {t.nutrition.previewNowOk}:{" "}
+                    {preview.nowOk.map((s) => t.nutrition.nutrientLabels[s.nutrient]).join("·")}
+                  </p>
+                )}
+                {preview.nowHigh.length > 0 && (
+                  <p className="text-xs font-semibold text-red-700 dark:text-red-400">
+                    ⚠️ {t.nutrition.previewNowHigh}:{" "}
+                    {preview.nowHigh.map((s) => t.nutrition.nutrientLabels[s.nutrient]).join("·")}
+                  </p>
+                )}
+              </div>
+            )}
+
+            <div className="flex flex-col gap-1.5">
+              <span className="text-xs font-semibold text-zinc-500 dark:text-zinc-400">
+                {t.nutrition.mealPickLabel}
+              </span>
+              <div className="grid grid-cols-4 gap-1.5">
+                {MEAL_TYPES.map((m) => (
+                  <button
+                    key={m}
+                    type="button"
+                    onClick={() => setMealType(m)}
+                    className={`rounded-lg py-2 text-xs font-semibold ${
+                      mealType === m
+                        ? "bg-emerald-600 text-white"
+                        : "bg-zinc-100 text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300"
+                    }`}
+                  >
+                    {t.nutrition.mealLabels[m]}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="flex flex-col gap-1 rounded-xl bg-zinc-50 p-3 dark:bg-zinc-900">
